@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-29 08:00 KST",
+  "updated_at": "2025-12-29 08:27 KST",
   "sources": [
     {
       "id": "HK",
@@ -19,6 +19,70 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2025-12-29 08:08",
+      "title": "KB증권 “LS, 자회사인 전선도 실적 개선…새로운 성장동력 마련”",
+      "url": "https://www.mk.co.kr/news/stock/11868785",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 08:00",
+      "title": "\"삼성전자, HBM 자신감 회복…목표가 15만5000원\"-NH",
+      "url": "https://www.hankyung.com/article/2025122990366",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 08:00",
+      "title": "요즘 넷플릭스 대신 본다는데…3개월 새 '1조7000억' 터졌다 [핫픽!해외주식]",
+      "url": "https://www.hankyung.com/article/202512255292i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 07:59",
+      "title": "환율 안정에 외국인 귀환…코스피, 산타랠리 시동 걸까? [오늘장 미리보기]",
+      "url": "https://www.hankyung.com/article/202512298983i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 07:54",
+      "title": "\"SK스퀘어, 하이닉스 이상의 주가 상승 탄력 기대…목표가↑\"-NH",
+      "url": "https://www.hankyung.com/article/2025122990156",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 07:45",
+      "title": "\"신세계, PER 10배의 고정관념서 벗어나야…목표가↑\"-신한",
+      "url": "https://www.hankyung.com/article/2025122990086",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 07:32",
+      "title": "\"컴투스, 신작 성과 부재로 실적 개선 제한적…목표가↓\"-대신",
+      "url": "https://www.hankyung.com/article/2025122989876",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 07:25",
+      "title": "\"韓 배터리 셀, 내년 실적 부진할 것…ESS로 만회 어려워\"-한국",
+      "url": "https://www.hankyung.com/article/2025122989816",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2025-12-29 07:09",
       "title": "“공모주 너무 일찍 팔았나요”…‘데뷔후 1조클럽’ 코스닥 11개사 어디",
       "url": "https://www.mk.co.kr/news/stock/11868773",
@@ -28,7 +92,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2025-12-29 07:00",
-      "title": "\"내년 주총서 주주제안·분쟁 잇따를 듯… 지주사 등 관련株 주목\" [투자고수를 찾아서]",
+      "title": "\"내년 주총서 주주제안·분쟁 잇따를 듯…지주사 등 관련株 주목\" [투자고수를 찾아서]",
       "url": "https://www.hankyung.com/article/202512287778i",
       "keywords_hit": []
     },
@@ -36,7 +100,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2025-12-29 07:00",
-      "title": "최대주주도 지분 사 모은다… 가온그룹 '2년 적자 늪' 탈출하나 [류은혁의 종목 핫라인]",
+      "title": "최대주주도 지분 사 모은다…가온그룹 '2년 적자 늪' 탈출하나 [류은혁의 종목 핫라인]",
       "url": "https://www.hankyung.com/article/202512287779i",
       "keywords_hit": []
     },
@@ -350,70 +414,6 @@
       "published_at": "2025-12-28 14:36",
       "title": "연말 환율 1440원선에서 마감하나",
       "url": "https://www.hankyung.com/article/202512288139i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 14:35",
-      "title": "방과 후 돌봄시설 밤 12시까지 연장 운영",
-      "url": "https://www.hankyung.com/article/202512288268i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-28 13:16",
-      "title": "“내년 증시 ‘상고하저’ 흐름”… ‘코스피 4600’ 전망의 조건 [2026 증시 전망②]",
-      "url": "https://www.mk.co.kr/news/stock/11868422",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 12:00",
-      "title": "증시 활황에도…올해 코스닥社 신규상장 줄고 폐지는 늘어",
-      "url": "https://www.hankyung.com/article/202512287775i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 12:00",
-      "title": "올 코스닥 신규 상장 84곳…IPO로 2.5兆 조달",
-      "url": "https://www.hankyung.com/article/2025122667756",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-28 11:26",
-      "title": "일본 때리기 바쁜 중국, 한국엔 “K팝 콘서트 추진”…엔터주 날았다",
-      "url": "https://www.mk.co.kr/news/stock/11868411",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 08:00",
-      "title": "\"악몽 같다\" 개미들 분노한 그 회사…매출 330% 폭등 '반전' [전범진의 종목 직구]",
-      "url": "https://www.hankyung.com/article/202512287789i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 08:00",
-      "title": "'산타 랠리' 연초까지 이어질까…\"FOMC 의사록 주목\" [주간전망]",
-      "url": "https://www.hankyung.com/article/2025122772546",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 07:58",
-      "title": "'천스닥' 기대 부푼다…12월 코스닥 거래대금 2년4개월만에 최대",
-      "url": "https://www.hankyung.com/article/2025122878957",
       "keywords_hit": []
     }
   ]
