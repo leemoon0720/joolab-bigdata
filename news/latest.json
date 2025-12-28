@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-29 07:51 KST",
+  "updated_at": "2025-12-29 08:00 KST",
   "sources": [
     {
       "id": "HK",
@@ -17,30 +17,6 @@
   "count": 50,
   "items": [
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 07:45",
-      "title": "\"신세계, PER 10배의 고정관념서 벗어나야…목표가↑\"-신한",
-      "url": "https://www.hankyung.com/article/2025122990086",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 07:32",
-      "title": "\"컴투스, 신작 성과 부재로 실적 개선 제한적…목표가↓\"-대신",
-      "url": "https://www.hankyung.com/article/2025122989876",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 07:25",
-      "title": "\"韓 배터리 셀, 내년 실적 부진할 것…ESS로 만회 어려워\"-한국",
-      "url": "https://www.hankyung.com/article/2025122989816",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2025-12-29 07:09",
@@ -52,7 +28,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2025-12-29 07:00",
-      "title": "\"내년 주총서 주주제안·분쟁 잇따를 듯…지주사 등 관련株 주목\" [투자고수를 찾아서]",
+      "title": "\"내년 주총서 주주제안·분쟁 잇따를 듯… 지주사 등 관련株 주목\" [투자고수를 찾아서]",
       "url": "https://www.hankyung.com/article/202512287778i",
       "keywords_hit": []
     },
@@ -60,7 +36,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2025-12-29 07:00",
-      "title": "최대주주도 지분 사 모은다…가온그룹 '2년 적자 늪' 탈출하나 [류은혁의 종목 핫라인]",
+      "title": "최대주주도 지분 사 모은다… 가온그룹 '2년 적자 늪' 탈출하나 [류은혁의 종목 핫라인]",
       "url": "https://www.hankyung.com/article/202512287779i",
       "keywords_hit": []
     },
@@ -414,6 +390,30 @@
       "published_at": "2025-12-28 11:26",
       "title": "일본 때리기 바쁜 중국, 한국엔 “K팝 콘서트 추진”…엔터주 날았다",
       "url": "https://www.mk.co.kr/news/stock/11868411",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-28 08:00",
+      "title": "\"악몽 같다\" 개미들 분노한 그 회사…매출 330% 폭등 '반전' [전범진의 종목 직구]",
+      "url": "https://www.hankyung.com/article/202512287789i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-28 08:00",
+      "title": "'산타 랠리' 연초까지 이어질까…\"FOMC 의사록 주목\" [주간전망]",
+      "url": "https://www.hankyung.com/article/2025122772546",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-28 07:58",
+      "title": "'천스닥' 기대 부푼다…12월 코스닥 거래대금 2년4개월만에 최대",
+      "url": "https://www.hankyung.com/article/2025122878957",
       "keywords_hit": []
     }
   ]
