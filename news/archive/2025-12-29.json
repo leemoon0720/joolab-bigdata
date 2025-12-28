@@ -1,19 +1,6 @@
 {
+  "date": "2025-12-29",
   "updated_at": "2025-12-29 00:11 KST",
-  "sources": [
-    {
-      "id": "HK",
-      "name": "한국경제",
-      "feed": "https://www.hankyung.com/feed/finance",
-      "status": "OK"
-    },
-    {
-      "id": "MK",
-      "name": "매일경제",
-      "feed": "https://www.mk.co.kr/rss/50200011/",
-      "status": "OK"
-    }
-  ],
   "count": 50,
   "items": [
     {
