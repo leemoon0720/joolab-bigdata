@@ -1,8 +1,16 @@
 {
   "date": "2025-12-28",
-  "updated_at": "2025-12-28 20:10 KST",
+  "updated_at": "2025-12-28 20:22 KST",
   "count": 50,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-28 20:15",
+      "title": "\"못 참아\" 분노의 '탈팡' 행렬…이마트·네이버가 파고든다 [한경우의 케이스스터디]",
+      "url": "https://www.hankyung.com/article/2025122660986",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -393,14 +401,6 @@
       "published_at": "2025-12-27 07:00",
       "title": "'100억' 적자 회사의 반전…1만원 주식이 5만원 넘본다 [윤현주의 主食이 주식]",
       "url": "https://www.hankyung.com/article/202511218270i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-26 23:47",
-      "title": "KB금융 CIB마켓부문장에 김성현",
-      "url": "https://www.hankyung.com/article/2025122671941",
       "keywords_hit": []
     }
   ]
