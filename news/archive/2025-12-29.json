@@ -1,8 +1,32 @@
 {
   "date": "2025-12-29",
-  "updated_at": "2025-12-29 06:55 KST",
+  "updated_at": "2025-12-29 07:17 KST",
   "count": 50,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-29 07:09",
+      "title": "“공모주 너무 일찍 팔았나요”…‘데뷔후 1조클럽’ 코스닥 11개사 어디",
+      "url": "https://www.mk.co.kr/news/stock/11868773",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 07:00",
+      "title": "\"내년 주총서 주주제안·분쟁 잇따를 듯… 지주사 등 관련株 주목\" [투자고수를 찾아서]",
+      "url": "https://www.hankyung.com/article/202512287778i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 07:00",
+      "title": "최대주주도 지분 사 모은다… 가온그룹 '2년 적자 늪' 탈출하나 [류은혁의 종목 핫라인]",
+      "url": "https://www.hankyung.com/article/202512287779i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -377,30 +401,6 @@
       "published_at": "2025-12-28 07:58",
       "title": "'천스닥' 기대 부푼다…12월 코스닥 거래대금 2년4개월만에 최대",
       "url": "https://www.hankyung.com/article/2025122878957",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 07:15",
-      "title": "환율 급락에도 연말 종가 '역대급'…연평균 1420원대 눈앞",
-      "url": "https://www.hankyung.com/article/2025122878557",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 07:00",
-      "title": "\"물타기로 3300만원 날릴 판\"…50대 개미 울린 '눈물의 종목' [윤현주의 主食이 주식]",
-      "url": "https://www.hankyung.com/article/202512216746i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-27 13:54",
-      "title": "“올해 번 돈, 내꺼 아냐…집 마련 서두르고 ‘초분산 투자’ 시작해야” [인터뷰]",
-      "url": "https://www.mk.co.kr/news/economy/11751179",
       "keywords_hit": []
     }
   ]
