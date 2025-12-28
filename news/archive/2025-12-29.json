@@ -1,8 +1,32 @@
 {
   "date": "2025-12-29",
-  "updated_at": "2025-12-29 08:27 KST",
+  "updated_at": "2025-12-29 08:41 KST",
   "count": 50,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-29 08:41",
+      "title": "생산 줄이는데 관세까지 첩첩산중...치솟는 구리값 [오늘 나온 보고서]",
+      "url": "https://www.mk.co.kr/news/stock/11868797",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 08:22",
+      "title": "[마켓PRO] Today's Pick : \"삼성전자의 귀환\"",
+      "url": "https://www.hankyung.com/article/202512299083i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 08:20",
+      "title": "\"LG에너지솔루션, 美 FBPS 계약 해지…재무 영향 제한적\"-유안타",
+      "url": "https://www.hankyung.com/article/2025122990846",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -351,16 +375,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2025-12-28 17:19",
-      "title": "기관 스튜어드십코드, 제대로 하는지 들여다본다",
-      "url": "https://www.mk.co.kr/news/stock/11868550",
+      "title": "이번주 美 FOMC 회의록 주목",
+      "url": "https://www.mk.co.kr/news/stock/11868551",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2025-12-28 17:19",
-      "title": "이번주 美 FOMC 회의록 주목",
-      "url": "https://www.mk.co.kr/news/stock/11868551",
+      "title": "기관 스튜어드십코드, 제대로 하는지 들여다본다",
+      "url": "https://www.mk.co.kr/news/stock/11868550",
       "keywords_hit": []
     },
     {
@@ -377,30 +401,6 @@
       "published_at": "2025-12-28 16:32",
       "title": "올해 코스닥 새내기주, AI 등 첨단 비중 ‘쑥’...시총 1조 ‘역대 최다’",
       "url": "https://www.mk.co.kr/news/stock/11868509",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 15:21",
-      "title": "\"살 만한 국내 주식 없는데…\" 정부, 서학개미 불만에 결국",
-      "url": "https://www.hankyung.com/article/202512288341i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-28 15:16",
-      "title": "‘유명무실’ 스튜어드십 코드 손본다…이행점검·비교공시강화",
-      "url": "https://www.mk.co.kr/news/stock/11868465",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 14:36",
-      "title": "연말 환율 1440원선에서 마감하나",
-      "url": "https://www.hankyung.com/article/202512288139i",
       "keywords_hit": []
     }
   ]
