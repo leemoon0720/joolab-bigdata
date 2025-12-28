@@ -1,8 +1,16 @@
 {
   "date": "2025-12-28",
-  "updated_at": "2025-12-28 20:34 KST",
+  "updated_at": "2025-12-28 20:44 KST",
   "count": 50,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-28 20:30",
+      "title": "미래에셋, 국내 4위 코인 거래소 '코빗' 인수 추진",
+      "url": "https://www.hankyung.com/article/2025122887916",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -393,14 +401,6 @@
       "published_at": "2025-12-27 07:08",
       "title": "한산한 연휴 분위기 속 약보합…나스닥 0.09%↓ [뉴욕증시 브리핑]",
       "url": "https://www.hankyung.com/article/2025122772927",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-27 07:00",
-      "title": "'100억' 적자 회사의 반전…1만원 주식이 5만원 넘본다 [윤현주의 主食이 주식]",
-      "url": "https://www.hankyung.com/article/202511218270i",
       "keywords_hit": []
     }
   ]
