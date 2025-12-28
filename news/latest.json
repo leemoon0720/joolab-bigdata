@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-28 20:53 KST",
+  "updated_at": "2025-12-28 21:26 KST",
   "sources": [
     {
       "id": "HK",
@@ -16,6 +16,14 @@
   ],
   "count": 50,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-28 21:07",
+      "title": "미래에셋, '코빗' 인수 추진…암호화폐 시장으로 발 넓힌다",
+      "url": "https://www.hankyung.com/article/2025122887651",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -406,14 +414,6 @@
       "published_at": "2025-12-27 12:51",
       "title": "'4050억 언제 들어오나' 부글부글…24만 개미들 결국 터졌다 [진영기의 찐개미 찐투자]",
       "url": "https://www.hankyung.com/article/2025122669856",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-27 11:10",
-      "title": "개미는 백전백패…'1초에 수천 번 초단타' 막는 법 나왔다 [박주연의 여의도 나침반]",
-      "url": "https://www.hankyung.com/article/202512277489i",
       "keywords_hit": []
     }
   ]
