@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-30 05:53 KST",
+  "updated_at": "2025-12-30 06:12 KST",
   "sources": [
     {
       "id": "HK",
@@ -16,6 +16,14 @@
   ],
   "count": 50,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-30 06:00",
+      "title": "“새 술은 새 부대에”…엔비디아 대신 새해 AI 투자 포트폴리오로 급부상하는 5인방 [매일 돈이 보이는 습관 M+]",
+      "url": "https://www.mk.co.kr/news/stock/11888261",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -406,14 +414,6 @@
       "published_at": "2025-12-29 13:37",
       "title": "현대차증권, 규범준수경영시스템 'ISO37301' 인증 획득",
       "url": "https://www.hankyung.com/article/2025122900306",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-29 13:23",
-      "title": "예탁원·거래소, ‘증권 발행·유통정보 공유시스템’ 1단계 운영 개시",
-      "url": "https://www.mk.co.kr/news/stock/11891891",
       "keywords_hit": []
     }
   ]
