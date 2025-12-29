@@ -1,8 +1,16 @@
 {
   "date": "2025-12-29",
-  "updated_at": "2025-12-29 22:08 KST",
+  "updated_at": "2025-12-29 22:48 KST",
   "count": 50,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 22:00",
+      "title": "\"중고차 한 대 뽑았을텐데\"…한화에어로 종토방 뒤집어졌다 [종목+]",
+      "url": "https://www.hankyung.com/article/2025122907706",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -393,14 +401,6 @@
       "published_at": "2025-12-29 13:18",
       "title": "[속보] 코스피, 장중 4200선 탈환…38거래일 만",
       "url": "https://www.hankyung.com/article/2025122999746",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 12:38",
-      "title": "[마켓PRO] 알고리즘 종목 Pick : \"레인보우로보틱스, 강세 초입구간 진입\"",
-      "url": "https://www.hankyung.com/article/202512299917i",
       "keywords_hit": []
     }
   ]
