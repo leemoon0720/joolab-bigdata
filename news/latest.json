@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-29 08:51 KST",
+  "updated_at": "2025-12-29 09:00 KST",
   "sources": [
     {
       "id": "HK",
@@ -16,6 +16,14 @@
   ],
   "count": 50,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 08:58",
+      "title": "\"최고가 행진 이어진다\"…신기록 쓴 삼성전자, 목표가 '줄상향' [종목+]",
+      "url": "https://www.hankyung.com/article/2025122991586",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -406,14 +414,6 @@
       "published_at": "2025-12-28 17:19",
       "title": "조방원 주춤한 사이 삼성그룹 ETF 날았다",
       "url": "https://www.mk.co.kr/news/stock/11868548",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-28 16:32",
-      "title": "올해 코스닥 새내기주, AI 등 첨단 비중 ‘쑥’...시총 1조 ‘역대 최다’",
-      "url": "https://www.mk.co.kr/news/stock/11868509",
       "keywords_hit": []
     }
   ]
