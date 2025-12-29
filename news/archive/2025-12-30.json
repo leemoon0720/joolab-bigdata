@@ -1,16 +1,8 @@
 {
   "date": "2025-12-30",
-  "updated_at": "2025-12-30 07:37 KST",
+  "updated_at": "2025-12-30 07:49 KST",
   "count": 50,
   "items": [
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 07:22",
-      "title": "한산한 분위기 속 차익실현에 3대지수 약세…금·은 '급락' [뉴욕증시 브리핑]",
-      "url": "https://www.hankyung.com/article/2025123014256",
-      "keywords_hit": []
-    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -401,6 +393,14 @@
       "published_at": "2025-12-29 14:04",
       "title": "케이엔에스, 14억 규모 차세대 배터리 검사장비 후속 수주",
       "url": "https://www.hankyung.com/article/2025122901106",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 13:37",
+      "title": "현대차증권, 규범준수경영시스템 'ISO37301' 인증 획득",
+      "url": "https://www.hankyung.com/article/2025122900306",
       "keywords_hit": []
     }
   ]
