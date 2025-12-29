@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-29 09:00 KST",
+  "updated_at": "2025-12-29 11:30 KST",
   "sources": [
     {
       "id": "HK",
@@ -17,10 +17,226 @@
   "count": 50,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-29 11:28",
+      "title": "ISA 가입자 700만명 돌파…올 들어 月평균 11만명 가입",
+      "url": "https://www.mk.co.kr/news/stock/11869959",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-29 11:15",
+      "title": "미래에셋운용, 글로벌 ETF 순자산 300조 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11869554",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 11:12",
+      "title": "코스피, 반도체주 상승에 4200 돌파 시도…환율 1430원 초반대 안착",
+      "url": "https://www.hankyung.com/article/2025122997016",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 11:02",
+      "title": "[마켓PRO] 서학개미 고수들, 피그마 집중 매수",
+      "url": "https://www.hankyung.com/article/202512299576i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 11:01",
+      "title": "올해 개인 투자자픽은 KODEX…1년간 13.5조 순매수",
+      "url": "https://www.hankyung.com/article/202512299538i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-29 11:00",
+      "title": "“내년엔 내가 더 잘나가”…주식 재산 100억 넘는 말띠 CEO들 보니",
+      "url": "https://www.mk.co.kr/news/economy/11869521",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 10:58",
+      "title": "거래소, 기업지배구조보고서 주총·현금배당 등 중점 점검",
+      "url": "https://www.hankyung.com/article/2025122996186",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 10:54",
+      "title": "[마켓PRO] 고수들, 올해 '10배 뛴' 원익홀딩스 매수",
+      "url": "https://www.hankyung.com/article/202512299553i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 10:48",
+      "title": "올해 주가 '1234% 폭등' 1위 찍은 회사…개미들 신났다 [분석+]",
+      "url": "https://www.hankyung.com/article/2025122996066",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-29 10:24",
+      "title": "반도체 팔고 로봇 사고...테마 전환나선 초고수[주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11868937",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-29 10:22",
+      "title": "[MK시그널] 카던트, 수익률 50% 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11868931",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-29 10:22",
+      "title": "[MK시그널] 전진건설로봇, 우크라이나 재건 수혜 핵심종목 기대감에 주가 상승세... MK시그널 추천 후 상승률 17.29%기록",
+      "url": "https://www.mk.co.kr/news/stock/11868930",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-29 10:22",
+      "title": "[MK 골든크로스 돌파종목 : 에브리봇(270660) & 에이디테크놀로지(200710)]",
+      "url": "https://www.mk.co.kr/news/stock/11868929",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 10:11",
+      "title": "더블유게임즈, 175억 규모 자사주 소각 [주목 e공시]",
+      "url": "https://www.hankyung.com/article/2025122994836",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 09:55",
+      "title": "삼미금속, 코스닥 합병 상장 첫날 '상한가'",
+      "url": "https://www.hankyung.com/article/2025122994136",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-29 09:45",
+      "title": "투자경고 해제에 SK하이닉스, 한화에어로 날았다",
+      "url": "https://www.mk.co.kr/news/stock/11868871",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-29 09:44",
+      "title": "한국투자증권, 퇴직연금 적립금 20조 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11868869",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-29 09:40",
+      "title": "‘투자경고 해제’에 날개단 SK하이닉스…60만 회복 후 이어 5% 급등",
+      "url": "https://www.mk.co.kr/news/stock/11868861",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 09:39",
+      "title": "거래소, ESG 포털 개편…영문 서비스 개시",
+      "url": "https://www.hankyung.com/article/2025122993306",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 09:34",
+      "title": "네오이뮨텍, 희귀질환 치료제의 북미 독점 판권 획득 소식에 '급등'",
+      "url": "https://www.hankyung.com/article/2025122993166",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 09:32",
+      "title": "'투자경고' 족쇄 푼 SK하이닉스…장중 63만원 돌파",
+      "url": "https://www.hankyung.com/article/2025122992996",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 09:31",
+      "title": "LS, 동 가격 상승 수혜·자사주 소각 기대에 급등",
+      "url": "https://www.hankyung.com/article/2025122992896",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 09:15",
+      "title": "열흘 만에 13조 날아갔다…'45만→37만원' LG엔솔 주가 휘청 [종목+]",
+      "url": "https://www.hankyung.com/article/2025122992496",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 09:14",
+      "title": "코스피·코스닥 일제히 상승…'투자경고 해제' SK하이닉스 5.6%↑",
+      "url": "https://www.hankyung.com/article/2025122992516",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 09:13",
+      "title": "'반도체 디자인하우스' 세미파이브, 코스닥 상장 첫날 장 초반 급등",
+      "url": "https://www.hankyung.com/article/2025122992426",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 09:11",
+      "title": "한화에어로, '달 착륙선 추진 시스템' 개발사업 수주에 강세",
+      "url": "https://www.hankyung.com/article/2025122992476",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-29 09:11",
+      "title": "‘조직개편’ KB證, 소비자보호·생산 금융·디지털 강조",
+      "url": "https://www.mk.co.kr/news/stock/11868817",
+      "keywords_hit": []
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2025-12-29 08:58",
-      "title": "\"최고가 행진 이어진다\"…신기록 쓴 삼성전자, 목표가 '줄상향' [종목+]",
+      "title": "삼성전자, 사상 최고가 찍더니 '깜짝 전망'…뭉칫돈 몰렸다 [종목+]",
       "url": "https://www.hankyung.com/article/2025122991586",
       "keywords_hit": []
     },
@@ -198,222 +414,6 @@
       "published_at": "2025-12-28 18:30",
       "title": "은행 예금보다 낫다더니 '이럴 줄은'…'1조 뭉칫돈' 몰린 곳",
       "url": "https://www.hankyung.com/article/2025122884921",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 18:28",
-      "title": "사흘만에 물러선 정부…현금·채권 ETF도 稅혜택",
-      "url": "https://www.hankyung.com/article/2025122886411",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 18:27",
-      "title": "단기자금 굴릴 땐 CMA…고금리 원하면 발행어음",
-      "url": "https://www.hankyung.com/article/2025122884911",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 18:24",
-      "title": "환율·채권, 국채 3년물 금리 당분간 연 3% 밑돌듯",
-      "url": "https://www.hankyung.com/article/2025122885001",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 18:24",
-      "title": "뉴욕·상하이 증시, 美 고용 지표에 달린 '연초 랠리'",
-      "url": "https://www.hankyung.com/article/2025122885021",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 18:23",
-      "title": "K걸그룹이 끓였더니…'신라면' 검색량 급증",
-      "url": "https://www.hankyung.com/article/2025122885891",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 18:23",
-      "title": "우주·항공 ETF '고공비행'…AI·반도체도 상승세",
-      "url": "https://www.hankyung.com/article/2025122885091",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 18:23",
-      "title": "활황장에도…코스닥 상폐는 급증",
-      "url": "https://www.hankyung.com/article/2025122885041",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 18:22",
-      "title": "\"내년 주주제안·경영권 분쟁 늘 듯…지주사 등 관련株 주목\"",
-      "url": "https://www.hankyung.com/article/2025122885061",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 18:21",
-      "title": "가온그룹, 최대주주 지분 매입에 강세",
-      "url": "https://www.hankyung.com/article/2025122885051",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 18:20",
-      "title": "두산·에스피지 등 AI·로봇주 집중매수",
-      "url": "https://www.hankyung.com/article/2025122885081",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 18:20",
-      "title": "外人 '전기·전자 쏠림'…작년보다 심해졌네",
-      "url": "https://www.hankyung.com/article/2025122885071",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 18:16",
-      "title": "PBSA 수익률 20%…글로벌 연기금 몰려",
-      "url": "https://www.hankyung.com/article/2025122885971",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-28 18:01",
-      "title": "[단독] 올 가상자산 투자 160조 해외유출…규제 풀어 국내 유턴시켜야",
-      "url": "https://www.mk.co.kr/news/stock/11868668",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-28 18:01",
-      "title": "미래에셋 '블록체인 전쟁' 참전…펀드·주식 등 토큰화 속도낸다",
-      "url": "https://www.mk.co.kr/news/stock/11868667",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 17:59",
-      "title": "네이버 '투자' 카카오 '구조조정'…행보 엇갈린 플랫폼 2强 전략",
-      "url": "https://www.hankyung.com/article/2025122885401",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 17:56",
-      "title": "'국내시장 복귀' 계좌, 채권형·현금도 세 혜택 검토",
-      "url": "https://www.hankyung.com/article/2025122884817",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 17:46",
-      "title": "국민성장펀드에 뉴딜펀드 수준 혜택…수익률 달라질까",
-      "url": "https://www.hankyung.com/article/2025122886401",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 17:44",
-      "title": "외국인 관광객 '씀씀이' 달라지더니…인기 폭발한 韓 상품",
-      "url": "https://www.hankyung.com/article/2025122885921",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 17:42",
-      "title": "외국인 국내 소비 月 2조 '역대 최대'",
-      "url": "https://www.hankyung.com/article/2025122886571",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-28 17:39",
-      "title": "[단독]올해 해외 유출된 투자금 160조···해외 거래소에 준 수수료만 4.8조",
-      "url": "https://www.mk.co.kr/news/stock/11868601",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 17:24",
-      "title": "방과 후 돌봄 밤 12시까지 연장",
-      "url": "https://www.hankyung.com/article/2025122885251",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-28 17:21",
-      "title": "[미국 주식 돋보기] \"전세계 공연 붐 분다\"… 라이브네이션 한달새 11% 쑥",
-      "url": "https://www.mk.co.kr/news/stock/11868566",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-28 17:21",
-      "title": "AI 거품론 번지자 … 美금융주 신고가 행진",
-      "url": "https://www.mk.co.kr/news/stock/11868562",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-28 17:19",
-      "title": "1조클럽 상장 늘었지만 상폐 결정 38개로 급증",
-      "url": "https://www.mk.co.kr/news/stock/11868552",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-28 17:19",
-      "title": "이번주 美 FOMC 회의록 주목",
-      "url": "https://www.mk.co.kr/news/stock/11868551",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-28 17:19",
-      "title": "기관 스튜어드십코드, 제대로 하는지 들여다본다",
-      "url": "https://www.mk.co.kr/news/stock/11868550",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-28 17:19",
-      "title": "조방원 주춤한 사이 삼성그룹 ETF 날았다",
-      "url": "https://www.mk.co.kr/news/stock/11868548",
       "keywords_hit": []
     }
   ]
