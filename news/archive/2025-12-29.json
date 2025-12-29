@@ -1,8 +1,16 @@
 {
   "date": "2025-12-29",
-  "updated_at": "2025-12-29 21:18 KST",
+  "updated_at": "2025-12-29 22:08 KST",
   "count": 50,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 21:42",
+      "title": "[마켓칼럼]스페이스X의 기업공개에 대해 궁금한 점들",
+      "url": "https://www.hankyung.com/article/202512299938i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -393,14 +401,6 @@
       "published_at": "2025-12-29 12:38",
       "title": "[마켓PRO] 알고리즘 종목 Pick : \"레인보우로보틱스, 강세 초입구간 진입\"",
       "url": "https://www.hankyung.com/article/202512299917i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-29 11:28",
-      "title": "ISA 가입자 700만명 돌파…올 들어 月평균 11만명 가입",
-      "url": "https://www.mk.co.kr/news/stock/11869959",
       "keywords_hit": []
     }
   ]
