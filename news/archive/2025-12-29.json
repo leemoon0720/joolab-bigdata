@@ -1,8 +1,16 @@
 {
   "date": "2025-12-29",
-  "updated_at": "2025-12-29 22:59 KST",
+  "updated_at": "2025-12-29 23:30 KST",
   "count": 50,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-29 23:15",
+      "title": "미국 유명 모델도 토닥토닥…틱톡에서 난리난 ‘투명해지는 팩’",
+      "url": "https://www.mk.co.kr/news/stock/11917238",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -39,16 +47,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2025-12-29 18:06",
-      "title": "올해 '잭팟' 터진 美 ETF…'톱5' 금·은·동이 싹쓸이",
-      "url": "https://www.mk.co.kr/news/stock/11916866",
+      "title": "홈플러스, 회생금융으로 급한불 끈다",
+      "url": "https://www.mk.co.kr/news/stock/11916865",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2025-12-29 18:06",
-      "title": "홈플러스, 회생금융으로 급한불 끈다",
-      "url": "https://www.mk.co.kr/news/stock/11916865",
+      "title": "올해 '잭팟' 터진 美 ETF…'톱5' 금·은·동이 싹쓸이",
+      "url": "https://www.mk.co.kr/news/stock/11916866",
       "keywords_hit": []
     },
     {
@@ -393,14 +401,6 @@
       "published_at": "2025-12-29 13:23",
       "title": "예탁원·거래소, ‘증권 발행·유통정보 공유시스템’ 1단계 운영 개시",
       "url": "https://www.mk.co.kr/news/stock/11891891",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 13:18",
-      "title": "[속보] 코스피, 장중 4200선 탈환…38거래일 만",
-      "url": "https://www.hankyung.com/article/2025122999746",
       "keywords_hit": []
     }
   ]
