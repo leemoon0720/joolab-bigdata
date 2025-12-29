@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-29 19:30 KST",
+  "updated_at": "2025-12-29 19:50 KST",
   "sources": [
     {
       "id": "HK",
@@ -36,7 +36,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2025-12-29 18:06",
-      "title": "올해 '잭팟' 터진 美 ETF … '톱5' 금·은·동이 싹쓸이",
+      "title": "올해 '잭팟' 터진 美 ETF…'톱5' 금·은·동이 싹쓸이",
       "url": "https://www.mk.co.kr/news/stock/11916866",
       "keywords_hit": []
     },
@@ -52,6 +52,14 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2025-12-29 18:06",
+      "title": "올해 국민연금 260조 벌었다 … 수익률 20% '역대 최고'",
+      "url": "https://www.mk.co.kr/news/stock/11916862",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-29 18:06",
       "title": "강달러 주춤하자…환헤지형 ETF '반짝'",
       "url": "https://www.mk.co.kr/news/stock/11916863",
       "keywords_hit": []
@@ -60,7 +68,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2025-12-29 18:05",
-      "title": "KB證, 소비자지원부 신설 … 디지털 퍼스트 조직 개편",
+      "title": "KB證, 소비자지원부 신설…디지털 퍼스트 조직 개편",
       "url": "https://www.mk.co.kr/news/stock/11916848",
       "keywords_hit": []
     },
@@ -406,14 +414,6 @@
       "published_at": "2025-12-29 11:28",
       "title": "ISA 가입자 700만명 돌파…올 들어 月평균 11만명 가입",
       "url": "https://www.mk.co.kr/news/stock/11869959",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-29 11:15",
-      "title": "미래에셋운용, 글로벌 ETF 순자산 300조 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11869554",
       "keywords_hit": []
     }
   ]
