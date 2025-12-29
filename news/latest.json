@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-30 08:38 KST",
+  "updated_at": "2025-12-30 08:48 KST",
   "sources": [
     {
       "id": "HK",
@@ -16,6 +16,22 @@
   ],
   "count": 50,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 08:39",
+      "title": "[인사]한양증권",
+      "url": "https://www.hankyung.com/article/202512301615i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 08:35",
+      "title": "\"S-Oil, 내년 정유 실적 큰 폭 개선\"-신한",
+      "url": "https://www.hankyung.com/article/2025123015636",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -398,22 +414,6 @@
       "published_at": "2025-12-29 15:56",
       "title": "주식시장 '구조조정' 들어간 일본…상장폐지 24% 늘렸다",
       "url": "https://www.hankyung.com/article/202512290447i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-29 15:49",
-      "title": "반도체 중심 ‘산타 랠리’ 연초에도 이어질까…코스피, 4200선에서 마감",
-      "url": "https://www.mk.co.kr/news/stock/11916598",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 15:42",
-      "title": "넥스트젠바이오사이언스, 코스닥 상장예심 신청",
-      "url": "https://www.hankyung.com/article/2025122904486",
       "keywords_hit": []
     }
   ]
