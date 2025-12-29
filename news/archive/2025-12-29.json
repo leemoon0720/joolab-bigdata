@@ -1,8 +1,16 @@
 {
   "date": "2025-12-29",
-  "updated_at": "2025-12-29 11:30 KST",
+  "updated_at": "2025-12-29 13:02 KST",
   "count": 50,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 12:38",
+      "title": "[마켓PRO] 알고리즘 종목 Pick : \"레인보우로보틱스, 강세 초입구간 진입\"",
+      "url": "https://www.hankyung.com/article/202512299917i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -393,14 +401,6 @@
       "published_at": "2025-12-28 18:45",
       "title": "[단독] 미래에셋, 코인거래소 코빗 품는다…1400억대에 전격 인수",
       "url": "https://www.mk.co.kr/news/stock/11868682",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 18:30",
-      "title": "은행 예금보다 낫다더니 '이럴 줄은'…'1조 뭉칫돈' 몰린 곳",
-      "url": "https://www.hankyung.com/article/2025122884921",
       "keywords_hit": []
     }
   ]
