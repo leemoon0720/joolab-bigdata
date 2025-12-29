@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-29 16:40 KST",
+  "updated_at": "2025-12-29 16:52 KST",
   "sources": [
     {
       "id": "HK",
@@ -16,6 +16,30 @@
   ],
   "count": 50,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 16:43",
+      "title": "'배당락 공포' 없었다…삼전·하이닉스 덕에 최고치 가까워진 코스피",
+      "url": "https://www.hankyung.com/article/202512290617i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 16:41",
+      "title": "코스피, 폐장 하루 앞두고 4220 마감...'반도체 투톱' 강세 [HK영상]",
+      "url": "https://www.hankyung.com/article/202512290607i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 16:40",
+      "title": "올해 상승률 1위 기업은...주가 900% 폭등한 이 기업",
+      "url": "https://www.hankyung.com/article/202512290596i",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -390,30 +414,6 @@
       "published_at": "2025-12-29 09:11",
       "title": "‘조직개편’ KB證, 소비자보호·생산 금융·디지털 강조",
       "url": "https://www.mk.co.kr/news/stock/11868817",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 08:58",
-      "title": "삼성전자, 사상 최고가 찍더니 '깜짝 전망'…뭉칫돈 몰렸다 [종목+]",
-      "url": "https://www.hankyung.com/article/2025122991586",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-29 08:41",
-      "title": "생산 줄이는데 관세까지 첩첩산중...치솟는 구리값 [오늘 나온 보고서]",
-      "url": "https://www.mk.co.kr/news/stock/11868797",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 08:22",
-      "title": "[마켓PRO] Today's Pick : \"삼성전자의 귀환\"",
-      "url": "https://www.hankyung.com/article/202512299083i",
       "keywords_hit": []
     }
   ]
