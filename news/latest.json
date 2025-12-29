@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-29 13:02 KST",
+  "updated_at": "2025-12-29 13:55 KST",
   "sources": [
     {
       "id": "HK",
@@ -16,6 +16,30 @@
   ],
   "count": 50,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 13:37",
+      "title": "현대차증권, 규범준수경영시스템 'ISO37301' 인증 획득",
+      "url": "https://www.hankyung.com/article/2025122900306",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-29 13:23",
+      "title": "예탁원·거래소, ‘증권 발행·유통정보 공유시스템’ 1단계 운영 개시",
+      "url": "https://www.mk.co.kr/news/stock/11891891",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 13:18",
+      "title": "[속보] 코스피, 장중 4200선 탈환…38거래일 만",
+      "url": "https://www.hankyung.com/article/2025122999746",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -390,30 +414,6 @@
       "published_at": "2025-12-28 20:30",
       "title": "미래에셋, 국내 4위 코인 거래소 '코빗' 인수 추진",
       "url": "https://www.hankyung.com/article/2025122887916",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 20:15",
-      "title": "\"못 참아\" 분노의 '탈팡' 행렬…이마트·네이버가 파고든다 [한경우의 케이스스터디]",
-      "url": "https://www.hankyung.com/article/2025122660986",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-28 19:05",
-      "title": "[단독] 미래에셋 ‘블록체인 전쟁’ 참전…펀드·주식 등 토큰화 속도낸다",
-      "url": "https://www.mk.co.kr/news/stock/11868686",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-28 18:45",
-      "title": "[단독] 미래에셋, 코인거래소 코빗 품는다…1400억대에 전격 인수",
-      "url": "https://www.mk.co.kr/news/stock/11868682",
       "keywords_hit": []
     }
   ]
