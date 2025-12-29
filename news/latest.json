@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-29 16:15 KST",
+  "updated_at": "2025-12-29 16:40 KST",
   "sources": [
     {
       "id": "HK",
@@ -16,6 +16,22 @@
   ],
   "count": 50,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 16:30",
+      "title": "[포토] 코스피 4200포인트 재 탈환",
+      "url": "https://www.hankyung.com/article/202512290577i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 16:25",
+      "title": "외환시장 개입 실탄 마련…내년 1~2월 달러채 찍는 정부",
+      "url": "https://www.hankyung.com/article/202512290360i",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -398,22 +414,6 @@
       "published_at": "2025-12-29 08:22",
       "title": "[마켓PRO] Today's Pick : \"삼성전자의 귀환\"",
       "url": "https://www.hankyung.com/article/202512299083i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 08:20",
-      "title": "\"LG에너지솔루션, 美 FBPS 계약 해지…재무 영향 제한적\"-유안타",
-      "url": "https://www.hankyung.com/article/2025122990846",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-29 08:08",
-      "title": "KB증권 “LS, 자회사인 전선도 실적 개선…새로운 성장동력 마련”",
-      "url": "https://www.mk.co.kr/news/stock/11868785",
       "keywords_hit": []
     }
   ]
