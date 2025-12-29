@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-29 17:17 KST",
+  "updated_at": "2025-12-29 17:49 KST",
   "sources": [
     {
       "id": "HK",
@@ -16,6 +16,126 @@
   ],
   "count": 50,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-29 17:45",
+      "title": "이엠앤아이, 15억 원 규모 전환사채 발행",
+      "url": "https://www.mk.co.kr/news/stock/11916683",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-29 17:45",
+      "title": "버킷스튜디오, 200억원 규모 유상증자 실시",
+      "url": "https://www.mk.co.kr/news/stock/11916682",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 17:43",
+      "title": "LG엔솔 이어 엘앤에프도 3.8조 날아갔다…테슬라 공급계약 감액",
+      "url": "https://www.hankyung.com/article/2025122908446",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 17:40",
+      "title": "\"내년 美주식 유망주는 스포티파이·릴리·아마존\"",
+      "url": "https://www.hankyung.com/article/2025122908621",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 17:38",
+      "title": "홍콩 최초 'GPU株'…비렌테크 내달 상장",
+      "url": "https://www.hankyung.com/article/2025122908551",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 17:38",
+      "title": "새해 주목할 美증시 5대 변수는",
+      "url": "https://www.hankyung.com/article/2025122908581",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 17:37",
+      "title": "도쿄증시 '옥석가리기'…IPO 줄이고 퇴출 확대",
+      "url": "https://www.hankyung.com/article/2025122908541",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 17:26",
+      "title": "테슬라 공급계약 3.8조→970만원 '풀썩'…엘앤에프, 애프터마켓서 6%대 급락",
+      "url": "https://www.hankyung.com/article/202512290769i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 17:24",
+      "title": "올 주가 상승률 1위 원익홀딩스, 서울고속터미널 테마주도 '훨훨'",
+      "url": "https://www.hankyung.com/article/2025122907371",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 17:23",
+      "title": "SK하이닉스 7% 급등에…코스피 사상 최고치 근접",
+      "url": "https://www.hankyung.com/article/2025122907321",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 17:21",
+      "title": "한화에어로 9% 쑥…방산주 랠리",
+      "url": "https://www.hankyung.com/article/2025122907381",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 17:21",
+      "title": "ETF 개인 순매수 1위는 삼성 KODEX",
+      "url": "https://www.hankyung.com/article/2025122907331",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 17:20",
+      "title": "국민연금 올 수익률 20% '역대 최고'",
+      "url": "https://www.hankyung.com/article/2025122907341",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 17:20",
+      "title": "[특징주 & 리포트] '세미파이브 상장 첫날 15% 올라' 등",
+      "url": "https://www.hankyung.com/article/2025122907401",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 17:18",
+      "title": "한국은행, 12월 기업경기조사 및 경제심리지수(ESI)",
+      "url": "https://www.hankyung.com/article/2025122907391",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -60,7 +180,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2025-12-29 16:08",
-      "title": "올해 서학개미 선택은? 애플은 줄고 팔란티어는 늘었다",
+      "title": "올해 서학개미 선택은? 애플은 줄고  팰런티어는 늘었다",
       "url": "https://www.hankyung.com/article/202512290524i",
       "keywords_hit": []
     },
@@ -294,126 +414,6 @@
       "published_at": "2025-12-29 10:22",
       "title": "[MK시그널] 전진건설로봇, 우크라이나 재건 수혜 핵심종목 기대감에 주가 상승세... MK시그널 추천 후 상승률 17.29%기록",
       "url": "https://www.mk.co.kr/news/stock/11868930",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-29 10:22",
-      "title": "[MK 골든크로스 돌파종목 : 에브리봇(270660) & 에이디테크놀로지(200710)]",
-      "url": "https://www.mk.co.kr/news/stock/11868929",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 10:11",
-      "title": "더블유게임즈, 175억 규모 자사주 소각 [주목 e공시]",
-      "url": "https://www.hankyung.com/article/2025122994836",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 09:55",
-      "title": "삼미금속, 코스닥 합병 상장 첫날 '상한가'",
-      "url": "https://www.hankyung.com/article/2025122994136",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-29 09:45",
-      "title": "투자경고 해제에 SK하이닉스, 한화에어로 날았다",
-      "url": "https://www.mk.co.kr/news/stock/11868871",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-29 09:44",
-      "title": "한국투자증권, 퇴직연금 적립금 20조 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11868869",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-29 09:40",
-      "title": "‘투자경고 해제’에 날개단 SK하이닉스…60만 회복 후 이어 5% 급등",
-      "url": "https://www.mk.co.kr/news/stock/11868861",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 09:39",
-      "title": "거래소, ESG 포털 개편…영문 서비스 개시",
-      "url": "https://www.hankyung.com/article/2025122993306",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 09:34",
-      "title": "네오이뮨텍, 희귀질환 치료제의 북미 독점 판권 획득 소식에 '급등'",
-      "url": "https://www.hankyung.com/article/2025122993166",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 09:32",
-      "title": "'투자경고' 족쇄 푼 SK하이닉스…장중 63만원 돌파",
-      "url": "https://www.hankyung.com/article/2025122992996",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 09:31",
-      "title": "LS, 동 가격 상승 수혜·자사주 소각 기대에 급등",
-      "url": "https://www.hankyung.com/article/2025122992896",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 09:15",
-      "title": "열흘 만에 13조 날아갔다…'45만→37만원' LG엔솔 주가 휘청 [종목+]",
-      "url": "https://www.hankyung.com/article/2025122992496",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 09:14",
-      "title": "코스피·코스닥 일제히 상승…'투자경고 해제' SK하이닉스 5.6%↑",
-      "url": "https://www.hankyung.com/article/2025122992516",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 09:13",
-      "title": "'반도체 디자인하우스' 세미파이브, 코스닥 상장 첫날 장 초반 급등",
-      "url": "https://www.hankyung.com/article/2025122992426",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 09:11",
-      "title": "한화에어로, '달 착륙선 추진 시스템' 개발사업 수주에 강세",
-      "url": "https://www.hankyung.com/article/2025122992476",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-29 09:11",
-      "title": "‘조직개편’ KB證, 소비자보호·생산 금융·디지털 강조",
-      "url": "https://www.mk.co.kr/news/stock/11868817",
       "keywords_hit": []
     }
   ]
