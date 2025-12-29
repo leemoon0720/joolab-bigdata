@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-29 18:58 KST",
+  "updated_at": "2025-12-29 19:30 KST",
   "sources": [
     {
       "id": "HK",
@@ -19,6 +19,14 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2025-12-29 19:13",
+      "title": "“올해 주가 ‘따블’은 기본입니다”…‘수익률 100%’ 미국 ETF 종목 28개",
+      "url": "https://www.mk.co.kr/news/stock/11916982",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2025-12-29 18:11",
       "title": "강영구 이지스 운용대표 싱가포르 ‘이지스 아시아’대표로",
       "url": "https://www.mk.co.kr/news/stock/11916891",
@@ -28,16 +36,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2025-12-29 18:06",
-      "title": "홈플러스, 회생금융으로 급한불 끈다",
-      "url": "https://www.mk.co.kr/news/stock/11916865",
+      "title": "올해 '잭팟' 터진 美 ETF … '톱5' 금·은·동이 싹쓸이",
+      "url": "https://www.mk.co.kr/news/stock/11916866",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2025-12-29 18:06",
-      "title": "올해 '잭팟' 터진 美 ETF … '톱5' 금·은·동이 싹쓸이",
-      "url": "https://www.mk.co.kr/news/stock/11916866",
+      "title": "홈플러스, 회생금융으로 급한불 끈다",
+      "url": "https://www.mk.co.kr/news/stock/11916865",
       "keywords_hit": []
     },
     {
@@ -406,14 +414,6 @@
       "published_at": "2025-12-29 11:15",
       "title": "미래에셋운용, 글로벌 ETF 순자산 300조 돌파",
       "url": "https://www.mk.co.kr/news/stock/11869554",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 11:12",
-      "title": "코스피, 반도체주 상승에 4200 돌파 시도…환율 1430원 초반대 안착",
-      "url": "https://www.hankyung.com/article/2025122997016",
       "keywords_hit": []
     }
   ]
