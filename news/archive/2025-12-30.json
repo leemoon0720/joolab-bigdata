@@ -1,8 +1,32 @@
 {
   "date": "2025-12-30",
-  "updated_at": "2025-12-30 08:48 KST",
+  "updated_at": "2025-12-30 08:58 KST",
   "count": 50,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-30 08:53",
+      "title": "한투증권 “삼성전기, 내년 매출 성장·수익 개선 폭 올해보다 클 것”",
+      "url": "https://www.mk.co.kr/news/stock/11917663",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 08:47",
+      "title": "\"농심, 내년 제품가 인상 효과 본격화\"-한국",
+      "url": "https://www.hankyung.com/article/2025123016276",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 08:47",
+      "title": "[마켓PRO] Today's Pick : \"LG 이노텍, 본업 안정화 이후 성장 레버리지 확대\"",
+      "url": "https://www.hankyung.com/article/202512301598i",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -377,30 +401,6 @@
       "published_at": "2025-12-29 16:30",
       "title": "[포토] 코스피 4200포인트 재탈환",
       "url": "https://www.hankyung.com/article/202512290577i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 16:25",
-      "title": "외환시장 개입 실탄 마련…내년 1~2월 달러채 찍는 정부",
-      "url": "https://www.hankyung.com/article/202512290360i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 16:08",
-      "title": "올해 서학개미 선택은? 애플은 줄고  팰런티어는 늘었다",
-      "url": "https://www.hankyung.com/article/202512290524i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 15:56",
-      "title": "주식시장 '구조조정' 들어간 일본…상장폐지 24% 늘렸다",
-      "url": "https://www.hankyung.com/article/202512290447i",
       "keywords_hit": []
     }
   ]
