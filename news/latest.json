@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-29 13:55 KST",
+  "updated_at": "2025-12-29 14:26 KST",
   "sources": [
     {
       "id": "HK",
@@ -16,6 +16,14 @@
   ],
   "count": 50,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-29 14:04",
+      "title": "케이엔에스, 14억 규모 차세대 배터리 검사장비 후속 수주",
+      "url": "https://www.hankyung.com/article/2025122901106",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -406,14 +414,6 @@
       "published_at": "2025-12-28 20:46",
       "title": "국내 가상자산 산업 규제 묶인새…올해 해외로 160조 빠져나가",
       "url": "https://www.mk.co.kr/news/stock/11868713",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-28 20:30",
-      "title": "미래에셋, 국내 4위 코인 거래소 '코빗' 인수 추진",
-      "url": "https://www.hankyung.com/article/2025122887916",
       "keywords_hit": []
     }
   ]
