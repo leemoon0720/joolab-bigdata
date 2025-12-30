@@ -1,8 +1,32 @@
 {
   "date": "2025-12-30",
-  "updated_at": "2025-12-30 13:56 KST",
+  "updated_at": "2025-12-30 14:24 KST",
   "count": 50,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 14:14",
+      "title": "비에이치아이 \"올해 신규 수주 규모 1.8조…품목·지역 확장 덕\"",
+      "url": "https://www.hankyung.com/article/2025123025586",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 14:02",
+      "title": "[마켓PRO] \"로보택시 상업화 임박\"…서학개미, 테슬라 집중 매수",
+      "url": "https://www.hankyung.com/article/202512302443i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 13:54",
+      "title": "[마켓PRO] '저평가 반도체주 찾기'…고수들, 제주반도체·SK스퀘어 매수",
+      "url": "https://www.hankyung.com/article/202512302435i",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -15,7 +39,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2025-12-30 13:34",
-      "title": "\"사천피 상상도 못 했다\" 신영증권 올해 또 반성문",
+      "title": "\"사천피 상상도 못 했다\"…'나의 실수' 반성문 쓴 증권사 [이슈+]",
       "url": "https://www.hankyung.com/article/2025123022726",
       "keywords_hit": []
     },
@@ -377,30 +401,6 @@
       "published_at": "2025-12-30 07:36",
       "title": "환율 누르자 연말에 K증시 돌아온 外人…서학개미도 '관망' [분석+]",
       "url": "https://www.hankyung.com/article/2025123014296",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 07:22",
-      "title": "한산한 분위기 속 차익실현에 3대지수 약세…금·은 '급락' [뉴욕증시 브리핑]",
-      "url": "https://www.hankyung.com/article/2025123014256",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 06:00",
-      "title": "“새 술은 새 부대에”…엔비디아 대신 새해 AI 투자 포트폴리오로 급부상하는 5인방 [매일 돈이 보이는 습관 M+]",
-      "url": "https://www.mk.co.kr/news/stock/11888261",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-29 23:15",
-      "title": "미국 유명 모델도 토닥토닥…틱톡에서 난리난 ‘투명해지는 팩’",
-      "url": "https://www.mk.co.kr/news/stock/11917238",
       "keywords_hit": []
     }
   ]
