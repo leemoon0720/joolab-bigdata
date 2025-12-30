@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-30 17:00 KST",
+  "updated_at": "2025-12-30 17:39 KST",
   "sources": [
     {
       "id": "HK",
@@ -16,6 +16,94 @@
   ],
   "count": 50,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-30 17:34",
+      "title": "[MK 시그널] 뜨거운 로봇ETF … 올 118%↑",
+      "url": "https://www.mk.co.kr/news/stock/11919160",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-30 17:34",
+      "title": "\"연말정산 막차 타자\"… IRP·연금저축 급증",
+      "url": "https://www.mk.co.kr/news/stock/11919159",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 17:27",
+      "title": "\"오를 종목만 찜\"…순자산 1조 공모펀드 속속 등장",
+      "url": "https://www.hankyung.com/article/2025123032881",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 17:26",
+      "title": "환율 급락에…美 대표지수 ETF 더 샀다",
+      "url": "https://www.hankyung.com/article/2025123032891",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 17:25",
+      "title": "코스닥 새내기주 80% '실적 거품'",
+      "url": "https://www.hankyung.com/article/2025123032901",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 17:24",
+      "title": "구리값 고공행진에…LS 이달 15% 상승",
+      "url": "https://www.hankyung.com/article/2025123032931",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 17:23",
+      "title": "배당소득 분리과세 수혜…통신주 미소",
+      "url": "https://www.hankyung.com/article/2025123032911",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 17:22",
+      "title": "[특징주 & 리포트] '저평가 부각…제주반도체 17% 쑥' 등",
+      "url": "https://www.hankyung.com/article/2025123032871",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 17:19",
+      "title": "한국·일본 증권거래소 휴장",
+      "url": "https://www.hankyung.com/article/2025123032861",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 17:15",
+      "title": "ETF 순자산 300조 시대…올해 국내주식형 평균수익률 65% 달해",
+      "url": "https://www.hankyung.com/article/2025123030946",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 17:01",
+      "title": "2025 국내 증시 폐장…삼성전자, SK하이닉스 최고치 경신 [HK영상]",
+      "url": "https://www.hankyung.com/article/202512303193i",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -326,94 +414,6 @@
       "published_at": "2025-12-30 09:28",
       "title": "저출산 대응책 강화 시그널에…에르코스·꿈비 강세",
       "url": "https://www.hankyung.com/article/2025123017436",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 09:26",
-      "title": "[MK 골든크로스 돌파종목 : 씨티알모빌리티(308170) & 인탑스(049070)]",
-      "url": "https://www.mk.co.kr/news/stock/11918550",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 09:16",
-      "title": "“주식 투자 대기자금 85.4조 몰려”…미장 발 빼는 서학개미 파격정책 통하나",
-      "url": "https://www.mk.co.kr/news/economy/11918542",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 09:13",
-      "title": "'4조→970만원' 공중분해…주가 '직격탄' 맞은 개미들 눈물 [종목+]",
-      "url": "https://www.hankyung.com/article/202512301562i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 09:12",
-      "title": "'폐장일' 코스피, 외인 차익실현에 하락 출발…4200선 사수할까",
-      "url": "https://www.hankyung.com/article/2025123017196",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 08:56",
-      "title": "[인사] 한양증권",
-      "url": "https://www.hankyung.com/article/2025123016596",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 08:53",
-      "title": "한투증권 “삼성전기, 내년 매출 성장·수익 개선 폭 올해보다 클 것”",
-      "url": "https://www.mk.co.kr/news/stock/11917663",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 08:47",
-      "title": "\"농심, 내년 제품가 인상 효과 본격화\"-한국",
-      "url": "https://www.hankyung.com/article/2025123016276",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 08:47",
-      "title": "[마켓PRO] Today's Pick : \"LG 이노텍, 본업 안정화 이후 성장 레버리지 확대\"",
-      "url": "https://www.hankyung.com/article/202512301598i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 08:39",
-      "title": "[인사] 한양증권",
-      "url": "https://www.hankyung.com/article/202512301615i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 08:35",
-      "title": "\"S-Oil, 내년 정유 실적 큰 폭 개선\"-신한",
-      "url": "https://www.hankyung.com/article/2025123015636",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 08:31",
-      "title": "“원화값 안정 수혜주는 나” [오늘 나온 보고서]",
-      "url": "https://www.mk.co.kr/news/stock/11917296",
       "keywords_hit": []
     }
   ]
