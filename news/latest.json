@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-30 21:56 KST",
+  "updated_at": "2025-12-30 22:35 KST",
   "sources": [
     {
       "id": "HK",
@@ -16,6 +16,22 @@
   ],
   "count": 50,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 22:28",
+      "title": "[포토] 코스피 지수 4214.17p로 마무리",
+      "url": "https://www.hankyung.com/article/202512303754i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 22:00",
+      "title": "금값, 오늘이 가장 싸다더니…'14% 급락' 무슨 일이 [분석+]",
+      "url": "https://www.hankyung.com/article/2025123024756",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -108,7 +124,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2025-12-30 17:55",
-      "title": "\"몸 대신 돈으로 갚아라\"…정부, 기업에 '과징금 폭탄' 예고",
+      "title": "쿠팡 노린 '과징금 폭탄' 예고…'5억 → 50억' 10배 뛰었다",
       "url": "https://www.hankyung.com/article/2025123034031",
       "keywords_hit": []
     },
@@ -398,22 +414,6 @@
       "published_at": "2025-12-30 13:35",
       "title": "2만명 넘게 몰린 한투證 IMA 상품…1인당 평균 투자액 4300만원",
       "url": "https://www.hankyung.com/article/202512302423i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 13:34",
-      "title": "\"사천피 상상도 못 했다\"…'나의 실수' 반성문 쓴 증권사 [이슈+]",
-      "url": "https://www.hankyung.com/article/2025123022726",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 13:22",
-      "title": "[마켓칼럼] 스페이스X 기업공개에 대해 궁금한 점들",
-      "url": "https://www.hankyung.com/article/202512302402i",
       "keywords_hit": []
     }
   ]
