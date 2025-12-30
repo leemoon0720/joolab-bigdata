@@ -1,8 +1,24 @@
 {
   "date": "2025-12-31",
-  "updated_at": "2025-12-31 08:43 KST",
+  "updated_at": "2025-12-31 08:53 KST",
   "count": 50,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-31 08:39",
+      "title": "'GD 탄 그 차' 판매 부진에 불똥 튄 엘앤에프…진화 나선 증권가 [종목+]",
+      "url": "https://www.hankyung.com/article/2025123139656",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-31 08:37",
+      "title": "고교생 경제교육 멘토링프로그램 '키움드리머' 4기 성료",
+      "url": "https://www.hankyung.com/article/2025123140876",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -385,22 +401,6 @@
       "published_at": "2025-12-30 14:14",
       "title": "비에이치아이 \"올해 신규 수주 규모 1.8조…품목·지역 확장 덕\"",
       "url": "https://www.hankyung.com/article/2025123025586",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 14:02",
-      "title": "[마켓PRO] \"로보택시 상업화 임박\"…서학개미, 테슬라 집중 매수",
-      "url": "https://www.hankyung.com/article/202512302443i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 13:54",
-      "title": "[마켓PRO] '저평가 반도체주 찾기'…고수들, 제주반도체·SK스퀘어 매수",
-      "url": "https://www.hankyung.com/article/202512302435i",
       "keywords_hit": []
     }
   ]
