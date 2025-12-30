@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-30 17:39 KST",
+  "updated_at": "2025-12-30 17:58 KST",
   "sources": [
     {
       "id": "HK",
@@ -16,6 +16,110 @@
   ],
   "count": 50,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 17:52",
+      "title": "불타오른 코스피…환율 급등은 막지 못했다",
+      "url": "https://www.hankyung.com/article/2025123034711",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 17:47",
+      "title": "글로벌세아, 제지부문 2兆에 통매각",
+      "url": "https://www.hankyung.com/article/2025123034751",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-30 17:45",
+      "title": "배터리株 와르르 … \"보릿고개 탈출 언제쯤\"",
+      "url": "https://www.mk.co.kr/news/stock/11919197",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 17:44",
+      "title": "AI株로 변신한 알리바바…1년새 70% 급등",
+      "url": "https://www.hankyung.com/article/2025123033171",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 17:42",
+      "title": "\"한달도 길다\"…美 주배당ETF 봇물",
+      "url": "https://www.hankyung.com/article/2025123033181",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 17:42",
+      "title": "머스크가 스타링크 대신 스페이스X 상장 택한 이유",
+      "url": "https://www.hankyung.com/article/2025123033151",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 17:41",
+      "title": "올해 환율, 외환위기 때보다 높았다…\"韓 1인당 GDP, 대만에 역전\"",
+      "url": "https://www.hankyung.com/article/2025123034221",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 17:41",
+      "title": "올해 日증시 4개 업종 대장주 교체",
+      "url": "https://www.hankyung.com/article/2025123033141",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 17:40",
+      "title": "50억弗 배당 기대…주목받는 유럽 방산株",
+      "url": "https://www.hankyung.com/article/2025123033101",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 17:40",
+      "title": "국민연금 '전략적 환헤지' 내년 상반기까지 이어질 듯",
+      "url": "https://www.hankyung.com/article/2025123034231",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 17:39",
+      "title": "인텔 지분 4% 확보…주요주주된 엔비디아",
+      "url": "https://www.hankyung.com/article/2025123033161",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 17:37",
+      "title": "'아직도 미장해?'…코스피, 세계 1등 찍었다 '잭팟'",
+      "url": "https://www.hankyung.com/article/2025123034191",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 17:36",
+      "title": "'사천피 대장주' 조·방·원…삼성·하이닉스 시총도 확 커졌다",
+      "url": "https://www.hankyung.com/article/2025123034181",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -92,7 +196,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2025-12-30 17:15",
-      "title": "ETF 순자산 300조 시대…올해 국내주식형 평균수익률 65% 달해",
+      "title": "ETF 순자산 300조 시대…올해 국내주식형 수익률 65% 달해",
       "url": "https://www.hankyung.com/article/2025123030946",
       "keywords_hit": []
     },
@@ -310,110 +414,6 @@
       "published_at": "2025-12-30 10:34",
       "title": "[특징주] 엘앤에프, 대규모 계약 증발 소식에 급락",
       "url": "https://www.mk.co.kr/news/stock/11918645",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 10:32",
-      "title": "거래소, 다올·교보 등 10개 증권사와 2026년 주식 시장조성계약 체결",
-      "url": "https://www.hankyung.com/article/2025123019516",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 10:32",
-      "title": "올해만 8조 계약한 에이비엘바이오 매수…‘신고가’ 닉스는 매도 [주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11918638",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 10:20",
-      "title": "LS증권, 차세대 금융인재 육성 프로젝트 참여…100여 명 지도",
-      "url": "https://www.hankyung.com/article/2025123019706",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 10:12",
-      "title": "'반도체 투톱' 삼전·하닉, 올해 마지막 거래일 사상 최고가",
-      "url": "https://www.hankyung.com/article/2025123018116",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 10:12",
-      "title": "[MK시그널] 세금·회계 소프트웨어 기업 인튜이트, 매수신호 발생",
-      "url": "https://www.mk.co.kr/news/stock/11918601",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 10:10",
-      "title": "담합거래 과징금 40억→100억…불공정 거래행위 처벌 실효성 높인다",
-      "url": "https://www.hankyung.com/article/202512301702i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 09:51",
-      "title": "엘앤씨로 피인수 무산된 셀루메드 '下'…유증 대금  납일일도 미뤄져",
-      "url": "https://www.hankyung.com/article/2025123018846",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 09:48",
-      "title": "올해 마지막 거래일 ‘코스피’ 하락 출발…상승 폭 키우며 4200선 회복",
-      "url": "https://www.mk.co.kr/news/stock/11918582",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 09:44",
-      "title": "LG엔솔 이어 엘앤에프까지…2차전지株 와르르 [종목+]",
-      "url": "https://www.hankyung.com/article/2025123017236",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 09:37",
-      "title": "[MK시그널] 인탑스, 주요 대기업의 로봇 제조 전담 부각에 주가 상승세... MK시그널 추천 후 상승률 24.65%기록",
-      "url": "https://www.mk.co.kr/news/stock/11918569",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 09:31",
-      "title": "CME의 증거금 인상에 금·은 가격 급락…관련주도 '된서리'",
-      "url": "https://www.hankyung.com/article/2025123017836",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 09:30",
-      "title": "2000원짜리가 5만원 됐다…'무려 1777%' 주가 불기둥 [종목+]",
-      "url": "https://www.hankyung.com/article/2025123017356",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 09:28",
-      "title": "저출산 대응책 강화 시그널에…에르코스·꿈비 강세",
-      "url": "https://www.hankyung.com/article/2025123017436",
       "keywords_hit": []
     }
   ]
