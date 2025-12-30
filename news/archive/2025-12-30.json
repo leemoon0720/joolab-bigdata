@@ -1,8 +1,40 @@
 {
   "date": "2025-12-30",
-  "updated_at": "2025-12-30 13:26 KST",
+  "updated_at": "2025-12-30 13:56 KST",
   "count": 50,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 13:35",
+      "title": "2만명 넘게 몰린 한투證 IMA 상품…1인당 평균 투자액 4300만원",
+      "url": "https://www.hankyung.com/article/202512302423i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 13:34",
+      "title": "\"사천피 상상도 못 했다\" 신영증권 올해 또 반성문",
+      "url": "https://www.hankyung.com/article/2025123022726",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 13:22",
+      "title": "[마켓칼럼] 스페이스X 기업공개에 대해 궁금한 점들",
+      "url": "https://www.hankyung.com/article/202512302402i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 13:22",
+      "title": "[마켓PRO] 알고리즘 종목 Pick : \"오라클, AI 데이터센터 전력 승인\"",
+      "url": "https://www.hankyung.com/article/202512302383i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -15,7 +47,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2025-12-30 12:02",
-      "title": "두달넘게 ‘공포’상태 코인시장...금 하락에도 반등 실종[매일코인]",
+      "title": "“개미들은 두 달째 피가 마릅니다”...반등 없이 공포만 남은 코인시장 [매일코인]",
       "url": "https://www.mk.co.kr/news/stock/11918765",
       "keywords_hit": []
     },
@@ -369,38 +401,6 @@
       "published_at": "2025-12-29 23:15",
       "title": "미국 유명 모델도 토닥토닥…틱톡에서 난리난 ‘투명해지는 팩’",
       "url": "https://www.mk.co.kr/news/stock/11917238",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 22:00",
-      "title": "\"중고차 한 대 뽑았을텐데\"…한화에어로 종토방 뒤집어졌다 [종목+]",
-      "url": "https://www.hankyung.com/article/2025122907706",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 21:42",
-      "title": "[마켓칼럼]스페이스X의 기업공개에 대해 궁금한 점들",
-      "url": "https://www.hankyung.com/article/202512299938i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-29 19:13",
-      "title": "“올해 주가 ‘따블’은 기본입니다”…‘수익률 100%’ 미국 ETF 종목 28개",
-      "url": "https://www.mk.co.kr/news/stock/11916982",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-29 18:11",
-      "title": "강영구 이지스 운용대표 싱가포르 ‘이지스 아시아’대표로",
-      "url": "https://www.mk.co.kr/news/stock/11916891",
       "keywords_hit": []
     }
   ]
