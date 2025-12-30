@@ -1,8 +1,16 @@
 {
   "date": "2025-12-31",
-  "updated_at": "2025-12-31 06:22 KST",
+  "updated_at": "2025-12-31 06:37 KST",
   "count": 50,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 06:23",
+      "title": "“3년째 핫한 미장, 뭐 사야 되나요?”...서학개미 제미나이에 승부 걸었다",
+      "url": "https://www.mk.co.kr/news/stock/11919618",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -55,16 +63,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2025-12-30 18:06",
-      "title": "NH證 주식발행 1위 … 채권은 '전통의 강호' KB證 선두",
-      "url": "https://www.mk.co.kr/news/stock/11919281",
+      "title": "[유가증권시장 공시] LIG넥스원 / HS화성",
+      "url": "https://www.mk.co.kr/news/stock/11919280",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2025-12-30 18:06",
-      "title": "[유가증권시장 공시] LIG넥스원 / HS화성",
-      "url": "https://www.mk.co.kr/news/stock/11919280",
+      "title": "NH證 주식발행 1위 … 채권은 '전통의 강호' KB證 선두",
+      "url": "https://www.mk.co.kr/news/stock/11919281",
       "keywords_hit": []
     },
     {
@@ -393,14 +401,6 @@
       "published_at": "2025-12-30 13:54",
       "title": "[마켓PRO] '저평가 반도체주 찾기'…고수들, 제주반도체·SK스퀘어 매수",
       "url": "https://www.hankyung.com/article/202512302435i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 13:35",
-      "title": "2만명 넘게 몰린 한투證 IMA 상품…1인당 평균 투자액 4300만원",
-      "url": "https://www.hankyung.com/article/202512302423i",
       "keywords_hit": []
     }
   ]
