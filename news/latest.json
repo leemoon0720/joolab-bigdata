@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-30 17:58 KST",
+  "updated_at": "2025-12-30 18:31 KST",
   "sources": [
     {
       "id": "HK",
@@ -19,17 +19,89 @@
     {
       "source": "HK",
       "press": "한국경제",
-      "published_at": "2025-12-30 17:52",
-      "title": "불타오른 코스피…환율 급등은 막지 못했다",
-      "url": "https://www.hankyung.com/article/2025123034711",
+      "published_at": "2025-12-30 18:17",
+      "title": "올해 76% 뛴 코스피, G20·OECD 1위…시총 3000조 돌파",
+      "url": "https://www.hankyung.com/article/2025123033346",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-30 18:09",
+      "title": "글로벌세아, 제지사업 통매각 추진",
+      "url": "https://www.mk.co.kr/news/stock/11919290",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-30 18:06",
+      "title": "[유가증권시장 공시] LIG넥스원 / HS화성",
+      "url": "https://www.mk.co.kr/news/stock/11919280",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-30 18:06",
+      "title": "NH證 주식발행 1위 … 채권은 '전통의 강호' KB證 선두",
+      "url": "https://www.mk.co.kr/news/stock/11919281",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-30 18:06",
+      "title": "자산재평가 효과 … 서부T&D 껑충",
+      "url": "https://www.mk.co.kr/news/stock/11919279",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-30 18:06",
+      "title": "M&A시장 2배 쑥 … 삼일, 재무·회계 '2관왕'",
+      "url": "https://www.mk.co.kr/news/stock/11919276",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-30 18:01",
+      "title": "코스피 '76%' 올랐다 … 실적 발판 내년 5천피 진격",
+      "url": "https://www.mk.co.kr/news/stock/11919261",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-30 18:01",
+      "title": "3년 연속 상승한 美증시…서학개미, 알파벳 쓸어담아",
+      "url": "https://www.mk.co.kr/news/stock/11919260",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-30 18:01",
+      "title": "1조 넘게 몰린 한투 IMA … 가입자 68%가 50대 이상",
+      "url": "https://www.mk.co.kr/news/stock/11919259",
       "keywords_hit": []
     },
     {
       "source": "HK",
       "press": "한국경제",
-      "published_at": "2025-12-30 17:47",
-      "title": "글로벌세아, 제지부문 2兆에 통매각",
-      "url": "https://www.hankyung.com/article/2025123034751",
+      "published_at": "2025-12-30 17:55",
+      "title": "\"몸 대신 돈으로 갚아라\"…정부, 기업에 '과징금 폭탄' 예고",
+      "url": "https://www.hankyung.com/article/2025123034031",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 17:52",
+      "title": "불타오른 코스피…환율 급등은 막지 못했다",
+      "url": "https://www.hankyung.com/article/2025123034711",
       "keywords_hit": []
     },
     {
@@ -44,7 +116,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2025-12-30 17:44",
-      "title": "AI株로 변신한 알리바바…1년새 70% 급등",
+      "title": "\"몰라봐서 미안\"…'주가 70%' 불기둥 쏜 AI 종목의 정체",
       "url": "https://www.hankyung.com/article/2025123033171",
       "keywords_hit": []
     },
@@ -108,7 +180,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2025-12-30 17:37",
-      "title": "'아직도 미장해?'…코스피, 세계 1등 찍었다 '잭팟'",
+      "title": "\"국장 탈출은 지능순\" 굴욕 당하더니 '잭팟'…세계 1등 찍었다",
       "url": "https://www.hankyung.com/article/2025123034191",
       "keywords_hit": []
     },
@@ -342,78 +414,6 @@
       "published_at": "2025-12-30 12:09",
       "title": "교보증권, AI·디지털자산 중심 조직개편 단행…미래전략파트 신설",
       "url": "https://www.mk.co.kr/news/stock/11918768",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 12:02",
-      "title": "“개미들은 두 달째 피가 마릅니다”...반등 없이 공포만 남은 코인시장 [매일코인]",
-      "url": "https://www.mk.co.kr/news/stock/11918765",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 11:38",
-      "title": "'키움 디지털 아카데미 3기' 발대식 개최",
-      "url": "https://www.hankyung.com/article/2025123022396",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 11:36",
-      "title": "한국투자증권 IMA, 가입자 68%가 506070",
-      "url": "https://www.mk.co.kr/news/stock/11918749",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 11:33",
-      "title": "“용산 땅 제대로 평가 받을래” 자산재평가 나선 땅부자호텔 서부T&D",
-      "url": "https://www.mk.co.kr/news/stock/11918743",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 11:32",
-      "title": "삼성전자, 사상 첫 ‘12만전자’…SK하이닉스도 66만 눈앞",
-      "url": "https://www.mk.co.kr/news/stock/11918741",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 11:24",
-      "title": "코스피, 삼전·SK하닉 '신고가' 업고 보합권 공방…SK스퀘어 6%↑",
-      "url": "https://www.hankyung.com/article/2025123021996",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 11:17",
-      "title": "현대차증권, IRP 로보어드바이저 일임 서비스 출시",
-      "url": "https://www.hankyung.com/article/2025123021886",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 10:36",
-      "title": "“코스피 4000은 생각도 못했다”...올해도 ‘나의 실수’ 털어놓은 증권사는",
-      "url": "https://www.mk.co.kr/news/stock/11918647",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 10:34",
-      "title": "[특징주] 엘앤에프, 대규모 계약 증발 소식에 급락",
-      "url": "https://www.mk.co.kr/news/stock/11918645",
       "keywords_hit": []
     }
   ]
