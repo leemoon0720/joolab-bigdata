@@ -1,8 +1,48 @@
 {
   "date": "2025-12-30",
-  "updated_at": "2025-12-30 15:31 KST",
+  "updated_at": "2025-12-30 15:57 KST",
   "count": 50,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 15:51",
+      "title": "교보증권, 조직개편 단행…\"미래 성장동력 강화\"",
+      "url": "https://www.hankyung.com/article/202512302967i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 15:51",
+      "title": "2025년 증시 마감…삼성전자·SK하이닉스 동반 최고가",
+      "url": "https://www.hankyung.com/article/202512302872i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 15:46",
+      "title": "코스피, 약보합으로 올해 거래 마감…삼전·SK하닉 '최고가'",
+      "url": "https://www.hankyung.com/article/2025123029316",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 15:41",
+      "title": "고영테크놀러지, 북미 고객사와 340억 규모 공급 계약 체결",
+      "url": "https://www.hankyung.com/article/2025123029016",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-30 15:35",
+      "title": "브룩필드, 청라 물류센터 KKR에 매각...국내 물류 자산 거래 역대 최대 규모",
+      "url": "https://www.mk.co.kr/news/stock/11918990",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -15,7 +55,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2025-12-30 15:04",
-      "title": "환율 떨어지자 '오히려 좋아'…서학개미들 무섭게 사들였다",
+      "title": "환율 떨어지자 '오히려 좋아'…서학개미 무섭게 사들였다 [분석+]",
       "url": "https://www.hankyung.com/article/202512301995i",
       "keywords_hit": []
     },
@@ -361,46 +401,6 @@
       "published_at": "2025-12-30 08:13",
       "title": "올해 마지막 거래일…코스피, '역대급 1년' 상승 속 마무리 전망 [오늘장 미리보기]",
       "url": "https://www.hankyung.com/article/202512301433i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 08:12",
-      "title": "테슬라와의 3.8조 계약 종료된 엘앤에프…\"새 계약 논의될 것\"",
-      "url": "https://www.hankyung.com/article/2025123015316",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 08:08",
-      "title": "\"엔씨소프트, 신작 모멘텀 소멸…목표주가 하향\"-NH",
-      "url": "https://www.hankyung.com/article/2025123014736",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 07:58",
-      "title": "“올해 산타랠리는 없다” 기술주 약세에 뉴욕증시 일제히 하락 마감 [월가월부]",
-      "url": "https://www.mk.co.kr/news/stock/11917285",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 07:55",
-      "title": "\"한화에어로, 폴란드 현지 생산으로 중장기 경쟁력 강화될 것\"-한국",
-      "url": "https://www.hankyung.com/article/2025123014586",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 07:48",
-      "title": "\"삼양식품, 단기 실적 우려로 주가 하락…조정은 기회\"-하나",
-      "url": "https://www.hankyung.com/article/2025123014436",
       "keywords_hit": []
     }
   ]
