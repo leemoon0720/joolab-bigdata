@@ -1,8 +1,16 @@
 {
   "date": "2025-12-30",
-  "updated_at": "2025-12-30 18:31 KST",
+  "updated_at": "2025-12-30 18:49 KST",
   "count": 50,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 18:38",
+      "title": "'달러당 1430원대'로 막았다더니…환율, 3시간 뒤 1450원으로 '급등' [한경 외환시장 워치]",
+      "url": "https://www.hankyung.com/article/202512303534i",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -393,14 +401,6 @@
       "published_at": "2025-12-30 13:22",
       "title": "[마켓PRO] 알고리즘 종목 Pick : \"오라클, AI 데이터센터 전력 승인\"",
       "url": "https://www.hankyung.com/article/202512302383i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 12:09",
-      "title": "교보증권, AI·디지털자산 중심 조직개편 단행…미래전략파트 신설",
-      "url": "https://www.mk.co.kr/news/stock/11918768",
       "keywords_hit": []
     }
   ]
