@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-30 10:59 KST",
+  "updated_at": "2025-12-30 12:42 KST",
   "sources": [
     {
       "id": "HK",
@@ -16,6 +16,70 @@
   ],
   "count": 50,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-30 12:09",
+      "title": "교보증권, AI·디지털자산 중심 조직개편 단행…미래전략파트 신설",
+      "url": "https://www.mk.co.kr/news/stock/11918768",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-30 12:02",
+      "title": "두달넘게 ‘공포’상태 코인시장...금 하락에도 반등 실종[매일코인]",
+      "url": "https://www.mk.co.kr/news/stock/11918765",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 11:38",
+      "title": "'키움 디지털 아카데미 3기' 발대식 개최",
+      "url": "https://www.hankyung.com/article/2025123022396",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-30 11:36",
+      "title": "한국투자증권 IMA, 가입자 68%가 506070",
+      "url": "https://www.mk.co.kr/news/stock/11918749",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-30 11:33",
+      "title": "“용산 땅 제대로 평가 받을래” 자산재평가 나선 땅부자호텔 서부T&D",
+      "url": "https://www.mk.co.kr/news/stock/11918743",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-30 11:32",
+      "title": "삼성전자, 사상 첫 ‘12만전자’…SK하이닉스도 66만 눈앞",
+      "url": "https://www.mk.co.kr/news/stock/11918741",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 11:24",
+      "title": "코스피, 삼전·SK하닉 '신고가' 업고 보합권 공방…SK스퀘어 6%↑",
+      "url": "https://www.hankyung.com/article/2025123021996",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-30 11:17",
+      "title": "현대차증권, IRP 로보어드바이저 일임 서비스 출시",
+      "url": "https://www.hankyung.com/article/2025123021886",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -350,70 +414,6 @@
       "published_at": "2025-12-29 18:11",
       "title": "강영구 이지스 운용대표 싱가포르 ‘이지스 아시아’대표로",
       "url": "https://www.mk.co.kr/news/stock/11916891",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-29 18:06",
-      "title": "홈플러스, 회생금융으로 급한불 끈다",
-      "url": "https://www.mk.co.kr/news/stock/11916865",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-29 18:06",
-      "title": "올해 '잭팟' 터진 美 ETF…'톱5' 금·은·동이 싹쓸이",
-      "url": "https://www.mk.co.kr/news/stock/11916866",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-29 18:06",
-      "title": "올해 국민연금 260조 벌었다 … 수익률 20% '역대 최고'",
-      "url": "https://www.mk.co.kr/news/stock/11916862",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-29 18:06",
-      "title": "강달러 주춤하자…환헤지형 ETF '반짝'",
-      "url": "https://www.mk.co.kr/news/stock/11916863",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-29 18:05",
-      "title": "KB證, 소비자지원부 신설…디지털 퍼스트 조직 개편",
-      "url": "https://www.mk.co.kr/news/stock/11916848",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-29 18:05",
-      "title": "대형주 날자 테마주 시들 … 코스닥 회전율 최저 수준",
-      "url": "https://www.mk.co.kr/news/stock/11916845",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-29 18:05",
-      "title": "반도체 대장주의 힘 … 코스피 4200 탈환",
-      "url": "https://www.mk.co.kr/news/stock/11916844",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-29 18:03",
-      "title": "당국 3거래일째 개입…1420원대 찍은 환율",
-      "url": "https://www.hankyung.com/article/2025122908701",
       "keywords_hit": []
     }
   ]
