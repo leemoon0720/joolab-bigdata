@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-01 07:50 KST",
+  "updated_at": "2026-01-01 07:59 KST",
   "sources": [
     {
       "id": "HK",
@@ -16,6 +16,14 @@
   ],
   "count": 50,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 07:42",
+      "title": "지난해 '시총 1조클럽' 상장사 76곳 급증…총 323개",
+      "url": "https://www.hankyung.com/article/2026010160657",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -406,14 +414,6 @@
       "published_at": "2025-12-30 22:28",
       "title": "[포토] 코스피 지수 4214.17p로 마무리",
       "url": "https://www.hankyung.com/article/202512303754i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 22:00",
-      "title": "금값, 오늘이 가장 싸다더니…'14% 급락' 무슨 일이 [분석+]",
-      "url": "https://www.hankyung.com/article/2025123024756",
       "keywords_hit": []
     }
   ]
