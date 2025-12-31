@@ -1,8 +1,16 @@
 {
   "date": "2025-12-31",
-  "updated_at": "2025-12-31 18:45 KST",
+  "updated_at": "2025-12-31 18:55 KST",
   "count": 50,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 18:49",
+      "title": "5천피 향한 질주…반도체 앞세우고 바이오·로봇으로 지원 사격",
+      "url": "https://www.mk.co.kr/news/stock/11920339",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -39,7 +47,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2025-12-31 17:12",
-      "title": "\"피지컬 AI에 주목 … 드론·우주도 눈여겨 봐라\"",
+      "title": "\"피지컬 AI에 주목 … 드론·우주도 눈여겨봐라\"",
       "url": "https://www.mk.co.kr/news/stock/11920205",
       "keywords_hit": []
     },
@@ -95,7 +103,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2025-12-31 16:22",
-      "title": "AI 거품·환율·美금리…새해 증시 흔들 '회색 코뿔소'",
+      "title": "AI 거품론·환율·美금리…새해 증시 흔들 '회색 코뿔소'",
       "url": "https://www.hankyung.com/article/2025123153071",
       "keywords_hit": []
     },
@@ -393,14 +401,6 @@
       "published_at": "2025-12-30 18:09",
       "title": "글로벌세아, 제지사업 통매각 추진",
       "url": "https://www.mk.co.kr/news/stock/11919290",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 18:06",
-      "title": "NH證 주식발행 1위 … 채권은 '전통의 강호' KB證 선두",
-      "url": "https://www.mk.co.kr/news/stock/11919281",
       "keywords_hit": []
     }
   ]
