@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-31 18:24 KST",
+  "updated_at": "2025-12-31 18:45 KST",
   "sources": [
     {
       "id": "HK",
@@ -16,6 +16,22 @@
   ],
   "count": 50,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 18:27",
+      "title": "“코스피 5500, 코스닥 1100 가능…반도체주 투자매력 높다” [2026 증시 전망③]",
+      "url": "https://www.mk.co.kr/news/stock/11920311",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 18:26",
+      "title": "박현주 회장 장남, 미래에셋증권 이동",
+      "url": "https://www.mk.co.kr/news/stock/11920310",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -396,24 +412,8 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2025-12-30 18:06",
-      "title": "[유가증권시장 공시] LIG넥스원 / HS화성",
-      "url": "https://www.mk.co.kr/news/stock/11919280",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 18:06",
       "title": "NH證 주식발행 1위 … 채권은 '전통의 강호' KB證 선두",
       "url": "https://www.mk.co.kr/news/stock/11919281",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 18:06",
-      "title": "자산재평가 효과 … 서부T&D 껑충",
-      "url": "https://www.mk.co.kr/news/stock/11919279",
       "keywords_hit": []
     }
   ]
