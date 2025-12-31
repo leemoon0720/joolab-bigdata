@@ -1,8 +1,32 @@
 {
   "date": "2025-12-31",
-  "updated_at": "2025-12-31 14:52 KST",
+  "updated_at": "2025-12-31 15:16 KST",
   "count": 50,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 15:03",
+      "title": "‘소송 후 활동 재개’ 피프티피프티 소속사, 투자 유치로 재정비 나선다",
+      "url": "https://www.mk.co.kr/news/stock/11919972",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-31 15:02",
+      "title": "반도체·서학개미 덕분에…1~11월 국세수입 38조 더 걷혀",
+      "url": "https://www.hankyung.com/article/202512314613i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 14:54",
+      "title": "‘만능통장’ ISA 도입 10년…미래에셋증권, 잔고 8.3조 ‘업계 1위’",
+      "url": "https://www.mk.co.kr/news/stock/11919960",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -207,16 +231,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2025-12-30 18:06",
-      "title": "[유가증권시장 공시] LIG넥스원 / HS화성",
-      "url": "https://www.mk.co.kr/news/stock/11919280",
+      "title": "NH證 주식발행 1위 … 채권은 '전통의 강호' KB證 선두",
+      "url": "https://www.mk.co.kr/news/stock/11919281",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2025-12-30 18:06",
-      "title": "NH證 주식발행 1위 … 채권은 '전통의 강호' KB證 선두",
-      "url": "https://www.mk.co.kr/news/stock/11919281",
+      "title": "[유가증권시장 공시] LIG넥스원 / HS화성",
+      "url": "https://www.mk.co.kr/news/stock/11919280",
       "keywords_hit": []
     },
     {
@@ -377,30 +401,6 @@
       "published_at": "2025-12-30 17:34",
       "title": "\"연말정산 막차 타자\"… IRP·연금저축 급증",
       "url": "https://www.mk.co.kr/news/stock/11919159",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 17:27",
-      "title": "\"오를 종목만 찜\"…순자산 1조 공모펀드 속속 등장",
-      "url": "https://www.hankyung.com/article/2025123032881",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 17:26",
-      "title": "환율 급락에…美 대표지수 ETF 더 샀다",
-      "url": "https://www.hankyung.com/article/2025123032891",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 17:25",
-      "title": "코스닥 새내기주 80% '실적 거품'",
-      "url": "https://www.hankyung.com/article/2025123032901",
       "keywords_hit": []
     }
   ]
