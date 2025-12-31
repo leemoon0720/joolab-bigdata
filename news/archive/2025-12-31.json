@@ -1,8 +1,16 @@
 {
   "date": "2025-12-31",
-  "updated_at": "2025-12-31 13:44 KST",
+  "updated_at": "2025-12-31 14:02 KST",
   "count": 50,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 13:55",
+      "title": "“0하나 더 붙을 줄이야, 1년전에 알았더라면”…올해 10배 뛴 ‘텐배거 3인방’",
+      "url": "https://www.mk.co.kr/news/stock/11919912",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -393,14 +401,6 @@
       "published_at": "2025-12-30 17:25",
       "title": "코스닥 새내기주 80% '실적 거품'",
       "url": "https://www.hankyung.com/article/2025123032901",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 17:24",
-      "title": "구리값 고공행진에… S 이달 12% 상승",
-      "url": "https://www.hankyung.com/article/2025123032931",
       "keywords_hit": []
     }
   ]
