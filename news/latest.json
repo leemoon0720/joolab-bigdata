@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-31 16:36 KST",
+  "updated_at": "2025-12-31 16:48 KST",
   "sources": [
     {
       "id": "HK",
@@ -16,6 +16,14 @@
   ],
   "count": 50,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 16:40",
+      "title": "한국투자금융지주 정기인사 단행...IMA·연금 강화 조직개편",
+      "url": "https://www.mk.co.kr/news/stock/11920059",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -406,14 +414,6 @@
       "published_at": "2025-12-30 17:52",
       "title": "불타오른 코스피…환율 급등은 막지 못했다",
       "url": "https://www.hankyung.com/article/2025123034711",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 17:45",
-      "title": "배터리株 와르르 … \"보릿고개 탈출 언제쯤\"",
-      "url": "https://www.mk.co.kr/news/stock/11919197",
       "keywords_hit": []
     }
   ]
