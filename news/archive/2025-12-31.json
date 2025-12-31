@@ -1,8 +1,16 @@
 {
   "date": "2025-12-31",
-  "updated_at": "2025-12-31 21:23 KST",
+  "updated_at": "2025-12-31 22:07 KST",
   "count": 50,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 22:03",
+      "title": "베인캐피털, 안다르 모회사 … 에코마케팅 1천억대에 인수",
+      "url": "https://www.mk.co.kr/news/stock/11920548",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -63,7 +71,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2025-12-31 16:58",
-      "title": "HMM·카카오모빌리티…올 M&A 큰장 선다",
+      "title": "HMM·카카오모빌리티 … 올 M&A 큰장 선다",
       "url": "https://www.mk.co.kr/news/stock/11920141",
       "keywords_hit": []
     },
@@ -393,14 +401,6 @@
       "published_at": "2025-12-30 18:38",
       "title": "'달러당 1430원대'로 막았다더니…환율, 3시간 뒤 '급등' [한경 외환시장 워치]",
       "url": "https://www.hankyung.com/article/202512303534i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 18:17",
-      "title": "올해 76% 뛴 코스피, G20·OECD 1위…시총 3000조 돌파",
-      "url": "https://www.hankyung.com/article/2025123033346",
       "keywords_hit": []
     }
   ]
