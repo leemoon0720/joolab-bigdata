@@ -1,8 +1,88 @@
 {
   "date": "2025-12-31",
-  "updated_at": "2025-12-31 16:13 KST",
+  "updated_at": "2025-12-31 16:36 KST",
   "count": 50,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-31 16:31",
+      "title": "[마켓PRO] 알고리즘 종목 Pick : \"에스피지, 외국인·기관 매수 흐름 이어져\"",
+      "url": "https://www.hankyung.com/article/202512315341i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-31 16:29",
+      "title": "올해도 AI가 세계경제 주도…거품 꺼지면 실물경제까지 타격",
+      "url": "https://www.hankyung.com/article/2025123153851",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-31 16:22",
+      "title": "AI 거품·환율·美금리…새해 증시 흔들 '회색 코뿔소'",
+      "url": "https://www.hankyung.com/article/2025123153071",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-31 16:20",
+      "title": "金·銀, CME 증거금 인상에 출렁",
+      "url": "https://www.hankyung.com/article/2025123153041",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-31 16:20",
+      "title": "'한경-타임폴리오 KIW 투자대회' 2일 개막",
+      "url": "https://www.hankyung.com/article/2025123153011",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-31 16:19",
+      "title": "잇단 계약 해지에 2차전지株 '암울'",
+      "url": "https://www.hankyung.com/article/2025123153061",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-31 16:19",
+      "title": "코스닥 도약 열쇠는 '상장기업 IR 의무화'",
+      "url": "https://www.hankyung.com/article/2025123153031",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-31 16:18",
+      "title": "매년 되풀이 되는…연말 '올빼미 공시'",
+      "url": "https://www.hankyung.com/article/2025123153051",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-31 16:17",
+      "title": "'개미 순매수' 1등 ETF, 30조6000억 사들였다",
+      "url": "https://www.hankyung.com/article/2025123153081",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-31 16:15",
+      "title": "[마켓칼럼]삼성전자·하이닉스 적정 수준…대형 반도체주 강세 지속",
+      "url": "https://www.hankyung.com/article/202512302780i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -321,86 +401,6 @@
       "published_at": "2025-12-30 17:45",
       "title": "배터리株 와르르 … \"보릿고개 탈출 언제쯤\"",
       "url": "https://www.mk.co.kr/news/stock/11919197",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 17:44",
-      "title": "\"몰라봐서 미안\"…'주가 70%' 불기둥 쏜 AI 종목의 정체",
-      "url": "https://www.hankyung.com/article/2025123033171",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 17:42",
-      "title": "\"한달도 길다\"…美 주배당ETF 봇물",
-      "url": "https://www.hankyung.com/article/2025123033181",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 17:42",
-      "title": "머스크가 스타링크 대신 스페이스X 상장 택한 이유",
-      "url": "https://www.hankyung.com/article/2025123033151",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 17:41",
-      "title": "올해 환율, 외환위기 때보다 높았다…韓 GDP 순위 밀리나",
-      "url": "https://www.hankyung.com/article/2025123034221",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 17:41",
-      "title": "올해 日증시 4개 업종 대장주 교체",
-      "url": "https://www.hankyung.com/article/2025123033141",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 17:40",
-      "title": "50억 달러 배당 기대…주목받는 유럽 방산株",
-      "url": "https://www.hankyung.com/article/2025123033101",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 17:40",
-      "title": "주간거래 후 10원 이상 뛴 환율…내년 초 다시 오르나",
-      "url": "https://www.hankyung.com/article/2025123034231",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 17:39",
-      "title": "인텔 지분 4% 확보…주요주주된 엔비디아",
-      "url": "https://www.hankyung.com/article/2025123033161",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 17:37",
-      "title": "\"국장 탈출은 지능순\" 굴욕 당하더니 '잭팟'…세계 1등 찍었다",
-      "url": "https://www.hankyung.com/article/2025123034191",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 17:36",
-      "title": "'사천피 대장주' 조·방·원…삼성·하이닉스 시총도 확 커졌다",
-      "url": "https://www.hankyung.com/article/2025123034181",
       "keywords_hit": []
     }
   ]
