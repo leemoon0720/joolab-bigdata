@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-31 09:59 KST",
+  "updated_at": "2025-12-31 11:57 KST",
   "sources": [
     {
       "id": "HK",
@@ -16,6 +16,86 @@
   ],
   "count": 50,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 11:27",
+      "title": "다음달 태영건설 등 55개사, 4억289만주 의무보유등록 풀린다",
+      "url": "https://www.mk.co.kr/news/stock/11919833",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 11:19",
+      "title": "고려아연, 영풍·MBK가 지적한 ‘美 제련소 신주 발행 총액’ 정정 공시…“주주 설명 차원”",
+      "url": "https://www.mk.co.kr/news/stock/11919823",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 11:13",
+      "title": "NH투자증권, 연금 총자산 15조 돌파…“내년 20조 달성 목표”",
+      "url": "https://www.mk.co.kr/news/stock/11919814",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-31 11:06",
+      "title": "iM증권, 조직개편 단행…\"자본효율성 극대화\"",
+      "url": "https://www.hankyung.com/article/2025123146106",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 11:03",
+      "title": "iM증권, 조직개편 및 임원인사 실시…미래혁신부 신설",
+      "url": "https://www.mk.co.kr/news/stock/11919791",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-31 11:00",
+      "title": "주가 160% 뛰더니…\"다시는 안 산다\" 개미들 울린 회사 [종목+]",
+      "url": "https://www.hankyung.com/article/2025123140416",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-31 10:42",
+      "title": "200% 성장한 디센트, '올인원 투자 지갑'으로 진화…기관·기업 시장 확장 가속 [코인터뷰]",
+      "url": "https://www.hankyung.com/article/202512290393g",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-31 10:11",
+      "title": "NH투자증권, 연금 총자산 15조원 돌파…전년 대비 42% 증가",
+      "url": "https://www.hankyung.com/article/2025123144256",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 10:07",
+      "title": "[MK시그널] 핀워드 뱅코프 매도신호 포착, 수익률 24.4% 달성",
+      "url": "https://www.mk.co.kr/news/stock/11919731",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-31 09:51",
+      "title": "30일 환율이 연말 종가?…외환시장은 왜 31일에 문 닫을까 [한경 외환시장 워치]",
+      "url": "https://www.hankyung.com/article/202512314256i",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -334,86 +414,6 @@
       "published_at": "2025-12-30 17:22",
       "title": "[특징주 & 리포트] '저평가 부각…제주반도체 17% 쑥' 등",
       "url": "https://www.hankyung.com/article/2025123032871",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 17:19",
-      "title": "한국·일본 증권거래소 휴장",
-      "url": "https://www.hankyung.com/article/2025123032861",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 17:15",
-      "title": "ETF 순자산 300조 시대…올해 국내주식형 수익률 65% 달해",
-      "url": "https://www.hankyung.com/article/2025123030946",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 17:01",
-      "title": "2025 국내 증시 폐장…삼성전자, SK하이닉스 최고치 경신 [HK영상]",
-      "url": "https://www.hankyung.com/article/202512303193i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 16:17",
-      "title": "거래소, 단일가 매매 대상 저유동성 종목 24개 확정",
-      "url": "https://www.hankyung.com/article/2025123030736",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 15:55",
-      "title": "SK증권, 임직원 자투리급여 모아 보육시설 교육비 지원",
-      "url": "https://www.hankyung.com/article/202512302981i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 15:51",
-      "title": "교보증권, 조직개편 단행…\"미래 성장동력 강화\"",
-      "url": "https://www.hankyung.com/article/202512302967i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 15:51",
-      "title": "2025년 증시 마감…삼성전자·SK하이닉스 동반 최고가",
-      "url": "https://www.hankyung.com/article/202512302872i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 15:46",
-      "title": "코스피, 약보합으로 올해 거래 마감…삼전·SK하닉 '최고가'",
-      "url": "https://www.hankyung.com/article/2025123029316",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 15:41",
-      "title": "고영테크놀러지, 북미 고객사와 340억 규모 공급 계약 체결",
-      "url": "https://www.hankyung.com/article/2025123029016",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 15:35",
-      "title": "브룩필드, 청라 물류센터 KKR에 매각...국내 물류 자산 거래 역대 최대 규모",
-      "url": "https://www.mk.co.kr/news/stock/11918990",
       "keywords_hit": []
     }
   ]
