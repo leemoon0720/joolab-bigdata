@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-31 15:51 KST",
+  "updated_at": "2025-12-31 16:13 KST",
   "sources": [
     {
       "id": "HK",
@@ -16,6 +16,14 @@
   ],
   "count": 50,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 15:56",
+      "title": "코빗 고객확인의무 위반...과태료 27억원",
+      "url": "https://www.mk.co.kr/news/stock/11920014",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -406,14 +414,6 @@
       "published_at": "2025-12-30 17:36",
       "title": "'사천피 대장주' 조·방·원…삼성·하이닉스 시총도 확 커졌다",
       "url": "https://www.hankyung.com/article/2025123034181",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 17:34",
-      "title": "[MK 시그널] 뜨거운 로봇ETF … 올 118%↑",
-      "url": "https://www.mk.co.kr/news/stock/11919160",
       "keywords_hit": []
     }
   ]
