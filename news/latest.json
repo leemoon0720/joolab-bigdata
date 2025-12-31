@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-31 08:53 KST",
+  "updated_at": "2025-12-31 09:59 KST",
   "sources": [
     {
       "id": "HK",
@@ -19,8 +19,32 @@
     {
       "source": "HK",
       "press": "한국경제",
+      "published_at": "2025-12-31 09:26",
+      "title": "한은 \"고환율에 석유류 물가 상승…환율 영향 계속 유의\"",
+      "url": "https://www.hankyung.com/article/202512314209i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-31 09:05",
+      "title": "쿠팡 \"3000건만 유출\" 美 SEC 공시에도…주가는 \"못 믿어\" [종목+]",
+      "url": "https://www.hankyung.com/article/2025123140476",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-31 08:55",
+      "title": "\"어제 살 걸 그랬나\"…자고 일어났더니 '10% 급등' 대반전",
+      "url": "https://www.hankyung.com/article/202512314128i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
       "published_at": "2025-12-31 08:39",
-      "title": "'GD 탄 그 차' 판매 부진에 불똥 튄 엘앤에프…진화 나선 증권가 [종목+]",
+      "title": "'지드래곤이 탄 그 車' 대박날 줄 알았더니…개미들 피눈물 [종목+]",
       "url": "https://www.hankyung.com/article/2025123139656",
       "keywords_hit": []
     },
@@ -390,30 +414,6 @@
       "published_at": "2025-12-30 15:35",
       "title": "브룩필드, 청라 물류센터 KKR에 매각...국내 물류 자산 거래 역대 최대 규모",
       "url": "https://www.mk.co.kr/news/stock/11918990",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 15:25",
-      "title": "1호 IMA, 가입자 68%가 50대 이상",
-      "url": "https://www.mk.co.kr/news/stock/11918974",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 15:04",
-      "title": "환율 떨어지자 '오히려 좋아'…서학개미 무섭게 사들였다 [분석+]",
-      "url": "https://www.hankyung.com/article/202512301995i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 14:14",
-      "title": "비에이치아이 \"올해 신규 수주 규모 1.8조…품목·지역 확장 덕\"",
-      "url": "https://www.hankyung.com/article/2025123025586",
       "keywords_hit": []
     }
   ]
