@@ -1,14 +1,22 @@
 {
   "date": "2025-12-31",
-  "updated_at": "2025-12-31 13:01 KST",
+  "updated_at": "2025-12-31 13:44 KST",
   "count": 50,
   "items": [
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-31 12:22",
-      "title": "\"저런데 살면 무슨 기분일까\"…㎡당 1600만원 오피스텔",
-      "url": "https://www.hankyung.com/article/202512314581i",
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 13:28",
+      "title": "“달러 송금, 정말 불편했는데”…새해부터 ‘지정거래銀’ 26년만에 폐지",
+      "url": "https://www.mk.co.kr/news/economy/11919886",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 13:05",
+      "title": "비트코인 반감기 이듬해 사상첫 마이너스[매일코인]",
+      "url": "https://www.mk.co.kr/news/stock/11919875",
       "keywords_hit": []
     },
     {
@@ -393,14 +401,6 @@
       "published_at": "2025-12-30 17:24",
       "title": "구리값 고공행진에… S 이달 12% 상승",
       "url": "https://www.hankyung.com/article/2025123032931",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 17:23",
-      "title": "배당소득 분리과세 수혜…통신주 미소",
-      "url": "https://www.hankyung.com/article/2025123032911",
       "keywords_hit": []
     }
   ]
