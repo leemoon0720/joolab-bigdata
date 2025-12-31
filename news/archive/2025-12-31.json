@@ -1,8 +1,16 @@
 {
   "date": "2025-12-31",
-  "updated_at": "2025-12-31 23:19 KST",
+  "updated_at": "2025-12-31 23:40 KST",
   "count": 50,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 23:28",
+      "title": "[인사] KB증권",
+      "url": "https://www.mk.co.kr/news/stock/11920596",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -393,14 +401,6 @@
       "published_at": "2025-12-30 19:23",
       "title": "“올해는 국장이 답이었네”…시총 1960조 코스피, 1년새 3390조로 불었다",
       "url": "https://www.mk.co.kr/news/stock/11919331",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 18:38",
-      "title": "'달러당 1430원대'로 막았다더니…환율, 3시간 뒤 '급등' [한경 외환시장 워치]",
-      "url": "https://www.hankyung.com/article/202512303534i",
       "keywords_hit": []
     }
   ]
