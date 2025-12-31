@@ -1,8 +1,16 @@
 {
   "date": "2025-12-31",
-  "updated_at": "2025-12-31 15:16 KST",
+  "updated_at": "2025-12-31 15:51 KST",
   "count": 50,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 15:22",
+      "title": "아이톡시, 7억 원 규모 전환사채 발행",
+      "url": "https://www.mk.co.kr/news/stock/11919990",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -15,7 +23,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2025-12-31 15:02",
-      "title": "반도체·서학개미 덕분에…1~11월 국세수입 38조 더 걷혀",
+      "title": "'서학개미' 얼마나 벌었길래…'두둑'해진 나라 곳간",
       "url": "https://www.hankyung.com/article/202512314613i",
       "keywords_hit": []
     },
@@ -231,16 +239,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2025-12-30 18:06",
-      "title": "NH證 주식발행 1위 … 채권은 '전통의 강호' KB證 선두",
-      "url": "https://www.mk.co.kr/news/stock/11919281",
+      "title": "[유가증권시장 공시] LIG넥스원 / HS화성",
+      "url": "https://www.mk.co.kr/news/stock/11919280",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2025-12-30 18:06",
-      "title": "[유가증권시장 공시] LIG넥스원 / HS화성",
-      "url": "https://www.mk.co.kr/news/stock/11919280",
+      "title": "NH證 주식발행 1위 … 채권은 '전통의 강호' KB證 선두",
+      "url": "https://www.mk.co.kr/news/stock/11919281",
       "keywords_hit": []
     },
     {
@@ -393,14 +401,6 @@
       "published_at": "2025-12-30 17:34",
       "title": "[MK 시그널] 뜨거운 로봇ETF … 올 118%↑",
       "url": "https://www.mk.co.kr/news/stock/11919160",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 17:34",
-      "title": "\"연말정산 막차 타자\"… IRP·연금저축 급증",
-      "url": "https://www.mk.co.kr/news/stock/11919159",
       "keywords_hit": []
     }
   ]
