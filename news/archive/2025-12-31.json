@@ -1,8 +1,24 @@
 {
   "date": "2025-12-31",
-  "updated_at": "2025-12-31 17:56 KST",
+  "updated_at": "2025-12-31 18:24 KST",
   "count": 50,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 18:07",
+      "title": "베인캐피탈, ‘한국판 룰루레몬’ 안다르 모회사 인수한다",
+      "url": "https://www.mk.co.kr/news/stock/11920297",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 17:59",
+      "title": "국내 주요 펀드매니저 85% “코스피 2026년엔 더 오른다”",
+      "url": "https://www.mk.co.kr/news/stock/11920287",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -385,22 +401,6 @@
       "published_at": "2025-12-30 18:06",
       "title": "자산재평가 효과 … 서부T&D 껑충",
       "url": "https://www.mk.co.kr/news/stock/11919279",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 18:06",
-      "title": "M&A시장 2배 쑥 … 삼일, 재무·회계 '2관왕'",
-      "url": "https://www.mk.co.kr/news/stock/11919276",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 18:01",
-      "title": "코스피 '76%' 올랐다 … 실적 발판 내년 5천피 진격",
-      "url": "https://www.mk.co.kr/news/stock/11919261",
       "keywords_hit": []
     }
   ]
