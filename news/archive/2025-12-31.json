@@ -1,6 +1,6 @@
 {
   "date": "2025-12-31",
-  "updated_at": "2025-12-31 19:54 KST",
+  "updated_at": "2025-12-31 20:13 KST",
   "count": 50,
   "items": [
     {
@@ -73,6 +73,14 @@
       "published_at": "2025-12-31 16:58",
       "title": "이사회 독립 여전히 먼길 사외이사 의장 13% 불과",
       "url": "https://www.mk.co.kr/news/stock/11920136",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 16:44",
+      "title": "금·은 저리가라…16년만 ‘역대 최대 상승’ 구리, 올해 40% 급등했다",
+      "url": "https://www.mk.co.kr/news/stock/11920077",
       "keywords_hit": []
     },
     {
@@ -393,14 +401,6 @@
       "published_at": "2025-12-30 18:17",
       "title": "올해 76% 뛴 코스피, G20·OECD 1위…시총 3000조 돌파",
       "url": "https://www.hankyung.com/article/2025123033346",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-30 18:09",
-      "title": "글로벌세아, 제지사업 통매각 추진",
-      "url": "https://www.mk.co.kr/news/stock/11919290",
       "keywords_hit": []
     }
   ]
