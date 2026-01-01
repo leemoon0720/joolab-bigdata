@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-02 08:44 KST",
+  "updated_at": "2026-01-02 08:53 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,6 +25,22 @@
     {
       "source": "HK",
       "press": "한국경제",
+      "published_at": "2026-01-02 08:47",
+      "title": "신한證 \"BTS·블핑·엑소·빅뱅 온다…K팝 호황 이어질 것\"",
+      "url": "https://www.hankyung.com/article/2026010274136",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 08:43",
+      "title": "\"200만원 간다더니\"…차갑게 식은 '면비디아' [종목+]",
+      "url": "https://www.hankyung.com/article/2026010273556",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
       "published_at": "2026-01-02 08:37",
       "title": "윤병운 NH투자증권 사장 \"새해 '모험자본 투자 선봉'에 서야\" [신년사]",
       "url": "https://www.hankyung.com/article/2026010273936",
@@ -44,7 +60,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-02 08:33",
-      "title": "올해 영업익 100兆 전망에… 목표주가 뛴 SK하이닉스",
+      "title": "올해 '영업익 100조' 전망에…목표주가 뛴 SK하이닉스",
       "url": "https://www.hankyung.com/article/202601027374i",
       "keywords_hit": []
     },
@@ -292,22 +308,6 @@
       "keywords_hit": [
         "금리"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-01 16:06",
-      "title": "해외주식 팔고 국내주식 사면 稅혜택",
-      "url": "https://www.hankyung.com/article/2026010167521",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-01 16:06",
-      "title": "韓 75% '톱'…이스라엘·스페인 2·3위",
-      "url": "https://www.hankyung.com/article/2026010167531",
-      "keywords_hit": []
     },
     {
       "source": "MK",
