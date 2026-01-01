@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-02 07:19 KST",
+  "updated_at": "2026-01-02 07:40 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 07:32",
+      "title": "\"SK하이닉스, 내년 영업익 101조 전망…목표가 88만원\"-IBK",
+      "url": "https://www.hankyung.com/article/2026010272326",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -363,18 +371,6 @@
       "title": "올해도 AI가 세계경제 주도…거품 꺼지면 실물경제까지 타격",
       "url": "https://www.hankyung.com/article/2025123153851",
       "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-31 16:22",
-      "title": "AI 거품론·환율·美금리…새해 증시 흔들 '회색 코뿔소'",
-      "url": "https://www.hankyung.com/article/2025123153071",
-      "keywords_hit": [
-        "환율",
-        "금리",
         "AI"
       ]
     }
