@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-02 08:31 KST",
+  "updated_at": "2026-01-02 08:44 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,42 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 08:37",
+      "title": "윤병운 NH투자증권 사장 \"새해 '모험자본 투자 선봉'에 서야\" [신년사]",
+      "url": "https://www.hankyung.com/article/2026010273936",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 08:35",
+      "title": "“깜짝 실적 예고”…셀트리온 목표가 22만→23만원 상향",
+      "url": "https://www.mk.co.kr/news/stock/11921206",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 08:33",
+      "title": "올해 영업익 100兆 전망에… 목표주가 뛴 SK하이닉스",
+      "url": "https://www.hankyung.com/article/202601027374i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 08:26",
+      "title": "코스피, 새해 첫날 상승 불씨 지필까…12월 수출 지표는 '대박' [오늘장 미리보기]",
+      "url": "https://www.hankyung.com/article/202601027262i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -282,27 +318,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-01 15:07",
-      "title": "'고공행진' 금·은과 달리 횡보하는 비트코인…새해엔 반등할까",
-      "url": "https://www.hankyung.com/article/2026010166977",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-01 14:29",
       "title": "주식은 국장이라고?…‘3년째 상승장’ 뉴욕증시, 올해 16% 뛰었다",
       "url": "https://www.mk.co.kr/news/stock/11920803",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-01 12:54",
-      "title": "전설적 투자자 버핏, 60년만에 은퇴…누적 수익률 '610만%'",
-      "url": "https://www.hankyung.com/article/2026010165777",
       "keywords_hit": []
     },
     {
@@ -332,14 +352,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-01 10:07",
-      "title": "박현주 회장 장남, 올해부터 미래에셋증권서 근무",
-      "url": "https://www.hankyung.com/article/2026010162256",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-01 09:59",
@@ -353,14 +365,6 @@
       "published_at": "2026-01-01 07:06",
       "title": "9만불 넘기도 버거운데 또 질렀네…JP모건 “최대 17만불까지 오를 것”",
       "url": "https://www.mk.co.kr/news/stock/11920665",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-31 23:28",
-      "title": "[인사] KB증권",
-      "url": "https://www.mk.co.kr/news/stock/11920596",
       "keywords_hit": []
     }
   ]
