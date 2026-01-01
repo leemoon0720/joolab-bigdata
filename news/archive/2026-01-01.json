@@ -1,8 +1,16 @@
 {
   "date": "2026-01-01",
-  "updated_at": "2026-01-01 21:28 KST",
+  "updated_at": "2026-01-01 22:10 KST",
   "count": 50,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 22:00",
+      "title": "베인캐피털, 안다르 모회사 에코마케팅 잔여지분 공개 매수",
+      "url": "https://www.mk.co.kr/news/stock/11921102",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -393,14 +401,6 @@
       "published_at": "2025-12-31 16:19",
       "title": "잇단 계약 해지에 2차전지株 '암울'",
       "url": "https://www.hankyung.com/article/2025123153061",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-31 16:19",
-      "title": "코스닥 도약 열쇠는 '상장기업 IR 의무화'",
-      "url": "https://www.hankyung.com/article/2025123153031",
       "keywords_hit": []
     }
   ]
