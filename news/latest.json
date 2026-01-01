@@ -1,6 +1,2271 @@
 {
-  "updated_at": "2026-01-02 02:45 KST",
-  "sources": [],
-  "count": 0,
-  "items": []
+  "updated_at": "2026-01-02 02:55 KST",
+  "sources": [
+    {
+      "id": "HK",
+      "name": "한국경제",
+      "feed": "https://www.hankyung.com/feed/finance",
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "id": "MK",
+      "name": "매일경제",
+      "feed": "https://www.mk.co.kr/rss/50200011/",
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "id": "YNA",
+      "name": "연합뉴스(경제)",
+      "feed": "https://www.yna.co.kr/rss/economy.xml",
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "id": "ED_STOCK",
+      "name": "이데일리(증권)",
+      "feed": "http://rss.edaily.co.kr/stock_news.xml",
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "id": "ED_ECO",
+      "name": "이데일리(경제)",
+      "feed": "http://rss.edaily.co.kr/economy_news.xml",
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "id": "MT",
+      "name": "머니투데이",
+      "feed": "http://rss.mt.co.kr/mt_news.xml",
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "id": "ETNEWS_FIN",
+      "name": "전자신문(금융/증권)",
+      "feed": "http://rss.etnews.co.kr/Section022.xml",
+      "status": "MISSING",
+      "note": "no entries"
+    },
+    {
+      "id": "GN_KR_STOCK",
+      "name": "GoogleNews(한국증시)",
+      "feed": "https://news.google.com/rss/search?q=%ED%95%9C%EA%B5%AD+%EC%A6%9D%EC%8B%9C&hl=ko&gl=KR&ceid=KR:ko",
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "id": "GN_US_STOCK",
+      "name": "GoogleNews(미국주식)",
+      "feed": "https://news.google.com/rss/search?q=%EB%AF%B8%EA%B5%AD+%EC%A3%BC%EC%8B%9D&hl=ko&gl=KR&ceid=KR:ko",
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "id": "GN_SEMI",
+      "name": "GoogleNews(반도체)",
+      "feed": "https://news.google.com/rss/search?q=%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%A3%BC%EA%B0%80&hl=ko&gl=KR&ceid=KR:ko",
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "id": "GN_BIO",
+      "name": "GoogleNews(바이오)",
+      "feed": "https://news.google.com/rss/search?q=%EB%B0%94%EC%9D%B4%EC%98%A4+%EC%A3%BC%EC%8B%9D&hl=ko&gl=KR&ceid=KR:ko",
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "id": "GN_MACRO",
+      "name": "GoogleNews(환율/금리)",
+      "feed": "https://news.google.com/rss/search?q=%ED%99%98%EC%9C%A8+%EA%B8%88%EB%A6%AC+%EC%A6%9D%EC%8B%9C&hl=ko&gl=KR&ceid=KR:ko",
+      "status": "OK",
+      "note": ""
+    }
+  ],
+  "count": 250,
+  "items": [
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 17:36",
+      "title": "&quot;잔소리 아내는 악질 상사&quot;…서장훈, &#039;아내=강박&#039; 확신한 이유는?",
+      "url": "https://www.mt.co.kr/entertainment/2026/01/02/2026010202184352847",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 17:10",
+      "title": "&quot;사실 내가 월급 줬지&quot; 日 &#039;탈삼진 GOAT&#039; 울린 천적 정체, &#039;현직 택시기사&#039;가 떠올린 50년 전 추억",
+      "url": "https://www.mt.co.kr/sports/2026/01/02/2026010122565576097",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 17:05",
+      "title": "[청계광장]이야기가 무르익는 시간들",
+      "url": "https://www.mt.co.kr/opinion/2026/01/02/2025123017564889856",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 17:05",
+      "title": "[정유신의 china story]5% 성장에서 4% 성장으로 &#039;패러다임 시프트&#039;",
+      "url": "https://www.mt.co.kr/opinion/2026/01/02/2026010114234941574",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 17:03",
+      "title": "[투데이 窓]아카이브, 웹툰산업 도약의 발판",
+      "url": "https://www.mt.co.kr/opinion/2026/01/02/2025123116301075784",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 16:25",
+      "title": "&quot;한국, 월드컵 조 1위 가능&quot; 다크호스 평가 나왔다, 韓·日 등 단 4팀 선정",
+      "url": "https://www.mt.co.kr/sports/2026/01/02/2026010117332692330",
+      "keywords_hit": []
+    },
+    {
+      "source": "GN_KR_STOCK",
+      "press": "GoogleNews(한국증시)",
+      "published_at": "2026-01-01 16:21",
+      "title": "[속보] 오늘(31일) 국내 주식시장 휴장... 개장식은 1월 2일 - 금강일보",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE04Skpqcllvd1M5T1pHejlTSFMzVUl5ZWFvd25QeW5Pa2xsWVJNNnRiaVZzenRTby1jblJQbENkbjFvRUY2clZyRllrUVdFb05xQjNpZGVjM1RhTlhPcHd2bUpMTXdOOEtZLUE?oc=5",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 15:50",
+      "title": "&#039;야구계 비보&#039; 현대 왕조 주역 별세 &#039;향년 50세&#039;, 새해 첫날 투수 전준호 하늘의 별이 되다",
+      "url": "https://www.mt.co.kr/sports/2026/01/02/2026010122372833705",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 15:44",
+      "title": "&quot;오타니 또 MVP! 이정후의 SF, 송성문의 SD는...&quot; 2026 팀별 &#039;단 하나의 예언&#039; 나왔다 [MLB.com]",
+      "url": "https://www.mt.co.kr/sports/2026/01/02/2026010121013027454",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 15:29",
+      "title": "&#039;日 열도 충격&#039; 메이웨더에게 두들겨 맞았던 간판스타, 또 무참히 TKO 완패 &quot;보기 어려울 정도로 잔혹&quot;",
+      "url": "https://www.mt.co.kr/sports/2026/01/02/2026010123244160891",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 15:07",
+      "title": "대한축구협회 &#039;심판 개혁&#039; 추진, 정몽규 회장이 직접 밝혔다",
+      "url": "https://www.mt.co.kr/sports/2026/01/02/2026010114135730237",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 15:02",
+      "title": "&#039;LG가 1강 아니라니...&#039; 2026 KBO 순위 판도 &#039;3강-4중-3약&#039;→인공지능(AI)이 직접 답했다",
+      "url": "https://www.mt.co.kr/sports/2026/01/02/2026010122113174569",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 15:02",
+      "title": "&#039;메시보다는 손흥민과...&#039; 美 전역 SON에 푹 빠졌다! 무려 500명 대상 &#039;가장 뛰고 싶은 팀&#039; LAFC 선정",
+      "url": "https://www.mt.co.kr/sports/2026/01/02/2026010122011075839",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 15:01",
+      "title": "&#039;이렇게 겸손할수가!&#039; 김혜성 2025년 회고에 美 극찬 &quot;사랑 받을 수 밖에 없는 성품&quot;",
+      "url": "https://www.mt.co.kr/sports/2026/01/02/2026010119391467443",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 15:00",
+      "title": "올해 국가공무원 공채 선발규모 5천351명 확정…9급 3천802명",
+      "url": "https://www.yna.co.kr/view/AKR20260101041200001",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 15:00",
+      "title": "올해 국가공무원 5351명 뽑는다…선발인원 5년만에 반등",
+      "url": "https://www.mt.co.kr/policy/2026/01/02/2026010110173032806",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 14:20",
+      "title": "93세 이시형 박사 &quot;안전 위해 면허증 반납...경로석은 안 간다&quot;",
+      "url": "https://www.mt.co.kr/entertainment/2026/01/01/2026010122382694062",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 14:06",
+      "title": "&quot;억지로 먹인 거 아냐&quot;…한고은, &#039;소주 7병&#039; 강요 회식 해명",
+      "url": "https://www.mt.co.kr/entertainment/2026/01/01/2026010122185527715",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 13:56",
+      "title": "전남 목포 등 서부권 5곳 대설주의보…정읍·순창은 대설예비특보",
+      "url": "https://www.mt.co.kr/society/2026/01/01/2026010122331921481",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 13:50",
+      "title": "베인캐피털, 에코마케팅 공개 매수",
+      "url": "https://www.mk.co.kr/news/stock/11921152",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 13:31",
+      "title": "與, 탈당의사 밝힌 강선우에 &#039;제명 조치&#039; 초강수…&quot;사실상 복당 불가&quot;",
+      "url": "https://www.mt.co.kr/politics/2026/01/01/2026010121310040208",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 13:00",
+      "title": "베인캐피털, 안다르 모회사 에코마케팅 잔여지분 공개 매수",
+      "url": "https://www.mk.co.kr/news/stock/11921102",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 12:58",
+      "title": "&#039;세계 제패→단 6개월 만에 경질&#039; 공식발표, 충격 &#039;감독 왕따설&#039; 전말... &quot;아무도 나를 지지하지 않는다&quot;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010121442543526",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 12:47",
+      "title": "두 딸 뒤늦게 알렸던 KCM, 또 기쁜 소식...&quot;소중한 셋째 태어나&quot;",
+      "url": "https://www.mt.co.kr/entertainment/2026/01/01/2026010121052671737",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 12:30",
+      "title": "[속보]민주당, &#039;공천 헌금 의혹&#039; 강선우 제명…김병기엔 징계심판 요청",
+      "url": "https://www.mt.co.kr/politics/2026/01/01/2026010121295275562",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 11:40",
+      "title": "새해 첫날 비극…스위스 스키 리조트 폭발 사고, 140명 사상",
+      "url": "https://www.mt.co.kr/world/2026/01/01/2026010120085059490",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 11:21",
+      "title": "&#039;2025년 스포츠윤리대상 문화체육관광부 장관 표창 신설&#039; 스포츠윤리센터 시상식 성황리 개최",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010120104270024",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 11:07",
+      "title": "&quot;그대로 굴렀으면 대참사&quot;…180kg 거대 공에 달려든 &#039;디즈니 영웅&#039;",
+      "url": "https://www.mt.co.kr/world/2026/01/01/2026010119393240061",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 10:45",
+      "title": "[B하인드★] 문정현 동생 문유현, 데뷔전서 천재가드의 향기 진동",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010119375851761",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 10:35",
+      "title": "&quot;칼 들고 뛰어다닌다&quot; 어린이공원 입구 10대 흉기 난동...2명 부상",
+      "url": "https://www.mt.co.kr/society/2026/01/01/2026010119204294101",
+      "keywords_hit": []
+    },
+    {
+      "source": "GN_KR_STOCK",
+      "press": "GoogleNews(한국증시)",
+      "published_at": "2026-01-01 10:25",
+      "title": "[이로운전망] 2026년 홍콩, 한국, 미국증시 전망 - 이로운넷",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ha1Q0STQ4WkpMcVl2NUtUdlYwa09fQTRUcDViS1Q5X0NjTVl2aG5xRUdMM2RWS25qdTBDSmFwbXNzOU1SWWpyYmFmWWloeGVhZnJxQUdfc19RS3MxTGpuX1RJMEpIZw?oc=5",
+      "keywords_hit": [
+        "전망",
+        "증시"
+      ]
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 10:21",
+      "title": "&quot;새해 첫날부터 화내서 미안하지만...&quot; 3분 새 승부 갈렸다→사령탑 이례적 질책 [잠실 현장]",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010114480527291",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 10:09",
+      "title": "국민의힘, 강선우 탈당에 &quot;면피용 꼼수…의원 사퇴하고 수사 임하라&quot;",
+      "url": "https://www.mt.co.kr/politics/2026/01/01/2026010118464915725",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 10:08",
+      "title": "이 무슨 &#039;한국이 대만에 밀리다니...&#039;, 일본이 1위 압도적 질주 &#039;안타까운 현실인가&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010117351118673",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 09:30",
+      "title": "“넌 다 사! 환불은 내가 대신 해줄게”…미국서 신년 특수 누리는 이 직업 [오찬종의 매일뉴욕]",
+      "url": "https://www.mk.co.kr/news/stock/11921091",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 09:30",
+      "title": "&#039;전체 1순위 특급&#039; 문유현 데뷔전 맹활약→정관장 연승 질주... SK 3연패 실패 [잠실 현장리뷰]",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010114480214424",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 09:25",
+      "title": "스위스 스키 리조트서 새해맞이 파티 중 폭발…최소 10명 사망",
+      "url": "https://www.mt.co.kr/world/2026/01/01/2026010118021733014",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 09:23",
+      "title": "[포토] 한승희 &#039;3점슛 몽환미&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010118223951162",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 09:22",
+      "title": "[포토] 한승희 &#039;로빈후드 심정으로 쐈다&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010118212544191",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 09:21",
+      "title": "[포토] 한승희 &#039;로빈후드 3점슛 세리머니&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010118202032305",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 09:19",
+      "title": "한국회계학회 신임 회장에 김기영 명지대 교수",
+      "url": "https://www.mk.co.kr/news/stock/11921088",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 09:19",
+      "title": "[포토] 한승희 &#039;이겼다&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010118191137426",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 09:18",
+      "title": "[포토] 한승희 &#039;승부는 끝났어&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010118173197484",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 09:16",
+      "title": "[포토] 오재현 &#039;지금은 슈퍼소닉&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010118144195291",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 09:13",
+      "title": "[포토] 문유현 &#039;승리가 보인다&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010118123076383",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 09:11",
+      "title": "[포토] 자밀 워니 &#039;이지이지&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010118110029468",
+      "keywords_hit": []
+    },
+    {
+      "source": "GN_KR_STOCK",
+      "press": "GoogleNews(한국증시)",
+      "published_at": "2026-01-01 09:08",
+      "title": "반도체 주도 코리아 디스카운트 해소… 힘 받는 오천피 낙관론 [한국증시 재평가 시험대] - fnnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5aWV9qM19xaGtOMnFPZWczSGtEX2hjZ0o2d2Z0UGt0ZzlkRUVyZUx5ODNSU1VlRU1zZVBMaElwUGxveThNczRxWGlrQkNIOGE1ZExrUzhzb19TQdIBXkFVX3lxTE9xUU85dFJkbzFWUExqZzZaMVZhZng4eWVMNVh6SmtVZWJpT29XMGZTcmhoN3BtMzJJX05tZ2VSUy1SMFRwMVRxQWlQS25IT041Z3pFRERJa1YzZlBhcVE?oc=5",
+      "keywords_hit": [
+        "반도체",
+        "증시"
+      ]
+    },
+    {
+      "source": "GN_KR_STOCK",
+      "press": "GoogleNews(한국증시)",
+      "published_at": "2026-01-01 09:08",
+      "title": "저성장·고금리·고환율 3중 압박… 상승세 발목 [한국증시 재평가 시험대] - fnnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1LbjY5SGxMWEtqU2lKcWgxelpLc05WdVVmLUxFY3NIdU8wcVJ3TXJsZFJrRklsd2EyWF9renY0MlRwaHF2Zl9Fc1JTdHlsTE00M1BXWENFeHktUdIBXkFVX3lxTE9kNFZ1U24yZ09XWkxESDhmcEM5RnVtMXdTdGxaNVpOLU5kYmZ2U2JnUmRjdFBITWxaNGNqa3RSNEVrVEV2TC1tdjBzYWYySXZqN2lWbjN0aHlUUFQ0Qnc?oc=5",
+      "keywords_hit": [
+        "환율",
+        "금리",
+        "증시"
+      ]
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 09:07",
+      "title": "[포토] 안영준 &#039;늦었어 아반도&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010118061255482",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 09:05",
+      "title": "[포토] 안영준 &#039;힘에는 힘&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010118041327225",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 09:03",
+      "title": "[포토] 최부경 &#039;집념의 레이업슛&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010118023316300",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 09:02",
+      "title": "[포토] 최부경 &#039;빈틈을 찾았다&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010118001892200",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 09:00",
+      "title": "[내일 날씨] 새해 첫 출근길 영하 17도 &#039;한파&#039;…강풍에 체감온도 뚝",
+      "url": "https://www.mt.co.kr/society/2026/01/01/2026010116592695598",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:59",
+      "title": "[포토] 전희철 감독 &#039;혼신의 작전 지시&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010117584084681",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:57",
+      "title": "&quot;경기 퀄리티 너무 떨어져&quot; 꼴찌팀에 승승패패패, &#039;선두 대한항공 충격패&#039; 사령탑도 불만 폭발 [인천 현장]",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010116354516160",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:55",
+      "title": "[포토] 오재현 &#039;새해 첫날부터 이게 뭐람&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010117544199626",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:54",
+      "title": "교황도 감동한 성심당...&quot;훌륭한 활동 이어가길&quot; 창립 70주년 깜짝 축복",
+      "url": "https://www.mt.co.kr/culture/2026/01/01/2026010117424925699",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:54",
+      "title": "[포토] 유도훈 감독 &#039;이럴 땐 박수를 쳐야&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010117530172915",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:52",
+      "title": "[포토] 유도훈 감독 &#039;칭찬도 쿨해&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010117504869622",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:50",
+      "title": "[포토] 문유현 &#039;승리 예감 엄지척&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010117491914432",
+      "keywords_hit": []
+    },
+    {
+      "source": "GN_US_STOCK",
+      "press": "GoogleNews(미국주식)",
+      "published_at": "2026-01-01 08:50",
+      "title": "정부 '국장 복귀' 노력 통했나…연말 들어 서학개미 매도세 전환 - 이데일리",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOEk3TFlScktWYks3WFRUYTVqM2Fxd2Itd3hOQ3F2eDhZWXUzRmZGenFnTTFlenZ0RHU2d2hXSm85Vjlpc3Nmd3hMM25oWElDSUhHZVJMbV9VTGpmLVRQdk9xOFdLem9yM1MzUGdDSEZ5VVkxWW5yVzdlczR2Q09EQQ?oc=5",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:49",
+      "title": "[포토] 변준형 &#039;아, 에디 다니엘&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010117473416376",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:46",
+      "title": "[포토] 승주 &#039;센터에서 칼군무&#039;",
+      "url": "https://www.mt.co.kr/entertainment/2026/01/01/2026010117444683971",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:44",
+      "title": "[포토] 세이마이네임 &#039;농구는 수비죠&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010117405759343",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:44",
+      "title": "[포토] 카니-소하 &#039;새해에도 달려&#039;",
+      "url": "https://www.mt.co.kr/entertainment/2026/01/01/2026010117424416049",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:43",
+      "title": "새해 첫 해맞이 나섰다가...뺑소니 사고에 70대 여성 끝내 사망",
+      "url": "https://www.mt.co.kr/society/2026/01/01/2026010117310732636",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:41",
+      "title": "한라산에 30㎝ 눈 쌓인다...제주 산지 대설주의보",
+      "url": "https://www.mt.co.kr/society/2026/01/01/2026010117323187736",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:40",
+      "title": "[포토] 세이마이네임 &#039;새해 벽두 쿵쿵따&#039;",
+      "url": "https://www.mt.co.kr/entertainment/2026/01/01/2026010117395265481",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:39",
+      "title": "[포토] 카니 &#039;병오년 축가&#039;",
+      "url": "https://www.mt.co.kr/entertainment/2026/01/01/2026010117380939198",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 08:37",
+      "title": "\"코스피지수 1분기 4500 넘을 것\"",
+      "url": "https://www.hankyung.com/article/2026010169051",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:37",
+      "title": "[포토] 세이마이네임 &#039;새해 복 많이 받으세요&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010117354938417",
+      "keywords_hit": []
+    },
+    {
+      "source": "GN_KR_STOCK",
+      "press": "GoogleNews(한국증시)",
+      "published_at": "2026-01-01 08:37",
+      "title": "\"코스피지수 1분기 4500 넘을 것\" - 한국경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DVUgxYnkwOTBienJJd3pWdHlnNXA4dkJmRUpsY1ZLZHNjQ3lWRnZ4M25OWmlBaVZzei1BdlJQOE95cXFGcElTT08wUUhFbVljWHlDRklLZ3hLUdIBVEFVX3lxTFBqYnZiVUtUQV9XUlBOR09PelZpaUloYjk4Y1NGVDRpZW5XZmhQUkRCMzJtUXdnR01IN041Zm1ycnJvcjJEUzMyb2UwQzgtVGJ0MVFtNw?oc=5",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 08:35",
+      "title": "이혜훈 '보좌진 갑질' 녹취 폭로…李측 \"진심으로 사과, 반성\"(종합2보)",
+      "url": "https://www.yna.co.kr/view/AKR20260101028452001",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:33",
+      "title": "&#039;역시&#039; KIA의 김도영 그 누구도 &#039;범접불가&#039;, 무려 21주 연속 스타랭킹 1위 위용 &#039;대단하네&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010117085213087",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 08:32",
+      "title": "金·銀, 올해 전망도 '반짝'",
+      "url": "https://www.mk.co.kr/news/stock/11921013",
+      "keywords_hit": [
+        "전망"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 08:32",
+      "title": "[미국 주식 돋보기] AI 투자 확대에 뜬 스토리지 기업",
+      "url": "https://www.mk.co.kr/news/stock/11921010",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 08:32",
+      "title": "실적 전망 감안땐 삼전보다 싸진 마이크론",
+      "url": "https://www.mk.co.kr/news/stock/11921012",
+      "keywords_hit": [
+        "실적",
+        "전망"
+      ]
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:32",
+      "title": "&#039;삐약이&#039; 신유빈, 안세영마저 제쳤다! 대단하네 13주 연속 &#039;스타랭킹 女 1위&#039; 질주",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010117090231044",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:32",
+      "title": "&#039;공천헌금 의혹&#039; 강선우 탈당, 지방선거 앞두고 대형 악재 만난 與",
+      "url": "https://www.mt.co.kr/politics/2026/01/01/2026010117281571743",
+      "keywords_hit": [
+        "악재"
+      ]
+    },
+    {
+      "source": "GN_US_STOCK",
+      "press": "GoogleNews(미국주식)",
+      "published_at": "2026-01-01 08:32",
+      "title": "[미국 주식 돋보기] AI 투자 확대에 뜬 스토리지 기업…샌디스크, S&P500 중 상승률 '킹' - 매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5oSTlmQ01SRzNZem9DNlVkNXB4ZmIzVGxsWG1TU3dYTzc5WjNhRHdkajRqLWVXNk05OHlXaDJ4ZkhCTi11WklseGk1U3hKYW1mcFE?oc=5",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:31",
+      "title": "[포토] 문유현, 안성우 허 찌르고 미들슛",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010117295558488",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:30",
+      "title": "레알 마드리드 &#039;날벼락&#039;, 쓰러진 음바페 &#039;부상 OUT&#039; 공식화... &#039;또 악재&#039; 알론소 감독 경질설",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010116184383299",
+      "keywords_hit": [
+        "악재"
+      ]
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:30",
+      "title": "&quot;누적 수익률 610만%&quot;…버핏, 60년 만에 예고된 은퇴",
+      "url": "https://www.mt.co.kr/world/2026/01/01/2026010117193070248",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:30",
+      "title": "경북·포스코 맞손 &#039;혁신성장 벤처펀드&#039;, 1092억 자펀드 결성 추진",
+      "url": "https://www.mt.co.kr/future/2026/01/01/2026010116290944964",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:27",
+      "title": "&#039;20점 리드&#039; 날려버린 가스공사→강혁 감독 자책 &quot;제 실수로 경기 넘겨줬다, 선수들에 미안&quot;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010116512515592",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:26",
+      "title": "[포토] 문유현 &#039;홍삼의 힘&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010117261095123",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:26",
+      "title": "&#039;공천헌금 의혹&#039; 강선우, 민주당 자진 탈당…&quot;수사 적극 협조&quot;",
+      "url": "https://www.mt.co.kr/politics/2026/01/01/2026010117151880611",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:22",
+      "title": "[포토] 문유현 &#039;과감한 돌파&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010117204368384",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:20",
+      "title": "[포토] 톨렌티노 &#039;아반도 너무 빨라&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010117185038090",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 08:19",
+      "title": "美 국채부터 주식·금·원유까지…실물연계 디지털자산 폭풍 성장",
+      "url": "https://www.mk.co.kr/news/stock/11920955",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 08:19",
+      "title": "美 가상자산 ETF 45조원 몰릴때…韓 규제묶여 관련상품 0개",
+      "url": "https://www.mk.co.kr/news/stock/11920954",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:17",
+      "title": "[포토] 먼로 &#039;역대급 체공 시간&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010117162355648",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:16",
+      "title": "돈 가치 44분의 1 폭락...Z세대까지 들고일어난 이란의 &#039;분노&#039;",
+      "url": "https://www.mt.co.kr/world/2026/01/01/2026010115391971849",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:15",
+      "title": "[포토] 전희철 감독 &#039;이건 따져야 해&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010117142533517",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:15",
+      "title": "[속보]&#039;공천헌금 의혹&#039; 강선우 &quot;탈당하겠다…국민·당원께 거듭 죄송&quot;",
+      "url": "https://www.mt.co.kr/politics/2026/01/01/2026010117122995324",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:14",
+      "title": "[포토] 워싱턴-아만도 &#039;우리에겐 문유현이 있다&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010117124835269",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:12",
+      "title": "[포토] 문유현 &#039;꾀돌이의 미소&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010117113340026",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:10",
+      "title": "[포토] 문유현 &#039;내겐 지도가 보여&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010117092183369",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:08",
+      "title": "[포토] 문유현 &#039;어시가 쉬웠어요&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010117070582159",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:06",
+      "title": "[포토] AIR 아반도, 새해 첫 덩크슛",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010117045699429",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 08:03",
+      "title": "[포토] 오브라이언트 &#039;날았다&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010117022465651",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 07:59",
+      "title": "[포토] 문유현 &#039;천재가드가 공간을 읽는 법&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010116583723644",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 07:57",
+      "title": "[포토] 박지훈 &#039;클린 미들슛&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010116553151360",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 07:55",
+      "title": "탑, 솔로도 돌아오나…데뷔 20주년 맞춰 새 앨범 예고",
+      "url": "https://www.mt.co.kr/entertainment/2026/01/01/2026010116363061694",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 07:54",
+      "title": "[포토] 변준형 &#039;달아나는 3점슛&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010116532431093",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 07:52",
+      "title": "[포토] 김종규-최부경 &#039;격돌 2026&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010116510814413",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 07:50",
+      "title": "[포토] 김종규 &#039;최부경 가볍게 제치고&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010116490846602",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 07:45",
+      "title": "문재인 만난 與정청래 &quot;한반도 평화 문제 풀어갈 가르침 요청&quot;",
+      "url": "https://www.mt.co.kr/politics/2026/01/01/2026010116232885831",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 07:45",
+      "title": "[포토] 소하 &#039;백퍼 승리요정&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010116422655387",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 07:44",
+      "title": "강훈식 비서실장, 이재명 대통령과 떡국 조찬 후 &quot;올해, 작년보다 반드시 나을 것&quot;",
+      "url": "https://www.mt.co.kr/politics/2026/01/01/2026010116270445696",
+      "keywords_hit": []
+    },
+    {
+      "source": "GN_KR_STOCK",
+      "press": "GoogleNews(한국증시)",
+      "published_at": "2026-01-01 07:43",
+      "title": "\"상승장에도 단기 대박은 허구…인내와 성실이 답\" - 한국경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5KcU9HelNHNGFGX2ppbnZvQVJZeXpIaGRxQzEwaEZsc21YQUl6Y0pYd2pEMDMzN0xOaW9zcFhZMjlUNzNKQkh3X3JXcHViZ3pXQmNoN0d3ZlpvUdIBVEFVX3lxTE1hQTZvcEFOZGRPdXpZR0pBNnZwVEs3bGc5QlN4aE1YelE1dWtBQmtkZkpiLXpCN2pFcDJ2WEpsY0F1UTU2c0p5WmJMdklNTUNIUVNwWQ?oc=5",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 07:41",
+      "title": "정청래 &quot;불광불급&quot; 장동혁 &quot;민유방본&quot;…새해 첫날 지선 승리 다짐",
+      "url": "https://www.mt.co.kr/politics/2026/01/01/2026010114352513620",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 07:41",
+      "title": "[포토] SAY MY NAME 소하 &#039;클린샷 시투&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010116400073798",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 07:40",
+      "title": "벽두부터 &quot;참을 만큼 참았다&quot;…&#039;쇄신&#039; 앞둔 장동혁號에 쌓이는 &#039;내홍&#039;",
+      "url": "https://www.mt.co.kr/politics/2026/01/01/2026010113374495544",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 07:39",
+      "title": "[포토] 소하 &#039;떨리는 새해 첫 시투&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010116382044099",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 07:38",
+      "title": "&#039;유리몸&#039; 오명 극복만 하면 &#039;대박 투수&#039;→또 알짜 NEW FA 영입! 이정후의 SF 기대감 커진다",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010114575049487",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 07:37",
+      "title": "[포토] 소하 &#039;시투 성공 후 댄스 작렬&#039;",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010116350816011",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 07:35",
+      "title": "&#039;선두 대항항공도 잡았다&#039; 11연패→첫 연승이라니, 삼성화재 2026년 최고의 스타트 [인천 현장리뷰]",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010113441463128",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 07:35",
+      "title": "&#039;사상 첫 형제 1순위&#039; 동생, 드디어 프로 무대 출격... &quot;리듬이 다르다&quot; 적장도 인정한 &#039;특급 신인&#039; [잠실 현장]",
+      "url": "https://www.mt.co.kr/sports/2026/01/01/2026010114473935946",
+      "keywords_hit": []
+    },
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 07:34",
+      "title": "[포토] 소하 &#039;세이마이네임 승요&#039;",
+      "url": "https://www.mt.co.kr/entertainment/2026/01/01/2026010116333092859",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 07:17",
+      "title": "코스피 5000까지…馬 달리자",
+      "url": "https://www.hankyung.com/article/2026010167361",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "GN_KR_STOCK",
+      "press": "GoogleNews(한국증시)",
+      "published_at": "2026-01-01 07:17",
+      "title": "코스피 5000까지…馬, 달리자 - 한국경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDZ010QzIwd21STnBXczFoZm5QNlp6cTQxTXBMNVpJZVFQbkNtel9GeFptZWtSWU0wLVRpZlFxaUxrMHN1YTNGU0ZqdlFaZS1lUkNSY0pJbFRIQdIBVEFVX3lxTE0yVHpQOExmQWNrOUhNdFhWUi1KVXhibFZURGpkb0FWZ3MwM3dLTXU1aVdPbHJRLUdNMmt6RVROcUZfSHZCTnBWTURiYXJ6M1VNcUtkTA?oc=5",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 07:16",
+      "title": "\"지주사, 상법 개정 수혜주…AI 사이클, 타 업종으로 확산\"",
+      "url": "https://www.hankyung.com/article/2026010167351",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 07:16",
+      "title": "'14만전자·115만닉스 된다' 파격 전망…개미들 '흥분'",
+      "url": "https://www.hankyung.com/article/2026010167401",
+      "keywords_hit": [
+        "전망"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 07:15",
+      "title": "AI 인프라·로봇주 주목…대한광통신·에스피지 질주",
+      "url": "https://www.hankyung.com/article/2026010167381",
+      "keywords_hit": [
+        "AI",
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 07:15",
+      "title": "기술 우위가 곧 경쟁력…알파벳·엔비디아 집중",
+      "url": "https://www.hankyung.com/article/2026010167451",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 07:14",
+      "title": "美 메가캡 성장주 ETF 담아라…MGK 돈 몰릴까",
+      "url": "https://www.hankyung.com/article/2026010167461",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 07:10",
+      "title": "금보다 더 무섭게 오르더니…해외 큰손도 '예측 포기'",
+      "url": "https://www.hankyung.com/article/2026010167511",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 07:09",
+      "title": "국채금리 단기 고점…\"채권개미, 방망이는 짧게\"",
+      "url": "https://www.hankyung.com/article/2026010167501",
+      "keywords_hit": [
+        "금리"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 07:09",
+      "title": "서울 송파구·경기 과천시 작년 아파트값 20% 넘게 급등(종합)",
+      "url": "https://www.yna.co.kr/view/AKR20260101031851003",
+      "keywords_hit": [
+        "급등"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 07:06",
+      "title": "해외주식 팔고 국내주식 사면 稅혜택",
+      "url": "https://www.hankyung.com/article/2026010167521",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 07:06",
+      "title": "韓 75% '톱'…이스라엘·스페인 2·3위",
+      "url": "https://www.hankyung.com/article/2026010167531",
+      "keywords_hit": []
+    },
+    {
+      "source": "GN_KR_STOCK",
+      "press": "GoogleNews(한국증시)",
+      "published_at": "2026-01-01 07:06",
+      "title": "해외주식 팔고 국내주식 사면 稅혜택 - 한국경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56ZlpqaWF0dzBfLTF0X19wRFZiOGtyanI5SGFJLWR6dEM1NTkwcl9lN25ZSEVqa3BaUVQ5N0hDOGgtTXkxazFDQ0NfM1BTQVZyaU5ERDVsZHJPQdIBVEFVX3lxTE1jQkN4UFoyaEFjZFpGVUFySDRWV3NqMVJxazZWekdNZ1RzNk5xa216ZFdDaGRDaWhHUTluVFJQMU80V3drV2JrcGlBbWxBZFY5RDJNOA?oc=5",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 07:02",
+      "title": "진짜 떠나나요? 수익률 610만% ‘투자의 전설’…60년만에 은퇴하는 버핏",
+      "url": "https://www.mk.co.kr/news/stock/11920853",
+      "keywords_hit": []
+    },
+    {
+      "source": "GN_SEMI",
+      "press": "GoogleNews(반도체)",
+      "published_at": "2026-01-01 06:37",
+      "title": "AI 메모리 수요 폭발…제우스, 반도체 장비 신사업 가속 - 핀포인트뉴스",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE51UmltZzdiQ25JRWUyenNVZDlmQ0hYMFlWOTdSTlJ6dHJLSWVlbl9RZjEzOWhoRHhoeHpnbVMwRHpnZHZfSkowQTFKTkxnbWRTVjVnemU2SDhJcmVIWDVVQVlOcUczdG5ZUml4RFJBblR5Tk3SAXdBVV95cUxQYV9jQUF1aE41bF8xMGNmOWJsN0hwQktyME9DWkNuUWdsNHVxV1FoZUJSaExRWFFBR1gxYnZodEJwTm5BcFdoUk4tY0tIN2VhWkgzREpPcTlrRGdRcTJCdHFIVWdnbHdrN2hJRWhYWVRyNTc1VG9xcw?oc=5",
+      "keywords_hit": [
+        "반도체",
+        "AI"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 06:31",
+      "title": "쿠팡 겨냥한 금감원장 \"대형 유통플랫폼, 금융기관 준해서 감독\"(종합)",
+      "url": "https://www.yna.co.kr/view/AKR20251231123451002",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 06:07",
+      "title": "'고공행진' 금·은과 달리 횡보하는 비트코인…새해엔 반등할까",
+      "url": "https://www.hankyung.com/article/2026010166977",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 06:00",
+      "title": "[연합뉴스 이 시각 헤드라인] - 15:00",
+      "url": "https://www.yna.co.kr/view/AKR20260101034200011",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 05:29",
+      "title": "주식은 국장이라고?…‘3년째 상승장’ 뉴욕증시, 올해 16% 뛰었다",
+      "url": "https://www.mk.co.kr/news/stock/11920803",
+      "keywords_hit": [
+        "증시"
+      ]
+    },
+    {
+      "source": "GN_KR_STOCK",
+      "press": "GoogleNews(한국증시)",
+      "published_at": "2026-01-01 05:29",
+      "title": "주식은 국장이라고?…‘3년째 상승장’ 뉴욕증시, 올해 16% 뛰었다 - 매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1yc1RsTE1UU1RuXzBqaHUzSUZON2l0amR3ekllajNpeWo3c01oaXZEREdSQ0lVM1c3eTZ0SlJJR2tRYkVWLS1YOW13dVJNVFdwMGc?oc=5",
+      "keywords_hit": [
+        "증시"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 05:19",
+      "title": "이혜훈 '보좌진 갑질' 녹취 폭로…李측 \"진심으로 사과, 반성\"(종합)",
+      "url": "https://www.yna.co.kr/view/AKR20260101028451001",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 05:00",
+      "title": "[동정] 한국회계학회 신임 회장에 김기영 명지대 교수",
+      "url": "https://www.yna.co.kr/view/AKR20260101034500505",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 05:00",
+      "title": "서울 아파트값 주간 상승률 횡보…한강벨트 강세는 지속",
+      "url": "https://www.yna.co.kr/view/AKR20260101031800003",
+      "keywords_hit": []
+    },
+    {
+      "source": "GN_SEMI",
+      "press": "GoogleNews(반도체)",
+      "published_at": "2026-01-01 04:31",
+      "title": "환경시험·반도체 장비 동시 회복 기대… 3S 실적 바닥 통과 가능성 - 핀포인트뉴스",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9GWXpsQ2c2VWdYaE9EQkxjb2dJdnZ5YURPNzB1dzR4aFc2cXAwU2VNcHVrLUlKWEpqUi1LSXhvWmhVdWFMU1M5QmVyZ2hTQmZ0ak5WN0ZmSE5VajRvemduTEljbTVzeS1ZVTJuVU1HNUNMMXM?oc=5",
+      "keywords_hit": [
+        "실적",
+        "반도체"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 03:54",
+      "title": "전설적 투자자 버핏, 60년만에 은퇴…누적 수익률 '610만%'",
+      "url": "https://www.hankyung.com/article/2026010165777",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 03:42",
+      "title": "이혜훈 '보좌진 갑질' 녹취 폭로…국힘 \"청문회 통과 어려울 것\"",
+      "url": "https://www.yna.co.kr/view/AKR20260101028400001",
+      "keywords_hit": []
+    },
+    {
+      "source": "GN_US_STOCK",
+      "press": "GoogleNews(미국주식)",
+      "published_at": "2026-01-01 03:30",
+      "title": "[새해 경제기상도]주식·부동산·소비자 경제 - 매일신문",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5WZ2dTWDhSa1hwUDBDWXR5TldVVk5jQkVBQ0VCdjJkb1pQLW1ua09pX2YxZ2djWDRDaXFiemw3NUdvY1o5c2EzcS1iUG1MSEk4X0toZV9OcVVsN19SRlR1QzlB?oc=5",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 03:05",
+      "title": "새해 첫날 일부 복권판매점 로또 발행 일시 중단",
+      "url": "https://www.yna.co.kr/view/AKR20260101030700002",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 03:00",
+      "title": "은행권, 3천600억원 새도약기금 출연 완료",
+      "url": "https://www.yna.co.kr/view/AKR20251231106000002",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 03:00",
+      "title": "중기부, '노쇼' 피해 소상공인에 법률상담 지원…매년 실태조사",
+      "url": "https://www.yna.co.kr/view/AKR20251231106600030",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 03:00",
+      "title": "[인사] 중소벤처기업부",
+      "url": "https://www.yna.co.kr/view/AKR20251231109400030",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 03:00",
+      "title": "비정규직→정규직 전환시 월 최대 60만원 지원…2년만 재개",
+      "url": "https://www.yna.co.kr/view/AKR20251231121100530",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 03:00",
+      "title": "인구감소지역 기업, 주민 고용시 근로자 1인당 45만원 세금 감면",
+      "url": "https://www.yna.co.kr/view/AKR20251231130100530",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 03:00",
+      "title": "올해 노인 단독가구, 소득인정액 월 247만원 이하면 기초연금",
+      "url": "https://www.yna.co.kr/view/AKR20251231135100530",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 03:00",
+      "title": "[신년사] 금감원장 \"금융소비자가 최우선…주가조작 꿈도 못 꿀 것\"",
+      "url": "https://www.yna.co.kr/view/AKR20251231123400002",
+      "keywords_hit": [
+        "주가"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 03:00",
+      "title": "과기·ICT R&D에 8.1조 투입…정부, AI 3강 도약 시동",
+      "url": "https://www.yna.co.kr/view/AKR20260101024700017",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 02:15",
+      "title": "서울핀테크랩 입주기업 누적매출 8천662억 달성…투자매칭 강화",
+      "url": "https://www.yna.co.kr/view/AKR20260101017900004",
+      "keywords_hit": [
+        "매출"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 02:11",
+      "title": "올 상반기 건설업 일평균 임금 27만9천988원…작년보다 1.44%↑",
+      "url": "https://www.yna.co.kr/view/AKR20260101027800003",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 02:00",
+      "title": "어구·부표 보증금제 대상 확대…자망·부표·장어통발 추가",
+      "url": "https://www.yna.co.kr/view/AKR20251231107100030",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 02:00",
+      "title": "e수산공익직불 서비스 시작…\"직불제 정보 확인 편리하게\"",
+      "url": "https://www.yna.co.kr/view/AKR20251231120300030",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 02:00",
+      "title": "국내 최대 건설장비업체 HD건설기계 출범…2030년 매출 14.8조 목표",
+      "url": "https://www.yna.co.kr/view/AKR20260101023300003",
+      "keywords_hit": [
+        "매출"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 02:00",
+      "title": "산업부·중기부, 'CES 2026'에 통합한국관…역대 최대 규모",
+      "url": "https://www.yna.co.kr/view/AKR20260101024100003",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 02:00",
+      "title": "전세사기 피해자 664명 추가 인정…누적 3만5천909명",
+      "url": "https://www.yna.co.kr/view/AKR20260101025000003",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 01:55",
+      "title": "韓 사상 첫 7천억달러 수출…반도체 수출 '역대 최대'로 견인(종합)",
+      "url": "https://www.yna.co.kr/view/AKR20260101016352003",
+      "keywords_hit": [
+        "수출",
+        "반도체"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 01:38",
+      "title": "AI거품론 쏘아올린 올트먼, 리딩방 오픈한 버블무새…월가를 울렸다",
+      "url": "https://www.mk.co.kr/news/stock/11920727",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 01:36",
+      "title": "트럼프 허풍에 줍줍하고, 버핏 마지막 투자에 감탄…서학개미 2025년 결산",
+      "url": "https://www.mk.co.kr/news/stock/11920725",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 01:35",
+      "title": "[연합뉴스 이 시각 헤드라인] - 10:30",
+      "url": "https://www.yna.co.kr/view/AKR20260101021900011",
+      "keywords_hit": []
+    },
+    {
+      "source": "GN_KR_STOCK",
+      "press": "GoogleNews(한국증시)",
+      "published_at": "2026-01-01 01:16",
+      "title": "중국 금융시장, 기대감과 우려 교차…국내증시 영향 주목 - 네이트",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5SNE02T1VvOWRNYmhiVE52Sl9QaDhISW54TE5xd3lHZGQtaWdaRFNaNmNGT0FlcWRBLUNiX1N3M3JNaVJlU3ZNMlVnallRTTJYOEJF?oc=5",
+      "keywords_hit": [
+        "증시"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 01:14",
+      "title": "관세청장, 새해 첫 행보로 인천공항 수출화물 통관 현장 방문",
+      "url": "https://www.yna.co.kr/view/AKR20260101022000002",
+      "keywords_hit": [
+        "수출"
+      ]
+    },
+    {
+      "source": "GN_KR_STOCK",
+      "press": "GoogleNews(한국증시)",
+      "published_at": "2026-01-01 01:10",
+      "title": "“빚 내서 증시 올라타자” 열풍에… 일부 증권사, 빌려줄 돈 ‘바닥’ - 조선비즈 - Chosunbiz",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbmt3OHVWd29GWktwaGV6bUxRMG92Q1hOQlRyNkNLNXJCLWhBSjVoNVQzenVScW9CR0tSakFyWHFCdU1kc2RTZW11UU9lSDJXVEZGN2xBeG93LVF2M3R0Z0tST1RpcG95aExoSGYzSEs5TVEtSC1xbUpzcEhDdmJUTG9UeG1hTC050gGcAUFVX3lxTE1yX2FrZ1oyM1NKNUFxVEN3WEVWSU1DS2NOaVBPc3h5WW1qZDJVRjNUV0Fiam5HaFM3cXNKcWF1Q0ZCTWQyWEhWMXJ0Uks4Y0VHd2RYRWRXdnI3dXdVVE5DS1RmZXpZT2h4UnVWOW1XRDc2Wm5iM0pNYUxTU01TV010b1VXbWNESzkySVMyMnhRdS1IY3UteUc1OFBLcA?oc=5",
+      "keywords_hit": [
+        "증시"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 01:09",
+      "title": "디지털자산 시장 2025년 3가지 회고, 2026년 3가지 전망 [엠블록레터]",
+      "url": "https://www.mk.co.kr/news/stock/11920712",
+      "keywords_hit": [
+        "전망"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 01:07",
+      "title": "박현주 회장 장남, 올해부터 미래에셋증권서 근무",
+      "url": "https://www.hankyung.com/article/2026010162256",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 01:05",
+      "title": "수출 7천억달러 이후의 과제…거세지는 '무역장벽' 올해가 문제",
+      "url": "https://www.yna.co.kr/view/AKR20260101021700003",
+      "keywords_hit": [
+        "수출"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 01:00",
+      "title": "[2보] 韓 수출 첫 7천억달러 돌파…반도체 1천734억달러 '역대최대'",
+      "url": "https://www.yna.co.kr/view/AKR20260101016351003",
+      "keywords_hit": [
+        "수출",
+        "반도체"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 01:00",
+      "title": "우리은행, 디지털영업그룹장에 삼성전자 출신 정의철 영입",
+      "url": "https://www.yna.co.kr/view/AKR20251231134800002",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 00:59",
+      "title": "“몇년을 물렸는데, 본전 왔을때 팔아야죠”…작년 개미 순매도 역대최대",
+      "url": "https://www.mk.co.kr/news/stock/11920710",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 00:52",
+      "title": "이억원 \"대한민국 방방곡곡 숨은 혁신기업 발굴·투자 총력\"",
+      "url": "https://www.hankyung.com/article/2026010161816",
+      "keywords_hit": []
+    },
+    {
+      "source": "GN_KR_STOCK",
+      "press": "GoogleNews(한국증시)",
+      "published_at": "2026-01-01 00:52",
+      "title": "[2026 증시] ① 미답의 ’코스피 5000 시대’ 머지 않았다 - 조선비즈 - Chosunbiz",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOU05uZ3k3NVVnZnpFOE5ZZTBTTHkwVjRHMWtaeWtueVR4anl2RjFodlNPMzR4cXJFa1hwVkJEMFcwelhXR3hNakppTHk3SnEzV1BFWHlaUmtTVXM0a1FlMUd3OXl3ZW1mRUlUWTFaS0JNUnZBUkRSUTVuaFNsNUhobF9oQ2tGTUdh0gGcAUFVX3lxTE1VTUl6Q1hmNm43amxqQjFJWWRTbU9RSWlmM0lUbmJKOXVBSnplcFRHaUprdEZvN29mc0taOC1TMnJqc1dMUUNUeWhfb2JCbDdta2p2d0tTOVplM1I5VUpMTS05WE1na2hJckdIRWVETXdIa2FUSXlMbUZya2dLaEk3TUR3SW83UThmZHc2ekxEQnh3ZXVDZWlaUkVZag?oc=5",
+      "keywords_hit": [
+        "코스피",
+        "증시"
+      ]
+    },
+    {
+      "source": "GN_KR_STOCK",
+      "press": "GoogleNews(한국증시)",
+      "published_at": "2026-01-01 00:45",
+      "title": "작년 시총 1조 클럽 상장사 76곳 급증..증시 불장 영향 - 글로벌경제신문",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OcFd5OU5zNng1aDJPYVE4Y0d4QnlPcy1UVWtURlhrU1RoakxlRG9CS0pEblhjXzVjX3lYXy1xckRmRWE4NGpxbmdKeGdYZEtNRXEtRlVfcWJ4MzkxYnRoOERUYkRyd1oxaVBvSNIBcEFVX3lxTE5qc0gwdnV6TC1UZE5vbzd2OUgzaDlzbTdaQjJhSXJRX2EtYjZ6cXhlQllUa0oxcncxZ0NESHNVd0FhR3MtTGVtZGgyRllzZXJZVzR2amtMbDRoU1RjQkpPSDZxaTBieGVoYWU5NjRFZlA?oc=5",
+      "keywords_hit": [
+        "증시"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 00:37",
+      "title": "[신년사] 금융위원장 \"새해는 국가 대도약의 원년 돼야\"",
+      "url": "https://www.yna.co.kr/view/AKR20251231115900002",
+      "keywords_hit": []
+    },
+    {
+      "source": "GN_BIO",
+      "press": "GoogleNews(바이오)",
+      "published_at": "2026-01-01 00:21",
+      "title": "스톡옵션 넘어 RSU로…‘한미·대웅·HLB' 제약·바이오 업계, 보상 체계 재편 - 조선비즈 - Chosunbiz",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeGRFNjdUOXdBS29ReTdoS2NlU2NIXzd5NmlIMFBBUnNWRWJGeTZCa2h5M01Cd2hLX2ZDbkVPRUowbHhxZjd0clI1RWRSSnc1a3plaXViVkdJSVNET1l1MTRFRlhLdFhVUnJmcFQxNU56UFNkZU13R0cxcDFrR2w1UVQwcWxEOEnSAZsBQVVfeXFMTnlRR3JwR2pxUkxLa3NKbnBjRzhYZFZjU25nZXFPSlM3Nmh3ckRSOVhPV2JtVHE5QlFsSURQbVpDaVYtSzlNdDNlWFBGanpCakk4UTIycW9iMHM4cmh2SFJsUnpGWEVjOHNBRlhVS004UElZc3BMZ0w0LVowUHVzSzZFa1ZIV3hZLVFRSTlNQ21WT1dlcjVzVTc3R2s?oc=5",
+      "keywords_hit": [
+        "바이오",
+        "제약"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 00:11",
+      "title": "국민 46.4% \"올해 경기 더 어려울 것\"…48.7% \"코스피 5천 가능\"[리얼미터]",
+      "url": "https://www.yna.co.kr/view/AKR20260101015000001",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 00:02",
+      "title": "[속보] 12월 대미 수출 123억달러 '역대 최대'…5개월 만에 증가 전환",
+      "url": "https://www.yna.co.kr/view/AKR20260101017500003",
+      "keywords_hit": [
+        "수출"
+      ]
+    },
+    {
+      "source": "GN_US_STOCK",
+      "press": "GoogleNews(미국주식)",
+      "published_at": "2026-01-01 00:01",
+      "title": "UBS가 찍었다! 2026년 미국 주식 3선 - 연합인포맥스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2U2ZUUDctRHk1YkI4SE5kQnBmb3I0TDZ2UWx5MzhOSTk3WnpDQ0RJeXpEbFlRU3dadzBxUWNGSDg4NXBGemh4TWxvRE9NNU1GWS1MQVAwS24xTHNyeUVySGhMRnBSWGNTVk5mWXFicDbSAXRBVV95cUxOckZWdFRHMFBYdnpjRDhjX0RSZUV6OXZHYy1PVWNjb0syS2pfcU1QQjg0LS1Ecl93MW9UdFg4WS1Eb3o0WUpVcmVYdDFQc0N1d3Y4NlJRZFlVNVlaSGdpLVVDcDF6VE12YVhyZGRNMF9ubU5teA?oc=5",
+      "keywords_hit": []
+    },
+    {
+      "source": "GN_US_STOCK",
+      "press": "GoogleNews(미국주식)",
+      "published_at": "2026-01-01 00:01",
+      "title": "“미국 주식으로 파이어했어요” 순자산 30억 파이어족의 미국 주식 포트폴리오 공개 - 머니투데이",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1jV2Y3N2RtYVUxWXA3d2xTak9rV1E5VXEyZXVHeTFmQ3JQYUY1c0xGaDlsbUZ0NEExa0pLeEJnUUNwQnQ4VEk5YVhuWFhKRXJLLTZB?oc=5",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 00:00",
+      "title": "[속보] 12월 수출 696억달러로 13.4%↑…11개월 연속 '수출 플러스'",
+      "url": "https://www.yna.co.kr/view/AKR20260101016800003",
+      "keywords_hit": [
+        "수출"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 00:00",
+      "title": "[속보] 작년 반도체 수출 1천734억달러로 22.2%↑…역대 최대치 경신",
+      "url": "https://www.yna.co.kr/view/AKR20260101016500003",
+      "keywords_hit": [
+        "수출",
+        "반도체"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 00:00",
+      "title": "[신년사] 공정위원장 \"착취적 관행 타파, 게이트키퍼 기득권 규율해야\"",
+      "url": "https://www.yna.co.kr/view/AKR20251231132300002",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2026-01-01 00:00",
+      "title": "[1보] 반도체 호황에…작년 수출 7천97억달러로 사상 최대",
+      "url": "https://www.yna.co.kr/view/AKR20260101016300003",
+      "keywords_hit": [
+        "수출",
+        "반도체"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 23:30",
+      "title": "비만치료제 열풍 속 약가 변수…2026년 바이오 판도는",
+      "url": "https://www.yna.co.kr/view/AKR20251231100000017",
+      "keywords_hit": [
+        "바이오"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 23:00",
+      "title": "용역계약 대가로 아들 취업시킨 재개발 조합장 뇌물 혐의 송치",
+      "url": "https://www.yna.co.kr/view/AKR20251231103000061",
+      "keywords_hit": [
+        "계약"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 23:00",
+      "title": "[신년사] 수은 행장 \"수출 금융지원으로 한국경제 대도약 뒷받침\"",
+      "url": "https://www.yna.co.kr/view/AKR20251231135700002",
+      "keywords_hit": [
+        "수출"
+      ]
+    },
+    {
+      "source": "GN_KR_STOCK",
+      "press": "GoogleNews(한국증시)",
+      "published_at": "2025-12-31 23:00",
+      "title": "새해 증시 최고 5500 전망[오천피시대 열린다①] - 뉴시스",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBwSTNIVkN1aEduTFNmRHMyYkE1aERxbFN2S3kwTS1qU3dLSk1NNE0zd094NTJHVEF4Y3hVWlM0TWZaNnlpV21kN1NFekE2RWNMSU5VVGQxYmRQUlkwZ3hsMNIBeEFVX3lxTE1lUDNVYzMwaUdLcUsyZndmTVJ5Yk1pMXozYlhQUGl0RWJJbC02ckdhQXRuZWQ5WUZIeFFNNGN5enVDUVpLdm8xMXJDaXNLQ0pNeUF6SnloRk5CZGJQR1dCVWt5T2h5Zng5ZzEyam1mcUZMX0VPaUQ2eA?oc=5",
+      "keywords_hit": [
+        "전망",
+        "증시"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2025-12-31 22:42",
+      "title": "지난해 '시총 1조클럽' 상장사 76곳 급증…총 323개",
+      "url": "https://www.hankyung.com/article/2026010160657",
+      "keywords_hit": []
+    },
+    {
+      "source": "GN_KR_STOCK",
+      "press": "GoogleNews(한국증시)",
+      "published_at": "2025-12-31 22:29",
+      "title": "'시총 1조클럽' 우후죽순...증시 불장에 76곳↑ - v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYS3JEdDhGbFVHeWVLX1JwX0pwZlItczFDTF95akdlMHR1Qklpa0Qycy1TYW5lVG8zM3JNZ2VXQ1N2MUpGXy1BSGtiV2plMzQ?oc=5",
+      "keywords_hit": [
+        "증시"
+      ]
+    },
+    {
+      "source": "GN_KR_STOCK",
+      "press": "GoogleNews(한국증시)",
+      "published_at": "2025-12-31 22:26",
+      "title": "불장 속 몸집 키운 한국 증시…‘시총 1조클럽’ 1년 새 76곳 확대 - abcn.kr",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1EOUhPc1FiR0hIZ2ExaHQ0SXpoVlcydWxReHN5dUpQdzcxZ0F2OUR4bmhJNElaVlJXa2R6QkpBb0VrcTdoLUxpNk0wYkR1NHFYOVdWZ0dpWEltdk9VM1lVWWRSTdIBZ0FVX3lxTE1UejRyM05fMHVVbkhNR2txRGc0MmFXYTNlMzR1Y3RVbjNkU3doNHRRZVZwQlZqRVJqOGhlVms1amZYSEthVU9ubjB2bkZ2c1Rucl9QcGZRY3JTdjNFdWVxbTlDMk40WlU?oc=5",
+      "keywords_hit": [
+        "증시"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 22:15",
+      "title": "작년 코스피 '불장'에도 개인은 역대 최대 팔았다",
+      "url": "https://www.yna.co.kr/view/AKR20251231115300008",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 22:06",
+      "title": "9만불 넘기도 버거운데 또 질렀네…JP모건 “최대 17만불까지 오를 것”",
+      "url": "https://www.mk.co.kr/news/stock/11920665",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 22:05",
+      "title": "올해 코스피 상승률 1·2위는 '개발 호재' 동양고속·천일고속",
+      "url": "https://www.yna.co.kr/view/AKR20251231067800008",
+      "keywords_hit": [
+        "호재",
+        "코스피"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 22:03",
+      "title": "불장 노린 '빚투' 열기에…증권담보대출 중단 사례 잇달아",
+      "url": "https://www.yna.co.kr/view/AKR20251231108600008",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 22:01",
+      "title": "\"해외사업 확장\"…K뷰티·헬스케어기업들, CES서 기술력 선봬",
+      "url": "https://www.yna.co.kr/view/AKR20251231047800030",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 22:00",
+      "title": "작년 '시총 1조클럽' 상장사 247개→323개로…76곳 급증",
+      "url": "https://www.yna.co.kr/view/AKR20251231100700008",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 22:00",
+      "title": "[우분투칼럼] 권위주의의 '위장막'이 된 아프리카 대의민주주의",
+      "url": "https://www.yna.co.kr/view/AKR20251229042000898",
+      "keywords_hit": []
+    },
+    {
+      "source": "GN_KR_STOCK",
+      "press": "GoogleNews(한국증시)",
+      "published_at": "2025-12-31 22:00",
+      "title": "'코스피 5000' 도전 나선 K-증시···AI·반도체 업황이 관건 - 서울파이낸스",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0tZmhQdlJOV2xUNjgza2FiU0J3dFpUenBLZHRhdV9XLUVzVmhhbHBLN3ljR25yWlhuUXVNOG9jQ3p4V2VYVVFWd1lKdEZMTXc3TU5LYkdHeVZLeXFqNUpIT1JZaWc2ejMxVXc?oc=5",
+      "keywords_hit": [
+        "반도체",
+        "AI",
+        "코스피",
+        "증시"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 21:31",
+      "title": "중소기업 민·관 \"새해는 전환의 해\"…성장사다리 복원 한목소리",
+      "url": "https://www.yna.co.kr/view/AKR20251231113600030",
+      "keywords_hit": []
+    },
+    {
+      "source": "GN_KR_STOCK",
+      "press": "GoogleNews(한국증시)",
+      "published_at": "2025-12-31 21:20",
+      "title": "'꿈의 사천피'에도 등 돌린 외국인, 새해엔 돌아오나[2026 증시전망]③ - 뉴스1",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBvUk0xbzROZEJLMTc0S2ZqUDg4TUVlcUFiWnRtdlRWZ1hfdm5oT2c4TkRpUXJMbXNEcDZJQWU3RGFtVUxCeXY5YTk1cWxxeko2LUhFTVNzOWZ3MDJxeXF3?oc=5",
+      "keywords_hit": [
+        "전망",
+        "증시"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 21:15",
+      "title": "고등어 수입산 한 손 1만원 넘어…\"올해 1만t 이상 할당관세\"",
+      "url": "https://www.yna.co.kr/view/AKR20251231114000030",
+      "keywords_hit": [
+        "수입"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 21:05",
+      "title": "[서미숙의 집수다] 작년 서울 아파트값 상승률이 文정부 때보다 높다고?",
+      "url": "https://www.yna.co.kr/view/AKR20251231119500003",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 21:00",
+      "title": "[미리보는 CES] ② AI가 바꾸는 미래 일상…국내 기업 신제품 총출동",
+      "url": "https://www.yna.co.kr/view/AKR20251231051600003",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 21:00",
+      "title": "[신년사] 허진규 일진그룹 회장 \"초격차 기술로 글로벌 시장 선점\"",
+      "url": "https://www.yna.co.kr/view/AKR20251231059500003",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 21:00",
+      "title": "백화점 업계, 병오년 새해 맞아 '첫 정기 세일'",
+      "url": "https://www.yna.co.kr/view/AKR20251231119400030",
+      "keywords_hit": []
+    },
+    {
+      "source": "GN_KR_STOCK",
+      "press": "GoogleNews(한국증시)",
+      "published_at": "2025-12-31 21:00",
+      "title": "2026년 韓 증시 ‘바로미터’ 1월…“코스피 4400선 돌파 가능성도” - 쿠키뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9IcVAzcnZiRktmNlhjbE4xOWZadE42M1ZYbDdhZDhaWktvZHV1MlBSWm5JSFljWHFVMDBIZGdNQ1k0OU5PVnZEWTZKLUV1R191dHhVb1Z5cmRWek1veF9rQzhFMA?oc=5",
+      "keywords_hit": [
+        "코스피",
+        "증시"
+      ]
+    },
+    {
+      "source": "GN_KR_STOCK",
+      "press": "GoogleNews(한국증시)",
+      "published_at": "2025-12-31 21:00",
+      "title": "코스피 상승세 지속 전망…韓 ‘반도체·조선·방산’ 주목 [2026 증시 전략 - 국내] - 한국금융신문",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBTWTI3MGFuVEtXUWZ3b2JhdTdjcmVwMm1fZDNqSnlNc1FUbjN3a2h1cExTSm1sbWUtOGJvQi1XR051RjdqcUp1SWFsb2RZOHVSVm0zTE5KWWVzTXZLOEhqcmFZZ0ljUlBzT3EyTUh1ZHd0MFJwejRBZEpuODY?oc=5",
+      "keywords_hit": [
+        "전망",
+        "반도체",
+        "코스피",
+        "증시"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 20:57",
+      "title": "지방 부동산 경기 위축…은행 건설업 대출 연체율 1%대 고공행진",
+      "url": "https://www.yna.co.kr/view/AKR20251231128700002",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 20:55",
+      "title": "'붉은 말의 해' 아기울음 커질까…출산율 0.8명대 회복 '청신호'",
+      "url": "https://www.yna.co.kr/view/AKR20251231132800002",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 20:53",
+      "title": "체감 물가, 5년 연속 소비자물가 상승률 웃돌아",
+      "url": "https://www.yna.co.kr/view/AKR20251231122400002",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 20:51",
+      "title": "은행 가계대출 연초 '숨통'…비대면·갈아타기 등 속속 재개",
+      "url": "https://www.yna.co.kr/view/AKR20251231102600002",
+      "keywords_hit": []
+    },
+    {
+      "source": "GN_KR_STOCK",
+      "press": "GoogleNews(한국증시)",
+      "published_at": "2025-12-31 20:10",
+      "title": "[2026 증시 전망] \"사천피 넘어 오천피\"…'K-프리미엄' 시대 - 포인트데일리",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XTl9UcjJtSnBUS0YyZGZLelpfbEgzZU1nVmNkR2hETWRTME9ycE5JWnMzZlNrelhNV2hrYXkwaTAxc2Y5VFlOZzZQc1R6YlVnMDlELVlRM0gwZ2RIRDNBd0NPQmt5QTdDWGtKU3MxRUc?oc=5",
+      "keywords_hit": [
+        "전망",
+        "증시"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 20:06",
+      "title": "[뉴욕유가] 美 휘발유 재고 급증에 하락…WTI, 2020년 이후 최악의 한해",
+      "url": "https://www.yna.co.kr/view/AKR20260101004400009",
+      "keywords_hit": []
+    },
+    {
+      "source": "GN_BIO",
+      "press": "GoogleNews(바이오)",
+      "published_at": "2025-12-31 15:42",
+      "title": "이재웅, 유투바이오 주식 170만548주 장외매수 ↑…지분율 31.56% - 케이트렌디뉴스",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8xbEdrX3NWZ1VraVpIYTJKOW5oYzNUQXVvX2lfMHVUZTE1ZVhDVzNiTmlmRWpzTEJOaXV2Zk1kRXFBU2VWTVhHRnBOUG8tUVVwUkpmblRqZ0Jsd1hXS0RmVlF5ZXpXMG9PNFRhN1JTYw?oc=5",
+      "keywords_hit": [
+        "바이오"
+      ]
+    },
+    {
+      "source": "GN_US_STOCK",
+      "press": "GoogleNews(미국주식)",
+      "published_at": "2025-12-31 15:31",
+      "title": "서학개미, 작년 美주식 47조 순매수…전년보다 3배 이상 증가 '사상 최대' - 네이트",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE43R0pDVXRkbEI5THhoYzFZcW9TSWppY0hTSTJMWm5PMTQ3YXlXWF84Q0c3c0U1OTJHWVFpNFVVZ3NkaHUxNHFTbXRCYjVoSHM2ODBMX2ctY2ZPcnF1c3pJVnVFR0VmOV9iU1Jobk9PNEJEYlVRTEZhcA?oc=5",
+      "keywords_hit": []
+    },
+    {
+      "source": "GN_US_STOCK",
+      "press": "GoogleNews(미국주식)",
+      "published_at": "2025-12-31 15:28",
+      "title": "BCA 리서치, 노아 와이스버거를 미국 주식 전략 책임자로 임명 By Investing.com - Investing.com 한국어",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9YamZMNmZ0YTEtRXdxUDB4YU1LNVdXM0JyM0JVc1NENnlKZ3ppR0g2MHZlYWowWjBZSUh1U0liejF4YWN2WmtfWm9PcVRJUXZXek8tME9tcnBZV1I4ZU1jb0M3YVVHRmRlQk53anFBNVROOXpkdmlv?oc=5",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 15:00",
+      "title": "[신년사] 노동장관 \"일터 민주주의 실현…핑계 찾지 않겠다\"",
+      "url": "https://www.yna.co.kr/view/AKR20251231093200530",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 15:00",
+      "title": "[신년사] 농식품장관 \"농정대전환 원년…국민먹거리 돌봄 강화\"",
+      "url": "https://www.yna.co.kr/view/AKR20251231025900030",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 14:28",
+      "title": "[인사] KB증권",
+      "url": "https://www.mk.co.kr/news/stock/11920596",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 13:03",
+      "title": "베인캐피털, 안다르 모회사 … 에코마케팅 1천억대에 인수",
+      "url": "https://www.mk.co.kr/news/stock/11920548",
+      "keywords_hit": [
+        "인수"
+      ]
+    },
+    {
+      "source": "GN_US_STOCK",
+      "press": "GoogleNews(미국주식)",
+      "published_at": "2025-12-31 12:03",
+      "title": "AI 소프트웨어 주도, 서학개미 미국 주식 보관액 사상 최고치 기록 - 뉴스타운",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXMHZNODRrb3dEYjhvekpOLWdpVHlVclRQeUtLNTJyS0JvVmFnOTVtYW42WWRieFRTc1lMNjE1MXA0Rno3N090NnRoUWZDcGFVNWpuaF9ydTY0U0dWMVk5SHpWTjlhTEZoeElQMFVB?oc=5",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 11:51",
+      "title": "정부 \"국민 편에서 끝까지 쿠팡 책임 물을 것…엄정 조치\"",
+      "url": "https://www.yna.co.kr/view/AKR20251231136500017",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 11:43",
+      "title": "쿠팡, 식품사에 공급계약 재협상 공문…\"자동갱신 안돼\"",
+      "url": "https://www.yna.co.kr/view/AKR20251231136000030",
+      "keywords_hit": [
+        "계약"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 11:42",
+      "title": "공정위원장 \"김범석 동일인 지정, 김유석 경영 참여 살펴야\"(종합)",
+      "url": "https://www.yna.co.kr/view/AKR20251231108351002",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 11:22",
+      "title": "받지도 않은 '대출 받았어요' 알림…양수 과정서 오발송 해프닝",
+      "url": "https://www.yna.co.kr/view/AKR20251231135400008",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 10:03",
+      "title": "이억원 \"JP모건 쿠팡 보고서 공정성 훼손 우려…미 SEC 협조\"",
+      "url": "https://www.yna.co.kr/view/AKR20251231129300002",
+      "keywords_hit": []
+    },
+    {
+      "source": "GN_US_STOCK",
+      "press": "GoogleNews(미국주식)",
+      "published_at": "2025-12-31 09:50",
+      "title": "[영상] 키움증권, ‘구독 1위’ 텔레그램 미국주식 채널 중단한 이유…마케팅 전략 전면 재정비 배경 '금감원 압박' - 뉴스스페이스",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE96bzgzNTN0bGZaR25KMUNwM0F0VXYxTi0xb3BOMnVSenhDd2Jub1NPRGMxUGlBTE9MZWdfVTV6QUYwYWFCTHpEa0ZzZkdkQjJvN3hNWFpNMzNzclpVem1NSA?oc=5",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 09:49",
+      "title": "5천피 향한 질주…반도체 앞세우고 바이오·로봇으로 지원 사격",
+      "url": "https://www.mk.co.kr/news/stock/11920339",
+      "keywords_hit": [
+        "반도체",
+        "로봇",
+        "바이오"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 09:49",
+      "title": "강정훈 제15대 iM뱅크 은행장 취임",
+      "url": "https://www.yna.co.kr/view/AKR20251231126700053",
+      "keywords_hit": []
+    },
+    {
+      "source": "GN_US_STOCK",
+      "press": "GoogleNews(미국주식)",
+      "published_at": "2025-12-31 09:49",
+      "title": "서학개미 ‘전통 빅테크’ 팔고 ‘AI 소프트웨어’ 샀다 - fnnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBGMDdpdUEyMFhWd3F6eG9NS3VOQy1BQVNCZEFHc0xxYWRuWms2eVZfRGNBNDlVNmhJcGJydjdCZ29KbnpnWDRYMy1zRHozV1l6dDBlSDMteUI0UdIBXkFVX3lxTE9fUDFDTFVqeDFxTUNNaktKTTg2bkNRYXhNU3UyNDdzWVZXSTgyNlpxNXR6ekg4UEhyUTc2amFyNVZkREF0TlhPMnBtY2dreUNmeGpDYWlnUUNXZlhBSlE?oc=5",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 09:40",
+      "title": "[인사] 산은캐피탈",
+      "url": "https://www.yna.co.kr/view/AKR20251231127800002",
+      "keywords_hit": []
+    },
+    {
+      "source": "GN_KR_STOCK",
+      "press": "GoogleNews(한국증시)",
+      "published_at": "2025-12-31 09:34",
+      "title": "AI發 슈퍼 랠리에 증시부양책도 가세… 코스피 5500 간다 [한국증시 재평가 시험대] - v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Sdkw3R18ya3VEUmxYb1NQVkhPVEpHNFlfNmVpa05xdG4yOFFVVGpkbFk2NmVwekhvbzJkcVFEUFlNVnJDUS1NYnpEN3lfVlk?oc=5",
+      "keywords_hit": [
+        "AI",
+        "코스피",
+        "증시"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 09:27",
+      "title": "“코스피 5500, 코스닥 1100 가능…반도체주 투자매력 높다” [2026 증시 전망③]",
+      "url": "https://www.mk.co.kr/news/stock/11920311",
+      "keywords_hit": [
+        "전망",
+        "반도체",
+        "코스피",
+        "코스닥",
+        "증시"
+      ]
+    },
+    {
+      "source": "GN_KR_STOCK",
+      "press": "GoogleNews(한국증시)",
+      "published_at": "2025-12-31 09:27",
+      "title": "“코스피 5500, 코스닥 1100 가능…반도체주 투자매력 높다” [2026 증시 전망③] - 매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5GZ2lkLXp5UU9FMGlva1F1cXNPWUtnTjRwTmdhbHBTcjYzSWdYWWFHdU1CYkF2bTlVdGFpMDhmOC1BZ1RFN2ZoU202RzkzNVg3UEE?oc=5",
+      "keywords_hit": [
+        "전망",
+        "반도체",
+        "코스피",
+        "코스닥",
+        "증시"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 09:26",
+      "title": "박현주 회장 장남, 미래에셋증권 이동",
+      "url": "https://www.mk.co.kr/news/stock/11920310",
+      "keywords_hit": []
+    },
+    {
+      "source": "GN_US_STOCK",
+      "press": "GoogleNews(미국주식)",
+      "published_at": "2025-12-31 09:21",
+      "title": "'역대 최대' 서학개미 47조원 순매수…기아 시총만큼 사들였다 - v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBMa0FfdV9iZktSQmNBQmxxeVFMTTRTb0VIMzl0b1F3X3lCQ0Q1dU0xWlI1RG1GQ2ZHYVF5SWJBRHl6UG45dllPN28tNHUycUE?oc=5",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 09:07",
+      "title": "베인캐피탈, ‘한국판 룰루레몬’ 안다르 모회사 인수한다",
+      "url": "https://www.mk.co.kr/news/stock/11920297",
+      "keywords_hit": [
+        "인수"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 09:00",
+      "title": "[연합뉴스 이 시각 헤드라인] - 18:00",
+      "url": "https://www.yna.co.kr/view/AKR20251231118000011",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2025-12-31 08:59",
+      "title": "국내 주요 펀드매니저 85% “코스피 2026년엔 더 오른다”",
+      "url": "https://www.mk.co.kr/news/stock/11920287",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 08:53",
+      "title": "외환당국, 3분기 '환율 방어'에 17억달러 순매도",
+      "url": "https://www.yna.co.kr/view/AKR20251231121400002",
+      "keywords_hit": [
+        "환율"
+      ]
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 08:47",
+      "title": "한국골프대-횡성군-지역 골프장, 지·산·학 협력 업무협약",
+      "url": "https://www.yna.co.kr/view/AKR20251231122700062",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 08:45",
+      "title": "에이텀 \"종속회사 ATUM에 57억원 출자\"",
+      "url": "https://www.yna.co.kr/view/AKR20251231122100008",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 08:38",
+      "title": "[인사] KB국민카드",
+      "url": "https://www.yna.co.kr/view/AKR20251231121500002",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 08:37",
+      "title": "[인사] BNK경남은행",
+      "url": "https://www.yna.co.kr/view/AKR20251231121600051",
+      "keywords_hit": []
+    }
+  ]
 }
