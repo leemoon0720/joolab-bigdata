@@ -1,8 +1,40 @@
 {
   "date": "2026-01-01",
-  "updated_at": "2026-01-01 17:24 KST",
+  "updated_at": "2026-01-01 17:50 KST",
   "count": 50,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 17:37",
+      "title": "\"코스피 1분기 내 4500 넘을 것\"",
+      "url": "https://www.hankyung.com/article/2026010169051",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 17:32",
+      "title": "金·銀, 올해 전망도 '반짝'",
+      "url": "https://www.mk.co.kr/news/stock/11921013",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 17:32",
+      "title": "[미국 주식 돋보기] AI 투자 확대에 뜬 스토리지 기업…샌디스크, S&P500 중 상승률 '킹'",
+      "url": "https://www.mk.co.kr/news/stock/11921010",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 17:32",
+      "title": "실적 전망 감안땐 삼전보다 싸진 마이크론",
+      "url": "https://www.mk.co.kr/news/stock/11921012",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -39,7 +71,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-01 16:16",
-      "title": "삼성전자, 14만원 넘는다…SK하이닉스, 115만원 가능",
+      "title": "'SK하이닉스 115만원 간다'…파격 전망에 '환호성'",
       "url": "https://www.hankyung.com/article/2026010167401",
       "keywords_hit": []
     },
@@ -369,38 +401,6 @@
       "published_at": "2025-12-31 16:17",
       "title": "최고 투자처는 ETF…개인 30.6조 사들였다",
       "url": "https://www.hankyung.com/article/2025123153081",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-31 16:15",
-      "title": "[마켓칼럼]삼성전자·하이닉스 적정 수준…대형 반도체주 강세 지속",
-      "url": "https://www.hankyung.com/article/202512302780i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-31 15:56",
-      "title": "코빗 고객확인의무 위반...과태료 27억원",
-      "url": "https://www.mk.co.kr/news/stock/11920014",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-31 15:22",
-      "title": "아이톡시, 7억 원 규모 전환사채 발행",
-      "url": "https://www.mk.co.kr/news/stock/11919990",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-31 15:03",
-      "title": "‘소송 후 활동 재개’ 피프티피프티 소속사, 투자 유치로 재정비 나선다",
-      "url": "https://www.mk.co.kr/news/stock/11919972",
       "keywords_hit": []
     }
   ]
