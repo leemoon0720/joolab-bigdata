@@ -1,8 +1,56 @@
 {
   "date": "2026-01-01",
-  "updated_at": "2026-01-01 09:00 KST",
+  "updated_at": "2026-01-01 11:33 KST",
   "count": 50,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 10:38",
+      "title": "AI거품론 쏘아올린 올트먼, 리딩방 오픈한 버블무새…월가를 울렸다",
+      "url": "https://www.mk.co.kr/news/stock/11920727",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 10:36",
+      "title": "트럼프 허풍에 줍줍하고, 버핏 마지막 투자에 감탄…서학개미 2025년 결산",
+      "url": "https://www.mk.co.kr/news/stock/11920725",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 10:09",
+      "title": "디지털자산 시장 2025년 3가지 회고, 2026년 3가지 전망 [엠블록레터]",
+      "url": "https://www.mk.co.kr/news/stock/11920712",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 10:07",
+      "title": "박현주 회장 장남, 올해부터 미래에셋증권서 근무",
+      "url": "https://www.hankyung.com/article/2026010162256",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 09:59",
+      "title": "“몇년을 물렸는데, 본전 왔을때 팔아야죠”…작년 개미 순매도 역대최대",
+      "url": "https://www.mk.co.kr/news/stock/11920710",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 09:52",
+      "title": "이억원 \"대한민국 방방곡곡 숨은 혁신기업 발굴·투자 총력\"",
+      "url": "https://www.hankyung.com/article/2026010161816",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -353,54 +401,6 @@
       "published_at": "2025-12-31 09:26",
       "title": "한은 \"고환율에 석유류 물가 상승…환율 영향 계속 유의\"",
       "url": "https://www.hankyung.com/article/202512314209i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-31 09:05",
-      "title": "쿠팡 \"3000건만 유출\" 美 SEC 공시에도…주가는 \"못 믿어\" [종목+]",
-      "url": "https://www.hankyung.com/article/2025123140476",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-31 08:55",
-      "title": "\"어제 살 걸 그랬나\"…자고 일어났더니 '10% 급등' 대반전",
-      "url": "https://www.hankyung.com/article/202512314128i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-31 08:39",
-      "title": "'지드래곤이 탄 그 車' 대박날 줄 알았더니…개미들 피눈물 [종목+]",
-      "url": "https://www.hankyung.com/article/2025123139656",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-31 08:37",
-      "title": "고교생 경제교육 멘토링프로그램 '키움드리머' 4기 성료",
-      "url": "https://www.hankyung.com/article/2025123140876",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-31 06:23",
-      "title": "“3년째 핫한 미장, 뭐 사야 되나요?”...서학개미 제미나이에 승부 걸었다",
-      "url": "https://www.mk.co.kr/news/stock/11919618",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-30 22:28",
-      "title": "[포토] 코스피 지수 4214.17p로 마무리",
-      "url": "https://www.hankyung.com/article/202512303754i",
       "keywords_hit": []
     }
   ]
