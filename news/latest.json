@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-02 08:10 KST",
+  "updated_at": "2026-01-02 08:31 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,32 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 08:16",
+      "title": "“SK하이닉스, 올해 영업이익 100조원 시대”…목표가↑",
+      "url": "https://www.mk.co.kr/news/stock/11921200",
+      "keywords_hit": [
+        "영업이익"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 08:14",
+      "title": "\"삼성전자, 16만원 간다…4분기 영업익 20조 돌파 전망\"-다올",
+      "url": "https://www.hankyung.com/article/2026010273016",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 08:11",
+      "title": "오늘 장 체크리스트 (2일 금요일)",
+      "url": "https://www.hankyung.com/article/202601027322i",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -322,24 +348,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-01 09:52",
-      "title": "이억원 \"대한민국 방방곡곡 숨은 혁신기업 발굴·투자 총력\"",
-      "url": "https://www.hankyung.com/article/2026010161816",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-01 07:42",
-      "title": "지난해 '시총 1조클럽' 상장사 76곳 급증…총 323개",
-      "url": "https://www.hankyung.com/article/2026010160657",
-      "keywords_hit": [
-        "상장"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-01 07:06",
@@ -354,16 +362,6 @@
       "title": "[인사] KB증권",
       "url": "https://www.mk.co.kr/news/stock/11920596",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-31 22:03",
-      "title": "베인캐피털, 안다르 모회사 … 에코마케팅 1천억대에 인수",
-      "url": "https://www.mk.co.kr/news/stock/11920548",
-      "keywords_hit": [
-        "인수"
-      ]
     }
   ]
 }
