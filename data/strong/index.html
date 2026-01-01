@@ -9,56 +9,53 @@
   <link rel="stylesheet" href="/assets/app.css"/>
 </head>
 <body>
-
 <div class="topbar">
   <div class="container topbar-inner">
     <a class="brand" href="/">
       <div class="brand-badge">JL</div>
       <div>
         <div class="brand-title">주랩 빅데이터 센터</div>
-        <div class="brand-sub">한국 증권 뉴스 · 데이터 아카이브</div>
+        <div class="brand-sub">정리된 바탕화면 느낌의 센터형 대시보드</div>
       </div>
     </a>
     <nav class="nav">
       <a href="/notice/" data-nav="notice">공지</a>
       <a href="/news/" data-nav="news">뉴스센터</a>
       <a href="/data/" data-nav="data">데이터센터</a>
-      <a href="/training/" data-nav="training">트레이닝센터</a>
-      <a href="/ops/" data-nav="ops">운영센터</a>
+      <a href="/training/" data-nav="training">트레이닝</a>
+      <a href="/ops/" data-nav="ops">운영</a>
     </nav>
   </div>
 </div>
 
 <main class="main">
   <div class="container">
-
-<section class="hero">
-  <h1>강한종목</h1>
-  <p>지표가 좋은 종목 아카이브(센터 톤).</p>
-  <div class="hero-row">
-    <div class="statusbar">
-      <span class="badge live">LIVE</span>
-      <span class="badge upd" id="badge-upd">UPD: -</span>
-      <span class="badge live" id="badge-status">OK (데모)</span>
-    </div>
-    
-  </div>
-</section>
+    <section class="hero">
+      <h1>🔒 프리미엄 영역</h1>
+      <p>강한종목은 프리미엄(유료) 기능으로 전환 예정입니다.</p>
+      <div class="hero-row">
+        <div class="statusbar">
+          <span class="badge missing">LOCKED</span>
+          <span class="badge upd">외부 비노출</span>
+          <span class="badge live">결제자 전용</span>
+        </div>
+      </div>
+    </section>
 
     <div class="grid">
       <div class="card" style="grid-column: span 12;">
-        <div class="card-top"><h3>강한종목</h3><span class="badge upd">UPD</span></div>
-        <p>현재는 “틀(디자인/동선)”만 적용되어 있습니다. JSON/리포트 연결로 확장합니다.</p>
-        <div class="card-cta"><a href="/data/">데이터센터</a></div>
+        <div class="card-top"><h3>안내</h3><span class="badge upd">UPD</span></div>
+        <p>이 메뉴는 유료 기능(종목분석/강한종목/수상한종목)으로 전환 예정이라, 현재 외부에는 데이터가 노출되지 않습니다.</p>
+        <div class="card-cta"><a href="/news/">뉴스센터(공개)로 이동</a></div>
       </div>
     </div>
   </div>
 </main>
 
-  <div class="footer container">
-    <div>운영 방식: 정적 업로드 기반 · JSON 갱신 시 화면 자동 반영</div>
-    <div class="small">© JOOLAB · Bigdata Center</div>
-  </div>
-  <script src="/assets/app.js"></script>
+<div class="footer container">
+  <div>운영 방식: 정적 업로드 기반 · JSON 갱신 시 화면 자동 반영</div>
+  <div class="small">© JOOLAB · Bigdata Center</div>
+</div>
+<script src="/assets/app.js"></script>
 </body>
 </html>

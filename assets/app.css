@@ -59,9 +59,9 @@ a:hover{opacity:.92;}
   background: rgba(37,99,235,.10);
   color: rgba(37,99,235,1);
 }
-.main{padding:22px 0 70px;}
+.main{padding:10px 0 60px;}
 .hero{
-  padding:20px; border-radius: var(--radius);
+  padding:14px; border-radius: var(--radius);
   background: rgba(255,255,255,.86);
   border:1px solid rgba(226,232,240,.9);
   box-shadow: var(--shadow);
@@ -74,7 +74,7 @@ a:hover{opacity:.92;}
 }
 .hero h1{margin:0; font-size:28px; letter-spacing:-.6px;}
 .hero p{margin:8px 0 0; color:var(--muted); font-weight:600; line-height:1.5;}
-.hero-row{display:flex; gap:12px; flex-wrap:wrap; align-items:center; justify-content:space-between; margin-top:14px;}
+.hero-row{display:flex; gap:12px; flex-wrap:wrap; align-items:center; justify-content:space-between; margin-top:10px;}
 .statusbar{display:flex; gap:8px; flex-wrap:wrap; align-items:center;}
 .badge{
   padding:6px 10px; border-radius:999px;
@@ -86,7 +86,7 @@ a:hover{opacity:.92;}
 .badge.live{border-color:rgba(37,99,235,.35); background:rgba(37,99,235,.10); color:rgba(37,99,235,1);}
 .badge.missing{border-color:rgba(239,68,68,.35); background:rgba(239,68,68,.10); color:rgba(239,68,68,1);}
 .badge.upd{border-color:rgba(100,116,139,.35); background:rgba(100,116,139,.08); color:rgba(15,23,42,.75);}
-.controls{margin-top:14px; display:flex; gap:10px; flex-wrap:wrap; align-items:center;}
+.controls{margin-top:8px; display:flex; gap:10px; flex-wrap:wrap; align-items:center;}
 .input{
   display:flex; align-items:center; gap:10px;
   padding:12px 14px; border-radius:14px;
@@ -100,7 +100,7 @@ a:hover{opacity:.92;}
 .btn.ghost{background: rgba(255,255,255,.86); border:1px solid rgba(226,232,240,.95); color:#0b1220;}
 .chips{display:flex; gap:8px; flex-wrap:wrap; align-items:center;}
 .chip{padding:10px 12px; border-radius:999px; background: rgba(255,255,255,.86); border:1px solid rgba(226,232,240,.95); font-weight:800; font-size:13px; cursor:pointer;}
-.grid{margin-top:18px; display:grid; grid-template-columns: repeat(12, 1fr); gap:14px;}
+.grid{margin-top:12px; display:grid; grid-template-columns: repeat(12, 1fr); gap:14px;}
 .card{
   background: rgba(255,255,255,.90);
   border:1px solid rgba(226,232,240,.92);
