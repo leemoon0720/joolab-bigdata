@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-01 16:01 KST",
+  "updated_at": "2026-01-01 16:31 KST",
   "sources": [
     {
       "id": "HK",
@@ -16,6 +16,94 @@
   ],
   "count": 50,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 16:17",
+      "title": "코스피 5000까지…馬, 달리자",
+      "url": "https://www.hankyung.com/article/2026010167361",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 16:16",
+      "title": "\"지주사, 상법 개정 수혜주…AI 사이클, 타 업종으로 확산\"",
+      "url": "https://www.hankyung.com/article/2026010167351",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 16:16",
+      "title": "삼성전자, 14만원 넘는다…SK하이닉스, 115만원 가능",
+      "url": "https://www.hankyung.com/article/2026010167401",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 16:15",
+      "title": "AI 인프라·로봇주 주목대한광통신·에스피지 질주",
+      "url": "https://www.hankyung.com/article/2026010167381",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 16:15",
+      "title": "기술 우위가 곧 경쟁력…알파벳·엔비디아 집중",
+      "url": "https://www.hankyung.com/article/2026010167451",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 16:14",
+      "title": "美 메가캡 성장주 ETF 담아라…MGK 돈 몰릴까",
+      "url": "https://www.hankyung.com/article/2026010167461",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 16:10",
+      "title": "올해도 銅銅 뜬다…金도 고공행진",
+      "url": "https://www.hankyung.com/article/2026010167511",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 16:09",
+      "title": "국채금리 단기 고점…\"채권개미, 방망이는 짧게\"",
+      "url": "https://www.hankyung.com/article/2026010167501",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 16:06",
+      "title": "해외주식 팔고 국내주식 사면 稅혜택",
+      "url": "https://www.hankyung.com/article/2026010167521",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-01 16:06",
+      "title": "韓 75% '톱'…이스라엘·스페인 2·3위",
+      "url": "https://www.hankyung.com/article/2026010167531",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 16:02",
+      "title": "진짜 떠나나요? 수익률 610만% ‘투자의 전설’…60년만에 은퇴하는 버핏",
+      "url": "https://www.mk.co.kr/news/stock/11920853",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -326,94 +414,6 @@
       "published_at": "2025-12-31 14:54",
       "title": "‘만능통장’ ISA 도입 10년…미래에셋증권, 잔고 8.3조 ‘업계 1위’",
       "url": "https://www.mk.co.kr/news/stock/11919960",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-31 13:55",
-      "title": "“0하나 더 붙을 줄이야, 1년전에 알았더라면”…올해 10배 뛴 ‘텐배거 3인방’",
-      "url": "https://www.mk.co.kr/news/stock/11919912",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-31 13:28",
-      "title": "“달러 송금, 정말 불편했는데”…새해부터 ‘지정거래銀’ 26년만에 폐지",
-      "url": "https://www.mk.co.kr/news/economy/11919886",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-31 13:05",
-      "title": "비트코인 반감기 이듬해 사상첫 마이너스[매일코인]",
-      "url": "https://www.mk.co.kr/news/stock/11919875",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-31 11:27",
-      "title": "다음달 태영건설 등 55개사, 4억289만주 의무보유등록 풀린다",
-      "url": "https://www.mk.co.kr/news/stock/11919833",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-31 11:19",
-      "title": "고려아연, 영풍·MBK가 지적한 ‘美 제련소 신주 발행 총액’ 정정 공시…“주주 설명 차원”",
-      "url": "https://www.mk.co.kr/news/stock/11919823",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-31 11:13",
-      "title": "NH투자증권, 연금 총자산 15조 돌파…“내년 20조 달성 목표”",
-      "url": "https://www.mk.co.kr/news/stock/11919814",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-31 11:06",
-      "title": "iM증권, 조직개편 단행…\"자본효율성 극대화\"",
-      "url": "https://www.hankyung.com/article/2025123146106",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-31 11:03",
-      "title": "iM증권, 조직개편 및 임원인사 실시…미래혁신부 신설",
-      "url": "https://www.mk.co.kr/news/stock/11919791",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-31 11:00",
-      "title": "주가 160% 뛰더니…\"다시는 안 산다\" 개미들 울린 회사 [종목+]",
-      "url": "https://www.hankyung.com/article/2025123140416",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-31 10:42",
-      "title": "200% 성장한 디센트, '올인원 투자 지갑'으로 진화…기관·기업 시장 확장 가속 [코인터뷰]",
-      "url": "https://www.hankyung.com/article/202512290393g",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-31 10:11",
-      "title": "NH투자증권, 연금 총자산 15조원 돌파…전년 대비 42% 증가",
-      "url": "https://www.hankyung.com/article/2025123144256",
       "keywords_hit": []
     }
   ]
