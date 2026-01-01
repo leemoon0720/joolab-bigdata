@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-02 07:40 KST",
+  "updated_at": "2026-01-02 07:52 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,8 +25,16 @@
     {
       "source": "HK",
       "press": "한국경제",
+      "published_at": "2026-01-02 07:41",
+      "title": "\"셀트리온, 밸류에이션 역사적 저점으로 반등 추세 기대…목표가↑\"-NH",
+      "url": "https://www.hankyung.com/article/2026010272406",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
       "published_at": "2026-01-02 07:32",
-      "title": "\"SK하이닉스, 내년 영업익 101조 전망…목표가 88만원\"-IBK",
+      "title": "\"SK하이닉스, 내년 영업익 101조 전망…목표가 86만원\"-IBK",
       "url": "https://www.hankyung.com/article/2026010272326",
       "keywords_hit": []
     },
@@ -362,16 +370,6 @@
       "keywords_hit": [
         "외국인",
         "기관"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-31 16:29",
-      "title": "올해도 AI가 세계경제 주도…거품 꺼지면 실물경제까지 타격",
-      "url": "https://www.hankyung.com/article/2025123153851",
-      "keywords_hit": [
-        "AI"
       ]
     }
   ]
