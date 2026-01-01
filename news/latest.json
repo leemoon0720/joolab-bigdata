@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-01 18:13 KST",
+  "updated_at": "2026-01-01 18:39 KST",
   "sources": [
     {
       "id": "HK",
@@ -16,6 +16,22 @@
   ],
   "count": 50,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 18:30",
+      "title": "“넌 다 사! 환불은 내가 대신 해줄게”…미국서 신년 특수 누리는 이 직업 [오찬종의 매일뉴욕]",
+      "url": "https://www.mk.co.kr/news/stock/11921091",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 18:19",
+      "title": "한국회계학회 신임 회장에 김기영 명지대 교수",
+      "url": "https://www.mk.co.kr/news/stock/11921088",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -398,22 +414,6 @@
       "published_at": "2025-12-31 16:19",
       "title": "코스닥 도약 열쇠는 '상장기업 IR 의무화'",
       "url": "https://www.hankyung.com/article/2025123153031",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-31 16:18",
-      "title": "매년 되풀이 되는 연말 '올빼미 공시'",
-      "url": "https://www.hankyung.com/article/2025123153051",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-31 16:17",
-      "title": "최고 투자처는 ETF…개인 30.6조 사들였다",
-      "url": "https://www.hankyung.com/article/2025123153081",
       "keywords_hit": []
     }
   ]
