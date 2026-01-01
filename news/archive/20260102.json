@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-02 02:55 KST",
+  "updated_at": "2026-01-02 03:27 KST",
   "sources": [
     {
       "id": "HK",
@@ -88,6 +88,14 @@
   ],
   "count": 250,
   "items": [
+    {
+      "source": "MT",
+      "press": "머니투데이",
+      "published_at": "2026-01-01 17:58",
+      "title": "&#039;잔소리&#039; 아내, SNS에 남편 뒷담화 &quot;우리 ㅅㅂㄴ이…&quot;",
+      "url": "https://www.mt.co.kr/entertainment/2026/01/02/2026010202481782643",
+      "keywords_hit": []
+    },
     {
       "source": "MT",
       "press": "머니투데이",
@@ -1072,14 +1080,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MT",
-      "press": "머니투데이",
-      "published_at": "2026-01-01 07:34",
-      "title": "[포토] 소하 &#039;세이마이네임 승요&#039;",
-      "url": "https://www.mt.co.kr/entertainment/2026/01/01/2026010116333092859",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-01 07:17",
@@ -1762,16 +1762,6 @@
       ]
     },
     {
-      "source": "GN_KR_STOCK",
-      "press": "GoogleNews(한국증시)",
-      "published_at": "2025-12-31 22:26",
-      "title": "불장 속 몸집 키운 한국 증시…‘시총 1조클럽’ 1년 새 76곳 확대 - abcn.kr",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1EOUhPc1FiR0hIZ2ExaHQ0SXpoVlcydWxReHN5dUpQdzcxZ0F2OUR4bmhJNElaVlJXa2R6QkpBb0VrcTdoLUxpNk0wYkR1NHFYOVdWZ0dpWEltdk9VM1lVWWRSTdIBZ0FVX3lxTE1UejRyM05fMHVVbkhNR2txRGc0MmFXYTNlMzR1Y3RVbjNkU3doNHRRZVZwQlZqRVJqOGhlVms1amZYSEthVU9ubjB2bkZ2c1Rucl9QcGZRY3JTdjNFdWVxbTlDMk40WlU?oc=5",
-      "keywords_hit": [
-        "증시"
-      ]
-    },
-    {
       "source": "YNA",
       "press": "연합뉴스(경제)",
       "published_at": "2025-12-31 22:15",
@@ -2265,6 +2255,14 @@
       "published_at": "2025-12-31 08:37",
       "title": "[인사] BNK경남은행",
       "url": "https://www.yna.co.kr/view/AKR20251231121600051",
+      "keywords_hit": []
+    },
+    {
+      "source": "YNA",
+      "press": "연합뉴스(경제)",
+      "published_at": "2025-12-31 08:37",
+      "title": "원주시시설관리공단-강원도시형소공인연합회, 상생발전 업무협약",
+      "url": "https://www.yna.co.kr/view/AKR20251231121300062",
       "keywords_hit": []
     }
   ]
