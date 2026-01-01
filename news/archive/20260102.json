@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-02 07:52 KST",
+  "updated_at": "2026-01-02 08:10 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,22 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 07:59",
+      "title": "\"LG엔솔, 얼티엄셀즈 가동 중단으로 추가 투심 악화…목표가↓\"-NH",
+      "url": "https://www.hankyung.com/article/2026010272546",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 07:54",
+      "title": "“POSCO홀딩스, 4Q 컨센 하회 전망에도 ‘사라’”…이유는?",
+      "url": "https://www.mk.co.kr/news/stock/11921197",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -347,29 +363,6 @@
       "url": "https://www.mk.co.kr/news/stock/11920548",
       "keywords_hit": [
         "인수"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-31 18:49",
-      "title": "5천피 향한 질주…반도체 앞세우고 바이오·로봇으로 지원 사격",
-      "url": "https://www.mk.co.kr/news/stock/11920339",
-      "keywords_hit": [
-        "반도체",
-        "바이오",
-        "로봇"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-31 16:31",
-      "title": "[마켓PRO] 알고리즘 종목 Pick : \"에스피지, 외국인·기관 매수 흐름 이어져\"",
-      "url": "https://www.hankyung.com/article/202512315341i",
-      "keywords_hit": [
-        "외국인",
-        "기관"
       ]
     }
   ]
