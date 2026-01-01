@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-01 22:45 KST",
+  "updated_at": "2026-01-01 22:57 KST",
   "sources": [
     {
       "id": "HK",
@@ -16,6 +16,14 @@
   ],
   "count": 50,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 22:50",
+      "title": "베인캐피털, 에코마케팅 공개 매수",
+      "url": "https://www.mk.co.kr/news/stock/11921152",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -406,14 +414,6 @@
       "published_at": "2025-12-31 16:20",
       "title": "'한경-타임폴리오 KIW 투자대회' 2일 개막",
       "url": "https://www.hankyung.com/article/2025123153011",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-31 16:19",
-      "title": "잇단 계약 해지에 2차전지株 '암울'",
-      "url": "https://www.hankyung.com/article/2025123153061",
       "keywords_hit": []
     }
   ]
