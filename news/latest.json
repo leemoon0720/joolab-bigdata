@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-01 14:22 KST",
+  "updated_at": "2026-01-01 14:46 KST",
   "sources": [
     {
       "id": "HK",
@@ -16,6 +16,14 @@
   ],
   "count": 50,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-01 14:29",
+      "title": "주식은 국장이라고?…‘3년째 상승장’ 뉴욕증시, 올해 16% 뛰었다",
+      "url": "https://www.mk.co.kr/news/stock/11920803",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -406,14 +414,6 @@
       "published_at": "2025-12-31 10:07",
       "title": "[MK시그널] 핀워드 뱅코프 매도신호 포착, 수익률 24.4% 달성",
       "url": "https://www.mk.co.kr/news/stock/11919731",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-31 09:51",
-      "title": "30일 환율이 연말 종가?…외환시장은 왜 31일에 문 닫을까 [한경 외환시장 워치]",
-      "url": "https://www.hankyung.com/article/202512314256i",
       "keywords_hit": []
     }
   ]
