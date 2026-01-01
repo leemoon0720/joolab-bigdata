@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-02 01:52 KST",
+  "updated_at": "2026-01-02 02:10 KST",
   "sources": [
     {
       "id": "HK",
@@ -12,9 +12,15 @@
       "name": "매일경제",
       "feed": "https://www.mk.co.kr/rss/50200011/",
       "status": "OK"
+    },
+    {
+      "id": "YNA",
+      "name": "연합뉴스",
+      "feed": "https://www.yna.co.kr/rss/stock.xml",
+      "status": "PARTIAL"
     }
   ],
-  "count": 50,
+  "count": 40,
   "items": [
     {
       "source": "MK",
@@ -54,7 +60,9 @@
       "published_at": "2026-01-01 17:37",
       "title": "\"코스피지수 1분기 4500 넘을 것\"",
       "url": "https://www.hankyung.com/article/2026010169051",
-      "keywords_hit": []
+      "keywords_hit": [
+        "코스피"
+      ]
     },
     {
       "source": "MK",
@@ -70,7 +78,9 @@
       "published_at": "2026-01-01 17:32",
       "title": "[미국 주식 돋보기] AI 투자 확대에 뜬 스토리지 기업",
       "url": "https://www.mk.co.kr/news/stock/11921010",
-      "keywords_hit": []
+      "keywords_hit": [
+        "AI"
+      ]
     },
     {
       "source": "MK",
@@ -78,7 +88,9 @@
       "published_at": "2026-01-01 17:32",
       "title": "실적 전망 감안땐 삼전보다 싸진 마이크론",
       "url": "https://www.mk.co.kr/news/stock/11921012",
-      "keywords_hit": []
+      "keywords_hit": [
+        "실적"
+      ]
     },
     {
       "source": "MK",
@@ -86,7 +98,9 @@
       "published_at": "2026-01-01 17:19",
       "title": "美 국채부터 주식·금·원유까지…실물연계 디지털자산 폭풍 성장",
       "url": "https://www.mk.co.kr/news/stock/11920955",
-      "keywords_hit": []
+      "keywords_hit": [
+        "원유"
+      ]
     },
     {
       "source": "MK",
@@ -102,7 +116,9 @@
       "published_at": "2026-01-01 16:17",
       "title": "코스피 5000까지…馬 달리자",
       "url": "https://www.hankyung.com/article/2026010167361",
-      "keywords_hit": []
+      "keywords_hit": [
+        "코스피"
+      ]
     },
     {
       "source": "HK",
@@ -110,7 +126,9 @@
       "published_at": "2026-01-01 16:16",
       "title": "\"지주사, 상법 개정 수혜주…AI 사이클, 타 업종으로 확산\"",
       "url": "https://www.hankyung.com/article/2026010167351",
-      "keywords_hit": []
+      "keywords_hit": [
+        "AI"
+      ]
     },
     {
       "source": "HK",
@@ -126,7 +144,10 @@
       "published_at": "2026-01-01 16:15",
       "title": "AI 인프라·로봇주 주목…대한광통신·에스피지 질주",
       "url": "https://www.hankyung.com/article/2026010167381",
-      "keywords_hit": []
+      "keywords_hit": [
+        "AI",
+        "로봇"
+      ]
     },
     {
       "source": "HK",
@@ -158,7 +179,9 @@
       "published_at": "2026-01-01 16:09",
       "title": "국채금리 단기 고점…\"채권개미, 방망이는 짧게\"",
       "url": "https://www.hankyung.com/article/2026010167501",
-      "keywords_hit": []
+      "keywords_hit": [
+        "금리"
+      ]
     },
     {
       "source": "HK",
@@ -214,7 +237,9 @@
       "published_at": "2026-01-01 10:38",
       "title": "AI거품론 쏘아올린 올트먼, 리딩방 오픈한 버블무새…월가를 울렸다",
       "url": "https://www.mk.co.kr/news/stock/11920727",
-      "keywords_hit": []
+      "keywords_hit": [
+        "AI"
+      ]
     },
     {
       "source": "MK",
@@ -262,7 +287,9 @@
       "published_at": "2026-01-01 07:42",
       "title": "지난해 '시총 1조클럽' 상장사 76곳 급증…총 323개",
       "url": "https://www.hankyung.com/article/2026010160657",
-      "keywords_hit": []
+      "keywords_hit": [
+        "상장"
+      ]
     },
     {
       "source": "MK",
@@ -286,7 +313,9 @@
       "published_at": "2025-12-31 22:03",
       "title": "베인캐피털, 안다르 모회사 … 에코마케팅 1천억대에 인수",
       "url": "https://www.mk.co.kr/news/stock/11920548",
-      "keywords_hit": []
+      "keywords_hit": [
+        "인수"
+      ]
     },
     {
       "source": "MK",
@@ -294,7 +323,11 @@
       "published_at": "2025-12-31 18:49",
       "title": "5천피 향한 질주…반도체 앞세우고 바이오·로봇으로 지원 사격",
       "url": "https://www.mk.co.kr/news/stock/11920339",
-      "keywords_hit": []
+      "keywords_hit": [
+        "반도체",
+        "바이오",
+        "로봇"
+      ]
     },
     {
       "source": "MK",
@@ -302,79 +335,11 @@
       "published_at": "2025-12-31 18:27",
       "title": "“코스피 5500, 코스닥 1100 가능…반도체주 투자매력 높다” [2026 증시 전망③]",
       "url": "https://www.mk.co.kr/news/stock/11920311",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-31 18:26",
-      "title": "박현주 회장 장남, 미래에셋증권 이동",
-      "url": "https://www.mk.co.kr/news/stock/11920310",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-31 18:07",
-      "title": "베인캐피탈, ‘한국판 룰루레몬’ 안다르 모회사 인수한다",
-      "url": "https://www.mk.co.kr/news/stock/11920297",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-31 17:59",
-      "title": "국내 주요 펀드매니저 85% “코스피 2026년엔 더 오른다”",
-      "url": "https://www.mk.co.kr/news/stock/11920287",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-31 17:12",
-      "title": "\"피지컬 AI에 주목 … 드론·우주도 눈여겨봐라\"",
-      "url": "https://www.mk.co.kr/news/stock/11920205",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-31 17:12",
-      "title": "5천피 향한 질주 … 선두엔 반도체, 바이오·로봇도 달린다",
-      "url": "https://www.mk.co.kr/news/stock/11920204",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-31 16:58",
-      "title": "HMM·카카오모빌리티 … 올 M&A 큰장 선다",
-      "url": "https://www.mk.co.kr/news/stock/11920141",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-31 16:58",
-      "title": "이사회 독립 여전히 먼길 사외이사 의장 13% 불과",
-      "url": "https://www.mk.co.kr/news/stock/11920136",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-31 16:44",
-      "title": "금·은 저리가라…16년만 역대 최대 상승, 올해 40% 급등한 구리",
-      "url": "https://www.mk.co.kr/news/stock/11920077",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2025-12-31 16:40",
-      "title": "한국투자금융지주 정기인사 단행...IMA·연금 강화 조직개편",
-      "url": "https://www.mk.co.kr/news/stock/11920059",
-      "keywords_hit": []
+      "keywords_hit": [
+        "코스피",
+        "코스닥",
+        "반도체"
+      ]
     },
     {
       "source": "HK",
@@ -382,7 +347,10 @@
       "published_at": "2025-12-31 16:31",
       "title": "[마켓PRO] 알고리즘 종목 Pick : \"에스피지, 외국인·기관 매수 흐름 이어져\"",
       "url": "https://www.hankyung.com/article/202512315341i",
-      "keywords_hit": []
+      "keywords_hit": [
+        "외국인",
+        "기관"
+      ]
     },
     {
       "source": "HK",
@@ -390,7 +358,9 @@
       "published_at": "2025-12-31 16:29",
       "title": "올해도 AI가 세계경제 주도…거품 꺼지면 실물경제까지 타격",
       "url": "https://www.hankyung.com/article/2025123153851",
-      "keywords_hit": []
+      "keywords_hit": [
+        "AI"
+      ]
     },
     {
       "source": "HK",
@@ -398,7 +368,11 @@
       "published_at": "2025-12-31 16:22",
       "title": "AI 거품론·환율·美금리…새해 증시 흔들 '회색 코뿔소'",
       "url": "https://www.hankyung.com/article/2025123153071",
-      "keywords_hit": []
+      "keywords_hit": [
+        "환율",
+        "금리",
+        "AI"
+      ]
     },
     {
       "source": "HK",
@@ -406,14 +380,6 @@
       "published_at": "2025-12-31 16:20",
       "title": "金·銀, CME 증거금 인상에 출렁",
       "url": "https://www.hankyung.com/article/2025123153041",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2025-12-31 16:20",
-      "title": "'한경-타임폴리오 KIW 투자대회' 2일 개막",
-      "url": "https://www.hankyung.com/article/2025123153011",
       "keywords_hit": []
     }
   ]
