@@ -151,12 +151,6 @@ canvas{
   grid-template-columns:1fr;
   gap:12px;
 }
-.kv{
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-  gap:12px;
-}
-
 .kv .box{
   background:rgba(0,0,0,0.16);
   border:1px solid rgba(255,255,255,0.06);
@@ -282,7 +276,6 @@ canvas{ height: clamp(320px, 52vh, 520px); }
   .grid{ gap:12px; }
   .titlebar{ padding:10px 12px; }
   .content{ padding:10px 12px 12px; }
-  .kv{ grid-template-columns:1fr; }
   .orderRow{ gap:10px; }
   .orderBtns{ width:100%; }
   .orderBtns .btn{ flex:1; }
@@ -315,7 +308,6 @@ canvas{ height: clamp(320px, 52vh, 520px); }
 .modal-title{font-weight:800;font-size:18px;margin-bottom:10px;}
 .modal-body{font-size:13px;line-height:1.55;color:rgba(255,255,255,.92);max-height:58vh;overflow:auto;border-top:1px solid rgba(255,255,255,.10);border-bottom:1px solid rgba(255,255,255,.10);padding:10px 2px;margin:10px 0 12px;}
 .modal-actions{display:flex;justify-content:flex-end;gap:8px;}
-.kv{display:flex;justify-content:space-between;gap:10px;margin:4px 0;}
 .kv b{opacity:.9;}
 .badge{display:inline-block;padding:2px 8px;border-radius:999px;border:1px solid rgba(255,255,255,.18);font-size:11px;opacity:.9;margin-right:6px;}
 .hr{height:1px;background:rgba(255,255,255,.10);margin:10px 0;}
@@ -330,9 +322,7 @@ canvas{ height: clamp(320px, 52vh, 520px); }
 
 
 @media (max-width: 520px){
-  .kv{grid-template-columns: 1fr 1fr;}
-  
-}
+  }
 
 .pnl-pos{color:#ff4d4f !important;}
 .pnl-neg{color:#3b82f6 !important;}
@@ -345,4 +335,45 @@ canvas{ height: clamp(320px, 52vh, 520px); }
   white-space:nowrap;
   word-break:keep-all;
   overflow:visible;
+}
+
+/* ===== Portfolio (포트폴리오) 2열×3줄 고정 ===== */
+.kv .box{
+  min-width:0 !important;
+  width:100% !important;
+}
+.kv .box .t{
+  white-space:nowrap !important;
+  word-break:keep-all !important;
+}
+.kv .box .v{
+  white-space:nowrap !important;
+  word-break:keep-all !important;
+  overflow:visible !important;
+  text-overflow:clip !important;
+}
+.kv, .kv *{
+  writing-mode:horizontal-tb !important;
+}
+
+/* ===== Portfolio 2열×3줄 고정 ===== */
+.kv{
+  display:grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap:12px !important;
+  width:100% !important;
+}
+.kv .box{
+  min-width:0 !important;
+  width:100% !important;
+}
+.kv .box .t{
+  white-space:nowrap !important;
+  word-break:keep-all !important;
+}
+.kv .box .v{
+  white-space:nowrap !important;
+  word-break:keep-all !important;
+  overflow:visible !important;
+  text-overflow:clip !important;
 }

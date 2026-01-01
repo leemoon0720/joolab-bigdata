@@ -1,3 +1,50 @@
+function fmtAmount(x){
+  if (!isFinite(x)) return "-";
+  const n = Number(x);
+  return snapToTick(n).toLocaleString("ko-KR") + "원";
+}
+function fmtPrice(x){
+  if (!isFinite(x)) return "-";
+  const n = Number(x);
+  // 실전처럼: 가격은 원 단위 정수로 고정(소수점 제거)
+  return Math.round(n).toLocaleString("ko-KR") + "원";
+}
+
+function normalizeOHLCV(rows){
+  // 실전처럼: OHLC는 원 단위 정수로 정리 (소수점 제거)
+  return rows.map(r=>{
+    const o = snapToTick(Number(r.open));
+    const h = snapToTick(Number(r.high));
+    const l = snapToTick(Number(r.low));
+    const c = snapToTick(Number(r.close));
+    return {...r, open:o, high:h, low:l, close:c};
+  });
+}
+
+function snapToTick(price){
+  // KRX 호가단위(일반) 기준 스냅
+  const p = Math.round(Number(price)||0);
+  let tick = 1;
+  if (p < 1000) tick = 1;
+  else if (p < 5000) tick = 5;
+  else if (p < 10000) tick = 10;
+  else if (p < 50000) tick = 50;
+  else if (p < 100000) tick = 100;
+  else if (p < 500000) tick = 500;
+  else tick = 1000;
+  return Math.round(p / tick) * tick;
+}
+
+
+
+
+// Backward compat (older calls)
+function fmtWon(x){ return fmtAmount(x); }
+function fmtMoney(n){
+  const v = Number(n)||0;
+  return v.toLocaleString("ko-KR", {minimumFractionDigits:0, maximumFractionDigits:3});
+}
+
 
 // ==============================
 // Bankroll persistence (누적 자본)
@@ -42,11 +89,6 @@ const CFG = Object.freeze({
 
 const $ = (sel) => document.querySelector(sel);
 
-function fmtWon(x){
-  if (!isFinite(x)) return "-";
-  const v = Math.round(x);
-  return v.toLocaleString("ko-KR") + "원";
-}
 function fmtNum(x){
   if (!isFinite(x)) return "-";
   return x.toLocaleString("ko-KR");
@@ -410,6 +452,7 @@ function resetState(){
     pending: null, // {side:"BUY"|"SELL", qty:int}
     turn: 0, // 0..TURNS
     done: false,
+    hasTraded: false,
     logs: [],
   };
 }
@@ -556,7 +599,7 @@ function updateUI(model){
   $("#kShares").textContent = fmtNum(state.shares) + "주";
   $("#kAvg").textContent = state.shares>0 ? fmtWon(state.avgCost) : "-";
   $("#kEquity").textContent = fmtWon(equity);
-  $("#kPnl").textContent = fmtWon(pnl) + " (" + fmtPct(pnlPct) + ")";
+  $("#kPnl").textContent = fmtAmount(pnl) + " (" + fmtPct(pnlPct) + ")";
   $("#kPnl").className = "v " + (pnl>=0 ? "good" : "bad");
 
   $("#kPrice").textContent = isFinite(lastClose) ? fmtWon(lastClose) : "-";
@@ -653,7 +696,7 @@ function endGame(model){
   const pnl = equity - CFG.START_CASH;
   const pnlPct = pnl / CFG.START_CASH;
 
-  setStatus(`게임 종료입니다. 종목 ${model.meta.name}(${model.meta.ticker}) · 총자산 ${fmtWon(equity)} · 손익 ${fmtWon(pnl)} (${fmtPct(pnlPct)}) · MDD ${fmtPct(model.mdd)} 입니다.`);
+  setStatus(`게임 종료입니다. 종목 ${model.meta.name}(${model.meta.ticker}) · 총자산 ${fmtWon(equity)} · 손익 ${fmtAmount(pnl)} (${fmtPct(pnlPct)}) · MDD ${fmtPct(model.mdd)} 입니다.`);
 
   const trades = model.state.logs.filter(x => x && (x.side === "매수" || x.side === "매도")).length;
   const startDate = (model.bars[model.slice.start] && model.bars[model.slice.start].date) ? model.bars[model.slice.start].date : "";
@@ -706,7 +749,7 @@ function applyOrderAtCurrentCloseQty(model, side, qty){// bankroll guard
     return;
   }
 
-  const px = last.close;
+  const px = snapToTick(last.close);
   const date = last.date;
   const turnNo = model.state.turn;
 
@@ -735,7 +778,7 @@ function applyOrderAtCurrentCloseQty(model, side, qty){// bankroll guard
     const prevVal = model.state.avgCost * model.state.shares;
     const newShares = model.state.shares + buyQty;
     const newVal = prevVal + cost;
-    model.state.avgCost = newVal / newShares;
+    model.state.avgCost = snapToTick(newVal / newShares);
     model.state.shares = newShares;
     model.state.cash -= cost;
 
@@ -752,6 +795,8 @@ function applyOrderAtCurrentCloseQty(model, side, qty){// bankroll guard
       equity: null,
       note: "현재 종가 즉시 체결(수량)",
     });
+
+    model.state.hasTraded = true;
 
     setStatus(`매수 체결 완료 (현재 종가 ${buyQty}주)`);
     updateUI(model);
@@ -801,6 +846,8 @@ function applyOrderAtCurrentCloseQty(model, side, qty){// bankroll guard
     note: "현재 종가 즉시 체결(수량)",
   });
 
+  model.state.hasTraded = true;
+
   setStatus(`매도 체결 완료 (현재 종가 ${sellQty}주)`);
   updateUI(model);
 }
@@ -827,7 +874,7 @@ function applyOrderAtCurrentClose(model, side, pct){// bankroll guard
     return;
   }
 
-  const px = last.close;
+  const px = snapToTick(last.close);
   const date = last.date;
   const turnNo = model.state.turn;
 
@@ -942,6 +989,13 @@ function applyOrderAtCurrentClose(model, side, pct){// bankroll guard
 
   setStatus(`매도 ${Math.round(p*100)}% 체결 완료 (현재 종가 ${sellQtyCap}주)`);
   updateUI(model);
+  // auto settle when fully liquidated
+  if (model.state.shares === 0 && model.state.hasTraded && !model.state.done){
+    // next tick to ensure UI reflects final state
+    setTimeout(()=> endGameAndShowResult(model), 0);
+    return;
+  }
+
 }
 
 
@@ -987,11 +1041,6 @@ function placeOrder(model, side){if (!model || model.state.done) return;
 
 
 
-function fmtMoney(n){
-  const v = Math.floor(Number(n)||0);
-  return v.toLocaleString("ko-KR");
-}
-
 function showModal(){
   const m = document.getElementById("resultModal");
   if (m) m.classList.remove("hidden");
@@ -1036,8 +1085,8 @@ function endGameAndShowResult(model){
     logs.forEach(r=>{
       const side = r.side || "";
       const d = r.date || "";
-      const q = (r.qty!=null) ? fmtMoney(r.qty) : "-";
-      const p = (r.price!=null) ? fmtMoney(r.price) : "-";
+      const q = (r.qty!=null) ? Number(r.qty).toLocaleString("ko-KR") : "-";
+      const p = (r.price!=null) ? fmtPrice(r.price) : "-";
       logHtml += `<div class="kv"><b>${d} · ${side}</b><span>${q}주 @ ${p}</span></div>`;
     });
   }
@@ -1047,13 +1096,13 @@ function endGameAndShowResult(model){
     body.innerHTML = `
       <div><span class="badge">종목</span><b>${sym}</b></div>
       <div class="kv"><b>기간</b><span>${startDate} ~ ${endDate}</span></div>
-      <div class="kv"><b>마지막 종가</b><span>${fmtMoney(px)}</span></div>
+      <div class="kv"><b>마지막 종가</b><span>${fmtPrice(px)}</span></div>
       <div class="hr"></div>
-      <div class="kv"><b>시작자본</b><span>${fmtMoney(model.state.startCash)}</span></div>
-      <div class="kv"><b>현금</b><span>${fmtMoney(model.state.cash)}</span></div>
+      <div class="kv"><b>시작자본</b><span>${fmtAmount(model.state.startCash)}</span></div>
+      <div class="kv"><b>현금</b><span>${fmtAmount(model.state.cash)}</span></div>
       <div class="kv"><b>보유주식</b><span>${fmtMoney(model.state.shares)}주</span></div>
-      <div class="kv"><b>최종자산</b><span><b>${fmtMoney(eq)}</b></span></div>
-      <div class="kv"><b>손익</b><span>${fmtMoney(profit)} (${profitPct.toFixed(2)}%)</span></div>
+      <div class="kv"><b>최종자산</b><span><b>${fmtAmount(eq)}</b></span></div>
+      <div class="kv"><b>손익</b><span>${fmtAmount(profit)} (${profitPct.toFixed(2)}%)</span></div>
       ${logHtml}
     `;
   }
