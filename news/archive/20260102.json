@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-02 08:53 KST",
+  "updated_at": "2026-01-02 10:04 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,6 +25,40 @@
     {
       "source": "HK",
       "press": "한국경제",
+      "published_at": "2026-01-02 09:48",
+      "title": "김미섭·허선호 \"미래에셋3.0 원년…디지털·AI 전환 선도\" [신년사]",
+      "url": "https://www.hankyung.com/article/2026010276116",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 09:48",
+      "title": "“연금도 투자다”…KB증권, 새해 연금자산 순입금 이벤트 실시",
+      "url": "https://www.mk.co.kr/news/stock/11921250",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 09:43",
+      "title": "이창용 총재 \"올해 성장률 IT 제외하면 1.4% 그칠 것\"",
+      "url": "https://www.hankyung.com/article/2026010275817",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 08:52",
+      "title": "'또 물타기 해야하나'…삼성SDI·LG엔솔 개미들 '눈물'",
+      "url": "https://www.hankyung.com/article/202601027423i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
       "published_at": "2026-01-02 08:47",
       "title": "신한證 \"BTS·블핑·엑소·빅뱅 온다…K팝 호황 이어질 것\"",
       "url": "https://www.hankyung.com/article/2026010274136",
@@ -34,7 +68,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-02 08:43",
-      "title": "\"200만원 간다더니\"…차갑게 식은 '면비디아' [종목+]",
+      "title": "'200만원 간다'더니 15% 폭락…'면비디아'에 무슨 일이 [종목+]",
       "url": "https://www.hankyung.com/article/2026010273556",
       "keywords_hit": []
     },
@@ -42,7 +76,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-02 08:37",
-      "title": "윤병운 NH투자증권 사장 \"새해 '모험자본 투자 선봉'에 서야\" [신년사]",
+      "title": "윤병운 NH투자증권 사장 \"새해 모험자본 투자 선봉에 서야\" [신년사]",
       "url": "https://www.hankyung.com/article/2026010273936",
       "keywords_hit": []
     },
@@ -284,32 +318,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-01 16:14",
-      "title": "美 메가캡 성장주 ETF 담아라…MGK 돈 몰릴까",
-      "url": "https://www.hankyung.com/article/2026010167461",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-01 16:10",
-      "title": "금보다 더 무섭게 오르더니…해외 큰손도 '예측 포기'",
-      "url": "https://www.hankyung.com/article/2026010167511",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-01 16:09",
-      "title": "국채금리 단기 고점…\"채권개미, 방망이는 짧게\"",
-      "url": "https://www.hankyung.com/article/2026010167501",
-      "keywords_hit": [
-        "금리"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-01 16:02",
@@ -357,14 +365,6 @@
       "published_at": "2026-01-01 09:59",
       "title": "“몇년을 물렸는데, 본전 왔을때 팔아야죠”…작년 개미 순매도 역대최대",
       "url": "https://www.mk.co.kr/news/stock/11920710",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-01 07:06",
-      "title": "9만불 넘기도 버거운데 또 질렀네…JP모건 “최대 17만불까지 오를 것”",
-      "url": "https://www.mk.co.kr/news/stock/11920665",
       "keywords_hit": []
     }
   ]
