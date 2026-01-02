@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-02 13:51 KST",
+  "updated_at": "2026-01-02 14:15 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,30 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 14:00",
+      "title": "올해부터 디지털자산 과세 국제 공조 시작...투자자 주의점은 [엠블록레터]",
+      "url": "https://www.mk.co.kr/news/stock/11921512",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 13:59",
+      "title": "교보증권, MTS ‘간편모드’ 출시…“글자 크기 키우고 선명하게”",
+      "url": "https://www.mk.co.kr/news/stock/11921511",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 13:52",
+      "title": "금 온스당 5000달러간다?…금값과 달러로 본 2026년 투자 전망은",
+      "url": "https://www.mk.co.kr/news/economy/11921504",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -172,16 +196,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-02 11:20",
-      "title": "윤병운 NH證 대표 신년사 “모험자본 투자 선봉 서야”",
-      "url": "https://www.mk.co.kr/news/stock/11921419",
+      "title": "올해 금융화두 디지털자산 “웹3 주도권 잡을 것” [매일코인]",
+      "url": "https://www.mk.co.kr/news/stock/11921420",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-02 11:20",
-      "title": "올해 금융화두 디지털자산 “웹3 주도권 잡을 것” [매일코인]",
-      "url": "https://www.mk.co.kr/news/stock/11921420",
+      "title": "윤병운 NH證 대표 신년사 “모험자본 투자 선봉 서야”",
+      "url": "https://www.mk.co.kr/news/stock/11921419",
       "keywords_hit": []
     },
     {
@@ -275,29 +299,11 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 10:18",
-      "title": "‘새해 첫 거래일’ 코스피, 장중 사상 최고치 경신…4239.88",
-      "url": "https://www.mk.co.kr/news/stock/11921274",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-02 10:17",
       "title": "새해부터 주가 30% 폭등 '불기둥'…'안다르 모회사'에 무슨 일이 [종목+]",
       "url": "https://www.hankyung.com/article/2026010277316",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 10:17",
-      "title": "“월 50만·3년 부으면 최대 2200만원”…올해 나오는 ‘이 통장’ 비과세도 파격",
-      "url": "https://www.mk.co.kr/news/economy/11921272",
       "keywords_hit": []
     },
     {
@@ -329,14 +335,6 @@
       "keywords_hit": [
         "AI"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 09:48",
-      "title": "“연금도 투자다”…KB증권, 새해 연금자산 순입금 이벤트 실시",
-      "url": "https://www.mk.co.kr/news/stock/11921250",
-      "keywords_hit": []
     },
     {
       "source": "HK",
