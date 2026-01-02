@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-02 18:13 KST",
+  "updated_at": "2026-01-02 18:38 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,10 +25,20 @@
     {
       "source": "MK",
       "press": "매일경제",
-      "published_at": "2026-01-02 18:07",
-      "title": "새해 첫 개장에 급등한 코",
-      "url": "https://www.mk.co.kr/news/stock/11921903",
+      "published_at": "2026-01-02 18:13",
+      "title": "스틱인베, 크레딧·그로쓰캐피탈 부문으로 확대 개편",
+      "url": "https://www.mk.co.kr/news/stock/11921906",
       "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 18:07",
+      "title": "새해 첫 개장에 급등한 코스피",
+      "url": "https://www.mk.co.kr/news/stock/11921903",
+      "keywords_hit": [
+        "코스피"
+      ]
     },
     {
       "source": "MK",
@@ -37,6 +47,45 @@
       "title": "KB證, 2026년 새해 연금자산 순입금 이벤트",
       "url": "https://www.mk.co.kr/news/stock/11921894",
       "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 17:55",
+      "title": "닻올린 기획예산처…김민석 \"성과로 존재 이유 보여줘야\"",
+      "url": "https://www.hankyung.com/article/2026010288981",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 17:54",
+      "title": "\"韓 증시 올해도 불장\"…반도체 투톱 영업이익만 160조 전망",
+      "url": "https://www.hankyung.com/article/2026010289111",
+      "keywords_hit": [
+        "반도체",
+        "영업이익"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 17:53",
+      "title": "달러 저가매수 유입…불안하게 출발한 환율",
+      "url": "https://www.hankyung.com/article/2026010289121",
+      "keywords_hit": [
+        "환율"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 17:50",
+      "title": "코스피 4309…새해 첫날 최고가 찍었다",
+      "url": "https://www.hankyung.com/article/2026010289291",
+      "keywords_hit": [
+        "코스피"
+      ]
     },
     {
       "source": "MK",
@@ -97,6 +146,30 @@
       "published_at": "2026-01-02 17:30",
       "title": "2026년 제2의 팔란티어 찾아라…미국 증시 ‘여기’에 주목 [K주식, 이걸 사? 말아?]",
       "url": "https://www.mk.co.kr/news/stock/11921716",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 17:29",
+      "title": "순자산 45% 급증한 한투…신한·한화·타임폴리오 ETF '약진'",
+      "url": "https://www.hankyung.com/article/2026010288081",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 17:26",
+      "title": "작년 신규 ETF 수익률 1위는 '양자컴'",
+      "url": "https://www.hankyung.com/article/2026010288091",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 17:25",
+      "title": "\"이 가격엔 도저히 못 팔겠다\"…개미들 '분통' 터트린 이유",
+      "url": "https://www.hankyung.com/article/2026010288061",
       "keywords_hit": []
     },
     {
@@ -263,24 +336,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 15:08",
-      "title": "'설마 설마했는데' 11% 껑충…증권가 '깜짝 전망'에 환호 [종목+]",
-      "url": "https://www.hankyung.com/article/202601028454i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 15:02",
-      "title": "강진두·이홍구 KB證 대표 \"올해는 AI 실제화 원년…경쟁 우위 확보해야\" [신년사]",
-      "url": "https://www.hankyung.com/article/2026010284716",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-02 14:56",
@@ -289,50 +344,6 @@
       "keywords_hit": [
         "AI"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 14:40",
-      "title": "엄주성 키움증권 대표 \"자산관리의 표준으로 도약하자\" [신년사]",
-      "url": "https://www.hankyung.com/article/2026010284076",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 14:35",
-      "title": "[속보] 코스피, 2% 올라 사상 첫 4300선 돌파",
-      "url": "https://www.hankyung.com/article/2026010283806",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 14:29",
-      "title": "[포토] 코스피 2026년 첫 거래일 장중 최고치 경신",
-      "url": "https://www.hankyung.com/article/202601028367i",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 14:28",
-      "title": "강성묵 하나증권 대표 \"배수지진 각오로 생존 걸어야\" [신년사]",
-      "url": "https://www.hankyung.com/article/2026010283636",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 14:27",
-      "title": "이어룡 대신파이낸셜그룹 회장 \"대형사와 경쟁할 역량 갖춰야\" [신년사]",
-      "url": "https://www.hankyung.com/article/2026010283566",
-      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -364,14 +375,6 @@
       "published_at": "2026-01-02 13:49",
       "title": "한국거래소, 집행간부 인사…시장감시 간부 2인 체제로 확대",
       "url": "https://www.mk.co.kr/news/stock/11921502",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 13:48",
-      "title": "일라이 릴리 생산시설 이전 소식에...셀트리온 순매수 몰려[주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11921499",
       "keywords_hit": []
     }
   ]
