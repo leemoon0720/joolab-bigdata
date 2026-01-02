@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-02 17:50 KST",
+  "updated_at": "2026-01-02 18:13 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,22 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 18:07",
+      "title": "새해 첫 개장에 급등한 코",
+      "url": "https://www.mk.co.kr/news/stock/11921903",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 17:58",
+      "title": "KB證, 2026년 새해 연금자산 순입금 이벤트",
+      "url": "https://www.mk.co.kr/news/stock/11921894",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -356,22 +372,6 @@
       "published_at": "2026-01-02 13:48",
       "title": "일라이 릴리 생산시설 이전 소식에...셀트리온 순매수 몰려[주식 초고수는 지금]",
       "url": "https://www.mk.co.kr/news/stock/11921499",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 13:46",
-      "title": "미래에셋운용, TIGER ETF 공식 유튜브 채널 구독자 50만명 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11921496",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 13:44",
-      "title": "뤄즈펑 유안타證 대표 “고객중심 경영이 2026년의 최우선 가치”",
-      "url": "https://www.mk.co.kr/news/stock/11921492",
       "keywords_hit": []
     }
   ]
