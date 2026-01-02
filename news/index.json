@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-02 17:24 KST",
+  "updated_at": "2026-01-02 17:50 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,67 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 17:49",
+      "title": "미래 \"전통·디지털 자산 융합\" … 한투 \"아시아 넘버원으로 도약\"",
+      "url": "https://www.mk.co.kr/news/stock/11921877",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 17:49",
+      "title": "'13만전자' 눈앞…분기 영업익 21조 전망도",
+      "url": "https://www.mk.co.kr/news/stock/11921876",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 17:49",
+      "title": "실적 개선에 환율효과까지 … 항공株 이젠 날아오를까",
+      "url": "https://www.mk.co.kr/news/stock/11921874",
+      "keywords_hit": [
+        "환율",
+        "실적"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 17:48",
+      "title": "코스피 '화끈한 새해' 개장 첫날 4300 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11921863",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 17:40",
+      "title": "이억원 금융위원장 “주가조작땐 패가망신”…‘코리아 프리미엄’ 4대 원칙 선포",
+      "url": "https://www.mk.co.kr/news/stock/11921833",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 17:34",
+      "title": "또 사상 최고치…증권가선 “더 상승할 것” 올해 증시 판도는",
+      "url": "https://www.mk.co.kr/news/stock/11921811",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 17:30",
+      "title": "2026년 제2의 팔란티어 찾아라…미국 증시 ‘여기’에 주목 [K주식, 이걸 사? 말아?]",
+      "url": "https://www.mk.co.kr/news/stock/11921716",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -311,68 +372,6 @@
       "published_at": "2026-01-02 13:44",
       "title": "뤄즈펑 유안타證 대표 “고객중심 경영이 2026년의 최우선 가치”",
       "url": "https://www.mk.co.kr/news/stock/11921492",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 13:32",
-      "title": "“코스피 5000 뒷받침”…이순호 예탁원 사장, 6대 경영과제 제시",
-      "url": "https://www.mk.co.kr/news/stock/11921476",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 11:29",
-      "title": "“AI가 지갑 열고 결제까지”…2026년, ‘에이전틱 결제’ 시대 열린다",
-      "url": "https://www.mk.co.kr/news/stock/11921437",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 11:23",
-      "title": "[인사] 유진그룹",
-      "url": "https://www.mk.co.kr/news/stock/11921427",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 11:22",
-      "title": "코인베이스 “올해 실물 연계·인프라 코인이 디지털자산 시장 주도”",
-      "url": "https://www.mk.co.kr/news/stock/11921425",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 11:21",
-      "title": "[특징주]셀트리온, 역대 최대 실적 전망에 7%대 급등",
-      "url": "https://www.mk.co.kr/news/stock/11921423",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 11:21",
-      "title": "“국민 4명 중 1명은 업비트 쓴다”…‘남성·2030’ 위주서 ‘여성·중장년’으로 확산",
-      "url": "https://www.mk.co.kr/news/stock/11921422",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 11:20",
-      "title": "윤병운 NH證 대표 신년사 “모험자본 투자 선봉 서야”",
-      "url": "https://www.mk.co.kr/news/stock/11921419",
       "keywords_hit": []
     }
   ]
