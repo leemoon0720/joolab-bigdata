@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-02 19:11 KST",
+  "updated_at": "2026-01-02 19:37 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 19:36",
+      "title": "하이닉스 5억 베팅한 공무원, 1억4000만원 ‘익절’",
+      "url": "https://www.mk.co.kr/news/stock/11921931",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -367,14 +375,6 @@
       "published_at": "2026-01-02 13:59",
       "title": "교보증권, MTS ‘간편모드’ 출시…“글자 크기 키우고 선명하게”",
       "url": "https://www.mk.co.kr/news/stock/11921511",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 13:52",
-      "title": "금 온스당 5000달러간다?…금값과 달러로 본 2026년 투자 전망은",
-      "url": "https://www.mk.co.kr/news/economy/11921504",
       "keywords_hit": []
     }
   ]
