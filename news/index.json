@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-02 13:08 KST",
+  "updated_at": "2026-01-02 13:51 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,58 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 13:49",
+      "title": "한국거래소, 집행간부 인사…시장감시 간부 2인 체제로 확대",
+      "url": "https://www.mk.co.kr/news/stock/11921502",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 13:48",
+      "title": "일라이 릴리 생산시설 이전 소식에...셀트리온 순매수 몰려[주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11921499",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 13:46",
+      "title": "미래에셋운용, TIGER ETF 공식 유튜브 채널 구독자 50만명 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11921496",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 13:44",
+      "title": "뤄즈펑 유안타證 대표 “고객중심 경영이 2026년의 최우선 가치”",
+      "url": "https://www.mk.co.kr/news/stock/11921492",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 13:32",
+      "title": "“코스피 5000 뒷받침”…이순호 예탁원 사장, 6대 경영과제 제시",
+      "url": "https://www.mk.co.kr/news/stock/11921476",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 13:23",
+      "title": "코스피, 장중 4280선도 돌파…사상 최고치 행진",
+      "url": "https://www.hankyung.com/article/2026010281526",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -226,7 +278,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-02 10:18",
-      "title": "[속보] ‘새해 첫 거래일’ 코스피, 장중 사상 최고치 경신…4239.88",
+      "title": "‘새해 첫 거래일’ 코스피, 장중 사상 최고치 경신…4239.88",
       "url": "https://www.mk.co.kr/news/stock/11921274",
       "keywords_hit": [
         "코스피"
@@ -316,58 +368,6 @@
       "published_at": "2026-01-02 08:43",
       "title": "'200만원 간다'더니 15% 폭락…'면비디아'에 무슨 일이 [종목+]",
       "url": "https://www.hankyung.com/article/2026010273556",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 08:37",
-      "title": "윤병운 NH투자증권 사장 \"새해 모험자본 투자 선봉에 서야\" [신년사]",
-      "url": "https://www.hankyung.com/article/2026010273936",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 08:35",
-      "title": "“깜짝 실적 예고”…셀트리온 목표가 22만→23만원 상향",
-      "url": "https://www.mk.co.kr/news/stock/11921206",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 08:16",
-      "title": "“SK하이닉스, 올해 영업이익 100조원 시대”…목표가↑",
-      "url": "https://www.mk.co.kr/news/stock/11921200",
-      "keywords_hit": [
-        "영업이익"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 07:54",
-      "title": "“POSCO홀딩스, 4Q 컨센 하회 전망에도 ‘사라’”…이유는?",
-      "url": "https://www.mk.co.kr/news/stock/11921197",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 06:03",
-      "title": "금보다 잘나간다고? 그게 가능해?…코인ETF에 몰린 뭉칫돈이 무려",
-      "url": "https://www.mk.co.kr/news/stock/11921170",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-01 22:50",
-      "title": "베인캐피털, 에코마케팅 공개 매수",
-      "url": "https://www.mk.co.kr/news/stock/11921152",
       "keywords_hit": []
     }
   ]
