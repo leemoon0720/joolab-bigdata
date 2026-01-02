@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-02 14:56 KST",
+  "updated_at": "2026-01-02 15:35 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,69 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 15:30",
+      "title": "새해 첫 거래일 6%대 상승...삼성전자에 몰린 순매수[주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11921678",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 15:28",
+      "title": "[마켓칼럼]삼성전자·하이닉스 적정 수준…대형 반도체주 강세 지속",
+      "url": "https://www.hankyung.com/article/202601028548i",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 15:21",
+      "title": "한국독립리서치협회 공식 출범…\"소외된 종목 알리는 데 주력\"",
+      "url": "https://www.hankyung.com/article/202601028520i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 15:18",
+      "title": "공급·실적·환율 ‘3박자’…올해 항공주 훈풍부나",
+      "url": "https://www.mk.co.kr/news/stock/11921667",
+      "keywords_hit": [
+        "환율",
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 15:08",
+      "title": "뤄즈펑 유안타證 대표 \"고객중심 경영이 최우선 가치\" [신년사]",
+      "url": "https://www.hankyung.com/article/2026010284616",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 15:08",
+      "title": "'설마 설마했는데' 11% 껑충…증권가 '깜짝 전망'에 환호 [종목+]",
+      "url": "https://www.hankyung.com/article/202601028454i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 15:02",
+      "title": "강진두·이홍구 KB證 대표 \"올해는 AI 실제화 원년…경쟁 우위 확보해야\" [신년사]",
+      "url": "https://www.hankyung.com/article/2026010284716",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -289,16 +352,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 10:52",
-      "title": "[속보] 새해 벽두부터 고공행진…코스피 사상 첫 4250선 돌파",
-      "url": "https://www.hankyung.com/article/2026010278846",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-02 10:48",
@@ -315,60 +368,6 @@
       "title": "[MK시그널] 기가클라우드 테크놀러지, 수익률 47.3% 돌파",
       "url": "https://www.mk.co.kr/news/stock/11921334",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 10:41",
-      "title": "[MK시그널] 디어유, 중국 시장 확장성에 따른 실적 증가 전망에 주가 상승세... MK시그널 추천 후 상승률 14.2%기록",
-      "url": "https://www.mk.co.kr/news/stock/11921332",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 10:40",
-      "title": "[MK 골든크로스 돌파종목 : 아미노로직스(308170) & 어보브반도체(049070)]",
-      "url": "https://www.mk.co.kr/news/stock/11921330",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 10:38",
-      "title": "새해 첫 거래일부터 '질주'…삼전·하이닉스, 최고가 경신",
-      "url": "https://www.hankyung.com/article/2026010277836",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 10:30",
-      "title": "한한령 완화될까…李대통령 방중 앞두고 화장품·엔터株↑",
-      "url": "https://www.hankyung.com/article/2026010277426",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 10:17",
-      "title": "새해부터 주가 30% 폭등 '불기둥'…'안다르 모회사'에 무슨 일이 [종목+]",
-      "url": "https://www.hankyung.com/article/2026010277316",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 10:16",
-      "title": "셀트리온, 실적 기대감에 새해 첫 거래일 장중 '급등'",
-      "url": "https://www.hankyung.com/article/2026010277046",
-      "keywords_hit": [
-        "실적"
-      ]
     }
   ]
 }
