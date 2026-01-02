@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-02 16:31 KST",
+  "updated_at": "2026-01-02 16:45 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,52 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 16:38",
+      "title": "3대 연금 다 빠진 올해 PEF 출자···중견·중소 PEF 중심 재편",
+      "url": "https://www.mk.co.kr/news/stock/11921747",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 16:38",
+      "title": "원화 약세에 韓기업 바겐세일…해외 자본 인수 45% 늘어",
+      "url": "https://www.mk.co.kr/news/stock/11921746",
+      "keywords_hit": [
+        "인수"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 16:35",
+      "title": "작년 미국 증시 주인공은 반도체…올해도 급등 이어갈까",
+      "url": "https://www.hankyung.com/article/202601028251i",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 16:33",
+      "title": "새해 첫날 최고치 ‘4300선’ 마감한 코스피…삼성전자는 7%대 급등",
+      "url": "https://www.mk.co.kr/news/stock/11921733",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 16:31",
+      "title": "이선훈 신한證 대표 \"발행어음 도약대…내부통제 습관돼야\" [신년사]",
+      "url": "https://www.hankyung.com/article/2026010286986",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -294,22 +340,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 11:22",
-      "title": "'연말에 안팔아서 다행'…'삼전·하이닉스' 또 신고가 경신",
-      "url": "https://www.hankyung.com/article/202601027955i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 11:22",
-      "title": "거래소, 집행간부 인사…간부 12명 중 9명 신임",
-      "url": "https://www.hankyung.com/article/2026010279436",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-02 11:22",
@@ -341,32 +371,6 @@
       "published_at": "2026-01-02 11:20",
       "title": "윤병운 NH證 대표 신년사 “모험자본 투자 선봉 서야”",
       "url": "https://www.mk.co.kr/news/stock/11921419",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 11:20",
-      "title": "올해 금융화두 디지털자산 “웹3 주도권 잡을 것” [매일코인]",
-      "url": "https://www.mk.co.kr/news/stock/11921420",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 10:48",
-      "title": "‘깜짝 실적 예고’ 셀트리온, 증권가 장밋빛 전망에 10%대 ‘쑥’",
-      "url": "https://www.mk.co.kr/news/stock/11921342",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 10:41",
-      "title": "[MK시그널] 기가클라우드 테크놀러지, 수익률 47.3% 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11921334",
       "keywords_hit": []
     }
   ]
