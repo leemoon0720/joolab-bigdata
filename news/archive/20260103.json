@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-03 07:53 KST",
+  "updated_at": "2026-01-03 08:12 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-03 08:06",
+      "title": "딥시크가 돌아온다?…월가 CIO 5인의 AI 투자법 [김현석의 월스트리트나우]",
+      "url": "https://www.hankyung.com/article/202601039252i",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -339,14 +349,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 16:31",
-      "title": "이선훈 신한證 대표 \"발행어음 도약대…내부통제 습관돼야\" [신년사]",
-      "url": "https://www.hankyung.com/article/2026010286986",
-      "keywords_hit": []
     },
     {
       "source": "MK",
