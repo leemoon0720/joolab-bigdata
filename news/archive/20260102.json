@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-02 15:59 KST",
+  "updated_at": "2026-01-02 16:31 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,8 +25,16 @@
     {
       "source": "HK",
       "press": "한국경제",
+      "published_at": "2026-01-02 15:56",
+      "title": "\"삼전·하이닉스 수익률보다 높네\"…불기둥 쏜 종목 뭐길래",
+      "url": "https://www.hankyung.com/article/202601028534i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
       "published_at": "2026-01-02 15:33",
-      "title": "[속보] 새해 첫날부터 코스피 날았다…사상 최고 4309 마감",
+      "title": "새해 첫날부터 코스피 최고치 경신했다…삼전·SK하닉 신고가",
       "url": "https://www.hankyung.com/article/2026010285426",
       "keywords_hit": [
         "코스피"
@@ -342,16 +350,6 @@
       "title": "올해 금융화두 디지털자산 “웹3 주도권 잡을 것” [매일코인]",
       "url": "https://www.mk.co.kr/news/stock/11921420",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 11:13",
-      "title": "정은보 \"올해 코스피 5000 목표…프리미엄 시장으로 나아가야\"",
-      "url": "https://www.hankyung.com/article/2026010279026",
-      "keywords_hit": [
-        "코스피"
-      ]
     },
     {
       "source": "MK",
