@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-02 23:00 KST",
+  "updated_at": "2026-01-02 23:30 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 23:15",
+      "title": "美 합작법인 신주등기 완료…최윤범, 고려아연 우군 확보",
+      "url": "https://www.hankyung.com/article/2026010291311",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -341,16 +349,6 @@
       "title": "새해 첫 거래일 6%대 상승...삼성전자에 몰린 순매수[주식 초고수는 지금]",
       "url": "https://www.mk.co.kr/news/stock/11921678",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 15:28",
-      "title": "[마켓칼럼] 삼성전자·하이닉스 적정 수준…대형 반도체주 강세 지속",
-      "url": "https://www.hankyung.com/article/202601028548i",
-      "keywords_hit": [
-        "반도체"
-      ]
     },
     {
       "source": "MK",
