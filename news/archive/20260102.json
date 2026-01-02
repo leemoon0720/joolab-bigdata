@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-02 12:03 KST",
+  "updated_at": "2026-01-02 13:08 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,6 +25,16 @@
     {
       "source": "HK",
       "press": "한국경제",
+      "published_at": "2026-01-02 12:05",
+      "title": "환율 경계감 드러낸 이창용 \"국내만 1500원 얘기, 기대 관리할 것\" [한경 외환시장 워치]",
+      "url": "https://www.hankyung.com/article/202601027864i",
+      "keywords_hit": [
+        "환율"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
       "published_at": "2026-01-02 11:52",
       "title": "거래소서 '해외 납세 의무' 확인…'CARF' 도입, 투자자가 준비 해야 할 부분은?",
       "url": "https://www.hankyung.com/article/202601027910g",
@@ -34,7 +44,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-02 11:48",
-      "title": "\"강남 3구 번잡해서 싫다\" … 찐부자는 여기에 산다 [김익환의 부처 핸즈업]",
+      "title": "'강남 3구 아니었네'…요즘 부자들 몰리는 '찐부촌' 정체 [김익환의 부처 핸즈업]",
       "url": "https://www.hankyung.com/article/202601027507i",
       "keywords_hit": []
     },
@@ -325,14 +335,6 @@
       "keywords_hit": [
         "실적"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 08:33",
-      "title": "올해 '영업익 100조' 전망에…목표주가 뛴 SK하이닉스",
-      "url": "https://www.hankyung.com/article/202601027374i",
-      "keywords_hit": []
     },
     {
       "source": "MK",
