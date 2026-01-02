@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-02 16:45 KST",
+  "updated_at": "2026-01-02 16:55 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 16:39",
+      "title": "[포토] 코스피 4300돌파, 삼성전자 7.17% 급등",
+      "url": "https://www.hankyung.com/article/202601028732i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -311,14 +321,6 @@
       "published_at": "2026-01-02 11:48",
       "title": "'강남 3구 아니었네'…요즘 부자들 몰리는 '찐부촌' 정체 [김익환의 부처 핸즈업]",
       "url": "https://www.hankyung.com/article/202601027507i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 11:42",
-      "title": "김성환 한투증권 사장 \"'아시아 넘버원' 향한 질주 시작\" [신년사]",
-      "url": "https://www.hankyung.com/article/2026010279936",
       "keywords_hit": []
     },
     {
