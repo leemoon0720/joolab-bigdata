@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-02 20:29 KST",
+  "updated_at": "2026-01-02 20:41 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-02 20:38",
+      "title": "코스피 ‘화끈한 새해’…개장 첫날 4300 돌파 ‘새역사’",
+      "url": "https://www.mk.co.kr/news/stock/11921959",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -369,14 +379,6 @@
       "published_at": "2026-01-02 14:00",
       "title": "올해부터 디지털자산 과세 국제 공조 시작...투자자 주의점은 [엠블록레터]",
       "url": "https://www.mk.co.kr/news/stock/11921512",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 13:59",
-      "title": "교보증권, MTS ‘간편모드’ 출시…“글자 크기 키우고 선명하게”",
-      "url": "https://www.mk.co.kr/news/stock/11921511",
       "keywords_hit": []
     }
   ]
