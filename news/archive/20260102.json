@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-02 16:55 KST",
+  "updated_at": "2026-01-02 17:24 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,50 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 17:18",
+      "title": "신흥국·대형 기술주에 '뭉칫돈'…중소형주·화석연료 ETF는 소외",
+      "url": "https://www.hankyung.com/article/2026010288051",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 17:16",
+      "title": "코스피, 새해 사상 첫 4300선 돌파...삼성전자, 하이닉스도 최고가 경신 [HK영상]",
+      "url": "https://www.hankyung.com/article/202601028841i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 17:16",
+      "title": "'반도체 투톱' 투자자, 중국산의 역습 주시해야",
+      "url": "https://www.hankyung.com/article/2026010288031",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 17:15",
+      "title": "샌디스크, 年수익 559% 'S&P500 톱'",
+      "url": "https://www.hankyung.com/article/2026010288041",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-02 17:13",
+      "title": "[특징주 & 리포트] '신한證 \"올해 엔터주 호황 온다\"' 등",
+      "url": "https://www.hankyung.com/article/2026010288071",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -214,14 +258,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 14:17",
-      "title": "횡보하는 비트코인, 버티는 이더리움…'트럼프 변수' 앞둔 가상자산 시장 [이수현의 코인레이더]",
-      "url": "https://www.hankyung.com/article/202601028128g",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-02 14:00",
@@ -286,42 +322,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 13:23",
-      "title": "코스피, 장중 4280선도 돌파…사상 최고치 행진",
-      "url": "https://www.hankyung.com/article/2026010281526",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 12:05",
-      "title": "환율 경계감 드러낸 이창용 \"국내만 1500원 얘기, 기대 관리할 것\" [한경 외환시장 워치]",
-      "url": "https://www.hankyung.com/article/202601027864i",
-      "keywords_hit": [
-        "환율"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 11:52",
-      "title": "거래소서 '해외 납세 의무' 확인…'CARF' 도입, 투자자가 준비 해야 할 부분은?",
-      "url": "https://www.hankyung.com/article/202601027910g",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 11:48",
-      "title": "'강남 3구 아니었네'…요즘 부자들 몰리는 '찐부촌' 정체 [김익환의 부처 핸즈업]",
-      "url": "https://www.hankyung.com/article/202601027507i",
-      "keywords_hit": []
     },
     {
       "source": "MK",
