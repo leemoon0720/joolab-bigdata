@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-03 20:42 KST",
+  "updated_at": "2026-01-03 20:51 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-03 20:44",
+      "title": "'연말에 깜빡할 뻔'…2개월 만에 7000억 '재테크족' 몰린 곳",
+      "url": "https://www.hankyung.com/article/2026010288217",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -315,16 +323,6 @@
       "title": "신흥국·대형 기술주에 '뭉칫돈'…중소형주·화석연료 ETF는 소외",
       "url": "https://www.hankyung.com/article/2026010288051",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 17:16",
-      "title": "코스피, 새해 사상 첫 4300선 돌파...삼성전자, 하이닉스도 최고가 경신 [HK영상]",
-      "url": "https://www.hankyung.com/article/202601028841i",
-      "keywords_hit": [
-        "코스피"
-      ]
     },
     {
       "source": "MK",
