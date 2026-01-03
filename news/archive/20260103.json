@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-03 13:20 KST",
+  "updated_at": "2026-01-03 13:48 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-03 13:28",
+      "title": "\"'불장'에 퇴직연금 썩힐 수도 없고\"…은행 이자보다 더 벌려면",
+      "url": "https://www.hankyung.com/article/2026010289237",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -317,14 +325,6 @@
       "keywords_hit": [
         "반도체"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 17:15",
-      "title": "샌디스크, 年수익 559% S&P500 '톱'",
-      "url": "https://www.hankyung.com/article/2026010288041",
-      "keywords_hit": []
     },
     {
       "source": "MK",
