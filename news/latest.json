@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-04 07:57 KST",
+  "updated_at": "2026-01-04 08:22 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,6 +25,27 @@
     {
       "source": "HK",
       "press": "한국경제",
+      "published_at": "2026-01-04 08:00",
+      "title": "\"증시 '1월 효과' 기대…로봇·바이오株 주목\" [주간전망]",
+      "url": "https://www.hankyung.com/article/2026010285806",
+      "keywords_hit": [
+        "바이오",
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-04 08:00",
+      "title": "AI 테마주로 변신한 '노란 불도저'…발전사업 확대에 60% 급등 [전범진의 종목 직구]",
+      "url": "https://www.hankyung.com/article/202601049801i",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
       "published_at": "2026-01-04 07:00",
       "title": "한미반도체 대박 난 90년생…한 종목 '110억' 베팅 이유가 [윤현주의 主食이 주식]",
       "url": "https://www.hankyung.com/article/202512290859i",
@@ -37,7 +58,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-04 06:50",
-      "title": "'대치맘 패딩' 주가, 동계올림픽 타고 다시 점프할 수 있을까 [최종석의 차트 밖은 유럽]",
+      "title": "'대치맘 패딩' 그 회사…동계올림픽 앞두고 주가 심상치 않네 [최종석의 차트 밖은 유럽]",
       "url": "https://www.hankyung.com/article/202601027791i",
       "keywords_hit": []
     },
@@ -309,22 +330,6 @@
       "published_at": "2026-01-02 17:30",
       "title": "2026년 제2의 팔란티어 찾아라…미국 증시 ‘여기’에 주목 [K주식, 이걸 사? 말아?]",
       "url": "https://www.mk.co.kr/news/stock/11921716",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 17:29",
-      "title": "순자산 45% 급증한 한투…신한·한화·타임폴리오 ETF '약진'",
-      "url": "https://www.hankyung.com/article/2026010288081",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 17:26",
-      "title": "작년 신규 ETF 수익률 1위는 '양자컴'",
-      "url": "https://www.hankyung.com/article/2026010288091",
       "keywords_hit": []
     },
     {
