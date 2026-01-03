@@ -22,7 +22,7 @@
     <nav class="nav">
       <a href="/notice/" data-nav="notice">공지</a>
       <a href="/news/" data-nav="news">뉴스센터</a>
-      <a href="/data/" data-nav="data">데이터센터</a>
+      <a href="/data/" data-nav="data">빅데이터센터</a>
       <a href="/training/" data-nav="training">트레이닝센터</a>
       <a href="/ops/" data-nav="ops">운영센터</a>
     </nav>
@@ -34,7 +34,38 @@
 
 <section class="hero">
   <h1>주랩 빅데이터 센터</h1>
-  <p>바탕화면처럼 정리된 데이터 대시보드 · 센터형 메뉴로 한 번에 접근합니다.</p>
+  <div class="market-strip" id="market-strip">
+    <a class="mchip" data-key="kospi" data-sym="^KS11" href="https://finance.naver.com/sise/sise_index.nhn?code=KOSPI" target="_blank" rel="noopener">
+      <span class="mname">KOSPI</span>
+      <span class="mval" id="mval-kospi">-</span>
+      <span class="mchg" id="mchg-kospi"></span>
+    </a>
+    <a class="mchip" data-key="kosdaq" data-sym="^KQ11" href="https://finance.naver.com/sise/sise_index.nhn?code=KOSDAQ" target="_blank" rel="noopener">
+      <span class="mname">KOSDAQ</span>
+      <span class="mval" id="mval-kosdaq">-</span>
+      <span class="mchg" id="mchg-kosdaq"></span>
+    </a>
+    <a class="mchip" data-key="usdkrw" data-sym="USDKRW=X" href="https://finance.naver.com/marketindex/exchangeDetail.nhn?marketindexCd=FX_USDKRW" target="_blank" rel="noopener">
+      <span class="mname">USD/KRW</span>
+      <span class="mval" id="mval-usdkrw">-</span>
+      <span class="mchg" id="mchg-usdkrw"></span>
+    </a>
+    <a class="mchip" data-key="dow" data-sym="^DJI" href="https://finance.naver.com/world/sise.nhn?symbol=DJI%40DJI" target="_blank" rel="noopener">
+      <span class="mname">미국증시</span>
+      <span class="mval" id="mval-dow">-</span>
+      <span class="mchg" id="mchg-dow"></span>
+    </a>
+    <a class="mchip" data-key="nasdaq" data-sym="^IXIC" href="https://finance.naver.com/world/sise.nhn?symbol=NAS%40IXIC" target="_blank" rel="noopener">
+      <span class="mname">NASDAQ</span>
+      <span class="mval" id="mval-nasdaq">-</span>
+      <span class="mchg" id="mchg-nasdaq"></span>
+    </a>
+    <a class="mchip" data-key="sp500" data-sym="^GSPC" href="https://finance.naver.com/world/sise.naver?symbol=SPI%40SPX" target="_blank" rel="noopener">
+      <span class="mname">S&P500</span>
+      <span class="mval" id="mval-sp500">-</span>
+      <span class="mchg" id="mchg-sp500"></span>
+    </a>
+  </div>
   <div class="hero-row">
     <div class="statusbar">
       <span class="badge live">LIVE</span>
@@ -44,58 +75,42 @@
     
   </div>
 </section>
+    
 
-    <div class="controls">
-      <div class="input">
-        <span class="badge" style="border:none;background:rgba(37,99,235,.08);color:rgba(37,99,235,1);">종목분석</span>
-        <input id="ticker-input" placeholder="티커/종목명 입력 (예: 005930, 삼성전자)"/>
+    <div class="section-title">
+      <h2>최신 뉴스</h2>
       </div>
-      <button class="btn primary" id="ticker-btn">분석하기</button>
-      <div class="chips">
-<a class="chip" href="/training/game/">차트게임</a>
-      </div>
-    </div>
+    <div id="news-preview" class="list"></div>
+
+  
 
     <div class="grid">
-      <div class="card" style="grid-column: span 12;">
-        <div class="card-top"><h3>센터 바로가기</h3><span class="badge live">정리된 홈</span></div>
-        <p>공지/뉴스/데이터/트레이닝/운영을 같은 톤으로 정렬했습니다.</p>
-      </div>
-
-      <div class="card" style="grid-column: span 4;">
+      <a class="card link-card" style="grid-column: span 4;" href="/notice/">
         <div class="card-top"><h3>공지</h3><span class="badge upd">UPD</span></div>
-        <p>점검·배포·변경사항을 공식 안내합니다.</p>
-        <div class="card-cta"><a href="/notice/">바로가기</a></div>
-      </div>
+      </a>
 
-      <div class="card" style="grid-column: span 4;">
+      <a class="card link-card" style="grid-column: span 4;" href="/news/">
         <div class="card-top"><h3>뉴스센터</h3><span class="badge live">LIVE</span></div>
-        <p>증권 헤드라인만 빠르게 수집·아카이브합니다.</p>
-        <div class="card-cta"><a href="/news/">바로가기</a></div>
-      </div>
+      </a>
 
-      <div class="card" style="grid-column: span 4;">
-        <div class="card-top"><h3>데이터센터</h3><span class="badge live">LIVE</span></div>
-        <p>뉴스·경제·증권 RSS를 한 곳에서 정리합니다.</p>
-        <div class="card-cta"><a href="/data/">바로가기</a></div>
-      </div>
+      <a class="card link-card" style="grid-column: span 4;" href="/data/">
+        <div class="card-top"><h3>빅데이터센터</h3><span class="badge live">LIVE</span></div>
+      </a>
 
-      <div class="card" style="grid-column: span 6;">
+      <a class="card link-card" style="grid-column: span 6;" href="/training/">
         <div class="card-top"><h3>트레이닝센터</h3><span class="badge upd">UPD</span></div>
-        <p>차트 게임 기반으로 “매수·매도·정산” 연습을 제공합니다.</p>
-        <div class="card-cta"><a href="/training/">바로가기</a></div>
-      </div>
+      </a>
 
-      <div class="card" style="grid-column: span 6;">
+      <a class="card link-card" style="grid-column: span 6;" href="/ops/">
         <div class="card-top"><h3>운영센터</h3><span class="badge upd">UPD</span></div>
-        <p>요청/버그 제보/업데이트 로그를 한 곳으로 모읍니다.</p>
-        <div class="card-cta"><a href="/ops/">바로가기</a></div>
-      </div>
+      </a>
     </div>
+
+    
 
     <div class="section-title">
       <h2>오늘 스냅샷</h2>
-      <div class="hint">정적 업로드 기반 · JSON 갱신 시 자동 반영</div>
+      
     </div>
 
     <div class="grid">
@@ -121,13 +136,7 @@
       </div>
     </div>
 
-    <div class="section-title">
-      <h2>최신 증권 헤드라인 (프리뷰)</h2>
-      <div class="hint">원문 이동 · 제목/언론사/시간만</div>
     </div>
-    <div id="news-preview" class="list"></div>
-
-  </div>
 </main>
 
   <div class="footer container">

@@ -36,6 +36,48 @@
     return await r.json();
   }
 
+  // ==============================
+  // Market strip (Home)
+  // ==============================
+  function fmtNum(n, digits=2){
+    if(n===null || n===undefined || n==='' || Number.isNaN(Number(n))) return '-';
+    const x = Number(n);
+    // Int-like values (indices) -> keep 2 decimals if needed
+    return x.toLocaleString(undefined, {maximumFractionDigits: digits, minimumFractionDigits: (Math.abs(x) < 10 ? 2 : 0)});
+  }
+
+  function fmtChg(chg, pct){
+    if(chg===null || chg===undefined || pct===null || pct===undefined) return '';
+    const s1 = (Number(chg) >= 0 ? '+' : '') + fmtNum(chg, 2);
+    const s2 = (Number(pct) >= 0 ? '+' : '') + fmtNum(pct, 2) + '%';
+    return `${s1} (${s2})`;
+  }
+
+  async function hydrateMarketStrip(){
+    const strip = byId('market-strip');
+    if(!strip) return;
+    try{
+      const data = await fetchJSON('/api/market');
+      const updated = data.updated_at || data.updated || data.time || '-';
+      const items = data.items || data.data || {};
+
+      // update header badge if still '-' (do not overwrite news badge later)
+      const upd = byId('badge-upd');
+      if(upd && upd.textContent === 'UPD: -' && updated !== '-') upd.textContent = `UPD: ${fmtTime(updated)}`;
+
+      const keys = ['kospi','kosdaq','usdkrw','dow','nasdaq','sp500'];
+      keys.forEach(k=>{
+        const it = items[k] || {};
+        const v = byId(`mval-${k}`);
+        const c = byId(`mchg-${k}`);
+        if(v) v.textContent = (it.price!==undefined && it.price!==null) ? fmtNum(it.price, 2) : '-';
+        if(c) c.textContent = fmtChg(it.change, it.pct);
+      });
+    }catch(e){
+      // keep placeholders
+    }
+  }
+
   function fmtTime(t){
     if(!t) return '-';
     const s = String(t);
@@ -221,8 +263,12 @@
   document.addEventListener('DOMContentLoaded', ()=>{
     setActiveNav();
     initTickerSearch();
+    hydrateMarketStrip();
     hydrateNewsPreview();
     hydrateNewsCenter();
     hydrateAnalysis();
+
+    // soft refresh
+    setInterval(()=>{ hydrateMarketStrip(); }, 60*1000);
   });
 })();
