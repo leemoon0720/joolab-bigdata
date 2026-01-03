@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-03 17:58 KST",
+  "updated_at": "2026-01-03 18:25 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-03 18:00",
+      "title": "\"올해엔 바이오?\"…역대 최고치 경신한 새해 주도주를 둘러싼 분석 [박주연의 여의도 나침반]",
+      "url": "https://www.hankyung.com/article/202601039636i",
+      "keywords_hit": [
+        "바이오"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -314,16 +324,6 @@
       "url": "https://www.hankyung.com/article/202601028841i",
       "keywords_hit": [
         "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 17:16",
-      "title": "'반도체 투톱' 투자자, 중국산의 역습 주시해야",
-      "url": "https://www.hankyung.com/article/2026010288031",
-      "keywords_hit": [
-        "반도체"
       ]
     },
     {
