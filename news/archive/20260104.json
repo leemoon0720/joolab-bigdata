@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-04 06:54 KST",
+  "updated_at": "2026-01-04 07:13 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,25 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-04 07:00",
+      "title": "한미반도체 대박 난 90년생…한 종목 '110억' 베팅 이유가 [윤현주의 主食이 주식]",
+      "url": "https://www.hankyung.com/article/202512290859i",
+      "keywords_hit": [
+        "반도체",
+        "유가"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-04 06:50",
+      "title": "'대치맘 패딩' 주가, 동계올림픽 타고 다시 점프할 수 있을까 [최종석의 차트 밖은 유럽]",
+      "url": "https://www.hankyung.com/article/202601027791i",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -306,22 +325,6 @@
       "published_at": "2026-01-02 17:26",
       "title": "작년 신규 ETF 수익률 1위는 '양자컴'",
       "url": "https://www.hankyung.com/article/2026010288091",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 17:25",
-      "title": "\"이 가격엔 도저히 못 팔겠다\"…개미들 '분통' 터트린 이유",
-      "url": "https://www.hankyung.com/article/2026010288061",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 17:18",
-      "title": "신흥국·대형 기술주에 '뭉칫돈'…중소형주·화석연료 ETF는 소외",
-      "url": "https://www.hankyung.com/article/2026010288051",
       "keywords_hit": []
     },
     {
