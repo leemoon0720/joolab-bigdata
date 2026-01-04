@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-04 10:59 KST",
+  "updated_at": "2026-01-04 12:55 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,6 +25,49 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-04 11:35",
+      "title": "비트코인 3주만에 9만1000불 돌파 [매일코인]",
+      "url": "https://www.mk.co.kr/news/stock/11922395",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-04 11:33",
+      "title": "테슬라·엔비디아 아니었다…한달간 알파벳에 9천억원 ‘폭풍 매수’한 서학개미",
+      "url": "https://www.mk.co.kr/news/stock/11922394",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-04 11:30",
+      "title": "“1년새 260% 올랐는데 올해 더 오른다고?”...마이크론 급등",
+      "url": "https://www.mk.co.kr/news/stock/11922389",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-04 11:29",
+      "title": "“올해 부동산·주가 ‘껑충’ 소비회복 기대감 높아…성장률 3%대는 글쎄”",
+      "url": "https://www.mk.co.kr/news/economy/11922387",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-04 11:18",
+      "title": "나스닥도 제친 홍콩IPO…올해도 ‘상장 러쉬’",
+      "url": "https://www.mk.co.kr/news/stock/11922382",
+      "keywords_hit": [
+        "IPO",
+        "상장"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-04 10:35",
       "title": "금융자산만 30억 넘는 ‘찐부자’들, 올해 ‘원픽’ 투자처는 어디?",
       "url": "https://www.mk.co.kr/news/economy/11922370",
@@ -34,11 +77,9 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-04 10:31",
-      "title": "\"다시 반도체의 시간\"…반도체·현대차 베팅한 투자 고수",
+      "title": "\"찐부자들 따라 사볼까\"…투자 고수들 '우르르' 몰린 곳이 [종목+]",
       "url": "https://www.hankyung.com/article/202601040093i",
-      "keywords_hit": [
-        "반도체"
-      ]
+      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -330,50 +371,6 @@
       "published_at": "2026-01-02 17:34",
       "title": "또 사상 최고치…증권가선 “더 상승할 것” 올해 증시 판도는",
       "url": "https://www.mk.co.kr/news/stock/11921811",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 17:30",
-      "title": "2026년 제2의 팔란티어 찾아라…미국 증시 ‘여기’에 주목 [K주식, 이걸 사? 말아?]",
-      "url": "https://www.mk.co.kr/news/stock/11921716",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 16:38",
-      "title": "3대 연금 다 빠진 올해 PEF 출자···중견·중소 PEF 중심 재편",
-      "url": "https://www.mk.co.kr/news/stock/11921747",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 16:38",
-      "title": "원화 약세에 韓기업 바겐세일…해외 자본 인수 45% 늘어",
-      "url": "https://www.mk.co.kr/news/stock/11921746",
-      "keywords_hit": [
-        "인수"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 16:33",
-      "title": "새해 첫날 최고치 ‘4300선’ 마감한 코스피…삼성전자는 7%대 급등",
-      "url": "https://www.mk.co.kr/news/stock/11921733",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 15:30",
-      "title": "새해 첫 거래일 6%대 상승...삼성전자에 몰린 순매수[주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11921678",
       "keywords_hit": []
     }
   ]
