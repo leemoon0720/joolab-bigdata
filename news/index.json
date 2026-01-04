@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-05 05:40 KST",
+  "updated_at": "2026-01-05 05:52 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,24 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 05:51",
+      "title": "동학개미 1억으로 ‘1.5억’ 만들었다…작년 수익률 서학개미 ‘압살’",
+      "url": "https://www.mk.co.kr/news/stock/11922793",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 05:51",
+      "title": "“오천피 풍향계 이번주에 나옵니다”…삼성전자 4분기 실적 ‘오매불망’",
+      "url": "https://www.mk.co.kr/news/stock/11922792",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -149,16 +167,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-04 16:55",
-      "title": "슈퍼리치 올 투자키워드 'K.O.R.E.A'",
-      "url": "https://www.mk.co.kr/news/stock/11922558",
+      "title": "서학개미 이긴 동학개미 … 작년 수익률 46%로 두배",
+      "url": "https://www.mk.co.kr/news/stock/11922557",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-04 16:55",
-      "title": "서학개미 이긴 동학개미 … 작년 수익률 46%로 두배",
-      "url": "https://www.mk.co.kr/news/stock/11922557",
+      "title": "슈퍼리치 올 투자키워드 'K.O.R.E.A'",
+      "url": "https://www.mk.co.kr/news/stock/11922558",
       "keywords_hit": []
     },
     {
@@ -358,22 +376,6 @@
       "keywords_hit": [
         "바이오"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-03 10:38",
-      "title": "“삼전·하닉만 날아간게 아니네”…오랜만에 서학개미 웃게한 ‘이 종목’",
-      "url": "https://www.mk.co.kr/news/stock/11922148",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-03 06:02",
-      "title": "“이재용·최태원 회장이 세뱃돈 줬네요”…13만전자·70만닉스 보인다",
-      "url": "https://www.mk.co.kr/news/stock/11922048",
-      "keywords_hit": []
     }
   ]
 }
