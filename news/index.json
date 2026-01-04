@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-05 08:40 KST",
+  "updated_at": "2026-01-05 08:51 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,32 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 08:50",
+      "title": "에스바이오메딕스, JP모건 헬스케어 컨퍼런스 참가",
+      "url": "https://www.mk.co.kr/news/stock/11921665",
+      "keywords_hit": [
+        "바이오"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 08:47",
+      "title": "“포스코퓨처엠, 양∙음극재 판매량 역성장 불가피”…목표가↓",
+      "url": "https://www.mk.co.kr/news/stock/11922842",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 08:38",
+      "title": "\"개인정보 유출 사고에 '탈팡' 시작…보상안도 고객 반감 키워\"-LS",
+      "url": "https://www.hankyung.com/article/2026010510386",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -329,22 +355,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-04 11:30",
-      "title": "“1년새 260% 올랐는데 올해 더 오른다고?”...마이크론 급등",
-      "url": "https://www.mk.co.kr/news/stock/11922389",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-04 11:29",
-      "title": "올해 부동산·주가 ‘껑충’, 소비회복 기대된다지만…성장률 3%대는 ‘글쎄’",
-      "url": "https://www.mk.co.kr/news/economy/11922387",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-04 10:31",
@@ -361,16 +371,6 @@
       "keywords_hit": [
         "바이오",
         "로봇"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-04 08:00",
-      "title": "'주가 60% 급등' 불기둥…건설장비 업체, AI株로 뜨자 '발칵' [전범진의 종목 직구]",
-      "url": "https://www.hankyung.com/article/202601049801i",
-      "keywords_hit": [
-        "AI"
       ]
     }
   ]
