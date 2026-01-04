@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-04 17:52 KST",
+  "updated_at": "2026-01-04 18:10 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-04 18:00",
+      "title": "뉴욕·상하이 증시…美 고용보고서, 금리인하 힌트 줄 듯",
+      "url": "https://www.hankyung.com/article/2026010405191",
+      "keywords_hit": [
+        "금리"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -331,14 +341,6 @@
       "published_at": "2026-01-03 13:28",
       "title": "\"'불장'에 돈 썩힐 수도 없고\"…은행 이자보다 더 벌려면",
       "url": "https://www.hankyung.com/article/2026010289237",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-03 11:17",
-      "title": "\"삼전으로 4억5000만원\"…'12만전자'에 김구라도 대박?",
-      "url": "https://www.hankyung.com/article/2026010394207",
       "keywords_hit": []
     },
     {
