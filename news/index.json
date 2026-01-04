@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-05 07:58 KST",
+  "updated_at": "2026-01-05 08:25 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 08:14",
+      "title": "“삼성전자 4분기 실적, 컨센서스 대폭 상회 전망…목표가 15만원”",
+      "url": "https://www.mk.co.kr/news/stock/11922817",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -317,17 +327,6 @@
       "title": "올해 부동산·주가 ‘껑충’, 소비회복 기대된다지만…성장률 3%대는 ‘글쎄’",
       "url": "https://www.mk.co.kr/news/economy/11922387",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-04 11:18",
-      "title": "나스닥도 제친 홍콩IPO…올해도 ‘상장 러쉬’",
-      "url": "https://www.mk.co.kr/news/stock/11922382",
-      "keywords_hit": [
-        "IPO",
-        "상장"
-      ]
     },
     {
       "source": "HK",
