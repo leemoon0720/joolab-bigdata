@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-05 05:52 KST",
+  "updated_at": "2026-01-05 06:09 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 05:52",
+      "title": "“이 친구 보니 삼성전자 아직 싸네”…새해 첫날 10% 폭등한 마이크론",
+      "url": "https://www.mk.co.kr/news/stock/11922794",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -302,14 +310,6 @@
         "IPO",
         "상장"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-04 10:35",
-      "title": "금융자산만 30억 넘는 ‘찐부자’들, 올해 ‘원픽’ 투자처는 어디?",
-      "url": "https://www.mk.co.kr/news/economy/11922370",
-      "keywords_hit": []
     },
     {
       "source": "HK",
