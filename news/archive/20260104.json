@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-04 08:57 KST",
+  "updated_at": "2026-01-04 10:59 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,6 +23,24 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-04 10:35",
+      "title": "금융자산만 30억 넘는 ‘찐부자’들, 올해 ‘원픽’ 투자처는 어디?",
+      "url": "https://www.mk.co.kr/news/economy/11922370",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-04 10:31",
+      "title": "\"다시 반도체의 시간\"…반도체·현대차 베팅한 투자 고수",
+      "url": "https://www.hankyung.com/article/202601040093i",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-04 08:00",
@@ -37,7 +55,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-04 08:00",
-      "title": "AI 테마주로 변신한 '노란 불도저'…발전사업 확대에 60% 급등 [전범진의 종목 직구]",
+      "title": "'주가 60% 급등' 불기둥…건설장비 업체, AI株로 뜨자 '발칵' [전범진의 종목 직구]",
       "url": "https://www.hankyung.com/article/202601049801i",
       "keywords_hit": [
         "AI"
@@ -262,16 +280,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 17:50",
-      "title": "코스피 4309…새해 첫날 최고가 찍었다",
-      "url": "https://www.hankyung.com/article/2026010289291",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-02 17:49",
@@ -367,17 +375,6 @@
       "title": "새해 첫 거래일 6%대 상승...삼성전자에 몰린 순매수[주식 초고수는 지금]",
       "url": "https://www.mk.co.kr/news/stock/11921678",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 15:18",
-      "title": "공급·실적·환율 ‘3박자’…올해 항공주 훈풍부나",
-      "url": "https://www.mk.co.kr/news/stock/11921667",
-      "keywords_hit": [
-        "환율",
-        "실적"
-      ]
     }
   ]
 }
