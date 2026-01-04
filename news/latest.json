@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-04 18:10 KST",
+  "updated_at": "2026-01-04 18:31 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,22 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-04 18:24",
+      "title": "“요즘 빠졌다는데 지금 사야 돼?”...잘나가던 은값 주춤, 저가매수 기회?",
+      "url": "https://www.mk.co.kr/news/stock/11922691",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-04 18:14",
+      "title": "현대차증권, 모험자본 사업 성과…ESG평가서 A등급",
+      "url": "https://www.hankyung.com/article/2026010405691",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -125,16 +141,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-04 16:55",
-      "title": "슈퍼리치 올 투자키워드 'K.O.R.E.A'",
-      "url": "https://www.mk.co.kr/news/stock/11922558",
+      "title": "서학개미 이긴 동학개미 … 작년 수익률 46%로 두배",
+      "url": "https://www.mk.co.kr/news/stock/11922557",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-04 16:55",
-      "title": "서학개미 이긴 동학개미 … 작년 수익률 46%로 두배",
-      "url": "https://www.mk.co.kr/news/stock/11922557",
+      "title": "슈퍼리치 올 투자키워드 'K.O.R.E.A'",
+      "url": "https://www.mk.co.kr/news/stock/11922558",
       "keywords_hit": []
     },
     {
@@ -336,14 +352,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-03 13:28",
-      "title": "\"'불장'에 돈 썩힐 수도 없고\"…은행 이자보다 더 벌려면",
-      "url": "https://www.hankyung.com/article/2026010289237",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-03 10:38",
@@ -368,14 +376,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-02 19:36",
-      "title": "“하이닉스 5억 베팅했다” 야수 공무원…1.4억 ‘익절’ 인증",
-      "url": "https://www.mk.co.kr/news/stock/11921931",
-      "keywords_hit": []
     }
   ]
 }
