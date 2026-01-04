@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-05 07:49 KST",
+  "updated_at": "2026-01-05 07:58 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 07:53",
+      "title": "\"LG생활건강, 작년 4분기 '어닝쇼크' 전망…보수적 접근 권고\"-삼성",
+      "url": "https://www.hankyung.com/article/2026010509376",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -367,14 +375,6 @@
       "published_at": "2026-01-04 06:50",
       "title": "'대치맘 패딩' 그 회사…동계올림픽 앞두고 주가 심상치 않네 [최종석의 차트 밖은 유럽]",
       "url": "https://www.hankyung.com/article/202601027791i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-03 20:44",
-      "title": "'연말에 깜빡할 뻔'…2개월 만에 7000억 '재테크족' 몰린 곳",
-      "url": "https://www.hankyung.com/article/2026010288217",
       "keywords_hit": []
     }
   ]
