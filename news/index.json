@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-04 17:32 KST",
+  "updated_at": "2026-01-04 17:52 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,61 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-04 17:36",
+      "title": "우주항공 상품이 톱 차지…中 피지컬 AI도 강세",
+      "url": "https://www.hankyung.com/article/2026010405461",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-04 17:35",
+      "title": "\"반도체 랠리·증시 부양책…올해 코스피 6000도 가능\"",
+      "url": "https://www.hankyung.com/article/2026010405451",
+      "keywords_hit": [
+        "코스피",
+        "반도체"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-04 17:34",
+      "title": "'탈팡 러시'에 웃는 CJ대한통운",
+      "url": "https://www.hankyung.com/article/2026010405441",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-04 17:34",
+      "title": "국내펀드 수익률 81%, 해외펀드 압도",
+      "url": "https://www.hankyung.com/article/2026010405471",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-04 17:34",
+      "title": "현대차 적극 매수…로봇주 변신 기대",
+      "url": "https://www.hankyung.com/article/2026010405431",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-04 17:33",
+      "title": "국내 슈퍼리치 절반…\"올해 주식 비중 확대\"",
+      "url": "https://www.hankyung.com/article/2026010405481",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -287,22 +342,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-03 11:06",
-      "title": "증권가 수장들, 생산적 금융 확대 전면에…\"내부통제는 전제조건\"",
-      "url": "https://www.hankyung.com/article/2026010290936",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-03 11:02",
-      "title": "경영 물러난 버핏 \"버크셔, 100년 뒤에도 있을 것\"",
-      "url": "https://www.hankyung.com/article/2026010394117",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-03 10:38",
@@ -311,45 +350,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-03 08:06",
-      "title": "딥시크가 돌아온다?…월가 CIO 5인의 AI 투자법 [김현석의 월스트리트나우]",
-      "url": "https://www.hankyung.com/article/202601039252i",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-03 07:04",
-      "title": "새해 첫 거래 혼조 마감…기술주 '희비' [뉴욕증시 브리핑]",
-      "url": "https://www.hankyung.com/article/2026010392207",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-03 07:00",
-      "title": "주가 8만원 가나 했는데…5만원대 추락에 '망연자실'한 개미 [윤현주의 主食이 주식]",
-      "url": "https://www.hankyung.com/article/202511104908i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-03 06:02",
       "title": "“이재용·최태원 회장이 세뱃돈 줬네요”…13만전자·70만닉스 보인다",
       "url": "https://www.mk.co.kr/news/stock/11922048",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-02 23:15",
-      "title": "美 합작법인 신주등기 완료…최윤범, 고려아연 우군 확보",
-      "url": "https://www.hankyung.com/article/2026010291311",
       "keywords_hit": []
     },
     {
