@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-05 15:02 KST",
+  "updated_at": "2026-01-05 15:53 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,6 +25,54 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-05 15:50",
+      "title": "반도체주 날자 지수도 최고치…외국인 2조원 ‘사자’에 코스피 4400선 마감",
+      "url": "https://www.mk.co.kr/news/stock/11923356",
+      "keywords_hit": [
+        "코스피",
+        "외국인",
+        "반도체"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 15:32",
+      "title": "‘코스피 쌍끌이’ 삼성전자는 매수…SK하이닉스는 매도[주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11923329",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 15:31",
+      "title": "[속보] 코스피, 4457.52 '사상 최고치' 마감…'13만전자'에 '70만닉스' 터치",
+      "url": "https://www.hankyung.com/article/2026010523996",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 15:24",
+      "title": "코람코자산신탁, 김철규·이상헌 부사장 선임",
+      "url": "https://www.mk.co.kr/news/stock/11923311",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 15:17",
+      "title": "‘IFC 분쟁’ 완승 조력한 율촌… ‘최선의 노력’ 기준 세워",
+      "url": "https://www.mk.co.kr/news/stock/11923289",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-05 14:58",
       "title": "거래소, 코스닥 ‘맞춤형 기술특례’ 도입…상장폐지 요건 강화",
       "url": "https://www.mk.co.kr/news/stock/11923254",
@@ -45,7 +93,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-05 14:42",
-      "title": "베네수엘라 사태·北 미사일 발사에…한화에어로 '황제주' 탈환 [종목+]",
+      "title": "베네수엘라 사태·北 미사일 발사에…주가 '불기둥' [종목+]",
       "url": "https://www.hankyung.com/article/2026010522376",
       "keywords_hit": []
     },
@@ -246,32 +294,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 10:32",
-      "title": "[MK시그널] 마이크로디지탈, 본격적인 실적 레버리지 구간 분석에 주가 상승세... MK시그널 추천 후 상승률 8.99%기록",
-      "url": "https://www.mk.co.kr/news/stock/11923031",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 10:32",
-      "title": "“규제 장벽 높았나” 코인베이스, 1월말부터 아르헨티나 페소화 거래 중단",
-      "url": "https://www.mk.co.kr/news/stock/11923030",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 10:29",
-      "title": "[MK 골든크로스 돌파종목 : 하나머티리얼즈(166090) & 링크제니시스(219420)]",
-      "url": "https://www.mk.co.kr/news/stock/11923027",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-05 10:28",
@@ -288,14 +310,6 @@
       "published_at": "2026-01-05 10:17",
       "title": "두산에너빌리티 9% 급등, SMR 기대에 원전주 동반 강세",
       "url": "https://www.hankyung.com/article/202601051492i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 10:17",
-      "title": "가파르게 주가 올랐었는데…현대오토에버, 장 초반 6% 하락세",
-      "url": "https://www.mk.co.kr/news/stock/11922998",
       "keywords_hit": []
     },
     {
@@ -369,14 +383,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 08:38",
-      "title": "쿠팡 '5만원 쿠폰' 괜히 뿌렸나…반감 키우더니 '탈팡' 시작 [종목+]",
-      "url": "https://www.hankyung.com/article/2026010510386",
-      "keywords_hit": []
     }
   ]
 }
