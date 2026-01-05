@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-06 07:58 KST",
+  "updated_at": "2026-01-06 08:24 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,58 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 08:12",
+      "title": "\"SK하이닉스, 의심할 여지 없어…목표가 80만원\"-DS",
+      "url": "https://www.hankyung.com/article/2026010634486",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 08:03",
+      "title": "베네수엘라는 소음…금융주 폭등 이유? [김현석의 월스트리트나우]",
+      "url": "https://www.hankyung.com/article/202601063247i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 08:01",
+      "title": "\"CES서 큰 거 온다\"…원익 등 로봇주 다시 불기둥 세우나 [영상]",
+      "url": "https://www.hankyung.com/article/2026010633546",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 08:00",
+      "title": "한물간 부품사였는데…6개월만에 주가 300% 폭등 [핫픽! 해외주식]",
+      "url": "https://www.hankyung.com/article/202601028972i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 07:54",
+      "title": "\"현대위아, 작년 4분기 부진했지만 올해 대폭 개선 기대…목표가↑\"-신한",
+      "url": "https://www.hankyung.com/article/2026010633766",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 07:53",
+      "title": "\"이마트, 온라인 자회사 실적 우려 완화 전망\"-NH",
+      "url": "https://www.hankyung.com/article/2026010633706",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -277,14 +329,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 17:48",
-      "title": "하루 새 1조4000억 불었다…이재용 주식재산 '역대 최대'",
-      "url": "https://www.hankyung.com/article/202601052830i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-05 17:45",
@@ -293,55 +337,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 17:41",
-      "title": "돈 쓸어담던 스타벅스 추락 이유가…\"중국마저 이럴 줄은\"",
-      "url": "https://www.hankyung.com/article/2026010528211",
-      "keywords_hit": [
-        "유가"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-05 17:41",
       "title": "공개매수 춘추전국시대… NH證 명가 지위 탈환할까",
       "url": "https://www.mk.co.kr/news/stock/11923568",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 17:40",
-      "title": "美 백화점 색스글로벌…파산 대비 자금조달 추진",
-      "url": "https://www.hankyung.com/article/2026010528281",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 17:40",
-      "title": "세금 없어지더니 '이럴 줄은'…\"미국 갑니다\" 개미 '대탈출'",
-      "url": "https://www.hankyung.com/article/2026010528271",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 17:32",
-      "title": "한미반도체 31% 급등…반도체 소부장株 날았다",
-      "url": "https://www.hankyung.com/article/2026010527641",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 17:31",
-      "title": "[특징주 & 리포트] 'JYP·SM 등 엔터주 일제히 급락' 등",
-      "url": "https://www.hankyung.com/article/2026010527631",
       "keywords_hit": []
     },
     {
