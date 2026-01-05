@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-05 16:57 KST",
+  "updated_at": "2026-01-05 17:38 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,112 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 17:32",
+      "title": "한미반도체 31% 급등…반도체 소부장株 날았다",
+      "url": "https://www.hankyung.com/article/2026010527641",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 17:31",
+      "title": "[특징주 & 리포트] 'JYP·SM 등 엔터주 일제히 급락' 등",
+      "url": "https://www.hankyung.com/article/2026010527631",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 17:30",
+      "title": "\"미래에셋 '최선의 노력' 입증 … IFC 분쟁 승소 이끌어냈죠\"",
+      "url": "https://www.mk.co.kr/news/stock/11923534",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 17:30",
+      "title": "[M&A 매물장터] 연매출 120억원 생활용품 유통사 매물로",
+      "url": "https://www.mk.co.kr/news/stock/11923533",
+      "keywords_hit": [
+        "M&A",
+        "매출"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 17:30",
+      "title": "\"보고서도 없네요\" 불장에도 중소형株 소외",
+      "url": "https://www.mk.co.kr/news/stock/11923531",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 17:29",
+      "title": "미국發 훈풍에 원전주 동반 강세",
+      "url": "https://www.hankyung.com/article/2026010527661",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 17:28",
+      "title": "韓 휴머노이드 집중 투자 ETF 나온다",
+      "url": "https://www.hankyung.com/article/2026010527651",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 17:27",
+      "title": "베네수엘라 사태, 中 대응 주시해야",
+      "url": "https://www.hankyung.com/article/2026010527681",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 17:26",
+      "title": "외국인이 2兆 넘게 사도 역부족…1450원 위협하는 원·달러 환율",
+      "url": "https://www.hankyung.com/article/2026010527971",
+      "keywords_hit": [
+        "외국인",
+        "환율"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 17:25",
+      "title": "CES 2026 개막",
+      "url": "https://www.hankyung.com/article/2026010527701",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 17:04",
+      "title": "베네수엘라 효과?…\"비트코인, 이달 10만弗 재탈환 가능성\"",
+      "url": "https://www.hankyung.com/article/202601052631g",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 16:56",
+      "title": "일본도 개미는 \"국장보단 미장\"…환율 걱정까지 똑같네",
+      "url": "https://www.hankyung.com/article/202601052626i",
+      "keywords_hit": [
+        "환율"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -266,14 +372,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 11:18",
-      "title": "'잘 먹고 갑니다'…'상위 1%' 고수들 삼전 팔고 쓸어담은 종목 [마켓PRO]",
-      "url": "https://www.hankyung.com/article/202601051664i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-05 11:16",
@@ -287,108 +385,6 @@
       "published_at": "2026-01-05 11:15",
       "title": "삼일PwC, 회계∙법무법인 최초 고액자산가 전담 ‘헤리티지 센터’ 출범",
       "url": "https://www.mk.co.kr/news/stock/11923081",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 11:14",
-      "title": "'최고치 행진' 코스피, 반도체주 강세에 4420선도 뚫었다…외인 '사자' 지속",
-      "url": "https://www.hankyung.com/article/2026010516746",
-      "keywords_hit": [
-        "코스피",
-        "반도체"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 11:08",
-      "title": "코스피, 장중 4400선 돌파…13만전자, 70만닉스 신고가 경신 [HK영상]",
-      "url": "https://www.hankyung.com/article/202601051707i",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 10:52",
-      "title": "베네수엘라 사태에도 생산량 증가 전망…유가 변동성 확대 [오늘의 유가]",
-      "url": "https://www.hankyung.com/article/202601051344i",
-      "keywords_hit": [
-        "유가"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 10:49",
-      "title": "우리투자증권, 내년까지 국내주식 온라인 거래 수수료 면제",
-      "url": "https://www.mk.co.kr/news/stock/11923055",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 10:45",
-      "title": "미래에셋자산운용, ‘2026 ETF 투자 전략 라이브 위크’ 개최",
-      "url": "https://www.mk.co.kr/news/stock/11923050",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 10:36",
-      "title": "베네수엘라 군사 개입, 원유 말고 웃는 업종 따로 있다는데",
-      "url": "https://www.hankyung.com/article/202601051575i",
-      "keywords_hit": [
-        "원유"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 10:35",
-      "title": "키움증권, 중개형ISA 고객 대상 이벤트…상품권 증정",
-      "url": "https://www.mk.co.kr/news/stock/11923037",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 10:28",
-      "title": "상장사 225社 '지속가능경영보고서' 공시…전년比 10% 증가",
-      "url": "https://www.hankyung.com/article/2026010515376",
-      "keywords_hit": [
-        "상장",
-        "공시"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 10:17",
-      "title": "두산에너빌리티 9% 급등, SMR 기대에 원전주 동반 강세",
-      "url": "https://www.hankyung.com/article/202601051492i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 10:03",
-      "title": "반도체 소재·장비주 상승…한솔케미칼·한미반도체 강세 [종목+]",
-      "url": "https://www.hankyung.com/article/202601051399i",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 09:55",
-      "title": "'오늘이 가장 싸다'…'13만전자·70만닉스' 달성에 '환호' [종목+]",
-      "url": "https://www.hankyung.com/article/2026010513286",
       "keywords_hit": []
     }
   ]
