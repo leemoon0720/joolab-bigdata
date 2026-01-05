@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-05 16:22 KST",
+  "updated_at": "2026-01-05 16:45 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,10 +23,47 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 16:37",
+      "title": "“AI부터 안전자산까지”…KB자산운용이 꼽은 1분기 유망펀드는?",
+      "url": "https://www.mk.co.kr/news/stock/11923446",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 16:34",
+      "title": "한국 휴머노이드 로봇 산업에 베팅…올해 첫 ETF 상장",
+      "url": "https://www.hankyung.com/article/202601052601i",
+      "keywords_hit": [
+        "상장",
+        "로봇"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 16:32",
+      "title": "한투운용 ‘ACE ETF’, 작년 시장점유율 상승폭 1위",
+      "url": "https://www.mk.co.kr/news/stock/11923435",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 16:31",
+      "title": "[마켓칼럼] 다시 떠오르는 인플레이션 리스크",
+      "url": "https://www.hankyung.com/article/202601040439i",
+      "keywords_hit": []
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-05 16:17",
-      "title": "활짝 웃은 삼전 개미...\"1분기 내 코스피 5000 간다\"",
+      "title": "활짝 웃은 동학개미…\"1분기 내 코스피 5000 간다\"",
       "url": "https://www.hankyung.com/article/202601052550i",
       "keywords_hit": [
         "코스피"
@@ -308,22 +345,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 10:35",
-      "title": "[MK시그널] 쿨 컴퍼니 매도신호 포착, 수익률 57.4% 달성",
-      "url": "https://www.mk.co.kr/news/stock/11923036",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 10:35",
-      "title": "“엔저가 기회다”… 메타플래닛, ‘美 스트래티지’ 넘는 우위 입증",
-      "url": "https://www.mk.co.kr/news/stock/11923035",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-05 10:28",
@@ -366,22 +387,6 @@
       "published_at": "2026-01-05 09:49",
       "title": "LS증권, 투혼 거래 시스템 도움말 콘텐츠 전면 개편",
       "url": "https://www.hankyung.com/article/2026010512996",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 09:49",
-      "title": "키움증권, 중개형 ISA 가입자 전원에 상품권 증정",
-      "url": "https://www.hankyung.com/article/202601051251i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 09:49",
-      "title": "'13만 전자' 돌파한 삼성전자…SK하이닉스는 70만원 터치",
-      "url": "https://www.hankyung.com/article/202601051316i",
       "keywords_hit": []
     }
   ]
