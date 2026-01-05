@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-05 17:38 KST",
+  "updated_at": "2026-01-05 18:01 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,129 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 17:59",
+      "title": "스트레티지 작년 4분기 수조원대 손실 예상",
+      "url": "https://www.mk.co.kr/news/stock/11923638",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 17:59",
+      "title": "\"원유조달 비용 낮아질수도\"…정유주 강세",
+      "url": "https://www.mk.co.kr/news/stock/11923636",
+      "keywords_hit": [
+        "원유"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 17:59",
+      "title": "마두로 축출 ·유럽 재무장…방산주 일제히 반등",
+      "url": "https://www.mk.co.kr/news/stock/11923633",
+      "keywords_hit": [
+        "방산"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 17:59",
+      "title": "쌍둥이 ETF 난립 좀비 상품도 많아",
+      "url": "https://www.mk.co.kr/news/stock/11923632",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 17:54",
+      "title": "'갓성전자'의 힘 단숨에 4457…코스피 새해 신고가 랠리",
+      "url": "https://www.mk.co.kr/news/stock/11923601",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 17:52",
+      "title": "반도체 투톱이 코스피 쌍끌이…올 영업익 300조 전망도",
+      "url": "https://www.mk.co.kr/news/stock/11923594",
+      "keywords_hit": [
+        "코스피",
+        "반도체"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 17:52",
+      "title": "개미, 예금서 발빼 국내증시行…증시 대기자금 90조 육박",
+      "url": "https://www.mk.co.kr/news/stock/11923593",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 17:49",
+      "title": "'불장' 타고 질주한 ETF…순자산 300조원 넘었다",
+      "url": "https://www.hankyung.com/article/2026010528781",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 17:48",
+      "title": "하루 새 1조4000억 불었다…이재용 주식재산 '역대 최대'",
+      "url": "https://www.hankyung.com/article/202601052830i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 17:45",
+      "title": "IR큐더스·율촌, 기업 지배구조·행동주의 컨설팅 맞손",
+      "url": "https://www.mk.co.kr/news/stock/11923572",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 17:41",
+      "title": "돈 쓸어담던 스타벅스 추락 이유가…\"중국마저 이럴 줄은\"",
+      "url": "https://www.hankyung.com/article/2026010528211",
+      "keywords_hit": [
+        "유가"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 17:41",
+      "title": "공개매수 춘추전국시대… NH證 명가 지위 탈환할까",
+      "url": "https://www.mk.co.kr/news/stock/11923568",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 17:40",
+      "title": "美 백화점 색스글로벌…파산 대비 자금조달 추진",
+      "url": "https://www.hankyung.com/article/2026010528281",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 17:40",
+      "title": "日개미, 지난해 3.8조엔 '셀 재팬'…미국으로 떠났다",
+      "url": "https://www.hankyung.com/article/2026010528271",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -228,16 +351,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 15:31",
-      "title": "[속보] 코스피, 4457.52 '사상 최고치' 마감…'13만전자'에 '70만닉스' 터치",
-      "url": "https://www.hankyung.com/article/2026010523996",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-05 15:24",
@@ -270,121 +383,6 @@
       "published_at": "2026-01-05 14:55",
       "title": "이찬진 “특사경, 인지수사권 없어 3달 허비...주가조작 포렌식 인력 확충”",
       "url": "https://www.mk.co.kr/news/stock/11923251",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 14:42",
-      "title": "베네수엘라 사태·北 미사일 발사에…주가 '불기둥' [종목+]",
-      "url": "https://www.hankyung.com/article/2026010522376",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 14:21",
-      "title": "아크포인트, 스테이블코인 결제·정산 특화 블록체인 공개",
-      "url": "https://www.mk.co.kr/news/stock/11923215",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 13:48",
-      "title": "월덱스 \"새해 식각 소재 공정 고도화해 글로벌 톱티어로 도약할 것\"",
-      "url": "https://www.hankyung.com/article/2026010520676",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 13:43",
-      "title": "[특징주] 한미반도체, 차세대 우주장비 출시 소식에 강세",
-      "url": "https://www.mk.co.kr/news/stock/11923170",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 13:36",
-      "title": "[특징주] 에코마케팅, 공개매수 추진 소식에 상한가 이어 강세 지속",
-      "url": "https://www.mk.co.kr/news/stock/11923164",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 13:30",
-      "title": "[특징주] 미국발 원전주 훈풍에 두산에너빌리티 강세…장중 9.44%↑",
-      "url": "https://www.mk.co.kr/news/stock/11923161",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 13:30",
-      "title": "중소 건설사‘ 영창중공업, M&A 시장 매물로 나왔다",
-      "url": "https://www.mk.co.kr/news/stock/11923160",
-      "keywords_hit": [
-        "M&A"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 13:20",
-      "title": "[특징주] ‘목표가 17만원’ 삼성전자, 급등세…반도체 가격사이클 상승 진입",
-      "url": "https://www.mk.co.kr/news/stock/11923154",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 13:06",
-      "title": "삼전 17만원·SK하닉 95만원…연초부터 반도체주 목표가 상향 행진",
-      "url": "https://www.mk.co.kr/news/stock/11923142",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 12:52",
-      "title": "경찰 \"삼성·카카오 폭발물 협박 의심되는 10대 용의자 수사 중\"",
-      "url": "https://www.hankyung.com/article/2026010519157",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 11:25",
-      "title": "거래소, 코스닥 맞춤형 기술특례상장 시행세칙 개정…상폐 요건 강화",
-      "url": "https://www.hankyung.com/article/2026010517406",
-      "keywords_hit": [
-        "코스닥",
-        "상장"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 11:16",
-      "title": "‘100년 존버’ 끝에 베네수엘라 침공 수혜주로…시간외거래 11% 급등한 셰브론",
-      "url": "https://www.mk.co.kr/news/stock/11923083",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 11:15",
-      "title": "삼일PwC, 회계∙법무법인 최초 고액자산가 전담 ‘헤리티지 센터’ 출범",
-      "url": "https://www.mk.co.kr/news/stock/11923081",
       "keywords_hit": []
     }
   ]
