@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-06 08:24 KST",
+  "updated_at": "2026-01-06 08:40 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,36 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 08:39",
+      "title": "“현대차, 수익성 저점 통과 후 점진적인 손익개선 기대”…목표가↑",
+      "url": "https://www.mk.co.kr/news/stock/11924028",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 08:33",
+      "title": "\"현대백화점, 외국인 매출 비중 확대…밸류 재평가 요인\"-NH",
+      "url": "https://www.hankyung.com/article/2026010635056",
+      "keywords_hit": [
+        "외국인",
+        "매출"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 08:29",
+      "title": "반도체가 끌어올린 코스피 4400선…차익 실현은 부담 [오늘장 미리보기]",
+      "url": "https://www.hankyung.com/article/202601063463i",
+      "keywords_hit": [
+        "코스피",
+        "반도체"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -284,14 +314,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 17:57",
-      "title": "35조 넘게 쓸어갔다…요즘 70대 꽂힌 '재테크' 뭐길래",
-      "url": "https://www.hankyung.com/article/2026010528291",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-05 17:54",
@@ -318,14 +340,6 @@
       "published_at": "2026-01-05 17:52",
       "title": "개미, 예금서 발빼 국내증시行…증시 대기자금 90조 육박",
       "url": "https://www.mk.co.kr/news/stock/11923593",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 17:49",
-      "title": "'불장' 타고 질주한 ETF…순자산 300조원 넘었다",
-      "url": "https://www.hankyung.com/article/2026010528781",
       "keywords_hit": []
     },
     {
@@ -361,14 +375,6 @@
       "keywords_hit": [
         "매출"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 17:30",
-      "title": "\"보고서도 없네요\" 불장에도 중소형株 소외",
-      "url": "https://www.mk.co.kr/news/stock/11923531",
-      "keywords_hit": []
     }
   ]
 }
