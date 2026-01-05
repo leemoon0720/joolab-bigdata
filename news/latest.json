@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-06 07:00 KST",
+  "updated_at": "2026-01-06 07:30 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,6 +23,41 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 07:26",
+      "title": "서학개미 몰렸던 종목들 ‘시들’…테슬라·애플 내다팔고 이곳으로",
+      "url": "https://www.mk.co.kr/news/stock/11923999",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 07:23",
+      "title": "‘美, 마두로 압송’ 반영되며 에너지株 일제히 상승...다우는 사상 최고 [월가월부]",
+      "url": "https://www.mk.co.kr/news/stock/11923995",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 07:16",
+      "title": "美 베네수 공습에도 투자심리 굳건…3대 지수 일제히 '상승' [뉴욕증시 브리핑]",
+      "url": "https://www.hankyung.com/article/2026010633226",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 07:00",
+      "title": "\"AI 랠리에 올라타자\"…'중국판 오픈AI' 홍콩 증시 상장 초읽기 [조아라의 차이나스톡]",
+      "url": "https://www.hankyung.com/article/202601016944i",
+      "keywords_hit": [
+        "상장",
+        "AI"
+      ]
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-06 06:30",
@@ -34,7 +69,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-06 06:00",
-      "title": "연말 '달러 폭탄'…12월 외환보유액, IMF 이후 최대폭 감소 [한경 외환시장 워치]",
+      "title": "외환 곳간 얼마나 비었길래…\"IMF 이후 처음 있는 일\" [한경 외환시장 워치]",
       "url": "https://www.hankyung.com/article/202601052556i",
       "keywords_hit": []
     },
@@ -335,40 +370,6 @@
         "외국인",
         "환율"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 17:25",
-      "title": "CES 2026 개막",
-      "url": "https://www.hankyung.com/article/2026010527701",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 17:04",
-      "title": "베네수엘라 효과?…\"비트코인, 이달 10만弗 재탈환 가능성\"",
-      "url": "https://www.hankyung.com/article/202601052631g",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 16:37",
-      "title": "“AI부터 안전자산까지”…KB자산운용이 꼽은 1분기 유망펀드는?",
-      "url": "https://www.mk.co.kr/news/stock/11923446",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 16:32",
-      "title": "한투운용 ‘ACE ETF’, 작년 시장점유율 상승폭 1위",
-      "url": "https://www.mk.co.kr/news/stock/11923435",
-      "keywords_hit": []
     }
   ]
 }
