@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-05 20:13 KST",
+  "updated_at": "2026-01-05 20:33 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 20:17",
+      "title": "“업종 하나 잘 나가면 우르르 출시”...난립하는 ETF, 이름 빼고 뭐가 다르지",
+      "url": "https://www.mk.co.kr/news/stock/11923733",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -114,7 +122,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-05 17:57",
-      "title": "수십억 가진 대기업 임원 출신들이 '폭풍 매수'…인기 폭발",
+      "title": "35조 넘게 쓸어갔다…요즘 70대 꽂힌 '재테크' 뭐길래",
       "url": "https://www.hankyung.com/article/2026010528291",
       "keywords_hit": []
     },
@@ -370,14 +378,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 15:24",
-      "title": "코람코자산신탁, 김철규·이상헌 부사장 선임",
-      "url": "https://www.mk.co.kr/news/stock/11923311",
-      "keywords_hit": []
     }
   ]
 }
