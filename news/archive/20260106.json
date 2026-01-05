@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-06 08:40 KST",
+  "updated_at": "2026-01-06 08:49 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,40 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 08:48",
+      "title": "‘사랑의열매’도 ‘디지털’ 바람...업비트, 사상 최초 비트코인 기부",
+      "url": "https://www.mk.co.kr/news/stock/11924038",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 08:45",
+      "title": "삼성전자 목표가 줄상향… “18만전자 간다” [오늘 나온 보고서]",
+      "url": "https://www.mk.co.kr/news/stock/11924035",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 08:42",
+      "title": "\"대한항공, 고환율 장기화하며 비용 부담 커져…목표가↓\"-유안타",
+      "url": "https://www.hankyung.com/article/2026010635306",
+      "keywords_hit": [
+        "환율"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 08:40",
+      "title": "[마켓PRO] Today's Pick : \"삼성전자, 올해 영업익 3배 급증 전망… 목표가도 '쑥'\"",
+      "url": "https://www.hankyung.com/article/202601063464i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -82,7 +116,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-06 08:00",
-      "title": "한물간 부품사였는데…6개월만에 주가 300% 폭등 [핫픽! 해외주식]",
+      "title": "한물갔다더니 이럴 줄은…6개월 만에 '300% 폭등' 대반전 [핫픽! 해외주식]",
       "url": "https://www.hankyung.com/article/202601028972i",
       "keywords_hit": []
     },
@@ -262,22 +296,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 18:06",
-      "title": "'액티브'도 잘나간다…순자산 100조 육박",
-      "url": "https://www.hankyung.com/article/2026010528321",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 18:04",
-      "title": "새해 증시 파죽지세…\"1분기 내 오천피 돌파\" 전망도",
-      "url": "https://www.hankyung.com/article/2026010528411",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-05 17:59",
@@ -357,24 +375,6 @@
       "title": "공개매수 춘추전국시대… NH證 명가 지위 탈환할까",
       "url": "https://www.mk.co.kr/news/stock/11923568",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 17:30",
-      "title": "\"미래에셋 '최선의 노력' 입증 … IFC 분쟁 승소 이끌어냈죠\"",
-      "url": "https://www.mk.co.kr/news/stock/11923534",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 17:30",
-      "title": "연매출 120억원 생활용품 유통사 매물로",
-      "url": "https://www.mk.co.kr/news/stock/11923533",
-      "keywords_hit": [
-        "매출"
-      ]
     }
   ]
 }
