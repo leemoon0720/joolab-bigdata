@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-06 07:30 KST",
+  "updated_at": "2026-01-06 07:48 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,32 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 07:42",
+      "title": "[속보] 리플 12% 이상 폭등, 2.33달러까지 치솟아",
+      "url": "https://www.hankyung.com/article/2026010633607",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 07:33",
+      "title": "\"삼양식품, 美법인 매출 사상 최대 전망…조정은 매수 기회\"-한국",
+      "url": "https://www.hankyung.com/article/2026010633416",
+      "keywords_hit": [
+        "매출"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 07:26",
+      "title": "젠슨 황 CES 기조연설서 '깜짝 발언' 없더니…엔비디아 0.39%↓",
+      "url": "https://www.hankyung.com/article/2026010633357",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -69,7 +95,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-06 06:00",
-      "title": "외환 곳간 얼마나 비었길래…\"IMF 이후 처음 있는 일\" [한경 외환시장 워치]",
+      "title": "외화 곳간 얼마나 비었길래…\"28년 만에 처음 있는 일\" [한경 외환시장 워치]",
       "url": "https://www.hankyung.com/article/202601052556i",
       "keywords_hit": []
     },
@@ -343,33 +369,6 @@
       "title": "미국發 훈풍에 원전주 동반 강세",
       "url": "https://www.hankyung.com/article/2026010527661",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 17:28",
-      "title": "韓 휴머노이드 집중 투자 ETF 나온다",
-      "url": "https://www.hankyung.com/article/2026010527651",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 17:27",
-      "title": "'베네수엘라 사태' 中 대응에 시장 촉각",
-      "url": "https://www.hankyung.com/article/2026010527681",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 17:26",
-      "title": "외국인이 2조 넘게 사도 역부족…1450원 위협하는 원·달러 환율",
-      "url": "https://www.hankyung.com/article/2026010527971",
-      "keywords_hit": [
-        "외국인",
-        "환율"
-      ]
     }
   ]
 }
