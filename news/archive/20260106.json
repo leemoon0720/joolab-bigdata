@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-06 08:49 KST",
+  "updated_at": "2026-01-06 08:59 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,6 +25,14 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-06 08:57",
+      "title": "“아모레퍼시픽, 폭발적인 레버리지는 부재…완만하고 꾸준한 성장세”",
+      "url": "https://www.mk.co.kr/news/stock/11924047",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-06 08:48",
       "title": "‘사랑의열매’도 ‘디지털’ 바람...업비트, 사상 최초 비트코인 기부",
       "url": "https://www.mk.co.kr/news/stock/11924038",
@@ -34,8 +42,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-06 08:45",
-      "title": "삼성전자 목표가 줄상향… “18만전자 간다” [오늘 나온 보고서]",
+      "title": "“18만 전자 간다”…삼성전자 목표가 또 줄상향 [오늘 나온 보고서]",
       "url": "https://www.mk.co.kr/news/stock/11924035",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 08:44",
+      "title": "\"현대차, 올해가 밸류에이션 재조정 여부 결정될 분기점…목표가↑\"-한화",
+      "url": "https://www.hankyung.com/article/2026010634776",
       "keywords_hit": []
     },
     {
@@ -288,14 +304,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 18:07",
-      "title": "몸집 커진 ETF, 편입종목 주가 '들었다놨다'",
-      "url": "https://www.hankyung.com/article/2026010528331",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-05 17:59",
@@ -366,14 +374,6 @@
       "published_at": "2026-01-05 17:45",
       "title": "IR큐더스·율촌, 기업 지배구조·행동주의 컨설팅 맞손",
       "url": "https://www.mk.co.kr/news/stock/11923572",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 17:41",
-      "title": "공개매수 춘추전국시대… NH證 명가 지위 탈환할까",
-      "url": "https://www.mk.co.kr/news/stock/11923568",
       "keywords_hit": []
     }
   ]
