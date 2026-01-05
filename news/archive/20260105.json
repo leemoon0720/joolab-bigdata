@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-05 19:53 KST",
+  "updated_at": "2026-01-05 20:13 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 20:08",
+      "title": "갓성전자의 힘…7.4% 급등하자 코스피 단숨에 4450",
+      "url": "https://www.mk.co.kr/news/stock/11923724",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -367,14 +377,6 @@
       "published_at": "2026-01-05 15:24",
       "title": "코람코자산신탁, 김철규·이상헌 부사장 선임",
       "url": "https://www.mk.co.kr/news/stock/11923311",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 15:17",
-      "title": "‘IFC 분쟁’ 완승 조력한 율촌… ‘최선의 노력’ 기준 세워",
-      "url": "https://www.mk.co.kr/news/stock/11923289",
       "keywords_hit": []
     }
   ]
