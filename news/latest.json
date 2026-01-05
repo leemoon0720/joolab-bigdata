@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-06 05:56 KST",
+  "updated_at": "2026-01-06 06:20 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,34 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 06:00",
+      "title": "연말 '달러 폭탄'…12월 외환보유액, IMF 이후 최대폭 감소[한경 외환시장 워치]",
+      "url": "https://www.hankyung.com/article/202601052556i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 06:00",
+      "title": "새해 배당 매력 배가되는 IT주식…분리과세 세제혜택에 큰손들 몰린다 [매일 돈이 보이는 습관 M+]",
+      "url": "https://www.mk.co.kr/news/stock/11923680",
+      "keywords_hit": [
+        "배당"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 05:56",
+      "title": "“삼전닉스·미국주식 외엔 관심무”…코스닥 62%, 보고서 한장 없다",
+      "url": "https://www.mk.co.kr/news/stock/11923949",
+      "keywords_hit": [
+        "코스닥"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -327,16 +355,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 16:51",
-      "title": "[포토] 질주하는 코스피",
-      "url": "https://www.hankyung.com/article/202601052646i",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-05 16:37",
@@ -353,28 +371,6 @@
       "title": "한투운용 ‘ACE ETF’, 작년 시장점유율 상승폭 1위",
       "url": "https://www.mk.co.kr/news/stock/11923435",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 15:50",
-      "title": "반도체주 날자 지수도 최고치…외국인 2조원 ‘사자’에 코스피 4400선 마감",
-      "url": "https://www.mk.co.kr/news/stock/11923356",
-      "keywords_hit": [
-        "코스피",
-        "외국인",
-        "반도체"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 15:32",
-      "title": "‘코스피 쌍끌이’ 삼성전자는 매수…SK하이닉스는 매도[주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11923329",
-      "keywords_hit": [
-        "코스피"
-      ]
     }
   ]
 }
