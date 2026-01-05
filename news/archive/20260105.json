@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-05 13:08 KST",
+  "updated_at": "2026-01-05 14:04 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,60 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 13:48",
+      "title": "월덱스 \"새해 식각 소재 공정 고도화해 글로벌 톱티어로 도약할 것\"",
+      "url": "https://www.hankyung.com/article/2026010520676",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 13:43",
+      "title": "[특징주] 한미반도체, 차세대 우주장비 출시 소식에 강세",
+      "url": "https://www.mk.co.kr/news/stock/11923170",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 13:36",
+      "title": "[특징주] 에코마케팅, 공개매수 추진 소식에 상한가 이어 강세 지속",
+      "url": "https://www.mk.co.kr/news/stock/11923164",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 13:30",
+      "title": "[특징주] 미국발 원전주 훈풍에 두산에너빌리티 강세…장중 9.44%↑",
+      "url": "https://www.mk.co.kr/news/stock/11923161",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 13:30",
+      "title": "중소 건설사‘ 영창중공업, M&A 시장 매물로 나왔다",
+      "url": "https://www.mk.co.kr/news/stock/11923160",
+      "keywords_hit": [
+        "M&A"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 13:20",
+      "title": "[특징주] ‘목표가 17만원’ 삼성전자, 급등세…반도체 가격사이클 상승 진입",
+      "url": "https://www.mk.co.kr/news/stock/11923154",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -254,21 +308,19 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 09:50",
-      "title": "또 사상 최고치 경신한 코스피…장중 4400선 터치",
-      "url": "https://www.mk.co.kr/news/stock/11922963",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-05 09:49",
       "title": "LS증권, 투혼 거래 시스템 도움말 콘텐츠 전면 개편",
       "url": "https://www.hankyung.com/article/2026010512996",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 09:49",
+      "title": "'13만 전자' 돌파한 삼성전자…SK하이닉스는 70만원 터치",
+      "url": "https://www.hankyung.com/article/202601051316i",
       "keywords_hit": []
     },
     {
@@ -282,36 +334,12 @@
     {
       "source": "HK",
       "press": "한국경제",
-      "published_at": "2026-01-05 09:49",
-      "title": "'13만 전자' 돌파한 삼성전자…SK하이닉스는 70만원 터치",
-      "url": "https://www.hankyung.com/article/202601051316i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 09:42",
-      "title": "“탈팡이 시작됐다”…쿠팡 ‘꼼수 쿠폰 보상’, 소비자들 화만 키울판",
-      "url": "https://www.mk.co.kr/news/business/11922943",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
       "published_at": "2026-01-05 09:37",
       "title": "원전주, AI 테마와 함께 급등…SMR의 국가전략기술 지정 기대도",
       "url": "https://www.hankyung.com/article/2026010512796",
       "keywords_hit": [
         "AI"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 09:32",
-      "title": "수조원 손실·주가는 반토막…‘비트코인 전도사’ 어디까지 추락하나",
-      "url": "https://www.mk.co.kr/news/stock/11922937",
-      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -324,16 +352,6 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 09:12",
-      "title": "[속보] 13만전자·70만닉스 뚫었다…코스피 2% 급등해 4400선 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11922888",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-05 09:01",
@@ -342,14 +360,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 08:57",
-      "title": "“케이크 사면 1비트코인이 ‘덤’…업비트, 뚜레쥬르와 콜라보 이벤트”",
-      "url": "https://www.mk.co.kr/news/stock/11922855",
-      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -365,14 +375,6 @@
       "published_at": "2026-01-05 08:32",
       "title": "[마켓PRO] Today's Pick : \"삼성전자, 올해 시총 1000조원 간다\"",
       "url": "https://www.hankyung.com/article/202601051015i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 08:24",
-      "title": "\"BTS 완전체, 6년 만에 돌아온다\"…하이브 개미들 '들썩'",
-      "url": "https://www.hankyung.com/article/2026010509897",
       "keywords_hit": []
     }
   ]
