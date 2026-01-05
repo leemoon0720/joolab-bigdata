@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-05 11:33 KST",
+  "updated_at": "2026-01-05 13:08 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,6 +23,24 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 13:06",
+      "title": "삼전 17만원·SK하닉 95만원…연초부터 반도체주 목표가 상향 행진",
+      "url": "https://www.mk.co.kr/news/stock/11923142",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 12:52",
+      "title": "경찰 \"삼성·카카오 폭발물 협박 의심되는 10대 용의자 수사 중\"",
+      "url": "https://www.hankyung.com/article/2026010519157",
+      "keywords_hit": []
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-05 11:25",
@@ -37,7 +55,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-05 11:18",
-      "title": "[마켓PRO] '잘 먹고 갑니다'…수익률 상위 1%, 삼성전자·하이닉스 팔고 이 종목 샀다",
+      "title": "'잘 먹고 갑니다'…'상위 1%' 고수들 삼전 팔고 쓸어담은 종목 [마켓PRO]",
       "url": "https://www.hankyung.com/article/202601051664i",
       "keywords_hit": []
     },
@@ -45,7 +63,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-05 11:16",
-      "title": "美 베네수엘라 침공 수혜주 ‘셰브론’…주간거래 ‘들썩’",
+      "title": "‘100년 존버’ 끝에 베네수엘라 침공 수혜주로…시간외거래 11% 급등한 셰브론",
       "url": "https://www.mk.co.kr/news/stock/11923083",
       "keywords_hit": []
     },
@@ -334,16 +352,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 08:53",
-      "title": "“SK하이닉스 목표가 95만원”…올해 실적 기상도 ‘맑음’ [오늘 나온 보고서]",
-      "url": "https://www.mk.co.kr/news/stock/11922848",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-05 08:38",
@@ -365,14 +373,6 @@
       "published_at": "2026-01-05 08:24",
       "title": "\"BTS 완전체, 6년 만에 돌아온다\"…하이브 개미들 '들썩'",
       "url": "https://www.hankyung.com/article/2026010509897",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 07:53",
-      "title": "\"LG생활건강, 작년 4분기 '어닝쇼크' 전망…보수적 접근 권고\"-삼성",
-      "url": "https://www.hankyung.com/article/2026010509376",
       "keywords_hit": []
     }
   ]
