@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-05 18:01 KST",
+  "updated_at": "2026-01-05 18:42 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,48 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 18:13",
+      "title": "예금서 발뺀 개미들, 국장으로…증시 대기자금 90조 육박",
+      "url": "https://www.mk.co.kr/news/stock/11923672",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 18:12",
+      "title": "“올해 슈퍼사이클…영업익 300조” 반도체 투톱 더 가나",
+      "url": "https://www.mk.co.kr/news/stock/11923671",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 18:07",
+      "title": "몸집 커진 ETF, 편입종목 주가 '들었다놨다'",
+      "url": "https://www.hankyung.com/article/2026010528331",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 18:06",
+      "title": "'액티브'도 잘나간다…순자산 100兆 육박",
+      "url": "https://www.hankyung.com/article/2026010528321",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 18:04",
+      "title": "새해 증시 파죽지세…\"1분기 내 오천피 돌파\" 전망도",
+      "url": "https://www.hankyung.com/article/2026010528411",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -56,6 +98,14 @@
       "published_at": "2026-01-05 17:59",
       "title": "쌍둥이 ETF 난립 좀비 상품도 많아",
       "url": "https://www.mk.co.kr/news/stock/11923632",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 17:57",
+      "title": "수십억 가진 대기업 임원 출신들이 '폭풍 매수'…인기 폭발",
+      "url": "https://www.hankyung.com/article/2026010528291",
       "keywords_hit": []
     },
     {
@@ -141,7 +191,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-05 17:40",
-      "title": "日개미, 지난해 3.8조엔 '셀 재팬'…미국으로 떠났다",
+      "title": "세금 없어지더니 '이럴 줄은'…\"미국 갑니다\" 개미 '대탈출'",
       "url": "https://www.hankyung.com/article/2026010528271",
       "keywords_hit": []
     },
@@ -291,44 +341,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 16:31",
-      "title": "[마켓칼럼] 다시 떠오르는 인플레이션 리스크",
-      "url": "https://www.hankyung.com/article/202601040439i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 16:17",
-      "title": "활짝 웃은 동학개미…\"1분기 내 코스피 5000 간다\"",
-      "url": "https://www.hankyung.com/article/202601052550i",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 16:16",
-      "title": "13만전자·70만닉스의 힘…'최고치 행진' 코스피, 4450선도 뚫었다",
-      "url": "https://www.hankyung.com/article/2026010524896",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 16:03",
-      "title": "메리츠증권, 대관조직 신설한다…총괄에 금융위 공무원 영입",
-      "url": "https://www.hankyung.com/article/2026010521926",
-      "keywords_hit": [
-        "리츠"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-05 15:50",
@@ -364,25 +376,6 @@
       "published_at": "2026-01-05 15:17",
       "title": "‘IFC 분쟁’ 완승 조력한 율촌… ‘최선의 노력’ 기준 세워",
       "url": "https://www.mk.co.kr/news/stock/11923289",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 14:58",
-      "title": "거래소, 코스닥 ‘맞춤형 기술특례’ 도입…상장폐지 요건 강화",
-      "url": "https://www.mk.co.kr/news/stock/11923254",
-      "keywords_hit": [
-        "코스닥",
-        "상장"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 14:55",
-      "title": "이찬진 “특사경, 인지수사권 없어 3달 허비...주가조작 포렌식 인력 확충”",
-      "url": "https://www.mk.co.kr/news/stock/11923251",
       "keywords_hit": []
     }
   ]
