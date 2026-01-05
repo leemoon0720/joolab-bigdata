@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-05 14:46 KST",
+  "updated_at": "2026-01-05 15:02 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,33 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 14:58",
+      "title": "거래소, 코스닥 ‘맞춤형 기술특례’ 도입…상장폐지 요건 강화",
+      "url": "https://www.mk.co.kr/news/stock/11923254",
+      "keywords_hit": [
+        "코스닥",
+        "상장"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-05 14:55",
+      "title": "이찬진 “특사경, 인지수사권 없어 3달 허비...주가조작 포렌식 인력 확충”",
+      "url": "https://www.mk.co.kr/news/stock/11923251",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-05 14:42",
+      "title": "베네수엘라 사태·北 미사일 발사에…한화에어로 '황제주' 탈환 [종목+]",
+      "url": "https://www.hankyung.com/article/2026010522376",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -272,16 +299,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 10:13",
-      "title": "‘코스피 4400’ 이끈 삼성전자·SK하이닉스…초고수들 매도세 집중[주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11922990",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-05 10:03",
@@ -290,14 +307,6 @@
       "keywords_hit": [
         "반도체"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 09:56",
-      "title": "신영證, 창립 70주년 기념 신년 행사 개최",
-      "url": "https://www.mk.co.kr/news/stock/11922972",
-      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -319,16 +328,16 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-05 09:49",
-      "title": "'13만 전자' 돌파한 삼성전자…SK하이닉스는 70만원 터치",
-      "url": "https://www.hankyung.com/article/202601051316i",
+      "title": "키움증권, 중개형 ISA 가입자 전원에 상품권 증정",
+      "url": "https://www.hankyung.com/article/202601051251i",
       "keywords_hit": []
     },
     {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-05 09:49",
-      "title": "키움증권, 중개형 ISA 가입자 전원에 상품권 증정",
-      "url": "https://www.hankyung.com/article/202601051251i",
+      "title": "'13만 전자' 돌파한 삼성전자…SK하이닉스는 70만원 터치",
+      "url": "https://www.hankyung.com/article/202601051316i",
       "keywords_hit": []
     },
     {
@@ -367,14 +376,6 @@
       "published_at": "2026-01-05 08:38",
       "title": "쿠팡 '5만원 쿠폰' 괜히 뿌렸나…반감 키우더니 '탈팡' 시작 [종목+]",
       "url": "https://www.hankyung.com/article/2026010510386",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 08:32",
-      "title": "[마켓PRO] Today's Pick : \"삼성전자, 올해 시총 1000조원 간다\"",
-      "url": "https://www.hankyung.com/article/202601051015i",
       "keywords_hit": []
     }
   ]
