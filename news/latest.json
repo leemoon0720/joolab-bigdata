@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-07 08:37 KST",
+  "updated_at": "2026-01-07 08:47 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,27 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 08:38",
+      "title": "“코스피 올해 5650까지 간다”…한투증권 “반도체 중심 기업 이익 급증” [오늘 나온 보고서]",
+      "url": "https://www.mk.co.kr/news/stock/11925228",
+      "keywords_hit": [
+        "코스피",
+        "반도체"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 08:30",
+      "title": "[마켓PRO] Today's Pick : \"고환율 수혜에 고터 개발…신세계, 올해 가장 편안한 선택\"",
+      "url": "https://www.hankyung.com/article/202601075755i",
+      "keywords_hit": [
+        "환율"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -316,13 +337,13 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 17:48",
-      "title": "부진하던 방산주, 나란히 반등",
-      "url": "https://www.hankyung.com/article/2026010650841",
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 17:47",
+      "title": "피지컬 AI가 가른 주가…현대차 40% vs 기아 17%",
+      "url": "https://www.mk.co.kr/news/stock/11924798",
       "keywords_hit": [
-        "방산"
+        "AI"
       ]
     },
     {
@@ -334,16 +355,6 @@
       "keywords_hit": [
         "반도체",
         "바이오"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-06 17:47",
-      "title": "피지컬 AI가 가른 주가…현대차 40% vs 기아 17%",
-      "url": "https://www.mk.co.kr/news/stock/11924798",
-      "keywords_hit": [
-        "AI"
       ]
     },
     {
@@ -382,16 +393,6 @@
       "keywords_hit": [
         "코스닥",
         "공시"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-06 17:47",
-      "title": "\"목표주가 또 올랐네\"…글로벌 반도체 장비株 강세",
-      "url": "https://www.mk.co.kr/news/stock/11924793",
-      "keywords_hit": [
-        "반도체"
       ]
     }
   ]
