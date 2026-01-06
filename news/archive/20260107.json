@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-07 07:56 KST",
+  "updated_at": "2026-01-07 08:19 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,42 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 08:06",
+      "title": "경기민감주 질주+S&P 신기록…젠슨이 끌어내린 테슬라",
+      "url": "https://www.hankyung.com/article/202601075637i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 08:06",
+      "title": "“LG에너지솔루션, EV 수익성 부진에 실적 전망 암울”…목표가↓",
+      "url": "https://www.mk.co.kr/news/stock/11925211",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 08:00",
+      "title": "올해 월가의 '톱픽'은 이 종목...스트리밍 플랫폼 1위의 저력 [핫픽!해외주식]",
+      "url": "https://www.hankyung.com/article/202601064698i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 07:59",
+      "title": "\"스튜디오드래곤, 작년 4분기 실적 서프라이즈 전망\"-NH",
+      "url": "https://www.hankyung.com/article/2026010757816",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -280,21 +316,21 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-06 17:47",
-      "title": "피지컬 AI가 가른 주가…현대차 40% vs 기아 17%",
-      "url": "https://www.mk.co.kr/news/stock/11924798",
+      "title": "\"반도체 다음은 나\"… 바이오株 시선 집중",
+      "url": "https://www.mk.co.kr/news/stock/11924799",
       "keywords_hit": [
-        "AI"
+        "반도체",
+        "바이오"
       ]
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-06 17:47",
-      "title": "\"반도체 다음은 나\"… 바이오株 시선 집중",
-      "url": "https://www.mk.co.kr/news/stock/11924799",
+      "title": "피지컬 AI가 가른 주가…현대차 40% vs 기아 17%",
+      "url": "https://www.mk.co.kr/news/stock/11924798",
       "keywords_hit": [
-        "반도체",
-        "바이오"
+        "AI"
       ]
     },
     {
@@ -346,48 +382,12 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-06 17:45",
-      "title": "나우로보틱스, 330억 원 규모 전환사채 발행",
-      "url": "https://www.mk.co.kr/news/stock/11924777",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-06 17:44",
       "title": "1억 넣었으면 2억7000만원 됐다…금보다 3배 뛰더니 '잭팟'",
       "url": "https://www.hankyung.com/article/2026010650981",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 17:43",
-      "title": "한국은행 이슈 노트",
-      "url": "https://www.hankyung.com/article/2026010650781",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 17:38",
-      "title": "[포토]  코스피, 사상 첫 4,500대 돌파 마감",
-      "url": "https://www.hankyung.com/article/202601065215i",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 17:31",
-      "title": "환율 방어 '후폭풍'…작년 말 외환보유액, 28년來 최대폭 감소",
-      "url": "https://www.hankyung.com/article/2026010651791",
-      "keywords_hit": [
-        "환율"
-      ]
     }
   ]
 }
