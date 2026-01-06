@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-06 16:35 KST",
+  "updated_at": "2026-01-06 16:50 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,12 +25,20 @@
     {
       "source": "HK",
       "press": "한국경제",
-      "published_at": "2026-01-06 16:25",
-      "title": "숨고르기 들어간 로봇주...\"현대차 반등 가능\"",
-      "url": "https://www.hankyung.com/article/202601064932i",
+      "published_at": "2026-01-06 16:43",
+      "title": "코스피 사상 첫 4500 돌파…SK하이닉스, '최고가' 찍으며 日 시총 1위 제껴 [HK영상]",
+      "url": "https://www.hankyung.com/article/202601064981i",
       "keywords_hit": [
-        "로봇"
+        "코스피"
       ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 16:25",
+      "title": "'999% 폭등' 고점 논란 터지더니…'현대차' 나홀로 웃는 이유",
+      "url": "https://www.hankyung.com/article/202601064932i",
+      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -375,16 +383,6 @@
       "keywords_hit": [
         "감자",
         "바이오"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 09:36",
-      "title": "상장폐지 앞둔 IHQ·KH필룩스, 정리매매 첫날 '급락'",
-      "url": "https://www.hankyung.com/article/2026010637436",
-      "keywords_hit": [
-        "상장"
       ]
     }
   ]
