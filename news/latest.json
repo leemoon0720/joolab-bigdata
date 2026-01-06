@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-06 13:27 KST",
+  "updated_at": "2026-01-06 13:58 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,10 +23,48 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 13:55",
+      "title": "“이재용 회장이 중국서 인형 사갔대” 팝마트 주가 오른 이유",
+      "url": "https://www.mk.co.kr/news/stock/11924404",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 13:47",
+      "title": "[속보] 코스피, 장중 상승 전환해 사상 첫 4500선 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11924400",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 13:46",
+      "title": "[속보] 코스피 신기록 행진…1% 올라 4500선 돌파",
+      "url": "https://www.hankyung.com/article/2026010643996",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 13:38",
+      "title": "“4500 뚫은 코스피, 5000까지 갈까?”…증권가 눈높이도 ‘쑥’",
+      "url": "https://www.mk.co.kr/news/stock/11924393",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-06 13:08",
-      "title": "코스피, 상승 전환하며 사상 최고치 경신…장중 4460선 돌파",
+      "title": "코스피, 상승 전환해 4460선 돌파…사상 최고치 재경신",
       "url": "https://www.hankyung.com/article/2026010643106",
       "keywords_hit": [
         "코스피"
@@ -346,40 +384,6 @@
       "title": "\"SK하이닉스, 의심할 여지 없어…목표가 80만원\"-DS",
       "url": "https://www.hankyung.com/article/2026010634486",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 08:03",
-      "title": "베네수엘라는 소음…금융주 폭등 이유? [김현석의 월스트리트나우]",
-      "url": "https://www.hankyung.com/article/202601063247i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-06 07:26",
-      "title": "서학개미 몰렸던 종목 ‘시들’…테슬라·애플 내다팔고, 어디로?",
-      "url": "https://www.mk.co.kr/news/stock/11923999",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-06 07:23",
-      "title": "‘美, 마두로 압송’ 반영되며 에너지株 일제히 상승...다우는 사상 최고 [월가월부]",
-      "url": "https://www.mk.co.kr/news/stock/11923995",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-06 06:00",
-      "title": "새해 배당 매력 배가되는 IT주식…분리과세 세제혜택에 큰손들 몰린다 [매일 돈이 보이는 습관 M+]",
-      "url": "https://www.mk.co.kr/news/stock/11923680",
-      "keywords_hit": [
-        "배당"
-      ]
     }
   ]
 }
