@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-07 08:47 KST",
+  "updated_at": "2026-01-07 08:56 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,17 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 08:44",
+      "title": "\"삼성바이오로직스, 꾸준히 영업이익률 40% 넘길 것 …목표가↑\"-하나",
+      "url": "https://www.hankyung.com/article/2026010759526",
+      "keywords_hit": [
+        "영업이익",
+        "바이오"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -325,16 +336,6 @@
       "title": "베네수엘라 사태에 金 ETF 들썩",
       "url": "https://www.hankyung.com/article/2026010650851",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 17:50",
-      "title": "CES 약발 끝났나…상승세 꺾인 로봇株",
-      "url": "https://www.hankyung.com/article/2026010650831",
-      "keywords_hit": [
-        "로봇"
-      ]
     },
     {
       "source": "MK",
