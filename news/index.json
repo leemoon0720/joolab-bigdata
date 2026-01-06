@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-07 05:41 KST",
+  "updated_at": "2026-01-07 05:53 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 05:50",
+      "title": "“너무 오르길래 겁나서 팔았어요”…반도체 바통 이을 다음 주자는",
+      "url": "https://www.mk.co.kr/news/stock/11925123",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -257,16 +267,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-06 17:47",
-      "title": "오늘의 증시 일정 (1월 7일)",
-      "url": "https://www.mk.co.kr/news/stock/11924796",
+      "title": "[포토] 삼성證, 소비자보호 서약식",
+      "url": "https://www.mk.co.kr/news/stock/11924797",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-06 17:47",
-      "title": "[포토] 삼성證, 소비자보호 서약식",
-      "url": "https://www.mk.co.kr/news/stock/11924797",
+      "title": "오늘의 증시 일정 (1월 7일)",
+      "url": "https://www.mk.co.kr/news/stock/11924796",
       "keywords_hit": []
     },
     {
@@ -334,16 +344,6 @@
       "title": "한국은행 이슈 노트",
       "url": "https://www.hankyung.com/article/2026010650781",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-06 17:43",
-      "title": "\"너무 올랐다\"… 코스피 하락 베팅나선 개미",
-      "url": "https://www.mk.co.kr/news/stock/11924775",
-      "keywords_hit": [
-        "코스피"
-      ]
     },
     {
       "source": "HK",
