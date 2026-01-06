@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-07 06:57 KST",
+  "updated_at": "2026-01-07 07:24 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 06:55",
+      "title": "올해도 AI 훈풍…뉴욕증시 사상 최고치 [월가월부]",
+      "url": "https://www.mk.co.kr/news/stock/11925172",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -275,16 +285,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-06 17:47",
-      "title": "[포토] 삼성證, 소비자보호 서약식",
-      "url": "https://www.mk.co.kr/news/stock/11924797",
+      "title": "오늘의 증시 일정 (1월 7일)",
+      "url": "https://www.mk.co.kr/news/stock/11924796",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-06 17:47",
-      "title": "오늘의 증시 일정 (1월 7일)",
-      "url": "https://www.mk.co.kr/news/stock/11924796",
+      "title": "[포토] 삼성證, 소비자보호 서약식",
+      "url": "https://www.mk.co.kr/news/stock/11924797",
       "keywords_hit": []
     },
     {
@@ -326,16 +336,6 @@
       "title": "나우로보틱스, 330억 원 규모 전환사채 발행",
       "url": "https://www.mk.co.kr/news/stock/11924777",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-06 17:45",
-      "title": "엑스큐어, 60억원 규모 유상증자 실시",
-      "url": "https://www.mk.co.kr/news/stock/11924789",
-      "keywords_hit": [
-        "증자"
-      ]
     },
     {
       "source": "HK",
