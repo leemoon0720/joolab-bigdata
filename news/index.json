@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-06 14:58 KST",
+  "updated_at": "2026-01-06 15:43 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,26 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 15:41",
+      "title": "진격의 SK하이닉스… 코스닥 전체 시총 넘겼다",
+      "url": "https://www.mk.co.kr/news/stock/11924563",
+      "keywords_hit": [
+        "코스닥"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 15:33",
+      "title": "[속보] 코스피, 1.5% 오른 4525.48에 마감…사상 최고치 행진",
+      "url": "https://www.hankyung.com/article/2026010647126",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -120,7 +140,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-06 13:46",
-      "title": "[속보] 코스피 신기록 행진…1% 올라 4500선 돌파",
+      "title": "코스피 신기록 행진…1% 올라 4500선 돌파",
       "url": "https://www.hankyung.com/article/2026010643996",
       "keywords_hit": [
         "코스피"
@@ -303,14 +323,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-06 09:42",
-      "title": "[MK 골든크로스 돌파종목 : 하나기술(299030) & 경창산업(024910)",
-      "url": "https://www.mk.co.kr/news/stock/11924086",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-06 09:40",
@@ -380,16 +392,6 @@
       "title": "\"현대차, 올해가 밸류에이션 재조정 여부 결정될 분기점…목표가↑\"-한화",
       "url": "https://www.hankyung.com/article/2026010634776",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 08:42",
-      "title": "\"대한항공, 고환율 장기화하며 비용 부담 커져…목표가↓\"-유안타",
-      "url": "https://www.hankyung.com/article/2026010635306",
-      "keywords_hit": [
-        "환율"
-      ]
     }
   ]
 }
