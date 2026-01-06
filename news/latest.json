@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-06 12:45 KST",
+  "updated_at": "2026-01-06 13:27 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 13:08",
+      "title": "코스피, 상승 전환하며 사상 최고치 경신…장중 4460선 돌파",
+      "url": "https://www.hankyung.com/article/2026010643106",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -344,16 +354,6 @@
       "title": "베네수엘라는 소음…금융주 폭등 이유? [김현석의 월스트리트나우]",
       "url": "https://www.hankyung.com/article/202601063247i",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 08:01",
-      "title": "\"CES서 큰 거 온다\"…원익 등 로봇주 다시 불기둥 세우나 [영상]",
-      "url": "https://www.hankyung.com/article/2026010633546",
-      "keywords_hit": [
-        "로봇"
-      ]
     },
     {
       "source": "MK",
