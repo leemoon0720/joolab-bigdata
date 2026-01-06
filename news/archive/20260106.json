@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-06 21:46 KST",
+  "updated_at": "2026-01-06 22:27 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 22:00",
+      "title": "\"주당 7800원에 전재산 올인\"…SK하닉 '전설의 직원' 재조명 [종목+]",
+      "url": "https://www.hankyung.com/article/2026010652576",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -380,16 +388,6 @@
       "title": "'매달 계좌에 따박따박' 개미들 우르르…58조 뭉칫돈 몰렸다",
       "url": "https://www.hankyung.com/article/202601064959i",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 16:43",
-      "title": "코스피 사상 첫 4500 돌파…SK하이닉스, '최고가' 찍으며 日 시총 1위 제껴 [HK영상]",
-      "url": "https://www.hankyung.com/article/202601064981i",
-      "keywords_hit": [
-        "코스피"
-      ]
     }
   ]
 }
