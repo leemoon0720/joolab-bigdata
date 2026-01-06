@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-07 07:44 KST",
+  "updated_at": "2026-01-07 07:56 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 07:47",
+      "title": "\"삼성전자, 올해 D램 영업익 100조 근접 전망\"-KB",
+      "url": "https://www.hankyung.com/article/2026010757416",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -380,14 +388,6 @@
       "keywords_hit": [
         "환율"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 17:25",
-      "title": "'1억이 2억 됐다'…퇴직연금 고수들, 뭐 샀나 보니",
-      "url": "https://www.hankyung.com/article/2026010651051",
-      "keywords_hit": []
     }
   ]
 }
