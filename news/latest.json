@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-07 06:33 KST",
+  "updated_at": "2026-01-07 06:48 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,6 +23,14 @@
   "count": 40,
   "items": [
     {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 06:30",
+      "title": "머스크·트럼프 화해 무드…'GD 탄 그 차' 부진에 밀린 주식 '질주' [종목+]",
+      "url": "https://www.hankyung.com/article/2026010646896",
+      "keywords_hit": []
+    },
+    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-07 05:50",
@@ -36,7 +44,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-07 02:17",
-      "title": "엔비디아 \"생각하는 자율주행 AI\" 발표…테슬라 FSD에 도전장 [빈난새의 개장전요것만]",
+      "title": "엔비디아 \"생각하는 자율주행 AI\" 공개…테슬라 FSD에 도전장 [빈난새의 개장전요것만]",
       "url": "https://www.hankyung.com/article/202601075604i",
       "keywords_hit": [
         "AI"
@@ -380,16 +388,6 @@
       "title": "'절세계좌'에서도 ETF가 대세",
       "url": "https://www.hankyung.com/article/2026010651061",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 17:23",
-      "title": "\"개별종목보다 낫네\"…배당족 '머니무브'",
-      "url": "https://www.hankyung.com/article/2026010651031",
-      "keywords_hit": [
-        "배당"
-      ]
     }
   ]
 }
