@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-06 16:03 KST",
+  "updated_at": "2026-01-06 16:35 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,26 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 16:25",
+      "title": "숨고르기 들어간 로봇주...\"현대차 반등 가능\"",
+      "url": "https://www.hankyung.com/article/202601064932i",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 16:03",
+      "title": "끊임 없이 오르는 코스피, 사상 첫 4500 마감…삼전닉스도 신고가 경신",
+      "url": "https://www.mk.co.kr/news/stock/11924656",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -96,7 +116,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-06 15:33",
-      "title": "[속보] 코스피, 사상 첫 4500 돌파…SK하이닉스도 최고가",
+      "title": "[속보] 코스피, 사상 첫 4500선 돌파…SK하이닉스도 최고가",
       "url": "https://www.hankyung.com/article/2026010647126",
       "keywords_hit": [
         "코스피"
@@ -347,16 +367,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-06 09:57",
-      "title": "AI 에이전트가 지갑 열고 결제한다… “인터넷이 곧 은행 되는 원년”",
-      "url": "https://www.mk.co.kr/news/stock/11924109",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-06 09:40",
@@ -375,16 +385,6 @@
       "url": "https://www.hankyung.com/article/2026010637436",
       "keywords_hit": [
         "상장"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 09:23",
-      "title": "\"진짜 사람같네\" 관절 꺾는 로봇 공개에…현대차 개미들 '들썩' [종목+]",
-      "url": "https://www.hankyung.com/article/2026010637006",
-      "keywords_hit": [
-        "로봇"
       ]
     }
   ]
