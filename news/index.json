@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-06 08:59 KST",
+  "updated_at": "2026-01-06 11:09 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,181 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 11:00",
+      "title": "한앤코 SK디앤디 2차 공개매수 실패…자진상폐 계획에 차질",
+      "url": "https://www.mk.co.kr/news/stock/11924204",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 10:58",
+      "title": "대통령 잡혀가니 금·은값 또 올라…불안한 국제정세에 믿을 건 안전자산뿐?",
+      "url": "https://www.mk.co.kr/news/stock/11924199",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 10:44",
+      "title": "‘어닝서프라이즈 없다’에 7% 하락한 전력기기주",
+      "url": "https://www.mk.co.kr/news/stock/11924182",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 10:44",
+      "title": "“조정은 매수 찬스” 초고수, 삼전·닉스 매수 [주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11924181",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 10:17",
+      "title": "머큐리, 자산 재평가 소식에 급등세",
+      "url": "https://www.hankyung.com/article/2026010639196",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 10:14",
+      "title": "컴투스, 581억 규모 자사주 소각에 5%대 강세",
+      "url": "https://www.mk.co.kr/news/stock/11924133",
+      "keywords_hit": [
+        "자사주"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 10:12",
+      "title": "\"스페이스X 업고 깜짝 실적 기대\"…미래에셋증권, 52주 최고가 경신",
+      "url": "https://www.hankyung.com/article/2026010638596",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 10:08",
+      "title": "[MK시그널] 앨버말, 수익률 60.1% 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11924126",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 09:57",
+      "title": "AI 에이전트가 지갑 열고 결제한다… “인터넷이 곧 은행 되는 원년”",
+      "url": "https://www.mk.co.kr/news/stock/11924109",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 09:54",
+      "title": "어제만 해도 상승 랠리 이어가더니…삼전닉스, 동반 2~3% 하락세",
+      "url": "https://www.mk.co.kr/news/stock/11924105",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 09:44",
+      "title": "[MK시그널] 알루코, 북미 시장 선점 계획 및 실적 성장 기대감에 주가 상승세... MK시그널 추천 후 상승률 10.17%기록",
+      "url": "https://www.mk.co.kr/news/stock/11924090",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 09:42",
+      "title": "“지구상 가장 빠르게 성장”…장중 18% 급등한 트럼프 테마주의 위엄",
+      "url": "https://www.mk.co.kr/news/stock/11924087",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 09:42",
+      "title": "[MK 골든크로스 돌파종목 : 하나기술(299030) & 경창산업(024910)",
+      "url": "https://www.mk.co.kr/news/stock/11924086",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 09:40",
+      "title": "에이비프로바이오, 90% 무상감자 결정에 21%대 '하락'",
+      "url": "https://www.hankyung.com/article/2026010637856",
+      "keywords_hit": [
+        "감자",
+        "바이오"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 09:36",
+      "title": "상장폐지 앞둔 IHQ·KH필룩스, 정리매매 첫날 '급락'",
+      "url": "https://www.hankyung.com/article/2026010637436",
+      "keywords_hit": [
+        "상장"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 09:23",
+      "title": "\"진짜 사람같네\" 관절 꺾는 로봇 공개에…현대차 개미들 '들썩' [종목+]",
+      "url": "https://www.hankyung.com/article/2026010637006",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 09:18",
+      "title": "코스피, 외인·기관 쌍끌이 매도에 하락 출발…환율 1446원대",
+      "url": "https://www.hankyung.com/article/2026010636126",
+      "keywords_hit": [
+        "코스피",
+        "기관",
+        "환율"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 09:17",
+      "title": "컴투스, 보유 자사주 50% 소각 결정에 '급등'",
+      "url": "https://www.hankyung.com/article/2026010636756",
+      "keywords_hit": [
+        "자사주"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 09:11",
+      "title": "\"80만닉스·18만전자 간다\"…연초 랠리에 코스피 상단도 들썩",
+      "url": "https://www.hankyung.com/article/202601063601i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -68,7 +243,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-06 08:40",
-      "title": "[마켓PRO] Today's Pick : \"삼성전자, 올해 영업익 3배 급증 전망… 목표가도 '쑥'\"",
+      "title": "[마켓PRO] Today's Pick : \"삼성전자, 올해 영업익 3배 급증 전망…목표가도 '쑥'\"",
       "url": "https://www.hankyung.com/article/202601063464i",
       "keywords_hit": []
     },
@@ -163,32 +338,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 07:42",
-      "title": "[속보] 리플 12% 이상 폭등, 2.33달러까지 치솟아",
-      "url": "https://www.hankyung.com/article/2026010633607",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 07:33",
-      "title": "\"삼양식품, 美법인 매출 사상 최대 전망…조정은 매수 기회\"-한국",
-      "url": "https://www.hankyung.com/article/2026010633416",
-      "keywords_hit": [
-        "매출"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 07:26",
-      "title": "젠슨 황 CES 기조연설서 '깜짝 발언' 없더니…엔비디아 0.39%↓",
-      "url": "https://www.hankyung.com/article/2026010633357",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-06 07:26",
@@ -202,41 +351,6 @@
       "published_at": "2026-01-06 07:23",
       "title": "‘美, 마두로 압송’ 반영되며 에너지株 일제히 상승...다우는 사상 최고 [월가월부]",
       "url": "https://www.mk.co.kr/news/stock/11923995",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 07:16",
-      "title": "美 베네수 공습에도 투자심리 굳건…3대 지수 일제히 '상승' [뉴욕증시 브리핑]",
-      "url": "https://www.hankyung.com/article/2026010633226",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 07:00",
-      "title": "\"AI 랠리에 올라타자\"…'중국판 오픈AI' 홍콩 증시 상장 초읽기 [조아라의 차이나스톡]",
-      "url": "https://www.hankyung.com/article/202601016944i",
-      "keywords_hit": [
-        "상장",
-        "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 06:30",
-      "title": "\"러·우 종전돼도 평화 안 와\"…베네수엘라 사태에 '들썩' [종목+]",
-      "url": "https://www.hankyung.com/article/2026010530766",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 06:00",
-      "title": "외화 곳간 얼마나 비었길래…\"28년 만에 처음 있는 일\" [한경 외환시장 워치]",
-      "url": "https://www.hankyung.com/article/202601052556i",
       "keywords_hit": []
     },
     {
@@ -260,120 +374,11 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-05 22:00",
-      "title": "\"5년 인내해 돈 복사 중\"…'이제 14만전자' 개미들 흥분 [종목+]",
-      "url": "https://www.hankyung.com/article/2026010525286",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-05 20:17",
       "title": "“업종 하나 잘 나가면 우르르 출시”...난립하는 ETF, 이름 빼고 뭐가 다르지",
       "url": "https://www.mk.co.kr/news/stock/11923733",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 20:08",
-      "title": "갓성전자의 힘…7.4% 급등하자 코스피 단숨에 4450",
-      "url": "https://www.mk.co.kr/news/stock/11923724",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 18:13",
-      "title": "예금서 발뺀 개미들, 국장으로…증시 대기자금 90조 육박",
-      "url": "https://www.mk.co.kr/news/stock/11923672",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 18:12",
-      "title": "“올해 슈퍼사이클…영업익 300조” 반도체 투톱 더 가나",
-      "url": "https://www.mk.co.kr/news/stock/11923671",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 17:59",
-      "title": "스트레티지 작년 4분기 수조원대 손실 예상",
-      "url": "https://www.mk.co.kr/news/stock/11923638",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 17:59",
-      "title": "\"원유조달 비용 낮아질수도\"… 정유주 강세",
-      "url": "https://www.mk.co.kr/news/stock/11923636",
-      "keywords_hit": [
-        "원유"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 17:59",
-      "title": "마두로 축출·유럽 재무장 … 방산주 일제히 반등",
-      "url": "https://www.mk.co.kr/news/stock/11923633",
-      "keywords_hit": [
-        "방산"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 17:59",
-      "title": "쌍둥이 ETF 난립 좀비 상품도 많아",
-      "url": "https://www.mk.co.kr/news/stock/11923632",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 17:54",
-      "title": "'갓성전자'의 힘 단숨에 4457…코스피 새해 신고가 랠리",
-      "url": "https://www.mk.co.kr/news/stock/11923601",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 17:52",
-      "title": "반도체 투톱, 코스피 쌍끌이…올 영업익 300조 전망도",
-      "url": "https://www.mk.co.kr/news/stock/11923594",
-      "keywords_hit": [
-        "코스피",
-        "반도체"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 17:52",
-      "title": "개미, 예금서 발빼 국내증시行…증시 대기자금 90조 육박",
-      "url": "https://www.mk.co.kr/news/stock/11923593",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 17:45",
-      "title": "IR큐더스·율촌, 기업 지배구조·행동주의 컨설팅 맞손",
-      "url": "https://www.mk.co.kr/news/stock/11923572",
       "keywords_hit": []
     }
   ]
