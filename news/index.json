@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-07 02:00 KST",
+  "updated_at": "2026-01-07 02:31 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 02:17",
+      "title": "엔비디아 \"생각하는 자율주행 AI\" 발표...테슬라 FSD에 도전장 [빈난새의 개장전요것만]",
+      "url": "https://www.hankyung.com/article/202601075604i",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -380,14 +390,6 @@
       "keywords_hit": [
         "배당"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 16:44",
-      "title": "'매달 계좌에 따박따박' 개미들 우르르…58조 뭉칫돈 몰렸다",
-      "url": "https://www.hankyung.com/article/202601064959i",
-      "keywords_hit": []
     }
   ]
 }
