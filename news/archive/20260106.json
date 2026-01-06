@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-06 19:13 KST",
+  "updated_at": "2026-01-06 19:43 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 19:17",
+      "title": "HPSP 최대주주 지분 10% 블록딜",
+      "url": "https://www.mk.co.kr/news/stock/11924929",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -202,7 +210,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-06 17:47",
-      "title": "피지컬 AI가 가른 주가 현대차 40% vs 기아 17%",
+      "title": "피지컬 AI가 가른 주가…현대차 40% vs 기아 17%",
       "url": "https://www.mk.co.kr/news/stock/11924798",
       "keywords_hit": [
         "AI"
@@ -239,22 +247,22 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-06 17:47",
-      "title": "[유가증권시장 공시] HD현대일렉트릭 / HD현대중공업",
-      "url": "https://www.mk.co.kr/news/stock/11924794",
+      "title": "[코스닥 공시] 나우로보틱스",
+      "url": "https://www.mk.co.kr/news/stock/11924795",
       "keywords_hit": [
-        "공시",
-        "유가"
+        "코스닥",
+        "공시"
       ]
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-06 17:47",
-      "title": "[코스닥 공시] 나우로보틱스",
-      "url": "https://www.mk.co.kr/news/stock/11924795",
+      "title": "[유가증권시장 공시] HD현대일렉트릭 / HD현대중공업",
+      "url": "https://www.mk.co.kr/news/stock/11924794",
       "keywords_hit": [
-        "코스닥",
-        "공시"
+        "공시",
+        "유가"
       ]
     },
     {
@@ -364,14 +372,6 @@
       "keywords_hit": [
         "배당"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-06 16:52",
-      "title": "한투운용, 연금 수탁고 6조원 육박 ‘역대 최대’",
-      "url": "https://www.mk.co.kr/news/stock/11924705",
-      "keywords_hit": []
     },
     {
       "source": "HK",
