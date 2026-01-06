@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-06 18:00 KST",
+  "updated_at": "2026-01-06 18:35 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,12 +25,56 @@
     {
       "source": "MK",
       "press": "매일경제",
-      "published_at": "2026-01-06 17:56",
-      "title": "실적 눈높이 낮아지는데…2차전지 쓸어담은 빚투개미",
-      "url": "https://www.mk.co.kr/news/stock/11924853",
+      "published_at": "2026-01-06 18:32",
+      "title": "“아직도 의심해?” 95만닉스·18만전자 장밋빛 전망…함께 웃은 종목은",
+      "url": "https://www.mk.co.kr/news/stock/11924907",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 18:24",
+      "title": "삼성증권, 소비자 보호 실천 서약식",
+      "url": "https://www.hankyung.com/article/2026010651451",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 18:01",
+      "title": "\"AI주 안 부럽네\"…돈 안쓰고 모아서 어디에 쓰나 봤더니",
+      "url": "https://www.hankyung.com/article/2026010650991",
       "keywords_hit": [
-        "실적",
-        "2차전지"
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 17:59",
+      "title": "美 구리 사재기에 t당 1.3만달러 돌파",
+      "url": "https://www.hankyung.com/article/2026010650941",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 17:58",
+      "title": "AI 영상 생성기 '클링'이 효자…中 콰이쇼우 1년간 90% 급등",
+      "url": "https://www.hankyung.com/article/2026010650951",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 17:57",
+      "title": "'중국판 오픈AI' 즈푸AI, 8일 홍콩 증시 상장",
+      "url": "https://www.hankyung.com/article/2026010650931",
+      "keywords_hit": [
+        "상장",
+        "AI"
       ]
     },
     {
@@ -40,6 +84,17 @@
       "title": "공매도 금지도 안통하네 … 엔터주 베팅한 개미 울상",
       "url": "https://www.mk.co.kr/news/stock/11924852",
       "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 17:56",
+      "title": "실적 눈높이 낮아지는데…2차전지 쓸어담은 빚투개미",
+      "url": "https://www.mk.co.kr/news/stock/11924853",
+      "keywords_hit": [
+        "실적",
+        "2차전지"
+      ]
     },
     {
       "source": "MK",
@@ -57,6 +112,17 @@
       "url": "https://www.mk.co.kr/news/stock/11924849",
       "keywords_hit": [
         "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 17:55",
+      "title": "시총 150억 밑돌면 상장폐지…코스닥 '생존 게임' 막 올랐다",
+      "url": "https://www.hankyung.com/article/2026010650771",
+      "keywords_hit": [
+        "코스닥",
+        "상장"
       ]
     },
     {
@@ -309,14 +375,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 16:25",
-      "title": "'999% 폭등' 고점 논란 터지더니…'현대차' 나홀로 웃는 이유",
-      "url": "https://www.hankyung.com/article/202601064932i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-06 16:03",
@@ -333,60 +391,6 @@
       "title": "뷰티 브랜드 어퓨 분리매각 중단...에이블씨엔씨 매각 숨고르기",
       "url": "https://www.mk.co.kr/news/stock/11924603",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-06 15:54",
-      "title": "하이닉스에 비해 덜 오르는 삼성전자 매수 [주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11924601",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 15:49",
-      "title": "\"진짜 100만원 가나?\"…SK하이닉스 72만원 최고가 마감",
-      "url": "https://www.hankyung.com/article/202601064729i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 15:42",
-      "title": "스위치원 컨소시엄, 버킷스튜디오 경영권 인수 계약",
-      "url": "https://www.hankyung.com/article/2025123140986",
-      "keywords_hit": [
-        "인수"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 15:42",
-      "title": "[마켓칼럼]AI·트럼프·Fed·외환…금융시장 신년 키워드",
-      "url": "https://www.hankyung.com/article/202601064407i",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 15:40",
-      "title": "[마켓칼럼] 다시 떠오르는 인플레이션 리스크",
-      "url": "https://www.hankyung.com/article/202601064804i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 15:33",
-      "title": "[속보] 코스피, 사상 첫 4500선 돌파…SK하이닉스도 최고가",
-      "url": "https://www.hankyung.com/article/2026010647126",
-      "keywords_hit": [
-        "코스피"
-      ]
     }
   ]
 }
