@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-06 13:58 KST",
+  "updated_at": "2026-01-06 14:28 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,10 +25,50 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-06 14:28",
+      "title": "‘파죽지세’ 코스피 4500선도 뚫었다",
+      "url": "https://www.mk.co.kr/news/stock/11924436",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 14:01",
+      "title": "에프앤가이드 지수 추종 'TIGER 반도체TOP10' ETF, 순자산 3조 돌파",
+      "url": "https://www.hankyung.com/article/2026010644066",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 14:00",
+      "title": "삼성자산운용, ‘KODEX 로봇액티브’ 순자산 5000억 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11924410",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-06 13:55",
       "title": "“이재용 회장이 중국서 인형 사갔대” 팝마트 주가 오른 이유",
       "url": "https://www.mk.co.kr/news/stock/11924404",
       "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 13:54",
+      "title": "화장품 브랜드 '닥터스 PGA', 獨 유력 연구기관서 안전성 입증",
+      "url": "https://www.hankyung.com/article/202601064371i",
+      "keywords_hit": [
+        "기관"
+      ]
     },
     {
       "source": "MK",
@@ -314,14 +354,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-06 08:45",
-      "title": "“18만 전자 간다”…삼성전자 목표가 또 줄상향 [오늘 나온 보고서]",
-      "url": "https://www.mk.co.kr/news/stock/11924035",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-06 08:44",
@@ -348,14 +380,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-06 08:39",
-      "title": "“현대차, 수익성 저점 통과 후 점진적인 손익개선 기대”…목표가↑",
-      "url": "https://www.mk.co.kr/news/stock/11924028",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-06 08:33",
@@ -365,25 +389,6 @@
         "외국인",
         "매출"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 08:29",
-      "title": "반도체가 끌어올린 코스피 4400선…차익 실현은 부담 [오늘장 미리보기]",
-      "url": "https://www.hankyung.com/article/202601063463i",
-      "keywords_hit": [
-        "코스피",
-        "반도체"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 08:12",
-      "title": "\"SK하이닉스, 의심할 여지 없어…목표가 80만원\"-DS",
-      "url": "https://www.hankyung.com/article/2026010634486",
-      "keywords_hit": []
     }
   ]
 }
