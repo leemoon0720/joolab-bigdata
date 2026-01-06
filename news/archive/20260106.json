@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-06 19:43 KST",
+  "updated_at": "2026-01-06 19:57 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 19:49",
+      "title": "“리포트 믿고 투자하는 사람 없제?”…증권사·빚투개미 ‘이곳’서 끝장전",
+      "url": "https://www.mk.co.kr/news/stock/11924938",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -247,22 +255,22 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-06 17:47",
-      "title": "[코스닥 공시] 나우로보틱스",
-      "url": "https://www.mk.co.kr/news/stock/11924795",
+      "title": "[유가증권시장 공시] HD현대일렉트릭 / HD현대중공업",
+      "url": "https://www.mk.co.kr/news/stock/11924794",
       "keywords_hit": [
-        "코스닥",
-        "공시"
+        "공시",
+        "유가"
       ]
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-06 17:47",
-      "title": "[유가증권시장 공시] HD현대일렉트릭 / HD현대중공업",
-      "url": "https://www.mk.co.kr/news/stock/11924794",
+      "title": "[코스닥 공시] 나우로보틱스",
+      "url": "https://www.mk.co.kr/news/stock/11924795",
       "keywords_hit": [
-        "공시",
-        "유가"
+        "코스닥",
+        "공시"
       ]
     },
     {
@@ -318,14 +326,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-06 17:43",
-      "title": "[MK시그널] SK하이닉스 밸류체인株 강세",
-      "url": "https://www.mk.co.kr/news/stock/11924774",
-      "keywords_hit": []
     },
     {
       "source": "HK",
