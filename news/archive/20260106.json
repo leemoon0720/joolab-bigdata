@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-06 14:28 KST",
+  "updated_at": "2026-01-06 14:50 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,12 +25,38 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-06 14:35",
+      "title": "장 초반 하락했지만 반등 성공…SK하이닉스, 최고가 찍고 70만 안착",
+      "url": "https://www.mk.co.kr/news/stock/11924449",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 14:32",
+      "title": "목표주가 쭉쭉 오르는 셀트리온…“올해 실적 전망도 맑음”",
+      "url": "https://www.hankyung.com/article/202601064347i",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-06 14:28",
       "title": "‘파죽지세’ 코스피 4500선도 뚫었다",
       "url": "https://www.mk.co.kr/news/stock/11924436",
       "keywords_hit": [
         "코스피"
       ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 14:21",
+      "title": "고려아연, MSCI 한 방에 7% '뚝'…외국계 매도 쏟아졌다",
+      "url": "https://www.hankyung.com/article/202601064514i",
+      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -346,14 +372,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-06 08:48",
-      "title": "‘사랑의열매’도 ‘디지털’ 바람...업비트, 사상 최초 비트코인 기부",
-      "url": "https://www.mk.co.kr/news/stock/11924038",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-06 08:44",
@@ -369,25 +387,6 @@
       "url": "https://www.hankyung.com/article/2026010635306",
       "keywords_hit": [
         "환율"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 08:40",
-      "title": "[마켓PRO] Today's Pick : \"삼성전자, 올해 영업익 3배 급증 전망…목표가도 '쑥'\"",
-      "url": "https://www.hankyung.com/article/202601063464i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 08:33",
-      "title": "\"현대백화점, 외국인 매출 비중 확대…밸류 재평가 요인\"-NH",
-      "url": "https://www.hankyung.com/article/2026010635056",
-      "keywords_hit": [
-        "외국인",
-        "매출"
       ]
     }
   ]
