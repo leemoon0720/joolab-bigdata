@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-07 08:19 KST",
+  "updated_at": "2026-01-07 08:37 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,27 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 08:20",
+      "title": "\"삼양식품, 실적 숨고르기 구간…주가 하락 과도\"-LS",
+      "url": "https://www.hankyung.com/article/2026010758696",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 08:15",
+      "title": "사상 최고치 코스피, 반도체 주도장 계속되나 [오늘장 미리보기]",
+      "url": "https://www.hankyung.com/article/202601075862i",
+      "keywords_hit": [
+        "코스피",
+        "반도체"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -305,14 +326,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 17:47",
-      "title": "[특징주 & 리포트] '미래에셋증권, 12% 넘게 급등' 등",
-      "url": "https://www.hankyung.com/article/2026010650861",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-06 17:47",
@@ -380,14 +393,6 @@
       "keywords_hit": [
         "반도체"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 17:44",
-      "title": "1억 넣었으면 2억7000만원 됐다…금보다 3배 뛰더니 '잭팟'",
-      "url": "https://www.hankyung.com/article/2026010650981",
-      "keywords_hit": []
     }
   ]
 }
