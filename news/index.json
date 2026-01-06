@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-06 11:09 KST",
+  "updated_at": "2026-01-06 12:45 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,58 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 12:00",
+      "title": "[마켓PRO] 알고리즘 종목 Pick : \"챗GPT에 도전장 내민 아마존…알렉사+ 서비스 선보여\"",
+      "url": "https://www.hankyung.com/article/202601063541i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 11:33",
+      "title": "“3억 손절, 다 잃고 떠난다”…예상 밖 랠리에 초토화 된 ‘종목 토론방’ 무슨 일?",
+      "url": "https://www.mk.co.kr/news/stock/11924297",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-06 11:31",
+      "title": "비트코인 반등에 韓 비트코인 매입기업 주가 급등 [매일코인]",
+      "url": "https://www.mk.co.kr/news/stock/11924290",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 11:25",
+      "title": "[마켓PRO] \"트럼프와 화해\" 기대에 서학개미, '8일만에 반등' 테슬라 베팅",
+      "url": "https://www.hankyung.com/article/202601064088i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 11:11",
+      "title": "코스피, 낙폭 줄이며 4450선 회복…개인 1조 순매수",
+      "url": "https://www.hankyung.com/article/2026010641086",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-06 11:10",
+      "title": "[마켓PRO] 조정은 기회?…고수들, 반도체 '투톱' 집중매수",
+      "url": "https://www.hankyung.com/article/202601064084i",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -304,40 +356,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 08:00",
-      "title": "한물갔다더니 이럴 줄은…6개월 만에 '300% 폭등' 대반전 [핫픽! 해외주식]",
-      "url": "https://www.hankyung.com/article/202601028972i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 07:54",
-      "title": "\"현대위아, 작년 4분기 부진했지만 올해 대폭 개선 기대…목표가↑\"-신한",
-      "url": "https://www.hankyung.com/article/2026010633766",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 07:53",
-      "title": "\"이마트, 온라인 자회사 실적 우려 완화 전망\"-NH",
-      "url": "https://www.hankyung.com/article/2026010633706",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-06 07:46",
-      "title": "KB證 \"삼성전자, 여전히 가장 싼 D램 기업…주가 18만원 간다\"",
-      "url": "https://www.hankyung.com/article/2026010633616",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-06 07:26",
@@ -362,24 +380,6 @@
       "keywords_hit": [
         "배당"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-06 05:56",
-      "title": "“삼전닉스·미국주식 외엔 관심무”…코스닥 62%, 보고서 한장 없다",
-      "url": "https://www.mk.co.kr/news/stock/11923949",
-      "keywords_hit": [
-        "코스닥"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-05 20:17",
-      "title": "“업종 하나 잘 나가면 우르르 출시”...난립하는 ETF, 이름 빼고 뭐가 다르지",
-      "url": "https://www.mk.co.kr/news/stock/11923733",
-      "keywords_hit": []
     }
   ]
 }
