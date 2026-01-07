@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-08 07:48 KST",
+  "updated_at": "2026-01-08 07:57 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,9 +25,35 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-08 07:55",
+      "title": "“SK, 2026년 자산매각 효과 톡톡”…목표가↑",
+      "url": "https://www.mk.co.kr/news/stock/11926414",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 07:43",
+      "title": "\"LG이노텍, 작년 4분기 실적 서프라이즈 전망…목표가↑\"-키움",
+      "url": "https://www.hankyung.com/article/2026010880936",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-08 07:43",
       "title": "[속보] 삼성전자 작년 4분기 영업익 20조원…역대 최대",
       "url": "https://www.mk.co.kr/news/business/11926405",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 07:36",
+      "title": "6년여 만에 애플 제친 알파벳…3대지수 혼조 [뉴욕증시 브리핑]",
+      "url": "https://www.hankyung.com/article/2026010880706",
       "keywords_hit": []
     },
     {
@@ -203,19 +229,19 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-07 17:49",
-      "title": "삼전닉스가 연 잔치 … 중소형주는 문전박대",
-      "url": "https://www.mk.co.kr/news/stock/11925984",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 17:49",
       "title": "스페이스X 올라탄 미래에셋 … 그룹 시총 메리츠 추월",
       "url": "https://www.mk.co.kr/news/stock/11925983",
       "keywords_hit": [
         "리츠"
       ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 17:49",
+      "title": "삼전닉스가 연 잔치 … 중소형주는 문전박대",
+      "url": "https://www.mk.co.kr/news/stock/11925984",
+      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -288,14 +314,6 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 17:34",
-      "title": "빛과전자, 10억 5000만 규모 전환사채 발행",
-      "url": "https://www.mk.co.kr/news/stock/11925909",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-07 17:28",
@@ -352,22 +370,6 @@
       "keywords_hit": [
         "실적"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 17:10",
-      "title": "STO 장외거래소 사업자에 한국거래소·NXT 컨소시엄 선정",
-      "url": "https://www.hankyung.com/article/2026010774386",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 16:54",
-      "title": "\"액티브 ETF 운용사 최초\"…타임폴리오, 순자산 4조원 돌파",
-      "url": "https://www.hankyung.com/article/202601077434i",
-      "keywords_hit": []
     }
   ]
 }
