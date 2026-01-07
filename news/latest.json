@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-07 18:01 KST",
+  "updated_at": "2026-01-07 18:36 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,32 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 18:26",
+      "title": "[단독] 테슬라 4조 계약→970만원 됐는데...거래소 \"불성실공시 아냐\"",
+      "url": "https://www.hankyung.com/article/202601077697i",
+      "keywords_hit": [
+        "공시"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 18:08",
+      "title": "위기를 먹고 사는 비트코인, 이번은 베네수엘라다 [엠블록레터]",
+      "url": "https://www.mk.co.kr/news/stock/11926056",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 18:01",
+      "title": "바디텍메드, 복지부 ‘혁신형 의료기기기업’ 인증",
+      "url": "https://www.mk.co.kr/news/stock/11926040",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -338,40 +364,12 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 14:50",
-      "title": "삼성자산운용, 코스피 5000 향한 투자 키워드 ‘대·반·전’ 제시",
-      "url": "https://www.mk.co.kr/news/stock/11925677",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 14:44",
-      "title": "미래에셋운용, ‘TIGER ETF’ 순자산 100조원 돌파…출시 20년 만",
-      "url": "https://www.mk.co.kr/news/stock/11925676",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-07 14:37",
       "title": "타임폴리오, 순자산 4조 돌파…\"액티브 ETF 운용사 최초\"",
       "url": "https://www.hankyung.com/article/2026010769916",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 13:59",
-      "title": "서린바이오, '바이오레드' 제품 국내 판매권 확보 및 출시",
-      "url": "https://www.hankyung.com/article/2026010768686",
-      "keywords_hit": [
-        "바이오"
-      ]
     }
   ]
 }
