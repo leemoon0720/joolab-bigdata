@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-07 22:03 KST",
+  "updated_at": "2026-01-07 22:47 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,32 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 22:36",
+      "title": "‘김병주 회장 영장 청구’ MBK파트너스, “홈플러스 살릴려는 회사 의도 오해”",
+      "url": "https://www.mk.co.kr/news/stock/11926232",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 22:12",
+      "title": "‘76만닉스’ 기염…“주당 7800원, 5700주 샀더라”",
+      "url": "https://www.mk.co.kr/news/business/11926215",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 22:00",
+      "title": "\"조만간 40만원 된다\"…현대차, 로봇株 변신하자 주가 '불기둥' [종목+]",
+      "url": "https://www.hankyung.com/article/2026010772766",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -198,19 +224,19 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-07 17:34",
-      "title": "빛과전자, 10억 5000만 규모 전환사채 발행",
-      "url": "https://www.mk.co.kr/news/stock/11925909",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 17:34",
       "title": "아이엠, 15억원 규모 유상증자 실시",
       "url": "https://www.mk.co.kr/news/stock/11925908",
       "keywords_hit": [
         "증자"
       ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 17:34",
+      "title": "빛과전자, 10억 5000만 규모 전환사채 발행",
+      "url": "https://www.mk.co.kr/news/stock/11925909",
+      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -311,14 +337,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 16:29",
-      "title": "미래에셋운용 TIGER ETF 순자산 100조원 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11925813",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-07 16:26",
@@ -335,14 +353,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 16:06",
-      "title": "이마트, 신세계푸드 공개매수로 의결권 지분 71.2% 확보",
-      "url": "https://www.mk.co.kr/news/stock/11925757",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-07 15:53",
@@ -352,14 +362,6 @@
         "코스피",
         "코스닥"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 15:46",
-      "title": "\"너무 일찍 팔지 말아라\"…삼전·하이닉스 주가 '파격 전망' [종목+]",
-      "url": "https://www.hankyung.com/article/2026010771677",
-      "keywords_hit": []
     }
   ]
 }
