@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-07 14:20 KST",
+  "updated_at": "2026-01-07 14:45 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,40 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 14:44",
+      "title": "미래에셋운용, ‘TIGER ETF’ 순자산 100조원 돌파…출시 20년 만",
+      "url": "https://www.mk.co.kr/news/stock/11925676",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 14:37",
+      "title": "타임폴리오, 순자산 4조 돌파…\"액티브 ETF 운용사 최초\"",
+      "url": "https://www.hankyung.com/article/2026010769916",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 14:34",
+      "title": "NH투자증권, 증권사 최초 한국형 산업분류체계 ‘NHICS’ 개발",
+      "url": "https://www.mk.co.kr/news/stock/11925663",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 14:34",
+      "title": "한화투자증권, 해외 니켈 제련소 지분 인수 자문 완료",
+      "url": "https://www.mk.co.kr/news/stock/11925662",
+      "keywords_hit": [
+        "인수"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -328,16 +362,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 09:04",
-      "title": "\"우리가 틀렸습니다\"…코스피 전망치 '부랴부랴' 올렸다 [분석+]",
-      "url": "https://www.hankyung.com/article/2026010758896",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-07 09:04",
@@ -356,36 +380,6 @@
       "url": "https://www.mk.co.kr/news/stock/11925228",
       "keywords_hit": [
         "코스피",
-        "반도체"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 08:06",
-      "title": "“LG에너지솔루션, EV 수익성 부진에 실적 전망 암울”…목표가↓",
-      "url": "https://www.mk.co.kr/news/stock/11925211",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 06:55",
-      "title": "올해도 AI 훈풍…뉴욕증시 사상 최고치 [월가월부]",
-      "url": "https://www.mk.co.kr/news/stock/11925172",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 05:50",
-      "title": "“너무 오르길래 겁나서 팔았어요”…반도체 바통 이을 다음 주자는",
-      "url": "https://www.mk.co.kr/news/stock/11925123",
-      "keywords_hit": [
         "반도체"
       ]
     }
