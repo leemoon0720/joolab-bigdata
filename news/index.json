@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-07 21:00 KST",
+  "updated_at": "2026-01-07 22:03 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,22 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 21:30",
+      "title": "KKR, HD현대마린솔루션 지분 4.1% 블록딜",
+      "url": "https://www.mk.co.kr/news/stock/11926188",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 21:00",
+      "title": "'이렇게 빡셀줄은'…3조 굴리는 '연기금 큰손' 하루는 이렇습니다 [하루만]",
+      "url": "https://www.hankyung.com/article/2026010769466",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -122,11 +138,9 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-07 17:43",
-      "title": "'엔비디아 협업' 日화낙…AI 새 주도주 부상",
+      "title": "\"주가 왜 이렇게 오르죠?\"…은둔의 '이 회사' 깨어나자 '불기둥'",
       "url": "https://www.hankyung.com/article/2026010776181",
-      "keywords_hit": [
-        "AI"
-      ]
+      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -184,19 +198,19 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-07 17:34",
-      "title": "아이엠, 15억원 규모 유상증자 실시",
-      "url": "https://www.mk.co.kr/news/stock/11925908",
-      "keywords_hit": [
-        "증자"
-      ]
+      "title": "빛과전자, 10억 5000만 규모 전환사채 발행",
+      "url": "https://www.mk.co.kr/news/stock/11925909",
+      "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-07 17:34",
-      "title": "빛과전자, 10억 5000만 규모 전환사채 발행",
-      "url": "https://www.mk.co.kr/news/stock/11925909",
-      "keywords_hit": []
+      "title": "아이엠, 15억원 규모 유상증자 실시",
+      "url": "https://www.mk.co.kr/news/stock/11925908",
+      "keywords_hit": [
+        "증자"
+      ]
     },
     {
       "source": "HK",
@@ -329,16 +343,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 16:05",
-      "title": "현대차 로봇 양산 기대에 오토에버 풀매수…주가 25% 급등 [주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11925756",
-      "keywords_hit": [
-        "로봇"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-07 15:53",
@@ -356,18 +360,6 @@
       "title": "\"너무 일찍 팔지 말아라\"…삼전·하이닉스 주가 '파격 전망' [종목+]",
       "url": "https://www.hankyung.com/article/2026010771677",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 15:03",
-      "title": "[마켓칼럼] 기준금리와 AI 실적, 2026년 시장의 두 축",
-      "url": "https://www.hankyung.com/article/202601075784i",
-      "keywords_hit": [
-        "금리",
-        "실적",
-        "AI"
-      ]
     }
   ]
 }
