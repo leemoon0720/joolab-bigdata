@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-08 08:50 KST",
+  "updated_at": "2026-01-08 08:58 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,24 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 08:55",
+      "title": "키움증권 “LG이노텍, 판가 하락 우려는 기우…이익 개선 국면 진입”",
+      "url": "https://www.mk.co.kr/news/stock/11926445",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 08:52",
+      "title": "“삼성바이오로직스, 관세 리스크에도 고성장 입증”…목표가↑",
+      "url": "https://www.mk.co.kr/news/stock/11926444",
+      "keywords_hit": [
+        "바이오"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -359,24 +377,6 @@
       "published_at": "2026-01-07 17:41",
       "title": "엔비디아 시총 제치더니…'166%' 경이로운 수익률",
       "url": "https://www.hankyung.com/article/2026010776421",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 17:39",
-      "title": "글로벌 방산·희토류株…마두로 축출에 신바람",
-      "url": "https://www.mk.co.kr/news/stock/11925918",
-      "keywords_hit": [
-        "방산"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 17:39",
-      "title": "빅테크 부진에 우울한 나스닥",
-      "url": "https://www.mk.co.kr/news/stock/11925919",
       "keywords_hit": []
     }
   ]
