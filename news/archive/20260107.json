@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-07 12:19 KST",
+  "updated_at": "2026-01-07 13:12 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 12:11",
+      "title": "STO 장외거래소 사업자 이달 가린다…오늘 증선위 안건 상정",
+      "url": "https://www.hankyung.com/article/2026010764576",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -316,16 +324,6 @@
       "keywords_hit": [
         "코스피",
         "반도체"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 08:30",
-      "title": "[마켓PRO] Today's Pick : \"고환율 수혜에 고터 개발…신세계, 올해 가장 편안한 선택\"",
-      "url": "https://www.hankyung.com/article/202601075755i",
-      "keywords_hit": [
-        "환율"
       ]
     },
     {
