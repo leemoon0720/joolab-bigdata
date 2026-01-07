@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-07 23:01 KST",
+  "updated_at": "2026-01-07 23:35 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 23:02",
+      "title": "삼성전자, 자사주 2.5조원 취득",
+      "url": "https://www.mk.co.kr/news/stock/11926245",
+      "keywords_hit": [
+        "자사주"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -198,19 +208,19 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-07 17:39",
-      "title": "글로벌 방산·희토류株…마두로 축출에 신바람",
-      "url": "https://www.mk.co.kr/news/stock/11925918",
-      "keywords_hit": [
-        "방산"
-      ]
+      "title": "빅테크 부진에 우울한 나스닥",
+      "url": "https://www.mk.co.kr/news/stock/11925919",
+      "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-07 17:39",
-      "title": "빅테크 부진에 우울한 나스닥",
-      "url": "https://www.mk.co.kr/news/stock/11925919",
-      "keywords_hit": []
+      "title": "글로벌 방산·희토류株…마두로 축출에 신바람",
+      "url": "https://www.mk.co.kr/news/stock/11925918",
+      "keywords_hit": [
+        "방산"
+      ]
     },
     {
       "source": "MK",
@@ -326,14 +336,6 @@
       "published_at": "2026-01-07 16:54",
       "title": "\"액티브 ETF 운용사 최초\"…타임폴리오, 순자산 4조원 돌파",
       "url": "https://www.hankyung.com/article/202601077434i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 16:30",
-      "title": "조각투자 장외거래소 사업자, 넥스트레이드·거래소 결정",
-      "url": "https://www.mk.co.kr/news/stock/11925814",
       "keywords_hit": []
     },
     {
