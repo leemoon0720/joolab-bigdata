@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-08 08:23 KST",
+  "updated_at": "2026-01-08 08:39 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,56 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 08:27",
+      "title": "\"한국항공우주, KF-21 수출 가능성 높아져…목표가↑\"-NH",
+      "url": "https://www.hankyung.com/article/2026010882196",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 08:25",
+      "title": "반도체주 차익실현 압력 속…삼성전자 실적 주목 [오늘장 미리보기]",
+      "url": "https://www.hankyung.com/article/202601088192i",
+      "keywords_hit": [
+        "반도체",
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 08:21",
+      "title": "\"에이피알, 작년 4분기 실적 서프라이즈 전망\"-한화",
+      "url": "https://www.hankyung.com/article/2026010882156",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 08:18",
+      "title": "\"현대차, 피지컬AI 기업으로 전환될 것…목표가↑\"-LS",
+      "url": "https://www.hankyung.com/article/2026010882136",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 08:16",
+      "title": "트럼프 뭐 했길래 유가, 주택, 방산 급락…구글, 애플 제치고 2위 [김현석의 월스트리트나우]",
+      "url": "https://www.hankyung.com/article/202601088124i",
+      "keywords_hit": [
+        "방산",
+        "유가"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -296,16 +346,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 17:39",
-      "title": "JP모간 콘퍼런스 앞두고…연초부터 바이오株 랠리",
-      "url": "https://www.hankyung.com/article/2026010776141",
-      "keywords_hit": [
-        "바이오"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-07 17:39",
@@ -340,38 +380,6 @@
       "keywords_hit": [
         "증자"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 17:28",
-      "title": "'연봉 1억' 직장인, 주식으로 5000만원 벌었더니…날벼락",
-      "url": "https://www.hankyung.com/article/2026010775501",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 17:27",
-      "title": "운용사 출혈 경쟁·베끼기는 넘어야 할 과제",
-      "url": "https://www.hankyung.com/article/2026010775491",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 17:27",
-      "title": "현대제철·LG화학…연초엔 저평가주 뜬다",
-      "url": "https://www.hankyung.com/article/2026010775451",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 17:25",
-      "title": "\"개미들 환호성 터졌다\"…현대차 주가 '13% 폭등'에 난리",
-      "url": "https://www.hankyung.com/article/2026010775441",
-      "keywords_hit": []
     }
   ]
 }
