@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-07 16:49 KST",
+  "updated_at": "2026-01-07 16:58 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 16:54",
+      "title": "\"액티브 ETF 운용사 최초\"...타임폴리오, 순자산 4조원 돌파",
+      "url": "https://www.hankyung.com/article/202601077434i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -373,14 +381,6 @@
       "published_at": "2026-01-07 09:49",
       "title": "[속보] 상설특검, '쿠팡 수사 무마 의혹' 김동희 검사 소환",
       "url": "https://www.hankyung.com/article/2026010762517",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 09:49",
-      "title": "중·일 갈등 격화에 희토류 관련주 '급등'…유니온머티리얼 '上'",
-      "url": "https://www.hankyung.com/article/2026010762266",
       "keywords_hit": []
     }
   ]
