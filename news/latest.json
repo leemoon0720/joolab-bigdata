@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-07 14:57 KST",
+  "updated_at": "2026-01-07 15:37 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,28 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 15:20",
+      "title": "“아직 거품 아니야, 속도를 즐겨”…하루 100P씩 오르는 코스피 ‘과속’ 아니라는데",
+      "url": "https://www.mk.co.kr/news/stock/11925699",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 15:03",
+      "title": "[마켓칼럼] 기준금리와 AI 실적, 2026년 시장의 두 축",
+      "url": "https://www.hankyung.com/article/202601075784i",
+      "keywords_hit": [
+        "금리",
+        "실적",
+        "AI"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -359,27 +381,6 @@
       "url": "https://www.mk.co.kr/news/stock/11925275",
       "keywords_hit": [
         "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 09:07",
-      "title": "코스피, 사상 첫 4600선 돌파…14만전자·76만닉스 달성",
-      "url": "https://www.hankyung.com/article/2026010760536",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 09:04",
-      "title": "“삼성바이오로직스, 견조한 실적 성장 지속…목표주가 210만원 유지”",
-      "url": "https://www.mk.co.kr/news/stock/11925250",
-      "keywords_hit": [
-        "실적",
-        "바이오"
       ]
     }
   ]
