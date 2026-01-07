@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-07 16:58 KST",
+  "updated_at": "2026-01-07 17:38 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,10 +23,110 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 17:34",
+      "title": "빛과전자, 10억 5000만 규모 전환사채 발행",
+      "url": "https://www.mk.co.kr/news/stock/11925909",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 17:34",
+      "title": "아이엠, 15억원 규모 유상증자 실시",
+      "url": "https://www.mk.co.kr/news/stock/11925908",
+      "keywords_hit": [
+        "증자"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 17:28",
+      "title": "\"수익 내봤자 건보료만 올라\"…개미 등 떠미는 '기울어진 운동장'",
+      "url": "https://www.hankyung.com/article/2026010775501",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 17:28",
+      "title": "코인 시세조종땐 즉각 계좌 정지",
+      "url": "https://www.mk.co.kr/news/stock/11925896",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 17:28",
+      "title": "내수 한파에 더 쓸쓸한 의류·외식株",
+      "url": "https://www.mk.co.kr/news/stock/11925895",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 17:27",
+      "title": "운용사 출혈 경쟁·베끼기는 넘어야 할 과제",
+      "url": "https://www.hankyung.com/article/2026010775491",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 17:27",
+      "title": "현대제철·LG화학…연초엔 저평가주 뜬다",
+      "url": "https://www.hankyung.com/article/2026010775451",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 17:25",
+      "title": "현대차, 13% 뛰어 역대 최고가",
+      "url": "https://www.hankyung.com/article/2026010775441",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 17:24",
+      "title": "삼성운용 \"올해 증시 키워드는 대·반·전\"",
+      "url": "https://www.hankyung.com/article/2026010775471",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 17:24",
+      "title": "[특징주 & 리포트] '유니온머티 上…희토류株 급등' 등",
+      "url": "https://www.hankyung.com/article/2026010775431",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 17:23",
+      "title": "삼성전자 4분기 잠정실적",
+      "url": "https://www.hankyung.com/article/2026010775511",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 17:10",
+      "title": "STO 장외거래소 사업자에 한국거래소·NXT 컨소시엄 선정",
+      "url": "https://www.hankyung.com/article/2026010774386",
+      "keywords_hit": []
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-07 16:54",
-      "title": "\"액티브 ETF 운용사 최초\"...타임폴리오, 순자산 4조원 돌파",
+      "title": "\"액티브 ETF 운용사 최초\"…타임폴리오, 순자산 4조원 돌파",
       "url": "https://www.hankyung.com/article/202601077434i",
       "keywords_hit": []
     },
@@ -34,7 +134,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-07 16:30",
-      "title": "금융위, 조각투자 장외거래소 사업자 이달중 결정",
+      "title": "조각투자 장외거래소 사업자, 넥스트레이드·거래소 결정",
       "url": "https://www.mk.co.kr/news/stock/11925814",
       "keywords_hit": []
     },
@@ -258,16 +358,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 11:50",
-      "title": "[마켓PRO] \"이젠 로봇 기업\"…고수들, 현대차그룹주 집중 매수",
-      "url": "https://www.hankyung.com/article/202601076601i",
-      "keywords_hit": [
-        "로봇"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-07 11:14",
@@ -286,102 +376,6 @@
       "keywords_hit": [
         "로봇"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 11:05",
-      "title": "'나흘째 랠리' 코스피, 오름폭 축소…삼전·하닉·현대차 최고가",
-      "url": "https://www.hankyung.com/article/2026010764876",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 10:47",
-      "title": "상설특검, '쿠팡 수사 외압 의혹' 김동희 검사 첫 피의자 조사",
-      "url": "https://www.hankyung.com/article/2026010764617",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 10:39",
-      "title": "NH투자증권, 증권업계 최초로 한국형 산업분류체계 'NHICS' 개발",
-      "url": "https://www.hankyung.com/article/2026010764526",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 10:32",
-      "title": "대신증권, 중개형 ISA 전용 '연 7%' RP 특별 판매",
-      "url": "https://www.hankyung.com/article/2026010764376",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 10:28",
-      "title": "당정 \"방산·K컬처 육성 방안 마련…국내주식 장기투자 촉진안도\"",
-      "url": "https://www.hankyung.com/article/2026010763267",
-      "keywords_hit": [
-        "방산"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 10:13",
-      "title": "[MK시그널] 경인양행, 中 대일 수출 금지 카드에 반도체 소재 대체주 부각에 주가 상승세... MK시그널 추천 후 상승률 24.32%기록",
-      "url": "https://www.mk.co.kr/news/stock/11925361",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 10:13",
-      "title": "[MK 골든크로스 돌파종목 : 에치에프알(230240) & 삼화전자(011230)]",
-      "url": "https://www.mk.co.kr/news/stock/11925360",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 10:13",
-      "title": "[MK시그널] 앱 보안·트래픽 관리 기업 F5, 매수신호 발생",
-      "url": "https://www.mk.co.kr/news/stock/11925358",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 10:02",
-      "title": "코스피 장중 4600선 돌파...삼성전자 첫 14만원대",
-      "url": "https://www.mk.co.kr/news/stock/11925350",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 10:00",
-      "title": "DB증권, 가수 조영남 개인전 개최",
-      "url": "https://www.hankyung.com/article/2026010762786",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 09:49",
-      "title": "[속보] 상설특검, '쿠팡 수사 무마 의혹' 김동희 검사 소환",
-      "url": "https://www.hankyung.com/article/2026010762517",
-      "keywords_hit": []
     }
   ]
 }
