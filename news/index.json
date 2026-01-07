@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-07 18:54 KST",
+  "updated_at": "2026-01-07 19:17 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 18:59",
+      "title": "“지옥에서 살아돌아왔다”…지수퇴출위기 벗어나자 바로 급등한 이 회사",
+      "url": "https://www.mk.co.kr/news/stock/11926114",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -106,7 +114,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-07 17:41",
-      "title": "엔비디아 시총 제쳤는데…\"지금보다 3배 뛸 것\" 파격 전망",
+      "title": "엔비디아 시총 제치더니…'166%' 경이로운 수익률",
       "url": "https://www.hankyung.com/article/2026010776421",
       "keywords_hit": []
     },
@@ -184,16 +192,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-07 17:28",
-      "title": "내수 한파에 더 쓸쓸한 의류·외식株",
-      "url": "https://www.mk.co.kr/news/stock/11925895",
+      "title": "코인 시세조종땐 즉각 계좌 정지",
+      "url": "https://www.mk.co.kr/news/stock/11925896",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-07 17:28",
-      "title": "코인 시세조종땐 즉각 계좌 정지",
-      "url": "https://www.mk.co.kr/news/stock/11925896",
+      "title": "내수 한파에 더 쓸쓸한 의류·외식株",
+      "url": "https://www.mk.co.kr/news/stock/11925895",
       "keywords_hit": []
     },
     {
@@ -340,16 +348,6 @@
       "title": "\"너무 일찍 팔지 말아라\"…삼전·하이닉스 주가 '파격 전망' [종목+]",
       "url": "https://www.hankyung.com/article/2026010771677",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 15:20",
-      "title": "“아직 거품 아니야, 속도를 즐겨”…하루 100P씩 오르는 코스피 ‘과속’ 아니라는데",
-      "url": "https://www.mk.co.kr/news/stock/11925699",
-      "keywords_hit": [
-        "코스피"
-      ]
     },
     {
       "source": "HK",
