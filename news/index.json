@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-08 07:57 KST",
+  "updated_at": "2026-01-08 08:23 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,34 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 08:12",
+      "title": "'사상 최대 분기 실적' 삼성전자, 프리마켓서 약세",
+      "url": "https://www.hankyung.com/article/2026010881296",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 07:58",
+      "title": "\"SKIET, 미국 전기차 판매량 줄어 실적 악화…목표가↓\"-KB",
+      "url": "https://www.hankyung.com/article/2026010881236",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 07:57",
+      "title": "불닭볶음면 없어서 못판다는데…'주가는 왜 이래' 비명",
+      "url": "https://www.hankyung.com/article/2026010881066",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -344,32 +372,6 @@
       "title": "\"개미들 환호성 터졌다\"…현대차 주가 '13% 폭등'에 난리",
       "url": "https://www.hankyung.com/article/2026010775441",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 17:24",
-      "title": "삼성운용 \"올해 증시 키워드는 대·반·전\"",
-      "url": "https://www.hankyung.com/article/2026010775471",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 17:24",
-      "title": "[특징주 & 리포트] '유니온머티 上…희토류株 급등' 등",
-      "url": "https://www.hankyung.com/article/2026010775431",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 17:23",
-      "title": "삼성전자 4분기 잠정실적",
-      "url": "https://www.hankyung.com/article/2026010775511",
-      "keywords_hit": [
-        "실적"
-      ]
     }
   ]
 }
