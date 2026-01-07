@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-07 10:44 KST",
+  "updated_at": "2026-01-07 12:19 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,82 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 12:06",
+      "title": "[마켓PRO] \"너무 올랐네\"…서학개미, 반도체 팔고 구리주 '환승'",
+      "url": "https://www.hankyung.com/article/202601076627i",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 12:00",
+      "title": "[마켓PRO] 알고리즘 종목 Pick : \"에이비엘바이오 반등 조짐…경쟁사 임상 중단 반사이익도\"",
+      "url": "https://www.hankyung.com/article/202601076637i",
+      "keywords_hit": [
+        "바이오"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 11:50",
+      "title": "[마켓PRO] \"이젠 로봇 기업\"…고수들, 현대차그룹주 집중 매수",
+      "url": "https://www.hankyung.com/article/202601076601i",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 11:14",
+      "title": "메디아나, 증권사·기관투자자 대상 기업설명회",
+      "url": "https://www.mk.co.kr/news/stock/11925455",
+      "keywords_hit": [
+        "기관"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 11:08",
+      "title": "현대차 ‘로봇기업’ 변신에 기대감 쑥…이 종목 풀매수 [주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11925448",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 11:05",
+      "title": "'나흘째 랠리' 코스피, 오름폭 축소…삼전·하닉·현대차 최고가",
+      "url": "https://www.hankyung.com/article/2026010764876",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 10:47",
+      "title": "상설특검, '쿠팡 수사 외압 의혹' 김동희 검사 첫 피의자 조사",
+      "url": "https://www.hankyung.com/article/2026010764617",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 10:39",
+      "title": "NH투자증권, 증권업계 최초로 한국형 산업분류체계 'NHICS' 개발",
+      "url": "https://www.hankyung.com/article/2026010764526",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -193,7 +269,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-07 09:04",
-      "title": "코스피 날아오르자 증권사들 눈높이 대폭 상향 '뒷북'",
+      "title": "\"우리가 틀렸습니다\"…코스피 전망치 '부랴부랴' 올렸다 [분석+]",
       "url": "https://www.hankyung.com/article/2026010758896",
       "keywords_hit": [
         "코스피"
@@ -253,35 +329,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 08:20",
-      "title": "\"삼양식품, 실적 숨고르기 구간…주가 하락 과도\"-LS",
-      "url": "https://www.hankyung.com/article/2026010758696",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 08:15",
-      "title": "사상 최고치 코스피, 반도체 주도장 계속되나 [오늘장 미리보기]",
-      "url": "https://www.hankyung.com/article/202601075862i",
-      "keywords_hit": [
-        "코스피",
-        "반도체"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 08:06",
-      "title": "경기민감주 질주+S&P 신기록…젠슨이 끌어내린 테슬라",
-      "url": "https://www.hankyung.com/article/202601075637i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-07 08:06",
@@ -290,32 +337,6 @@
       "keywords_hit": [
         "실적"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 08:00",
-      "title": "올해 월가의 '톱픽'은 이 종목...스트리밍 플랫폼 1위의 저력 [핫픽!해외주식]",
-      "url": "https://www.hankyung.com/article/202601064698i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 07:59",
-      "title": "\"스튜디오드래곤, 작년 4분기 실적 서프라이즈 전망\"-NH",
-      "url": "https://www.hankyung.com/article/2026010757816",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 07:47",
-      "title": "\"삼성전자, 올해 D램 영업익 100조 근접 전망\"-KB",
-      "url": "https://www.hankyung.com/article/2026010757416",
-      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -371,22 +392,6 @@
         "반도체",
         "바이오"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-06 18:36",
-      "title": "마스턴운용 이사회 의장에 김희송 전 신한자산운용 대표",
-      "url": "https://www.mk.co.kr/news/stock/11924909",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-06 18:32",
-      "title": "“아직도 의심해?” 95만닉스·18만전자 장밋빛 전망…함께 웃은 종목은",
-      "url": "https://www.mk.co.kr/news/stock/11924907",
-      "keywords_hit": []
     }
   ]
 }
