@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-08 05:43 KST",
+  "updated_at": "2026-01-08 05:57 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 05:49",
+      "title": "“가격 안 보고 삽니다”…만성 ‘공급부족’에 폭등, 젠슨 황도 찜한 이 업종",
+      "url": "https://www.mk.co.kr/news/stock/11926315",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -218,19 +226,19 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-07 17:39",
-      "title": "빅테크 부진에 우울한 나스닥",
-      "url": "https://www.mk.co.kr/news/stock/11925919",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 17:39",
       "title": "글로벌 방산·희토류株…마두로 축출에 신바람",
       "url": "https://www.mk.co.kr/news/stock/11925918",
       "keywords_hit": [
         "방산"
       ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 17:39",
+      "title": "빅테크 부진에 우울한 나스닥",
+      "url": "https://www.mk.co.kr/news/stock/11925919",
+      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -272,14 +280,6 @@
       "published_at": "2026-01-07 17:28",
       "title": "내수 한파에 더 쓸쓸한 의류·외식株",
       "url": "https://www.mk.co.kr/news/stock/11925895",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 17:28",
-      "title": "코인 시세조종땐 즉각 계좌 정지",
-      "url": "https://www.mk.co.kr/news/stock/11925896",
       "keywords_hit": []
     },
     {
