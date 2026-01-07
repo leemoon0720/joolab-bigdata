@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-07 13:12 KST",
+  "updated_at": "2026-01-07 13:54 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,32 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 13:52",
+      "title": "삼전 24만원, 닉스 112만원 목표가도 나왔다",
+      "url": "https://www.mk.co.kr/news/stock/11925574",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 13:48",
+      "title": "TS트릴리온, 상하이 K-뷰티 박람회 참가",
+      "url": "https://www.hankyung.com/article/2026010768416",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 13:37",
+      "title": "와이씨켐, HBM·피지컬 AI 수요 확대 선제 대응… ‘글루 클리너’ 개발 완료·라인 평가 추진",
+      "url": "https://www.mk.co.kr/news/stock/11925548",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -305,17 +331,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 08:44",
-      "title": "\"삼성바이오로직스, 꾸준히 영업이익률 40% 넘길 것 …목표가↑\"-하나",
-      "url": "https://www.hankyung.com/article/2026010759526",
-      "keywords_hit": [
-        "영업이익",
-        "바이오"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-07 08:38",
@@ -371,25 +386,6 @@
       "title": "HPSP 최대주주 지분 10% 블록딜",
       "url": "https://www.mk.co.kr/news/stock/11924929",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-06 18:45",
-      "title": "“은행 허락 없으면 코인 발행 불가”... 핀테크 혁신에 ‘빨간불’ 켜지나",
-      "url": "https://www.mk.co.kr/news/stock/11924913",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-06 18:44",
-      "title": "[인기검색TOP5] 우정바이오, 미래에셋증권, 한미반도체, 테라뷰, 현대오토에버",
-      "url": "https://www.mk.co.kr/news/stock/11924912",
-      "keywords_hit": [
-        "반도체",
-        "바이오"
-      ]
     }
   ]
 }
