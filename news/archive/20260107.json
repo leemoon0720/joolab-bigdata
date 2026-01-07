@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-07 16:01 KST",
+  "updated_at": "2026-01-07 16:33 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,6 +25,56 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-07 16:30",
+      "title": "금융위, 조각투자 장외거래소 사업자 이달중 결정",
+      "url": "https://www.mk.co.kr/news/stock/11925814",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 16:29",
+      "title": "미래에셋운용 TIGER ETF 순자산 100조원 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11925813",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 16:26",
+      "title": "미래운용 'TIGER ETF' 100조 뚫었다...\"업계 최단기간 돌파\"",
+      "url": "https://www.hankyung.com/article/202601077290i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-07 16:19",
+      "title": "목표주가 괴리율 큰 '이 종목'… 저가 매수 기회일까",
+      "url": "https://www.hankyung.com/article/202601077266i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 16:06",
+      "title": "이마트, 신세계푸드 공개매수로 의결권 지분 71.2% 확보",
+      "url": "https://www.mk.co.kr/news/stock/11925757",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-07 16:05",
+      "title": "현대차 로봇 양산 기대에 오토에버 풀매수…주가 25% 급등 [주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11925756",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-07 15:57",
       "title": "코스피, 장중 4600 찍고 4500선 마감…현대차 13%대 급등",
       "url": "https://www.mk.co.kr/news/stock/11925745",
@@ -47,7 +97,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-07 15:46",
-      "title": "\"지금이라도 담아야 하나\"…'24만전자·112만닉스'  파격 전망",
+      "title": "\"너무 일찍 팔지 말아라\"…삼전·하이닉스 주가 '파격 전망' [종목+]",
       "url": "https://www.hankyung.com/article/2026010771677",
       "keywords_hit": []
     },
@@ -310,14 +360,6 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 10:01",
-      "title": "대주주 지분 10% 블록딜에 HPSP 주가 11% 급락",
-      "url": "https://www.mk.co.kr/news/stock/11925349",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-07 10:00",
@@ -339,48 +381,6 @@
       "published_at": "2026-01-07 09:49",
       "title": "중·일 갈등 격화에 희토류 관련주 '급등'…유니온머티리얼 '上'",
       "url": "https://www.hankyung.com/article/2026010762266",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 09:40",
-      "title": "“더는 못 기다린다”… 모건스탠리, 비트코인·솔라나 ETF ‘지각 신청’",
-      "url": "https://www.mk.co.kr/news/stock/11925322",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 09:39",
-      "title": "현대차그룹株 동반 강세…현대차 최고가 경신",
-      "url": "https://www.hankyung.com/article/2026010761716",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 09:38",
-      "title": "‘비트코인 전도사’ 세일러의 ‘기사회생’…MSCI, 스트래티지 지수 퇴출 철회",
-      "url": "https://www.mk.co.kr/news/stock/11925319",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-07 09:35",
-      "title": "현대차, 피지컬 AI 기대감에 이틀 연속 신고가",
-      "url": "https://www.hankyung.com/article/202601076169i",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-07 09:26",
-      "title": "어디까지 상승 이어질까…삼전닉스, 또다시 동반 ‘최고가’ 경신",
-      "url": "https://www.mk.co.kr/news/stock/11925295",
       "keywords_hit": []
     }
   ]
