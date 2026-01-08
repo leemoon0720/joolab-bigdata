@@ -1,0 +1,406 @@
+
+:root{
+  --bg:#0b0f17;
+  --panel:#121a28;
+  --panel2:#0f1623;
+  --text:#e8eefc;
+  --muted:#9fb0d0;
+  --line:#22304a;
+  --good:#37d67a;
+  --bad:#ff5c7a;
+  --warn:#ffd166;
+  --btn:#1c2a45;
+  --btn2:#24365a;
+  --shadow: 0 10px 30px rgba(0,0,0,0.35);
+  --radius:18px;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --sans: system-ui, -apple-system, Segoe UI, Roboto, "Noto Sans KR", Arial, sans-serif;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family:var(--sans);
+  background: radial-gradient(1200px 700px at 20% 0%, #17223a 0%, var(--bg) 60%);
+  color:var(--text);
+}
+a{color:inherit}
+.container{
+  max-width:1180px;
+  margin:0 auto;
+  padding:18px 14px 24px;
+}
+.header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  margin-bottom:14px;
+}
+.brand{
+  display:flex;
+  flex-direction:column;
+  gap:4px;
+}
+.brand h1{
+  font-size:20px;
+  margin:0;
+  letter-spacing:0.2px;
+}
+.brand .sub{
+  font-size:12px;
+  color:var(--muted);
+}
+.toolbar{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:flex-end;
+}
+.btn{
+  background:linear-gradient(180deg,var(--btn2),var(--btn));
+  border:1px solid #2d3e63;
+  color:var(--text);
+  padding:10px 12px;
+  border-radius:14px;
+  box-shadow:var(--shadow);
+  cursor:pointer;
+  font-size:13px;
+  line-height:1;
+  transition: transform 0.05s ease;
+}
+.btn:active{transform: translateY(1px)}
+.btn.secondary{
+  background:transparent;
+  border:1px solid var(--line);
+  box-shadow:none;
+}
+.btn.danger{
+  border-color:#5a2b3a;
+  background:linear-gradient(180deg,#3a1822,#2a1219);
+}
+.btn.good{
+  border-color:#2a5a3a;
+  background:linear-gradient(180deg,#173a27,#122a1c);
+}
+.grid{
+  display:grid;
+  grid-template-columns: 1.35fr 0.65fr;
+  gap:14px;
+}
+@media (max-width: 980px){
+  .grid{grid-template-columns:1fr}
+}
+
+.panel{
+  background:linear-gradient(180deg,var(--panel),var(--panel2));
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  overflow:hidden;
+}
+.panel .titlebar{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:12px 14px;
+  border-bottom:1px solid var(--line);
+}
+.titlebar .left{
+  display:flex; flex-direction:column; gap:4px;
+}
+.titlebar .name{
+  font-size:14px; font-weight:700; margin:0;
+}
+.titlebar .meta{
+  font-size:12px; color:var(--muted);
+}
+.badge{
+  font-size:11px;
+  padding:6px 10px;
+  border-radius:999px;
+  border:1px solid var(--line);
+  color:var(--muted);
+  font-family:var(--mono);
+}
+.content{
+  padding:12px 14px 14px;
+}
+.canvasWrap{
+  position:relative;
+  padding:0 0 10px;
+}
+canvas{
+  width:100%;
+  height:460px;
+  background:rgba(0,0,0,0.15);
+  border-radius:14px;
+  border:1px solid rgba(255,255,255,0.06);
+}
+.smallnote{
+  font-size:12px;
+  color:var(--muted);
+  margin-top:10px;
+  line-height:1.4;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:12px;
+}
+.kv .box{
+  background:rgba(0,0,0,0.16);
+  border:1px solid rgba(255,255,255,0.06);
+  border-radius:14px;
+  padding:10px 12px;
+
+  min-width:0;
+}
+
+.kv .box .k{
+  font-size:11px; color:var(--muted); margin:0 0 6px;
+}
+.kv .box .v.good{color:var(--good)}
+.kv .box .v.bad{color:var(--bad)}
+
+.orderRow{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  align-items:center;
+  margin-top:10px;
+}
+.input{
+  flex:1;
+  min-width:140px;
+  background:rgba(0,0,0,0.18);
+  border:1px solid rgba(255,255,255,0.09);
+  color:var(--text);
+  padding:10px 12px;
+  border-radius:14px;
+  font-family:var(--mono);
+  outline:none;
+}
+.orderBtns{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+}
+.table{
+  width:100%;
+  border-collapse:separate;
+  border-spacing:0;
+  font-size:12px;
+  overflow:hidden;
+  border-radius:14px;
+  border:1px solid rgba(255,255,255,0.06);
+}
+.table th, .table td{
+  padding:9px 10px;
+  border-bottom:1px solid rgba(255,255,255,0.06);
+  text-align:left;
+}
+.table th{
+  font-size:11px;
+  color:var(--muted);
+  background:rgba(0,0,0,0.18);
+}
+.table tr:last-child td{border-bottom:none}
+.table td.mono{font-family:var(--mono)}
+.footer{
+  margin-top:12px;
+  color:var(--muted);
+  font-size:12px;
+  line-height:1.5;
+}
+.footer code{font-family:var(--mono); color:var(--text)}
+
+
+
+/* ===== Mobile + Records + Percent Buttons (FINAL) ===== */
+canvas{ height: clamp(320px, 52vh, 520px); }
+
+.tableWrap{
+  width:100%;
+  overflow-x:auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius:14px;
+}
+.table{ min-width: 720px; }
+
+/* Bigger touch targets */
+.btn{ padding: 12px 14px; border-radius:16px; font-size:14px; }
+.input{ padding: 12px 14px; border-radius:16px; font-size:15px; }
+
+/* Buy % buttons */
+.pctRow{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-top:10px;
+}
+.pctBtn{
+  flex:1;
+  min-width:70px;
+  padding:10px 12px;
+  border-radius:16px;
+  border:1px solid rgba(255,255,255,0.10);
+  background:rgba(0,0,0,0.14);
+  color:var(--text);
+  cursor:pointer;
+  font-size:13px;
+  line-height:1;
+}
+.pctBtn:active{ transform: translateY(1px); }
+
+/* Records */
+.recGrid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
+  margin-bottom:10px;
+}
+@media (max-width: 640px){
+  .recGrid{ grid-template-columns:1fr; }
+}
+
+/* Mobile layout tuning */
+@media (max-width: 640px){
+  .container{ padding:14px 12px 18px; }
+  .header{ flex-direction:column; align-items:flex-start; }
+  .toolbar{ width:100%; justify-content:flex-start; }
+  .brand h1{ font-size:18px; }
+  .grid{ gap:12px; }
+  .titlebar{ padding:10px 12px; }
+  .content{ padding:10px 12px 12px; }
+  .orderRow{ gap:10px; }
+  .orderBtns{ width:100%; }
+  .orderBtns .btn{ flex:1; }
+
+  /* Panels hidden by default on mobile */
+  .logPanel{ display:none; }
+  body.log-open .logPanel{ display:block; }
+
+  .recPanel{ display:none; }
+  body.rec-open .recPanel{ display:block; }
+
+  .hintLine{ display:block; }
+}
+@media (min-width: 641px){
+  .hintLine{ display:none; }
+}
+
+
+
+/* Bankroll reset attention */
+.pulse{animation:pulse 1s ease-in-out infinite;}
+@keyframes pulse{0%{transform:scale(1);}50%{transform:scale(1.05);}100%{transform:scale(1);}}
+
+.pctBtn.disabled{opacity:.45; pointer-events:none;}
+
+/* Result modal */
+.modal{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.55);z-index:9999;}
+.modal.hidden{display:none;}
+.modal-card{width:min(520px,92vw);background:#0f1733;border:1px solid rgba(255,255,255,.14);border-radius:16px;padding:16px 16px 14px;box-shadow:0 18px 60px rgba(0,0,0,.45);}
+.modal-title{font-weight:800;font-size:18px;margin-bottom:10px;}
+.modal-body{font-size:13px;line-height:1.55;color:rgba(255,255,255,.92);max-height:58vh;overflow:auto;border-top:1px solid rgba(255,255,255,.10);border-bottom:1px solid rgba(255,255,255,.10);padding:10px 2px;margin:10px 0 12px;}
+.modal-actions{display:flex;justify-content:flex-end;gap:8px;}
+.kv b{opacity:.9;}
+.badge{display:inline-block;padding:2px 8px;border-radius:999px;border:1px solid rgba(255,255,255,.18);font-size:11px;opacity:.9;margin-right:6px;}
+.hr{height:1px;background:rgba(255,255,255,.10);margin:10px 0;}
+
+}
+
+.pnl-pos{color:#ff4d4f !important;}
+.pnl-neg{color:#3b82f6 !important;}
+
+/* Numbers must never wrap */
+.kv .box{min-width:0;}
+
+
+@media (max-width: 520px){
+  }
+
+.pnl-pos{color:#ff4d4f !important;}
+.pnl-neg{color:#3b82f6 !important;}
+.pnl-zero{color:#cbd5e1 !important;}
+
+.kv .box{
+  min-width:0;
+}
+.kv .box .v{
+  white-space:nowrap;
+  word-break:keep-all;
+  overflow:visible;
+}
+
+/* ===== Portfolio (포트폴리오) 2열×3줄 고정 ===== */
+.kv .box{
+  min-width:0 !important;
+  width:100% !important;
+}
+.kv .box .t{
+  white-space:nowrap !important;
+  word-break:keep-all !important;
+}
+.kv .box .v{
+  white-space:nowrap !important;
+  word-break:keep-all !important;
+  overflow:visible !important;
+  text-overflow:clip !important;
+}
+.kv, .kv *{
+  writing-mode:horizontal-tb !important;
+}
+
+/* ===== Portfolio 2열×3줄 고정 ===== */
+.kv{
+  display:grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap:12px !important;
+  width:100% !important;
+}
+.kv .box{
+  min-width:0 !important;
+  width:100% !important;
+}
+.kv .box .t{
+  white-space:nowrap !important;
+  word-break:keep-all !important;
+}
+.kv .box .v{
+  white-space:nowrap !important;
+  word-break:keep-all !important;
+  overflow:visible !important;
+  text-overflow:clip !important;
+}
+
+
+/* =========================
+   Ad slot (차트 아래 배너 1개)
+   - 게임(캔버스)과 완전 분리
+   - 로딩 실패해도 레이아웃 고정
+========================= */
+.adWrap{
+  margin-top:6px;
+  margin-bottom:6px;
+  display:flex;
+  justify-content:center;
+}
+.adSlot{
+  width:100%;
+  min-height:90px; /* PC */
+  border-radius:14px;
+  background:rgba(255,255,255,0.03);
+  border:1px dashed rgba(255,255,255,0.10);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+}
+@media (max-width: 640px){
+  .adSlot{ min-height:60px; } /* Mobile */
+}

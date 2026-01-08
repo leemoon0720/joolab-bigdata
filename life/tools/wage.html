@@ -1,0 +1,150 @@
+
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Life Tool</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet">
+  <style>
+    :root{
+      --bg1:#0D1B2A;
+      --bg2:#1B263B;
+      --card:#14213dCC;
+      --text:#FFFFFF;
+      --muted:#A9B8C9;
+      --accent:#00C8C8;
+      --glass:rgba(255,255,255,0.06);
+      --shadow:0 10px 30px rgba(0,0,0,0.35);
+      --radius:18px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:Pretendard, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+      color:var(--text);
+      background: radial-gradient(1200px 700px at 20% 10%, #10243E, var(--bg1)),
+                  linear-gradient(160deg, var(--bg1), var(--bg2));
+      background-attachment: fixed;
+      line-height:1.5;
+    }
+    a{color:var(--accent);text-decoration:none}
+    .container{max-width:1100px; margin:0 auto; padding:28px}
+    header{
+      display:flex; align-items:center; justify-content:space-between;
+      margin-bottom:24px;
+    }
+    .logo{
+      font-weight:800; letter-spacing:0.5px; font-size:28px;
+      display:inline-flex; align-items:center; gap:10px;
+    }
+    .logo .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);display:inline-block}
+    .muted{color:var(--muted); font-size:14px}
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
+      border:1px solid rgba(255,255,255,0.08);
+      backdrop-filter: blur(6px);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+    }
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;gap:8px;
+      padding:12px 16px;border-radius:12px;background:var(--accent);color:#001f1f;
+      font-weight:700;border:none;cursor:pointer
+    }
+    .btn.secondary{background:transparent;color:var(--text);border:1px solid rgba(255,255,255,0.2)}
+    .grid{display:grid; gap:16px}
+    .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    label{font-weight:600; font-size:14px; color:#E4EEF6}
+    input, select, textarea{
+      width:100%; padding:12px 14px; border-radius:12px; border:1px solid rgba(255,255,255,0.15);
+      background:rgba(0,0,0,0.25); color:var(--text); outline:none;
+    }
+    input::placeholder, textarea::placeholder{color:#9FB1C3}
+    .result{
+      padding:16px; background:rgba(0,200,200,0.08); border:1px solid rgba(0,200,200,0.25);
+      border-radius:14px; margin-top:12px; font-weight:600
+    }
+    .footer-space{height:24px}
+    .back{display:inline-flex;align-items:center;gap:8px;margin-bottom:16px;color:var(--muted)}
+    .k{font-feature-settings:'tnum' 1, 'lnum' 1}
+    .help{font-size:12px;color:#9FB1C3;margin-top:6px}
+    @media (max-width:720px){ .row{grid-template-columns:1fr} }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <a class="back" href="../index.html">← 돌아가기</a>
+    <header><div class="logo"><span class="dot"></span> Life Tool</div></header>
+    <div class="card" style="padding:20px">
+      <h2>💰 시급 계산기</h2>
+      <div class="row">
+        <div>
+          <label>시급(원)</label>
+          <input id="hourly" type="number" min="0" value="9860">
+        </div>
+        <div>
+          <label>하루 근무 시간(시간)</label>
+          <input id="hpd" type="number" min="0" step="0.5" value="8">
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <label>주당 근무 일수(일)</label>
+          <input id="dpw" type="number" min="0" max="7" value="5">
+        </div>
+        <div>
+          <label>월 환산 주수</label>
+          <input id="wpM" type="number" step="0.01" value="4.345">
+          <div class="help">평균 1개월=4.345주</div>
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <label>4대보험(근로자 부담률) 적용</label>
+          <select id="ins">
+            <option value="on">예 (간이)</option>
+            <option value="off">아니오</option>
+          </select>
+          <div class="help">국민연금 4.5%, 건강보험 3.545%, 장기요양 12.81%(건보의), 고용보험 0.9%</div>
+        </div>
+        <div></div>
+      </div>
+      <div style="margin-top:12px"><button class="btn" onclick="calc()">계산</button></div>
+      <div id="out" class="result k">결과가 여기 표시됩니다.</div>
+    </div>
+  </div>
+<script>
+function deductions(gross){
+  // 간이 4대보험 계산
+  const np = gross*0.045; // 국민연금
+  const hi = gross*0.03545; // 건강보험
+  const ltc = hi*0.1281; // 장기요양
+  const ei = gross*0.009; // 고용보험
+  return {np, hi, ltc, ei, total: np+hi+ltc+ei};
+}
+function calc(){
+  const hourly = parseFloat(document.getElementById('hourly').value||'0');
+  const hpd = parseFloat(document.getElementById('hpd').value||'0');
+  const dpw = parseFloat(document.getElementById('dpw').value||'0');
+  const wpM = parseFloat(document.getElementById('wpM').value||'4.345');
+  const gross_month = hourly*hpd*dpw*wpM;
+  let txt = `세전 월급: <b>${Math.round(gross_month).toLocaleString()}</b>원`;
+  if(document.getElementById('ins').value==='on'){
+    const d = deductions(gross_month);
+    const net = gross_month - d.total;
+    txt += `<br>4대보험 공제(간이): ${(Math.round(d.total)).toLocaleString()}원
+            <br>&nbsp;· 국민연금: ${Math.round(d.np).toLocaleString()}원
+            <br>&nbsp;· 건강보험: ${Math.round(d.hi).toLocaleString()}원
+            <br>&nbsp;· 장기요양: ${Math.round(d.ltc).toLocaleString()}원
+            <br>&nbsp;· 고용보험: ${Math.round(d.ei).toLocaleString()}원
+            <br>세후 월급(소득세 제외 추정): <b>${Math.round(net).toLocaleString()}</b>원`;
+  }
+  document.getElementById('out').innerHTML = txt;
+}
+</script>
+</body>
+</html>

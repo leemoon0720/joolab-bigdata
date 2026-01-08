@@ -1,0 +1,129 @@
+
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Life Tool</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet">
+  <style>
+    :root{
+      --bg1:#0D1B2A;
+      --bg2:#1B263B;
+      --card:#14213dCC;
+      --text:#FFFFFF;
+      --muted:#A9B8C9;
+      --accent:#00C8C8;
+      --glass:rgba(255,255,255,0.06);
+      --shadow:0 10px 30px rgba(0,0,0,0.35);
+      --radius:18px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:Pretendard, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+      color:var(--text);
+      background: radial-gradient(1200px 700px at 20% 10%, #10243E, var(--bg1)),
+                  linear-gradient(160deg, var(--bg1), var(--bg2));
+      background-attachment: fixed;
+      line-height:1.5;
+    }
+    a{color:var(--accent);text-decoration:none}
+    .container{max-width:1100px; margin:0 auto; padding:28px}
+    header{
+      display:flex; align-items:center; justify-content:space-between;
+      margin-bottom:24px;
+    }
+    .logo{
+      font-weight:800; letter-spacing:0.5px; font-size:28px;
+      display:inline-flex; align-items:center; gap:10px;
+    }
+    .logo .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);display:inline-block}
+    .muted{color:var(--muted); font-size:14px}
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
+      border:1px solid rgba(255,255,255,0.08);
+      backdrop-filter: blur(6px);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+    }
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;gap:8px;
+      padding:12px 16px;border-radius:12px;background:var(--accent);color:#001f1f;
+      font-weight:700;border:none;cursor:pointer
+    }
+    .btn.secondary{background:transparent;color:var(--text);border:1px solid rgba(255,255,255,0.2)}
+    .grid{display:grid; gap:16px}
+    .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    label{font-weight:600; font-size:14px; color:#E4EEF6}
+    input, select, textarea{
+      width:100%; padding:12px 14px; border-radius:12px; border:1px solid rgba(255,255,255,0.15);
+      background:rgba(0,0,0,0.25); color:var(--text); outline:none;
+    }
+    input::placeholder, textarea::placeholder{color:#9FB1C3}
+    .result{
+      padding:16px; background:rgba(0,200,200,0.08); border:1px solid rgba(0,200,200,0.25);
+      border-radius:14px; margin-top:12px; font-weight:600
+    }
+    .footer-space{height:24px}
+    .back{display:inline-flex;align-items:center;gap:8px;margin-bottom:16px;color:var(--muted)}
+    .k{font-feature-settings:'tnum' 1, 'lnum' 1}
+    .help{font-size:12px;color:#9FB1C3;margin-top:6px}
+    @media (max-width:720px){ .row{grid-template-columns:1fr} }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="logo"><span class="dot"></span> Life Tool</div>
+      <div class="muted">Everyday numbers, simplified.</div>
+    </header>
+
+    <section class="card" style="padding:22px;">
+      <h1 style="margin:0 0 8px 0; font-size:24px;">계산기 모음</h1>
+      <p class="muted" style="margin:0 0 16px 0">필요한 계산을 빠르게. 모두 오프라인에서도 동작합니다.</p>
+      <div class="grid" style="grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));">
+        <a class="card" href="./tools/lotto.html" style="padding:18px; display:block;">
+          <div style="font-size:28px;">🎯</div>
+          <div style="font-size:18px; font-weight:700; margin-top:6px;">로또 번호 생성기</div>
+          <div class="muted">중복 없는 무작위 6개</div>
+        </a>
+        <a class="card" href="./tools/gpa.html" style="padding:18px; display:block;">
+          <div style="font-size:28px;">🎓</div>
+          <div style="font-size:18px; font-weight:700; margin-top:6px;">학점 계산기</div>
+          <div class="muted">가중 평균, 스케일 선택</div>
+        </a>
+        <a class="card" href="./tools/wage.html" style="padding:18px; display:block;">
+          <div style="font-size:28px;">💰</div>
+          <div style="font-size:18px; font-weight:700; margin-top:6px;">시급 계산기</div>
+          <div class="muted">세전·세후 비교</div>
+        </a>
+        <a class="card" href="./tools/severance.html" style="padding:18px; display:block;">
+          <div style="font-size:28px;">🧾</div>
+          <div style="font-size:18px; font-weight:700; margin-top:6px;">퇴직금 계산기</div>
+          <div class="muted">근속연수 자동 반영</div>
+        </a>
+        <a class="card" href="./tools/aftertax.html" style="padding:18px; display:block;">
+          <div style="font-size:28px;">💼</div>
+          <div style="font-size:18px; font-weight:700; margin-top:6px;">세후 급여 계산기</div>
+          <div class="muted">4대보험 자동 반영(간이)</div>
+        </a>
+        <a class="card" href="./tools/interest.html" style="padding:18px; display:block;">
+          <div style="font-size:28px;">📈</div>
+          <div style="font-size:18px; font-weight:700; margin-top:6px;">이자 비교 계산기</div>
+          <div class="muted">복리·단리 비교</div>
+        </a>
+        <a class="card" href="./tools/loan.html" style="padding:18px; display:block;">
+          <div style="font-size:28px;">🏦</div>
+          <div style="font-size:18px; font-weight:700; margin-top:6px;">대출 계산기</div>
+          <div class="muted">원리금·원금·만기일시</div>
+        </a>
+      </div>
+    </section>
+    <div class="footer-space"></div>
+  </div>
+</body>
+</html>
