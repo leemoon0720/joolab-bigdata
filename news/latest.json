@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-08 14:58 KST",
+  "updated_at": "2026-01-08 15:43 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,30 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 15:38",
+      "title": "초고수의 엇갈린 투심…SK하이닉스 사고 삼성전자 팔고[주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11927012",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 14:59",
+      "title": "모비스 “주총 금지 가처분…주주 자산가치 보호위해 적극 엄정 대응”",
+      "url": "https://www.mk.co.kr/news/stock/11926962",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 14:55",
+      "title": "[마켓칼럼] Private Equity 전략의 핵심, 바이아웃",
+      "url": "https://www.hankyung.com/article/202601089301i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -273,27 +297,11 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 09:47",
-      "title": "나이키 “죄송합니다. 신발만 팔겠습니다”... 메타버스 다 접고 본업에만 집중",
-      "url": "https://www.mk.co.kr/news/stock/11926553",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-08 09:45",
       "title": "하청직원 구타에 계약 해지…'호카 총판' 조이웍스앤코 28% 폭락",
       "url": "https://www.hankyung.com/article/2026010884936",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 09:45",
-      "title": "[MK시그널] 넥슨게임즈, ‘메이플 키우기’ 흥행에 주가 상승세... MK시그널 추천 후 상승률 12.47%기록",
-      "url": "https://www.mk.co.kr/news/stock/11926550",
       "keywords_hit": []
     },
     {
@@ -355,14 +363,6 @@
       "published_at": "2026-01-08 08:29",
       "title": "[마켓PRO] Today's Pick : \"현대차 42만원, SK하이닉스 96만원 간다\"",
       "url": "https://www.hankyung.com/article/202601088157i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 08:27",
-      "title": "\"한국항공우주, KF-21 수출 가능성 높아져…목표가↑\"-NH",
-      "url": "https://www.hankyung.com/article/2026010882196",
       "keywords_hit": []
     }
   ]
