@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-08 16:02 KST",
+  "updated_at": "2026-01-08 16:33 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,63 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 16:32",
+      "title": "[인사] KCGI자산운용",
+      "url": "https://www.mk.co.kr/news/stock/11927108",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 16:28",
+      "title": "롤러코스터 탄 삼성전자...\"그래도 20만 전자 간다\"",
+      "url": "https://www.hankyung.com/article/202601089649i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 16:25",
+      "title": "환율, 당국 개입 경계에도 6일 연속 상승…1450원 넘어",
+      "url": "https://www.hankyung.com/article/2026010896467",
+      "keywords_hit": [
+        "환율"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 16:12",
+      "title": "작년 상장사 자사주 매입·소각 '사상 최고치'…밸류업지수 89% 급등",
+      "url": "https://www.hankyung.com/article/2026010894986",
+      "keywords_hit": [
+        "상장",
+        "자사주"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 16:02",
+      "title": "‘중국판 오픈AI’  즈푸AI 첫날 12% ↑",
+      "url": "https://www.mk.co.kr/news/stock/11927054",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 16:01",
+      "title": "코스피, 사상 최고치 찍고 강보합…차익실현 매물",
+      "url": "https://www.hankyung.com/article/2026010894406",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -279,24 +336,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 09:48",
-      "title": "[MK 골든크로스 돌파종목 : 삼영엠텍(054540) & 한올바이오파마(009420)]",
-      "url": "https://www.mk.co.kr/news/stock/11926558",
-      "keywords_hit": [
-        "바이오"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 09:48",
-      "title": "“잠자는 비트코인 56억달러 깨운다”… a16z 크립토, 바빌론에 1500만달러 투자",
-      "url": "https://www.mk.co.kr/news/stock/11926556",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-08 09:45",
@@ -328,41 +367,6 @@
       "published_at": "2026-01-08 09:31",
       "title": "\"기대 너무 높았나?\"…삼성전자, 사상 최대 이익에도 '약세'",
       "url": "https://www.hankyung.com/article/2026010884656",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 09:21",
-      "title": "인베니아, 제조장비 공급 계약 소식에 닷새째 '上'",
-      "url": "https://www.hankyung.com/article/2026010884296",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 09:18",
-      "title": "코스피 하락 출발 4540선…코스닥은 강보합",
-      "url": "https://www.hankyung.com/article/2026010883266",
-      "keywords_hit": [
-        "코스피",
-        "코스닥"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 08:54",
-      "title": "\"크래프톤, ADK로 인한 희석효과 주의…목표가 하향\"-신영",
-      "url": "https://www.hankyung.com/article/2026010882206",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 08:29",
-      "title": "[마켓PRO] Today's Pick : \"현대차 42만원, SK하이닉스 96만원 간다\"",
-      "url": "https://www.hankyung.com/article/202601088157i",
       "keywords_hit": []
     }
   ]
