@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-09 07:47 KST",
+  "updated_at": "2026-01-09 07:57 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 07:49",
+      "title": "\"삼성전자, 올 영업익 145조 전망…목표가 20만원으로 상향\"-KB",
+      "url": "https://www.hankyung.com/article/2026010903456",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -363,16 +371,6 @@
       "keywords_hit": [
         "코스피",
         "자사주"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 16:53",
-      "title": "코스피, 장중 최고치 찍고 '강보합'으로 마감 [HK영상]",
-      "url": "https://www.hankyung.com/article/202601089751i",
-      "keywords_hit": [
-        "코스피"
       ]
     }
   ]
