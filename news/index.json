@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-09 07:28 KST",
+  "updated_at": "2026-01-09 07:47 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 07:29",
+      "title": "\"풍산, 동 가격 상승에 1분기 호실적 전망\"-하나",
+      "url": "https://www.hankyung.com/article/2026010903326",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -364,14 +374,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 16:34",
-      "title": "골드만삭스 \"올해 중국 주식 20% 상승할 것…10개 종목 주목\"",
-      "url": "https://www.hankyung.com/article/202601089680i",
-      "keywords_hit": []
     }
   ]
 }
