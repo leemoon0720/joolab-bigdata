@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-09 08:19 KST",
+  "updated_at": "2026-01-09 08:33 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,32 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 08:25",
+      "title": "뉴욕증시, 방산주는 이틀동안 강세였지만...기술주 약세에 혼조 마감 [월가월부]",
+      "url": "https://www.mk.co.kr/news/stock/11927793",
+      "keywords_hit": [
+        "방산"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 08:19",
+      "title": "\"한화솔루션, 신규 공장 가동 지연 여파 올해도 이어져…목표가↓\"-삼성",
+      "url": "https://www.hankyung.com/article/2026010904436",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 08:18",
+      "title": "샌디스크도 꺾였다, 메모리 조정?…내일 3대 이벤트 주목 [김현석의 월스트리트나우]",
+      "url": "https://www.hankyung.com/article/202601090378i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -93,19 +119,19 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-09 00:00",
-      "title": "하나증권, 첫 발행어음 상품 출시...약정형 최대 연 3.6% 금리",
-      "url": "https://www.mk.co.kr/news/stock/11926974",
-      "keywords_hit": [
-        "금리"
-      ]
+      "title": "하나證, 첫 발행어음 상품 출시",
+      "url": "https://www.mk.co.kr/news/stock/11927226",
+      "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-09 00:00",
-      "title": "하나證, 첫 발행어음 상품 출시",
-      "url": "https://www.mk.co.kr/news/stock/11927226",
-      "keywords_hit": []
+      "title": "하나증권, 첫 발행어음 상품 출시...약정형 최대 연 3.6% 금리",
+      "url": "https://www.mk.co.kr/news/stock/11926974",
+      "keywords_hit": [
+        "금리"
+      ]
     },
     {
       "source": "HK",
@@ -270,29 +296,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 17:53",
-      "title": "[특징주 & 리포트] '조선·방산주, 일제히 상승' 등",
-      "url": "https://www.hankyung.com/article/2026010898911",
-      "keywords_hit": [
-        "방산"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-08 17:51",
       "title": "'20만전자' 갈까 … 올 영업익 150조 전망도",
       "url": "https://www.mk.co.kr/news/stock/11927293",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 17:50",
-      "title": "한국은행 11월 국제수지(잠정)",
-      "url": "https://www.hankyung.com/article/2026010898921",
       "keywords_hit": []
     },
     {
@@ -307,16 +315,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-08 17:48",
-      "title": "천장 모르는 SK하이닉스…역대 최장 상승기록 눈앞",
-      "url": "https://www.mk.co.kr/news/stock/11927273",
+      "title": "불장서 소외된 은행株…언제쯤 볕들까",
+      "url": "https://www.mk.co.kr/news/stock/11927274",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-08 17:48",
-      "title": "불장서 소외된 은행株…언제쯤 볕들까",
-      "url": "https://www.mk.co.kr/news/stock/11927274",
+      "title": "천장 모르는 SK하이닉스…역대 최장 상승기록 눈앞",
+      "url": "https://www.mk.co.kr/news/stock/11927273",
       "keywords_hit": []
     },
     {
@@ -363,14 +371,6 @@
       "keywords_hit": [
         "AI"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 17:33",
-      "title": "‘전대미문’ 분기 영업익 20조…삼성전자, 韓기업 새역사 썼다",
-      "url": "https://www.mk.co.kr/news/business/11927212",
-      "keywords_hit": []
     }
   ]
 }
