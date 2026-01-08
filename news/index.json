@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-08 17:33 KST",
+  "updated_at": "2026-01-08 17:58 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,129 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 17:56",
+      "title": "K뷰티 M&A 올해도 전망 밝다",
+      "url": "https://www.mk.co.kr/news/stock/11927341",
+      "keywords_hit": [
+        "M&A"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 17:53",
+      "title": "[특징주 & 리포트] '조선·방산주, 일제히 상승' 등",
+      "url": "https://www.hankyung.com/article/2026010898911",
+      "keywords_hit": [
+        "방산"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 17:51",
+      "title": "'20만전자' 갈까 … 올 영업익 150조 전망도",
+      "url": "https://www.mk.co.kr/news/stock/11927293",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 17:50",
+      "title": "한국은행 11월 국제수지(잠정)",
+      "url": "https://www.hankyung.com/article/2026010898921",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 17:48",
+      "title": "'연일 최고치' 증시에 뭉칫돈 … 하루 거래액 10조 폭증",
+      "url": "https://www.mk.co.kr/news/stock/11927275",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 17:48",
+      "title": "천장 모르는 SK하이닉스…역대 최장 상승기록 눈앞",
+      "url": "https://www.mk.co.kr/news/stock/11927273",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 17:48",
+      "title": "불장서 소외된 은행株 … 언제쯤 볕들까",
+      "url": "https://www.mk.co.kr/news/stock/11927274",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 17:48",
+      "title": "엘앤에프, 계약취소 공시전 자사주 매각 논란",
+      "url": "https://www.mk.co.kr/news/stock/11927272",
+      "keywords_hit": [
+        "공시",
+        "자사주"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 17:46",
+      "title": "매머드커피, 오케스트라PE 품에",
+      "url": "https://www.mk.co.kr/news/stock/11927266",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 17:37",
+      "title": "실적발표 후 주가 주춤…\"1분기도 쾌청, 20만전자 간다\"",
+      "url": "https://www.hankyung.com/article/2026010899241",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 17:36",
+      "title": "오늘의 증시 일정(9일)",
+      "url": "https://www.mk.co.kr/news/stock/11927225",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 17:36",
+      "title": "끊이지않는 국제갈등에…LIG넥스원 올 22% 올라",
+      "url": "https://www.mk.co.kr/news/stock/11927223",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 17:36",
+      "title": "AI 치고 나가는 구글 … 애플 시총 제쳐",
+      "url": "https://www.mk.co.kr/news/stock/11927222",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 17:32",
+      "title": "'1억 넣었으면 4억'…역대급 대반전에 개미들 '화들짝'",
+      "url": "https://www.hankyung.com/article/2026010898491",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -186,48 +309,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 14:16",
-      "title": "“단순 실수로 지정 감사 받지 않도록”... 금감원, 26일부터 전국 순회 설명회",
-      "url": "https://www.mk.co.kr/news/stock/11926911",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 14:02",
-      "title": "트럼프 “국방비 2000억” 외치자…한화에어로 111만원 터치",
-      "url": "https://www.mk.co.kr/news/stock/11926886",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 14:00",
-      "title": "“초부유층 자산승계 위한 투자 바이블”…삼성증권, ‘헤리티지솔루션 2026’ 발간",
-      "url": "https://www.mk.co.kr/news/stock/11926877",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 13:56",
-      "title": "KB자산운용, ‘미국휴머노이드로봇 ETF’ 순자산 1000억원 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11926865",
-      "keywords_hit": [
-        "로봇"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 13:34",
-      "title": "“영끌 접고, 이젠 주식 펀드 몰린다”…가계 금융자산 역대급으로 ‘확’ 늘어",
-      "url": "https://www.mk.co.kr/news/economy/11926828",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-08 13:09",
@@ -272,14 +353,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 11:05",
-      "title": "삼성전자 장 초반 팔아치운 초고수들…상승 전환에 후회할까[주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11926698",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-08 11:01",
@@ -299,82 +372,12 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 10:18",
-      "title": "“80만닉스가 바로 눈앞”…SK하이닉스, 또다시 최고가 경신",
-      "url": "https://www.mk.co.kr/news/stock/11926610",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 10:14",
-      "title": "라온피플, 유상증자로 재무건정성 강화… 부채비율 431% → 131% 개선",
-      "url": "https://www.mk.co.kr/news/stock/11926606",
-      "keywords_hit": [
-        "증자"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 10:10",
-      "title": "에이치엠넥스 자회사 SMI, 차세대 반도체 핵심부품 ‘광온도센서’ 국산화",
-      "url": "https://www.mk.co.kr/news/stock/11926596",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 10:07",
-      "title": "[MK시그널] 미국 셀프 스토리지 운영회사 엑스트라 스페이스 스토리지, 매수신호 발생",
-      "url": "https://www.mk.co.kr/news/stock/11926593",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-08 10:03",
       "title": "에이치엠넥스 \"자회사의 광온도센서, 마이크론 품질테스트 통과\"",
       "url": "https://www.hankyung.com/article/2026010885996",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 10:00",
-      "title": "로킷헬스케어, 中 1위 의료기기社와 전략적 파트너십 체결에 급등",
-      "url": "https://www.hankyung.com/article/2026010885816",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 09:58",
-      "title": "키움증권, 경제·금융 교육도서 시리즈 '펭수야~ 학교가자' 3권 발간",
-      "url": "https://www.hankyung.com/article/2026010885736",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 09:45",
-      "title": "하청직원 구타에 계약 해지…'호카 총판' 조이웍스앤코 28% 폭락",
-      "url": "https://www.hankyung.com/article/2026010884936",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 09:38",
-      "title": "무상증자 권리락 착시…뷰티스킨 2연상",
-      "url": "https://www.hankyung.com/article/2026010884586",
-      "keywords_hit": [
-        "증자"
-      ]
     }
   ]
 }
