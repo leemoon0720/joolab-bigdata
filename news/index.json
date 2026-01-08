@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-08 19:15 KST",
+  "updated_at": "2026-01-08 19:45 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,17 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 19:16",
+      "title": "[인기검색TOP5] 현대위아, 한화에어로스페이스, 유진로봇, 한미반도체, 현대글로비스",
+      "url": "https://www.mk.co.kr/news/stock/11927377",
+      "keywords_hit": [
+        "반도체",
+        "로봇"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -124,7 +135,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-08 17:59",
-      "title": "\"불장이라 이사하고 적금도 깼는데…\" 30대 직장인 '눈물'",
+      "title": "\"전세금까지 빼서 월세 갔는데\"…30대 직장인의 '눈물'",
       "url": "https://www.hankyung.com/article/2026010898891",
       "keywords_hit": []
     },
@@ -256,7 +267,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-08 17:36",
-      "title": "끊이지않는 국제갈등에…LIG넥스원 올 22% 올라",
+      "title": "끊이지않는 국제갈등에 LIG넥스원 올 22% 올라",
       "url": "https://www.mk.co.kr/news/stock/11927223",
       "keywords_hit": []
     },
@@ -269,6 +280,14 @@
       "keywords_hit": [
         "AI"
       ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 17:33",
+      "title": "‘전대미문’ 분기 영업익 20조…삼성전자, 韓기업 새역사 썼다",
+      "url": "https://www.mk.co.kr/news/business/11927212",
+      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -353,24 +372,6 @@
         "상장",
         "자사주"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 16:02",
-      "title": "‘중국판 오픈AI’  즈푸AI 첫날 13% ↑",
-      "url": "https://www.mk.co.kr/news/stock/11927054",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 15:38",
-      "title": "초고수의 엇갈린 투심…SK하이닉스 사고 삼성전자 팔고[주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11927012",
-      "keywords_hit": []
     }
   ]
 }
