@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-08 21:30 KST",
+  "updated_at": "2026-01-08 22:23 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 22:00",
+      "title": "\"우리가 알던 삼성이 돌아왔다\"…증권가 목표가 줄상향",
+      "url": "https://www.hankyung.com/article/2026010896556",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -360,17 +368,6 @@
       "url": "https://www.hankyung.com/article/2026010896467",
       "keywords_hit": [
         "환율"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 16:12",
-      "title": "작년 상장사 자사주 매입·소각 '사상 최고치'…밸류업지수 89% 급등",
-      "url": "https://www.hankyung.com/article/2026010894986",
-      "keywords_hit": [
-        "상장",
-        "자사주"
       ]
     }
   ]
