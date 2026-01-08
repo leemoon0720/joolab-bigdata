@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>회원/내 구독 | 주랩 빅데이터 센터</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@latest/dist/web/variable/pretendardvariable.css">
+  <link rel="stylesheet" href="/assets/app.css"/>
+</head>
+<body>
+<div class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="/">
+      <div class="brand-badge">JL</div>
+      <div>
+        <div class="brand-title">주랩 빅데이터 센터</div>
+        <div class="brand-sub">한국 증권 뉴스 · 데이터 아카이브</div>
+      </div>
+    </a>
+    <nav class="nav">
+      <a href="/notice/" data-nav="notice">공지사항</a>
+      <a href="/news/" data-nav="news">뉴스센터</a>
+      <a href="/strong/" data-nav="strong">강한종목</a>
+      <a href="/training/" data-nav="training">트레이닝</a>
+      <a href="/data/" data-nav="data">빅데이터</a>
+      <a href="/subscribe/" data-nav="subscribe">월구독</a>
+      <a href="/account/" data-nav="account">회원</a>
+      <a href="/ops/" data-nav="ops">운영센터</a>
+    </nav>
+  </div>
+</div>
+
+
+<main class="main">
+  <div class="container">
+    <section class="hero">
+      <div class="hero-top">
+        <div>
+          <h1>회원 / 내 구독</h1>
+          <p class="hero-sub">회원가입 · 로그인 · 내 구독 상태 확인</p>
+        </div>
+        <div class="hero-row">
+          <div class="statusbar">
+            <span class="badge live" id="acct-badge">GUEST</span>
+            <span class="badge upd">UPD: 2026-01-08</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="grid">
+      <section class="card" style="grid-column: span 6;">
+        <div class="card-top">
+          <h3>회원가입</h3>
+          <span class="badge">SIGNUP</span>
+        </div>
+        <div class="form">
+          <label class="flabel">이메일</label>
+          <div class="input" style="min-width:100%;"><input id="su-email" type="email" placeholder="example@naver.com"></div>
+
+          <label class="flabel">비밀번호</label>
+          <div class="input" style="min-width:100%;"><input id="su-pass" type="password" placeholder="8자 이상"></div>
+
+          <label class="flabel">닉네임(선택)</label>
+          <div class="input" style="min-width:100%;"><input id="su-nick" type="text" placeholder="닉네임"></div>
+
+          <div class="controls">
+            <button class="btn primary" id="btn-signup" type="button">가입하기</button>
+          </div>
+          <div class="small" id="su-msg"></div>
+        </div>
+      </section>
+
+      <section class="card" style="grid-column: span 6;">
+        <div class="card-top">
+          <h3>로그인</h3>
+          <span class="badge">LOGIN</span>
+        </div>
+        <div class="form">
+          <label class="flabel">이메일</label>
+          <div class="input" style="min-width:100%;"><input id="li-email" type="email" placeholder="가입한 이메일"></div>
+
+          <label class="flabel">비밀번호</label>
+          <div class="input" style="min-width:100%;"><input id="li-pass" type="password" placeholder="비밀번호"></div>
+
+          <div class="controls">
+            <button class="btn primary" id="btn-login" type="button">로그인</button>
+            <button class="btn ghost" id="btn-logout" type="button">로그아웃</button>
+          </div>
+          <div class="small" id="li-msg"></div>
+        </div>
+      </section>
+    </div>
+
+    <section class="card" style="margin-top:14px;">
+      <div class="card-top">
+        <h3>내 구독 상태</h3>
+        <span class="badge upd" id="sub-badge">-</span>
+      </div>
+      <p id="sub-desc">로그인 후 확인 가능합니다.</p>
+      <div class="controls" style="margin-top:10px;">
+        <a class="btn primary" href="/subscribe/">월구독 페이지로</a>
+        <button class="btn ghost" id="btn-cancel" type="button">해지 신청</button>
+      </div>
+      <div class="small" id="cancel-msg" style="margin-top:8px;"></div>
+    </section>
+
+  </div>
+</main>
+<div class="footer container">
+    <div class="foot-links">
+      <a href="/subscribe/">월구독</a>
+      <span class="dot">·</span>
+      <a href="/terms/">이용약관</a>
+      <span class="dot">·</span>
+      <a href="/privacy/">개인정보처리방침</a>
+      <span class="dot">·</span>
+      <a href="/refund/">환불·해지 규정</a>
+      <span class="dot">·</span>
+      <a href="/account/">회원/내 구독</a>
+    </div>
+    <div class="small">
+      상호: <b>웰니스컴퍼니</b> | 대표: <b>박혜민</b> | 사업자등록번호: <b>121-41-51435</b><br>
+      주소: 서울특별시 강동구 천호대로 1240 (둔촌동, 프라자아파트)<br>
+      고객센터: <a href="tel:01049513154">010-4951-3154</a> | 이메일: <a href="mailto:2zshot@naver.com">2zshot@naver.com</a>
+    </div>
+    <div class="small">© JOOLAB · Bigdata Center</div>
+  </div>
+  <script src="/assets/app.js"></script>
+  <script src="/assets/member.js"></script>
+
+</body>
+</html>

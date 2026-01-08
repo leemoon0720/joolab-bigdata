@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>매집종목 | 주랩 빅데이터 센터</title>
+  <title>VIP 결제 | 주랩 빅데이터 센터</title>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@latest/dist/web/variable/pretendardvariable.css">
   <link rel="stylesheet" href="/assets/app.css"/>
@@ -15,7 +15,7 @@
       <div class="brand-badge">JL</div>
       <div>
         <div class="brand-title">주랩 빅데이터 센터</div>
-        <div class="brand-sub">정리된 바탕화면 느낌의 센터형 대시보드</div>
+        <div class="brand-sub">한국 증권 뉴스 · 데이터 아카이브</div>
       </div>
     </a>
     <nav class="nav">
@@ -31,30 +31,44 @@
   </div>
 </div>
 
+
 <main class="main">
   <div class="container">
     <section class="hero">
-      <h1>🔒 프리미엄 영역</h1>
-      <p>매집종목은 프리미엄(유료) 기능으로 전환 예정입니다.</p>
-      <div class="hero-row">
-        <div class="statusbar">
-          <span class="badge missing">LOCKED</span>
-          <span class="badge upd">외부 비노출</span>
-          <span class="badge live">결제자 전용</span>
+      <div class="hero-top">
+        <div>
+          <h1>VIP 결제</h1>
+          <p class="hero-sub">결제 진행 화면(심사용/연동용)</p>
+        </div>
+        <div class="hero-row">
+          <div class="statusbar">
+            <span class="badge live">PAY</span>
+            <span class="badge upd">UPD: 2026-01-08</span>
+          </div>
         </div>
       </div>
     </section>
 
-    <div class="grid">
-      <div class="card" style="grid-column: span 12;">
-        <div class="card-top"><h3>안내</h3><span class="badge upd">UPD</span></div>
-        <p>이 메뉴는 유료 기능(종목분석/강한종목/수상한종목)으로 전환 예정이라, 현재 외부에는 데이터가 노출되지 않습니다.</p>
-        <div class="card-cta"><a href="/news/">뉴스센터(공개)로 이동</a></div>
+    <section class="card doc-card">
+      <div class="card-top">
+        <h3>VIP 플랜</h3>
+        <span class="badge">월 49,900원</span>
       </div>
-    </div>
+      <ul class="plist" style="margin-top:10px;">
+        <li>Pro 포함</li><li>자료 우선 공개/요청 우선 반영</li>
+      </ul>
+
+      <div class="controls" style="margin-top:14px;">
+        <a class="btn primary" href="/account/?plan=VIP">결제 완료(테스트)</a>
+        <a class="btn ghost" href="/subscribe/">돌아가기</a>
+      </div>
+
+      <div class="small" style="margin-top:10px;">
+        실제 운영 시 이 페이지의 “결제 완료” 버튼은 카카오페이 결제 승인(approve) 완료 후 리턴 화면으로 교체하면 됩니다.
+      </div>
+    </section>
   </div>
 </main>
-
 <div class="footer container">
     <div class="foot-links">
       <a href="/subscribe/">월구독</a>
@@ -74,6 +88,7 @@
     </div>
     <div class="small">© JOOLAB · Bigdata Center</div>
   </div>
-<script src="/assets/app.js"></script>
+  <script src="/assets/app.js"></script>
+
 </body>
 </html>

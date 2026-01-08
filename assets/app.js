@@ -9,8 +9,11 @@
       const map = {
         notice: /^\/notice\/?/,
         news: /^\/news\/?/,
-        data: /^\/data\/?/,
+        strong: /^\/strong\/?/,
         training: /^\/training\/?/,
+        data: /^\/data\/?/,
+        subscribe: /^\/subscribe\/?/,
+        account: /^\/account\/?/,
         ops: /^\/ops\/?/,
         home: /^\/$/,
       };

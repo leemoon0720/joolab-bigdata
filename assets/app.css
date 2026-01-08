@@ -207,3 +207,21 @@ a.card.link-card:hover{border-color: rgba(15,23,42,.22); background: rgba(248,25
 
 
 .badge.wait{border-color:rgba(148,163,184,.55); background:rgba(148,163,184,.12); color:rgba(51,65,85,1);}
+
+/* ===== Subscription / Policy / Account ===== */
+.foot-links{display:flex; gap:8px; flex-wrap:wrap; align-items:center; justify-content:center;}
+.foot-links a{color:rgba(15,23,42,.78); font-weight:900; text-decoration:none;}
+.foot-links a:hover{text-decoration:underline;}
+.foot-links .dot{color:rgba(15,23,42,.35); font-weight:900;}
+
+.plan-card .price{margin-top:10px; font-size:26px; font-weight:1000; letter-spacing:-.6px;}
+.plist{margin:10px 0 0; padding-left:18px; color:rgba(15,23,42,.82); font-weight:800; line-height:1.7;}
+.plist li{margin:4px 0;}
+.pcta{margin-top:12px; display:flex; gap:10px; align-items:center;}
+.policy-card p{margin:10px 0 0; color:var(--muted); font-weight:700; line-height:1.6;}
+
+.doc-card h3{margin-top:18px;}
+.doc-card h3:first-child{margin-top:0;}
+.doc-meta{margin-top:16px; padding-top:12px; border-top:1px dashed rgba(15,23,42,.18); display:grid; gap:6px; color:rgba(15,23,42,.78); font-weight:800;}
+.flabel{display:block; margin:12px 0 6px; font-weight:1000; color:rgba(15,23,42,.9);}
+.form .small{margin-top:8px;}
