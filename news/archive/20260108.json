@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-08 13:27 KST",
+  "updated_at": "2026-01-08 13:58 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,6 +23,24 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 13:56",
+      "title": "KB자산운용, ‘미국휴머노이드로봇 ETF’ 순자산 1000억원 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11926865",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 13:34",
+      "title": "“영끌 접고, 이젠 주식 펀드 몰린다”…가계 금융자산 역대급으로 ‘확’ 늘어",
+      "url": "https://www.mk.co.kr/news/economy/11926828",
+      "keywords_hit": []
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-08 13:09",
@@ -34,7 +52,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-08 13:00",
-      "title": "구리값 폭등에 '꿩 대신 닭'…알루미늄株도 뛰었다 [양지윤의 니가가라 나스닥]",
+      "title": "구리값 너무 비싸다?…'주가 40% 폭등' 불기둥 쏜 종목 [양지윤의 니가가라 나스닥]",
       "url": "https://www.hankyung.com/article/202601088575i",
       "keywords_hit": []
     },
@@ -325,14 +343,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 08:43",
-      "title": "4분기 영업익 20조 돌파 삼성전자…SK하이닉스도 ‘어닝 서프라이즈’ 기대 [오늘 나온 보고서]",
-      "url": "https://www.mk.co.kr/news/stock/11926437",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-08 08:29",
@@ -358,14 +368,6 @@
         "반도체",
         "실적"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 07:55",
-      "title": "“SK, 2026년 자산매각 효과 톡톡”…목표가↑",
-      "url": "https://www.mk.co.kr/news/stock/11926414",
-      "keywords_hit": []
     }
   ]
 }
