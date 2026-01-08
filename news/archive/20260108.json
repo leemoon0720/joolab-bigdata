@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-08 14:50 KST",
+  "updated_at": "2026-01-08 14:58 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,30 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 14:53",
+      "title": "PEF협의회 28일 정기총회···국민성장펀드 참여 드라이브",
+      "url": "https://www.mk.co.kr/news/stock/11926956",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 14:53",
+      "title": "투자의 전설, 알고보니 ‘열정페이’?…연봉 7억 버핏, 후임자는 360억 받는다",
+      "url": "https://www.mk.co.kr/news/stock/11926955",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 14:53",
+      "title": "지난해 주식투자 대기자금 33조 증가... 자본시장 ‘머니무브’ 가속화",
+      "url": "https://www.mk.co.kr/news/economy/11926954",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -273,16 +297,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 09:40",
-      "title": "“어제까지 오르더니”…‘영업익 20조’ 삼성전자, 호실적에도 약보합",
-      "url": "https://www.mk.co.kr/news/stock/11926539",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-08 09:38",
@@ -298,22 +312,6 @@
       "published_at": "2026-01-08 09:38",
       "title": "현대위아, 車열관리 신제품 공개 소식에 52주 신고가",
       "url": "https://www.hankyung.com/article/2026010884866",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 09:38",
-      "title": "“마두로 다음은 그린란드?”...트럼프 ‘영토 매입’ 베팅에 30억 몰렸다",
-      "url": "https://www.mk.co.kr/news/stock/11926532",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 09:33",
-      "title": "어닝 서프라이즈 낸 삼성전자…주가는 보합권에 머물러",
-      "url": "https://www.mk.co.kr/news/stock/11926525",
       "keywords_hit": []
     },
     {
