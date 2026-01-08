@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-09 08:33 KST",
+  "updated_at": "2026-01-09 08:45 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,40 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 08:40",
+      "title": "‘20만전자’ 등장…“삼성전자, 올해 D램 영업익 108조원 전망”",
+      "url": "https://www.mk.co.kr/news/stock/11927805",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 08:36",
+      "title": "하이닉스 덕분인데 하이닉스보다 더 올랐다…1년간 360% 오른 이 기업 [선한결의 이기업왜이래]",
+      "url": "https://www.hankyung.com/article/202601090467i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 08:36",
+      "title": "사상 최고치 뒤 숨 고르기…차익실현에 코스피 조정 가능성 주목 [오늘장 미리보기]",
+      "url": "https://www.hankyung.com/article/202601090475i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 08:31",
+      "title": "[마켓PRO] Today's Pick : \"삼전, HD일렉트릭, 쎄트렉아이...목표가 ↑\"",
+      "url": "https://www.hankyung.com/article/202601090404i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -119,19 +153,19 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-09 00:00",
-      "title": "하나證, 첫 발행어음 상품 출시",
-      "url": "https://www.mk.co.kr/news/stock/11927226",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 00:00",
       "title": "하나증권, 첫 발행어음 상품 출시...약정형 최대 연 3.6% 금리",
       "url": "https://www.mk.co.kr/news/stock/11926974",
       "keywords_hit": [
         "금리"
       ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 00:00",
+      "title": "하나證, 첫 발행어음 상품 출시",
+      "url": "https://www.mk.co.kr/news/stock/11927226",
+      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -259,14 +293,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 17:57",
-      "title": "SK하이닉스보다 더 올랐다…1년간 357% 뛴 SK스퀘어",
-      "url": "https://www.hankyung.com/article/2026010898881",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-08 17:56",
@@ -275,25 +301,6 @@
       "keywords_hit": [
         "M&A"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 17:55",
-      "title": "3개월새 3000억…코스닥, 자사주 처분 급증",
-      "url": "https://www.hankyung.com/article/2026010898861",
-      "keywords_hit": [
-        "코스닥",
-        "자사주"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 17:54",
-      "title": "하나증권, 첫 발행어음 상품 출시",
-      "url": "https://www.hankyung.com/article/2026010898871",
-      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -315,16 +322,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-08 17:48",
-      "title": "불장서 소외된 은행株…언제쯤 볕들까",
-      "url": "https://www.mk.co.kr/news/stock/11927274",
+      "title": "천장 모르는 SK하이닉스…역대 최장 상승기록 눈앞",
+      "url": "https://www.mk.co.kr/news/stock/11927273",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-08 17:48",
-      "title": "천장 모르는 SK하이닉스…역대 최장 상승기록 눈앞",
-      "url": "https://www.mk.co.kr/news/stock/11927273",
+      "title": "불장서 소외된 은행株…언제쯤 볕들까",
+      "url": "https://www.mk.co.kr/news/stock/11927274",
       "keywords_hit": []
     },
     {
@@ -361,16 +368,6 @@
       "title": "끊이지않는 국제갈등에 LIG넥스원 올 22% 올라",
       "url": "https://www.mk.co.kr/news/stock/11927223",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 17:36",
-      "title": "AI 치고 나가는 구글 … 애플 시총 제쳐",
-      "url": "https://www.mk.co.kr/news/stock/11927222",
-      "keywords_hit": [
-        "AI"
-      ]
     }
   ]
 }
