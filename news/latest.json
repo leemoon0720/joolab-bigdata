@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-08 18:53 KST",
+  "updated_at": "2026-01-08 19:15 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 18:56",
+      "title": "불장에도 웃지 못하는 은행주…실적 전망치 쑥 내려간 이유는",
+      "url": "https://www.mk.co.kr/news/stock/11927373",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -360,14 +370,6 @@
       "published_at": "2026-01-08 15:38",
       "title": "초고수의 엇갈린 투심…SK하이닉스 사고 삼성전자 팔고[주식 초고수는 지금]",
       "url": "https://www.mk.co.kr/news/stock/11927012",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 14:59",
-      "title": "모비스 “주총 금지 가처분…주주 자산가치 보호위해 적극 엄정 대응”",
-      "url": "https://www.mk.co.kr/news/stock/11926962",
       "keywords_hit": []
     }
   ]
