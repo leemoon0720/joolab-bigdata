@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-08 13:58 KST",
+  "updated_at": "2026-01-08 14:29 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,30 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 14:16",
+      "title": "“단순 실수로 지정 감사 받지 않도록”... 금감원, 26일부터 전국 순회 설명회",
+      "url": "https://www.mk.co.kr/news/stock/11926911",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 14:02",
+      "title": "트럼프 “국방비 2000억” 외치자…한화에어로 111만원 터치",
+      "url": "https://www.mk.co.kr/news/stock/11926886",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 14:00",
+      "title": "“초부유층 자산승계 위한 투자 바이블”…삼성증권, ‘헤리티지솔루션 2026’ 발간",
+      "url": "https://www.mk.co.kr/news/stock/11926877",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -309,37 +333,11 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 08:55",
-      "title": "키움증권 “LG이노텍, 판가 하락 우려는 기우…이익 개선 국면 진입”",
-      "url": "https://www.mk.co.kr/news/stock/11926445",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-08 08:54",
       "title": "\"크래프톤, ADK로 인한 희석효과 주의…목표가 하향\"-신영",
       "url": "https://www.hankyung.com/article/2026010882206",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 08:52",
-      "title": "“삼성바이오로직스, 관세 리스크에도 고성장 입증”…목표가↑",
-      "url": "https://www.mk.co.kr/news/stock/11926444",
-      "keywords_hit": [
-        "바이오"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 08:45",
-      "title": "트럼프 욕심 대체 어디까지...월드 리버티, 스테이블코인 앞세워 은행인가 신청",
-      "url": "https://www.mk.co.kr/news/stock/11926439",
       "keywords_hit": []
     },
     {
