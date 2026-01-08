@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-08 16:57 KST",
+  "updated_at": "2026-01-08 17:33 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,27 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 17:00",
+      "title": "“자사주 태우자 시장이 반응”…밸류업 효과에 코스피 앞선 ‘이 지수’",
+      "url": "https://www.mk.co.kr/news/stock/11927143",
+      "keywords_hit": [
+        "코스피",
+        "자사주"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 16:53",
+      "title": "코스피, 장중 최고치 찍고 '강보합'으로 마감 [HK영상]",
+      "url": "https://www.hankyung.com/article/202601089751i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -81,7 +102,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-08 16:02",
-      "title": "‘중국판 오픈AI’  즈푸AI 첫날 12% ↑",
+      "title": "‘중국판 오픈AI’  즈푸AI 첫날 13% ↑",
       "url": "https://www.mk.co.kr/news/stock/11927054",
       "keywords_hit": [
         "AI"
@@ -338,14 +359,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 09:58",
-      "title": "훨훨 날던 금은동, 올해부터 동은금?…구리 신고가에 ETF 고공행진",
-      "url": "https://www.mk.co.kr/news/stock/11926581",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-08 09:45",
@@ -362,14 +375,6 @@
       "keywords_hit": [
         "증자"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 09:38",
-      "title": "현대위아, 車열관리 신제품 공개 소식에 52주 신고가",
-      "url": "https://www.hankyung.com/article/2026010884866",
-      "keywords_hit": []
     }
   ]
 }
