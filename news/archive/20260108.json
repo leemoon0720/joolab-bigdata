@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-08 18:33 KST",
+  "updated_at": "2026-01-08 18:53 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,9 +25,33 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-08 18:43",
+      "title": "엔비디아 “2등 싸움구경 귀엽네”…구글에 시총밀린 애플 왜",
+      "url": "https://www.mk.co.kr/news/stock/11927369",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 18:42",
+      "title": "‘영풍·MBK 공동소송참가인’ 엠제이파트너스…2.8조 고려아연 신주발행 무효소송 제기",
+      "url": "https://www.mk.co.kr/news/stock/11927368",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-08 18:30",
       "title": "EY한영, 임직원 참여로 지역사회 나눔 실천…‘쿠킹 챌린지’ 진행",
       "url": "https://www.mk.co.kr/news/stock/11927362",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 18:28",
+      "title": "버핏 후계자 첫 연봉 360억원…S&P기업 '최고'",
+      "url": "https://www.hankyung.com/article/2026010898211",
       "keywords_hit": []
     },
     {
@@ -214,7 +238,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-08 17:36",
-      "title": "오늘의 증시 일정(9일)",
+      "title": "오늘의 증시 일정 (1월 9일)",
       "url": "https://www.mk.co.kr/news/stock/11927225",
       "keywords_hit": []
     },
@@ -331,16 +355,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 16:01",
-      "title": "코스피, 사상 최고치 찍고 강보합…차익실현 매물",
-      "url": "https://www.hankyung.com/article/2026010894406",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-08 15:38",
@@ -354,22 +368,6 @@
       "published_at": "2026-01-08 14:59",
       "title": "모비스 “주총 금지 가처분…주주 자산가치 보호위해 적극 엄정 대응”",
       "url": "https://www.mk.co.kr/news/stock/11926962",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 14:53",
-      "title": "PEF협의회 28일 정기총회···국민성장펀드 참여 드라이브",
-      "url": "https://www.mk.co.kr/news/stock/11926956",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 14:53",
-      "title": "투자의 전설, 알고보니 ‘열정페이’?…연봉 7억 버핏, 후임자는 360억 받는다",
-      "url": "https://www.mk.co.kr/news/stock/11926955",
       "keywords_hit": []
     }
   ]
