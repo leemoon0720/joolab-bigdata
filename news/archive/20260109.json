@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-09 08:45 KST",
+  "updated_at": "2026-01-09 08:54 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,6 +25,30 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-09 08:52",
+      "title": "“20만전자 간다”…사흘만에 목표가 또 올렸다 [오늘 나온 보고서]",
+      "url": "https://www.mk.co.kr/news/stock/11927824",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 08:48",
+      "title": "\"中 한한령 해제되면 에스엠 주가 오른다…목표가↑\"-유안타",
+      "url": "https://www.hankyung.com/article/2026010905086",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 08:42",
+      "title": "\"삼성전자, 주가 추가 상승은 HBM4 선제 공급이 관건\"-DB",
+      "url": "https://www.hankyung.com/article/2026010904716",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-09 08:40",
       "title": "‘20만전자’ 등장…“삼성전자, 올해 D램 영업익 108조원 전망”",
       "url": "https://www.mk.co.kr/news/stock/11927805",
@@ -34,7 +58,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-09 08:36",
-      "title": "하이닉스 덕분인데 하이닉스보다 더 올랐다…1년간 360% 오른 이 기업 [선한결의 이기업왜이래]",
+      "title": "SK하이닉스 덕분에 '주가 대박'…360% 오른 회사 어디길래 [선한결의 이기업왜이래]",
       "url": "https://www.hankyung.com/article/202601090467i",
       "keywords_hit": []
     },
@@ -277,22 +301,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 17:59",
-      "title": "구조적 성장에도 부진한 K뷰티·푸드株",
-      "url": "https://www.hankyung.com/article/2026010898901",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 17:59",
-      "title": "\"전세금까지 빼서 월세 갔는데\"…30대 직장인의 '눈물'",
-      "url": "https://www.hankyung.com/article/2026010898891",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-08 17:56",
@@ -359,14 +367,6 @@
       "published_at": "2026-01-08 17:36",
       "title": "오늘의 증시 일정 (1월 9일)",
       "url": "https://www.mk.co.kr/news/stock/11927225",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 17:36",
-      "title": "끊이지않는 국제갈등에 LIG넥스원 올 22% 올라",
-      "url": "https://www.mk.co.kr/news/stock/11927223",
       "keywords_hit": []
     }
   ]
