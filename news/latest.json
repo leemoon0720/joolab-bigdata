@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-08 17:58 KST",
+  "updated_at": "2026-01-08 18:33 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,12 +25,111 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-08 18:30",
+      "title": "EY한영, 임직원 참여로 지역사회 나눔 실천…‘쿠킹 챌린지’ 진행",
+      "url": "https://www.mk.co.kr/news/stock/11927362",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-08 18:22",
+      "title": "다올금융그룹, LPGA 유해란 프로 초청 팬사인회",
+      "url": "https://www.mk.co.kr/news/stock/11927358",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 18:07",
+      "title": "\"中 증시 올해 20% 오를 것…텐센트·알리바바·BYD 유망\"",
+      "url": "https://www.hankyung.com/article/2026010898461",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 18:06",
+      "title": "제미나이3가 효자…구글, 애플 제치고 美 시총 2위",
+      "url": "https://www.hankyung.com/article/2026010898471",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 18:05",
+      "title": "美 우상향 전망…고용 시장 점검해야",
+      "url": "https://www.hankyung.com/article/2026010898441",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 18:04",
+      "title": "트럼프미디어, 핵융합사와 합병 후 공매도 급증",
+      "url": "https://www.hankyung.com/article/2026010898451",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 18:04",
+      "title": "일론 머스크, 엔비디아 견제…\"자율주행 5~6년 더 걸릴 것\"",
+      "url": "https://www.hankyung.com/article/2026010898431",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 17:59",
+      "title": "구조적 성장에도 부진한 K뷰티·푸드株",
+      "url": "https://www.hankyung.com/article/2026010898901",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 17:59",
+      "title": "\"불장이라 이사하고 적금도 깼는데…\" 30대 직장인 '눈물'",
+      "url": "https://www.hankyung.com/article/2026010898891",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 17:57",
+      "title": "SK하이닉스보다 더 올랐다…작년만 360% 뛴 SK스퀘어",
+      "url": "https://www.hankyung.com/article/2026010898881",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-08 17:56",
       "title": "K뷰티 M&A 올해도 전망 밝다",
       "url": "https://www.mk.co.kr/news/stock/11927341",
       "keywords_hit": [
         "M&A"
       ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 17:55",
+      "title": "3개월새 3000억…코스닥, 자사주 처분 급증",
+      "url": "https://www.hankyung.com/article/2026010898861",
+      "keywords_hit": [
+        "코스닥",
+        "자사주"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-08 17:54",
+      "title": "하나증권, 첫 발행어음 상품 출시",
+      "url": "https://www.hankyung.com/article/2026010898871",
+      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -258,14 +357,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 14:55",
-      "title": "[마켓칼럼] Private Equity 전략의 핵심, 바이아웃",
-      "url": "https://www.hankyung.com/article/202601089301i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-08 14:53",
@@ -279,104 +370,6 @@
       "published_at": "2026-01-08 14:53",
       "title": "투자의 전설, 알고보니 ‘열정페이’?…연봉 7억 버핏, 후임자는 360억 받는다",
       "url": "https://www.mk.co.kr/news/stock/11926955",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 14:53",
-      "title": "지난해 주식투자 대기자금 33조 증가... 자본시장 ‘머니무브’ 가속화",
-      "url": "https://www.mk.co.kr/news/economy/11926954",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 14:39",
-      "title": "날밤새던 서학개미 환호…엔비디아·테슬라 실적발표, AI가 ‘한 장’으로 끝낸다",
-      "url": "https://www.mk.co.kr/news/stock/11926933",
-      "keywords_hit": [
-        "실적",
-        "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 14:24",
-      "title": "애드포러스, 광고 운영 지능화 시범 체제 구축",
-      "url": "https://www.hankyung.com/article/2026010891926",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 13:09",
-      "title": "“이더리움으로 하루 2억 번다”…세계 최다 ETH 보유사, 스테이킹 가속화",
-      "url": "https://www.hankyung.com/article/202601077700g",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 13:00",
-      "title": "구리값 너무 비싸다?…'주가 40% 폭등' 불기둥 쏜 종목 [양지윤의 니가가라 나스닥]",
-      "url": "https://www.hankyung.com/article/202601088575i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 11:51",
-      "title": "[마켓PRO] \"올해도 반도체값 뛴다\" 전망에…서학개미, 마이크론 매수",
-      "url": "https://www.hankyung.com/article/202601088779i",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 11:09",
-      "title": "'파죽지세' 코스피 장중 사상 최고치…삼전·하이닉스도 신기록",
-      "url": "https://www.hankyung.com/article/2026010887126",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 11:05",
-      "title": "[마켓칼럼] 2026년 미국 시장을 바라보며",
-      "url": "https://www.hankyung.com/article/202512229142i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 11:01",
-      "title": "[마켓PRO] \"목표주가 100만원대\" 제시에…고수들, 하이닉스 매수",
-      "url": "https://www.hankyung.com/article/202601088774i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 10:29",
-      "title": "조선·방산 관련주, 실적 기대감 속 동반 '함박웃음'",
-      "url": "https://www.hankyung.com/article/2026010886776",
-      "keywords_hit": [
-        "실적",
-        "방산"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 10:03",
-      "title": "에이치엠넥스 \"자회사의 광온도센서, 마이크론 품질테스트 통과\"",
-      "url": "https://www.hankyung.com/article/2026010885996",
       "keywords_hit": []
     }
   ]
