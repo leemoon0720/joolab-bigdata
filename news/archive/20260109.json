@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-09 07:57 KST",
+  "updated_at": "2026-01-09 08:19 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,34 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 08:07",
+      "title": "“HD현대일렉트릭, 올해 수주액 예상 뛰어넘을 것”…목표가 100만원 ‘상향’",
+      "url": "https://www.mk.co.kr/news/stock/11927771",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 08:02",
+      "title": "\"HD현대일렉트릭, 올해도 가이던스 웃도는 실적 기대…목표가↑\"-대신",
+      "url": "https://www.hankyung.com/article/2026010903896",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 08:00",
+      "title": "\"현대차, 프리미엄 AI 기업으로 재평가…목표가 41만원\"-신한",
+      "url": "https://www.hankyung.com/article/2026010903646",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -65,19 +93,19 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-09 00:00",
-      "title": "하나證, 첫 발행어음 상품 출시",
-      "url": "https://www.mk.co.kr/news/stock/11927226",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 00:00",
       "title": "하나증권, 첫 발행어음 상품 출시...약정형 최대 연 3.6% 금리",
       "url": "https://www.mk.co.kr/news/stock/11926974",
       "keywords_hit": [
         "금리"
       ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 00:00",
+      "title": "하나證, 첫 발행어음 상품 출시",
+      "url": "https://www.mk.co.kr/news/stock/11927226",
+      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -311,16 +339,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 17:37",
-      "title": "실적발표 후 주가 주춤…\"1분기도 쾌청, 20만전자 간다\"",
-      "url": "https://www.hankyung.com/article/2026010899241",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-08 17:36",
@@ -353,25 +371,6 @@
       "title": "‘전대미문’ 분기 영업익 20조…삼성전자, 韓기업 새역사 썼다",
       "url": "https://www.mk.co.kr/news/business/11927212",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 17:32",
-      "title": "'1억 넣었으면 4억'…역대급 대반전에 개미들 '화들짝'",
-      "url": "https://www.hankyung.com/article/2026010898491",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 17:00",
-      "title": "“자사주 태우자 시장이 반응”…밸류업 효과에 코스피 앞선 ‘이 지수’",
-      "url": "https://www.mk.co.kr/news/stock/11927143",
-      "keywords_hit": [
-        "코스피",
-        "자사주"
-      ]
     }
   ]
 }
