@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-10 06:56 KST",
+  "updated_at": "2026-01-10 07:20 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-10 07:00",
+      "title": "2만원 찍었던 주가가 줄줄…\"6000원대 이 종목 반등할까요\" [윤현주의 主食이 주식]",
+      "url": "https://www.hankyung.com/article/202512314845i",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -376,14 +384,6 @@
         "코스피",
         "외국인"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 11:15",
-      "title": "키움증권, 비대면계좌 개설 신규 고객 대상 현금 지급 이벤트 나서",
-      "url": "https://www.hankyung.com/article/2026010910766",
-      "keywords_hit": []
     }
   ]
 }
