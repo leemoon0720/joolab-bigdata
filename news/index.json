@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-09 16:00 KST",
+  "updated_at": "2026-01-09 16:33 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,42 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 16:27",
+      "title": "원화 스테이블코인 시대 개막 임박...은행권-빅테크 신경전 치열 [엠블록레터]",
+      "url": "https://www.mk.co.kr/news/stock/11928438",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 16:21",
+      "title": "한국투자액셀러레이터, 지난해 스타트업에 120억 원 규모 신규 투자 집행",
+      "url": "https://www.mk.co.kr/news/stock/11928428",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 16:12",
+      "title": "미래에셋증권, 개인투자용국채 올해 첫 청약…“가산금리 확대”",
+      "url": "https://www.mk.co.kr/news/stock/11928420",
+      "keywords_hit": [
+        "금리"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 16:01",
+      "title": "주식 초고수, 바이오·조선주에서 순환매 기회 모색",
+      "url": "https://www.mk.co.kr/news/stock/11928412",
+      "keywords_hit": [
+        "바이오"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -270,14 +306,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 09:37",
-      "title": "연이어 최고가 기록했었는데…‘삼전닉스’ 동반 1~2% 하락",
-      "url": "https://www.mk.co.kr/news/stock/11927875",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-09 09:31",
@@ -286,14 +314,6 @@
       "keywords_hit": [
         "반도체"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 09:31",
-      "title": "美 정부가 나서서 “김치 먹어라”…대상홀딩스, 16%대 급등",
-      "url": "https://www.mk.co.kr/news/stock/11927864",
-      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -312,14 +332,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 09:25",
-      "title": "[MK 골든크로스 돌파종목 : 에이치엠넥스(036170) & 파인메딕스(387570)]",
-      "url": "https://www.mk.co.kr/news/stock/11927859",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-09 09:15",
@@ -329,17 +341,6 @@
         "코스피",
         "외국인",
         "방산"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 09:15",
-      "title": "“코스피 불장 예감했나”…외국인 한 달만에 ‘바이 코리아’ 전환, 매수 규모보니",
-      "url": "https://www.mk.co.kr/news/economy/11927848",
-      "keywords_hit": [
-        "코스피",
-        "외국인"
       ]
     },
     {
