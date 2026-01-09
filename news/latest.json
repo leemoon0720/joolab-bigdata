@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-09 10:16 KST",
+  "updated_at": "2026-01-09 12:09 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,8 +25,103 @@
     {
       "source": "HK",
       "press": "한국경제",
+      "published_at": "2026-01-09 11:15",
+      "title": "키움증권, 비대면계좌 개설 신규 고객 대상 현금 지급 이벤트 나서",
+      "url": "https://www.hankyung.com/article/2026010910766",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 11:08",
+      "title": "NH투자증권 100세시대연구소 'THE100 리포트' 115호 발간",
+      "url": "https://www.hankyung.com/article/2026010910566",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 11:05",
+      "title": "대신증권, 2026년 글로벌 증시전망 유튜브 세미나 진행",
+      "url": "https://www.hankyung.com/article/2026010910476",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 10:52",
+      "title": "코스피, 외국인 1.2조 매물폭탄에 약세…한화에어로 6%↑",
+      "url": "https://www.hankyung.com/article/2026010909946",
+      "keywords_hit": [
+        "코스피",
+        "외국인"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 10:49",
+      "title": "피터앤파트너스,  ‘IPO 공모투자 수익률 지표(IPO Index)’ 특허 등록",
+      "url": "https://www.mk.co.kr/news/stock/11928049",
+      "keywords_hit": [
+        "IPO"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 10:45",
+      "title": "주식 고수, 삼전닉스 일단 던졌다 [주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11928036",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 10:44",
+      "title": "[MK시그널] 퍼스트 솔라 매도신호 포착, 수익률 54.9% 달성",
+      "url": "https://www.mk.co.kr/news/stock/11928034",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 10:38",
+      "title": "IBK투자증권, AI 자산진단 체험 이벤트 진행",
+      "url": "https://www.mk.co.kr/news/stock/11928020",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 10:18",
+      "title": "“삼전닉스가 국룰이라면, 화끈하게 2배로”…홍콩으로 달려간 개미들",
+      "url": "https://www.mk.co.kr/news/stock/11927967",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 10:17",
+      "title": "젠큐릭스, JPM 헬스케어 2026 참가… 로슈·퀴아젠 등 글로벌 ‘빅3’와 암 진단 사업 논의",
+      "url": "https://www.mk.co.kr/news/stock/11927964",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 10:16",
+      "title": "키움증권, 비대면 첫 계좌 개설시 최대 현금 21만원 지급 이벤트",
+      "url": "https://www.mk.co.kr/news/stock/11927957",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
       "published_at": "2026-01-09 09:52",
-      "title": "신안산선 열차 공급 계약 해지…다원시스, 52주 신저가",
+      "title": "李 \"정부가 사기당한 것 같다\"더니 결국…주가 '바닥' 뚫렸다 [종목+]",
       "url": "https://www.hankyung.com/article/2026010907826",
       "keywords_hit": []
     },
@@ -242,44 +337,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 08:00",
-      "title": "\"현대차, 프리미엄 AI 기업으로 재평가…목표가 41만원\"-신한",
-      "url": "https://www.hankyung.com/article/2026010903646",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 07:49",
-      "title": "\"삼성전자, 올 영업익 145조 전망…목표가 20만원으로 상향\"-KB",
-      "url": "https://www.hankyung.com/article/2026010903456",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 07:29",
-      "title": "\"풍산, 동 가격 상승에 1분기 호실적 전망\"-하나",
-      "url": "https://www.hankyung.com/article/2026010903326",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 07:14",
-      "title": "반도체서 전통산업으로 순환매에…3대지수 혼조 마감 [뉴욕증시 브리핑]",
-      "url": "https://www.hankyung.com/article/2026010903196",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-09 00:00",
@@ -317,64 +374,6 @@
       "keywords_hit": [
         "실적"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 18:43",
-      "title": "엔비디아 “2등 싸움구경 귀엽네”…구글에 시총밀린 애플 왜",
-      "url": "https://www.mk.co.kr/news/stock/11927369",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 18:42",
-      "title": "‘영풍·MBK 공동소송참가인’ 엠제이파트너스…2.8조 고려아연 신주발행 무효소송 제기",
-      "url": "https://www.mk.co.kr/news/stock/11927368",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 18:30",
-      "title": "EY한영, 임직원 참여로 지역사회 나눔 실천…‘쿠킹 챌린지’ 진행",
-      "url": "https://www.mk.co.kr/news/stock/11927362",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 18:22",
-      "title": "다올금융그룹, LPGA 유해란 프로 초청 팬사인회",
-      "url": "https://www.mk.co.kr/news/stock/11927358",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 17:56",
-      "title": "K뷰티 M&A 올해도 전망 밝다",
-      "url": "https://www.mk.co.kr/news/stock/11927341",
-      "keywords_hit": [
-        "M&A"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 17:51",
-      "title": "'20만전자' 갈까 … 올 영업익 150조 전망도",
-      "url": "https://www.mk.co.kr/news/stock/11927293",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 17:48",
-      "title": "'연일 최고치' 증시에 뭉칫돈…하루 거래액 10조 폭증",
-      "url": "https://www.mk.co.kr/news/stock/11927275",
-      "keywords_hit": []
     }
   ]
 }
