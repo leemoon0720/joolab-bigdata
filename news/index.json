@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-09 20:23 KST",
+  "updated_at": "2026-01-09 20:38 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,24 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 20:31",
+      "title": "“삼성·SK·현대차까지 달아오르는데”…실적 저하에 우는 LG그룹株",
+      "url": "https://www.mk.co.kr/news/business/11928675",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 20:30",
+      "title": "이재명 “한국, K자형 성장이란 중대한 도전 직면” 양극화 심화 우려",
+      "url": "https://www.mk.co.kr/news/economy/11928674",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -341,14 +359,6 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 13:20",
-      "title": "“삼전하닉만 너무 오르는 거 아닌가요”…‘다음 주인공’ 찾아나선 증권가",
-      "url": "https://www.mk.co.kr/news/stock/11928161",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-09 12:40",
@@ -374,16 +384,6 @@
       "title": "NH투자증권 100세시대연구소 'THE100 리포트' 115호 발간",
       "url": "https://www.hankyung.com/article/2026010910566",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 10:49",
-      "title": "피터앤파트너스,  ‘IPO 공모투자 수익률 지표(IPO Index)’ 특허 등록",
-      "url": "https://www.mk.co.kr/news/stock/11928049",
-      "keywords_hit": [
-        "IPO"
-      ]
     }
   ]
 }
