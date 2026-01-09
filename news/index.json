@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-09 13:51 KST",
+  "updated_at": "2026-01-09 14:15 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,6 +25,40 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-09 14:09",
+      "title": "국내 증시 불장에...외국인 지난달 1.5조 사들이며 한달 만에 순매수 전환",
+      "url": "https://www.mk.co.kr/news/stock/11928255",
+      "keywords_hit": [
+        "외국인"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 14:04",
+      "title": "‘K-스테이블코인’ 올 1분기 법제화",
+      "url": "https://www.mk.co.kr/news/stock/11928234",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 13:55",
+      "title": "“슈퍼리치들은 재테크도 파격 그 자체”…초고액 자산가들 사이서 번지는 ‘이것’",
+      "url": "https://www.mk.co.kr/news/economy/11928211",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 13:55",
+      "title": "“테슬라? 90%는 떨어져야 정상”...유명 비관론자, 최근 관대한 평가 내렸다는데",
+      "url": "https://www.mk.co.kr/news/stock/11928209",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-09 13:44",
       "title": "‘GS건설 계열사’ 자이에너지운영...피지 바이오매스 발전소 인수",
       "url": "https://www.mk.co.kr/news/stock/11928172",
@@ -37,7 +71,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-09 13:43",
-      "title": "골드만삭스 “시장 내 원유 가격 전망, 10년 내 가장 취약”",
+      "title": "\"원유 가격 10년 내 가장 취약\"…'역대급 약세' 충격 전망",
       "url": "https://www.hankyung.com/article/202601091281i",
       "keywords_hit": [
         "원유"
@@ -333,47 +367,11 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 08:25",
-      "title": "뉴욕증시, 방산주는 이틀동안 강세였지만...기술주 약세에 혼조 마감 [월가월부]",
-      "url": "https://www.mk.co.kr/news/stock/11927793",
-      "keywords_hit": [
-        "방산"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-09 08:19",
       "title": "\"한화솔루션, 신규 공장 가동 지연 여파 올해도 이어져…목표가↓\"-삼성",
       "url": "https://www.hankyung.com/article/2026010904436",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 08:07",
-      "title": "“HD현대일렉트릭, 올해 수주액 예상 뛰어넘을 것”…목표가 100만원 ‘상향’",
-      "url": "https://www.mk.co.kr/news/stock/11927771",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 00:00",
-      "title": "하나증권, 첫 발행어음 상품 출시...약정형 최대 연 3.6% 금리",
-      "url": "https://www.mk.co.kr/news/stock/11926974",
-      "keywords_hit": [
-        "금리"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 00:00",
-      "title": "하나證, 첫 발행어음 상품 출시",
-      "url": "https://www.mk.co.kr/news/stock/11927226",
       "keywords_hit": []
     }
   ]
