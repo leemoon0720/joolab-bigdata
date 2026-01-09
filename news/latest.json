@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-09 08:54 KST",
+  "updated_at": "2026-01-09 10:16 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,10 +23,127 @@
   "count": 40,
   "items": [
     {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 09:52",
+      "title": "신안산선 열차 공급 계약 해지…다원시스, 52주 신저가",
+      "url": "https://www.hankyung.com/article/2026010907826",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 09:48",
+      "title": "트럼프 美국방예산 증액 발언에…방산株 강세 지속",
+      "url": "https://www.hankyung.com/article/2026010907596",
+      "keywords_hit": [
+        "방산"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 09:47",
+      "title": "[MK시그널] 스튜디오드래곤, 콘텐츠 제작 확대와 글로벌 OTT 선판매 증가 기대감으로 주가 상승세,MK시그널 추천 후 상승률 17.78%",
+      "url": "https://www.mk.co.kr/news/stock/11927886",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 09:37",
+      "title": "연이어 최고가 기록했었는데…‘삼전닉스’ 동반 1~2% 하락",
+      "url": "https://www.mk.co.kr/news/stock/11927875",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 09:31",
+      "title": "삼성전자·하이닉스, 美반도체주 주가부진에 동반 하락",
+      "url": "https://www.hankyung.com/article/2026010906666",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 09:31",
+      "title": "美 정부가 나서서 “김치 먹어라”…대상홀딩스, 16%대 급등",
+      "url": "https://www.mk.co.kr/news/stock/11927864",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 09:27",
+      "title": "이엔셀, 희귀질환 치료후보 반복투여한 임상 결과 공개에 강세",
+      "url": "https://www.hankyung.com/article/2026010906636",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 09:26",
+      "title": "美 \"건강 위해 '김치' 먹어라\" 한마디에…주가 급등한 회사 [종목+]",
+      "url": "https://www.hankyung.com/article/2026010906496",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 09:25",
+      "title": "[MK 골든크로스 돌파종목 : 에이치엠넥스(036170) & 파인메딕스(387570)]",
+      "url": "https://www.mk.co.kr/news/stock/11927859",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 09:15",
+      "title": "코스피, 외국인 차익실현에 하락 출발…방산주 강세 이어져",
+      "url": "https://www.hankyung.com/article/2026010906176",
+      "keywords_hit": [
+        "코스피",
+        "외국인",
+        "방산"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 09:15",
+      "title": "“코스피 불장 예감했나”…외국인 한 달만에 ‘바이 코리아’ 전환, 매수 규모보니",
+      "url": "https://www.mk.co.kr/news/economy/11927848",
+      "keywords_hit": [
+        "코스피",
+        "외국인"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 08:56",
+      "title": "\"삼양식품, 주가 하락 과도…저점 매수 기회로 활용\"-DS",
+      "url": "https://www.hankyung.com/article/2026010905096",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 08:55",
+      "title": "IBK투자증권, AI 자산 진단 체험 이벤트 진행",
+      "url": "https://www.hankyung.com/article/2026010905466",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-09 08:52",
-      "title": "“20만전자 간다”…사흘만에 목표가 또 올렸다 [오늘 나온 보고서]",
+      "title": "“이러다 정말 20만전자 가겠네”…사흘만에 목표가 또 올렸다 [오늘 나온 보고서]",
       "url": "https://www.mk.co.kr/news/stock/11927824",
       "keywords_hit": []
     },
@@ -58,7 +175,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-09 08:36",
-      "title": "SK하이닉스 덕분에 '주가 대박'…360% 오른 회사 어디길래 [선한결의 이기업왜이래]",
+      "title": "1억이 4억6000만원 됐다…SK하이닉스 덕분에 '주가 대박' [선한결의 이기업왜이래]",
       "url": "https://www.hankyung.com/article/202601090467i",
       "keywords_hit": []
     },
@@ -163,17 +280,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 01:06",
-      "title": "트럼프 \"꿈의 군대\"에 방산주 급등…모멘텀 잃은 AI는 하락 [빈난새의 개장전요것만]",
-      "url": "https://www.hankyung.com/article/202601090201i",
-      "keywords_hit": [
-        "AI",
-        "방산"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-09 00:00",
@@ -189,14 +295,6 @@
       "published_at": "2026-01-09 00:00",
       "title": "하나證, 첫 발행어음 상품 출시",
       "url": "https://www.mk.co.kr/news/stock/11927226",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 22:00",
-      "title": "삼성전자 20조 돈방석…'지금이라도 더 사둘까?' 술렁술렁",
-      "url": "https://www.hankyung.com/article/2026010896556",
       "keywords_hit": []
     },
     {
@@ -245,59 +343,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 18:28",
-      "title": "버핏 후계자 첫 연봉 360억원…S&P기업 '최고'",
-      "url": "https://www.hankyung.com/article/2026010898211",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-08 18:22",
       "title": "다올금융그룹, LPGA 유해란 프로 초청 팬사인회",
       "url": "https://www.mk.co.kr/news/stock/11927358",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 18:07",
-      "title": "\"中 증시 올해 20% 오를 것…텐센트·알리바바·BYD 유망\"",
-      "url": "https://www.hankyung.com/article/2026010898461",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 18:06",
-      "title": "제미나이3가 효자…구글, 애플 제치고 美 시총 2위",
-      "url": "https://www.hankyung.com/article/2026010898471",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 18:05",
-      "title": "美 우상향 전망…고용 시장 점검해야",
-      "url": "https://www.hankyung.com/article/2026010898441",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 18:04",
-      "title": "트럼프미디어, 핵융합사와 합병 후 공매도 급증",
-      "url": "https://www.hankyung.com/article/2026010898451",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-08 18:04",
-      "title": "일론 머스크, 엔비디아 견제…\"자율주행 5~6년 더 걸릴 것\"",
-      "url": "https://www.hankyung.com/article/2026010898431",
       "keywords_hit": []
     },
     {
@@ -324,49 +374,6 @@
       "published_at": "2026-01-08 17:48",
       "title": "'연일 최고치' 증시에 뭉칫돈…하루 거래액 10조 폭증",
       "url": "https://www.mk.co.kr/news/stock/11927275",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 17:48",
-      "title": "천장 모르는 SK하이닉스…역대 최장 상승기록 눈앞",
-      "url": "https://www.mk.co.kr/news/stock/11927273",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 17:48",
-      "title": "불장서 소외된 은행株…언제쯤 볕들까",
-      "url": "https://www.mk.co.kr/news/stock/11927274",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 17:48",
-      "title": "엘앤에프, 계약취소 공시전 자사주 매각 논란",
-      "url": "https://www.mk.co.kr/news/stock/11927272",
-      "keywords_hit": [
-        "공시",
-        "자사주"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 17:46",
-      "title": "매머드커피, 오케스트라PE 품에",
-      "url": "https://www.mk.co.kr/news/stock/11927266",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 17:36",
-      "title": "오늘의 증시 일정 (1월 9일)",
-      "url": "https://www.mk.co.kr/news/stock/11927225",
       "keywords_hit": []
     }
   ]
