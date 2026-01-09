@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-09 16:48 KST",
+  "updated_at": "2026-01-09 16:57 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,54 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 16:53",
+      "title": "올 첫 개인용 국채 청약…미래에셋서 15일까지",
+      "url": "https://www.hankyung.com/article/2026010919051",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 16:49",
+      "title": "구리값 뛰자 '꿩 대신 닭'…알루미늄株 알코아 날개",
+      "url": "https://www.hankyung.com/article/2026010918551",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 16:48",
+      "title": "'AI랠리' 뒤처졌던 인텔, CPU·파운드리로 부활",
+      "url": "https://www.hankyung.com/article/2026010918561",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 16:48",
+      "title": "기관투자가 59% \"올해 원유가격 약세 보일 것\"",
+      "url": "https://www.hankyung.com/article/2026010918571",
+      "keywords_hit": [
+        "기관",
+        "원유",
+        "유가"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 16:48",
+      "title": "2026년 주목해야 할 키워드는 'AI·Fed·트럼프'",
+      "url": "https://www.hankyung.com/article/2026010918581",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -329,52 +377,6 @@
       "published_at": "2026-01-09 09:26",
       "title": "\"김치 챙겨 먹어라\" 美정부 식단 지침에…주가 급등한 회사 [종목+]",
       "url": "https://www.hankyung.com/article/2026010906496",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 09:15",
-      "title": "코스피, 외국인 차익실현에 하락 출발…방산주 강세 이어져",
-      "url": "https://www.hankyung.com/article/2026010906176",
-      "keywords_hit": [
-        "코스피",
-        "외국인",
-        "방산"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 08:56",
-      "title": "\"삼양식품, 주가 하락 과도…저점 매수 기회로 활용\"-DS",
-      "url": "https://www.hankyung.com/article/2026010905096",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 08:55",
-      "title": "IBK투자증권, AI 자산 진단 체험 이벤트 진행",
-      "url": "https://www.hankyung.com/article/2026010905466",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 08:48",
-      "title": "\"中 한한령 해제되면 에스엠 주가 오른다…목표가↑\"-유안타",
-      "url": "https://www.hankyung.com/article/2026010905086",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 08:42",
-      "title": "\"삼성전자, 주가 추가 상승은 HBM4 선제 공급이 관건\"-DB",
-      "url": "https://www.hankyung.com/article/2026010904716",
       "keywords_hit": []
     }
   ]
