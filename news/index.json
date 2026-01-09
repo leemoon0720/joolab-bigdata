@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-10 07:53 KST",
+  "updated_at": "2026-01-10 08:13 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,17 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-10 07:36",
+      "title": "AI·반도체주 랠리…다우·S&P500 '사상 최고치' 경신 [뉴욕증시 브리핑]",
+      "url": "https://www.hankyung.com/article/2026011023407",
+      "keywords_hit": [
+        "반도체",
+        "AI"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -372,17 +383,6 @@
       "url": "https://www.hankyung.com/article/202601091281i",
       "keywords_hit": [
         "원유"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 12:40",
-      "title": "코스피, 외국인 1.4조 매물폭탄에도 상승전환…4600 넘보나",
-      "url": "https://www.hankyung.com/article/2026010911866",
-      "keywords_hit": [
-        "코스피",
-        "외국인"
       ]
     }
   ]
