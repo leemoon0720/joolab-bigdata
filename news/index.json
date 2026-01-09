@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-09 17:58 KST",
+  "updated_at": "2026-01-09 18:33 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,26 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 17:59",
+      "title": "레이저옵텍, 120억원 규모 유상증자 실시",
+      "url": "https://www.mk.co.kr/news/stock/11928600",
+      "keywords_hit": [
+        "증자"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 17:59",
+      "title": "엘앤케이바이오, 320억 원 규모 전환사채 발행",
+      "url": "https://www.mk.co.kr/news/stock/11928599",
+      "keywords_hit": [
+        "바이오"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -362,24 +382,6 @@
       "title": "주식 고수, 삼전닉스 일단 던졌다 [주식 초고수는 지금]",
       "url": "https://www.mk.co.kr/news/stock/11928036",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 10:44",
-      "title": "[MK시그널] 퍼스트 솔라 매도신호 포착, 수익률 54.9% 달성",
-      "url": "https://www.mk.co.kr/news/stock/11928034",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 10:38",
-      "title": "IBK투자증권, AI 자산진단 체험 이벤트 진행",
-      "url": "https://www.mk.co.kr/news/stock/11928020",
-      "keywords_hit": [
-        "AI"
-      ]
     }
   ]
 }
