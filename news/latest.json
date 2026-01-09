@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-09 16:57 KST",
+  "updated_at": "2026-01-09 17:34 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,79 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 17:30",
+      "title": "MLB 모자로 중국 어린이 홀렸던 F&F…골프 시장까지 점령가능할까 [K주식, 이걸 사? 말아?]",
+      "url": "https://www.mk.co.kr/news/stock/11928456",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 17:19",
+      "title": "\"○○업종으로 피신\"…외국인·기관 러브콜 받은 종목보니",
+      "url": "https://www.hankyung.com/article/202601091694i",
+      "keywords_hit": [
+        "외국인",
+        "기관"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 16:59",
+      "title": "[포토] 현대차 7.49%상승에 코스피 4586.32로 마감",
+      "url": "https://www.hankyung.com/article/202601091929i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 16:58",
+      "title": "'20만전자' 간다는데 왜…외국인이 싹쓸이 한 종목 따로 있었다",
+      "url": "https://www.hankyung.com/article/2026010919031",
+      "keywords_hit": [
+        "외국인"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 16:57",
+      "title": "신세계·현대百, 나란히 상승…호실적 전망에 뛰는 백화점株",
+      "url": "https://www.hankyung.com/article/2026010919001",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 16:57",
+      "title": "\"亞 하이일드 채권에 주목을\"",
+      "url": "https://www.hankyung.com/article/2026010919011",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 16:56",
+      "title": "中 판호 확대 기대에 게임주 '꿈틀'",
+      "url": "https://www.hankyung.com/article/2026010919021",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 16:55",
+      "title": "[특징주 & 리포트] '한화에어로 11% 뛰어 신고가' 등",
+      "url": "https://www.hankyung.com/article/2026010919061",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -249,25 +322,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 11:05",
-      "title": "대신증권, 2026년 글로벌 증시전망 유튜브 세미나 진행",
-      "url": "https://www.hankyung.com/article/2026010910476",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 10:52",
-      "title": "코스피, 외국인 1.2조 매물폭탄에 약세…한화에어로 6%↑",
-      "url": "https://www.hankyung.com/article/2026010909946",
-      "keywords_hit": [
-        "코스피",
-        "외국인"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-09 10:49",
@@ -325,58 +379,6 @@
       "published_at": "2026-01-09 10:16",
       "title": "키움증권, 비대면 첫 계좌 개설시 최대 현금 21만원 지급 이벤트",
       "url": "https://www.mk.co.kr/news/stock/11927957",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 09:52",
-      "title": "李 \"정부가 사기당한 것 같다\"더니 결국…주가 '바닥' 뚫렸다 [종목+]",
-      "url": "https://www.hankyung.com/article/2026010907826",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 09:48",
-      "title": "트럼프 美국방예산 증액 발언에…방산株 강세 지속",
-      "url": "https://www.hankyung.com/article/2026010907596",
-      "keywords_hit": [
-        "방산"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 09:47",
-      "title": "[MK시그널] 스튜디오드래곤, 콘텐츠 제작 확대와 글로벌 OTT 선판매 증가 기대감으로 주가 상승세,MK시그널 추천 후 상승률 17.78%",
-      "url": "https://www.mk.co.kr/news/stock/11927886",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 09:31",
-      "title": "삼성전자·하이닉스, 美반도체주 주가부진에 동반 하락",
-      "url": "https://www.hankyung.com/article/2026010906666",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 09:27",
-      "title": "이엔셀, 희귀질환 치료후보 반복투여한 임상 결과 공개에 강세",
-      "url": "https://www.hankyung.com/article/2026010906636",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 09:26",
-      "title": "\"김치 챙겨 먹어라\" 美정부 식단 지침에…주가 급등한 회사 [종목+]",
-      "url": "https://www.hankyung.com/article/2026010906496",
       "keywords_hit": []
     }
   ]
