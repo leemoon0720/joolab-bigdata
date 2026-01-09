@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-09 15:36 KST",
+  "updated_at": "2026-01-09 16:00 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,6 +23,24 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 16:00",
+      "title": "자이온 “대중들이 블록체인을 쓰는지도 모르게 녹여낼 때 대중화될 것” [매일코인]",
+      "url": "https://www.mk.co.kr/news/stock/11928409",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 15:34",
+      "title": "[속보] 코스피, 0.75% 상승한 4586.32 마감…종가 기준 최고치",
+      "url": "https://www.hankyung.com/article/2026010916496",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-09 15:17",
@@ -36,7 +54,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-09 15:09",
-      "title": "비트코인, 숨 고르기…이더리움은 '버티기', 엑스알피는 흔들려 [이수현의 코인레이더]",
+      "title": "비트코인 '숨 고르기'…이더리움은 '버티기', 엑스알피는 '흔들' [이수현의 코인레이더]",
       "url": "https://www.hankyung.com/article/202601091175g",
       "keywords_hit": []
     },
@@ -343,14 +361,6 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 08:52",
-      "title": "“이러다 정말 20만전자 가겠네”…사흘만에 목표가 또 올렸다 [오늘 나온 보고서]",
-      "url": "https://www.mk.co.kr/news/stock/11927824",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-09 08:48",
@@ -364,14 +374,6 @@
       "published_at": "2026-01-09 08:42",
       "title": "\"삼성전자, 주가 추가 상승은 HBM4 선제 공급이 관건\"-DB",
       "url": "https://www.hankyung.com/article/2026010904716",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 08:36",
-      "title": "1억이 4억6000만원 됐다…SK하이닉스 덕분에 '주가 대박' [선한결의 이기업왜이래]",
-      "url": "https://www.hankyung.com/article/202601090467i",
       "keywords_hit": []
     }
   ]
