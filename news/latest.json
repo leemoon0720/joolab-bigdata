@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-09 12:09 KST",
+  "updated_at": "2026-01-09 13:09 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,17 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 12:40",
+      "title": "코스피, 외국인 1.4조 매물폭탄에도 상승전환…4600 넘보나",
+      "url": "https://www.hankyung.com/article/2026010911866",
+      "keywords_hit": [
+        "코스피",
+        "외국인"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -181,7 +192,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-09 09:26",
-      "title": "美 \"건강 위해 '김치' 먹어라\" 한마디에…주가 급등한 회사 [종목+]",
+      "title": "\"김치 챙겨 먹어라\" 美정부 식단 지침에…주가 급등한 회사 [종목+]",
       "url": "https://www.hankyung.com/article/2026010906496",
       "keywords_hit": []
     },
@@ -325,16 +336,6 @@
       "title": "“HD현대일렉트릭, 올해 수주액 예상 뛰어넘을 것”…목표가 100만원 ‘상향’",
       "url": "https://www.mk.co.kr/news/stock/11927771",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 08:02",
-      "title": "\"HD현대일렉트릭, 올해도 가이던스 웃도는 실적 기대…목표가↑\"-대신",
-      "url": "https://www.hankyung.com/article/2026010903896",
-      "keywords_hit": [
-        "실적"
-      ]
     },
     {
       "source": "MK",
