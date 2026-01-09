@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-09 14:15 KST",
+  "updated_at": "2026-01-09 14:44 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 14:29",
+      "title": "[마켓칼럼] Private Equity 전략의 핵심, 바이아웃",
+      "url": "https://www.hankyung.com/article/202601091456i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -364,14 +372,6 @@
       "published_at": "2026-01-09 08:31",
       "title": "[마켓PRO] Today's Pick : \"삼전, HD일렉트릭, 쎄트렉아이...목표가 ↑\"",
       "url": "https://www.hankyung.com/article/202601090404i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 08:19",
-      "title": "\"한화솔루션, 신규 공장 가동 지연 여파 올해도 이어져…목표가↓\"-삼성",
-      "url": "https://www.hankyung.com/article/2026010904436",
       "keywords_hit": []
     }
   ]
