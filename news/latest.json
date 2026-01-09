@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-09 13:09 KST",
+  "updated_at": "2026-01-09 13:51 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,35 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 13:44",
+      "title": "‘GS건설 계열사’ 자이에너지운영...피지 바이오매스 발전소 인수",
+      "url": "https://www.mk.co.kr/news/stock/11928172",
+      "keywords_hit": [
+        "인수",
+        "바이오"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 13:43",
+      "title": "골드만삭스 “시장 내 원유 가격 전망, 10년 내 가장 취약”",
+      "url": "https://www.hankyung.com/article/202601091281i",
+      "keywords_hit": [
+        "원유"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 13:20",
+      "title": "“삼전하닉만 너무 오르는 거 아닌가요”…‘다음 주인공’ 찾아나선 증권가",
+      "url": "https://www.mk.co.kr/news/stock/11928161",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -322,14 +351,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 08:18",
-      "title": "샌디스크도 꺾였다, 메모리 조정?…내일 3대 이벤트 주목 [김현석의 월스트리트나우]",
-      "url": "https://www.hankyung.com/article/202601090378i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-09 08:07",
@@ -354,27 +375,6 @@
       "title": "하나證, 첫 발행어음 상품 출시",
       "url": "https://www.mk.co.kr/news/stock/11927226",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 19:16",
-      "title": "[인기검색TOP5] 현대위아, 한화에어로스페이스, 유진로봇, 한미반도체, 현대글로비스",
-      "url": "https://www.mk.co.kr/news/stock/11927377",
-      "keywords_hit": [
-        "반도체",
-        "로봇"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-08 18:56",
-      "title": "불장에도 웃지 못하는 은행주…실적 전망치 쑥 내려간 이유는",
-      "url": "https://www.mk.co.kr/news/stock/11927373",
-      "keywords_hit": [
-        "실적"
-      ]
     }
   ]
 }
