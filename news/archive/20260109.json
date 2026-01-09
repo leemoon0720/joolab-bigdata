@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-09 17:34 KST",
+  "updated_at": "2026-01-09 17:58 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,30 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 17:46",
+      "title": "5천피 앞당길 3종 세트 띄운다…장기투자 稅혜택도 크게 늘려",
+      "url": "https://www.mk.co.kr/news/stock/11928560",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 17:46",
+      "title": "미국 개인투자자 현지 증권계좌로 삼성전자株 산다",
+      "url": "https://www.mk.co.kr/news/stock/11928559",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 17:34",
+      "title": "“코인으로 무역대금 결제 허용”... 60년 묵은 외환법 빗장 푼다",
+      "url": "https://www.mk.co.kr/news/stock/11928513",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -356,30 +380,6 @@
       "keywords_hit": [
         "AI"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 10:18",
-      "title": "“삼전닉스가 국룰이라면, 화끈하게 2배로”…홍콩으로 달려간 개미들",
-      "url": "https://www.mk.co.kr/news/stock/11927967",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 10:17",
-      "title": "젠큐릭스, JPM 헬스케어 2026 참가… 로슈·퀴아젠 등 글로벌 ‘빅3’와 암 진단 사업 논의",
-      "url": "https://www.mk.co.kr/news/stock/11927964",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 10:16",
-      "title": "키움증권, 비대면 첫 계좌 개설시 최대 현금 21만원 지급 이벤트",
-      "url": "https://www.mk.co.kr/news/stock/11927957",
-      "keywords_hit": []
     }
   ]
 }
