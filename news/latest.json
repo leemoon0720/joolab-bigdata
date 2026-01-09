@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-09 21:58 KST",
+  "updated_at": "2026-01-09 22:41 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,13 +23,21 @@
   "count": 40,
   "items": [
     {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-09 22:00",
+      "title": "'이게 다 트럼프 덕분'…\"자고 일어나면 돈 복사\" 개미들 환호 [종목+]",
+      "url": "https://www.hankyung.com/article/2026010911776",
+      "keywords_hit": []
+    },
+    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-09 20:31",
-      "title": "“삼성·SK·현대차까지 달아오르는데”…실적 저하에 우는 LG그룹株",
+      "title": "美中서 더블펀치…LG전자 결국 적자전환",
       "url": "https://www.mk.co.kr/news/business/11928675",
       "keywords_hit": [
-        "실적"
+        "적자"
       ]
     },
     {
@@ -375,14 +383,6 @@
       "published_at": "2026-01-09 11:15",
       "title": "키움증권, 비대면계좌 개설 신규 고객 대상 현금 지급 이벤트 나서",
       "url": "https://www.hankyung.com/article/2026010910766",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 11:08",
-      "title": "NH투자증권 100세시대연구소 'THE100 리포트' 115호 발간",
-      "url": "https://www.hankyung.com/article/2026010910566",
       "keywords_hit": []
     }
   ]
