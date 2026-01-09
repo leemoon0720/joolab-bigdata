@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-09 18:53 KST",
+  "updated_at": "2026-01-09 19:14 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,11 +25,11 @@
     {
       "source": "MK",
       "press": "매일경제",
-      "published_at": "2026-01-09 17:59",
-      "title": "레이저옵텍, 120억원 규모 유상증자 실시",
-      "url": "https://www.mk.co.kr/news/stock/11928600",
+      "published_at": "2026-01-09 18:56",
+      "title": "삼정KPMG, CES 2026 키워드 “헬스테크∙오픈생태계∙로봇∙자율주행∙에너지”",
+      "url": "https://www.mk.co.kr/news/stock/11928628",
       "keywords_hit": [
-        "증자"
+        "로봇"
       ]
     },
     {
@@ -45,10 +45,12 @@
     {
       "source": "MK",
       "press": "매일경제",
-      "published_at": "2026-01-09 17:46",
-      "title": "5천피 앞당길 3종 세트 띄운다…장기투자 稅혜택도 크게 늘려",
-      "url": "https://www.mk.co.kr/news/stock/11928560",
-      "keywords_hit": []
+      "published_at": "2026-01-09 17:59",
+      "title": "레이저옵텍, 120억원 규모 유상증자 실시",
+      "url": "https://www.mk.co.kr/news/stock/11928600",
+      "keywords_hit": [
+        "증자"
+      ]
     },
     {
       "source": "MK",
@@ -56,6 +58,14 @@
       "published_at": "2026-01-09 17:46",
       "title": "미국 개인투자자 현지 증권계좌로 삼성전자株 산다",
       "url": "https://www.mk.co.kr/news/stock/11928559",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-09 17:46",
+      "title": "5천피 앞당길 3종 세트 띄운다…장기투자 稅혜택도 크게 늘려",
+      "url": "https://www.mk.co.kr/news/stock/11928560",
       "keywords_hit": []
     },
     {
@@ -374,14 +384,6 @@
       "keywords_hit": [
         "IPO"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 10:45",
-      "title": "주식 고수, 삼전닉스 일단 던졌다 [주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11928036",
-      "keywords_hit": []
     }
   ]
 }
