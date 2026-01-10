@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-10 19:10 KST",
+  "updated_at": "2026-01-10 19:35 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-10 19:07",
+      "title": "홍춘욱 \"AI株 버블권 진입…소수만 살아남는다\" [한경 트렌드쇼]",
+      "url": "https://www.hankyung.com/article/2026010908626",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -317,16 +327,6 @@
       "title": "자이온 “대중들이 블록체인을 쓰는지도 모르게 녹여낼 때 대중화될 것” [매일코인]",
       "url": "https://www.mk.co.kr/news/stock/11928409",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 15:34",
-      "title": "[속보] 코스피, 0.75% 상승한 4586.32 마감…종가 기준 최고치",
-      "url": "https://www.hankyung.com/article/2026010916496",
-      "keywords_hit": [
-        "코스피"
-      ]
     },
     {
       "source": "MK",
