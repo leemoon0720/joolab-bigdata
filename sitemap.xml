@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>/</loc><lastmod>2026-01-08</lastmod></url>
-  <url><loc>/games/</loc><lastmod>2026-01-08</lastmod></url>
-  <url><loc>/chartgame/</loc><lastmod>2026-01-08</lastmod></url>
-  <url><loc>/mini/pattern/</loc><lastmod>2026-01-08</lastmod></url>
-  <url><loc>/mini/levels/</loc><lastmod>2026-01-08</lastmod></url>
-  <url><loc>/mini/reaction/</loc><lastmod>2026-01-08</lastmod></url>
-  <url><loc>/help/</loc><lastmod>2026-01-08</lastmod></url>
-  <url><loc>/life/</loc><lastmod>2026-01-08</lastmod></url>
-  <url><loc>/privacy.html</loc><lastmod>2026-01-08</lastmod></url>
-  <url><loc>/about.html</loc><lastmod>2026-01-08</lastmod></url>
-  <url><loc>/contact.html</loc><lastmod>2026-01-08</lastmod></url>
+  <url><loc>https://joolabgame.kr/</loc><lastmod>2026-01-10</lastmod></url>
+  <url><loc>https://joolabgame.kr/games/</loc><lastmod>2026-01-10</lastmod></url>
+  <url><loc>https://joolabgame.kr/chartgame/</loc><lastmod>2026-01-10</lastmod></url>
+  <url><loc>https://joolabgame.kr/mini/pattern/</loc><lastmod>2026-01-10</lastmod></url>
+  <url><loc>https://joolabgame.kr/mini/levels/</loc><lastmod>2026-01-10</lastmod></url>
+  <url><loc>https://joolabgame.kr/mini/reaction/</loc><lastmod>2026-01-10</lastmod></url>
+  <url><loc>https://joolabgame.kr/help/</loc><lastmod>2026-01-10</lastmod></url>
+  <url><loc>https://joolabgame.kr/docs/</loc><lastmod>2026-01-10</lastmod></url>
+  <url><loc>https://joolabgame.kr/docs/guide.html</loc><lastmod>2026-01-10</lastmod></url>
+  <url><loc>https://joolabgame.kr/docs/faq.html</loc><lastmod>2026-01-10</lastmod></url>
+  <url><loc>https://joolabgame.kr/docs/patch.html</loc><lastmod>2026-01-10</lastmod></url>
+  <url><loc>https://joolabgame.kr/life/</loc><lastmod>2026-01-10</lastmod></url>
+  <url><loc>https://joolabgame.kr/life/tools/lotto.html</loc><lastmod>2026-01-10</lastmod></url>
+  <url><loc>https://joolabgame.kr/life/tools/gpa.html</loc><lastmod>2026-01-10</lastmod></url>
+  <url><loc>https://joolabgame.kr/life/tools/wage.html</loc><lastmod>2026-01-10</lastmod></url>
+  <url><loc>https://joolabgame.kr/life/tools/severance.html</loc><lastmod>2026-01-10</lastmod></url>
+  <url><loc>https://joolabgame.kr/life/tools/aftertax.html</loc><lastmod>2026-01-10</lastmod></url>
+  <url><loc>https://joolabgame.kr/life/tools/interest.html</loc><lastmod>2026-01-10</lastmod></url>
+  <url><loc>https://joolabgame.kr/life/tools/loan.html</loc><lastmod>2026-01-10</lastmod></url>
+  <url><loc>https://joolabgame.kr/privacy.html</loc><lastmod>2026-01-10</lastmod></url>
+  <url><loc>https://joolabgame.kr/terms.html</loc><lastmod>2026-01-10</lastmod></url>
+  <url><loc>https://joolabgame.kr/about.html</loc><lastmod>2026-01-10</lastmod></url>
+  <url><loc>https://joolabgame.kr/contact.html</loc><lastmod>2026-01-10</lastmod></url>
 </urlset>
