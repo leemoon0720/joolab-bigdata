@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-10 16:00 KST",
+  "updated_at": "2026-01-10 16:27 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-10 16:15",
+      "title": "유엔 안보리, 오는 12일 우크라 관련 긴급회의 개최",
+      "url": "https://www.hankyung.com/article/2026011027257",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -321,14 +329,6 @@
       "keywords_hit": [
         "리츠"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 15:09",
-      "title": "비트코인 '숨 고르기'…이더리움은 '버티기', 엑스알피는 '흔들' [이수현의 코인레이더]",
-      "url": "https://www.hankyung.com/article/202601091175g",
-      "keywords_hit": []
     },
     {
       "source": "MK",
