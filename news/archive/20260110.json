@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-10 21:18 KST",
+  "updated_at": "2026-01-10 22:02 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,6 +25,16 @@
     {
       "source": "HK",
       "press": "한국경제",
+      "published_at": "2026-01-10 21:30",
+      "title": "'4조' 테슬라 계약은 왜 사라졌나…엘앤에프 정정공시의 전말 [박주연의 여의도 나침반]",
+      "url": "https://www.hankyung.com/article/202601102856i",
+      "keywords_hit": [
+        "공시"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
       "published_at": "2026-01-10 19:07",
       "title": "홍춘욱 \"AI株 버블권 진입…소수만 살아남는다\" [한경 트렌드쇼]",
       "url": "https://www.hankyung.com/article/2026010908626",
@@ -36,7 +46,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-10 18:52",
-      "title": "'살 빼는 약' 대신 베팅했더니…'주가 40% 폭등' 개미들 초대박",
+      "title": "'살 빼는 약' 대신 베팅했더니 초대박…주가 40% 폭등 '불기둥'",
       "url": "https://www.hankyung.com/article/2026010915477",
       "keywords_hit": []
     },
@@ -272,16 +282,6 @@
         "기관",
         "원유",
         "유가"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 16:48",
-      "title": "2026년 주목해야 할 키워드는 'AI·Fed·트럼프'",
-      "url": "https://www.hankyung.com/article/2026010918581",
-      "keywords_hit": [
-        "AI"
       ]
     },
     {
