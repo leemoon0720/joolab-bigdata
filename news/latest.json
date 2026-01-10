@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-10 14:54 KST",
+  "updated_at": "2026-01-10 15:24 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-10 15:08",
+      "title": "'러닝 열풍' 타고 대박 노리던 회사의 추락…개미들 '패닉' [진영기의 찐개미 찐투자]",
+      "url": "https://www.hankyung.com/article/2026010919356",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -328,14 +336,6 @@
       "published_at": "2026-01-09 14:47",
       "title": "트럼프 한마디에 이틀 만에 20만원 올랐다…52주 신고가 찍은 한화에어로",
       "url": "https://www.mk.co.kr/news/stock/11928331",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 14:29",
-      "title": "[마켓칼럼] Private Equity 전략의 핵심, 바이아웃",
-      "url": "https://www.hankyung.com/article/202601091456i",
       "keywords_hit": []
     },
     {
