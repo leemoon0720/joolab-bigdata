@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-11 06:58 KST",
+  "updated_at": "2026-01-11 07:24 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-11 07:00",
+      "title": "1년째 7000~9000원에 갇혔다…\"주가 1만원 언제 찍나요\" [윤현주의 主食이 주식]",
+      "url": "https://www.hankyung.com/article/202601051640i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -278,18 +286,6 @@
       "url": "https://www.hankyung.com/article/2026010918561",
       "keywords_hit": [
         "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 16:48",
-      "title": "기관투자가 59% \"올해 원유가격 약세 보일 것\"",
-      "url": "https://www.hankyung.com/article/2026010918571",
-      "keywords_hit": [
-        "기관",
-        "원유",
-        "유가"
       ]
     },
     {
