@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-10 18:52 KST",
+  "updated_at": "2026-01-10 19:10 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-10 18:52",
+      "title": "'살 빼는 약' 대신 베팅했더니…'주가 40% 폭등' 개미들 초대박",
+      "url": "https://www.hankyung.com/article/2026010915477",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -318,16 +326,6 @@
       "url": "https://www.hankyung.com/article/2026010916496",
       "keywords_hit": [
         "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 15:17",
-      "title": "미공개정보 의혹에 압색까지…메리츠 주가 6% 급락",
-      "url": "https://www.hankyung.com/article/202601091512i",
-      "keywords_hit": [
-        "리츠"
       ]
     },
     {
