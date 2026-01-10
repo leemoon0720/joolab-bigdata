@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-11 07:52 KST",
+  "updated_at": "2026-01-11 08:10 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-11 08:00",
+      "title": "\"'오천피' 향해 반도체가 이끄는 랠리…차익 매물은 부담\" [주간전망]",
+      "url": "https://www.hankyung.com/article/2026010913996",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -277,16 +287,6 @@
       "title": "구리값 뛰자 '꿩 대신 닭'…알루미늄株 알코아 날개",
       "url": "https://www.hankyung.com/article/2026010918551",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 16:48",
-      "title": "'AI랠리' 뒤처졌던 인텔, CPU·파운드리로 부활",
-      "url": "https://www.hankyung.com/article/2026010918561",
-      "keywords_hit": [
-        "AI"
-      ]
     },
     {
       "source": "MK",
