@@ -1,0 +1,11 @@
+{
+  "updated_at": "2026-01-09T11:40:17.347498Z",
+  "enabled": false,
+  "title": "공지",
+  "body": "내용을 입력해 주십시오.",
+  "link_url": "",
+  "link_text": "자세히",
+  "start_at": null,
+  "end_at": null,
+  "dismiss_hours": 24
+}

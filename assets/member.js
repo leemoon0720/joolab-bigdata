@@ -1,131 +1,117 @@
 (function(){
   const $ = (id)=>document.getElementById(id);
 
-  const KEY_USERS = "jlab_users_v1";
-  const KEY_SESSION = "jlab_session_v1";
-
-  function loadUsers(){
-    try{ return JSON.parse(localStorage.getItem(KEY_USERS) || "{}"); }
-    catch(e){ return {}; }
-  }
-  function saveUsers(obj){
-    localStorage.setItem(KEY_USERS, JSON.stringify(obj));
-  }
   function setMsg(el, msg, ok){
     if(!el) return;
     el.textContent = msg || "";
-    el.style.color = ok ? "rgba(15,23,42,.85)" : "rgba(220,38,38,.92)";
+    el.style.color = ok ? "#16a34a" : "#ef4444";
   }
 
-  function getSession(){
-    try{ return JSON.parse(localStorage.getItem(KEY_SESSION) || "null"); }
-    catch(e){ return null; }
+  async function fetchJSON(url){
+    const r = await fetch(url, {cache:'no-store'});
+    if(!r.ok) throw new Error(`${r.status} ${r.statusText}`);
+    return await r.json();
   }
-  function setSession(s){
-    localStorage.setItem(KEY_SESSION, JSON.stringify(s));
-  }
-  function clearSession(){
-    localStorage.removeItem(KEY_SESSION);
+
+  async function postJSON(url, body){
+    const r = await fetch(url, {
+      method:'POST',
+      headers:{'content-type':'application/json; charset=utf-8'},
+      body: JSON.stringify(body || {})
+    });
+    if(!r.ok) throw new Error(`${r.status} ${r.statusText}`);
+    return await r.json();
   }
 
   function getPlan(email){
-    return localStorage.getItem("jlab_plan_"+email) || "미구독";
-  }
-  function setPlan(email, plan){
-    localStorage.setItem("jlab_plan_"+email, plan);
+    try { return localStorage.getItem("jlab_plan_"+email) || "미구독"; } catch(e){ return "미구독"; }
   }
 
-  function render(){
-    const sess = getSession();
+  async function render(){
     const acctBadge = $("acct-badge");
     const subBadge = $("sub-badge");
     const subDesc = $("sub-desc");
-    if(!sess || !sess.email){
+
+    try{
+      const me = await fetchJSON('/api/auth/me');
+      if(!me || !me.ok || !me.user || !me.user.email){
+        if(acctBadge) acctBadge.textContent = "GUEST";
+        if(subBadge) subBadge.textContent = "-";
+        if(subDesc) subDesc.textContent = "로그인이 필요합니다.";
+        return;
+      }
+      const email = me.user.email;
+      const role = me.user.role || "user";
+      const plan = getPlan(email);
+      if(acctBadge) acctBadge.textContent = (role === "admin") ? "ADMIN" : "LOGIN";
+      if(subBadge) subBadge.textContent = plan;
+      if(subDesc) subDesc.textContent = `현재 로그인: ${email} · 권한: ${role} · 구독: ${plan}`;
+    }catch(e){
       if(acctBadge) acctBadge.textContent = "GUEST";
       if(subBadge) subBadge.textContent = "-";
-      if(subDesc) subDesc.textContent = "로그인 후 확인 가능합니다.";
-      return;
+      if(subDesc) subDesc.textContent = "로그인이 필요합니다.";
     }
-    const plan = getPlan(sess.email);
-    if(acctBadge) acctBadge.textContent = "LOGIN";
-    if(subBadge) subBadge.textContent = plan;
-    if(subDesc) subDesc.textContent = `현재 로그인: ${sess.email} · 구독: ${plan}`;
   }
 
   function bind(){
-    const suEmail=$("su-email"), suPass=$("su-pass"), suNick=$("su-nick"), suMsg=$("su-msg");
+    const suMsg=$("su-msg");
     const liEmail=$("li-email"), liPass=$("li-pass"), liMsg=$("li-msg");
     const btnSignup=$("btn-signup"), btnLogin=$("btn-login"), btnLogout=$("btn-logout");
     const btnCancel=$("btn-cancel"), cancelMsg=$("cancel-msg");
 
+    // 회원가입은 커뮤니티에서만 진행(데이터센터는 커뮤니티 명단 기반 로그인)
     if(btnSignup){
       btnSignup.addEventListener("click", ()=>{
-        const email=(suEmail?.value||"").trim().toLowerCase();
-        const pass=(suPass?.value||"").trim();
-        const nick=(suNick?.value||"").trim();
-        if(!email || !email.includes("@")) return setMsg(suMsg, "이메일을 확인해 주십시오.", false);
-        if(pass.length < 8) return setMsg(suMsg, "비밀번호는 8자 이상으로 설정해 주십시오.", false);
-
-        const users=loadUsers();
-        if(users[email]) return setMsg(suMsg, "이미 가입된 이메일입니다.", false);
-
-        users[email] = { email, pass, nick, created: new Date().toISOString() };
-        saveUsers(users);
-        setMsg(suMsg, "가입 완료되었습니다. 우측에서 로그인해 주십시오.", true);
+        setMsg(suMsg, "회원가입은 커뮤니티에서만 가능합니다. (데이터센터는 커뮤니티 회원 명단 기반 로그인)", false);
       });
     }
 
     if(btnLogin){
-      btnLogin.addEventListener("click", ()=>{
+      btnLogin.addEventListener("click", async ()=>{
         const email=(liEmail?.value||"").trim().toLowerCase();
         const pass=(liPass?.value||"").trim();
         if(!email || !email.includes("@")) return setMsg(liMsg, "이메일을 확인해 주십시오.", false);
-        const users=loadUsers();
-        if(!users[email] || users[email].pass !== pass) return setMsg(liMsg, "이메일 또는 비밀번호가 일치하지 않습니다.", false);
+        if(!pass) return setMsg(liMsg, "비밀번호를 입력해 주십시오.", false);
 
-        setSession({ email, at: new Date().toISOString() });
-        setMsg(liMsg, "로그인 완료되었습니다.", true);
-        render();
+        try{
+          const res = await postJSON('/api/auth/login', { email, password: pass });
+          if(!res.ok) return setMsg(liMsg, res.message || "로그인 실패", false);
+          setMsg(liMsg, "로그인 완료되었습니다.", true);
+          await render();
+
+          // next 처리
+          try{
+            const u = new URL(window.location.href);
+            const next = u.searchParams.get('next');
+            if(next){
+              window.location.href = next;
+              return;
+            }
+          }catch(e){}
+        }catch(e){
+          setMsg(liMsg, "로그인 실패 (서버 오류)", false);
+        }
       });
     }
 
     if(btnLogout){
-      btnLogout.addEventListener("click", ()=>{
-        clearSession();
-        setMsg(liMsg, "로그아웃되었습니다.", true);
-        render();
+      btnLogout.addEventListener("click", async ()=>{
+        try{
+          await fetchJSON('/api/auth/logout');
+        }catch(e){}
+        await render();
       });
     }
 
     if(btnCancel){
       btnCancel.addEventListener("click", ()=>{
-        const sess = getSession();
-        if(!sess || !sess.email) return setMsg(cancelMsg, "로그인 후 해지 신청이 가능합니다.", false);
-        // 베타(심사용): 해지 신청 = 구독 상태를 '미구독'으로 변경
-        setPlan(sess.email, "미구독");
-        setMsg(cancelMsg, "해지 신청이 접수되었습니다. 다음 결제부터 중단됩니다.", true);
-        render();
+        setMsg(cancelMsg, "구독 해지는 월구독 페이지에서 진행해 주십시오.", false);
       });
     }
-
-    // 결제 완료 리턴(테스트): /account/?plan=Basic 형태로 들어오면 플랜 반영
-    try{
-      const url = new URL(location.href);
-      const plan = url.searchParams.get("plan");
-      const sess = getSession();
-      if(plan && sess && sess.email){
-        const p = ["Basic","Pro","VIP"].includes(plan) ? plan : null;
-        if(p){
-          setPlan(sess.email, p);
-          // URL 정리
-          url.searchParams.delete("plan");
-          history.replaceState({}, "", url.pathname + (url.search ? url.search : ""));
-        }
-      }
-    }catch(e){}
-
-    render();
   }
 
-  document.addEventListener("DOMContentLoaded", bind);
+  document.addEventListener("DOMContentLoaded", ()=>{
+    bind();
+    render();
+  });
 })();

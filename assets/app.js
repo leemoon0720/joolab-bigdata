@@ -263,13 +263,174 @@
     }
   }
 
-  document.addEventListener('DOMContentLoaded', ()=>{
+    // ==============================
+  // Notice (공지)
+  // ==============================
+  function kindToBadgeClass(kind){
+    const k = (kind||'').toLowerCase();
+    if(k==='ok') return 'ok';
+    if(k==='live') return 'live';
+    if(k==='missing') return 'missing';
+    return 'wait';
+  }
+
+  function renderNoticeList(items){
+    const wrap = byId('notice-items');
+    const empty = byId('notice-empty');
+    if(!wrap) return;
+
+    const arr = Array.isArray(items) ? items : [];
+    if(arr.length === 0){
+      wrap.innerHTML = '';
+      if(empty) empty.textContent = '등록된 공지가 없습니다.';
+      return;
+    }
+    if(empty) empty.textContent = '';
+
+    const html = arr.slice(0,10).map((it)=>{
+      const type = escapeHtml(it.type || '');
+      const title = escapeHtml(it.title || '');
+      const time = escapeHtml(it.time || '');
+      const summary = escapeHtml(it.summary || '');
+      const impact = escapeHtml(it.impact || '');
+      const rollback = escapeHtml(it.rollback || '');
+      const link = (it.link || '').trim();
+      const linkHtml = link ? `<a class="btn ghost" href="${escapeHtml(link)}" target="_blank" rel="noopener">원문</a>` : '';
+      return `
+        <div class="card" style="margin-top:10px;">
+          <div class="card-top">
+            <h3 style="font-size:16px;">${title}</h3>
+            <span class="badge upd">${type || '공지'}</span>
+          </div>
+          <div class="small" style="margin-top:6px;">${time}</div>
+          <div style="margin-top:8px; white-space:pre-wrap;">${summary}</div>
+          <div class="hr"></div>
+          <div class="small">영향: ${impact || '-'}</div>
+          <div class="small">롤백: ${rollback || '-'}</div>
+          <div class="card-cta">${linkHtml}</div>
+        </div>
+      `;
+    }).join('');
+    wrap.innerHTML = html;
+  }
+
+  async function hydrateNotice(){
+    // 배지 + 리스트(공지 페이지에서만)
+    const hasNotice = !!byId('notice-items') || !!byId('badge-status');
+    if(!hasNotice) return;
+
+    try{
+      const j = await fetchJSON('/api/notice/latest');
+      if(j && j.ok){
+        setHeroStatus({
+          updatedText: 'UPD: ' + (j.updated_at ? String(j.updated_at).slice(0,19).replace('T',' ') : '-'),
+          statusText: j.status_text || '대기',
+          statusKind: kindToBadgeClass(j.status_kind || 'wait')
+        });
+        renderNoticeList(j.items || []);
+        return;
+      }
+    }catch(e){}
+    setHeroStatus({ updatedText:'UPD: -', statusText:'MISSING', statusKind:'missing' });
+  }
+
+  // ==============================
+  // Popup (전역)
+  // ==============================
+  function isInWindow(startAt, endAt){
+    const now = Date.now();
+    const s = startAt ? Date.parse(startAt) : null;
+    const e = endAt ? Date.parse(endAt) : null;
+    if(s && Number.isFinite(s) && now < s) return false;
+    if(e && Number.isFinite(e) && now > e) return false;
+    return true;
+  }
+
+  function ensurePopupDOM(){
+    if(byId('jlab-popup')) return;
+    const el = document.createElement('div');
+    el.id = 'jlab-popup';
+    el.innerHTML = `
+      <div class="jlab-popup-bg" id="jlab-popup-bg"></div>
+      <div class="jlab-popup-card" role="dialog" aria-modal="true">
+        <div class="jlab-popup-top">
+          <div class="jlab-popup-ttl" id="jlab-popup-ttl">공지</div>
+          <button class="jlab-popup-x" id="jlab-popup-x" aria-label="닫기">✕</button>
+        </div>
+        <div class="jlab-popup-body" id="jlab-popup-body"></div>
+        <div class="jlab-popup-actions">
+          <a class="btn" id="jlab-popup-link" href="#" target="_blank" rel="noopener" style="display:none;">자세히</a>
+          <button class="btn ghost" id="jlab-popup-close">닫기</button>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(el);
+
+    const close = ()=>{
+      const wrap = byId('jlab-popup');
+      if(wrap) wrap.style.display = 'none';
+    };
+    byId('jlab-popup-bg')?.addEventListener('click', close);
+    byId('jlab-popup-x')?.addEventListener('click', close);
+    byId('jlab-popup-close')?.addEventListener('click', close);
+  }
+
+  async function hydratePopup(){
+    try{
+      const j = await fetchJSON('/api/popup/config');
+      if(!j || !j.ok || !j.enabled) return;
+      if(!isInWindow(j.start_at, j.end_at)) return;
+
+      const hours = Number.isFinite(Number(j.dismiss_hours)) ? Number(j.dismiss_hours) : 24;
+      const key = 'jlab_popup_dismiss_until';
+      const until = Number(localStorage.getItem(key) || '0');
+      if(until && Date.now() < until) return;
+
+      ensurePopupDOM();
+      const wrap = byId('jlab-popup');
+      const ttl = byId('jlab-popup-ttl');
+      const body = byId('jlab-popup-body');
+      const link = byId('jlab-popup-link');
+
+      if(ttl) ttl.textContent = j.title || '공지';
+      if(body) body.textContent = j.body || '';
+
+      const url = (j.link_url || '').trim();
+      const txt = (j.link_text || '자세히').trim();
+      if(url){
+        link.style.display = '';
+        link.href = url;
+        link.textContent = txt;
+      }else{
+        link.style.display = 'none';
+      }
+
+      // 닫기 시 다시 안보기 처리
+      const closeBtns = [byId('jlab-popup-bg'), byId('jlab-popup-x'), byId('jlab-popup-close')];
+      closeBtns.forEach(btn=>{
+        btn && btn.addEventListener('click', ()=>{
+          try{
+            localStorage.setItem(key, String(Date.now() + hours*60*60*1000));
+          }catch(e){}
+        }, { once:true });
+      });
+
+      if(wrap) wrap.style.display = 'flex';
+    }catch(e){}
+  }
+
+  window.hydrateNotice = hydrateNotice;
+  window.hydratePopup = hydratePopup;
+
+document.addEventListener('DOMContentLoaded', ()=>{
     setActiveNav();
     initTickerSearch();
     hydrateMarketStrip();
     hydrateNewsPreview();
     hydrateNewsCenter();
     hydrateAnalysis();
+    hydrateNotice();
+    hydratePopup();
 
     // soft refresh
     setInterval(()=>{ hydrateMarketStrip(); }, 60*1000);
