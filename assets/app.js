@@ -501,7 +501,6 @@
       </div>
     `;
   }
-}
 
   function applyChipToggle(groupSel, onAttr, onValue){
     qsa(groupSel).forEach(btn=>{
