@@ -367,3 +367,10 @@ a.card.link-card:hover{border-color: rgba(15,23,42,.22); background: rgba(248,25
   border-radius:14px;
   border:1px solid rgba(148,163,184,.18);
 }
+
+
+:root{--jlab-accent:#0072ff;--jlab-accent2:#ff3e7f;}
+body{background:#f6f7fb;}
+.card,.panel,.tile,.box{border-radius:18px;}
+.btn-primary{background:var(--jlab-accent);}
+.badge-accent{background:linear-gradient(90deg,var(--jlab-accent),var(--jlab-accent2));}

@@ -51,8 +51,6 @@
       st.classList.add(statusKind);
     }
   }
-
-  
   function getAuthToken(){
     try{
       return localStorage.getItem("jlab_token") || localStorage.getItem("joolab_token") || "";
@@ -68,15 +66,12 @@
     return h;
   }
 
-async function fetchJSON(url){
-    const r = await fetch(url, {
-      cache:'no-store',
-      credentials:'include',
-      headers: authHeaders()
-    });
+  async function fetchJSON(url){
+    const r = await fetch(url, {cache:'no-store', credentials:'include', headers: authHeaders()});
     if(!r.ok) throw new Error(`${r.status} ${r.statusText}`);
     return await r.json();
   }
+
 
   // ==============================
   // Market strip (Home)
@@ -477,7 +472,6 @@ async function fetchJSON(url){
     const m = String(name||'').match(/(\d{6})/);
     return m ? m[1] : fmtYYMMDD();
   }
-
   async function postJSON(url, body){
     const r = await fetch(url, {
       method:'POST',
@@ -488,6 +482,7 @@ async function fetchJSON(url){
     if(!r.ok) throw new Error(`${r.status} ${r.statusText}`);
     return await r.json();
   }
+
 
   function renderMetaItem(meta){
     const title = meta.title || '(제목 없음)';

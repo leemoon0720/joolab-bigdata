@@ -6,22 +6,37 @@
     el.textContent = msg || "";
     el.style.color = ok ? "#16a34a" : "#ef4444";
   }
+  function getAuthToken(){
+    try{
+      return localStorage.getItem("jlab_token") || localStorage.getItem("joolab_token") || "";
+    }catch(e){
+      return "";
+    }
+  }
+
+  function authHeaders(extra){
+    const t = getAuthToken();
+    const h = Object.assign({}, extra || {});
+    if(t) h["Authorization"] = "Bearer " + t;
+    return h;
+  }
 
   async function fetchJSON(url){
-    const r = await fetch(url, {cache:'no-store'});
+    const r = await fetch(url, {cache:'no-store', credentials:'include', headers: authHeaders()});
     if(!r.ok) throw new Error(`${r.status} ${r.statusText}`);
     return await r.json();
   }
-
   async function postJSON(url, body){
     const r = await fetch(url, {
       method:'POST',
-      headers:{'content-type':'application/json; charset=utf-8'},
-      body: JSON.stringify(body || {})
+      credentials:'include',
+      headers: authHeaders({'content-type':'application/json; charset=utf-8'}),
+      body: JSON.stringify(body||{})
     });
     if(!r.ok) throw new Error(`${r.status} ${r.statusText}`);
     return await r.json();
   }
+
 
   function getPlan(email){
     try { return localStorage.getItem("jlab_plan_"+email) || "미구독"; } catch(e){ return "미구독"; }
@@ -84,17 +99,20 @@
             }
           }catch(e){}
           await render();
+
           // next 처리
           try{
             const u = new URL(window.location.href);
             const next = u.searchParams.get('next');
-            window.location.href = next || '/';
-            return;
-          }catch(e){
-            window.location.href = '/';
-            return;
-          }
-        }catch(e){
+            if(next){
+              window.location.href = next;
+              return;
+            }
+          }catch(e){}
+        
+          window.location.href = '/';
+          return;
+}catch(e){
           setMsg(liMsg, "로그인 실패 (서버 오류)", false);
         }
       });
@@ -104,8 +122,6 @@
       btnLogout.addEventListener("click", async ()=>{
         try{
           await fetchJSON('/api/auth/logout');
-          try{ localStorage.removeItem('jlab_token'); }catch(e){}
-          try{ localStorage.removeItem('joolab_token'); }catch(e){}
         }catch(e){}
         await render();
       });
