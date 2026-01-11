@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-12 05:53 KST",
+  "updated_at": "2026-01-12 06:12 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,24 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 06:05",
+      "title": "삼촌은 삼전, 조카는 하이닉스 샀다…세대별 투자차이 생긴 이유는",
+      "url": "https://www.mk.co.kr/news/stock/11929642",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 06:03",
+      "title": "반도체 ETF 뷔페 처음 오셨나요…접시 꼭 담아야 하는 4가지 요리는",
+      "url": "https://www.mk.co.kr/news/stock/11929641",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -290,14 +308,6 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-11 10:01",
-      "title": "“20만원 간다고? 그럼 묻고 더블로 가”…삼성전자 ‘빚투’ 역대 최고치",
-      "url": "https://www.mk.co.kr/news/stock/11929158",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-11 08:00",
@@ -313,14 +323,6 @@
       "published_at": "2026-01-11 07:00",
       "title": "1년째 7000~9000원에 갇혔다…\"주가 1만원 언제 찍나요\" [윤현주의 主食이 주식]",
       "url": "https://www.hankyung.com/article/202601051640i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-11 05:56",
-      "title": "“테슬라, 한물 간거 아니었어?”…일주일 새 4700억 쓸어담은 서학개미",
-      "url": "https://www.mk.co.kr/news/stock/11929105",
       "keywords_hit": []
     },
     {
