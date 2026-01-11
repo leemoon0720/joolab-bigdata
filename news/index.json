@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-12 06:52 KST",
+  "updated_at": "2026-01-12 07:10 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 07:00",
+      "title": "비에이치아이 1년 새 주가 3배 뛴 비결은… 올해 원전 관련 매출 커진다 [류은혁의 종목 핫라인]",
+      "url": "https://www.hankyung.com/article/202601092134i",
+      "keywords_hit": [
+        "매출"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -369,14 +379,6 @@
       "published_at": "2026-01-10 18:52",
       "title": "'살 빼는 약' 대신 베팅했더니 초대박…주가 40% 폭등 '불기둥'",
       "url": "https://www.hankyung.com/article/2026010915477",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-10 16:15",
-      "title": "유엔 안보리, 오는 12일 우크라 관련 긴급회의 개최",
-      "url": "https://www.hankyung.com/article/2026011027257",
       "keywords_hit": []
     }
   ]
