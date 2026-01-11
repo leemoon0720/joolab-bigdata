@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-11 17:53 KST",
+  "updated_at": "2026-01-11 18:14 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,22 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-11 17:58",
+      "title": "연말 '순하리'에 취하리…또 검색량 신기록 썼다",
+      "url": "https://www.hankyung.com/article/2026011137401",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-11 17:58",
+      "title": "회복 사이클 타는 건설기계…\"HD건설기계·두산밥캣 주목\"",
+      "url": "https://www.hankyung.com/article/2026011137381",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -320,25 +336,6 @@
       "published_at": "2026-01-10 08:16",
       "title": "BoA \"트럼프, 물가 낮추기→경기민감주 베팅\" [김현석의 월스트리트나우]",
       "url": "https://www.hankyung.com/article/202601102363i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-10 07:36",
-      "title": "AI·반도체주 랠리…다우·S&P500 '사상 최고치' 경신 [뉴욕증시 브리핑]",
-      "url": "https://www.hankyung.com/article/2026011023407",
-      "keywords_hit": [
-        "반도체",
-        "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-10 07:00",
-      "title": "'2만원→6700원' 주가 추락…\"반등 가능할까?\" 개미들 '눈물'  [윤현주의 主食이 주식]",
-      "url": "https://www.hankyung.com/article/202512314845i",
       "keywords_hit": []
     },
     {
