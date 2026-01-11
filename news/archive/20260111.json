@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-11 17:36 KST",
+  "updated_at": "2026-01-11 17:53 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-11 17:42",
+      "title": "대법 \"자회사 팔 때도 소액주주 동의 구해야\"",
+      "url": "https://www.hankyung.com/article/2026011138161",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -331,14 +339,6 @@
       "published_at": "2026-01-10 07:00",
       "title": "'2만원→6700원' 주가 추락…\"반등 가능할까?\" 개미들 '눈물'  [윤현주의 主食이 주식]",
       "url": "https://www.hankyung.com/article/202512314845i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 22:00",
-      "title": "'이게 다 트럼프 덕분'…\"자고 일어나면 돈 복사\" 개미들 환호 [종목+]",
-      "url": "https://www.hankyung.com/article/2026010911776",
       "keywords_hit": []
     },
     {
