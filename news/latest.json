@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-11 10:00 KST",
+  "updated_at": "2026-01-11 12:11 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,48 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-11 10:59",
+      "title": "“트럼프가 구국의 영웅”…‘마두로 축출’ 베네수 증시 169% 폭등",
+      "url": "https://www.mk.co.kr/news/stock/11929199",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-11 10:35",
+      "title": "“제발 애국투자 합시다” 애원에도…서학개미 3조규모 폭풍매수 왜",
+      "url": "https://www.mk.co.kr/news/stock/11929179",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-11 10:10",
+      "title": "“더 늦기 전에 올라타자”…개미들 일주일간 삼성전자 3조 폭풍 순매수",
+      "url": "https://www.mk.co.kr/news/stock/11929163",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-11 10:09",
+      "title": "‘배당 분리과세 수혜’ KT 날아가나…주가 5.2만→7.6만원 전망도",
+      "url": "https://www.mk.co.kr/news/stock/11929162",
+      "keywords_hit": [
+        "배당"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-11 10:01",
+      "title": "“20만원 간다고? 그럼 묻고 더블로 가”…삼성전자 ‘빚투’ 역대 최고치",
+      "url": "https://www.mk.co.kr/news/stock/11929158",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -330,48 +372,6 @@
       "published_at": "2026-01-09 16:00",
       "title": "자이온 “대중들이 블록체인을 쓰는지도 모르게 녹여낼 때 대중화될 것” [매일코인]",
       "url": "https://www.mk.co.kr/news/stock/11928409",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 14:47",
-      "title": "트럼프 한마디에 이틀 만에 20만원 올랐다…52주 신고가 찍은 한화에어로",
-      "url": "https://www.mk.co.kr/news/stock/11928331",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 14:09",
-      "title": "국내 증시 불장에...외국인 지난달 1.5조 사들이며 한달 만에 순매수 전환",
-      "url": "https://www.mk.co.kr/news/stock/11928255",
-      "keywords_hit": [
-        "외국인"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 14:04",
-      "title": "‘K-스테이블코인’ 올 1분기 법제화",
-      "url": "https://www.mk.co.kr/news/stock/11928234",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 13:55",
-      "title": "“슈퍼리치들은 재테크도 파격 그 자체”…초고액 자산가들 사이서 번지는 ‘이것’",
-      "url": "https://www.mk.co.kr/news/economy/11928211",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 13:55",
-      "title": "“테슬라? 90%는 떨어져야 정상”...유명 비관론자, 최근 관대한 평가 내렸다는데",
-      "url": "https://www.mk.co.kr/news/stock/11928209",
       "keywords_hit": []
     }
   ]
