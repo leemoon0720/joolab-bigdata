@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-11 16:59 KST",
+  "updated_at": "2026-01-11 17:36 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,170 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-11 17:26",
+      "title": "배당금 분리과세 기대 … KT 주가 이젠 달릴까",
+      "url": "https://www.mk.co.kr/news/stock/11929449",
+      "keywords_hit": [
+        "배당"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-11 17:26",
+      "title": "\"실적 개선 시작된다\"… 비만약 ETF 반등",
+      "url": "https://www.mk.co.kr/news/stock/11929448",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-11 17:26",
+      "title": "투자자 예탁금 92조 사상 최대",
+      "url": "https://www.mk.co.kr/news/stock/11929450",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-11 17:26",
+      "title": "40대 이상은 삼성전자 vs 2030은 하이닉스",
+      "url": "https://www.mk.co.kr/news/stock/11929447",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-11 17:25",
+      "title": "마두로 체포후 베네수 증시 폭등",
+      "url": "https://www.mk.co.kr/news/stock/11929442",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-11 17:25",
+      "title": "\"엔비디아·오픈AI 안부럽네\"… 中 반도체株 강세",
+      "url": "https://www.mk.co.kr/news/stock/11929439",
+      "keywords_hit": [
+        "반도체",
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-11 17:25",
+      "title": "[미국 주식 돋보기] 해킹 급증에…크라우드스트라이크 '주목'",
+      "url": "https://www.mk.co.kr/news/stock/11929438",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-11 17:22",
+      "title": "AI 신약·유전자 편집·비만 치료 … 바이오株 옥석 가린다",
+      "url": "https://www.hankyung.com/article/2026011137431",
+      "keywords_hit": [
+        "AI",
+        "바이오"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-11 17:19",
+      "title": "\"특허절벽 리스크 작다\"…재평가 받는 빅파마들",
+      "url": "https://www.hankyung.com/article/2026011137421",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-11 17:17",
+      "title": "\"그래도 국장보다 미장\"…서학개미 연초 3조원 폭풍매수",
+      "url": "https://www.mk.co.kr/news/stock/11929415",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-11 17:16",
+      "title": "돌아온 방산주…'돈로주의' 강화에 ETF 급등",
+      "url": "https://www.hankyung.com/article/2026011137441",
+      "keywords_hit": [
+        "방산"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-11 17:15",
+      "title": "\"자율주행 톱픽은 여전히 테슬라…中 BYD·CATL도 주목\"",
+      "url": "https://www.hankyung.com/article/2026011137451",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-11 17:15",
+      "title": "\"비에이치아이, 올 실적 신기록 쓴다\"",
+      "url": "https://www.hankyung.com/article/2026011137461",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-11 17:14",
+      "title": "삼성전자 '개미 빚투' 2조 사상 최대",
+      "url": "https://www.hankyung.com/article/2026011137471",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-11 17:13",
+      "title": "새해 서학개미 순매수…2.8조원 또 역대 최대",
+      "url": "https://www.hankyung.com/article/2026011137481",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-11 17:12",
+      "title": "에이비엘·디앤디파마텍…코스닥 바이오 집중매수",
+      "url": "https://www.hankyung.com/article/2026011137491",
+      "keywords_hit": [
+        "코스닥",
+        "바이오"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-11 17:06",
+      "title": "[이번주 증시 예보] TSMC 실적에 쏠린 시선 … JP모건 바이오 행사도 관심",
+      "url": "https://www.mk.co.kr/news/stock/11929385",
+      "keywords_hit": [
+        "실적",
+        "바이오"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-11 17:06",
+      "title": "이번주 머니 캘린더",
+      "url": "https://www.mk.co.kr/news/stock/11929386",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -214,165 +378,6 @@
       "keywords_hit": [
         "바이오"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 17:59",
-      "title": "레이저옵텍, 120억원 규모 유상증자 실시",
-      "url": "https://www.mk.co.kr/news/stock/11928600",
-      "keywords_hit": [
-        "증자"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 17:46",
-      "title": "미국 개인투자자 현지 증권계좌로 삼성전자株 산다",
-      "url": "https://www.mk.co.kr/news/stock/11928559",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 17:46",
-      "title": "5천피 앞당길 3종 세트 띄운다…장기투자 稅혜택도 크게 늘려",
-      "url": "https://www.mk.co.kr/news/stock/11928560",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 17:34",
-      "title": "“코인으로 무역대금 결제 허용”... 60년 묵은 외환법 빗장 푼다",
-      "url": "https://www.mk.co.kr/news/stock/11928513",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 17:30",
-      "title": "MLB 모자로 중국 어린이 홀렸던 F&F…골프 시장까지 점령가능할까 [K주식, 이걸 사? 말아?]",
-      "url": "https://www.mk.co.kr/news/stock/11928456",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 17:19",
-      "title": "\"○○업종으로 피신\"…외국인·기관 러브콜 받은 종목보니",
-      "url": "https://www.hankyung.com/article/202601091694i",
-      "keywords_hit": [
-        "외국인",
-        "기관"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 16:59",
-      "title": "[포토] 현대차 7.49%상승에 코스피 4586.32로 마감",
-      "url": "https://www.hankyung.com/article/202601091929i",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 16:58",
-      "title": "'20만전자' 간다는데 왜…외국인이 싹쓸이 한 종목 따로 있었다",
-      "url": "https://www.hankyung.com/article/2026010919031",
-      "keywords_hit": [
-        "외국인"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 16:57",
-      "title": "신세계·현대百, 나란히 상승…호실적 전망에 뛰는 백화점株",
-      "url": "https://www.hankyung.com/article/2026010919001",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 16:57",
-      "title": "\"亞 하이일드 채권에 주목을\"",
-      "url": "https://www.hankyung.com/article/2026010919011",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 16:56",
-      "title": "中 판호 확대 기대에 게임주 '꿈틀'",
-      "url": "https://www.hankyung.com/article/2026010919021",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 16:55",
-      "title": "[특징주 & 리포트] '한화에어로 11% 뛰어 신고가' 등",
-      "url": "https://www.hankyung.com/article/2026010919061",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 16:53",
-      "title": "올 첫 개인용 국채 청약…미래에셋서 15일까지",
-      "url": "https://www.hankyung.com/article/2026010919051",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 16:27",
-      "title": "원화 스테이블코인 시대 개막 임박...은행권-빅테크 신경전 치열 [엠블록레터]",
-      "url": "https://www.mk.co.kr/news/stock/11928438",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 16:21",
-      "title": "한국투자액셀러레이터, 지난해 스타트업에 120억 원 규모 신규 투자 집행",
-      "url": "https://www.mk.co.kr/news/stock/11928428",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 16:12",
-      "title": "미래에셋증권, 개인투자용국채 올해 첫 청약…“가산금리 확대”",
-      "url": "https://www.mk.co.kr/news/stock/11928420",
-      "keywords_hit": [
-        "금리"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 16:01",
-      "title": "주식 초고수, 바이오·조선주에서 순환매 기회 모색",
-      "url": "https://www.mk.co.kr/news/stock/11928412",
-      "keywords_hit": [
-        "바이오"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 16:00",
-      "title": "자이온 “대중들이 블록체인을 쓰는지도 모르게 녹여낼 때 대중화될 것” [매일코인]",
-      "url": "https://www.mk.co.kr/news/stock/11928409",
-      "keywords_hit": []
     }
   ]
 }
