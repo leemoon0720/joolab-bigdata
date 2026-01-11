@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-12 08:48 KST",
+  "updated_at": "2026-01-12 08:57 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,68 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 08:56",
+      "title": "하나증권 “LG에너지솔루션, EV 출하량 감소…ESS 부문서 부진 상쇄”",
+      "url": "https://www.mk.co.kr/news/stock/11929705",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 08:56",
+      "title": "인가전 M&A KC글라스 스토킹호스에 구조조정 전문 오퍼스PE",
+      "url": "https://www.mk.co.kr/news/stock/11929702",
+      "keywords_hit": [
+        "M&A"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 08:55",
+      "title": "LG엔솔 목표가 29% 낮췄다...유진證 “EV는 부진, ESS 전환은 비용”[오늘 나온 보고서]",
+      "url": "https://www.mk.co.kr/news/stock/11929701",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 08:52",
+      "title": "주식 안해도 여기는 다 안다…코스피 5000시대에 들뜬 여의도",
+      "url": "https://www.mk.co.kr/news/stock/11929696",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 08:50",
+      "title": "코인원, 마케팅에 ‘승부수’… 의식주컴퍼니 부사장 출신 김천석 COO 선임",
+      "url": "https://www.mk.co.kr/news/stock/11929692",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 08:48",
+      "title": "\"LG에너지솔루션, 이익 눈높이 낮춰야…ESS 모멘텀은 유효\"-신영",
+      "url": "https://www.hankyung.com/article/2026011243506",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 08:39",
+      "title": "'불기둥' 코스피에 돈 몰린다…투자자예탁금 90조 돌파",
+      "url": "https://www.hankyung.com/article/2026011242847",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -210,16 +272,6 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-11 17:26",
-      "title": "\"실적 개선 시작된다\"… 비만약 ETF 반등",
-      "url": "https://www.mk.co.kr/news/stock/11929448",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-11 17:26",
       "title": "배당금 분리과세 기대 … KT 주가 이젠 달릴까",
       "url": "https://www.mk.co.kr/news/stock/11929449",
       "keywords_hit": [
@@ -233,6 +285,16 @@
       "title": "투자자 예탁금 92조 사상 최대",
       "url": "https://www.mk.co.kr/news/stock/11929450",
       "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-11 17:26",
+      "title": "\"실적 개선 시작된다\"… 비만약 ETF 반등",
+      "url": "https://www.mk.co.kr/news/stock/11929448",
+      "keywords_hit": [
+        "실적"
+      ]
     },
     {
       "source": "MK",
@@ -289,14 +351,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-11 17:17",
-      "title": "\"그래도 미장이 좋아\"… 서학개미 연초 3조원 폭풍매수",
-      "url": "https://www.mk.co.kr/news/stock/11929415",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-11 17:16",
@@ -323,57 +377,6 @@
       "keywords_hit": [
         "실적"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-11 17:14",
-      "title": "삼성전자 '개미 빚투' 2조 사상 최대",
-      "url": "https://www.hankyung.com/article/2026011137471",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-11 17:13",
-      "title": "새해 서학개미 순매수…2.8조원 또 역대 최대",
-      "url": "https://www.hankyung.com/article/2026011137481",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-11 17:06",
-      "title": "[이번주 증시 예보] TSMC 실적에 쏠린 시선 … JP모건 바이오 행사도 관심",
-      "url": "https://www.mk.co.kr/news/stock/11929385",
-      "keywords_hit": [
-        "실적",
-        "바이오"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-11 17:06",
-      "title": "이번주 머니 캘린더",
-      "url": "https://www.mk.co.kr/news/stock/11929386",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-11 10:59",
-      "title": "“트럼프가 구국의 영웅”…‘마두로 축출’ 베네수 증시 169% 폭등",
-      "url": "https://www.mk.co.kr/news/stock/11929199",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-11 10:35",
-      "title": "“제발 애국투자 합시다” 애원에도…서학개미 3조규모 폭풍매수 왜",
-      "url": "https://www.mk.co.kr/news/stock/11929179",
-      "keywords_hit": []
     }
   ]
 }
