@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-12 06:12 KST",
+  "updated_at": "2026-01-12 06:30 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 06:17",
+      "title": "비만치료제 '알약 vs 주사' 경쟁 시작…주사제, 투약 불편해도 전망 밝은 이유는",
+      "url": "https://www.hankyung.com/article/202601091473i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -367,14 +375,6 @@
       "published_at": "2026-01-10 15:08",
       "title": "러닝 열풍에 잘나가더니…'3750원→1174원' 주가 폭락 '패닉' [진영기의 찐개미 찐투자]",
       "url": "https://www.hankyung.com/article/2026010919356",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-10 08:16",
-      "title": "BoA \"트럼프, 물가 낮추기→경기민감주 베팅\" [김현석의 월스트리트나우]",
-      "url": "https://www.hankyung.com/article/202601102363i",
       "keywords_hit": []
     }
   ]
