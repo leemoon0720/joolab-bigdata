@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-11 22:24 KST",
+  "updated_at": "2026-01-11 22:46 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-11 22:34",
+      "title": "“은행 통장에 돈 썩게두면 바보죠”…주식투자 대기자금 무려 92조원",
+      "url": "https://www.mk.co.kr/news/stock/11929618",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -68,6 +76,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-11 17:26",
+      "title": "\"실적 개선 시작된다\"… 비만약 ETF 반등",
+      "url": "https://www.mk.co.kr/news/stock/11929448",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-11 17:26",
       "title": "배당금 분리과세 기대 … KT 주가 이젠 달릴까",
       "url": "https://www.mk.co.kr/news/stock/11929449",
       "keywords_hit": [
@@ -81,16 +99,6 @@
       "title": "투자자 예탁금 92조 사상 최대",
       "url": "https://www.mk.co.kr/news/stock/11929450",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-11 17:26",
-      "title": "\"실적 개선 시작된다\"… 비만약 ETF 반등",
-      "url": "https://www.mk.co.kr/news/stock/11929448",
-      "keywords_hit": [
-        "실적"
-      ]
     },
     {
       "source": "MK",
@@ -365,14 +373,6 @@
       "keywords_hit": [
         "적자"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 20:30",
-      "title": "이재명 “한국, K자형 성장이란 중대한 도전 직면” 양극화 심화 우려",
-      "url": "https://www.mk.co.kr/news/economy/11928674",
-      "keywords_hit": []
     }
   ]
 }
