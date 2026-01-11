@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-11 14:59 KST",
+  "updated_at": "2026-01-11 15:42 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-11 15:23",
+      "title": "'큰손'들 삼전 살때, '고수'들은 바이오 담았다…엇갈린 선택",
+      "url": "https://www.hankyung.com/article/202601113563i",
+      "keywords_hit": [
+        "바이오"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -320,14 +330,6 @@
       "published_at": "2026-01-09 16:53",
       "title": "올 첫 개인용 국채 청약…미래에셋서 15일까지",
       "url": "https://www.hankyung.com/article/2026010919051",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-09 16:49",
-      "title": "구리값 뛰자 '꿩 대신 닭'…알루미늄株 알코아 날개",
-      "url": "https://www.hankyung.com/article/2026010918551",
       "keywords_hit": []
     },
     {
