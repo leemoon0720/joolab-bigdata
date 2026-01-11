@@ -329,3 +329,41 @@ a.card.link-card:hover{border-color: rgba(15,23,42,.22); background: rgba(248,25
 .checks{display:flex; flex-direction:column; gap:8px;}
 .ck{display:flex; gap:8px; align-items:center; font-weight:850; color:rgba(15,23,42,.82);}
 .ck input{width:16px; height:16px;}
+
+/* Meme / thumbs */
+.mini-thumb{
+  width:46px;
+  height:46px;
+  border-radius:12px;
+  object-fit:cover;
+  border:1px solid rgba(15,23,42,.12);
+  background:rgba(15,23,42,.04);
+  margin-right:10px;
+}
+
+.meme-wrap{
+  padding:18px;
+  border-radius:14px;
+  background:rgba(2,6,23,.92);
+  border:1px solid rgba(148,163,184,.25);
+}
+
+.meme-wrap .meme-title{
+  font-size:18px;
+  font-weight:800;
+  color:#e5e7eb;
+  margin:0 0 10px 0;
+}
+
+.meme-wrap .meme-meta{
+  color:rgba(226,232,240,.75);
+  font-size:12px;
+  margin-top:10px;
+}
+
+.meme-wrap img{
+  width:100%;
+  height:auto;
+  border-radius:14px;
+  border:1px solid rgba(148,163,184,.18);
+}

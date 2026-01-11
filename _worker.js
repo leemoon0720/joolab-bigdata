@@ -559,8 +559,11 @@ async function handlePostsCreate(request, env, baseUrl){
   const title = String(body.title||'').trim();
   const date_key = String(body.date_key||'').trim();
   const html = String(body.html||'');
+  const thumb = String(body.thumb||'');
 
-  const allowed = ['strong','accum','suspicious','perf'];
+  const is_sample = Boolean(body.is_sample);
+
+  const allowed = ['strong','accum','suspicious','perf','meme'];
   if(!allowed.includes(category)) return jsonResp({ok:false, error:'BAD_CATEGORY'}, 200);
   if(!['KR','US'].includes(region)) return jsonResp({ok:false, error:'BAD_REGION'}, 200);
   if(!title || html.length < 10) return jsonResp({ok:false, error:'BAD_PAYLOAD'}, 200);
@@ -569,9 +572,14 @@ async function handlePostsCreate(request, env, baseUrl){
   const ts = compactTs(new Date());
   const created_at = new Date().toISOString();
 
-  const meta = { id, category, region, title, date_key, created_at, created_ts: ts, by: admin.email || admin.user_id || 'admin' };
+  const meta = { id, category, region, title, date_key, thumb, created_at, created_ts: ts, is_sample, by: admin.email || admin.user_id || 'admin' };
 
-  const metaKey = `posts/meta/${category}/${region}/${ts}_${id}.json`;
+    if(thumb && thumb.length > 200000) {
+    // thumbnail too large
+    meta.thumb = '';
+  }
+
+const metaKey = `posts/meta/${category}/${region}/${ts}_${id}.json`;
   const idKey = `posts/id/${id}.json`;
   const htmlKey = `posts/html/${id}.html`;
 
@@ -585,6 +593,9 @@ async function handlePostsCreate(request, env, baseUrl){
   }
   if(category === 'perf'){
     await env.JLAB_KV.put('posts/latest/perf.json', JSON.stringify(meta));
+  }
+  if(category === 'meme'){
+    await env.JLAB_KV.put('posts/latest/meme.json', JSON.stringify(meta));
   }
 
   return jsonResp({ok:true, id, meta}, 200);
@@ -612,7 +623,9 @@ async function handlePostsList(request, env){
   const region = String(url.searchParams.get('region')||'').trim().toUpperCase();
   const limit = Math.min(Math.max(parseInt(url.searchParams.get('limit')||'30',10)||30, 1), 80);
 
-  const allowed = ['strong','accum','suspicious','perf'];
+  const sampleOnly = String(url.searchParams.get('sample')||'').trim() === '1';
+
+  const allowed = ['strong','accum','suspicious','perf','meme'];
   if(!allowed.includes(category)) return jsonResp({ok:false, error:'BAD_CATEGORY', items:[]}, 200);
 
   let items=[];
@@ -625,6 +638,8 @@ async function handlePostsList(request, env){
     items = a.concat(b);
   }
 
+  if(sampleOnly){ items = (items||[]).filter(x=>!!(x && x.is_sample)); }
+
   items.sort((x,y)=> String(y.created_ts||'').localeCompare(String(x.created_ts||'')));
   items = items.slice(0, limit);
 
@@ -636,7 +651,7 @@ async function handlePostsLatest(request, env){
   if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
   const url = new URL(request.url);
   const scope = String(url.searchParams.get('scope')||'bigdata').trim();
-  const key = scope === 'perf' ? 'posts/latest/perf.json' : 'posts/latest/bigdata.json';
+  const key = (scope === 'perf') ? 'posts/latest/perf.json' : (scope === 'meme') ? 'posts/latest/meme.json' : 'posts/latest/bigdata.json';
   const v = await env.JLAB_KV.get(key);
   if(!v) return jsonResp({ok:false, error:'EMPTY'}, 200);
   try{

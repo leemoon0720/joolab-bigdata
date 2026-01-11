@@ -1,6 +1,19 @@
 (function(){
   const byId = (id)=>document.getElementById(id);
   const qsa = (sel)=>Array.from(document.querySelectorAll(sel));
+  // HTML escape (XSS-safe)
+  function esc(v){
+    const str = (v === null || v === undefined) ? '' : String(v);
+    return str.replace(/[&<>"'`]/g, (ch)=>({
+      '&':'&amp;',
+      '<':'&lt;',
+      '>':'&gt;',
+      '"':'&quot;',
+      "'":'&#39;',
+      '`':'&#96;'
+    }[ch]));
+  }
+
 
   function setActiveNav(){
     const path = window.location.pathname;
@@ -9,6 +22,7 @@
       const map = {
         notice: /^\/notice\/?/,
         news: /^\/news\/?/,
+        sample: /^\/sample\/?/,
         strong: /^\/strong\/?/,
         training: /^\/training\/?/,
         data: /^\/data\/?/,
@@ -457,16 +471,21 @@
   function renderMetaItem(meta){
     const title = meta.title || '(제목 없음)';
     const sub = `${meta.region||''} · ${meta.category||''} · ${fmtTime(meta.created_at||'')}`;
+    const thumb = (meta && meta.thumb) ? String(meta.thumb) : '';
     return `
       <div class="item">
         <div>
           <div class="title">${esc(title)}</div>
           <div class="meta">${esc(sub)}</div>
         </div>
-        <div class="right"><a href="/post/?id=${encodeURIComponent(meta.id)}">보기</a></div>
+        <div class="right">
+          ${thumb ? `<img class="mini-thumb" src="${esc(thumb)}" alt="thumb">` : ``}
+          <a href="/post/?id=${encodeURIComponent(meta.id)}">보기</a>
+        </div>
       </div>
     `;
   }
+}
 
   function applyChipToggle(groupSel, onAttr, onValue){
     qsa(groupSel).forEach(btn=>{
@@ -640,7 +659,50 @@
   }
 
 
-  async function hydrateCategoryPage(){
+  
+  async function hydrateSampleRoom(){
+    const list = byId('sample-list');
+    if(!list) return;
+
+    let cat = 'accum';
+    let region = 'KR';
+
+    const btnCat = qsa('[data-sample-cat]');
+    const btnReg = qsa('[data-sample-region]');
+
+    function setCat(v){
+      cat = v;
+      btnCat.forEach(b=>b.classList.toggle('is-on', b.getAttribute('data-sample-cat')===cat));
+      load();
+    }
+    function setRegion(v){
+      region = v;
+      btnReg.forEach(b=>b.classList.toggle('is-on', b.getAttribute('data-sample-region')===region));
+      load();
+    }
+
+    btnCat.forEach(b=>b.addEventListener('click', ()=>setCat(b.getAttribute('data-sample-cat'))));
+    btnReg.forEach(b=>b.addEventListener('click', ()=>setRegion(b.getAttribute('data-sample-region'))));
+
+    async function load(){
+      list.innerHTML = `<div class="small">로딩 중...</div>`;
+      try{
+        const j = await fetchJSON(`/api/posts/list?category=${encodeURIComponent(cat)}&region=${encodeURIComponent(region)}&limit=30&sample=1`);
+        const items = (j.items||[]);
+        const upd = byId('sample-badge-upd');
+        const cnt = byId('sample-badge-count');
+        if(upd) upd.textContent = `UPD: ${fmtTime(j.updated_at||'')}`;
+        if(cnt) cnt.textContent = `${items.length}개`;
+        list.innerHTML = items.length ? items.map(renderMetaItem).join('') : `<div class="item"><div><div class="title">샘플이 없습니다.</div><div class="meta">관리자가 업로드 시 ‘샘플 공개’를 체크하면 여기에 노출됩니다.</div></div></div>`;
+      }catch(e){
+        list.innerHTML = `<div class="item"><div><div class="title">샘플을 불러오지 못했습니다.</div><div class="meta">KV 설정 확인</div></div></div>`;
+      }
+    }
+
+    load();
+  }
+
+async function hydrateCategoryPage(){
     const list = byId('cat-list');
     if(!list) return;
     const cat = (window.__CAT_KEY__ || '').trim();
@@ -705,11 +767,14 @@
         const top30 = rows.slice(0,30);
         const html = buildMrankHtml(title, top10, top30, rows);
 
+        const is_sample = !!byId('bd-ck-sample')?.checked;
+
         const res = await postJSON('/api/posts/create', {
           category: st.category,
           region: st.region,
           title,
           date_key,
+          is_sample,
           html
         });
 
@@ -724,6 +789,7 @@
         btn.disabled = false;
         btn.textContent = '업로드';
         file.value = '';
+        const ck = byId('bd-ck-sample'); if(ck) ck.checked = false;
       }
     });
   }
@@ -1350,6 +1416,165 @@ tr:nth-child(even) td{ background: rgba(255,255,255,0.02); }
   }
 
 
+
+  async function hydrateMemeBoard(){
+    const list = byId('meme-list');
+    if(!list) return;
+
+    const badgeUpd = byId('meme-badge-upd');
+    const badgeCount = byId('meme-badge-count');
+
+    async function load(){
+      try{
+        const j = await fetchJSON('/api/posts/list?category=meme&region=KR&limit=30');
+        const items = (j.items||[]);
+        if(badgeUpd) badgeUpd.textContent = `UPD: ${items[0] && items[0].created_at ? fmtTime(items[0].created_at) : '-'}`;
+        if(badgeCount) badgeCount.textContent = `LIVE: ${items.length}`;
+        list.innerHTML = items.length ? items.map(renderMetaItem).join('') : `<div class="item"><div><div class="title">등록된 짤이 없습니다.</div><div class="meta">관리자 업로드 후 표시됩니다.</div></div></div>`;
+      }catch(e){
+        list.innerHTML = `<div class="item"><div><div class="title">목록을 불러오지 못했습니다.</div><div class="meta">KV 설정 확인</div></div></div>`;
+      }
+    }
+
+    // admin upload UI
+    try{
+      const me = await fetchJSON('/api/auth/me');
+      const isAdmin = detectIsAdmin(me);
+      const box = byId('meme-admin-actions');
+      if(box) box.style.display = isAdmin ? '' : 'none';
+      if(isAdmin){
+        bindMemeUpload(load);
+      }
+    }catch(e){}
+
+    await load();
+  }
+
+  function bindMemeUpload(onDone){
+    const btn = byId('meme-btn-upload');
+    const file = byId('meme-file');
+    const titleInput = byId('meme-title');
+    if(!btn || !file) return;
+
+    btn.addEventListener('click', ()=> file.click());
+
+    file.addEventListener('change', async ()=>{
+      const f = file.files && file.files[0];
+      if(!f) return;
+
+      btn.disabled = true;
+      btn.textContent = '업로드 중...';
+
+      try{
+        const todayKey = guessDateKey(new Date().toISOString().slice(0,10));
+        const t = (titleInput && titleInput.value ? titleInput.value : '').trim() || (f.name || '웃긴짤').replace(/\.[^/.]+$/, '');
+        const full = await imageToDataUrlResized(f, 1200, 0.86);
+        const thumb = await imageToDataUrlResized(f, 320, 0.82);
+
+        const html = buildMemeHtml(t, full);
+
+        const payload = {
+          category: 'meme',
+          region: 'KR',
+          title: `웃긴짤 ${todayKey} · ${t}`,
+          date_key: todayKey,
+          html,
+          thumb
+        };
+
+        const res = await postJSON('/api/posts/create', payload);
+        if(res && res.ok){
+          if(typeof onDone === 'function') await onDone();
+          window.location.href = `/post/?id=${encodeURIComponent(res.id)}`;
+        }else{
+          alert('업로드 실패: ' + (res.error||''));
+        }
+      }catch(e){
+        alert('업로드 실패: ' + String(e && e.message ? e.message : e));
+      }finally{
+        btn.disabled = false;
+        btn.textContent = '짤 업로드';
+        file.value = '';
+      }
+    });
+  }
+
+  function buildMemeHtml(title, imgDataUrl){
+    const safeTitle = esc(title||'');
+    const now = new Date();
+    const stamp = now.toISOString().replace('T',' ').slice(0,19);
+    return `
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>${safeTitle}</title>
+<style>
+  body{ margin:0; font-family:Pretendard,system-ui,-apple-system,Segoe UI,Roboto,'Noto Sans KR',sans-serif; background:#0b1220; color:#e5e7eb; }
+  .wrap{ max-width:980px; margin:0 auto; padding:18px; }
+  .card{ background:rgba(2,6,23,.92); border:1px solid rgba(148,163,184,.25); border-radius:16px; padding:16px; }
+  h1{ font-size:18px; margin:0 0 10px 0; }
+  img{ width:100%; height:auto; border-radius:14px; border:1px solid rgba(148,163,184,.18); }
+  .meta{ margin-top:10px; font-size:12px; color:rgba(226,232,240,.75); display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>${safeTitle}</h1>
+      <img src="${esc(imgDataUrl)}" alt="meme">
+      <div class="meta">
+        <span>업로드: ${esc(stamp)}</span>
+        <span>주랩 웃긴짤</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+`;
+  }
+
+  async function imageToDataUrlResized(file, maxW, quality){
+    const dataUrl = await readFileAsDataUrl(file);
+    const img = await loadImage(dataUrl);
+    const w = img.naturalWidth || img.width;
+    const h = img.naturalHeight || img.height;
+    const scale = Math.min(1, maxW / Math.max(1, w));
+    const nw = Math.max(1, Math.round(w * scale));
+    const nh = Math.max(1, Math.round(h * scale));
+
+    const canvas = document.createElement('canvas');
+    canvas.width = nw;
+    canvas.height = nh;
+    const ctx = canvas.getContext('2d');
+    ctx.imageSmoothingEnabled = true;
+    ctx.imageSmoothingQuality = 'high';
+    ctx.drawImage(img, 0, 0, nw, nh);
+
+    // Prefer jpeg to reduce size
+    const mime = 'image/jpeg';
+    return canvas.toDataURL(mime, quality || 0.85);
+  }
+
+  function readFileAsDataUrl(file){
+    return new Promise((resolve, reject)=>{
+      const r = new FileReader();
+      r.onload = ()=> resolve(String(r.result||''));
+      r.onerror = ()=> reject(new Error('FILE_READ_FAIL'));
+      r.readAsDataURL(file);
+    });
+  }
+
+  function loadImage(src){
+    return new Promise((resolve, reject)=>{
+      const img = new Image();
+      img.onload = ()=> resolve(img);
+      img.onerror = ()=> reject(new Error('IMG_LOAD_FAIL'));
+      img.src = src;
+    });
+  }
+
 document.addEventListener('DOMContentLoaded', ()=>{
     setActiveNav();
     initTickerSearch();
@@ -1363,6 +1588,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
     hydrateBigdataCenter();
     hydratePerformance();
     hydrateCategoryPage();
+    hydrateSampleRoom();
+    hydrateMemeBoard();
     hydratePost();
     bindSignupRequest();
     bindSubscribeForm();

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>성과표 | 주랩</title>
+  <title>웃긴짤 | 주랩</title>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@latest/dist/web/variable/pretendardvariable.css">
   <link rel="stylesheet" href="/assets/app.css"/>
@@ -11,22 +11,18 @@
 <body>
 <div class="topbar">
   <div class="container topbar-inner">
-    <a class="brand" href="/">
-      <div class="brand-badge">JL</div>
-      <div>
-        <div class="brand-title">주랩 빅데이터 센터</div>
-        <div class="brand-sub">데이터 · 성과 · 뉴스</div>
-      </div>
-    </a>
+    <a class="brand" href="/"><span class="logo">J</span><span class="name">주랩</span></a>
     <nav class="nav">
+      <a href="/notice/" data-nav="notice">공지</a>
       <a href="/news/" data-nav="news">뉴스센터</a>
       <a href="/data/" data-nav="data">빅데이터</a>
       <a href="/sample/" data-nav="sample">샘플자료실</a>
       <a href="/performance/" data-nav="performance">성과표</a>
       <a href="/game/" data-nav="game">게임</a>
       <a href="/meme/" data-nav="meme">웃긴짤</a>
-      <a href="/subscribe/" data-nav="subscribe">월구독</a>
-      <a href="/account/" data-nav="account">회원</a>
+      <a href="/subscribe/" data-nav="subscribe">구독</a>
+      <a href="/login/" data-nav="login">로그인</a>
+      <a href="/signup/" data-nav="signup">회원가입</a>
       <a href="/ops/" data-nav="ops">운영</a>
     </nav>
   </div>
@@ -36,29 +32,33 @@
   <div class="container">
 
 <section class="hero hero-compact">
-  <h1>성과표</h1>
-  <p>업로드된 성과표가 목록에 누적되고, 클릭하면 HTML 리포트로 표시됩니다.</p>
+  <h1>웃긴짤</h1>
+  <p>짤을 올리고, 목록에 누적됩니다. 클릭하면 크게 표시됩니다.</p>
   <div class="hero-row">
     <div class="statusbar">
-      <span class="badge upd" id="perf-badge-upd">UPD: -</span>
-      <span class="badge live" id="perf-badge-count">LIVE</span>
+      <span class="badge upd" id="meme-badge-upd">UPD: -</span>
+      <span class="badge live" id="meme-badge-count">LIVE</span>
     </div>
-    <div class="hero-actions" id="perf-admin-actions" style="display:none;">
-      <button class="btn primary" id="perf-btn-upload" type="button">성과표 업로드</button>
-      <input id="perf-file" type="file" accept=".xlsx,.xls,.csv" style="display:none;">
+
+    <div class="hero-actions" id="meme-admin-actions" style="display:none; gap:10px;">
+      <input class="input" id="meme-title" placeholder="제목(선택)" style="max-width:260px;">
+      <button class="btn primary" id="meme-btn-upload" type="button">짤 업로드</button>
+      <input id="meme-file" type="file" accept="image/*" style="display:none;">
     </div>
   </div>
 </section>
 
 <div class="grid">
   <div class="card" style="grid-column: span 12;">
-    <div class="card-top"><h3>목록</h3><span class="badge">LIST</span></div>
-    <div id="perf-list" class="list"></div>
+    <div class="card-top"><h3>목록</h3><span class="badge">MEME</span></div>
+    <div id="meme-list" class="list"></div>
+    <div class="small" style="margin-top:10px;">※ 이미지는 자동으로 리사이즈/압축되어 저장됩니다.</div>
   </div>
 </div>
 
   </div>
-<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+</main>
+
 <script src="/assets/app.js"></script>
 <script src="/assets/member.js"></script>
 </body>
