@@ -16,18 +16,19 @@
       <div class="brand-badge">JL</div>
       <div>
         <div class="brand-title">주랩 빅데이터 센터</div>
-        <div class="brand-sub">한국 증권 뉴스 · 데이터 아카이브</div>
+        <div class="brand-sub">뉴스 · 빅데이터 · 성과 · 게임</div>
       </div>
     </a>
     <nav class="nav">
-      <a href="/notice/" data-nav="notice">공지사항</a>
+      <a href="/notice/" data-nav="notice">공지</a>
       <a href="/news/" data-nav="news">뉴스센터</a>
-      <a href="/strong/" data-nav="strong">강한종목</a>
-      <a href="/training/" data-nav="training">트레이닝</a>
       <a href="/data/" data-nav="data">빅데이터</a>
-      <a href="/subscribe/" data-nav="subscribe">월구독</a>
-      <a href="/account/" data-nav="account">회원</a>
-      <a href="/ops/" data-nav="ops">운영센터</a>
+      <a href="/performance/" data-nav="performance">성과표</a>
+      <a href="/game/" data-nav="game">게임</a>
+      <a href="/subscribe/" data-nav="subscribe">구독</a>
+      <a href="/login/" data-nav="login">로그인</a>
+      <a href="/signup/" data-nav="signup">회원가입</a>
+      <a href="/ops/" data-nav="ops">운영</a>
     </nav>
   </div>
 </div>
@@ -35,132 +36,91 @@
 <main class="main">
   <div class="container">
 
-<section class="hero">
-  <h1>주랩 빅데이터 센터</h1>
-  <div class="market-strip" id="market-strip">
-    <a class="mchip" data-key="kospi" data-sym="^KS11" href="https://finance.naver.com/sise/sise_index.nhn?code=KOSPI" target="_blank" rel="noopener">
-      <span class="mname">KOSPI</span>
-      <span class="mval" id="mval-kospi">-</span>
-      <span class="mchg" id="mchg-kospi"></span>
-    </a>
-    <a class="mchip" data-key="kosdaq" data-sym="^KQ11" href="https://finance.naver.com/sise/sise_index.nhn?code=KOSDAQ" target="_blank" rel="noopener">
-      <span class="mname">KOSDAQ</span>
-      <span class="mval" id="mval-kosdaq">-</span>
-      <span class="mchg" id="mchg-kosdaq"></span>
-    </a>
-    <a class="mchip" data-key="usdkrw" data-sym="USDKRW=X" href="https://finance.naver.com/marketindex/exchangeDetail.nhn?marketindexCd=FX_USDKRW" target="_blank" rel="noopener">
-      <span class="mname">USD/KRW</span>
-      <span class="mval" id="mval-usdkrw">-</span>
-      <span class="mchg" id="mchg-usdkrw"></span>
-    </a>
-    <a class="mchip" data-key="dow" data-sym="^DJI" href="https://finance.naver.com/world/sise.nhn?symbol=DJI%40DJI" target="_blank" rel="noopener">
-      <span class="mname">미국증시</span>
-      <span class="mval" id="mval-dow">-</span>
-      <span class="mchg" id="mchg-dow"></span>
-    </a>
-    <a class="mchip" data-key="nasdaq" data-sym="^IXIC" href="https://finance.naver.com/world/sise.nhn?symbol=NAS%40IXIC" target="_blank" rel="noopener">
-      <span class="mname">NASDAQ</span>
-      <span class="mval" id="mval-nasdaq">-</span>
-      <span class="mchg" id="mchg-nasdaq"></span>
-    </a>
-    <a class="mchip" data-key="sp500" data-sym="^GSPC" href="https://finance.naver.com/world/sise.naver?symbol=SPI%40SPX" target="_blank" rel="noopener">
-      <span class="mname">S&P500</span>
-      <span class="mval" id="mval-sp500">-</span>
-      <span class="mchg" id="mchg-sp500"></span>
-    </a>
+    <section class="hero hero-compact">
+      <div class="hero-head">
+        <h1>한 화면에서 “맛보기”만.</h1>
+        <p>첫 화면은 짧게, 센터로 들어가면 길게 봅니다.</p>
+      </div>
+
+      <div class="hero-row">
+        <div class="statusbar">
+          <span class="badge live">LIVE</span>
+          <span class="badge upd" id="home-badge-news">NEWS: -</span>
+          <span class="badge upd" id="home-badge-bigdata">BIGDATA: -</span>
+        </div>
+      </div>
+
+      <div class="market-strip market-strip-compact" id="market-strip">
+        <a class="mchip" data-key="kospi" data-sym="^KS11" href="https://finance.naver.com/sise/sise_index.nhn?code=KOSPI" target="_blank" rel="noopener">
+          <span class="mname">KOSPI</span>
+          <span class="mval" id="mval-kospi">-</span>
+          <span class="mchg" id="mchg-kospi"></span>
+        </a>
+        <a class="mchip" data-key="kosdaq" data-sym="^KQ11" href="https://finance.naver.com/sise/sise_index.nhn?code=KOSDAQ" target="_blank" rel="noopener">
+          <span class="mname">KOSDAQ</span>
+          <span class="mval" id="mval-kosdaq">-</span>
+          <span class="mchg" id="mchg-kosdaq"></span>
+        </a>
+        <a class="mchip" data-key="usdkrw" data-sym="USDKRW=X" href="https://finance.naver.com/marketindex/exchangeDetail.nhn?marketindexCd=FX_USDKRW" target="_blank" rel="noopener">
+          <span class="mname">USD/KRW</span>
+          <span class="mval" id="mval-usdkrw">-</span>
+          <span class="mchg" id="mchg-usdkrw"></span>
+        </a>
+      </div>
+    </section>
+
+    <div class="grid home-grid">
+      <div class="card home-card" style="grid-column: span 6;">
+        <div class="card-top"><h3>뉴스 맛보기</h3><span class="badge upd" id="home-news-upd">UPD</span></div>
+        <div class="small" id="home-news-meta">-</div>
+        <div id="home-news" class="list list-compact"></div>
+        <div class="card-cta"><a href="/news/">더보기</a></div>
+      </div>
+
+      <div class="card home-card" style="grid-column: span 6;">
+        <div class="card-top"><h3>테마 TOP</h3><span class="badge">TAGS</span></div>
+        <div class="small">제목/요약 키워드 기반</div>
+        <div id="home-themes" class="chips chips-compact"></div>
+        <div class="card-cta"><a href="/news/">뉴스센터로</a></div>
+      </div>
+
+      <div class="card home-card" style="grid-column: span 6;">
+        <div class="card-top"><h3>빅데이터 최신 1건</h3><span class="badge live">POST</span></div>
+        <div id="home-bigdata" class="list list-compact"></div>
+        <div class="card-cta"><a href="/data/">더보기</a></div>
+      </div>
+
+      <div class="card home-card" style="grid-column: span 6;">
+        <div class="card-top"><h3>성과표</h3><span class="badge" id="home-perf-badge">LIST</span></div>
+        <div id="home-perf" class="list list-compact"></div>
+        <div class="card-cta"><a href="/performance/">더보기</a></div>
+      </div>
+
+      <div class="card home-card" style="grid-column: span 6;">
+        <div class="card-top"><h3>유튜브</h3><span class="badge live">LATEST</span></div>
+        <div id="home-youtube" class="yt-card"></div>
+        <div class="card-cta"><a href="https://www.youtube.com/channel/UC85ROrNcbOFDOeC5b0RaQMQ" target="_blank" rel="noopener">채널로</a></div>
+      </div>
+
+      <div class="card home-card" style="grid-column: span 6;">
+        <div class="card-top"><h3>게임</h3><span class="badge upd">FUN</span></div>
+        <div class="mini-grid">
+          <a class="mini-tile" href="/training/">
+            <div class="mini-ttl">차트게임</div>
+            <div class="mini-sub">패턴 퀴즈</div>
+          </a>
+          <a class="mini-tile" href="/game/">
+            <div class="mini-ttl">미니게임</div>
+            <div class="mini-sub">추가 예정</div>
+          </a>
+        </div>
+        <div class="card-cta"><a href="/game/">더보기</a></div>
+      </div>
+    </div>
+
   </div>
-  <div class="hero-row">
-    <div class="statusbar">
-      <span class="badge live">LIVE</span>
-      <span class="badge upd" id="badge-upd">UPD: -</span>
-      <span class="badge wait" id="badge-status">대기</span>
-    </div>
-    
-  </div>
-</section>
-    
-
-    <div class="section-title">
-      <h2>최신 뉴스</h2>
-      </div>
-    <div id="news-preview" class="list"></div>
-
-  
-
-    <div class="grid">
-      <a class="card link-card" style="grid-column: span 4;" href="/notice/">
-        <div class="card-top"><h3>공지</h3><span class="badge upd">UPD</span></div>
-      </a>
-
-      <a class="card link-card" style="grid-column: span 4;" href="/news/">
-        <div class="card-top"><h3>뉴스센터</h3><span class="badge live">LIVE</span></div>
-      </a>
-
-      <a class="card link-card" style="grid-column: span 4;" href="/data/">
-        <div class="card-top"><h3>빅데이터센터</h3><span class="badge live">LIVE</span></div>
-      </a>
-
-      <a class="card link-card" style="grid-column: span 6;" href="/training/">
-        <div class="card-top"><h3>트레이닝센터</h3><span class="badge upd">UPD</span></div>
-      </a>
-
-      <a class="card link-card" style="grid-column: span 6;" href="/ops/">
-        <div class="card-top"><h3>운영센터</h3><span class="badge upd">UPD</span></div>
-      </a>
-    </div>
-
-    
-
-    <div class="section-title">
-      <h2>오늘 스냅샷</h2>
-      
-    </div>
-
-    <div class="grid">
-      <div class="kpi" style="grid-column: span 3;">
-        <div class="label">업데이트 기준</div>
-        <div class="value" id="kpi-upd">-</div>
-        <div class="sub">/news/latest.json 기준</div>
-      </div>
-      <div class="kpi" style="grid-column: span 3;">
-        <div class="label">오늘 뉴스 수집</div>
-        <div class="value" id="kpi-news">-</div>
-        <div class="sub">최대 50건 표시</div>
-      </div>
-      <div class="kpi" style="grid-column: span 3;">
-        <div class="label">데이터센터 상태</div>
-        <div class="value">LIVE</div>
-        <div class="sub">강한/매집/수상해 준비중 포함</div>
-      </div>
-      <div class="kpi" style="grid-column: span 3;">
-        <div class="label">트레이닝센터</div>
-        <div class="value">UPD</div>
-        <div class="sub">차트게임 틀부터 확장</div>
-      </div>
-    </div>
-
-    </div>
 </main>
 
-  <div class="footer container">
-    <div class="foot-links">
-      <a href="/subscribe/">월구독</a>
-      <span class="dot">·</span>
-      <a href="/terms/">이용약관</a>
-      <span class="dot">·</span>
-      <a href="/privacy/">개인정보처리방침</a>
-      <span class="dot">·</span>
-      <a href="/refund/">환불·해지 규정</a>
-      <span class="dot">·</span>
-      <a href="/account/">회원/내 구독</a>
-    </div>
-    <div class="small">
-      상호: <b>웰니스컴퍼니</b> | 대표: <b>박혜민</b> | 사업자등록번호: <b>121-41-51435</b><br>
-      주소: 서울특별시 강동구 천호대로 1240 (둔촌동, 프라자아파트)<br>
-      고객센터: <a href="tel:01049513154">010-4951-3154</a> | 이메일: <a href="mailto:2zshot@naver.com">2zshot@naver.com</a>
-    </div>
-    <div class="small">© JOOLAB · Bigdata Center</div>
-  </div>
 <script src="/assets/app.js"></script>
 </body>
 </html>

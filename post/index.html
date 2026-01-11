@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>강한종목 | 주랩</title>
+  <title>리포트 | 주랩</title>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@latest/dist/web/variable/pretendardvariable.css">
   <link rel="stylesheet" href="/assets/app.css"/>
@@ -34,42 +34,23 @@
   <div class="container">
 
 <section class="hero hero-compact">
-  <h1>강한종목</h1>
-  <p>업로드하면 목록에 누적되고, 클릭하면 HTML 내보내기 화면이 그대로 뜹니다.</p>
-
+  <h1 id="post-title">리포트</h1>
+  <p id="post-sub">-</p>
   <div class="hero-row">
     <div class="statusbar">
-      <span class="badge live">LIVE</span>
-      <span class="badge upd" id="cat-badge-upd">UPD: -</span>
-      <span class="badge" id="cat-badge-count">-</span>
-    </div>
-
-    <div class="hero-actions" id="cat-admin-actions" style="display:none;">
-      <button class="btn primary" id="cat-btn-upload" type="button">업로드</button>
-      <input id="cat-file" type="file" accept=".xlsx,.xls,.csv" style="display:none;">
+      <span class="badge upd" id="post-upd">UPD: -</span>
+      <span class="badge live" id="post-kind">HTML</span>
     </div>
   </div>
 </section>
 
 <div class="grid">
-  <div class="card" style="grid-column: span 12;">
-    <div class="card-top"><h3>국내/해외</h3><span class="badge">REGION</span></div>
-    <div class="chips">
-      <button class="chip chip-toggle is-on" data-cat-region="KR" type="button">국내</button>
-      <button class="chip chip-toggle" data-cat-region="US" type="button">해외</button>
-    </div>
-  </div>
-
-  <div class="card" style="grid-column: span 12;">
-    <div class="card-top"><h3>목록</h3><span class="badge">LIST</span></div>
-    <div id="cat-list" class="list"></div>
+  <div class="card" style="grid-column: span 12; padding:0;">
+    <iframe id="post-frame" title="report" style="width:100%; height:78vh; border:0; border-radius:12px; background:#0b1220;"></iframe>
   </div>
 </div>
 
-<script>window.__CAT_KEY__ = "strong";</script>
-
   </div>
-<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
 <script src="/assets/app.js"></script>
 <script src="/assets/member.js"></script>
 </body>

@@ -538,6 +538,181 @@ async function handleAdminPopupSave(request, env, baseUrl) {
   return jsonResp({ ok:true, updated_at: safe.updated_at }, 200);
 }
 
+
+// ==============================
+// Posts (KV storage)
+// ==============================
+function compactTs(d=new Date()){
+  const pad=(n)=>String(n).padStart(2,'0');
+  return String(d.getUTCFullYear()) + pad(d.getUTCMonth()+1) + pad(d.getUTCDate()) +
+         pad(d.getUTCHours()) + pad(d.getUTCMinutes()) + pad(d.getUTCSeconds());
+}
+
+async function handlePostsCreate(request, env, baseUrl){
+  const admin = await requireAdmin(request, env, baseUrl);
+  if(!admin) return jsonResp({ok:false, error:'FORBIDDEN'}, 403);
+  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
+
+  const body = await request.json().catch(()=> ({}));
+  const category = String(body.category||'').trim();
+  const region = String(body.region||'').trim().toUpperCase();
+  const title = String(body.title||'').trim();
+  const date_key = String(body.date_key||'').trim();
+  const html = String(body.html||'');
+
+  const allowed = ['strong','accum','suspicious','perf'];
+  if(!allowed.includes(category)) return jsonResp({ok:false, error:'BAD_CATEGORY'}, 200);
+  if(!['KR','US'].includes(region)) return jsonResp({ok:false, error:'BAD_REGION'}, 200);
+  if(!title || html.length < 10) return jsonResp({ok:false, error:'BAD_PAYLOAD'}, 200);
+
+  const id = (crypto && crypto.randomUUID) ? crypto.randomUUID() : String(Math.random()).slice(2);
+  const ts = compactTs(new Date());
+  const created_at = new Date().toISOString();
+
+  const meta = { id, category, region, title, date_key, created_at, created_ts: ts, by: admin.email || admin.user_id || 'admin' };
+
+  const metaKey = `posts/meta/${category}/${region}/${ts}_${id}.json`;
+  const idKey = `posts/id/${id}.json`;
+  const htmlKey = `posts/html/${id}.html`;
+
+  await env.JLAB_KV.put(metaKey, JSON.stringify(meta));
+  await env.JLAB_KV.put(idKey, JSON.stringify(meta));
+  await env.JLAB_KV.put(htmlKey, html);
+
+  // latest pointers
+  if(['strong','accum','suspicious'].includes(category)){
+    await env.JLAB_KV.put('posts/latest/bigdata.json', JSON.stringify(meta));
+  }
+  if(category === 'perf'){
+    await env.JLAB_KV.put('posts/latest/perf.json', JSON.stringify(meta));
+  }
+
+  return jsonResp({ok:true, id, meta}, 200);
+}
+
+async function _listMetaByPrefix(env, prefix, limit){
+  const out=[];
+  const listed = await env.JLAB_KV.list({prefix, limit: limit || 50});
+  for(const k of (listed.keys||[])){
+    try{
+      const v = await env.JLAB_KV.get(k.name);
+      if(v){
+        const j = JSON.parse(v);
+        out.push(j);
+      }
+    }catch(e){}
+  }
+  return out;
+}
+
+async function handlePostsList(request, env){
+  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING', items:[]}, 200);
+  const url = new URL(request.url);
+  const category = String(url.searchParams.get('category')||'').trim();
+  const region = String(url.searchParams.get('region')||'').trim().toUpperCase();
+  const limit = Math.min(Math.max(parseInt(url.searchParams.get('limit')||'30',10)||30, 1), 80);
+
+  const allowed = ['strong','accum','suspicious','perf'];
+  if(!allowed.includes(category)) return jsonResp({ok:false, error:'BAD_CATEGORY', items:[]}, 200);
+
+  let items=[];
+  if(region && region !== 'ALL'){
+    const prefix = `posts/meta/${category}/${region}/`;
+    items = await _listMetaByPrefix(env, prefix, limit);
+  }else{
+    const a = await _listMetaByPrefix(env, `posts/meta/${category}/KR/`, limit);
+    const b = await _listMetaByPrefix(env, `posts/meta/${category}/US/`, limit);
+    items = a.concat(b);
+  }
+
+  items.sort((x,y)=> String(y.created_ts||'').localeCompare(String(x.created_ts||'')));
+  items = items.slice(0, limit);
+
+  const updated_at = items[0]?.created_at || new Date().toISOString();
+  return jsonResp({ok:true, updated_at, count: items.length, items}, 200);
+}
+
+async function handlePostsLatest(request, env){
+  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
+  const url = new URL(request.url);
+  const scope = String(url.searchParams.get('scope')||'bigdata').trim();
+  const key = scope === 'perf' ? 'posts/latest/perf.json' : 'posts/latest/bigdata.json';
+  const v = await env.JLAB_KV.get(key);
+  if(!v) return jsonResp({ok:false, error:'EMPTY'}, 200);
+  try{
+    return jsonResp({ok:true, meta: JSON.parse(v)}, 200);
+  }catch(e){
+    return jsonResp({ok:false, error:'BAD_JSON'}, 200);
+  }
+}
+
+async function handlePostsGet(request, env){
+  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
+  const url = new URL(request.url);
+  const id = String(url.searchParams.get('id')||'').trim();
+  if(!id) return jsonResp({ok:false, error:'NO_ID'}, 200);
+
+  const metaStr = await env.JLAB_KV.get(`posts/id/${id}.json`);
+  const html = await env.JLAB_KV.get(`posts/html/${id}.html`);
+  if(!metaStr || !html) return jsonResp({ok:false, error:'NOT_FOUND'}, 200);
+
+  let meta=null;
+  try{ meta = JSON.parse(metaStr); }catch(e){ meta=null; }
+  return jsonResp({ok:true, meta, html}, 200);
+}
+
+// ==============================
+// Signup request (store minimal)
+// ==============================
+async function handleSignupRequest(request, env){
+  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
+  const body = await request.json().catch(()=> ({}));
+  const email = String(body.email||'').trim();
+  const name = String(body.name||'').trim();
+  const phone = String(body.phone||'').trim();
+  const memo = String(body.memo||'').trim();
+  if(!email || !name || !phone) return jsonResp({ok:false, error:'MISSING_FIELDS'}, 200);
+
+  const id = (crypto && crypto.randomUUID) ? crypto.randomUUID() : String(Math.random()).slice(2);
+  const ts = compactTs(new Date());
+  const created_at = new Date().toISOString();
+  const rec = { id, email, name, phone, memo, created_at, created_ts: ts };
+
+  await env.JLAB_KV.put(`signup/requests/${ts}_${id}.json`, JSON.stringify(rec));
+  return jsonResp({ok:true}, 200);
+}
+
+// ==============================
+// YouTube RSS (latest 1)
+// ==============================
+async function handleYouTubeLatest(){
+  const channelId = 'UC85ROrNcbOFDOeC5b0RaQMQ';
+  const url = `https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`;
+  try{
+    const xml = await fetchText(url);
+    const entry = xml.match(/<entry>[\s\S]*?<\/entry>/i);
+    if(!entry) return jsonResp({ok:false, error:'EMPTY'}, 200);
+    const e = entry[0];
+    const titleM = e.match(/<title>([\s\S]*?)<\/title>/i);
+    const linkM = e.match(/<link[^>]*href="([^"]+)"/i);
+    const vidM = e.match(/<yt:videoId>([^<]+)<\/yt:videoId>/i);
+    const pubM = e.match(/<published>([^<]+)<\/published>/i);
+
+    const videoId = vidM ? vidM[1].trim() : '';
+    const thumb = videoId ? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg` : '';
+    return jsonResp({
+      ok:true,
+      title: titleM ? titleM[1].trim() : '',
+      url: linkM ? linkM[1].trim() : '',
+      video_id: videoId,
+      thumb,
+      published_at: pubM ? pubM[1].trim() : ''
+    }, 200);
+  }catch(e){
+    return jsonResp({ok:false, error:String(e && e.message ? e.message : e)}, 200);
+  }
+}
+
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
@@ -576,6 +751,37 @@ export default {
     }
     if (url.pathname === '/api/admin/popup/save' && request.method === 'POST') {
       return await handleAdminPopupSave(request, env, url.origin);
+    }
+
+
+    // ==============================
+    // Posts API (Bigdata / Performance)
+    // ==============================
+    if (url.pathname === '/api/posts/create' && request.method === 'POST') {
+      return await handlePostsCreate(request, env, url.origin);
+    }
+    if (url.pathname === '/api/posts/list') {
+      return await handlePostsList(request, env);
+    }
+    if (url.pathname === '/api/posts/get') {
+      return await handlePostsGet(request, env);
+    }
+    if (url.pathname === '/api/posts/latest') {
+      return await handlePostsLatest(request, env);
+    }
+
+    // ==============================
+    // Signup Request (Public)
+    // ==============================
+    if (url.pathname === '/api/signup/request' && request.method === 'POST') {
+      return await handleSignupRequest(request, env);
+    }
+
+    // ==============================
+    // YouTube (Latest)
+    // ==============================
+    if (url.pathname === '/api/youtube/latest') {
+      return await handleYouTubeLatest();
     }
 
     // ==============================

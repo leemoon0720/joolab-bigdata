@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>수상한종목 | 주랩 빅데이터 센터</title>
+  <title>수상해수상해 | 주랩</title>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@latest/dist/web/variable/pretendardvariable.css">
   <link rel="stylesheet" href="/assets/app.css"/>
@@ -15,65 +15,62 @@
       <div class="brand-badge">JL</div>
       <div>
         <div class="brand-title">주랩 빅데이터 센터</div>
-        <div class="brand-sub">정리된 바탕화면 느낌의 센터형 대시보드</div>
+        <div class="brand-sub">데이터 · 성과 · 뉴스</div>
       </div>
     </a>
     <nav class="nav">
-      <a href="/notice/" data-nav="notice">공지사항</a>
       <a href="/news/" data-nav="news">뉴스센터</a>
-      <a href="/strong/" data-nav="strong">강한종목</a>
-      <a href="/training/" data-nav="training">트레이닝</a>
       <a href="/data/" data-nav="data">빅데이터</a>
+      <a href="/performance/" data-nav="performance">성과표</a>
+      <a href="/game/" data-nav="game">게임</a>
       <a href="/subscribe/" data-nav="subscribe">월구독</a>
       <a href="/account/" data-nav="account">회원</a>
-      <a href="/ops/" data-nav="ops">운영센터</a>
+      <a href="/ops/" data-nav="ops">운영</a>
     </nav>
   </div>
 </div>
 
 <main class="main">
   <div class="container">
-    <section class="hero">
-      <h1>🔒 프리미엄 영역</h1>
-      <p>수상한종목은 프리미엄(유료) 기능으로 전환 예정입니다.</p>
-      <div class="hero-row">
-        <div class="statusbar">
-          <span class="badge missing">LOCKED</span>
-          <span class="badge upd">외부 비노출</span>
-          <span class="badge live">결제자 전용</span>
-        </div>
-      </div>
-    </section>
 
-    <div class="grid">
-      <div class="card" style="grid-column: span 12;">
-        <div class="card-top"><h3>안내</h3><span class="badge upd">UPD</span></div>
-        <p>이 메뉴는 유료 기능(종목분석/강한종목/수상한종목)으로 전환 예정이라, 현재 외부에는 데이터가 노출되지 않습니다.</p>
-        <div class="card-cta"><a href="/news/">뉴스센터(공개)로 이동</a></div>
-      </div>
+<section class="hero hero-compact">
+  <h1>수상해수상해</h1>
+  <p>업로드하면 목록에 누적되고, 클릭하면 HTML 내보내기 화면이 그대로 뜹니다.</p>
+
+  <div class="hero-row">
+    <div class="statusbar">
+      <span class="badge live">LIVE</span>
+      <span class="badge upd" id="cat-badge-upd">UPD: -</span>
+      <span class="badge" id="cat-badge-count">-</span>
+    </div>
+
+    <div class="hero-actions" id="cat-admin-actions" style="display:none;">
+      <button class="btn primary" id="cat-btn-upload" type="button">업로드</button>
+      <input id="cat-file" type="file" accept=".xlsx,.xls,.csv" style="display:none;">
     </div>
   </div>
-</main>
+</section>
 
-<div class="footer container">
-    <div class="foot-links">
-      <a href="/subscribe/">월구독</a>
-      <span class="dot">·</span>
-      <a href="/terms/">이용약관</a>
-      <span class="dot">·</span>
-      <a href="/privacy/">개인정보처리방침</a>
-      <span class="dot">·</span>
-      <a href="/refund/">환불·해지 규정</a>
-      <span class="dot">·</span>
-      <a href="/account/">회원/내 구독</a>
+<div class="grid">
+  <div class="card" style="grid-column: span 12;">
+    <div class="card-top"><h3>국내/해외</h3><span class="badge">REGION</span></div>
+    <div class="chips">
+      <button class="chip chip-toggle is-on" data-cat-region="KR" type="button">국내</button>
+      <button class="chip chip-toggle" data-cat-region="US" type="button">해외</button>
     </div>
-    <div class="small">
-      상호: <b>웰니스컴퍼니</b> | 대표: <b>박혜민</b> | 사업자등록번호: <b>121-41-51435</b><br>
-      주소: 서울특별시 강동구 천호대로 1240 (둔촌동, 프라자아파트)<br>
-      고객센터: <a href="tel:01049513154">010-4951-3154</a> | 이메일: <a href="mailto:2zshot@naver.com">2zshot@naver.com</a>
-    </div>
-    <div class="small">© JOOLAB · Bigdata Center</div>
   </div>
+
+  <div class="card" style="grid-column: span 12;">
+    <div class="card-top"><h3>목록</h3><span class="badge">LIST</span></div>
+    <div id="cat-list" class="list"></div>
+  </div>
+</div>
+
+<script>window.__CAT_KEY__ = "suspicious";</script>
+
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
 <script src="/assets/app.js"></script>
+<script src="/assets/member.js"></script>
 </body>
 </html>

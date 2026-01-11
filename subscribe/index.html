@@ -24,6 +24,8 @@
       <a href="/strong/" data-nav="strong">강한종목</a>
       <a href="/training/" data-nav="training">트레이닝</a>
       <a href="/data/" data-nav="data">빅데이터</a>
+      <a href="/performance/" data-nav="performance">성과표</a>
+      <a href="/game/" data-nav="game">게임</a>
       <a href="/subscribe/" data-nav="subscribe">월구독</a>
       <a href="/account/" data-nav="account">회원</a>
       <a href="/ops/" data-nav="ops">운영센터</a>
@@ -50,7 +52,38 @@
       </div>
     </section>
 
-    <div class="grid plan-grid">
+    
+    <div class="grid">
+      <section class="card" style="grid-column: span 12;">
+        <div class="card-top">
+          <h3>구독 정보 입력</h3>
+          <span class="badge">주소 미수집</span>
+        </div>
+        <div class="form">
+          <label class="flabel">이름</label>
+          <div class="input" style="min-width:100%;"><input id="sub-name" type="text" placeholder="이름"></div>
+
+          <label class="flabel">휴대폰</label>
+          <div class="input" style="min-width:100%;"><input id="sub-phone" type="tel" placeholder="010-0000-0000"></div>
+
+          <label class="flabel">이메일</label>
+          <div class="input" style="min-width:100%;"><input id="sub-email" type="email" placeholder="이메일"></div>
+
+          <div class="checks" style="margin-top:12px;">
+            <label class="ck"><input id="sub-ck-terms" type="checkbox"> 이용약관 동의</label>
+            <label class="ck"><input id="sub-ck-privacy" type="checkbox"> 개인정보처리방침 동의</label>
+            <label class="ck"><input id="sub-ck-refund" type="checkbox"> 환불·해지 규정 확인</label>
+          </div>
+
+          <div style="display:flex; gap:10px; align-items:center; margin-top:12px;">
+            <button class="btn primary" type="button" id="sub-btn-save">입력 완료</button>
+            <div class="small" id="sub-msg"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+<div class="grid plan-grid">
       <div class="card plan-card" style="grid-column: span 4;">
         <div class="card-top">
           <h3>Basic</h3>
