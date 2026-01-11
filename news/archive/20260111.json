@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-11 21:53 KST",
+  "updated_at": "2026-01-11 22:24 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-11 22:00",
+      "title": "1년새 35% 올랐는데 더 창창하다?…AI 해킹, AI로 막는다는 이 기업",
+      "url": "https://www.mk.co.kr/news/stock/11929610",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -58,10 +68,10 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-11 17:26",
-      "title": "\"실적 개선 시작된다\"… 비만약 ETF 반등",
-      "url": "https://www.mk.co.kr/news/stock/11929448",
+      "title": "배당금 분리과세 기대 … KT 주가 이젠 달릴까",
+      "url": "https://www.mk.co.kr/news/stock/11929449",
       "keywords_hit": [
-        "실적"
+        "배당"
       ]
     },
     {
@@ -76,10 +86,10 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-11 17:26",
-      "title": "배당금 분리과세 기대 … KT 주가 이젠 달릴까",
-      "url": "https://www.mk.co.kr/news/stock/11929449",
+      "title": "\"실적 개선 시작된다\"… 비만약 ETF 반등",
+      "url": "https://www.mk.co.kr/news/stock/11929448",
       "keywords_hit": [
-        "배당"
+        "실적"
       ]
     },
     {
@@ -363,16 +373,6 @@
       "title": "이재명 “한국, K자형 성장이란 중대한 도전 직면” 양극화 심화 우려",
       "url": "https://www.mk.co.kr/news/economy/11928674",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-09 18:56",
-      "title": "삼정KPMG, CES 2026 키워드 “헬스테크∙오픈생태계∙로봇∙자율주행∙에너지”",
-      "url": "https://www.mk.co.kr/news/stock/11928628",
-      "keywords_hit": [
-        "로봇"
-      ]
     }
   ]
 }
