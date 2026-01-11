@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-12 08:37 KST",
+  "updated_at": "2026-01-12 08:48 KST",
   "sources": [
     {
       "id": "HK",
@@ -32,6 +32,14 @@
         "적자",
         "로봇"
       ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 08:31",
+      "title": "[마켓PRO] Today's Pick : \"한화오션, 지정학적 불확실성 속에서 찾는 기회\"",
+      "url": "https://www.hankyung.com/article/202601124270i",
+      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -331,17 +339,6 @@
       "title": "새해 서학개미 순매수…2.8조원 또 역대 최대",
       "url": "https://www.hankyung.com/article/2026011137481",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-11 17:12",
-      "title": "에이비엘·디앤디파마텍…코스닥 바이오 집중매수",
-      "url": "https://www.hankyung.com/article/2026011137491",
-      "keywords_hit": [
-        "코스닥",
-        "바이오"
-      ]
     },
     {
       "source": "MK",
