@@ -77,17 +77,23 @@
           const res = await postJSON('/api/auth/login', { email, password: pass });
           if(!res.ok) return setMsg(liMsg, res.message || "로그인 실패", false);
           setMsg(liMsg, "로그인 완료되었습니다.", true);
+          try{
+            if(res && res.token){
+              try{ localStorage.setItem("jlab_token", res.token); }catch(e){}
+              try{ localStorage.setItem("joolab_token", res.token); }catch(e){}
+            }
+          }catch(e){}
           await render();
-
           // next 처리
           try{
             const u = new URL(window.location.href);
             const next = u.searchParams.get('next');
-            if(next){
-              window.location.href = next;
-              return;
-            }
-          }catch(e){}
+            window.location.href = next || '/';
+            return;
+          }catch(e){
+            window.location.href = '/';
+            return;
+          }
         }catch(e){
           setMsg(liMsg, "로그인 실패 (서버 오류)", false);
         }
@@ -98,6 +104,8 @@
       btnLogout.addEventListener("click", async ()=>{
         try{
           await fetchJSON('/api/auth/logout');
+          try{ localStorage.removeItem('jlab_token'); }catch(e){}
+          try{ localStorage.removeItem('joolab_token'); }catch(e){}
         }catch(e){}
         await render();
       });

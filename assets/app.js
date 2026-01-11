@@ -52,8 +52,28 @@
     }
   }
 
-  async function fetchJSON(url){
-    const r = await fetch(url, {cache:'no-store'});
+  
+  function getAuthToken(){
+    try{
+      return localStorage.getItem("jlab_token") || localStorage.getItem("joolab_token") || "";
+    }catch(e){
+      return "";
+    }
+  }
+
+  function authHeaders(extra){
+    const t = getAuthToken();
+    const h = Object.assign({}, extra || {});
+    if(t) h["Authorization"] = "Bearer " + t;
+    return h;
+  }
+
+async function fetchJSON(url){
+    const r = await fetch(url, {
+      cache:'no-store',
+      credentials:'include',
+      headers: authHeaders()
+    });
     if(!r.ok) throw new Error(`${r.status} ${r.statusText}`);
     return await r.json();
   }
@@ -461,7 +481,8 @@
   async function postJSON(url, body){
     const r = await fetch(url, {
       method:'POST',
-      headers:{'content-type':'application/json; charset=utf-8'},
+      credentials:'include',
+      headers: authHeaders({'content-type':'application/json; charset=utf-8'}),
       body: JSON.stringify(body||{})
     });
     if(!r.ok) throw new Error(`${r.status} ${r.statusText}`);

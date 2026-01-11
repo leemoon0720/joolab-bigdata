@@ -395,6 +395,16 @@ function isPublicPath(pathname) {
 
 async function requireAuth(request, env, baseUrl) {
   const secret = (env && env.JLAB_AUTH_SECRET) ? env.JLAB_AUTH_SECRET : DEFAULT_SECRET;
+
+  // Bearer token (works even when Secure cookie is not available in local/dev)
+  const auth = request.headers.get('authorization') || request.headers.get('Authorization') || '';
+  if (auth && auth.toLowerCase().startsWith('bearer ')) {
+    const token = auth.slice(7).trim();
+    const payload = await verifyToken(secret, token);
+    if (payload && payload.email) return payload;
+  }
+
+  // Cookie token (production default)
   const cookies = parseCookies(request.headers.get('cookie') || '');
   const token = cookies[COOKIE_NAME] || '';
   const payload = await verifyToken(secret, token);
@@ -430,7 +440,7 @@ async function handleAuthLogin(request, env, baseUrl) {
   const exp = now + 1000*60*60*24*14; // 14일
   const token = await makeToken(secret, { email, role, iat: now, exp });
   const setCookie = makeCookie(COOKIE_NAME, token, 60*60*24*14);
-  return jsonResp({ ok:true, user:{ email, role } }, 200, { 'set-cookie': setCookie });
+  return jsonResp({ ok:true, user:{ email, role }, token }, 200, { 'set-cookie': setCookie });
 }
 
 async function handleAuthMe(request, env, baseUrl) {
