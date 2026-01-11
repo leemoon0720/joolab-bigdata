@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-12 07:57 KST",
+  "updated_at": "2026-01-12 08:22 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,8 +25,26 @@
     {
       "source": "HK",
       "press": "한국경제",
+      "published_at": "2026-01-12 08:01",
+      "title": "\"삼성중공업, 미국 LNG 모멘텀이 피크아웃 우려 불식…목표가↑\"-유안타",
+      "url": "https://www.hankyung.com/article/2026011242026",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 08:00",
+      "title": "여의도 '전기차 전문가'의 자신감…\"자율주행·피지컬 AI 최종 승자는 테슬라\"",
+      "url": "https://www.hankyung.com/article/202601113652i",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
       "published_at": "2026-01-12 07:49",
-      "title": "무섭게 달려온 코스피...이번주도 급등 혹은 숨 고르기?[오늘장 미리보기]",
+      "title": "무섭게 달려온 코스피…이번주도 급등 혹은 숨 고르기? [오늘장 미리보기]",
       "url": "https://www.hankyung.com/article/202601124153i",
       "keywords_hit": [
         "코스피"
@@ -357,24 +375,6 @@
       "published_at": "2026-01-11 10:10",
       "title": "“더 늦기 전에 올라타자”…개미들 일주일간 삼성전자 3조 폭풍 순매수",
       "url": "https://www.mk.co.kr/news/stock/11929163",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-11 08:00",
-      "title": "\"'오천피' 향해 반도체가 이끄는 랠리…차익 매물은 부담\" [주간전망]",
-      "url": "https://www.hankyung.com/article/2026010913996",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-11 07:00",
-      "title": "1년째 7000~9000원에 갇혔다…\"주가 1만원 언제 찍나요\" [윤현주의 主食이 주식]",
-      "url": "https://www.hankyung.com/article/202601051640i",
       "keywords_hit": []
     }
   ]
