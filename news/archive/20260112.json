@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-12 07:48 KST",
+  "updated_at": "2026-01-12 07:57 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,24 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 07:49",
+      "title": "무섭게 달려온 코스피...이번주도 급등 혹은 숨 고르기?[오늘장 미리보기]",
+      "url": "https://www.hankyung.com/article/202601124153i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 07:46",
+      "title": "\"엔씨소프트, 아이온2 성공적 출시 주목…목표가↑\"-하나",
+      "url": "https://www.hankyung.com/article/2026011241816",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -358,26 +376,6 @@
       "title": "1년째 7000~9000원에 갇혔다…\"주가 1만원 언제 찍나요\" [윤현주의 主食이 주식]",
       "url": "https://www.hankyung.com/article/202601051640i",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-10 21:30",
-      "title": "'4조' 테슬라 계약은 왜 사라졌나…엘앤에프 정정공시의 전말 [박주연의 여의도 나침반]",
-      "url": "https://www.hankyung.com/article/202601102856i",
-      "keywords_hit": [
-        "공시"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-10 19:07",
-      "title": "홍춘욱 \"AI株 버블권 진입…소수만 살아남는다\" [한경 트렌드쇼]",
-      "url": "https://www.hankyung.com/article/2026010908626",
-      "keywords_hit": [
-        "AI"
-      ]
     }
   ]
 }
