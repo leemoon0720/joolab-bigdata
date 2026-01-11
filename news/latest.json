@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-12 07:34 KST",
+  "updated_at": "2026-01-12 07:48 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,24 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 07:43",
+      "title": "\"풍산, 작년 4분기 실적 서프라이즈 전망\"-BNK",
+      "url": "https://www.hankyung.com/article/2026011241746",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 07:34",
+      "title": "“크래프톤, 목표가 낮추지만 ‘사라’”…올해 주가 반전 요인은?",
+      "url": "https://www.mk.co.kr/news/stock/11929659",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -324,16 +342,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-11 10:09",
-      "title": "‘배당 분리과세 수혜’ KT 날아가나…주가 5.2만→7.6만원 전망도",
-      "url": "https://www.mk.co.kr/news/stock/11929162",
-      "keywords_hit": [
-        "배당"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-11 08:00",
@@ -370,14 +378,6 @@
       "keywords_hit": [
         "AI"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-10 18:52",
-      "title": "'살 빼는 약' 대신 베팅했더니 초대박…주가 40% 폭등 '불기둥'",
-      "url": "https://www.hankyung.com/article/2026010915477",
-      "keywords_hit": []
     }
   ]
 }
