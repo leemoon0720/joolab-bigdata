@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-13 07:16 KST",
+  "updated_at": "2026-01-13 07:37 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,24 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 07:27",
+      "title": "트럼프-파월 충돌에도 일제히 상승…다우·S&P500 사상 최고 [뉴욕증시 브리핑]",
+      "url": "https://www.hankyung.com/article/2026011365256",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 07:21",
+      "title": "\"AI 버금가는 유망한 산업\"…갑자기 320% 폭등한 이 기업 [조아라의 차이나스톡]",
+      "url": "https://www.hankyung.com/article/202601126304i",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -318,22 +336,6 @@
       "published_at": "2026-01-12 16:50",
       "title": "[특징주 & 리포트] '미래에셋證, 52주 신고가 경신' 등",
       "url": "https://www.hankyung.com/article/2026011258781",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 16:46",
-      "title": "농림축산식품부, 축산물 유통 구조 개선",
-      "url": "https://www.hankyung.com/article/2026011258771",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 16:42",
-      "title": "KB증권, 4회 연속 대상…베스트 애널리스트는 8명 첫 영예",
-      "url": "https://www.hankyung.com/article/2026011258551",
       "keywords_hit": []
     },
     {
