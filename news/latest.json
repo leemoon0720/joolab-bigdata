@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-12 13:48 KST",
+  "updated_at": "2026-01-12 14:20 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,6 +23,33 @@
   "count": 40,
   "items": [
     {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 14:10",
+      "title": "코리아프라이빗웰스, PAS투자자문과 맞손",
+      "url": "https://www.hankyung.com/article/202601125328i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 14:08",
+      "title": "메타 원전 계약 훈풍…두산에너빌리티 등 원전주 동반 강세",
+      "url": "https://www.mk.co.kr/news/stock/11930125",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 14:06",
+      "title": "[마켓PRO] 고수들, 심텍 매수 “'반도체 훈풍·TSMC 실적 기대”",
+      "url": "https://www.hankyung.com/article/202601125193i",
+      "keywords_hit": [
+        "반도체",
+        "실적"
+      ]
+    },
+    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-12 13:44",
@@ -42,7 +69,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-12 13:30",
-      "title": "\"삼성전자, 지금 팔면 안되는 이유는…\" 개미들 향한 조언 [한경 트렌드쇼]",
+      "title": "마침 손가락 근질근질했는데…\"삼성전자, 지금 팔면 안 된다\" [한경 트렌드쇼]",
       "url": "https://www.hankyung.com/article/2026010914626",
       "keywords_hit": []
     },
@@ -331,14 +358,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 09:31",
-      "title": "이재명 정부 태도 바꾸나…신규 원전 추진 가능성에 '강세'",
-      "url": "https://www.hankyung.com/article/2026011245346",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-12 09:20",
@@ -354,24 +373,6 @@
       "published_at": "2026-01-12 09:20",
       "title": "바이셀스탠다드, 홍루이그룹·KUN과 MOU",
       "url": "https://www.mk.co.kr/news/stock/11929740",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 09:16",
-      "title": "저스템, 삼성전자에 반도체 습도제어 솔루션 추가 공급 소식 이후 '上'",
-      "url": "https://www.hankyung.com/article/2026011244846",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-12 08:56",
-      "title": "하나증권 “LG에너지솔루션, EV 출하량 감소…ESS 부문서 부진 상쇄”",
-      "url": "https://www.mk.co.kr/news/stock/11929705",
       "keywords_hit": []
     }
   ]
