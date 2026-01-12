@@ -15,6 +15,8 @@
   }
 
 
+  const DEFAULT_THEMES = ['코스닥','코스피','IPO','상장','AI','증자','바이오','M&A','수주','실적','신고가','반도체'];
+
   function setActiveNav(){
     const path = window.location.pathname;
     qsa('[data-nav]').forEach(a=>{
@@ -551,8 +553,11 @@
               cnt[k] = (cnt[k]||0) + 1;
             });
           });
-          const top = Object.entries(cnt).sort((a,b)=>b[1]-a[1]).slice(0,12);
-          box.innerHTML = top.map(([k,n])=>`<a class="chip" href="/news/?tag=${encodeURIComponent(k)}">${esc(k)} <span style="opacity:.65;">${n}</span></a>`).join('');
+                    const top = Object.entries(cnt).sort((a,b)=>b[1]-a[1]).slice(0,12);
+          const tags = top.length ? top.map(([k,n])=>({k,n})) : DEFAULT_THEMES.map(k=>({k,n:''}));
+          box.innerHTML = tags.map(({k,n})=>
+            `<a class="chip" href="/news/?tag=${encodeURIComponent(k)}">${esc(k)}${n!=='' ? ` <span style="opacity:.65;">${n}</span>` : ''}</a>`
+          ).join('');
         }
       }catch(e){
         homeNews.innerHTML = `<div class="item"><div><div class="title">뉴스 데이터를 불러오지 못했습니다.</div><div class="meta">/news/latest.json 확인</div></div></div>`;
@@ -610,6 +615,31 @@
       }
     }
   }
+
+    // YouTube auto-refresh (keep updating while page is open)
+    if(yt){
+      let _ytLock = false;
+      setInterval(async ()=>{
+        if(_ytLock) return;
+        _ytLock = true;
+        try{
+          const j = await fetchJSON('/api/youtube/latest');
+          if(j && j.ok){
+            yt.innerHTML = `
+              <a href="${esc(j.url||'#')}" target="_blank" rel="noopener" style="display:flex; gap:12px; align-items:center; text-decoration:none;">
+                <img class="yt-thumb" src="${esc(j.thumb||'')}" alt="thumb">
+                <div class="yt-meta">
+                  <div class="yt-title">${esc(j.title||'')}</div>
+                  <div class="yt-sub">${esc(fmtTime(j.published_at||''))}</div>
+                </div>
+              </a>
+            `;
+          }
+        }catch(e){}
+        _ytLock = false;
+      }, 300000);
+    }
+
 
   function detectIsAdmin(me){
     try{
