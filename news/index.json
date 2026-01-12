@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-12 14:48 KST",
+  "updated_at": "2026-01-12 15:00 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,6 +23,14 @@
   "count": 40,
   "items": [
     {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 14:55",
+      "title": "STO 인가, 당국 출신이 장악?…4년 실증한 스타트업은 탈락 위기",
+      "url": "https://www.hankyung.com/article/202601125451i",
+      "keywords_hit": []
+    },
+    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-12 14:46",
@@ -31,6 +39,14 @@
       "keywords_hit": [
         "상장"
       ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 14:41",
+      "title": "31만→43만, 37만→47만…현대차그룹 목표가 도미노 상향",
+      "url": "https://www.hankyung.com/article/202601125420i",
+      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -299,29 +315,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 10:11",
-      "title": "대신자산운용, '대표기업·고배당 목표전환형 펀드' 출시",
-      "url": "https://www.hankyung.com/article/2026011247176",
-      "keywords_hit": [
-        "배당"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-12 10:08",
       "title": "코인 거래까지 노리는 X,  코인 태그 기능 선보여 [매일코인]",
       "url": "https://www.mk.co.kr/news/stock/11929828",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 10:06",
-      "title": "하나증권, '하나 THE 발행어음' 첫 출시 기념 이벤트 실시",
-      "url": "https://www.hankyung.com/article/2026011247016",
       "keywords_hit": []
     },
     {
