@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-12 16:17 KST",
+  "updated_at": "2026-01-12 16:43 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,6 +25,34 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-12 16:22",
+      "title": "정은보 “좀비기업 230곳 퇴출· AI로 시세조종 적발 3개월로 단축”",
+      "url": "https://www.mk.co.kr/news/stock/11930387",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 16:17",
+      "title": "NH농우바이오 \"채소종자 글로벌 톱10 될 것\"",
+      "url": "https://www.hankyung.com/article/2026011257481",
+      "keywords_hit": [
+        "바이오"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 16:12",
+      "title": "연초 채권 발행 사상 최대…JP모간 \"신용 리스크 확대 우려\"",
+      "url": "https://www.hankyung.com/article/202601125633i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-12 16:09",
       "title": "정치권 옮겨붙은 힐하우스 국적 논란···IB업계는 “중국 자본 단정 못해”",
       "url": "https://www.mk.co.kr/news/stock/11930348",
@@ -34,7 +62,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-12 16:07",
-      "title": "지금 주식 투자 안하면 바보?…너도나도 '빚투' 나섰다",
+      "title": "'요즘 주식 투자 안하면 바보인가요?'…너도나도 '빚투' 나섰다",
       "url": "https://www.hankyung.com/article/202601125583i",
       "keywords_hit": []
     },
@@ -68,7 +96,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-12 15:54",
-      "title": "결국 4600선 넘긴 코스피…역대 최고치 경신",
+      "title": "결국 4600선 넘긴 코스피…또 '역대 최고치' 경신",
       "url": "https://www.hankyung.com/article/202601125642i",
       "keywords_hit": [
         "코스피"
@@ -323,16 +351,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 11:06",
-      "title": "[마켓PRO] 알고리즘 종목 Pick : \"제주반도체, 모바일 메모리 수요 회복 기대\"",
-      "url": "https://www.hankyung.com/article/202601124902i",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-12 11:03",
@@ -349,14 +367,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 10:59",
-      "title": "\"더 오르기 전에 지금 사두자\"…주가 8만원 뚫자 '화들짝'",
-      "url": "https://www.hankyung.com/article/202601124710i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-12 10:56",
@@ -366,14 +376,6 @@
         "반도체",
         "로봇"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-12 10:38",
-      "title": "“나 혼자 민폐들 끌고가는데 무슨”…‘M7 도매금’ 불편하다는데",
-      "url": "https://www.mk.co.kr/news/stock/11929904",
-      "keywords_hit": []
     }
   ]
 }
