@@ -614,7 +614,6 @@
         yt.innerHTML = `<div class="small">유튜브 최신 영상 데이터를 불러오지 못했습니다.</div>`;
       }
     }
-  }
 
     // YouTube auto-refresh (keep updating while page is open)
     if(yt){
@@ -639,6 +638,8 @@
         _ytLock = false;
       }, 300000);
     }
+  }
+
 
 
   function detectIsAdmin(me){
