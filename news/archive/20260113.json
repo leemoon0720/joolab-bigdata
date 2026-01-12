@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-13 05:51 KST",
+  "updated_at": "2026-01-13 05:59 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-13 05:59",
+      "title": "반도체ETF 수익 극과극…애국했더니 20%대, 미국했더니 순손실",
+      "url": "https://www.mk.co.kr/news/stock/11931078",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -103,19 +113,19 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-12 17:28",
-      "title": "오르는 종목만 간다 … 'K자형' 코스피 4600 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11930567",
-      "keywords_hit": [
-        "코스피"
-      ]
+      "title": "M7 두달새 4% 떨어졌지만…美대표지수는 올랐다",
+      "url": "https://www.mk.co.kr/news/stock/11930566",
+      "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-12 17:28",
-      "title": "M7 두달새 4% 떨어졌지만…美대표지수는 올랐다",
-      "url": "https://www.mk.co.kr/news/stock/11930566",
-      "keywords_hit": []
+      "title": "오르는 종목만 간다 … 'K자형' 코스피 4600 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11930567",
+      "keywords_hit": [
+        "코스피"
+      ]
     },
     {
       "source": "MK",
@@ -368,14 +378,6 @@
       "published_at": "2026-01-12 15:55",
       "title": "코리아프라이빗웰스, PAS투자자문과 MOU 체결",
       "url": "https://www.mk.co.kr/news/stock/11930313",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-12 15:46",
-      "title": "[단독] 맥쿼리, DIG에어가스 딜 클로징…‘원주인’ 에어리퀴드 12년 만에 귀환",
-      "url": "https://www.mk.co.kr/news/stock/11930296",
       "keywords_hit": []
     }
   ]
