@@ -15,8 +15,6 @@
   }
 
 
-  const DEFAULT_THEMES = ['코스닥','코스피','IPO','상장','AI','증자','바이오','M&A','수주','실적','신고가','반도체'];
-
   function setActiveNav(){
     const path = window.location.pathname;
     qsa('[data-nav]').forEach(a=>{
@@ -553,11 +551,8 @@
               cnt[k] = (cnt[k]||0) + 1;
             });
           });
-                    const top = Object.entries(cnt).sort((a,b)=>b[1]-a[1]).slice(0,12);
-          const tags = top.length ? top.map(([k,n])=>({k,n})) : DEFAULT_THEMES.map(k=>({k,n:''}));
-          box.innerHTML = tags.map(({k,n})=>
-            `<a class="chip" href="/news/?tag=${encodeURIComponent(k)}">${esc(k)}${n!=='' ? ` <span style="opacity:.65;">${n}</span>` : ''}</a>`
-          ).join('');
+          const top = Object.entries(cnt).sort((a,b)=>b[1]-a[1]).slice(0,12);
+          box.innerHTML = top.map(([k,n])=>`<a class="chip" href="/news/?tag=${encodeURIComponent(k)}">${esc(k)} <span style="opacity:.65;">${n}</span></a>`).join('');
         }
       }catch(e){
         homeNews.innerHTML = `<div class="item"><div><div class="title">뉴스 데이터를 불러오지 못했습니다.</div><div class="meta">/news/latest.json 확인</div></div></div>`;
@@ -614,33 +609,7 @@
         yt.innerHTML = `<div class="small">유튜브 최신 영상 데이터를 불러오지 못했습니다.</div>`;
       }
     }
-
-    // YouTube auto-refresh (keep updating while page is open)
-    if(yt){
-      let _ytLock = false;
-      setInterval(async ()=>{
-        if(_ytLock) return;
-        _ytLock = true;
-        try{
-          const j = await fetchJSON('/api/youtube/latest');
-          if(j && j.ok){
-            yt.innerHTML = `
-              <a href="${esc(j.url||'#')}" target="_blank" rel="noopener" style="display:flex; gap:12px; align-items:center; text-decoration:none;">
-                <img class="yt-thumb" src="${esc(j.thumb||'')}" alt="thumb">
-                <div class="yt-meta">
-                  <div class="yt-title">${esc(j.title||'')}</div>
-                  <div class="yt-sub">${esc(fmtTime(j.published_at||''))}</div>
-                </div>
-              </a>
-            `;
-          }
-        }catch(e){}
-        _ytLock = false;
-      }, 300000);
-    }
   }
-
-
 
   function detectIsAdmin(me){
     try{
@@ -1171,10 +1140,24 @@ details.details[open] > summary{
       const rkRaw = row['순위'] ?? row['RANK'] ?? idx;
       let rk = parseInt(String(rkRaw).replace(/[^0-9]/g,''),10);
       if(!Number.isFinite(rk) || rk<1) rk = idx;
-      const name = row['종목명']||'';
-      const code = row['종목코드']||'';
-      const disp = row['표시']||'';
-      const titleLine = (disp && disp.includes('(')) ? disp : `${name}(${code})`;
+      // Robust name/code extraction (handles different headers + encoding quirks)
+      const disp = (row['표시']||row['DISPLAY']||row['Display']||'') + '';
+      let name = (row['종목명']||row['기업명']||row['Name']||row['name']||row['종목']||row['종목이름']||'') + '';
+      let code = (row['종목코드']||row['티커']||row['Ticker']||row['ticker']||row['코드']||row['Code']||row['symbol']||row['Symbol']||'') + '';
+
+      // If display like "삼성전자(005930)" exists, parse it
+      if(disp && disp.includes('(') && disp.includes(')')){
+        const m = disp.match(/^(.*?)\(([^)]+)\)/);
+        if(m){
+          if(!name) name = (m[1]||'').trim();
+          if(!code) code = (m[2]||'').trim();
+        }
+      }
+
+      // Final fallback: show whatever is available
+      const titleLine = disp && disp.trim()
+        ? disp.trim()
+        : (name && code ? `${name}(${code})` : (name ? name : (code ? code : '(미상)')));
 
       const chipKeys = ['SQUEEZE_ON','DC20_STATE','DC55_STATE','STAGE','Breakout','UD','DC_STATE'];
       const chips = chipKeys.filter(k=>row[k]!==undefined && String(row[k]).trim()!=='').map(k=>{
@@ -1271,10 +1254,45 @@ tr:nth-child(even) td{ background: rgba(255,255,255,0.02); }
   async function parseFileToRows(file){
     const name = file?.name || '';
     const ext = name.split('.').pop().toLowerCase();
+
+    // CSV: auto-detect UTF-8 vs CP949(EUC-KR) to avoid mojibake (��)
     if(ext === 'csv'){
-      const text = await file.text();
+      const buf = await file.arrayBuffer();
+
+      // try decodings; choose the one with fewer replacement chars
+      const tryDecode = (enc)=>{
+        try{
+          const dec = new TextDecoder(enc, {fatal:false});
+          return dec.decode(buf);
+        }catch(e){
+          return null;
+        }
+      };
+
+      const candidates = [
+        {enc:'utf-8'},
+        {enc:'euc-kr'},
+        {enc:'windows-949'},
+        {enc:'x-windows-949'}
+      ];
+
+      let best = {text:null, bad: Number.POSITIVE_INFINITY, enc:'utf-8'};
+      for(const c of candidates){
+        const t = tryDecode(c.enc);
+        if(t === null) continue;
+        const text = (t.charCodeAt(0)===0xFEFF) ? t.slice(1) : t; // strip BOM
+        const bad = (text.match(/�/g) || []).length;
+        if(bad < best.bad){
+          best = {text, bad, enc:c.enc};
+          if(bad === 0) break;
+        }
+      }
+
+      const text = best.text ?? '';
       return csvToRows(text);
     }
+
+    // XLSX
     if(typeof XLSX === 'undefined'){
       throw new Error('XLSX_MISSING');
     }
