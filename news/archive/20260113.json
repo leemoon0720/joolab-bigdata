@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-13 08:36 KST",
+  "updated_at": "2026-01-13 08:47 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,30 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-13 08:36",
+      "title": "한투증권 “삼성에스디에스, 클라우드 사업 부진…장기 로드맵 명확”",
+      "url": "https://www.mk.co.kr/news/stock/11931205",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 08:26",
+      "title": "파월 vs 트럼프 전쟁…'셀 아메리카' 없었던 이유 [김현석의 월스트리트나우]",
+      "url": "https://www.hankyung.com/article/202601136615i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 08:25",
+      "title": "\"한국전력, 미국 원전 시장 진출 전망…목표가 7만원\"-NH",
+      "url": "https://www.hankyung.com/article/2026011366436",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -305,14 +329,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 17:05",
-      "title": "시총 1위 엔비디아 두고 \"여전히 미치도록 싸다\"",
-      "url": "https://www.hankyung.com/article/2026011259261",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-12 17:04",
@@ -326,14 +342,6 @@
       "published_at": "2026-01-12 17:01",
       "title": "거버넌스포럼 “MSCI 로드맵 인상적…신뢰구축·상시피드백 중요”",
       "url": "https://www.mk.co.kr/news/stock/11930472",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 17:00",
-      "title": "현대차 36% 질주, 한화·LG는 주춤…그룹주 ETF 희비",
-      "url": "https://www.hankyung.com/article/2026011258741",
       "keywords_hit": []
     },
     {
@@ -379,16 +387,6 @@
       "title": "MBK파트너스, ‘홈플러스 분식 회계 의혹’ 반박 나섰다",
       "url": "https://www.mk.co.kr/news/stock/11930343",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-12 15:56",
-      "title": "코스피, 4600 돌파 마감…역대 최고치 또 경신",
-      "url": "https://www.mk.co.kr/news/stock/11930316",
-      "keywords_hit": [
-        "코스피"
-      ]
     }
   ]
 }
