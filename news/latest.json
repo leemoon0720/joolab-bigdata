@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-13 02:12 KST",
+  "updated_at": "2026-01-13 02:38 KST",
   "sources": [
     {
       "id": "HK",
@@ -165,9 +165,12 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-12 17:11",
-      "title": "토르스텐 슬뢰크 \"美 경제 탄탄해 인플레이션 잡기 어려워…원화는 당분간 약세\"",
+      "title": "\"韓 반도체 전망 긍정적이지만…AI 민감도 높은 건 리스크\"",
       "url": "https://www.hankyung.com/article/2026011259311",
-      "keywords_hit": []
+      "keywords_hit": [
+        "반도체",
+        "AI"
+      ]
     },
     {
       "source": "HK",
