@@ -676,6 +676,157 @@ async function handlePostsGet(request, env){
   return jsonResp({ok:true, meta, html}, 200);
 }
 
+
+
+// ==============================
+// Posts Admin: delete / update title
+// ==============================
+async function _recomputeLatest(env, scope){
+  if(!env || !env.JLAB_KV) return false;
+  let latest = null;
+
+  async function pull(prefix){
+    try{
+      const listed = await env.JLAB_KV.list({prefix, limit: 50});
+      for(const k of (listed.keys||[])){
+        const v = await env.JLAB_KV.get(k.name);
+        if(!v) continue;
+        let m=null;
+        try{ m = JSON.parse(v); }catch(e){ m=null; }
+        if(!m || !m.id) continue;
+        if(!latest || String(m.created_ts||'').localeCompare(String(latest.created_ts||'')) > 0){
+          latest = m;
+        }
+      }
+    }catch(e){}
+  }
+
+  if(scope === 'perf'){
+    await pull('posts/meta/perf/KR/');
+    await pull('posts/meta/perf/US/');
+    if(latest) await env.JLAB_KV.put('posts/latest/perf.json', JSON.stringify(latest));
+    else await env.JLAB_KV.delete('posts/latest/perf.json');
+    return true;
+  }
+  if(scope === 'meme'){
+    await pull('posts/meta/meme/KR/');
+    await pull('posts/meta/meme/US/');
+    if(latest) await env.JLAB_KV.put('posts/latest/meme.json', JSON.stringify(latest));
+    else await env.JLAB_KV.delete('posts/latest/meme.json');
+    return true;
+  }
+
+  // bigdata (strong/accum/suspicious)
+  const cats = ['strong','accum','suspicious'];
+  for(const c of cats){
+    await pull(`posts/meta/${c}/KR/`);
+    await pull(`posts/meta/${c}/US/`);
+  }
+  if(latest) await env.JLAB_KV.put('posts/latest/bigdata.json', JSON.stringify(latest));
+  else await env.JLAB_KV.delete('posts/latest/bigdata.json');
+  return true;
+}
+
+async function handlePostsDelete(request, env, baseUrl){
+  const admin = await requireAdmin(request, env, baseUrl);
+  if(!admin) return jsonResp({ok:false, error:'FORBIDDEN'}, 403);
+  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
+
+  const body = await request.json().catch(()=> ({}));
+  const id = String(body.id||'').trim();
+  if(!id) return jsonResp({ok:false, error:'NO_ID'}, 200);
+
+  const metaStr = await env.JLAB_KV.get(`posts/id/${id}.json`);
+  if(!metaStr) return jsonResp({ok:false, error:'NOT_FOUND'}, 200);
+
+  let meta=null;
+  try{ meta = JSON.parse(metaStr); }catch(e){ meta=null; }
+  if(!meta) return jsonResp({ok:false, error:'BAD_META'}, 200);
+
+  const category = String(meta.category||'').trim();
+  const region = String(meta.region||'').trim().toUpperCase();
+  const ts = String(meta.created_ts||'').trim();
+
+  const metaKey = (category && region && ts) ? `posts/meta/${category}/${region}/${ts}_${id}.json` : null;
+  const idKey = `posts/id/${id}.json`;
+  const htmlKey = `posts/html/${id}.html`;
+
+  try{
+    if(metaKey) await env.JLAB_KV.delete(metaKey);
+    await env.JLAB_KV.delete(idKey);
+    await env.JLAB_KV.delete(htmlKey);
+  }catch(e){
+    return jsonResp({ok:false, error:'DELETE_FAIL'}, 200);
+  }
+
+  // latest pointers: if the deleted post was the latest, recompute
+  try{
+    const scope = (category === 'perf') ? 'perf' : (category === 'meme') ? 'meme' : 'bigdata';
+    const latestKey = (scope === 'perf') ? 'posts/latest/perf.json' : (scope === 'meme') ? 'posts/latest/meme.json' : 'posts/latest/bigdata.json';
+    const lv = await env.JLAB_KV.get(latestKey);
+    if(lv){
+      let lm=null;
+      try{ lm = JSON.parse(lv); }catch(e){ lm=null; }
+      if(lm && lm.id === id){
+        await _recomputeLatest(env, scope);
+      }
+    }
+  }catch(e){}
+
+  return jsonResp({ok:true, id}, 200);
+}
+
+async function handlePostsUpdateTitle(request, env, baseUrl){
+  const admin = await requireAdmin(request, env, baseUrl);
+  if(!admin) return jsonResp({ok:false, error:'FORBIDDEN'}, 403);
+  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
+
+  const body = await request.json().catch(()=> ({}));
+  const id = String(body.id||'').trim();
+  const title = String(body.title||'').trim();
+  if(!id) return jsonResp({ok:false, error:'NO_ID'}, 200);
+  if(!title) return jsonResp({ok:false, error:'NO_TITLE'}, 200);
+
+  const metaStr = await env.JLAB_KV.get(`posts/id/${id}.json`);
+  if(!metaStr) return jsonResp({ok:false, error:'NOT_FOUND'}, 200);
+
+  let meta=null;
+  try{ meta = JSON.parse(metaStr); }catch(e){ meta=null; }
+  if(!meta) return jsonResp({ok:false, error:'BAD_META'}, 200);
+
+  meta.title = title;
+  meta.updated_at = new Date().toISOString();
+  meta.updated_by = admin.email || admin.user_id || 'admin';
+
+  const category = String(meta.category||'').trim();
+  const region = String(meta.region||'').trim().toUpperCase();
+  const ts = String(meta.created_ts||'').trim();
+  const metaKey = (category && region && ts) ? `posts/meta/${category}/${region}/${ts}_${id}.json` : null;
+
+  try{
+    await env.JLAB_KV.put(`posts/id/${id}.json`, JSON.stringify(meta));
+    if(metaKey) await env.JLAB_KV.put(metaKey, JSON.stringify(meta));
+  }catch(e){
+    return jsonResp({ok:false, error:'UPDATE_FAIL'}, 200);
+  }
+
+  // update latest pointer if this post is current latest in its scope
+  try{
+    const scope = (category === 'perf') ? 'perf' : (category === 'meme') ? 'meme' : 'bigdata';
+    const latestKey = (scope === 'perf') ? 'posts/latest/perf.json' : (scope === 'meme') ? 'posts/latest/meme.json' : 'posts/latest/bigdata.json';
+    const lv = await env.JLAB_KV.get(latestKey);
+    if(lv){
+      let lm=null;
+      try{ lm = JSON.parse(lv); }catch(e){ lm=null; }
+      if(lm && lm.id === id){
+        await env.JLAB_KV.put(latestKey, JSON.stringify(meta));
+      }
+    }
+  }catch(e){}
+
+  return jsonResp({ok:true, id, meta}, 200);
+}
+
 // ==============================
 // Signup request (store minimal)
 // ==============================
@@ -774,6 +925,12 @@ export default {
     // ==============================
     if (url.pathname === '/api/posts/create' && request.method === 'POST') {
       return await handlePostsCreate(request, env, url.origin);
+    }
+    if (url.pathname === '/api/posts/delete' && request.method === 'POST') {
+      return await handlePostsDelete(request, env, url.origin);
+    }
+    if (url.pathname === '/api/posts/update_title' && request.method === 'POST') {
+      return await handlePostsUpdateTitle(request, env, url.origin);
     }
     if (url.pathname === '/api/posts/list') {
       return await handlePostsList(request, env);

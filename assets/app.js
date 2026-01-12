@@ -484,10 +484,46 @@
   }
 
 
-  function renderMetaItem(meta){
+
+  function bindDeleteDelegation(container, onDeleted){
+    if(!container || container.dataset && container.dataset.jlabDeleteBound === '1') return;
+    if(container.dataset) container.dataset.jlabDeleteBound = '1';
+
+    container.addEventListener('click', async (e)=>{
+      const t = e.target;
+      if(!t) return;
+      if(t.getAttribute && t.getAttribute('data-act') === 'post-delete'){
+        e.preventDefault();
+        const id = t.getAttribute('data-id') || '';
+        if(!id) return;
+        const ok = confirm('삭제하시겠습니까?');
+        if(!ok) return;
+
+        t.disabled = true;
+        try{
+          const res = await postJSON('/api/posts/delete', {id});
+          if(res && res.ok){
+            if(typeof onDeleted === 'function') await onDeleted();
+          }else{
+            alert('삭제 실패: ' + (res.error||''));
+          }
+        }catch(err){
+          alert('삭제 실패');
+        }finally{
+          t.disabled = false;
+        }
+      }
+    });
+  }
+
+  function renderMetaItem(meta, opts){
+    opts = (opts && typeof opts === 'object') ? opts : {};
     const title = meta.title || '(제목 없음)';
     const sub = `${meta.region||''} · ${meta.category||''} · ${fmtTime(meta.created_at||'')}`;
     const thumb = (meta && meta.thumb) ? String(meta.thumb) : '';
+    const canDelete = !!opts.canDelete;
+    const showActions = !!opts.showActions;
+
     return `
       <div class="item">
         <div>
@@ -496,6 +532,7 @@
         </div>
         <div class="right">
           ${thumb ? `<img class="mini-thumb" src="${esc(thumb)}" alt="thumb">` : ``}
+          ${showActions && canDelete ? `<button class="mini-action danger" type="button" data-act="post-delete" data-id="${esc(meta.id||'')}">삭제</button>` : ``}
           <a href="/post/?id=${encodeURIComponent(meta.id)}">보기</a>
         </div>
       </div>
@@ -623,6 +660,8 @@
     const list = byId('bd-list');
     if(!list) return;
 
+    let isAdmin = false;
+
     // default state
     let region = 'KR';
     let cat = 'accum';
@@ -653,7 +692,7 @@
         const cnt = byId('bd-badge-count');
         if(upd) upd.textContent = `UPD: ${fmtTime(j.updated_at||'')}`;
         if(cnt) cnt.textContent = `${items.length}개`;
-        list.innerHTML = items.length ? items.map(renderMetaItem).join('') : `<div class="item"><div><div class="title">게시글이 없습니다.</div><div class="meta">관리자 업로드 후 표시됩니다.</div></div></div>`;
+        list.innerHTML = items.length ? items.map(m=>renderMetaItem(m,{showActions:isAdmin,canDelete:isAdmin})).join('') : `<div class="item"><div><div class="title">게시글이 없습니다.</div><div class="meta">관리자 업로드 후 표시됩니다.</div></div></div>`;
       }catch(e){
         list.innerHTML = `<div class="item"><div><div class="title">목록을 불러오지 못했습니다.</div><div class="meta">KV 설정 확인</div></div></div>`;
       }
@@ -662,11 +701,12 @@
     // admin upload UI
     try{
       const me = await fetchJSON('/api/auth/me');
-      const isAdmin = detectIsAdmin(me);
+      isAdmin = detectIsAdmin(me);
       const box = byId('bd-admin-actions');
       if(box) box.style.display = isAdmin ? '' : 'none';
       if(isAdmin){
         bindBigdataUpload(()=>({category: cat, region}));
+        bindDeleteDelegation(list, load);
       }
     }catch(e){}
 
@@ -762,6 +802,7 @@ async function hydrateCategoryPage(){
   function bindCategoryUpload(catKey, getState){
     const btn = byId('cat-btn-upload');
     const file = byId('cat-file');
+    const titleInput = byId('cat-title');
     if(!btn || !file) return;
 
     btn.addEventListener('click', ()=> file.click());
@@ -776,7 +817,8 @@ async function hydrateCategoryPage(){
         const date_key = guessDateKey(f.name);
         const st = getState ? getState() : {category: catKey, region:'KR'};
         const titleMap = {accum:'매집종목', strong:'강한종목', suspicious:'수상해수상해'};
-        const title = `${titleMap[st.category]||'빅데이터'} ${date_key}`;
+        const manualTitle = (titleInput && titleInput.value ? titleInput.value : '').trim();
+        const title = manualTitle || `${titleMap[st.category]||'빅데이터'} ${date_key}`;
 
         const top10 = rows.slice(0,10);
         const top30 = rows.slice(0,30);
@@ -813,6 +855,8 @@ async function hydrateCategoryPage(){
     const list = byId('perf-list');
     if(!list) return;
 
+    let isAdmin = false;
+
     async function load(){
       list.innerHTML = `<div class="small">로딩 중...</div>`;
       try{
@@ -822,7 +866,7 @@ async function hydrateCategoryPage(){
         const cnt = byId('perf-badge-count');
         if(upd) upd.textContent = `UPD: ${fmtTime(j.updated_at||'')}`;
         if(cnt) cnt.textContent = `총 ${items.length}개`;
-        list.innerHTML = items.length ? items.map(renderMetaItem).join('') : `<div class="item"><div><div class="title">성과표가 없습니다.</div><div class="meta">관리자 업로드 후 누적됩니다.</div></div></div>`;
+        list.innerHTML = items.length ? items.map(m=>renderMetaItem(m,{showActions:isAdmin,canDelete:isAdmin})).join('') : `<div class="item"><div><div class="title">성과표가 없습니다.</div><div class="meta">관리자 업로드 후 누적됩니다.</div></div></div>`;
       }catch(e){
         list.innerHTML = `<div class="item"><div><div class="title">성과표를 불러오지 못했습니다.</div><div class="meta">KV 설정 확인</div></div></div>`;
       }
@@ -830,11 +874,12 @@ async function hydrateCategoryPage(){
 
     try{
       const me = await fetchJSON('/api/auth/me');
-      const isAdmin = detectIsAdmin(me);
+      isAdmin = detectIsAdmin(me);
       const box = byId('perf-admin-actions');
       if(box) box.style.display = isAdmin ? '' : 'none';
       if(isAdmin){
         bindPerfUpload();
+        bindDeleteDelegation(list, load);
       }
     }catch(e){}
 
@@ -865,6 +910,65 @@ async function hydrateCategoryPage(){
       if(sub) sub.textContent = `${meta.region||''} · ${meta.category||''} · ${meta.date_key||''}`;
       if(upd) upd.textContent = `UPD: ${fmtTime(meta.created_at||'')}`;
       if(kind) kind.textContent = 'HTML';
+
+      // admin actions (title update / delete)
+      try{
+        const me = await fetchJSON('/api/auth/me');
+        const isAdmin = detectIsAdmin(me);
+        const box = byId('post-admin-actions');
+        if(box) box.style.display = isAdmin ? '' : 'none';
+        if(isAdmin){
+          const inp = byId('post-edit-title');
+          const btnSave = byId('post-btn-save-title');
+          const btnDel = byId('post-btn-delete');
+          if(inp) inp.value = (meta.title||'').trim();
+
+          if(btnSave && !btnSave.dataset.bound){
+            btnSave.dataset.bound = '1';
+            btnSave.addEventListener('click', async ()=>{
+              const newTitle = (inp && inp.value ? inp.value : '').trim();
+              if(!newTitle){ alert('제목을 입력하십시오.'); return; }
+              btnSave.disabled = true;
+              try{
+                const res = await postJSON('/api/posts/update_title', {id, title: newTitle});
+                if(res && res.ok){
+                  if(ttl) ttl.textContent = newTitle;
+                  alert('저장되었습니다.');
+                }else{
+                  alert('저장 실패: ' + (res.error||''));
+                }
+              }catch(e){
+                alert('저장 실패');
+              }finally{
+                btnSave.disabled = false;
+              }
+            });
+          }
+
+          if(btnDel && !btnDel.dataset.bound){
+            btnDel.dataset.bound = '1';
+            btnDel.addEventListener('click', async ()=>{
+              const ok = confirm('삭제하시겠습니까?');
+              if(!ok) return;
+              btnDel.disabled = true;
+              try{
+                const res = await postJSON('/api/posts/delete', {id});
+                if(res && res.ok){
+                  alert('삭제되었습니다.');
+                  window.location.href = '/data/';
+                }else{
+                  alert('삭제 실패: ' + (res.error||''));
+                }
+              }catch(e){
+                alert('삭제 실패');
+              }finally{
+                btnDel.disabled = false;
+              }
+            });
+          }
+        }
+      }catch(e){}
+
       frame.srcdoc = j.html || '';
     }catch(e){
       frame.srcdoc = '<html><body style="background:#0b1220;color:#fff;font-family:system-ui;padding:24px;">LOAD ERROR</body></html>';
@@ -1306,6 +1410,7 @@ tr:nth-child(even) td{ background: rgba(255,255,255,0.02); }
   function bindBigdataUpload(getState){
     const btn = byId('bd-btn-upload');
     const file = byId('bd-file');
+    const titleInput = byId('bd-title');
     if(!btn || !file) return;
 
     btn.addEventListener('click', ()=> file.click());
@@ -1320,7 +1425,8 @@ tr:nth-child(even) td{ background: rgba(255,255,255,0.02); }
         const date_key = guessDateKey(f.name);
         const st = getState ? getState() : {category:'accum', region:'KR'};
         const titleMap = {accum:'매집종목', strong:'강한종목', suspicious:'수상해수상해'};
-        const title = `${titleMap[st.category]||'빅데이터'} ${date_key}`;
+        const manualTitle = (titleInput && titleInput.value ? titleInput.value : '').trim();
+        const title = manualTitle || `${titleMap[st.category]||'빅데이터'} ${date_key}`;
 
         const top10 = rows.slice(0,10);
         const top30 = rows.slice(0,30);
@@ -1352,6 +1458,7 @@ tr:nth-child(even) td{ background: rgba(255,255,255,0.02); }
   function bindPerfUpload(){
     const btn = byId('perf-btn-upload');
     const file = byId('perf-file');
+    const titleInput = byId('perf-title');
     if(!btn || !file) return;
 
     btn.addEventListener('click', ()=> file.click());
@@ -1364,7 +1471,8 @@ tr:nth-child(even) td{ background: rgba(255,255,255,0.02); }
       try{
         const rows = await parseFileToRows(f);
         const date_key = guessDateKey(f.name);
-        const title = `성과표 ${date_key}`;
+        const manualTitle = (titleInput && titleInput.value ? titleInput.value : '').trim();
+        const title = manualTitle || `성과표 ${date_key}`;
         const top10 = rows.slice(0,10);
         const top30 = rows.slice(0,30);
         const html = buildMrankHtml(title, top10, top30, rows);
@@ -1485,6 +1593,8 @@ tr:nth-child(even) td{ background: rgba(255,255,255,0.02); }
     const list = byId('meme-list');
     if(!list) return;
 
+    let isAdmin = false;
+
     const badgeUpd = byId('meme-badge-upd');
     const badgeCount = byId('meme-badge-count');
 
@@ -1494,7 +1604,7 @@ tr:nth-child(even) td{ background: rgba(255,255,255,0.02); }
         const items = (j.items||[]);
         if(badgeUpd) badgeUpd.textContent = `UPD: ${items[0] && items[0].created_at ? fmtTime(items[0].created_at) : '-'}`;
         if(badgeCount) badgeCount.textContent = `LIVE: ${items.length}`;
-        list.innerHTML = items.length ? items.map(renderMetaItem).join('') : `<div class="item"><div><div class="title">등록된 짤이 없습니다.</div><div class="meta">관리자 업로드 후 표시됩니다.</div></div></div>`;
+        list.innerHTML = items.length ? items.map(m=>renderMetaItem(m,{showActions:isAdmin,canDelete:isAdmin})).join('') : `<div class="item"><div><div class="title">등록된 짤이 없습니다.</div><div class="meta">관리자 업로드 후 표시됩니다.</div></div></div>`;
       }catch(e){
         list.innerHTML = `<div class="item"><div><div class="title">목록을 불러오지 못했습니다.</div><div class="meta">KV 설정 확인</div></div></div>`;
       }
@@ -1503,11 +1613,12 @@ tr:nth-child(even) td{ background: rgba(255,255,255,0.02); }
     // admin upload UI
     try{
       const me = await fetchJSON('/api/auth/me');
-      const isAdmin = detectIsAdmin(me);
+      isAdmin = detectIsAdmin(me);
       const box = byId('meme-admin-actions');
       if(box) box.style.display = isAdmin ? '' : 'none';
       if(isAdmin){
         bindMemeUpload(load);
+        bindDeleteDelegation(list, load);
       }
     }catch(e){}
 
@@ -1532,10 +1643,25 @@ tr:nth-child(even) td{ background: rgba(255,255,255,0.02); }
       try{
         const todayKey = guessDateKey(new Date().toISOString().slice(0,10));
         const t = (titleInput && titleInput.value ? titleInput.value : '').trim() || (f.name || '웃긴짤').replace(/\.[^/.]+$/, '');
-        const full = await imageToDataUrlResized(f, 1200, 0.86);
-        const thumb = await imageToDataUrlResized(f, 320, 0.82);
+        const isVideo = (f.type || '').startsWith('video/');
 
-        const html = buildMemeHtml(t, full);
+        let full = '';
+        let thumb = '';
+
+        if(isVideo){
+          // KV 저장 한계 고려: 너무 큰 파일은 차단
+          const maxBytes = 7 * 1024 * 1024; // 7MB
+          if(f.size > maxBytes){
+            throw new Error('동영상 파일이 너무 큽니다. (7MB 이하로 올리십시오.)');
+          }
+          full = await readFileAsDataUrl(f);
+          thumb = makeVideoThumb(t);
+        }else{
+          full = await imageToDataUrlResized(f, 1200, 0.86);
+          thumb = await imageToDataUrlResized(f, 320, 0.82);
+        }
+
+        const html = buildMemeHtml(t, full, isVideo ? (f.type || 'video/mp4') : 'image');
 
         const payload = {
           category: 'meme',
@@ -1563,7 +1689,25 @@ tr:nth-child(even) td{ background: rgba(255,255,255,0.02); }
     });
   }
 
-  function buildMemeHtml(title, imgDataUrl){
+  
+  function makeVideoThumb(title){
+    const safe = esc(title || 'VIDEO');
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180">
+      <defs>
+        <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#3b82f6"/>
+          <stop offset="1" stop-color="#ff3b30"/>
+        </linearGradient>
+      </defs>
+      <rect width="320" height="180" rx="18" fill="url(#g)"/>
+      <circle cx="160" cy="88" r="34" fill="rgba(0,0,0,0.25)"/>
+      <polygon points="152,70 152,106 182,88" fill="#ffffff"/>
+      <text x="160" y="160" font-family="Pretendard,system-ui" font-size="14" font-weight="800" text-anchor="middle" fill="rgba(255,255,255,0.92)">${safe}</text>
+    </svg>`;
+    return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
+  }
+
+function buildMemeHtml(title, mediaDataUrl, mediaType){
     const safeTitle = esc(title||'');
     const now = new Date();
     const stamp = now.toISOString().replace('T',' ').slice(0,19);
@@ -1587,7 +1731,7 @@ tr:nth-child(even) td{ background: rgba(255,255,255,0.02); }
   <div class="wrap">
     <div class="card">
       <h1>${safeTitle}</h1>
-      <img src="${esc(imgDataUrl)}" alt="meme">
+${(String(mediaType||"")||"").startsWith("video/") ? `      <video controls playsinline style="width:100%; height:auto; border-radius:14px; border:1px solid rgba(148,163,184,.18);" src="${esc(mediaDataUrl)}"></video>` : `      <img src="${esc(mediaDataUrl)}" alt="meme">`}
       <div class="meta">
         <span>업로드: ${esc(stamp)}</span>
         <span>주랩 웃긴짤</span>

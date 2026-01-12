@@ -110,6 +110,8 @@ a:hover{opacity:.92;}
 }
 .btn.primary{background: var(--brand); color:#fff;}
 .btn.ghost{background:#FFFFFF; border:1px solid var(--line); color:#0b1220;}
+.btn.danger{background:#ef4444; color:#fff;}
+.btn.danger:hover{filter:brightness(0.95);}
 .chips{display:flex; gap:8px; flex-wrap:wrap; align-items:center;}
 .chip{
   height:36px;
@@ -331,6 +333,9 @@ a.card.link-card:hover{border-color: rgba(15,23,42,.22); background: rgba(248,25
 .ck input{width:16px; height:16px;}
 
 /* Meme / thumbs */
+.mini-action{height:34px; padding:0 12px; border-radius:999px; border:1px solid var(--line); background:#fff; font-weight:900; font-size:12px; cursor:pointer;}
+.mini-action.danger{background:#ef4444; border-color:transparent; color:#fff;}
+.mini-action.danger:hover{filter:brightness(0.95);}
 .mini-thumb{
   width:46px;
   height:46px;
