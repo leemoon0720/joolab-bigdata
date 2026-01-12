@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-12 12:55 KST",
+  "updated_at": "2026-01-12 13:48 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,6 +23,38 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 13:44",
+      "title": "한양증권 “자기자본 1조 중대형 증권사 도약…리스크 관리 강화”",
+      "url": "https://www.mk.co.kr/news/stock/11930101",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 13:38",
+      "title": "[단독] NXT “단순 기업개황만 검토... 기술탈취설은 근거 없어”",
+      "url": "https://www.mk.co.kr/news/stock/11930095",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 13:30",
+      "title": "\"삼성전자, 지금 팔면 안되는 이유는…\" 개미들 향한 조언 [한경 트렌드쇼]",
+      "url": "https://www.hankyung.com/article/2026010914626",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 13:23",
+      "title": "역대급 ‘국장’에 주식결제대금도 600조 시대…전년 대비 24% 급증",
+      "url": "https://www.mk.co.kr/news/stock/11930087",
+      "keywords_hit": []
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-12 12:47",
@@ -44,7 +76,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-12 11:39",
-      "title": "中 수출 통제 우려에 지정학 우려까지...銀 가격 또 급등",
+      "title": "중국 수출 통제에 지정학 우려까지…은 가격 또 급등",
       "url": "https://www.mk.co.kr/news/stock/11930036",
       "keywords_hit": []
     },
@@ -108,7 +140,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-12 10:59",
-      "title": "\"더 오르기 전에 지금 사두자\"…국내 원전주 줄줄이 급등",
+      "title": "\"더 오르기 전에 지금 사두자\"…주가 8만원 뚫자 '화들짝'",
       "url": "https://www.hankyung.com/article/202601124710i",
       "keywords_hit": []
     },
@@ -335,52 +367,12 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 09:01",
-      "title": "[속보] 코스피 1.17% 오른 4639.86으로 개장…최고치 재경신",
-      "url": "https://www.hankyung.com/article/2026011243816",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-12 08:56",
       "title": "하나증권 “LG에너지솔루션, EV 출하량 감소…ESS 부문서 부진 상쇄”",
       "url": "https://www.mk.co.kr/news/stock/11929705",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-12 08:56",
-      "title": "인가전 M&A KC글라스 스토킹호스에 구조조정 전문 오퍼스PE",
-      "url": "https://www.mk.co.kr/news/stock/11929702",
-      "keywords_hit": [
-        "M&A"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-12 08:55",
-      "title": "“LG엔솔 주주분들 죄송합니다”…목표주가 29% 낮춘 이유가 [오늘 나온 보고서]",
-      "url": "https://www.mk.co.kr/news/stock/11929701",
-      "keywords_hit": [
-        "유가"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-12 08:52",
-      "title": "주식 안해도 여기는 다 안다…코스피 5000시대에 들뜬 여의도",
-      "url": "https://www.mk.co.kr/news/stock/11929696",
-      "keywords_hit": [
-        "코스피"
-      ]
     }
   ]
 }
