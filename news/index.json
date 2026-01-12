@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-12 21:41 KST",
+  "updated_at": "2026-01-12 22:31 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,22 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 22:30",
+      "title": "‘가성비 커피’ 직장인만 홀린게 아니네…해외 투자자까지 눈독",
+      "url": "https://www.mk.co.kr/news/stock/11930873",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 22:00",
+      "title": "\"좀 올라가자\" 개미들 비명 쏟아지더니…기묘한 반등에 '깜짝' [종목+]",
+      "url": "https://www.hankyung.com/article/2026011257576",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -75,19 +91,19 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-12 17:28",
-      "title": "M7 두달새 4% 떨어졌지만…美대표지수는 올랐다",
-      "url": "https://www.mk.co.kr/news/stock/11930566",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-12 17:28",
       "title": "오르는 종목만 간다 … 'K자형' 코스피 4600 돌파",
       "url": "https://www.mk.co.kr/news/stock/11930567",
       "keywords_hit": [
         "코스피"
       ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 17:28",
+      "title": "M7 두달새 4% 떨어졌지만…美대표지수는 올랐다",
+      "url": "https://www.mk.co.kr/news/stock/11930566",
+      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -316,14 +332,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 16:12",
-      "title": "연초 채권 발행 사상 최대…JP모간 \"신용 리스크 확대 우려\"",
-      "url": "https://www.hankyung.com/article/202601125633i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-12 16:09",
@@ -364,17 +372,6 @@
       "title": "[단독] 맥쿼리, DIG에어가스 딜 클로징…‘원주인’ 에어리퀴드 12년 만에 귀환",
       "url": "https://www.mk.co.kr/news/stock/11930296",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-12 15:44",
-      "title": "[속보] “코스피 불장에도 환율 8일째 상승”…정부, 구두개입 후 첫 1460원선",
-      "url": "https://www.mk.co.kr/news/economy/11930293",
-      "keywords_hit": [
-        "코스피",
-        "환율"
-      ]
     }
   ]
 }
