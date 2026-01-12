@@ -860,7 +860,8 @@ async function hydrateCategoryPage(){
 
         const top10 = rows.slice(0,10);
         const top30 = rows.slice(0,30);
-        const html = buildMrankHtml(title, top10, top30, rows);
+        const mrOpt = (st.category==='strong' || st.category==='accum') ? {top30_only:true, no_details:true} : null;
+        const html = buildMrankHtml(title, top10, top30, rows, mrOpt);
 
         const is_sample = !!byId('bd-ck-sample')?.checked;
 
@@ -1254,8 +1255,12 @@ details.details[open] > summary{
 </style>
 `;
 
-  function buildMrankHtml(title, top10, top30, allRows){
+  function buildMrankHtml(title, top10, top30, allRows, opt){
     const css = MRAK_CSS.replace('<style>','').replace('</style>','');
+    opt = opt || {};
+    const TOP30_ONLY = !!opt.top30_only;
+    const NO_DETAILS = !!opt.no_details;
+
 
     function safe(v){ return esc(v===null||v===undefined ? '' : String(v)); }
     function num(v){
@@ -1314,6 +1319,9 @@ details.details[open] > summary{
 
       const detailRows = Object.keys(row).map(k=>`<tr><td>${safe(k)}</td><td>${safe(row[k])}</td></tr>`).join('');
       const detailTbl = `<table><thead><tr><th>지표</th><th>값</th></tr></thead><tbody>${detailRows}</tbody></table>`;
+      const detailsHtml = NO_DETAILS ? '' : `
+            ${detailsHtml}
+          `;
 
       return `
         <div class="card">
@@ -1327,10 +1335,7 @@ details.details[open] > summary{
           <div class="card-body">
             <div class="chips">${chips}</div>
             <div class="kv kv-compact">${kvs}</div>
-            <details class="details">
-              <summary>전체지표 보기(전 컬럼)</summary>
-              <div class="details-wrap">${detailTbl}</div>
-            </details>
+            ${detailsHtml}
           </div>
         </div>
       `;
@@ -1354,7 +1359,17 @@ details.details[open] > summary{
     const cards10 = t10.map((r,i)=>renderCard(r,i+1)).join('');
     const cards30 = t30.map((r,i)=>renderCard(r,i+1)).join('');
 
-    const doc = `<!doctype html><html lang="ko"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>${safe(title)}</title>
+    const doc = TOP30_ONLY ? `<!doctype html><html lang="ko"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>${safe(title)}</title><style>${css}</style></head><body><div class="wrap">
+  <div class="jl-title">
+    <div>
+      <div class="ttl">${safe(title)}</div>
+      <div class="sub">업로드 기반 리포트 · TOP30 카드뉴스</div>
+    </div>
+  </div>
+
+  <h2 id="top30" style="margin:6px 0 10px 0;">TOP30</h2>
+  <div class="grid">${cards30}</div>
+</div></body></html>` : `<!doctype html><html lang="ko"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>${safe(title)}</title>
 <style>${css}
 table{ width:100%; border-collapse:collapse; margin-top:14px; }
 th, td{ border:1px solid rgba(255,255,255,0.10); padding:8px 10px; font-size:12px; color:rgba(234,240,255,0.88); }
@@ -1468,7 +1483,8 @@ tr:nth-child(even) td{ background: rgba(255,255,255,0.02); }
 
         const top10 = rows.slice(0,10);
         const top30 = rows.slice(0,30);
-        const html = buildMrankHtml(title, top10, top30, rows);
+        const mrOpt = (st.category==='strong' || st.category==='accum') ? {top30_only:true, no_details:true} : null;
+        const html = buildMrankHtml(title, top10, top30, rows, mrOpt);
 
         const res = await postJSON('/api/posts/create', {
           category: st.category,
@@ -1513,7 +1529,8 @@ tr:nth-child(even) td{ background: rgba(255,255,255,0.02); }
         const title = manualTitle || `성과표 ${date_key}`;
         const top10 = rows.slice(0,10);
         const top30 = rows.slice(0,30);
-        const html = buildMrankHtml(title, top10, top30, rows);
+        const mrOpt = (st.category==='strong' || st.category==='accum') ? {top30_only:true, no_details:true} : null;
+        const html = buildMrankHtml(title, top10, top30, rows, mrOpt);
 
         const res = await postJSON('/api/posts/create', {
           category: 'perf',
