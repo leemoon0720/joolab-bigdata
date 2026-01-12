@@ -1,25 +1,379 @@
 {
-  "updated_at": "",
+  "updated_at": "2026-01-13 02:12 KST",
   "sources": [
     {
       "id": "HK",
       "name": "한국경제",
       "feed": "https://www.hankyung.com/feed/finance",
-      "status": "MISSING"
+      "status": "OK"
     },
     {
       "id": "MK",
       "name": "매일경제",
       "feed": "https://www.mk.co.kr/rss/50200011/",
-      "status": "MISSING"
+      "status": "OK"
     },
     {
       "id": "YNA",
       "name": "연합뉴스",
       "feed": "https://www.yna.co.kr/rss/stock.xml",
-      "status": "MISSING"
+      "status": "PARTIAL"
     }
   ],
-  "count": 0,
-  "items": []
+  "count": 40,
+  "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 02:03",
+      "title": "'IPO 삼수생' 케이뱅크, 코스피 상장 예심 통과",
+      "url": "https://www.hankyung.com/article/2026011263291",
+      "keywords_hit": [
+        "코스피",
+        "IPO",
+        "상장"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 22:30",
+      "title": "‘가성비 커피’ 직장인만 홀린게 아니네…해외 투자자까지 눈독",
+      "url": "https://www.mk.co.kr/news/stock/11930873",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 22:00",
+      "title": "\"내려도 너무 내렸다\" 개미들 비명 쏟아지더니…기묘한 반등 [종목+]",
+      "url": "https://www.hankyung.com/article/2026011257576",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 19:47",
+      "title": "\"3년내 부실기업 230곳 퇴출\"…거래소, 상폐 로드맵 공개",
+      "url": "https://www.hankyung.com/article/2026011262121",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 19:36",
+      "title": "'IPO 3수생' 케이뱅크, 코스피 상장예심 통과",
+      "url": "https://www.hankyung.com/article/2026011262356",
+      "keywords_hit": [
+        "코스피",
+        "IPO",
+        "상장"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 17:57",
+      "title": "\"7년 키운 스타트업은 탈락\"…금융위 STO 인가 공정성 논란",
+      "url": "https://www.hankyung.com/article/202601125180g",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 17:55",
+      "title": "유투바이오, 121억원 규모 유상증자 실시",
+      "url": "https://www.mk.co.kr/news/stock/11930612",
+      "keywords_hit": [
+        "증자",
+        "바이오"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 17:28",
+      "title": "코스피, 미국 증시 훈풍에 사상 최고치 또 경신…4624.79 마감 [HK영상]",
+      "url": "https://www.hankyung.com/article/202601126077i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 17:28",
+      "title": "오르는 종목만 간다 … 'K자형' 코스피 4600 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11930567",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 17:28",
+      "title": "M7 두달새 4% 떨어졌지만…美대표지수는 올랐다",
+      "url": "https://www.mk.co.kr/news/stock/11930566",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 17:28",
+      "title": "\"국장 투자땐 현금지원\" 증권사 이벤트도 봇물",
+      "url": "https://www.mk.co.kr/news/stock/11930565",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 17:21",
+      "title": "中 수출통제에 19% 뛴 銀값",
+      "url": "https://www.mk.co.kr/news/stock/11930520",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 17:21",
+      "title": "예금토큰, BNY멜런까지 가세",
+      "url": "https://www.mk.co.kr/news/stock/11930521",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 17:16",
+      "title": "“정말 꿈의 5000피 시대 오나”…코스피 5년만에 ‘깜짝’ 24조 돌파한 ‘이것’",
+      "url": "https://www.mk.co.kr/news/economy/11930505",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 17:12",
+      "title": "네이버 밀리고 SK스퀘어 올라섰다…코스피 ‘시총 톱10’ 재편",
+      "url": "https://www.mk.co.kr/news/stock/11930500",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 17:11",
+      "title": "토르스텐 슬뢰크 \"美 경제 탄탄해 인플레이션 잡기 어려워…원화는 당분간 약세\"",
+      "url": "https://www.hankyung.com/article/2026011259311",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 17:08",
+      "title": "코스피 4600 '사상 최고'에도…시장 불안속 금값 2% 상승",
+      "url": "https://www.hankyung.com/article/2026011260321",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 17:08",
+      "title": "中 MZ들 열광한 '미국 제품' 뭐길래…주가도 '대박' 터졌다",
+      "url": "https://www.hankyung.com/article/2026011259281",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 17:07",
+      "title": "한양증권 “조직 안정 궤도…중대형 증권사로 도약할 것”",
+      "url": "https://www.mk.co.kr/news/stock/11930489",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 17:06",
+      "title": "中 미니맥스 상장 이틀 만에 170% 급등",
+      "url": "https://www.hankyung.com/article/2026011259301",
+      "keywords_hit": [
+        "상장"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 17:06",
+      "title": "\"AI 인프라 수요 급증\"…글로벌 채권 발행 사상 최대",
+      "url": "https://www.hankyung.com/article/2026011259271",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 17:05",
+      "title": "시총 1위 엔비디아 두고 \"여전히 미치도록 싸다\"",
+      "url": "https://www.hankyung.com/article/2026011259261",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 17:04",
+      "title": "증시 활황에 증권사 이벤트까지…늘어나는 동학개미 비중",
+      "url": "https://www.mk.co.kr/news/stock/11930486",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 17:01",
+      "title": "거버넌스포럼 “MSCI 로드맵 인상적…신뢰구축·상시피드백 중요”",
+      "url": "https://www.mk.co.kr/news/stock/11930472",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 17:00",
+      "title": "현대차 36% 질주, 한화는 주춤…그룹주 ETF 희비",
+      "url": "https://www.hankyung.com/article/2026011258741",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 17:00",
+      "title": "DB손보, 증권 지분 30%로 확대 추진",
+      "url": "https://www.mk.co.kr/news/stock/11930465",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 17:00",
+      "title": "얼어붙은 내수에도 … 저가커피 M&A '후끈'",
+      "url": "https://www.mk.co.kr/news/stock/11930463",
+      "keywords_hit": [
+        "M&A"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 16:56",
+      "title": "지지부진한 은행주…증권가 \"저가매수 기회\"",
+      "url": "https://www.hankyung.com/article/2026011258761",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 16:55",
+      "title": "변동성 장세, 방어주에 주목할 때",
+      "url": "https://www.hankyung.com/article/2026011258731",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 16:54",
+      "title": "\"앤스로픽 IPO…SKT, 2.8조 차익 기대\"",
+      "url": "https://www.hankyung.com/article/2026011258751",
+      "keywords_hit": [
+        "IPO"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 16:51",
+      "title": "미래에셋 ETF, 작년 평균 28% 수익",
+      "url": "https://www.hankyung.com/article/2026011258721",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 16:50",
+      "title": "[특징주 & 리포트] '미래에셋證, 52주 신고가 경신' 등",
+      "url": "https://www.hankyung.com/article/2026011258781",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 16:46",
+      "title": "농림축산식품부, 축산물 유통 구조 개선",
+      "url": "https://www.hankyung.com/article/2026011258771",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 16:42",
+      "title": "KB증권, 4회 연속 대상…베스트 애널리스트는 8명 첫 영예",
+      "url": "https://www.hankyung.com/article/2026011258551",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 16:22",
+      "title": "정은보 “좀비기업 230곳 퇴출· AI로 시세조종 적발 3개월로 단축”",
+      "url": "https://www.mk.co.kr/news/stock/11930387",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 16:09",
+      "title": "정치권 옮겨붙은 힐하우스 국적 논란···IB업계는 “중국 자본 지목 신중해야”",
+      "url": "https://www.mk.co.kr/news/stock/11930348",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 16:06",
+      "title": "MBK파트너스, ‘홈플러스 분식 회계 의혹’ 반박 나섰다",
+      "url": "https://www.mk.co.kr/news/stock/11930343",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 15:56",
+      "title": "코스피, 4600 돌파 마감…역대 최고치 또 경신",
+      "url": "https://www.mk.co.kr/news/stock/11930316",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 15:55",
+      "title": "코리아프라이빗웰스, PAS투자자문과 MOU 체결",
+      "url": "https://www.mk.co.kr/news/stock/11930313",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 15:46",
+      "title": "[단독] 맥쿼리, DIG에어가스 딜 클로징…‘원주인’ 에어리퀴드 12년 만에 귀환",
+      "url": "https://www.mk.co.kr/news/stock/11930296",
+      "keywords_hit": []
+    }
+  ]
 }
