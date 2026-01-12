@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-12 11:03 KST",
+  "updated_at": "2026-01-12 12:55 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,6 +23,72 @@
   "count": 40,
   "items": [
     {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 12:47",
+      "title": "상장협, 상장사 이사 의사결정 지침 마련…상법 개정 대응",
+      "url": "https://www.hankyung.com/article/2026011251486",
+      "keywords_hit": [
+        "상장"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 12:44",
+      "title": "삼성자산운용, ETF 순자산 120조 돌파",
+      "url": "https://www.hankyung.com/article/2026011251456",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 11:39",
+      "title": "中 수출 통제 우려에 지정학 우려까지...銀 가격 또 급등",
+      "url": "https://www.mk.co.kr/news/stock/11930036",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 11:13",
+      "title": "셀트리온 '연 매출 13조' 치료제 시장 진입 착착…안과 질환 치료제 아이덴젤트 출시 순항 중",
+      "url": "https://www.hankyung.com/article/202601124790i",
+      "keywords_hit": [
+        "매출"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 11:12",
+      "title": "루센트블록, STO 장외거래소 인가 심사 공정성 문제 제기…“운영 실적 반영돼야”",
+      "url": "https://www.mk.co.kr/news/stock/11929979",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 11:06",
+      "title": "코스피 '파죽지세'…\"올해 1분기 5000 돌파\" 파격 전망",
+      "url": "https://www.hankyung.com/article/202601124889i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 11:06",
+      "title": "[마켓PRO] 알고리즘 종목 Pick : \"제주반도체, 모바일 메모리 수요 회복 기대\"",
+      "url": "https://www.hankyung.com/article/202601124902i",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-12 11:03",
@@ -41,6 +107,14 @@
     {
       "source": "HK",
       "press": "한국경제",
+      "published_at": "2026-01-12 10:59",
+      "title": "\"더 오르기 전에 지금 사두자\"…국내 원전주 줄줄이 급등",
+      "url": "https://www.hankyung.com/article/202601124710i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
       "published_at": "2026-01-12 10:58",
       "title": "에프앤가이드 지수 추종 ETF, 순자산총액 35조원 넘어",
       "url": "https://www.hankyung.com/article/202601124891i",
@@ -50,7 +124,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-12 10:56",
-      "title": "코스피, 개인·기관 매수에 강세…두산에너빌리티 5%↑",
+      "title": "코스피, 개인·기관 매수에 4650선도 넘었다…두산에너빌리티 5%↑",
       "url": "https://www.hankyung.com/article/2026011248856",
       "keywords_hit": [
         "코스피",
@@ -72,7 +146,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-12 10:55",
-      "title": "삼전 주가 흔들려 고민이라면 …저평가 은행주로 변동성 완화",
+      "title": "삼전 주가 흔들려 고민이라면…저평가 은행주로 변동성 완화",
       "url": "https://www.hankyung.com/article/202601124707i",
       "keywords_hit": []
     },
@@ -307,75 +381,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-12 08:50",
-      "title": "코인원, 마케팅에 ‘승부수’… 의식주컴퍼니 부사장 출신 김천석 COO 선임",
-      "url": "https://www.mk.co.kr/news/stock/11929692",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 08:48",
-      "title": "\"LG에너지솔루션, 이익 눈높이 낮춰야…ESS 모멘텀은 유효\"-신영",
-      "url": "https://www.hankyung.com/article/2026011243506",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 08:39",
-      "title": "'불기둥' 코스피에 돈 몰린다…투자자예탁금 90조 돌파",
-      "url": "https://www.hankyung.com/article/2026011242847",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-12 08:35",
-      "title": "“LG전자, 4분기 적자전환…로봇 등 신사업 모멘텀 부각될 것”",
-      "url": "https://www.mk.co.kr/news/stock/11929682",
-      "keywords_hit": [
-        "적자",
-        "로봇"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 08:31",
-      "title": "[마켓PRO] Today's Pick : \"한화오션, 지정학적 불확실성 속에서 찾는 기회\"",
-      "url": "https://www.hankyung.com/article/202601124270i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 08:15",
-      "title": "\"한국항공우주, 수출 모멘텀 포진…목표가↑\"-한국",
-      "url": "https://www.hankyung.com/article/2026011242556",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 08:01",
-      "title": "\"삼성중공업, 미국 LNG 모멘텀이 피크아웃 우려 불식…목표가↑\"-유안타",
-      "url": "https://www.hankyung.com/article/2026011242026",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 08:00",
-      "title": "\"테슬라 사이버트럭 대실패?\"…2조 굴리는 전문가의 조언",
-      "url": "https://www.hankyung.com/article/202601113652i",
-      "keywords_hit": []
     }
   ]
 }
