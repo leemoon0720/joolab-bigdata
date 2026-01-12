@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-12 14:20 KST",
+  "updated_at": "2026-01-12 14:48 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,6 +23,50 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 14:46",
+      "title": "“은행엔 생활비라 하세요”...금감원 ‘상장 대박’ 사기 기승에 소비자 경보 격상",
+      "url": "https://www.mk.co.kr/news/stock/11930216",
+      "keywords_hit": [
+        "상장"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 14:33",
+      "title": "“아직 의심? 반도체 주가는 정해진 미래”…메모리값 1분기 55% 오를 것",
+      "url": "https://www.mk.co.kr/news/business/11930184",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 14:25",
+      "title": "\"S&P500보다 낫네\"…작년 미래에셋 ETF 평균 28% 올랐다",
+      "url": "https://www.hankyung.com/article/202601125304i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 14:24",
+      "title": "\"왜 우리만\"…금융위가 키운 혁신기업, 새드엔딩에 '반발' [신민경의 여의도발]",
+      "url": "https://www.hankyung.com/article/2026011247276",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 14:21",
+      "title": "[마켓PRO] 서학개미, 자율주행 경쟁 우려에도 테슬라 집중 매수",
+      "url": "https://www.hankyung.com/article/202601125195i",
+      "keywords_hit": []
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-12 14:10",
@@ -42,7 +86,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-12 14:06",
-      "title": "[마켓PRO] 고수들, 심텍 매수 “'반도체 훈풍·TSMC 실적 기대”",
+      "title": "[마켓PRO] 고수들, 심텍 매수 “반도체 훈풍·TSMC 실적발표 기대”",
       "url": "https://www.hankyung.com/article/202601125193i",
       "keywords_hit": [
         "반도체",
@@ -69,7 +113,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-12 13:30",
-      "title": "마침 손가락 근질근질했는데…\"삼성전자, 지금 팔면 안 된다\" [한경 트렌드쇼]",
+      "title": "마침 손가락 근질근질했는데…\"삼성전자, 지금 팔면 안된다\" [한경 트렌드쇼]",
       "url": "https://www.hankyung.com/article/2026010914626",
       "keywords_hit": []
     },
@@ -281,14 +325,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 10:03",
-      "title": "김병철 한양증권 부회장 \"자기자본 1조 중대형 증권사로 도약\"",
-      "url": "https://www.hankyung.com/article/2026011246336",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-12 10:03",
@@ -331,22 +367,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 09:46",
-      "title": "유안타증권, 'iM에셋 히어로 셀렉션 증권투자신탁' 단독 판매",
-      "url": "https://www.hankyung.com/article/2026011246076",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 09:37",
-      "title": "현대글로비스, 로보틱스 지분가치 부각 기대에 '급등'",
-      "url": "https://www.hankyung.com/article/2026011245506",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-12 09:32",
@@ -356,24 +376,6 @@
         "코스피",
         "반도체"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-12 09:20",
-      "title": "대신자산운용, 대표기업·고배당 목표전환형 펀드 출시",
-      "url": "https://www.mk.co.kr/news/stock/11929742",
-      "keywords_hit": [
-        "배당"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-12 09:20",
-      "title": "바이셀스탠다드, 홍루이그룹·KUN과 MOU",
-      "url": "https://www.mk.co.kr/news/stock/11929740",
-      "keywords_hit": []
     }
   ]
 }
