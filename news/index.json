@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-12 16:43 KST",
+  "updated_at": "2026-01-12 16:55 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,22 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 16:46",
+      "title": "농림축산식품부, 축산물 유통 구조 개선",
+      "url": "https://www.hankyung.com/article/2026011258771",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 16:42",
+      "title": "KB증권, 4회 연속 대상…베스트 애널리스트는 8명 첫 영예",
+      "url": "https://www.hankyung.com/article/2026011258551",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -321,16 +337,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 11:13",
-      "title": "셀트리온 '연 매출 13조' 치료제 시장 진입 착착…안과 질환 치료제 아이덴젤트 출시 순항 중",
-      "url": "https://www.hankyung.com/article/202601124790i",
-      "keywords_hit": [
-        "매출"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-12 11:12",
@@ -338,16 +344,6 @@
       "url": "https://www.mk.co.kr/news/stock/11929979",
       "keywords_hit": [
         "실적"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 11:06",
-      "title": "코스피 '파죽지세'…\"올해 1분기 5000 돌파\" 파격 전망",
-      "url": "https://www.hankyung.com/article/202601124889i",
-      "keywords_hit": [
-        "코스피"
       ]
     },
     {
