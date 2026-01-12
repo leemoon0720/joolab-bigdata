@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-12 19:28 KST",
+  "updated_at": "2026-01-12 19:51 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,18 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 19:36",
+      "title": "'IPO 3수생' 케이뱅크, 코스피 상장예심 통과",
+      "url": "https://www.hankyung.com/article/2026011262356",
+      "keywords_hit": [
+        "코스피",
+        "IPO",
+        "상장"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -344,16 +356,6 @@
       "title": "코리아프라이빗웰스, PAS투자자문과 MOU 체결",
       "url": "https://www.mk.co.kr/news/stock/11930313",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 15:54",
-      "title": "결국 4600선 넘긴 코스피…또 '역대 최고치' 경신",
-      "url": "https://www.hankyung.com/article/202601125642i",
-      "keywords_hit": [
-        "코스피"
-      ]
     },
     {
       "source": "MK",
