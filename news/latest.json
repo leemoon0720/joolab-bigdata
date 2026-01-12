@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-13 08:47 KST",
+  "updated_at": "2026-01-13 08:55 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,36 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-13 08:48",
+      "title": "“피지컬 AI 덕에 체급 달라졌다”...현대차 목표주가 껑충[오늘 나온 보고서]",
+      "url": "https://www.mk.co.kr/news/stock/11931210",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-13 08:48",
+      "title": "“POSCO홀딩스, 4분기 영업이익 시장 전망치 하회 전망”…목표가↓",
+      "url": "https://www.mk.co.kr/news/stock/11931209",
+      "keywords_hit": [
+        "영업이익"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 08:47",
+      "title": "유진證 \"현대차, '피지컬 AI 시대의 주역'…주가 60만원 간다\"",
+      "url": "https://www.hankyung.com/article/2026011367176",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -319,16 +349,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 17:06",
-      "title": "\"AI 인프라 수요 급증\" 채권 발행 사상 최대",
-      "url": "https://www.hankyung.com/article/2026011259271",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-12 17:04",
@@ -371,22 +391,6 @@
       "keywords_hit": [
         "AI"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-12 16:09",
-      "title": "정치권 옮겨붙은 힐하우스 국적 논란···IB업계는 “중국 자본 지목 신중해야”",
-      "url": "https://www.mk.co.kr/news/stock/11930348",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-12 16:06",
-      "title": "MBK파트너스, ‘홈플러스 분식 회계 의혹’ 반박 나섰다",
-      "url": "https://www.mk.co.kr/news/stock/11930343",
-      "keywords_hit": []
     }
   ]
 }
