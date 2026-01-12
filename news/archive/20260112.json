@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-12 15:51 KST",
+  "updated_at": "2026-01-12 16:17 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,6 +25,58 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-12 16:09",
+      "title": "정치권 옮겨붙은 힐하우스 국적 논란···IB업계는 “중국 자본 단정 못해”",
+      "url": "https://www.mk.co.kr/news/stock/11930348",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 16:07",
+      "title": "지금 주식 투자 안하면 바보?…너도나도 '빚투' 나섰다",
+      "url": "https://www.hankyung.com/article/202601125583i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 16:06",
+      "title": "MBK파트너스, ‘홈플러스 분식 회계 의혹’ 반박 나섰다",
+      "url": "https://www.mk.co.kr/news/stock/11930343",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 15:56",
+      "title": "코스피, 4600 돌파 마감…역대 최고치 또 경신",
+      "url": "https://www.mk.co.kr/news/stock/11930316",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-12 15:55",
+      "title": "코리아프라이빗웰스, PAS투자자문과 MOU 체결",
+      "url": "https://www.mk.co.kr/news/stock/11930313",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-12 15:54",
+      "title": "결국 4600선 넘긴 코스피…역대 최고치 경신",
+      "url": "https://www.hankyung.com/article/202601125642i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-12 15:46",
       "title": "[단독] 맥쿼리, DIG에어가스 딜 클로징…‘원주인’ 에어리퀴드 12년 만에 귀환",
       "url": "https://www.mk.co.kr/news/stock/11930296",
@@ -34,7 +86,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-12 15:44",
-      "title": "[속보] “코스피 불장에도 환율 8일째 급등”…장중 1470원 돌파, 12월 24일來 최고치",
+      "title": "[속보] “코스피 불장에도 환율 8일째 상승”…정부, 구두개입 후 첫 1460원선",
       "url": "https://www.mk.co.kr/news/economy/11930293",
       "keywords_hit": [
         "코스피",
@@ -45,7 +97,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-12 15:34",
-      "title": "[속보] 코스피 0.84% 오른 4624.79 마감…종가 최고치 재경신",
+      "title": "진격의 코스피, 7일째 올라 4600선 돌파 마감…최고치 경신 행진",
       "url": "https://www.hankyung.com/article/2026011256116",
       "keywords_hit": [
         "코스피"
@@ -305,25 +357,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 10:58",
-      "title": "에프앤가이드 지수 추종 ETF, 순자산총액 35조원 넘어",
-      "url": "https://www.hankyung.com/article/202601124891i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-12 10:56",
-      "title": "코스피, 개인·기관 매수에 4650선도 넘었다…두산에너빌리티 5%↑",
-      "url": "https://www.hankyung.com/article/2026011248856",
-      "keywords_hit": [
-        "코스피",
-        "기관"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-12 10:56",
@@ -340,38 +373,6 @@
       "published_at": "2026-01-12 10:38",
       "title": "“나 혼자 민폐들 끌고가는데 무슨”…‘M7 도매금’ 불편하다는데",
       "url": "https://www.mk.co.kr/news/stock/11929904",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-12 10:29",
-      "title": "코인베이스 “스테이블코인 이자 금지 법안 반대”…美 상원 압박",
-      "url": "https://www.mk.co.kr/news/stock/11929868",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-12 10:08",
-      "title": "코인 거래까지 노리는 X,  코인 태그 기능 선보여 [매일코인]",
-      "url": "https://www.mk.co.kr/news/stock/11929828",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-12 10:03",
-      "title": "[MK시그널] IES 홀딩스 매도신호 포착, 수익률 52.1% 달성",
-      "url": "https://www.mk.co.kr/news/stock/11929821",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-12 09:54",
-      "title": "9만달러에 갇힌 비트코인…관세 판결·연준 결단만 기다린다",
-      "url": "https://www.mk.co.kr/news/stock/11929813",
       "keywords_hit": []
     }
   ]
