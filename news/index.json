@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-13 17:58 KST",
+  "updated_at": "2026-01-13 18:33 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 18:27",
+      "title": "[단독] 민주당, 디지털자산 '자체안' 초안 마련 착수…정부안과 충돌 예고",
+      "url": "https://www.hankyung.com/article/202601137903g",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -85,7 +93,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-13 17:24",
-      "title": "'포모'가 불지른 쩐의 이동…증권계좌, 1년간 매일 3만3000개 생겨",
+      "title": "'여보, 우리도 돈 빼자' 발칵…은행서 빠져나간 돈 몰리는 곳",
       "url": "https://www.hankyung.com/article/2026011383661",
       "keywords_hit": []
     },
@@ -335,14 +343,6 @@
       "published_at": "2026-01-13 16:10",
       "title": "연금 '수익률 과속'은 위험…오래 달리는 말처럼 꾸준히 넣어라",
       "url": "https://www.hankyung.com/article/2026011369561",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 16:08",
-      "title": "'치매 이후의 삶' 어떻게 준비할 것인가…후견·신탁 제도 활용 늘어난다",
-      "url": "https://www.hankyung.com/article/2026011369571",
       "keywords_hit": []
     },
     {
