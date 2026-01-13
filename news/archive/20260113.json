@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-13 13:52 KST",
+  "updated_at": "2026-01-13 14:18 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,22 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 14:03",
+      "title": "과열 신호가 깜빡인다?…증시 조정에 대비하는 법 [빈난새의 빈틈없이월가]",
+      "url": "https://www.hankyung.com/article/202601136783i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 13:47",
+      "title": "[마켓PRO] 전력망 부족에…서학개미, '목표가 줄상향' GE베르노바 샀다",
+      "url": "https://www.hankyung.com/article/202601137502i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -50,7 +66,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-13 13:18",
-      "title": "[마켓PRO] \"JPM 행사로 기업가치 제고\" 기대에…고수들, 알테오젠 매수",
+      "title": "[마켓PRO] “JPM 행사로 기업가치 제고” 기대…고수들, 알테오젠 매수",
       "url": "https://www.hankyung.com/article/202601137482i",
       "keywords_hit": []
     },
@@ -85,7 +101,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-13 11:03",
-      "title": "폭락 기다리다 '벼락거지' 됐다…처참한 결과에 개미들 '패닉'",
+      "title": "폭락 기다리다 '벼락거지' 됐다…처참한 상황에 개미들 '패닉'",
       "url": "https://www.hankyung.com/article/202601137204i",
       "keywords_hit": []
     },
@@ -349,25 +365,6 @@
       "url": "https://www.mk.co.kr/news/stock/11931238",
       "keywords_hit": [
         "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 09:04",
-      "title": "\"삼성증권, 단기 모멘텀은 발행어음 인가 여부\"-NH",
-      "url": "https://www.hankyung.com/article/2026011367496",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 09:02",
-      "title": "[속보] 코스피, 0.81% 오른 4662.44에 개장…환율 1470원 돌파",
-      "url": "https://www.hankyung.com/article/2026011367576",
-      "keywords_hit": [
-        "코스피",
-        "환율"
       ]
     }
   ]
