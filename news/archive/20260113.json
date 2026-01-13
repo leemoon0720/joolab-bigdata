@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-13 14:18 KST",
+  "updated_at": "2026-01-13 14:44 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,9 +25,27 @@
     {
       "source": "HK",
       "press": "한국경제",
-      "published_at": "2026-01-13 14:03",
-      "title": "과열 신호가 깜빡인다?…증시 조정에 대비하는 법 [빈난새의 빈틈없이월가]",
-      "url": "https://www.hankyung.com/article/202601136783i",
+      "published_at": "2026-01-13 14:28",
+      "title": "원·달러 환율 다시 1470원대 진입…외인, 주식 매도",
+      "url": "https://www.hankyung.com/article/2026011377396",
+      "keywords_hit": [
+        "환율"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-13 14:22",
+      "title": "삼성증권, 금융자산 30억원 이상 ‘초고액자산가’ 6000명 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11931616",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-13 14:21",
+      "title": "지난해 단기사채 자금조달 규모 1160.1조원…전년비 33.6% 증가",
+      "url": "https://www.mk.co.kr/news/stock/11931614",
       "keywords_hit": []
     },
     {
@@ -347,24 +365,6 @@
       "url": "https://www.hankyung.com/article/202601136795i",
       "keywords_hit": [
         "AI"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-13 09:23",
-      "title": "[MK 골든크로스 돌파종목 : 아이톡시(052770) & 인지컨트롤스(023800)]",
-      "url": "https://www.mk.co.kr/news/stock/11931242",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-13 09:22",
-      "title": "코스피, 4662.44 상승 출발…8거래일 연속 최고치 경신",
-      "url": "https://www.mk.co.kr/news/stock/11931238",
-      "keywords_hit": [
-        "코스피"
       ]
     }
   ]
