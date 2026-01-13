@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-13 10:26 KST",
+  "updated_at": "2026-01-13 12:14 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,100 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-13 11:38",
+      "title": "계속 상승 랠리 이어갈 줄 알았는데…‘삼전닉스’ 동반 1~2% 하락",
+      "url": "https://www.mk.co.kr/news/stock/11931474",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-13 11:29",
+      "title": "“주식 아직도 안샀어? 통장 깨서 일단 넣어”…은행 대기자금 일주일새 28조 증발",
+      "url": "https://www.mk.co.kr/news/economy/11931451",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 11:11",
+      "title": "코스피, 장중 4680선 터치…환율은 1470원 웃돌아",
+      "url": "https://www.hankyung.com/article/2026011372616",
+      "keywords_hit": [
+        "코스피",
+        "환율"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 11:03",
+      "title": "\"폭락 언제쯤\"…'-80%'도 막지 못한 개미의 '곱버스' 짝사랑",
+      "url": "https://www.hankyung.com/article/202601137204i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 11:02",
+      "title": "\"조기총선 검토 영향\"…日닛케이 5만3000 돌파 '사상 최고'",
+      "url": "https://www.hankyung.com/article/2026011371506",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-13 10:56",
+      "title": "초고수, 코스피 이전상장 추진 알테오젠 주목[주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11931400",
+      "keywords_hit": [
+        "코스피",
+        "상장"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-13 10:56",
+      "title": "“인가 지연되면 다 죽는다”… 뮤직카우, 루센트블록 ‘나홀로 혁신론’에 일침",
+      "url": "https://www.mk.co.kr/news/stock/11931399",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 10:43",
+      "title": "거래소, 6월부터 12시간 거래체제…\"오전 7시부터 주식 매매\"",
+      "url": "https://www.hankyung.com/article/2026011372106",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-13 10:41",
+      "title": "“여기서 더 욕심내도 좋다”…현대차 목표가 줄상향, 60만원 나왔다",
+      "url": "https://www.mk.co.kr/news/stock/11931367",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 10:36",
+      "title": "\"조정 받아도 자동차주 사라\"…현대차 사상 첫 40만원 돌파",
+      "url": "https://www.hankyung.com/article/202601137158i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 10:23",
+      "title": "[속보] 현대차 사상 첫 40만원 돌파…9.8% 급등",
+      "url": "https://www.hankyung.com/article/2026011371457",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -58,7 +152,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-13 10:02",
-      "title": "“뚝심의 세일러”… 평가손실 23조원에도 비트코인 1.7조원 ‘추가 매수’",
+      "title": "“코인하려면 멘탈 잡아”...평가손실 23조원에도 1.7조 ‘추매’ 버튼 누른 남자",
       "url": "https://www.mk.co.kr/news/stock/11931314",
       "keywords_hit": []
     },
@@ -76,7 +170,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-13 09:59",
-      "title": "대신파이낸셜스룹, 나주시 취약계층에 '사랑의 성금' 전달",
+      "title": "대신파이낸셜그룹, 나주시 취약계층에 '사랑의 성금' 전달",
       "url": "https://www.hankyung.com/article/2026011370296",
       "keywords_hit": []
     },
@@ -277,105 +371,6 @@
       "title": "[마켓PRO] Today's Pick : \"현대차, 자동차 업종 주도할 것…최선호주\"",
       "url": "https://www.hankyung.com/article/202601136691i",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 08:50",
-      "title": "8000억 몰리더니…\"일주일 만에 30% 뛰었다\" 개미들 '환호' [종목+]",
-      "url": "https://www.hankyung.com/article/2026011366626",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-13 08:48",
-      "title": "“두 달전엔 욕 먹었을 가격”...현대차 목표가 ‘45만원’ 나온 이유는 [오늘나온 보고서]",
-      "url": "https://www.mk.co.kr/news/stock/11931210",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-13 08:48",
-      "title": "“POSCO홀딩스, 4분기 영업이익 시장 전망치 하회 전망”…목표가↓",
-      "url": "https://www.mk.co.kr/news/stock/11931209",
-      "keywords_hit": [
-        "영업이익"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 08:47",
-      "title": "유진證 \"현대차, '피지컬 AI 시대의 주역'…주가 60만원 간다\"",
-      "url": "https://www.hankyung.com/article/2026011367176",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-13 08:36",
-      "title": "한투증권 “삼성에스디에스, 클라우드 사업 부진…장기 로드맵 명확”",
-      "url": "https://www.mk.co.kr/news/stock/11931205",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 08:26",
-      "title": "파월 vs 트럼프 전쟁…'셀 아메리카' 없었던 이유 [김현석의 월스트리트나우]",
-      "url": "https://www.hankyung.com/article/202601136615i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 08:25",
-      "title": "\"한국전력, 미국 원전 시장 진출 전망…목표가 7만원\"-NH",
-      "url": "https://www.hankyung.com/article/2026011366436",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 08:12",
-      "title": "\"엘앤에프, 테슬라와의 파트너십이 최대 무기…목표가 15만원\"-NH",
-      "url": "https://www.hankyung.com/article/2026011366166",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-13 08:09",
-      "title": "“NH투자증권, 활황세 타고 실적 반등에 배당 매력도 쑥”…목표가↑",
-      "url": "https://www.mk.co.kr/news/stock/11931192",
-      "keywords_hit": [
-        "실적",
-        "배당"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 08:02",
-      "title": "기껏 환율 낮췄더니…글로벌 악재에 서학개미 '흡성대법'까지 [분석+]",
-      "url": "https://www.hankyung.com/article/2026011365316",
-      "keywords_hit": [
-        "환율"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-13 05:59",
-      "title": "반도체ETF 수익 극과극…애국했더니 20%대, 미국했더니 순손실",
-      "url": "https://www.mk.co.kr/news/stock/11931078",
-      "keywords_hit": [
-        "반도체"
-      ]
     }
   ]
 }
