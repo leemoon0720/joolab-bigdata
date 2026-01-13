@@ -19,18 +19,14 @@
     const path = window.location.pathname;
     qsa('[data-nav]').forEach(a=>{
       const key = a.getAttribute('data-nav');
-      const map = {
+            const map = {
         notice: /^\/notice\/?/,
         news: /^\/news\/?/,
-        sample: /^\/sample\/?/,
-        strong: /^\/strong\/?/,
-        training: /^\/training\/?/,
         data: /^\/data\/?/,
+        sample: /^\/sample\/?/,
         performance: /^\/performance\/?/,
-        game: /^\/game\/?/,
-        login: /^\/login\/?/,
-        signup: /^\/signup\/?/,
-        post: /^\/post\/?/,
+        chartgame: /^\/(training\/game|training|game)\/?/,
+        meme: /^\/meme\/?/,
         subscribe: /^\/subscribe\/?/,
         account: /^\/account\/?/,
         ops: /^\/ops\/?/,
@@ -41,6 +37,76 @@
     });
   }
 
+
+  // ==============================
+  // Auth / Plan helpers
+  // ==============================
+  function getPlanLabelForEmail(email){
+    try{ return localStorage.getItem("jlab_plan_"+email) || "미구독"; }catch(e){ return "미구독"; }
+  }
+  function hasUSAccessByPlanLabel(plan){
+    const s = String(plan||"");
+    return (s.indexOf("89,000")>=0) || (s.indexOf("200,000")>=0) || (/\bPRO\b/i.test(s)) || (/\bVIP\b/i.test(s));
+  }
+  async function fetchMeSafe(){
+    try{
+      const me = await fetchJSON('/api/auth/me');
+      if(me && me.ok && me.user && me.user.email) return me;
+    }catch(e){}
+    return null;
+  }
+
+  // ==============================
+  // Topbar nav standardization
+  // ==============================
+  function renderTopNav(){
+    const nav = document.querySelector('.topbar .nav');
+    if(!nav) return;
+
+    const items = [
+      {key:'notice', label:'공지사항', href:'/notice/'},
+      {key:'news', label:'뉴스센터', href:'/news/'},
+      {key:'data', label:'빅데이터', href:'/data/'},
+      {key:'sample', label:'샘플자료실', href:'/sample/'},
+      {key:'performance', label:'성과표', href:'/performance/'},
+      {key:'chartgame', label:'차트게임', href:'/training/game/'},
+      {key:'meme', label:'유머', href:'/meme/'},
+      {key:'subscribe', label:'구독', href:'/subscribe/'},
+      {key:'account', label:'회원', href:'/account/'},
+      {key:'ops', label:'운영센터', href:'/ops/', adminOnly:true},
+    ];
+
+    nav.innerHTML = items.map(it=>{
+      return `<a href="${it.href}" data-nav="${it.key}" ${it.adminOnly?'data-admin-only="1"':''}>${it.label}</a>`;
+    }).join('');
+  }
+
+  async function enhanceTopNavWithAuth(){
+    // 기본: 운영센터 숨김
+    qsa('[data-admin-only="1"]').forEach(a=>a.style.display='none');
+
+    const me = await fetchMeSafe();
+    if(!me) return;
+
+    const email = me.user.email;
+    const role = me.user.role || 'user';
+    const isAdmin = /admin/i.test(role);
+
+    // 운영센터: 관리자만
+    if(isAdmin){
+      qsa('[data-admin-only="1"]').forEach(a=>a.style.display='');
+    }
+
+    // 회원 옆에 이메일 표시
+    const aAccount = document.querySelector('[data-nav="account"]');
+    if(aAccount && !byId('nav-user-email')){
+      const span = document.createElement('span');
+      span.id = 'nav-user-email';
+      span.className = 'nav-user';
+      span.innerHTML = `<span class="dot"></span><span>${esc(email)}</span>`;
+      aAccount.insertAdjacentElement('afterend', span);
+    }
+  }
   function setHeroStatus({updatedText='', statusText='', statusKind=''}={}){
     const upd = byId('badge-upd');
     const st = byId('badge-status');
@@ -519,13 +585,14 @@
   function renderMetaItem(meta, opts){
     opts = (opts && typeof opts === 'object') ? opts : {};
     const title = meta.title || '(제목 없음)';
-    const sub = `${meta.region||''} · ${meta.category||''} · ${fmtTime(meta.created_at||'')}`;
+    const sub = `${meta.region||''} · ${meta.category||''} · ${fmtTime(meta.created_at||'')}${locked ? ' · 🔒Pro+' : ''}`;
     const thumb = (meta && meta.thumb) ? String(meta.thumb) : '';
     const canDelete = !!opts.canDelete;
     const showActions = !!opts.showActions;
+    const locked = !!opts.locked;
 
     return `
-      <div class="item">
+      <div class="item ${locked?'is-locked':''}">
         <div>
           <div class="title">${esc(title)}</div>
           <div class="meta">${esc(sub)}</div>
@@ -533,7 +600,7 @@
         <div class="right">
           ${thumb ? `<img class="mini-thumb" src="${esc(thumb)}" alt="thumb">` : ``}
           ${showActions && canDelete ? `<button class="mini-action danger" type="button" data-act="post-delete" data-id="${esc(meta.id||'')}">삭제</button>` : ``}
-          <a href="/post/?id=${encodeURIComponent(meta.id)}">보기</a>
+          <a href="${locked?'/subscribe/':(`/post/?id=${encodeURIComponent(meta.id)}`)}">${locked?'구독 필요':'보기'}</a>
         </div>
       </div>
     `;
@@ -596,21 +663,64 @@
       }
     }
 
-    // Bigdata latest 1
+    
+    // Bigdata latest (Strong/Accum/Suspicious combined)
     const homeBD = byId('home-bigdata');
     if(homeBD){
       try{
-        const j = await fetchJSON('/api/posts/latest?scope=bigdata');
-        const meta = j.meta;
+        const me = await fetchMeSafe();
+        const email = me?.user?.email || '';
+        const plan = email ? getPlanLabelForEmail(email) : '미구독';
+        const usOk = hasUSAccessByPlanLabel(plan);
+
+        const cats = ['strong','accum','suspicious'];
+        const bags = await Promise.all(cats.map(async c=>{
+          try{
+            const j = await fetchJSON(`/api/posts/list?category=${encodeURIComponent(c)}&region=ALL&limit=30`);
+            return (j.items||[]);
+          }catch(e){
+            return [];
+          }
+        }));
+        let items = bags.flat();
+        // dedupe by id
+        const seen = new Set();
+        items = items.filter(x=>{
+          const id = x && x.id;
+          if(!id) return false;
+          if(seen.has(id)) return false;
+          seen.add(id);
+          return true;
+        });
+
+        items.sort((a,b)=> String(b.created_ts||'').localeCompare(String(a.created_ts||'')));
+
+        const total = items.length;
+        const showN = Math.min(12, total);
+        const show = items.slice(0, showN);
+
         const b = byId('home-badge-bigdata');
-        if(b && meta && meta.created_at) b.textContent = `BIGDATA: ${fmtTime(meta.created_at)}`;
-        homeBD.innerHTML = meta ? renderMetaItem(meta) : `<div class="item"><div><div class="title">아직 게시글이 없습니다.</div><div class="meta">관리자 업로드 후 표시됩니다.</div></div></div>`;
+        if(b){
+          const upd = show[0]?.created_at || items[0]?.created_at || '';
+          b.textContent = upd ? `BIGDATA: ${fmtTime(upd)}` : 'BIGDATA: -';
+        }
+
+        if(!showN){
+          homeBD.innerHTML = `<div class="item"><div><div class="title">업로드된 글이 없습니다.</div><div class="meta">관리자 업로드 후 표시됩니다.</div></div></div>`;
+          return;
+        }
+
+        homeBD.innerHTML = show.map(meta=>{
+          const locked = (meta && meta.region === 'US') && (!usOk);
+          return renderMetaItem(meta, {locked});
+        }).join('') + `<div class="small" style="margin-top:10px;">최근 ${showN}개 표시 · 전체 ${total}개</div>`;
       }catch(e){
-        homeBD.innerHTML = `<div class="item"><div><div class="title">빅데이터 최신글 없음</div><div class="meta">KV 미설정 또는 업로드 전</div></div></div>`;
+        homeBD.innerHTML = `<div class="item"><div><div class="title">빅데이터를 불러오지 못했습니다.</div><div class="meta">KV 설정 확인</div></div></div>`;
       }
     }
 
     // Perf list (3)
+ (3)
     const homePerf = byId('home-perf');
     if(homePerf){
       try{
@@ -661,6 +771,10 @@
     if(!list) return;
 
     let isAdmin = false;
+    let meEmail = '';
+    let meRole = 'user';
+    let mePlan = '미구독';
+    let usOk = false;
 
     // default state
     let region = 'KR';
@@ -670,6 +784,13 @@
     const btnsCat = qsa('[data-bd-cat]');
 
     function setRegion(v){
+      // 해외(US)는 89,000원 이상(미국지표 포함)만
+      if(v === 'US' && !usOk){
+        // 버튼 상태 복구
+        btnsRegion.forEach(b=>b.classList.toggle('is-on', b.getAttribute('data-bd-region')===region));
+        list.innerHTML = `<div class="item"><div><div class="title">해외(미국지표) 권한이 없습니다.</div><div class="meta">Pro(89,000원) 이상부터 해외(US) 열람이 가능합니다.</div></div><div class="right"><a href="/subscribe/">구독 페이지로</a></div></div>`;
+        return;
+      }
       region = v;
       btnsRegion.forEach(b=>b.classList.toggle('is-on', b.getAttribute('data-bd-region')===region));
       load();
@@ -684,6 +805,14 @@
     btnsCat.forEach(b=>b.addEventListener('click', ()=>setCat(b.getAttribute('data-bd-cat'))));
 
     async function load(){
+      if(region === 'US' && !usOk){
+        list.innerHTML = `<div class="item"><div><div class="title">해외(미국지표) 권한이 없습니다.</div><div class="meta">Pro(89,000원) 이상부터 해외(US) 열람이 가능합니다.</div></div><div class="right"><a href="/subscribe/">구독 페이지로</a></div></div>`;
+        const upd = byId('bd-badge-upd');
+        const cnt = byId('bd-badge-count');
+        if(upd) upd.textContent = `UPD: -`;
+        if(cnt) cnt.textContent = `0개`;
+        return;
+      }
       list.innerHTML = `<div class="small">로딩 중...</div>`;
       try{
         const j = await fetchJSON(`/api/posts/list?category=${encodeURIComponent(cat)}&region=${encodeURIComponent(region)}&limit=50`);
@@ -701,6 +830,10 @@
     // admin upload UI
     try{
       const me = await fetchJSON('/api/auth/me');
+      meEmail = me?.user?.email || '';
+      meRole = me?.user?.role || 'user';
+      mePlan = meEmail ? getPlanLabelForEmail(meEmail) : '미구독';
+      usOk = hasUSAccessByPlanLabel(mePlan) || detectIsAdmin(me);
       isAdmin = detectIsAdmin(me);
       const box = byId('bd-admin-actions');
       if(box) box.style.display = isAdmin ? '' : 'none';
@@ -909,6 +1042,21 @@ async function hydrateCategoryPage(){
         return;
       }
       const meta = j.meta || {};
+      // 해외(US) 콘텐츠는 Pro(89,000원) 이상만
+      if(meta && meta.region === 'US'){
+        const me = await fetchMeSafe();
+        const email = me?.user?.email || '';
+        const plan = email ? getPlanLabelForEmail(email) : '미구독';
+        const usOk = hasUSAccessByPlanLabel(plan) || detectIsAdmin(me||{});
+        if(!usOk){
+          frame.srcdoc = `<html><body style="background:#0b1220;color:#fff;font-family:system-ui;padding:24px;">
+            <h2 style="margin:0 0 10px;">해외(미국지표) 권한이 없습니다.</h2>
+            <p style="margin:0 0 14px;opacity:.85;">Pro(89,000원) 이상부터 해외(US) 열람이 가능합니다.</p>
+            <p style="margin:0;"><a href="/subscribe/" style="color:#93c5fd;">구독 페이지로 이동</a></p>
+          </body></html>`;
+          return;
+        }
+      }
       const ttl = byId('post-title');
       const sub = byId('post-sub');
       const upd = byId('post-upd');
@@ -1982,6 +2130,9 @@ ${(String(mediaType||"")||"").startsWith("video/") ? `      <video controls play
   }
 
 document.addEventListener('DOMContentLoaded', ()=>{
+    renderTopNav();
+    // auth-based enhancements (email badge / admin menu)
+    enhanceTopNavWithAuth();
     setActiveNav();
     initTickerSearch();
     hydrateMarketStrip();

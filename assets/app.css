@@ -402,3 +402,40 @@ body{background:#f6f7fb;}
 .card,.panel,.tile,.box{border-radius:18px;}
 .btn-primary{background:var(--jlab-accent);}
 .badge-accent{background:linear-gradient(90deg,var(--jlab-accent),var(--jlab-accent2));}
+
+
+/* Topbar login indicator */
+.nav-user{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:10px 12px;
+  border-radius:999px;
+  border:1px solid rgba(148,163,184,.28);
+  background:#fff;
+  font-weight:700;
+  font-size:13px;
+  color:#334155;
+  white-space:nowrap;
+}
+.nav-user .dot{
+  width:8px;height:8px;border-radius:999px;background:#16a34a;display:inline-block;
+}
+
+/* Locked items */
+.item.is-locked{
+  position:relative;
+}
+.item.is-locked::after{
+  content:"LOCK";
+  position:absolute;
+  top:10px;
+  right:10px;
+  font-size:11px;
+  font-weight:800;
+  padding:6px 8px;
+  border-radius:999px;
+  border:1px solid rgba(239,68,68,.35);
+  color:#ef4444;
+  background:#fff;
+}
