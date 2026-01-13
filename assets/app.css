@@ -397,3 +397,44 @@ body{background:#f6f7fb;}
 .card,.panel,.tile,.box{border-radius:18px;}
 .btn-primary{background:var(--jlab-accent);}
 .badge-accent{background:linear-gradient(90deg,var(--jlab-accent),var(--jlab-accent2));}
+
+
+/* ===== JooLab Colorful polish (HOME + GLOBAL) ===== */
+:root{
+  --brand2:#7C3AED;
+  --shadow:0 12px 28px rgba(17,24,39,.10);
+  --shadow2:0 6px 16px rgba(17,24,39,.08);
+}
+body{
+  background: linear-gradient(135deg, #F5F7FF 0%, #FFF5F1 45%, #F1FFF6 100%);
+}
+.hero, .card, .panel{
+  box-shadow: var(--shadow2);
+  border-color: rgba(229,231,235,.90);
+}
+.hero{
+  background:
+    linear-gradient(135deg,
+      rgba(37,99,235,.08) 0%,
+      rgba(124,58,237,.06) 40%,
+      rgba(22,163,74,.05) 100%),
+    #FFFFFF;
+}
+.badge.live{
+  background: linear-gradient(135deg, rgba(37,99,235,.16) 0%, rgba(124,58,237,.12) 100%);
+  border-color: rgba(37,99,235,.35);
+}
+.btn.primary{
+  background: linear-gradient(135deg, var(--brand) 0%, var(--brand2) 100%);
+  border-color: transparent;
+  box-shadow: 0 10px 22px rgba(37,99,235,.18);
+}
+.btn.primary:hover{filter:brightness(0.98);}
+.chip{
+  background: rgba(255,255,255,.92);
+}
+.topbar{
+  background:
+    linear-gradient(135deg, rgba(37,99,235,.06) 0%, rgba(124,58,237,.05) 45%, rgba(245,158,11,.05) 100%),
+    #FFFFFF;
+}
