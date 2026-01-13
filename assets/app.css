@@ -5,7 +5,7 @@
   --muted:#6B7280;
   --line:#E5E7EB;
 
-  --brand:#2563EB;  /* 포인트 1개 */
+  --brand: linear-gradient(135deg, #2563EB 0%, #7C3AED 55%, #F97316 100%);  /* 포인트 1개 */
   --ok:#16A34A;
   --warn:#F59E0B;
   --bad:#EF4444;
@@ -23,8 +23,11 @@ body{
   margin:0;
   font-family: Pretendard, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic", sans-serif;
   color:var(--text);
-  background: var(--bg);
-  line-height:1.45;
+  background: radial-gradient(1200px 600px at 20% 0%, rgba(37,99,235,.18), transparent 60%),
+              radial-gradient(1000px 700px at 100% 10%, rgba(124,58,237,.16), transparent 55%),
+              radial-gradient(900px 600px at 30% 100%, rgba(249,115,22,.12), transparent 55%),
+              var(--bg);
+line-height:1.45;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
 }
@@ -67,8 +70,9 @@ a:hover{opacity:.92;}
 .hero{
   padding:14px;
   border-radius: var(--radius);
-  background:#FFFFFF;
-  border:1px solid var(--line);
+  background: linear-gradient(#FFFFFF, #FFFFFF) padding-box,
+  linear-gradient(135deg, rgba(37,99,235,.35), rgba(124,58,237,.30), rgba(249,115,22,.28)) border-box;
+  border:1px solid transparent;
   box-shadow:none;
   overflow:hidden;
   position:relative;
@@ -149,8 +153,9 @@ a.card.link-card:hover{border-color: rgba(15,23,42,.22); background: rgba(248,25
 
 .grid{margin-top:12px; display:grid; grid-template-columns: repeat(12, 1fr); gap:14px;}
 .card{
-  background:#FFFFFF;
-  border:1px solid var(--line);
+  background: linear-gradient(#FFFFFF, #FFFFFF) padding-box,
+  linear-gradient(135deg, rgba(37,99,235,.20), rgba(124,58,237,.18), rgba(249,115,22,.16)) border-box;
+  border:1px solid transparent;
   border-radius: var(--radius);
   box-shadow:none;
   padding:16px;
