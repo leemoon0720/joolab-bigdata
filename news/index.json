@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-13 14:56 KST",
+  "updated_at": "2026-01-13 15:34 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,78 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 15:28",
+      "title": "NH투자증권, 반도체·AI·방산·원전 등 성장산업 집중 투자",
+      "url": "https://www.hankyung.com/article/2026011369781",
+      "keywords_hit": [
+        "반도체",
+        "AI",
+        "방산"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 15:27",
+      "title": "KB증권 , 연금도 컨설팅 시대…전문가가 전략 짜준다",
+      "url": "https://www.hankyung.com/article/2026011369641",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 15:26",
+      "title": "삼성증권 , 원하는 ETF 자동 매수로 연금자산 분산투자",
+      "url": "https://www.hankyung.com/article/2026011369671",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 15:25",
+      "title": "한국투자증권 , 손실 15%까지 감내…AI·항공우주 간접 투자",
+      "url": "https://www.hankyung.com/article/2026011369681",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 15:25",
+      "title": "신한투자증권, 생활비 쓰고 남은 재산 내 뜻대로 상속 설계",
+      "url": "https://www.hankyung.com/article/2026011369651",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-13 15:14",
+      "title": "초고수, ‘피지컬 AI 사업 가시화’ 현대차 주목[주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11931720",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 15:07",
+      "title": "\"1억이 3억 됐다\"…금 대신 투자했더니 1년 만에 벌어진 일",
+      "url": "https://www.hankyung.com/article/202601137612i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 15:07",
+      "title": "금감원, 보이스피싱 피해예방 홍보대사에 가수 나태주 위촉",
+      "url": "https://www.hankyung.com/article/2026011378666",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -233,14 +305,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 09:59",
-      "title": "대신파이낸셜그룹, 나주시 취약계층에 '사랑의 성금' 전달",
-      "url": "https://www.hankyung.com/article/2026011370296",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-13 09:57",
@@ -283,24 +347,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 09:48",
-      "title": "\"1분기부터가 진짜 실적\".…증권가 낙관에 엔씨소프트 강세",
-      "url": "https://www.hankyung.com/article/2026011369556",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 09:46",
-      "title": "한국투자증권, 두 번째 IMA 상품 출시…16∼21일 모집",
-      "url": "https://www.hankyung.com/article/2026011369806",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-13 09:45",
@@ -319,52 +365,6 @@
       "keywords_hit": [
         "상장",
         "배당"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 09:37",
-      "title": "유투바이오, 대웅과 지분 맞교환 소식에 '상한가'",
-      "url": "https://www.hankyung.com/article/2026011369226",
-      "keywords_hit": [
-        "바이오"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-13 09:37",
-      "title": "한국투자증권, 두번째 IMA 상품 출시…투자 이벤트 진행",
-      "url": "https://www.mk.co.kr/news/stock/11931256",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 09:34",
-      "title": "상장폐지 앞둔 푸른소나무, 정리매매 첫날 '급락'",
-      "url": "https://www.hankyung.com/article/2026011368776",
-      "keywords_hit": [
-        "상장"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 09:29",
-      "title": "\"또 올랐네\"…'과거와 다르다' 평가에 '사상 최고가' 찍은 회사",
-      "url": "https://www.hankyung.com/article/2026011368296",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 09:24",
-      "title": "\"피지컬 AI 최선호주\"…현대차, 사상 최초 '시총 80조' 돌파",
-      "url": "https://www.hankyung.com/article/202601136795i",
-      "keywords_hit": [
-        "AI"
       ]
     }
   ]
