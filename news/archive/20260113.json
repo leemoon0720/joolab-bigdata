@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-13 15:34 KST",
+  "updated_at": "2026-01-13 16:00 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,6 +23,69 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-13 15:45",
+      "title": "‘8일째 고공행진’ 코스피, 4700선 문턱서 마감",
+      "url": "https://www.mk.co.kr/news/stock/11931758",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 15:33",
+      "title": "'국민 재테크'로 자리잡은 ETF, 순자산 첫 300조원 넘었다",
+      "url": "https://www.hankyung.com/article/2026011369721",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 15:33",
+      "title": "[속보] '사상 최고 행진' 코스피, 1.4% 오른 4692.64 마감…환율 1473.7원",
+      "url": "https://www.hankyung.com/article/2026011379276",
+      "keywords_hit": [
+        "코스피",
+        "환율"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 15:32",
+      "title": "퇴직연금 내 'ETF 활용 여부'가 수익률 갈랐다",
+      "url": "https://www.hankyung.com/article/2026011369711",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 15:31",
+      "title": "액티브 ETF 상품 성과, 패시브보다 우수",
+      "url": "https://www.hankyung.com/article/2026011369701",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 15:31",
+      "title": "\"반도체 관련주 투자 성과 내려면 '소·부·장' 종목 비중 늘려라\"",
+      "url": "https://www.hankyung.com/article/2026011369761",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 15:29",
+      "title": "미래에셋증권, 개인 맞춤형 자산관리…글로벌 우량자산 투자",
+      "url": "https://www.hankyung.com/article/2026011369771",
+      "keywords_hit": []
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-13 15:28",
@@ -38,7 +101,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-13 15:27",
-      "title": "KB증권 , 연금도 컨설팅 시대…전문가가 전략 짜준다",
+      "title": "KB증권, 연금도 컨설팅 시대…전문가가 전략 짜준다",
       "url": "https://www.hankyung.com/article/2026011369641",
       "keywords_hit": []
     },
@@ -46,7 +109,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-13 15:26",
-      "title": "삼성증권 , 원하는 ETF 자동 매수로 연금자산 분산투자",
+      "title": "삼성증권, 원하는 ETF 자동 매수로 연금자산 분산투자",
       "url": "https://www.hankyung.com/article/2026011369671",
       "keywords_hit": []
     },
@@ -54,7 +117,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-13 15:25",
-      "title": "한국투자증권 , 손실 15%까지 감내…AI·항공우주 간접 투자",
+      "title": "한국투자증권, 손실 15%까지 감내…AI·항공우주 간접 투자",
       "url": "https://www.hankyung.com/article/2026011369681",
       "keywords_hit": [
         "AI"
@@ -196,14 +259,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 11:02",
-      "title": "\"조기총선 검토 영향\"…日닛케이 5만3000 돌파 '사상 최고'",
-      "url": "https://www.hankyung.com/article/2026011371506",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-13 10:56",
@@ -223,43 +278,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 10:43",
-      "title": "거래소, 6월부터 12시간 거래체제…\"오전 7시부터 주식 매매\"",
-      "url": "https://www.hankyung.com/article/2026011372106",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-13 10:41",
       "title": "“여기서 더 욕심내도 좋다”…현대차 목표가 줄상향, 60만원 나왔다",
       "url": "https://www.mk.co.kr/news/stock/11931367",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 10:36",
-      "title": "\"조정 받아도 자동차주 사라\"…현대차 사상 첫 40만원 돌파",
-      "url": "https://www.hankyung.com/article/202601137158i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 10:23",
-      "title": "[속보] 현대차 사상 첫 40만원 돌파…9.8% 급등",
-      "url": "https://www.hankyung.com/article/2026011371457",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 10:17",
-      "title": "루센트블록 논란 번지자…뮤직카우 \"지금은 싸울 때 아냐\"",
-      "url": "https://www.hankyung.com/article/202601137068i",
       "keywords_hit": []
     },
     {
@@ -276,14 +299,6 @@
       "published_at": "2026-01-13 10:03",
       "title": "트럼프의 ‘월드리버티’, 4.7조원 규모 코인 대출 플랫폼 출범",
       "url": "https://www.mk.co.kr/news/stock/11931315",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 10:02",
-      "title": "대신파이낸셜그룹, 나주시 취약계층에 '사랑의 성금' 전달",
-      "url": "https://www.hankyung.com/article/202601136994i",
       "keywords_hit": []
     },
     {
@@ -354,17 +369,6 @@
       "url": "https://www.mk.co.kr/news/stock/11931264",
       "keywords_hit": [
         "반도체"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-13 09:39",
-      "title": "신한운용, 세법 개정안 ‘배당성향’ 기준 반영한 1호 ETF 신규상장",
-      "url": "https://www.mk.co.kr/news/stock/11931258",
-      "keywords_hit": [
-        "상장",
-        "배당"
       ]
     }
   ]
