@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-13 22:22 KST",
+  "updated_at": "2026-01-13 22:55 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 22:15",
+      "title": "산은·기은, '생산적 금융'에 550조 공급한다",
+      "url": "https://www.hankyung.com/article/2026011386466",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -295,14 +303,6 @@
       "published_at": "2026-01-13 16:53",
       "title": "한국은행 12월 수출입물가·무역지수",
       "url": "https://www.hankyung.com/article/2026011382411",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 16:48",
-      "title": "이찬진 \"막연한 기대감에 달러상품 판매 증가…마케팅 자제\"",
-      "url": "https://www.hankyung.com/article/2026011382246",
       "keywords_hit": []
     },
     {
