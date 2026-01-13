@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-13 18:33 KST",
+  "updated_at": "2026-01-13 18:52 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 18:29",
+      "title": "한켐 \"MLCC 소재 생산라인, 조기 양산 체제 돌입\"",
+      "url": "https://www.hankyung.com/article/2026011384936",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -336,14 +344,6 @@
         "반도체",
         "AI"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 16:10",
-      "title": "연금 '수익률 과속'은 위험…오래 달리는 말처럼 꾸준히 넣어라",
-      "url": "https://www.hankyung.com/article/2026011369561",
-      "keywords_hit": []
     },
     {
       "source": "MK",
