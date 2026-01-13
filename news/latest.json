@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-14 08:16 KST",
+  "updated_at": "2026-01-14 08:32 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,42 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 08:22",
+      "title": "이자 간섭에 금융주 폭락, \"전기료 내라\" 빅테크 흔들 [김현석의 월스트리트나우]",
+      "url": "https://www.hankyung.com/article/202601148959i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-14 08:20",
+      "title": "“하이닉스, 대체 얼마까지?”…AI메모리 ‘전략 자산’ 평가에 목표가 또 상향 [오늘 나온 보고서]",
+      "url": "https://www.mk.co.kr/news/stock/11932392",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 08:18",
+      "title": "\"나도 피지컬 AI株\"…삼성전기 새해에도 최고가 행진 [종목+]",
+      "url": "https://www.hankyung.com/article/2026011489636",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 08:14",
+      "title": "\"포스코퓨처엠, GM 가동 중단 영향 본격화…목표가↓\"-한화",
+      "url": "https://www.hankyung.com/article/2026011490366",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -230,22 +266,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 17:24",
-      "title": "\"요즘 누가 은행에 돈 맡겨요\"…예금 깨서 어디 가나 봤더니",
-      "url": "https://www.hankyung.com/article/2026011383671",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 17:21",
-      "title": "증권사로 '머니무브'…은행예금 27조 급감",
-      "url": "https://www.hankyung.com/article/2026011383491",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-13 17:20",
@@ -300,11 +320,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 17:12",
-      "title": "삼성증권, 금융자산 30억원 이상 '초고액 자산가' 6000명 돌파",
-      "url": "https://www.hankyung.com/article/202601138380i",
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-13 17:11",
+      "title": "美 국방예산 급증에…조선株 다시 급등세",
+      "url": "https://www.mk.co.kr/news/stock/11931885",
       "keywords_hit": []
     },
     {
@@ -316,14 +336,6 @@
       "keywords_hit": [
         "반도체"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-13 17:11",
-      "title": "美 국방예산 급증에…조선株 다시 급등세",
-      "url": "https://www.mk.co.kr/news/stock/11931885",
-      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -360,16 +372,6 @@
       "title": "미래에셋박현주재단, 미래에셋 장학생 특파원 발대식 개최",
       "url": "https://www.mk.co.kr/news/stock/11931802",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-13 15:45",
-      "title": "‘8일째 고공행진’ 코스피, 4700선 문턱서 마감",
-      "url": "https://www.mk.co.kr/news/stock/11931758",
-      "keywords_hit": [
-        "코스피"
-      ]
     }
   ]
 }
