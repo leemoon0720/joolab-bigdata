@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-14 08:32 KST",
+  "updated_at": "2026-01-14 08:45 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 08:31",
+      "title": "\"하이브, BTS 대규모 월드투어에 실적 개선 기대…목표가↑\"-IBK",
+      "url": "https://www.hankyung.com/article/2026011490886",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -80,7 +90,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-14 08:03",
-      "title": "\"통장 깨서 돈 넣는다\"…'역대급 불장'에 조용히 웃는 증권株 [종목+]",
+      "title": "\"통장 깨서 돈 넣는다\"…'역대급 불장'에 조용히 웃는 '이 주식' [종목+]",
       "url": "https://www.hankyung.com/article/2026011489506",
       "keywords_hit": []
     },
@@ -255,14 +265,6 @@
       "published_at": "2026-01-13 17:24",
       "title": "'여보, 우리도 돈 빼자' 발칵…은행서 빠져나간 돈 몰리는 곳",
       "url": "https://www.hankyung.com/article/2026011383661",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 17:24",
-      "title": "대신파이낸셜그룹, 나주 취약계층 지원",
-      "url": "https://www.hankyung.com/article/2026011382851",
       "keywords_hit": []
     },
     {
