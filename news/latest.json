@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-14 07:12 KST",
+  "updated_at": "2026-01-14 07:40 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 07:06",
+      "title": "\"제이씨케미칼, 인니 바이오연료 시장 확대 직수혜 기대\"-밸류파인더",
+      "url": "https://www.hankyung.com/article/2026011488636",
+      "keywords_hit": [
+        "바이오"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -307,14 +317,6 @@
       "published_at": "2026-01-13 16:56",
       "title": "부진한 화장품주, 상반기 반등 올까",
       "url": "https://www.hankyung.com/article/2026011382421",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 16:55",
-      "title": "테마형 ETF, 과반이 지수만도 못한 성과",
-      "url": "https://www.hankyung.com/article/2026011382341",
       "keywords_hit": []
     },
     {
