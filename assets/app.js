@@ -553,7 +553,7 @@
     if(homeNews){
       try{
         const data = await fetchJSON('/news/latest.json');
-        const items = (data.items||[]).slice(0,4);
+        const items = (data.items||[]).slice(0,5);
         const upd = data.updated_at || data.updated || data.update || '-';
         const meta = byId('home-news-meta');
         const badge = byId('home-news-upd');
@@ -577,57 +577,19 @@
             </div>
           `;
         }).join('');
-        // Themes (keywords_hit + fallback)
+
+        // Themes (keywords_hit)
         const box = byId('home-themes');
         if(box){
           const cnt = {};
-          const stop = new Set(['그리고','하지만','오늘','내일','어제','관련','기반','대한','통해','확인','발표','전망','가능','이상','이하','등','및','에서','으로','했다','합니다','the','and','for','with','from','this','that','will','were','are','was','into','over','under']);
-          const add = (k)=>{
-            if(!k) return;
-            k = String(k).trim();
-            if(!k) return;
-            if(stop.has(k)) return;
-            // 너무 긴 문구/숫자 단독 제거
-            if(k.length > 12) return;
-            if(/^[0-9]+$/.test(k)) return;
-            cnt[k] = (cnt[k]||0) + 1;
-          };
-          const addFromText = (t)=>{
-            if(!t) return;
-            const s = String(t)
-              .replace(/[\[\]{}()<>“”‘’"'`]/g,' ')
-              .replace(/[^0-9A-Za-z가-힣\s\-\/]/g,' ')
-              .replace(/\s+/g,' ')
-              .trim();
-            if(!s) return;
-            s.split(' ').forEach(w=>{
-              const ww = w.trim();
-              if(!ww) return;
-              // 한글 2글자 이상, 영문/숫자 혼합 토큰 허용(예: IPO, AI, M&A)
-              if(/^[가-힣]{2,}$/.test(ww) || /^[A-Za-z][A-Za-z0-9&\-\/]{1,10}$/.test(ww)){
-                add(ww.toUpperCase() === ww ? ww : ww);
-              }
-            });
-          };
           (data.items||[]).forEach(it=>{
-            // 명시 키워드/태그 우선
-            [it.keywords_hit, it.keywords, it.tags, it.themes].forEach(arr=>{
-              if(Array.isArray(arr)) arr.forEach(add);
+            (it.keywords_hit||[]).forEach(k=>{
+              if(!k) return;
+              cnt[k] = (cnt[k]||0) + 1;
             });
-            if(it.theme) add(it.theme);
-            // 제목/요약 기반 폴백
-            addFromText((it.title||it.headline||'') + ' ' + (it.summary||it.desc||it.description||''));
           });
-          let top = Object.entries(cnt).sort((a,b)=>b[1]-a[1]).slice(0,12);
-          if(!top.length){
-            const defaults = ['코스피','코스닥','IPO','상장','AI','증자','바이오','반도체','M&A'];
-            top = defaults.map(k=>[k,'']);
-          }
-          box.innerHTML = top.map(([k,n])=>{
-            const q = encodeURIComponent(k);
-            const c = n ? ` <span style="opacity:.65;">${n}</span>` : '';
-            return `<a class="chip" href="/news/?q=${q}">${esc(k)}${c}</a>`;
-          }).join('');
+          const top = Object.entries(cnt).sort((a,b)=>b[1]-a[1]).slice(0,12);
+          box.innerHTML = top.map(([k,n])=>`<a class="chip" href="/news/?tag=${encodeURIComponent(k)}">${esc(k)} <span style="opacity:.65;">${n}</span></a>`).join('');
         }
       }catch(e){
         homeNews.innerHTML = `<div class="item"><div><div class="title">뉴스 데이터를 불러오지 못했습니다.</div><div class="meta">/news/latest.json 확인</div></div></div>`;
@@ -860,8 +822,7 @@ async function hydrateCategoryPage(){
 
         const top10 = rows.slice(0,10);
         const top30 = rows.slice(0,30);
-        const mrOpt = (st.category==='strong' || st.category==='accum') ? {top30_only:true, no_details:true} : null;
-        const html = buildMrankHtml(title, top10, top30, rows, mrOpt);
+        const html = buildMrankHtml(title, top10, top30, rows);
 
         const is_sample = !!byId('bd-ck-sample')?.checked;
 
@@ -1255,12 +1216,8 @@ details.details[open] > summary{
 </style>
 `;
 
-  function buildMrankHtml(title, top10, top30, allRows, opt){
+  function buildMrankHtml(title, top10, top30, allRows){
     const css = MRAK_CSS.replace('<style>','').replace('</style>','');
-    opt = opt || {};
-    const TOP30_ONLY = !!opt.top30_only;
-    const NO_DETAILS = !!opt.no_details;
-
 
     function safe(v){ return esc(v===null||v===undefined ? '' : String(v)); }
     function num(v){
@@ -1319,9 +1276,6 @@ details.details[open] > summary{
 
       const detailRows = Object.keys(row).map(k=>`<tr><td>${safe(k)}</td><td>${safe(row[k])}</td></tr>`).join('');
       const detailTbl = `<table><thead><tr><th>지표</th><th>값</th></tr></thead><tbody>${detailRows}</tbody></table>`;
-      const detailsHtml = NO_DETAILS ? '' : `
-            ${detailsHtml}
-          `;
 
       return `
         <div class="card">
@@ -1335,7 +1289,10 @@ details.details[open] > summary{
           <div class="card-body">
             <div class="chips">${chips}</div>
             <div class="kv kv-compact">${kvs}</div>
-            ${detailsHtml}
+            <details class="details">
+              <summary>전체지표 보기(전 컬럼)</summary>
+              <div class="details-wrap">${detailTbl}</div>
+            </details>
           </div>
         </div>
       `;
@@ -1359,17 +1316,7 @@ details.details[open] > summary{
     const cards10 = t10.map((r,i)=>renderCard(r,i+1)).join('');
     const cards30 = t30.map((r,i)=>renderCard(r,i+1)).join('');
 
-    const doc = TOP30_ONLY ? `<!doctype html><html lang="ko"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>${safe(title)}</title><style>${css}</style></head><body><div class="wrap">
-  <div class="jl-title">
-    <div>
-      <div class="ttl">${safe(title)}</div>
-      <div class="sub">업로드 기반 리포트 · TOP30 카드뉴스</div>
-    </div>
-  </div>
-
-  <h2 id="top30" style="margin:6px 0 10px 0;">TOP30</h2>
-  <div class="grid">${cards30}</div>
-</div></body></html>` : `<!doctype html><html lang="ko"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>${safe(title)}</title>
+    const doc = `<!doctype html><html lang="ko"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>${safe(title)}</title>
 <style>${css}
 table{ width:100%; border-collapse:collapse; margin-top:14px; }
 th, td{ border:1px solid rgba(255,255,255,0.10); padding:8px 10px; font-size:12px; color:rgba(234,240,255,0.88); }
@@ -1483,8 +1430,7 @@ tr:nth-child(even) td{ background: rgba(255,255,255,0.02); }
 
         const top10 = rows.slice(0,10);
         const top30 = rows.slice(0,30);
-        const mrOpt = (st.category==='strong' || st.category==='accum') ? {top30_only:true, no_details:true} : null;
-        const html = buildMrankHtml(title, top10, top30, rows, mrOpt);
+        const html = buildMrankHtml(title, top10, top30, rows);
 
         const res = await postJSON('/api/posts/create', {
           category: st.category,
@@ -1529,8 +1475,7 @@ tr:nth-child(even) td{ background: rgba(255,255,255,0.02); }
         const title = manualTitle || `성과표 ${date_key}`;
         const top10 = rows.slice(0,10);
         const top30 = rows.slice(0,30);
-        const mrOpt = (st.category==='strong' || st.category==='accum') ? {top30_only:true, no_details:true} : null;
-        const html = buildMrankHtml(title, top10, top30, rows, mrOpt);
+        const html = buildMrankHtml(title, top10, top30, rows);
 
         const res = await postJSON('/api/posts/create', {
           category: 'perf',
