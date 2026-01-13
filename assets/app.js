@@ -820,9 +820,16 @@ async function hydrateCategoryPage(){
         const manualTitle = (titleInput && titleInput.value ? titleInput.value : '').trim();
         const title = manualTitle || `${titleMap[st.category]||'빅데이터'} ${date_key}`;
 
-        const top10 = rows.slice(0,10);
-        const top30 = rows.slice(0,30);
-        const html = buildMrankHtml(title, top10, top30, rows);
+        let html = '';
+        if(st.category === 'suspicious'){
+          const ranked = rankSuspiciousRows(rows);
+          const top15 = ranked.slice(0,15);
+          html = buildSrankHtmlTop15(title, top15);
+        }else{
+          const top10 = rows.slice(0,10);
+          const top30 = rows.slice(0,30);
+          html = buildMrankHtml(title, top10, top30, rows);
+        }
 
         const is_sample = !!byId('bd-ck-sample')?.checked;
 
@@ -1354,6 +1361,197 @@ tr:nth-child(even) td{ background: rgba(255,255,255,0.02); }
 </div></body></html>`;
     return doc;
   }
+
+  // =========================
+  // Suspicious Ranker (TOP15 cards only) — ported from srank.py
+  // - 업로드(엑셀/CSV) → 수상해 랭킹 산출 → 화면/HTML은 TOP15 카드만 (테이블 없음)
+  // =========================
+  function rankSuspiciousRows(rows){
+    const num = (v)=>{
+      if(v===null||v===undefined) return NaN;
+      const s = String(v).replace(/,/g,'').trim();
+      if(!s) return NaN;
+      const n = Number(s);
+      return Number.isFinite(n) ? n : NaN;
+    };
+    const toBool = (v)=>{
+      if(v===true || v===1) return true;
+      if(v===false || v===0 || v===null || v===undefined) return false;
+      const s = String(v).trim().toLowerCase();
+      return ['1','true','t','yes','y','on','ok','pass','o'].includes(s);
+    };
+    const codeNum = (row)=>{
+      // try 종목코드 -> 표시 "(005930)" -> 코드/code
+      const cands = [row['종목코드'], row['code'], row['CODE'], row['티커'], row['ticker']];
+      for(const c of cands){
+        const n = num(c);
+        if(Number.isFinite(n)) return n;
+      }
+      const disp = row['표시'] ?? row['display'] ?? '';
+      const m = String(disp).match(/\((\d+)\)/);
+      if(m) return Number(m[1]);
+      return NaN;
+    };
+
+    const scored = rows.map((row, i)=>{
+      const tvmult = num(row['TV_D1_MULT']);
+      const tvspk  = num(row['TVSPIKE20']);
+      const obvd   = num(row['OBV_s10_diff']);
+      const tvamt  = num(row['거래대금']);
+      const cmf    = num(row['CMF20']);
+      const clv    = num(row['CLV']);
+
+      const pwr  = toBool(row['POWERDAY20_ON']);
+      const brk  = toBool(row['DONCH20_BRK']);
+      const acc  = toBool(row['OBV_ACCEL_ON']);
+      const inst = toBool(row['INSTITUTIONAL_POWER']);
+
+      const t1 = Number.isFinite(tvmult) && tvmult >= 7.0;
+      const t2 = Number.isFinite(tvspk)  && tvspk  >= 3.0;
+      const t3 = Number.isFinite(obvd)   && obvd   > 0;
+      const t4 = Number.isFinite(cmf)    && cmf    > 0;
+      const t5 = Number.isFinite(clv)    && clv    > 0;
+
+      const elig = (t1?1:0)+(t2?1:0)+(t3?1:0)+(t4?1:0)+(t5?1:0)+(pwr?1:0)+(brk?1:0)+(acc?1:0)+(inst?1:0);
+
+      const row2 = Object.assign({}, row, {ELIG_COUNT: elig});
+      return {row: row2, i, elig, tvmult, tvspk, obvd, tvamt, code: codeNum(row2)};
+    });
+
+    scored.sort((a,b)=>{
+      // elig desc
+      if(b.elig!==a.elig) return b.elig - a.elig;
+      // TV_D1_MULT desc
+      if((b.tvmult||-Infinity)!==(a.tvmult||-Infinity)) return (b.tvmult||-Infinity) - (a.tvmult||-Infinity);
+      // TVSPIKE20 desc
+      if((b.tvspk||-Infinity)!==(a.tvspk||-Infinity)) return (b.tvspk||-Infinity) - (a.tvspk||-Infinity);
+      // OBV diff desc
+      if((b.obvd||-Infinity)!==(a.obvd||-Infinity)) return (b.obvd||-Infinity) - (a.obvd||-Infinity);
+      // 거래대금 desc
+      if((b.tvamt||-Infinity)!==(a.tvamt||-Infinity)) return (b.tvamt||-Infinity) - (a.tvamt||-Infinity);
+      // 종목코드 asc (NaN last)
+      const ac = Number.isFinite(a.code) ? a.code : Infinity;
+      const bc = Number.isFinite(b.code) ? b.code : Infinity;
+      if(ac!==bc) return ac - bc;
+      return a.i - b.i; // stable
+    });
+
+    return scored.map(x=>x.row);
+  }
+
+  function buildSrankHtmlTop15(title, top15Rows){
+    const css = MRAK_CSS.replace('<style>','').replace('</style>','');
+    const safe = (v)=>esc(v===null||v===undefined ? '' : String(v));
+
+    const num = (v)=>{
+      const s = String(v===null||v===undefined? '' : v).replace(/,/g,'').trim();
+      const n = Number(s);
+      return Number.isFinite(n) ? n : NaN;
+    };
+    const fmt0 = (v)=>{
+      const n = num(v);
+      if(!Number.isFinite(n)) return safe(v);
+      return n.toLocaleString('en-US', {maximumFractionDigits:0});
+    };
+    const fmt2 = (v)=>{
+      const n = num(v);
+      if(!Number.isFinite(n)) return safe(v);
+      return n.toLocaleString('en-US', {maximumFractionDigits:2});
+    };
+    const fmt3 = (v)=>{
+      const n = num(v);
+      if(!Number.isFinite(n)) return safe(v);
+      return n.toLocaleString('en-US', {maximumFractionDigits:3});
+    };
+    const toBool = (v)=>{
+      if(v===true || v===1) return true;
+      if(v===false || v===0 || v===null || v===undefined) return false;
+      const s = String(v).trim().toLowerCase();
+      return ['1','true','t','yes','y','on','ok','pass','o'].includes(s);
+    };
+
+    const kvLine = (label, valHtml)=>`<div class="kv-item"><div class="k">${safe(label)}</div><div class="v">${valHtml}</div></div>`;
+    const sign = (v)=>{
+      const n = num(v);
+      if(!Number.isFinite(n) || n===0) return '<span class="sig neu">·</span>';
+      if(n>0) return '<span class="sig pos">＋</span>';
+      return '<span class="sig neg">－</span>';
+    };
+
+    const pickTitleLine = (row)=>{
+      const disp = row['표시'] ?? row['display_name'] ?? '';
+      if(String(disp).trim()) return String(disp).trim();
+      const name = row['종목명'] ?? row['기업명'] ?? row['name'] ?? '';
+      const code = row['종목코드'] ?? row['ticker'] ?? row['code'] ?? '';
+      if(String(name).trim() && String(code).trim()) return `${String(name).trim()}(${String(code).trim()})`;
+      return String(name).trim() || String(code).trim() || '(미상)';
+    };
+
+    const cards = top15Rows.map((row, idx)=>{
+      const rk = idx+1;
+      const titleLine = pickTitleLine(row);
+
+      const chips = [];
+      if(toBool(row['POWERDAY20_ON'])) chips.push('POWERDAY20');
+      if(toBool(row['DONCH20_BRK'])) chips.push('DONCH20_BRK');
+      if(toBool(row['OBV_ACCEL_ON'])) chips.push('OBV_ACCEL');
+      if(toBool(row['INSTITUTIONAL_POWER'])) chips.push('INST_POWER');
+      const chipHtml = chips.length ? `<div class="chips">${chips.map(c=>`<span class="chip">${safe(c)}</span>`).join('')}</div>` : '';
+
+      const elig = row['ELIG_COUNT']!==undefined ? row['ELIG_COUNT'] : '';
+      const tvx = row['TV_D1_MULT']!==undefined ? row['TV_D1_MULT'] : '';
+
+      const kvs = [
+        kvLine('거래대금', `${sign(row['거래대금'])}<span>${fmt0(row['거래대금'])}</span>`),
+        kvLine('전일대비TV×', `${sign(row['TV_D1_MULT'])}<span>${fmt2(row['TV_D1_MULT'])}</span>`),
+        kvLine('TVSPIKE20', `${sign(row['TVSPIKE20'])}<span>${fmt2(row['TVSPIKE20'])}</span>`),
+        kvLine('OBV Δ(10)', `${sign(row['OBV_s10_diff'])}<span>${fmt0(row['OBV_s10_diff'])}</span>`),
+        kvLine('CMF20', `${sign(row['CMF20'])}<span>${fmt3(row['CMF20'])}</span>`),
+        kvLine('CLV', `${sign(row['CLV'])}<span>${fmt3(row['CLV'])}</span>`),
+      ].join('');
+
+      return `
+<div class="card">
+  <div class="card-head">
+    <div>
+      <div class="name">${safe(titleLine)}</div>
+      <div class="code">순위 ${rk} · 종가 ${fmt0(row['종가'])} · D1 ${fmt2(row['등락률(D1%)'])}% · 거래대금 ${fmt0(row['거래대금'])}</div>
+    </div>
+    <div class="rank-pill">TV× ${fmt2(tvx)} · SCORE ${safe(elig)}</div>
+  </div>
+  <div class="card-body">
+    ${chipHtml}
+    <div class="kv kv-compact">${kvs}</div>
+  </div>
+</div>`;
+    }).join('');
+
+    return `<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${safe(title)}</title>
+<style>${css}
+.wrap{ max-width:1240px; margin:0 auto; padding:18px 16px 34px 16px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="jl-title">
+    <div>
+      <h1>${safe(title)}</h1>
+      <div class="jl-sub">TOP15만 · 카드뉴스 · 테이블 없음</div>
+    </div>
+    <div class="badge">srank_TOP15</div>
+  </div>
+  <hr>
+  <div class="grid">${cards}</div>
+</div>
+</body>
+</html>`;
+  }
+
 
   async function parseFileToRows(file){
     const name = file?.name || '';
