@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-13 17:30 KST",
+  "updated_at": "2026-01-13 17:58 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,21 +25,93 @@
     {
       "source": "HK",
       "press": "한국경제",
-      "published_at": "2026-01-13 17:21",
-      "title": "증권사로 '머니무브'…은행예금 27조 급감",
-      "url": "https://www.hankyung.com/article/2026011383491",
+      "published_at": "2026-01-13 17:35",
+      "title": "대형 증권사-중소형사 '체급' 더 벌어졌다",
+      "url": "https://www.hankyung.com/article/2026011383681",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
-      "published_at": "2026-01-13 17:20",
-      "title": "[코스닥 공시] 삼천리자전거",
-      "url": "https://www.mk.co.kr/news/stock/11931933",
+      "published_at": "2026-01-13 17:31",
+      "title": "EMAT, 한국 희토류 기업 연쇄 인수합병 통해 나스닥 스팩 상장",
+      "url": "https://www.mk.co.kr/news/stock/11931974",
       "keywords_hit": [
-        "코스닥",
-        "공시"
+        "상장",
+        "인수"
       ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-13 17:31",
+      "title": "5천피 고지 다가오자…공매도 대기자금 '쑥'",
+      "url": "https://www.mk.co.kr/news/stock/11931971",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-13 17:31",
+      "title": "현대차 질주 … 주가 40만원·시총 80조 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11931973",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-13 17:31",
+      "title": "\"오전 7시부터 국장 투자\"…거래소, 12시간 거래 추진",
+      "url": "https://www.mk.co.kr/news/stock/11931969",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-13 17:31",
+      "title": "美중소형주 연일 달리는데 … 한국은 부진 심화",
+      "url": "https://www.mk.co.kr/news/stock/11931970",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 17:26",
+      "title": "[포토] '2025년 하반기 베스트 증권사·애널리스트' 시상식",
+      "url": "https://www.hankyung.com/article/2026011382961",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 17:24",
+      "title": "'포모'가 불지른 쩐의 이동…증권계좌, 1년간 매일 3만3000개 생겨",
+      "url": "https://www.hankyung.com/article/2026011383661",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 17:24",
+      "title": "대신파이낸셜그룹, 나주 취약계층 지원",
+      "url": "https://www.hankyung.com/article/2026011382851",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 17:24",
+      "title": "\"요즘 누가 은행에 돈 맡겨요\"…예금 깨서 어디 가나 봤더니",
+      "url": "https://www.hankyung.com/article/2026011383671",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 17:21",
+      "title": "증권사로 '머니무브'…은행예금 27조 급감",
+      "url": "https://www.hankyung.com/article/2026011383491",
+      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -50,6 +122,17 @@
       "keywords_hit": [
         "공시",
         "유가"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-13 17:20",
+      "title": "[코스닥 공시] 삼천리자전거",
+      "url": "https://www.mk.co.kr/news/stock/11931933",
+      "keywords_hit": [
+        "코스닥",
+        "공시"
       ]
     },
     {
@@ -114,7 +197,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-13 17:03",
-      "title": "\"아이폰·월마트도 제미나이로\"…구글, 시총 4조弗 터치",
+      "title": "\"반드시 파괴\" 분노했는데…애플 '적과의 동침' 택한 이유",
       "url": "https://www.hankyung.com/article/2026011382681",
       "keywords_hit": []
     },
@@ -263,53 +346,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 16:06",
-      "title": "삼성증권, 금융자산 30억 이상 고객 6000명 넘었다",
-      "url": "https://www.hankyung.com/article/2026011369521",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 16:06",
-      "title": "\"지금이 살 때다\"…'불장'에도 비실비실한데 증권가 찍은 종목 [종목+]",
-      "url": "https://www.hankyung.com/article/202601138046i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 16:02",
-      "title": "4600 뛰어넘은 코스피…반도체 훈풍 타고 5000 조기 달성할 수도",
-      "url": "https://www.hankyung.com/article/2026011369601",
-      "keywords_hit": [
-        "코스피",
-        "반도체"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 16:01",
-      "title": "대표 배당주 ETF, 어떻게 활용할까",
-      "url": "https://www.hankyung.com/article/2026011369611",
-      "keywords_hit": [
-        "배당"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 16:00",
-      "title": "로봇의 GPT 모먼트, 승자는 '데이터 공장'서 결정",
-      "url": "https://www.hankyung.com/article/2026011369621",
-      "keywords_hit": [
-        "로봇"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-13 15:45",
@@ -336,49 +372,6 @@
       "title": "삼성증권, 금융자산 30억원 이상 ‘초고액자산가’ 6000명 돌파",
       "url": "https://www.mk.co.kr/news/stock/11931616",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-13 14:21",
-      "title": "지난해 단기사채 자금조달 규모 1160.1조원…전년비 33.6% 증가",
-      "url": "https://www.mk.co.kr/news/stock/11931614",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-13 13:46",
-      "title": "현대차증권, ‘다정다익 랩어카운트’ 신규 출시",
-      "url": "https://www.mk.co.kr/news/stock/11931550",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-13 11:38",
-      "title": "계속 상승 랠리 이어갈 줄 알았는데…‘삼전닉스’ 동반 1~2% 하락",
-      "url": "https://www.mk.co.kr/news/stock/11931474",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-13 11:29",
-      "title": "“주식 아직도 안샀어? 통장 깨서 일단 넣어”…은행 대기자금 일주일새 28조 증발",
-      "url": "https://www.mk.co.kr/news/economy/11931451",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-13 10:56",
-      "title": "초고수, 코스피 이전상장 추진 알테오젠 주목[주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11931400",
-      "keywords_hit": [
-        "코스피",
-        "상장"
-      ]
     }
   ]
 }
