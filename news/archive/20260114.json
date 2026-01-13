@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-14 07:40 KST",
+  "updated_at": "2026-01-14 07:54 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,30 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 07:44",
+      "title": "\"메모리 호황 이제 시작…SK하이닉스, 95만원 간다\"-KB",
+      "url": "https://www.hankyung.com/article/2026011489306",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 07:33",
+      "title": "[속보] 비트코인 5% 급등…9만5000달러 돌파",
+      "url": "https://www.hankyung.com/article/2026011489217",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 07:18",
+      "title": "CPI 예상 부합했지만…카드 이자 상한 소식에 하락 마감 [뉴욕증시 브리핑]",
+      "url": "https://www.hankyung.com/article/2026011488876",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -290,34 +314,6 @@
       "keywords_hit": [
         "반도체"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 16:58",
-      "title": "\"삼성전자, 아직 팔때 아냐…실적에 비해 저평가 여전\"",
-      "url": "https://www.hankyung.com/article/2026011382401",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 16:57",
-      "title": "현대차 '쾌속 질주'…코스피 4700 눈앞",
-      "url": "https://www.hankyung.com/article/2026011382351",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 16:56",
-      "title": "부진한 화장품주, 상반기 반등 올까",
-      "url": "https://www.hankyung.com/article/2026011382421",
-      "keywords_hit": []
     },
     {
       "source": "MK",
