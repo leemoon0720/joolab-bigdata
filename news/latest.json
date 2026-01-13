@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-14 07:54 KST",
+  "updated_at": "2026-01-14 08:16 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,42 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-14 08:14",
+      "title": "“SK하이닉스, 메모리 가격 상승폭 확대에 112만원 간다”…목표가↑",
+      "url": "https://www.mk.co.kr/news/stock/11932386",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 08:04",
+      "title": "\"HL만도, 이르면 올 하반기 로봇 액추에이터 수주 기대…목표가↑\"-하나",
+      "url": "https://www.hankyung.com/article/2026011489976",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 08:03",
+      "title": "\"통장 깨서 돈 넣는다\"…'역대급 불장'에 조용히 웃는 증권株 [종목+]",
+      "url": "https://www.hankyung.com/article/2026011489506",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 07:58",
+      "title": "삼전 주가도 주춤하나…美 증시 약세에 고환율 압박 [오늘장 미리보기]",
+      "url": "https://www.hankyung.com/article/202601148934i",
+      "keywords_hit": [
+        "환율"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -141,16 +177,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-13 17:31",
-      "title": "현대차 질주 … 주가 40만원·시총 80조 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11931973",
+      "title": "5천피 고지 다가오자 공매도 대기자금 급증",
+      "url": "https://www.mk.co.kr/news/stock/11931971",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-13 17:31",
-      "title": "5천피 고지 다가오자 공매도 대기자금 급증",
-      "url": "https://www.mk.co.kr/news/stock/11931971",
+      "title": "현대차 질주 … 주가 40만원·시총 80조 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11931973",
       "keywords_hit": []
     },
     {
@@ -275,14 +311,6 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-13 17:11",
-      "title": "美 국방예산 급증에…조선株 다시 급등세",
-      "url": "https://www.mk.co.kr/news/stock/11931885",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-13 17:11",
       "title": "[MK시그널] 우주·반도체소재 테마株 두각",
       "url": "https://www.mk.co.kr/news/stock/11931886",
       "keywords_hit": [
@@ -290,30 +318,12 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 17:03",
-      "title": "\"반드시 파괴\" 분노했는데…애플 '적과의 동침' 택한 이유",
-      "url": "https://www.hankyung.com/article/2026011382681",
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-13 17:11",
+      "title": "美 국방예산 급증에…조선株 다시 급등세",
+      "url": "https://www.mk.co.kr/news/stock/11931885",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 17:01",
-      "title": "金·銀 랠리타고 '채굴 ETF'도 급등",
-      "url": "https://www.hankyung.com/article/2026011382581",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 16:59",
-      "title": "\"올해 60% 넘게 올랐다고?\"…반도체까지 제치더니 '불기둥'",
-      "url": "https://www.hankyung.com/article/2026011382361",
-      "keywords_hit": [
-        "반도체"
-      ]
     },
     {
       "source": "MK",
@@ -359,16 +369,6 @@
       "url": "https://www.mk.co.kr/news/stock/11931758",
       "keywords_hit": [
         "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-13 15:14",
-      "title": "초고수, ‘피지컬 AI 사업 가시화’ 현대차 주목[주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11931720",
-      "keywords_hit": [
-        "AI"
       ]
     }
   ]
