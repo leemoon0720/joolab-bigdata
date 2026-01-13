@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-13 13:10 KST",
+  "updated_at": "2026-01-13 13:52 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,38 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-13 13:46",
+      "title": "현대차증권, ‘다정다익 랩어카운트’ 신규 출시",
+      "url": "https://www.mk.co.kr/news/stock/11931550",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 13:43",
+      "title": "농민신문 회장 사임, 숙박비도 반환…고개 숙인 농협 강호동 회장",
+      "url": "https://www.hankyung.com/article/202601137379i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 13:27",
+      "title": "현대차증권, '다정다익 랩어카운트' 출시",
+      "url": "https://www.hankyung.com/article/2026011375696",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 13:18",
+      "title": "[마켓PRO] \"JPM 행사로 기업가치 제고\" 기대에…고수들, 알테오젠 매수",
+      "url": "https://www.hankyung.com/article/202601137482i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -53,7 +85,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-13 11:03",
-      "title": "\"폭락 언제쯤\"…'-80%'도 막지 못한 개미의 '곱버스' 짝사랑",
+      "title": "폭락 기다리다 '벼락거지' 됐다…처참한 결과에 개미들 '패닉'",
       "url": "https://www.hankyung.com/article/202601137204i",
       "keywords_hit": []
     },
@@ -320,14 +352,6 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-13 09:12",
-      "title": "“삼전·하이닉스 너무 오른거 아냐”…사상 최고가 행진에 ‘이것’도 급등했다는데",
-      "url": "https://www.mk.co.kr/news/economy/11931227",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-13 09:04",
@@ -345,32 +369,6 @@
         "코스피",
         "환율"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 08:55",
-      "title": "코스피 새해 랠리 이어질까…미국 물가 경계감은 변수 [오늘장 미리보기]",
-      "url": "https://www.hankyung.com/article/202601136681i",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 08:54",
-      "title": "\"에스엠, 中 공연 재개 시 가장 빠른 수혜\"-NH",
-      "url": "https://www.hankyung.com/article/2026011367396",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 08:54",
-      "title": "[마켓PRO] Today's Pick : \"현대차, 자동차 업종 주도할 것…최선호주\"",
-      "url": "https://www.hankyung.com/article/202601136691i",
-      "keywords_hit": []
     }
   ]
 }
