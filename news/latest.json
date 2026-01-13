@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-13 21:26 KST",
+  "updated_at": "2026-01-13 22:22 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-13 22:00",
+      "title": "\"이럴 줄 알았으면 안 샀다\"…반토막 난 주식에 개미 '피눈물' [진영기의 찐개미 찐투자]",
+      "url": "https://www.hankyung.com/article/2026011383326",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -332,17 +340,6 @@
       "title": "미래에셋박현주재단, 미래에셋 장학생 특파원 발대식 개최",
       "url": "https://www.mk.co.kr/news/stock/11931802",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 16:12",
-      "title": "\"반도체와 AI가 올해도 시장 주도\"",
-      "url": "https://www.hankyung.com/article/2026011369461",
-      "keywords_hit": [
-        "반도체",
-        "AI"
-      ]
     },
     {
       "source": "MK",
