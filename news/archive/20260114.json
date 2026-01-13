@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-14 06:52 KST",
+  "updated_at": "2026-01-14 07:12 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 07:01",
+      "title": "\"삼성증권, 브로커리지 호실적 전망…목표가 상향\"-한국",
+      "url": "https://www.hankyung.com/article/2026011488476",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -306,16 +316,6 @@
       "title": "테마형 ETF, 과반이 지수만도 못한 성과",
       "url": "https://www.hankyung.com/article/2026011382341",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-13 16:55",
-      "title": "[특징주 & 리포트] ''대웅과 혈맹' 유투바이오 上' 등",
-      "url": "https://www.hankyung.com/article/2026011382431",
-      "keywords_hit": [
-        "바이오"
-      ]
     },
     {
       "source": "MK",
