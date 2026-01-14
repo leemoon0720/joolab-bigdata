@@ -396,8 +396,18 @@ function isPublicPath(pathname) {
 async function requireAuth(request, env, baseUrl) {
   const secret = (env && env.JLAB_AUTH_SECRET) ? env.JLAB_AUTH_SECRET : DEFAULT_SECRET;
   const cookies = parseCookies(request.headers.get('cookie') || '');
-  const token = cookies[COOKIE_NAME] || '';
-  const payload = await verifyToken(secret, token);
+  const cookieToken = cookies[COOKIE_NAME] || '';
+  let payload = await verifyToken(secret, cookieToken);
+
+  // 쿠키가 막히는 환경(로컬/HTTP 등)을 위해 Authorization: Bearer 토큰도 지원합니다.
+  if (!payload || !payload.email) {
+    const auth = request.headers.get('authorization') || '';
+    const headerToken = auth.toLowerCase().startsWith('bearer ') ? auth.slice(7).trim() : auth.trim();
+    if (headerToken) {
+      payload = await verifyToken(secret, headerToken);
+    }
+  }
+
   if (!payload || !payload.email) return null;
   return payload;
 }
@@ -430,7 +440,7 @@ async function handleAuthLogin(request, env, baseUrl) {
   const exp = now + 1000*60*60*24*14; // 14일
   const token = await makeToken(secret, { email, role, iat: now, exp });
   const setCookie = makeCookie(COOKIE_NAME, token, 60*60*24*14);
-  return jsonResp({ ok:true, user:{ email, role } }, 200, { 'set-cookie': setCookie });
+  return jsonResp({ ok:true, user:{ email, role }, token }, 200, { 'set-cookie': setCookie });
 }
 
 async function handleAuthMe(request, env, baseUrl) {
@@ -882,6 +892,26 @@ async function handleYouTubeLatest(){
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
+
+    // ==============================
+    // KV binding compatibility
+    // - 기존 배포에서 KV 바인딩 변수명이 JLAB_KV가 아닐 수 있어 자동 매핑합니다.
+    // - 우선순위: JLAB_KV(신규) → BIGDATA_KV / JLAB_BIGDATA_KV / JOOLAB_KV / KV → 자동 탐색
+    // ==============================
+    try {
+      if (env && !env.JLAB_KV) {
+        env.JLAB_KV = env.BIGDATA_KV || env.JLAB_BIGDATA_KV || env.JOOLAB_KV || env.KV || null;
+      }
+      if (env && !env.JLAB_KV) {
+        for (const k of Object.keys(env)) {
+          const v = env[k];
+          if (v && typeof v.get === 'function' && typeof v.put === 'function' && typeof v.list === 'function') {
+            env.JLAB_KV = v;
+            break;
+          }
+        }
+      }
+    } catch (e) {}
 
     // ==============================
     // Auth API

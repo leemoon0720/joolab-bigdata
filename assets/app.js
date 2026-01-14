@@ -23,13 +23,12 @@
         notice: /^\/notice\/?/,
         news: /^\/news\/?/,
         data: /^\/data\/?/,
-        sample: /^\/sample\/?/,
         performance: /^\/performance\/?/,
-        chartgame: /^\/(training\/game|training|game)\/?/,
         meme: /^\/meme\/?/,
         subscribe: /^\/subscribe\/?/,
         account: /^\/account\/?/,
         ops: /^\/ops\/?/,
+        chartgame: /^\/(training\/game|training)\/?/,
         home: /^\/$/,
       };
       const re = map[key];
@@ -64,16 +63,15 @@
     if(!nav) return;
 
     const items = [
-      {key:'notice', label:'공지사항', href:'/notice/'},
+      {key:'notice', label:'공지', href:'/notice/'},
       {key:'news', label:'뉴스센터', href:'/news/'},
       {key:'data', label:'빅데이터', href:'/data/'},
-      {key:'sample', label:'샘플자료실', href:'/sample/'},
       {key:'performance', label:'성과표', href:'/performance/'},
       {key:'chartgame', label:'차트게임', href:'/training/game/'},
       {key:'meme', label:'유머', href:'/meme/'},
       {key:'subscribe', label:'구독', href:'/subscribe/'},
       {key:'account', label:'회원', href:'/account/'},
-      {key:'ops', label:'운영센터', href:'/ops/', adminOnly:true},
+      {key:'ops', label:'운영', href:'/ops/', adminOnly:true},
     ];
 
     nav.innerHTML = items.map(it=>{
@@ -720,7 +718,6 @@
     }
 
     // Perf list (3)
- (3)
     const homePerf = byId('home-perf');
     if(homePerf){
       try{
