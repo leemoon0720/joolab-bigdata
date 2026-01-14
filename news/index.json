@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-14 20:30 KST",
+  "updated_at": "2026-01-14 20:46 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,25 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-14 20:45",
+      "title": "공정성 논란속 STO 장외거래소 예비인가 연기",
+      "url": "https://www.mk.co.kr/news/stock/11933292",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 20:30",
+      "title": "거래소, 24시간 거래 추진 위해 'AI 스타트업' 인수 검토",
+      "url": "https://www.hankyung.com/article/202601141203i",
+      "keywords_hit": [
+        "인수",
+        "AI"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -327,16 +346,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-14 16:52",
-      "title": "인적분할 발표한 한화, ‘밸류업 공시’도 호평",
-      "url": "https://www.mk.co.kr/news/stock/11933009",
-      "keywords_hit": [
-        "공시"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-14 16:51",
@@ -364,19 +373,6 @@
       "url": "https://www.hankyung.com/article/2026011407421",
       "keywords_hit": [
         "금리"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 16:50",
-      "title": "작년 코스피 상장사 공시 4% 늘어… 코스닥 상장사도 5%↑",
-      "url": "https://www.hankyung.com/article/202601140761i",
-      "keywords_hit": [
-        "코스피",
-        "코스닥",
-        "상장",
-        "공시"
       ]
     }
   ]
