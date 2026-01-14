@@ -53,64 +53,14 @@
         if(acctBadge) acctBadge.textContent = "GUEST";
         if(subBadge) subBadge.textContent = "-";
         if(subDesc) subDesc.textContent = "로그인이 필요합니다.";
-
-      // 비로그인 상태: 회원가입/로그인 폼 표시
-      const cardSignup = $("acct-card-signup");
-      const cardLogin  = $("acct-card-login");
-      const subtitle   = $("acct-subtitle");
-      if(cardSignup) cardSignup.style.display = "";
-      if(cardLogin) cardLogin.style.display = "";
-      if(subtitle) subtitle.textContent = "회원가입 · 로그인 · 내 구독 상태 확인";
-
-      const btnLogout2 = $("btn-logout2");
-      if(btnLogout2) btnLogout2.style.display = "none";
-
         return;
       }
       const email = me.user.email;
       const role = me.user.role || "user";
-
-      // 결제 리턴 처리: /account/?plan=Basic|Pro|VIP  (가격표: 29,000 / 89,000(미국지표 포함) / 200,000)
-      try{
-        const u = new URL(window.location.href);
-        const qp = (u.searchParams.get('plan')||'').trim();
-        if(qp){
-          const key = "jlab_plan_" + email;
-          let label = "미구독";
-          if(/^basic$/i.test(qp)) label = "29,000원";
-          else if(/^pro$/i.test(qp)) label = "89,000원(미국지표 포함)";
-          else if(/^vip$/i.test(qp)) label = "200,000원";
-          localStorage.setItem(key, label);
-
-          // URL에서 plan 제거
-          u.searchParams.delete('plan');
-          window.history.replaceState({}, "", u.pathname + (u.search||""));
-        }
-      }catch(e){}
-
       const plan = getPlan(email);
       if(acctBadge) acctBadge.textContent = (role === "admin") ? "ADMIN" : "LOGIN";
       if(subBadge) subBadge.textContent = plan;
       if(subDesc) subDesc.textContent = `현재 로그인: ${email} · 권한: ${role} · 구독: ${plan}`;
-
-      // 로그인 상태: 회원가입/로그인 폼 숨김 + 부제 변경
-      const cardSignup = $("acct-card-signup");
-      const cardLogin  = $("acct-card-login");
-      const subtitle   = $("acct-subtitle");
-      if(cardSignup) cardSignup.style.display = "none";
-      if(cardLogin) cardLogin.style.display = "none";
-      if(subtitle) subtitle.textContent = "내 구독 상태";
-
-      // 내 구독 상태 영역 로그아웃 버튼
-      const btnLogout2 = $("btn-logout2");
-      if(btnLogout2){
-        btnLogout2.style.display = "";
-        btnLogout2.onclick = async ()=>{
-          try{ await fetch("/api/auth/logout", {credentials:"include"}); }catch(e){}
-          window.location.href = "/account/";
-        };
-      }
-
     }catch(e){
       if(acctBadge) acctBadge.textContent = "GUEST";
       if(subBadge) subBadge.textContent = "-";
