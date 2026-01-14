@@ -211,6 +211,28 @@ async function handleMarket() {
 const COOKIE_NAME = 'jlab_sess';
 const DEFAULT_SECRET = 'JLAB_CHANGE_ME_SECRET';
 
+function __jlab_isKV(v){
+  return !!(v && typeof v.get==='function' && typeof v.put==='function' && typeof v.list==='function');
+}
+
+function __jlab_findKV(env){
+  if(!env) return null;
+  // common names
+  const direct = env.JLAB_KV || env.BIGDATA_KV || env.BIGDATAKV || env.JLAB_BIGDATA_KV || env.KV;
+  if(__jlab_isKV(direct)) return direct;
+  // scan any binding that looks like KV
+  try{
+    for(const k of Object.keys(env)){
+      const v = env[k];
+      if(__jlab_isKV(v)){
+        return v;
+      }
+    }
+  }catch(e){}
+  return null;
+}
+
+
 function jsonResp(obj, status=200, extraHeaders={}) {
   return new Response(JSON.stringify(obj), {
     status,
@@ -551,7 +573,7 @@ function compactTs(d=new Date()){
 async function handlePostsCreate(request, env, baseUrl){
   const admin = await requireAdmin(request, env, baseUrl);
   if(!admin) return jsonResp({ok:false, error:'FORBIDDEN'}, 403);
-  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
+  if(!env || !__jlab_isKV(env.JLAB_KV)) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
 
   const body = await request.json().catch(()=> ({}));
   const category = String(body.category||'').trim();
@@ -617,7 +639,7 @@ async function _listMetaByPrefix(env, prefix, limit){
 }
 
 async function handlePostsList(request, env){
-  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING', items:[]}, 200);
+  if(!env || !__jlab_isKV(env.JLAB_KV)) return jsonResp({ok:false, error:'KV_MISSING', items:[]}, 200);
   const url = new URL(request.url);
   const category = String(url.searchParams.get('category')||'').trim();
   const region = String(url.searchParams.get('region')||'').trim().toUpperCase();
@@ -648,7 +670,7 @@ async function handlePostsList(request, env){
 }
 
 async function handlePostsLatest(request, env){
-  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
+  if(!env || !__jlab_isKV(env.JLAB_KV)) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
   const url = new URL(request.url);
   const scope = String(url.searchParams.get('scope')||'bigdata').trim();
   const key = (scope === 'perf') ? 'posts/latest/perf.json' : (scope === 'meme') ? 'posts/latest/meme.json' : 'posts/latest/bigdata.json';
@@ -662,7 +684,7 @@ async function handlePostsLatest(request, env){
 }
 
 async function handlePostsGet(request, env){
-  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
+  if(!env || !__jlab_isKV(env.JLAB_KV)) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
   const url = new URL(request.url);
   const id = String(url.searchParams.get('id')||'').trim();
   if(!id) return jsonResp({ok:false, error:'NO_ID'}, 200);
@@ -682,7 +704,7 @@ async function handlePostsGet(request, env){
 // Posts Admin: delete / update title
 // ==============================
 async function _recomputeLatest(env, scope){
-  if(!env || !env.JLAB_KV) return false;
+  if(!env || !__jlab_isKV(env.JLAB_KV)) return false;
   let latest = null;
 
   async function pull(prefix){
@@ -730,7 +752,7 @@ async function _recomputeLatest(env, scope){
 async function handlePostsDelete(request, env, baseUrl){
   const admin = await requireAdmin(request, env, baseUrl);
   if(!admin) return jsonResp({ok:false, error:'FORBIDDEN'}, 403);
-  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
+  if(!env || !__jlab_isKV(env.JLAB_KV)) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
 
   const body = await request.json().catch(()=> ({}));
   const id = String(body.id||'').trim();
@@ -779,7 +801,7 @@ async function handlePostsDelete(request, env, baseUrl){
 async function handlePostsUpdateTitle(request, env, baseUrl){
   const admin = await requireAdmin(request, env, baseUrl);
   if(!admin) return jsonResp({ok:false, error:'FORBIDDEN'}, 403);
-  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
+  if(!env || !__jlab_isKV(env.JLAB_KV)) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
 
   const body = await request.json().catch(()=> ({}));
   const id = String(body.id||'').trim();
@@ -831,7 +853,7 @@ async function handlePostsUpdateTitle(request, env, baseUrl){
 // Signup request (store minimal)
 // ==============================
 async function handleSignupRequest(request, env){
-  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
+  if(!env || !__jlab_isKV(env.JLAB_KV)) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
   const body = await request.json().catch(()=> ({}));
   const email = String(body.email||'').trim();
   const name = String(body.name||'').trim();
@@ -881,42 +903,44 @@ async function handleYouTubeLatest(){
 
 export default {
   async fetch(request, env, ctx) {
+    const __kv = __jlab_findKV(env);
+    const __env = (__kv && !(env && __jlab_isKV(env.JLAB_KV))) ? Object.assign({}, env, { JLAB_KV: __kv }) : env;
     const url = new URL(request.url);
 
     // ==============================
     // Auth API
     // ==============================
     if (url.pathname === '/api/auth/login' && request.method === 'POST') {
-      return await handleAuthLogin(request, env, url.origin);
+      return await handleAuthLogin(request, __env, url.origin);
     }
     if (url.pathname === '/api/auth/me') {
-      return await handleAuthMe(request, env, url.origin);
+      return await handleAuthMe(request, __env, url.origin);
     }
     if (url.pathname === '/api/auth/logout') {
-      return await handleAuthLogout(request, env, url.origin);
+      return await handleAuthLogout(request, __env, url.origin);
     }
     if (url.pathname === '/api/auth/change_password' && request.method === 'POST') {
-      return await handleAuthChangePassword(request, env, url.origin);
+      return await handleAuthChangePassword(request, __env, url.origin);
     }
 
     // ==============================
     // Notice / Popup (Public read)
     // ==============================
     if (url.pathname === '/api/notice/latest') {
-      return await handleNoticeLatest(request, env, url.origin);
+      return await handleNoticeLatest(request, __env, url.origin);
     }
     if (url.pathname === '/api/popup/config') {
-      return await handlePopupConfig(request, env, url.origin);
+      return await handlePopupConfig(request, __env, url.origin);
     }
 
     // ==============================
     // Admin Save
     // ==============================
     if (url.pathname === '/api/admin/notice/save' && request.method === 'POST') {
-      return await handleAdminNoticeSave(request, env, url.origin);
+      return await handleAdminNoticeSave(request, __env, url.origin);
     }
     if (url.pathname === '/api/admin/popup/save' && request.method === 'POST') {
-      return await handleAdminPopupSave(request, env, url.origin);
+      return await handleAdminPopupSave(request, __env, url.origin);
     }
 
 
@@ -924,29 +948,29 @@ export default {
     // Posts API (Bigdata / Performance)
     // ==============================
     if (url.pathname === '/api/posts/create' && request.method === 'POST') {
-      return await handlePostsCreate(request, env, url.origin);
+      return await handlePostsCreate(request, __env, url.origin);
     }
     if (url.pathname === '/api/posts/delete' && request.method === 'POST') {
-      return await handlePostsDelete(request, env, url.origin);
+      return await handlePostsDelete(request, __env, url.origin);
     }
     if (url.pathname === '/api/posts/update_title' && request.method === 'POST') {
-      return await handlePostsUpdateTitle(request, env, url.origin);
+      return await handlePostsUpdateTitle(request, __env, url.origin);
     }
     if (url.pathname === '/api/posts/list') {
-      return await handlePostsList(request, env);
+      return await handlePostsList(request, __env);
     }
     if (url.pathname === '/api/posts/get') {
-      return await handlePostsGet(request, env);
+      return await handlePostsGet(request, __env);
     }
     if (url.pathname === '/api/posts/latest') {
-      return await handlePostsLatest(request, env);
+      return await handlePostsLatest(request, __env);
     }
 
     // ==============================
     // Signup Request (Public)
     // ==============================
     if (url.pathname === '/api/signup/request' && request.method === 'POST') {
-      return await handleSignupRequest(request, env);
+      return await handleSignupRequest(request, __env);
     }
 
     // ==============================
