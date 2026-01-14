@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-14 17:59 KST",
+  "updated_at": "2026-01-14 18:37 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-14 18:24",
+      "title": "구글 “한국 법 안 지키면 금지”…미신고 해외 코인앱, 28일 퇴출",
+      "url": "https://www.mk.co.kr/news/stock/11933193",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -107,7 +115,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-14 17:42",
-      "title": "韓 EPS 증가율 54%…美의 3배', 삼전닉스' 타고 오천피 앞으로",
+      "title": "'삼성전자 주식 잘샀네'…100조 잭팟 예고에 개미들 '환호'",
       "url": "https://www.hankyung.com/article/2026011409481",
       "keywords_hit": []
     },
@@ -162,6 +170,16 @@
       "title": "주가조작 합동대응단, 인력 대폭 확대",
       "url": "https://www.hankyung.com/article/2026011409701",
       "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 17:33",
+      "title": "커지는 IPO '몸값 뻥튀기' 논란",
+      "url": "https://www.hankyung.com/article/2026011409711",
+      "keywords_hit": [
+        "IPO"
+      ]
     },
     {
       "source": "HK",
@@ -336,17 +354,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 16:49",
-      "title": "넷플릭스, 워너 M&A 속도…\"핵심사업 전액 현금 인수\"",
-      "url": "https://www.hankyung.com/article/2026011407321",
-      "keywords_hit": [
-        "인수",
-        "M&A"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-14 16:02",
@@ -373,14 +380,6 @@
       "keywords_hit": [
         "원유"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-14 15:37",
-      "title": "[단독]세무대행 플랫폼 ‘삼쩜삼’, 1500억원 신규 투자 유치 추진",
-      "url": "https://www.mk.co.kr/news/stock/11932901",
-      "keywords_hit": []
     }
   ]
 }
