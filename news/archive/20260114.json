@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-14 19:21 KST",
+  "updated_at": "2026-01-14 19:47 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-14 19:42",
+      "title": "㈜한화 인적분할 ‘선택과 집중’ 승부…테크·라이프 떼어낸다",
+      "url": "https://www.mk.co.kr/news/business/11933223",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -60,7 +68,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-14 17:50",
-      "title": "국민연금·서학개미 투자도 늘었지만…국내상장 美ETF, 달러유출 최대창구",
+      "title": "국민연금·서학개미 투자도 늘었지만 … 국내상장 美ETF, 달러유출 최대창구",
       "url": "https://www.mk.co.kr/news/stock/11933154",
       "keywords_hit": [
         "상장"
@@ -131,7 +139,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-14 17:40",
-      "title": "반도체 질주…韓기업 이익 증가율 1위",
+      "title": "반도체 질주…韓 EPS 증가율 세계 1위",
       "url": "https://www.hankyung.com/article/2026011409921",
       "keywords_hit": [
         "반도체"
@@ -370,16 +378,6 @@
       "title": "금에 가장 쉽게 투자하는 방법, 토큰화된 금 [엠블록레터]",
       "url": "https://www.mk.co.kr/news/stock/11932928",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-14 15:56",
-      "title": "“주식 곱버스서 날렸는데 원유 인버스도, 어쩌나”…개미들 거꾸로 가다 ‘쪽박’",
-      "url": "https://www.mk.co.kr/news/stock/11932925",
-      "keywords_hit": [
-        "원유"
-      ]
     }
   ]
 }
