@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-15 05:52 KST",
+  "updated_at": "2026-01-15 06:12 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,26 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 06:00",
+      "title": "“패 까고 포커치는 외환당국…환율 눌러도 1480원 재반등\" [김익환의 부처 핸즈업]",
+      "url": "https://www.hankyung.com/article/202601149859i",
+      "keywords_hit": [
+        "환율"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 06:00",
+      "title": "“오천피, 그만 얘기하세요”…환율 발목잡힌 소비재株엔 딴나라 이야기",
+      "url": "https://www.mk.co.kr/news/stock/11933442",
+      "keywords_hit": [
+        "환율"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -338,14 +358,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-14 16:53",
-      "title": "한투운용 ACE KRX금현물 ETF, 순자산 4조원 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11933012",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-14 16:52",
@@ -361,16 +373,6 @@
       "url": "https://www.hankyung.com/article/2026011407371",
       "keywords_hit": [
         "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 16:50",
-      "title": "[포토] 코스피 4723.10 사상 최고가 경신",
-      "url": "https://www.hankyung.com/article/202601140779i",
-      "keywords_hit": [
-        "코스피"
       ]
     }
   ]
