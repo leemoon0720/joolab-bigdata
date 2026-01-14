@@ -573,7 +573,7 @@ function compactTs(d=new Date()){
 async function handlePostsCreate(request, env, baseUrl){
   const admin = await requireAdmin(request, env, baseUrl);
   if(!admin) return jsonResp({ok:false, error:'FORBIDDEN'}, 403);
-  if(!env || !__jlab_isKV(env.JLAB_KV)) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
+  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
 
   const body = await request.json().catch(()=> ({}));
   const category = String(body.category||'').trim();
@@ -639,7 +639,7 @@ async function _listMetaByPrefix(env, prefix, limit){
 }
 
 async function handlePostsList(request, env){
-  if(!env || !__jlab_isKV(env.JLAB_KV)) return jsonResp({ok:false, error:'KV_MISSING', items:[]}, 200);
+  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING', items:[]}, 200);
   const url = new URL(request.url);
   const category = String(url.searchParams.get('category')||'').trim();
   const region = String(url.searchParams.get('region')||'').trim().toUpperCase();
@@ -670,7 +670,7 @@ async function handlePostsList(request, env){
 }
 
 async function handlePostsLatest(request, env){
-  if(!env || !__jlab_isKV(env.JLAB_KV)) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
+  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
   const url = new URL(request.url);
   const scope = String(url.searchParams.get('scope')||'bigdata').trim();
   const key = (scope === 'perf') ? 'posts/latest/perf.json' : (scope === 'meme') ? 'posts/latest/meme.json' : 'posts/latest/bigdata.json';
@@ -684,7 +684,7 @@ async function handlePostsLatest(request, env){
 }
 
 async function handlePostsGet(request, env){
-  if(!env || !__jlab_isKV(env.JLAB_KV)) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
+  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
   const url = new URL(request.url);
   const id = String(url.searchParams.get('id')||'').trim();
   if(!id) return jsonResp({ok:false, error:'NO_ID'}, 200);
@@ -704,7 +704,7 @@ async function handlePostsGet(request, env){
 // Posts Admin: delete / update title
 // ==============================
 async function _recomputeLatest(env, scope){
-  if(!env || !__jlab_isKV(env.JLAB_KV)) return false;
+  if(!env || !env.JLAB_KV) return false;
   let latest = null;
 
   async function pull(prefix){
@@ -752,7 +752,7 @@ async function _recomputeLatest(env, scope){
 async function handlePostsDelete(request, env, baseUrl){
   const admin = await requireAdmin(request, env, baseUrl);
   if(!admin) return jsonResp({ok:false, error:'FORBIDDEN'}, 403);
-  if(!env || !__jlab_isKV(env.JLAB_KV)) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
+  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
 
   const body = await request.json().catch(()=> ({}));
   const id = String(body.id||'').trim();
@@ -801,7 +801,7 @@ async function handlePostsDelete(request, env, baseUrl){
 async function handlePostsUpdateTitle(request, env, baseUrl){
   const admin = await requireAdmin(request, env, baseUrl);
   if(!admin) return jsonResp({ok:false, error:'FORBIDDEN'}, 403);
-  if(!env || !__jlab_isKV(env.JLAB_KV)) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
+  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
 
   const body = await request.json().catch(()=> ({}));
   const id = String(body.id||'').trim();
@@ -853,7 +853,7 @@ async function handlePostsUpdateTitle(request, env, baseUrl){
 // Signup request (store minimal)
 // ==============================
 async function handleSignupRequest(request, env){
-  if(!env || !__jlab_isKV(env.JLAB_KV)) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
+  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
   const body = await request.json().catch(()=> ({}));
   const email = String(body.email||'').trim();
   const name = String(body.name||'').trim();
