@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-14 14:48 KST",
+  "updated_at": "2026-01-14 14:58 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,33 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-14 14:51",
+      "title": "[단독] MBK 이진하 부사장 퇴사…베인 이정우 前대표와 의기투합",
+      "url": "https://www.mk.co.kr/news/stock/11932849",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 14:44",
+      "title": "[마켓칼럼] 2026년 채권 투자에서 고려할 점",
+      "url": "https://www.hankyung.com/article/202601149756i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 14:40",
+      "title": "[마켓PRO] AI 반도체주 거품?…서학개미 '-3배' ETF 집중 매수",
+      "url": "https://www.hankyung.com/article/202601140120i",
+      "keywords_hit": [
+        "반도체",
+        "AI"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -318,32 +345,12 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 09:24",
-      "title": "한미반도체, SK하이닉스와 TC본더 공급계약 소식에 강세",
-      "url": "https://www.hankyung.com/article/2026011493076",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-14 09:19",
       "title": "한투운용 ‘KRX금현물 ETF’, 순자산액 4조원 돌파",
       "url": "https://www.mk.co.kr/news/stock/11932429",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 09:18",
-      "title": "오아, 자사주 80만주 소각 결정에 8%대 강세",
-      "url": "https://www.hankyung.com/article/2026011492726",
-      "keywords_hit": [
-        "자사주"
-      ]
     },
     {
       "source": "MK",
@@ -368,16 +375,6 @@
       "title": "“딱 97억 먹고 나왔어”…1043% 수익 인증한 ‘코인 불개미’ 정체는",
       "url": "https://www.mk.co.kr/news/stock/11932401",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-14 08:20",
-      "title": "“하이닉스, 대체 얼마까지?”…AI메모리 ‘전략 자산’ 평가에 목표가 또 상향 [오늘 나온 보고서]",
-      "url": "https://www.mk.co.kr/news/stock/11932392",
-      "keywords_hit": [
-        "AI"
-      ]
     }
   ]
 }
