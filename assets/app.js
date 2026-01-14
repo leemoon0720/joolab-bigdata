@@ -1853,7 +1853,7 @@ ${(String(mediaType||"")||"").startsWith("video/") ? `      <video controls play
     });
   }
 
-document.addEventListener('
+
   // ==============================
   // Auth-aware topbar (Login/Signup vs Account + Email)
   // ==============================
@@ -1861,74 +1861,52 @@ document.addEventListener('
     const nav = document.querySelector('.topbar .nav');
     if(!nav) return;
 
+    // try locate existing links
+    const aLogin = nav.querySelector('a[data-nav="login"]') || nav.querySelector('a[href^="/login"]');
+    const aSignup = nav.querySelector('a[data-nav="signup"]') || nav.querySelector('a[href^="/signup"]');
+
     let me = null;
-    try{
-      me = await fetchJSON('/api/auth/me');
-    }catch(e){
-      return; // network / worker error -> do nothing
-    }
+    try{ me = await fetchJSON('/api/auth/me'); }catch(e){ me = null; }
 
-    const loggedIn = !!(me && me.ok && me.user && me.user.email);
-    let aLogin = nav.querySelector('a[data-nav="login"]');
-    let aSignup = nav.querySelector('a[data-nav="signup"]');
-    let aAccount = nav.querySelector('a[data-nav="account"]');
-    const aOps = nav.querySelector('a[data-nav="ops"]');
+    const isLoggedIn = !!(me && me.ok && me.user);
+    const email = isLoggedIn ? String(me.user.email || me.user.id || '') : '';
 
-    // helper: create nav item
-    function ensureNavItem(kind, href, label){
-      let a = nav.querySelector(`a[data-nav="${kind}"]`);
-      if(a) return a;
-      a = document.createElement('a');
-      a.href = href;
-      a.setAttribute('data-nav', kind);
-      a.textContent = label;
-      if(aOps) nav.insertBefore(a, aOps);
-      else nav.appendChild(a);
-      return a;
-    }
+    // badge element (next to account)
+    const badgeId = 'nav-user-badge';
+    let badge = document.getElementById(badgeId);
 
-    if(loggedIn){
-      // Ensure account link exists
-      if(!aAccount){
-        aAccount = ensureNavItem('account', '/account/', '회원');
+    if(isLoggedIn){
+      // convert login link into account link
+      if(aLogin){
+        aLogin.textContent = '회원';
+        aLogin.setAttribute('href', '/account/');
       }
-      aAccount.style.display = '';
-
-      // Hide login/signup if present
-      if(aLogin) aLogin.style.display = 'none';
       if(aSignup) aSignup.style.display = 'none';
 
-      // Add / update mini user badge right next to account
-      let badge = nav.querySelector('#jlabUserMini');
-      if(!badge){
+      if(!badge && aLogin){
         badge = document.createElement('span');
-        badge.id = 'jlabUserMini';
-        badge.style.marginLeft = '6px';
-        badge.style.fontSize = '12px';
-        badge.style.opacity = '0.8';
-        badge.style.whiteSpace = 'nowrap';
-        aAccount.insertAdjacentElement('afterend', badge);
+        badge.id = badgeId;
+        badge.className = 'badge';
+        badge.style.marginLeft = '8px';
+        aLogin.insertAdjacentElement('afterend', badge);
       }
-      badge.textContent = me.user.email;
-
-    } else {
-      // Not logged in: ensure login/signup exist and show them
-      aLogin = ensureNavItem('login', '/login/', '로그인');
-      aSignup = ensureNavItem('signup', '/signup/', '회원가입');
-      aLogin.style.display = '';
-      aSignup.style.display = '';
-
-      // Hide account if present
-      if(aAccount) aAccount.style.display = 'none';
-
-      // Remove user badge
-      const badge = nav.querySelector('#jlabUserMini');
+      if(badge){
+        badge.style.display = '';
+        badge.textContent = email ? email : '로그인됨';
+      }
+    }else{
+      // restore
+      if(aLogin){
+        aLogin.textContent = '로그인';
+        aLogin.setAttribute('href', '/login/');
+      }
+      if(aSignup) aSignup.style.display = '';
       if(badge) badge.remove();
     }
   }
 
 
-  DOMContentLoaded', ()=>{
+document.addEventListener('DOMContentLoaded', ()=>{
     setActiveNav();
     hydrateAuthNav();
     initTickerSearch();
