@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-14 16:58 KST",
+  "updated_at": "2026-01-14 17:36 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,9 +25,112 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-14 17:33",
+      "title": "트럼프 \"카드 수수료 깎아라\" … 비자·마스터 주가 동반급락",
+      "url": "https://www.mk.co.kr/news/stock/11933091",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-14 17:33",
+      "title": "자율주행 분사추진 '앱티브' 2년만에 신고가",
+      "url": "https://www.mk.co.kr/news/stock/11933088",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-14 17:33",
+      "title": "신용거래 규제 강화 … 제동걸린 중국 증시",
+      "url": "https://www.mk.co.kr/news/stock/11933090",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-14 17:33",
+      "title": "[미국 주식 돋보기] 'AI 고속도로 구축' 아리스타 목표가 껑충",
+      "url": "https://www.mk.co.kr/news/stock/11933087",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 17:25",
+      "title": "고강도 규제에…은행 주담대, 34개월 만에 감소",
+      "url": "https://www.hankyung.com/article/2026011409771",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-14 17:25",
+      "title": "\"4년만에 3배\"… 칼라일, 글로비스 투자 대박",
+      "url": "https://www.mk.co.kr/news/stock/11933069",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 17:23",
+      "title": "개미는 인버스 베팅…일주일동안 2100억",
+      "url": "https://www.hankyung.com/article/2026011409431",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 17:22",
+      "title": "코스피 단기 급등에…\"리스크 관리할 때\" vs \"실적이 끌어올리는 장\"",
+      "url": "https://www.hankyung.com/article/2026011409471",
+      "keywords_hit": [
+        "코스피",
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 17:18",
+      "title": "'이란 사태'가 끌어올린 국제유가…WTI 60달러 넘었다",
+      "url": "https://www.hankyung.com/article/2026011409211",
+      "keywords_hit": [
+        "유가"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 17:13",
+      "title": "하루 1조원 몰렸다…스토리(IP), 3일만에 100% 폭등 이유는",
+      "url": "https://www.hankyung.com/article/202601140883g",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 16:54",
+      "title": "항공기 인도 7년 만에 최대…보잉, 한 달새 20% 날다",
+      "url": "https://www.hankyung.com/article/2026011407401",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-14 16:53",
       "title": "한투운용 ACE KRX금현물 ETF, 순자산 4조원 돌파",
       "url": "https://www.mk.co.kr/news/stock/11933012",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 16:52",
+      "title": "트럼프에 맞서도 엑슨모빌 최고가",
+      "url": "https://www.hankyung.com/article/2026011407411",
       "keywords_hit": []
     },
     {
@@ -38,6 +141,60 @@
       "url": "https://www.mk.co.kr/news/stock/11933009",
       "keywords_hit": [
         "공시"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 16:51",
+      "title": "'AI 수렁'에 빠진 세일즈포스·어도비",
+      "url": "https://www.hankyung.com/article/2026011407371",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 16:50",
+      "title": "[포토] 코스피 4723.10 사상 최고가 경신",
+      "url": "https://www.hankyung.com/article/202601140779i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 16:50",
+      "title": "Fed 금리인하 가능성 커지자…은 현물, 온스당 90弗 첫 돌파",
+      "url": "https://www.hankyung.com/article/2026011407421",
+      "keywords_hit": [
+        "금리"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 16:50",
+      "title": "작년 코스피 상장사 공시 4% 늘어… 코스닥 상장사도 5%↑",
+      "url": "https://www.hankyung.com/article/202601140761i",
+      "keywords_hit": [
+        "코스피",
+        "코스닥",
+        "상장",
+        "공시"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 16:49",
+      "title": "넷플릭스, 워너 M&A 속도…\"핵심사업 전액 현금 인수\"",
+      "url": "https://www.hankyung.com/article/2026011407321",
+      "keywords_hit": [
+        "인수",
+        "M&A"
       ]
     },
     {
@@ -178,62 +335,12 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 14:33",
-      "title": "국힘, '가상자산거래소 지분제한' 정면 비판…\"규제로 발목 잡지 말라\"",
-      "url": "https://www.hankyung.com/article/202601140078g",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-14 14:04",
       "title": "스팩에도 공모주 훈풍… 새내기주 엔비알모션 상한가",
       "url": "https://www.mk.co.kr/news/stock/11932777",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 14:00",
-      "title": "고환율에 '금리 인상' 목소리 솔솔…한은 \"경기 등 종합 판단\"",
-      "url": "https://www.hankyung.com/article/202601149811i",
-      "keywords_hit": [
-        "환율",
-        "금리"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 13:52",
-      "title": "[마켓PRO] 고수들, '삼성운용 5% 취득' 공시에 뉴로메카 매수",
-      "url": "https://www.hankyung.com/article/202601140116i",
-      "keywords_hit": [
-        "공시"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 13:51",
-      "title": "\"이제 떨어질 때 됐다\"…불신의 개미들 '2100억' 베팅한 곳",
-      "url": "https://www.hankyung.com/article/202601149568i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 13:46",
-      "title": "작년 코스피 상장사 영문공시 9% 증가…코스닥 불성실공시 28% '뚝'",
-      "url": "https://www.hankyung.com/article/2026011401246",
-      "keywords_hit": [
-        "코스피",
-        "코스닥",
-        "상장",
-        "공시"
-      ]
     },
     {
       "source": "MK",
@@ -244,75 +351,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 13:42",
-      "title": "\"주가조작 땐 패가망신\" 李 주문에 합동대응단 경쟁 체제로 개편",
-      "url": "https://www.hankyung.com/article/2026011400746",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 13:25",
-      "title": "[단독] 한국거래소, 설립 70년 만에 첫 M&A…AI 스타트업 품는다",
-      "url": "https://www.hankyung.com/article/2026011497496",
-      "keywords_hit": [
-        "M&A",
-        "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 13:15",
-      "title": "'한화' 이름 들어간 주식 다 올랐네…그룹주 동반 '불기둥' [종목+]",
-      "url": "https://www.hankyung.com/article/2026011400566",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-14 11:25",
       "title": "한국투자증권, ‘리부트 코리아 2026, 지금은 한국투자’ 캠페인",
       "url": "https://www.mk.co.kr/news/stock/11932632",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 11:23",
-      "title": "우선주부터 경고등 켜졌다…코스피 랠리 속 단기과열 잇따라",
-      "url": "https://www.hankyung.com/article/202601149816i",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 11:12",
-      "title": "\"주가조작, 패가망신 각오하라\"…합동대응단 인력 두 배 증원",
-      "url": "https://www.hankyung.com/article/202601149762i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 11:10",
-      "title": "코스피, 4715선 찍고 하락 전환…외국인 순매도",
-      "url": "https://www.hankyung.com/article/2026011497316",
-      "keywords_hit": [
-        "코스피",
-        "외국인"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 11:06",
-      "title": "\"알바비 대신 기프티콘? 이러니까\"…2030 쉬었음 70만 돌파",
-      "url": "https://www.hankyung.com/article/202601149709i",
       "keywords_hit": []
     },
     {
@@ -338,51 +381,6 @@
       "title": "인젝티브, 고려대 블록체인연구소와 온체인 금융 연구 협력 체결",
       "url": "https://www.mk.co.kr/news/stock/11932570",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-14 10:45",
-      "title": "한국거래소, 프리·애프터마켓 개설 추진…“2027년 24시간 거래 목표”",
-      "url": "https://www.mk.co.kr/news/stock/11932550",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-14 10:36",
-      "title": "주식 상위 1% 초고수 순매수 1위 뉴로메카…HD현대일렉·현대차도 담았다 [주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11932531",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-14 10:11",
-      "title": "[MK시그널] 넥사 리소시즈, 수익률 99.6% 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11932493",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-14 10:08",
-      "title": "[MK시그널] 코스맥스, 중•미 해외법인 실적 반등에 주가 상승세... MK시그널 추천 후 상승률 9.13%기록",
-      "url": "https://www.mk.co.kr/news/stock/11932492",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-14 09:59",
-      "title": "코스피, 9거래일째 올라 사상 첫 4700 돌파…환율은 1470원대",
-      "url": "https://www.mk.co.kr/news/stock/11932478",
-      "keywords_hit": [
-        "코스피",
-        "환율"
-      ]
     }
   ]
 }
