@@ -634,15 +634,30 @@
       }
     }
 
-    // Bigdata latest 1
+    // Bigdata latest 12
     const homeBD = byId('home-bigdata');
     if(homeBD){
       try{
-        const j = await fetchJSON('/api/posts/latest?scope=bigdata');
-        const meta = j.meta;
+        const [jStrong, jAccum, jSusp] = await Promise.all([
+          fetchJSON('/api/posts/list?category=strong&region=ALL&limit=20'),
+          fetchJSON('/api/posts/list?category=accum&region=ALL&limit=20'),
+          fetchJSON('/api/posts/list?category=suspicious&region=ALL&limit=20'),
+        ]);
+        let items = []
+          .concat((jStrong && jStrong.items) ? jStrong.items : [])
+          .concat((jAccum && jAccum.items) ? jAccum.items : [])
+          .concat((jSusp && jSusp.items) ? jSusp.items : []);
+
+        items.sort((x,y)=> String(y.created_ts||'').localeCompare(String(x.created_ts||'')));
+        items = items.slice(0, 12);
+
+        const newest = items[0];
         const b = byId('home-badge-bigdata');
-        if(b && meta && meta.created_at) b.textContent = `BIGDATA: ${fmtTime(meta.created_at)}`;
-        homeBD.innerHTML = meta ? renderMetaItem(meta) : `<div class="item"><div><div class="title">아직 게시글이 없습니다.</div><div class="meta">관리자 업로드 후 표시됩니다.</div></div></div>`;
+        if(b && newest && newest.created_at) b.textContent = `BIGDATA: ${fmtTime(newest.created_at)}`;
+
+        homeBD.innerHTML = items.length
+          ? items.map(m=>renderMetaItem(m)).join('')
+          : `<div class="item"><div><div class="title">표시할 업로드가 없습니다.</div><div class="meta">관리자 업로드 후 표시됩니다.</div></div></div>`;
       }catch(e){
         homeBD.innerHTML = `<div class="item"><div><div class="title">빅데이터 최신글 없음</div><div class="meta">KV 미설정 또는 업로드 전</div></div></div>`;
       }
