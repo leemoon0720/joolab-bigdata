@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-14 14:26 KST",
+  "updated_at": "2026-01-14 14:48 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 14:33",
+      "title": "국힘, '가상자산거래소 지분제한' 정면 비판…\"규제로 발목 잡지 말라\"",
+      "url": "https://www.hankyung.com/article/202601140078g",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -55,7 +63,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-14 13:51",
-      "title": "5000피 가까워지는데…개미는 한주새 2100억 '하락 베팅'",
+      "title": "\"이제 떨어질 때 됐다\"…불신의 개미들 '2100억' 베팅한 곳",
       "url": "https://www.hankyung.com/article/202601149568i",
       "keywords_hit": []
     },
@@ -336,14 +344,6 @@
       "keywords_hit": [
         "자사주"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 09:18",
-      "title": "모베이스전자, 현대차 모베드 부품 공급 소식에 2연상",
-      "url": "https://www.hankyung.com/article/2026011492666",
-      "keywords_hit": []
     },
     {
       "source": "MK",
