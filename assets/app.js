@@ -1885,53 +1885,74 @@ ${(String(mediaType||"")||"").startsWith("video/") ? `      <video controls play
 
 
   // ==============================
-  // Auth-aware topbar (Login/Signup vs Account + Email)
+  // Auth-aware topbar (Subscription status only)
   // ==============================
   async function hydrateAuthNav(){
     const nav = document.querySelector('.topbar .nav');
     if(!nav) return;
 
-    // try locate existing links
-    const aLogin = nav.querySelector('a[data-nav="login"]') || nav.querySelector('a[href^="/login"]');
+    const aLogin  = nav.querySelector('a[data-nav="login"]')  || nav.querySelector('a[href^="/login"]');
     const aSignup = nav.querySelector('a[data-nav="signup"]') || nav.querySelector('a[href^="/signup"]');
+    const aSub    = nav.querySelector('a[data-nav="subscribe"]') || nav.querySelector('a[href^="/subscribe"]');
+
+    // 운영(ops)
+    const aOps = nav.querySelector('a[data-nav="ops"]') || nav.querySelector('a[href^="/ops"]');
 
     let me = null;
     try{ me = await fetchJSON('/api/auth/me'); }catch(e){ me = null; }
 
     const isLoggedIn = !!(me && me.ok && me.user);
-    const email = isLoggedIn ? String(me.user.email || me.user.id || '') : '';
+    const isAdmin = isLoggedIn && detectIsAdmin(me);
 
-    // badge element (next to account)
-    const badgeId = 'nav-user-badge';
+    // Subscription badge (next to '구독')
+    const badgeId = 'nav-sub-badge';
     let badge = document.getElementById(badgeId);
 
+    // Logout link
+    let aLogout = nav.querySelector('a[data-nav="logout"]');
+
     if(isLoggedIn){
-      // convert login link into account link
-      if(aLogin){
-        aLogin.textContent = '회원';
-        aLogin.setAttribute('href', '/account/');
-      }
+      // Hide login/signup completely
+      if(aLogin) aLogin.style.display = 'none';
       if(aSignup) aSignup.style.display = 'none';
 
-      if(!badge && aLogin){
+      // Show ops only for admin
+      if(aOps) aOps.style.display = isAdmin ? '' : 'none';
+
+      // Show subscription status badge
+      if(!badge && aSub){
         badge = document.createElement('span');
         badge.id = badgeId;
-        badge.className = 'badge';
+        badge.className = 'badge ok';
         badge.style.marginLeft = '8px';
-        aLogin.insertAdjacentElement('afterend', badge);
+        aSub.insertAdjacentElement('afterend', badge);
       }
       if(badge){
         badge.style.display = '';
-        badge.textContent = email ? email : '로그인됨';
+        badge.textContent = '구독: 활성';
       }
+
+      // Add logout (minimal need)
+      if(!aLogout){
+        aLogout = document.createElement('a');
+        aLogout.setAttribute('href', '#');
+        aLogout.setAttribute('data-nav', 'logout');
+        aLogout.textContent = '로그아웃';
+        nav.appendChild(aLogout);
+      }
+      aLogout.onclick = async (e)=>{
+        e.preventDefault();
+        try{ await fetch('/api/auth/logout', {method:'POST', credentials:'include'}); }catch(err){}
+        try{ localStorage.removeItem('jlab_token'); localStorage.removeItem('joolab_token'); }catch(err){}
+        window.location.href = '/';
+      };
     }else{
-      // restore
-      if(aLogin){
-        aLogin.textContent = '로그인';
-        aLogin.setAttribute('href', '/login/');
-      }
+      // Not logged in
+      if(aLogin) aLogin.style.display = '';
       if(aSignup) aSignup.style.display = '';
+      if(aOps) aOps.style.display = 'none';
       if(badge) badge.remove();
+      if(aLogout) aLogout.remove();
     }
   }
 
