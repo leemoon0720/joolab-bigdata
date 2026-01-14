@@ -5,7 +5,7 @@
   --muted:#6B7280;
   --line:#E5E7EB;
 
-  --brand: linear-gradient(135deg, #2563EB 0%, #7C3AED 55%, #F97316 100%);  /* 포인트 1개 */
+  --brand:#2563EB;  /* 포인트 1개 */
   --ok:#16A34A;
   --warn:#F59E0B;
   --bad:#EF4444;
@@ -23,13 +23,7 @@ body{
   margin:0;
   font-family: Pretendard, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic", sans-serif;
   color:var(--text);
-  background: radial-gradient(1200px 600px at 20% 0%, rgba(37,99,235,.18), transparent 60%),
-              radial-gradient(1000px 700px at 100% 10%, rgba(124,58,237,.16), transparent 55%),
-              radial-gradient(900px 600px at 30% 100%, rgba(249,115,22,.12), transparent 55%),
-              var(--bg);
-line-height:1.45;
-  -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale;
+  background: var(--bg);
 }
 a{color:inherit;text-decoration:none;}
 a:hover{opacity:.92;}
@@ -70,9 +64,8 @@ a:hover{opacity:.92;}
 .hero{
   padding:14px;
   border-radius: var(--radius);
-  background: linear-gradient(#FFFFFF, #FFFFFF) padding-box,
-  linear-gradient(135deg, rgba(37,99,235,.35), rgba(124,58,237,.30), rgba(249,115,22,.28)) border-box;
-  border:1px solid transparent;
+  background:#FFFFFF;
+  border:1px solid var(--line);
   box-shadow:none;
   overflow:hidden;
   position:relative;
@@ -153,9 +146,8 @@ a.card.link-card:hover{border-color: rgba(15,23,42,.22); background: rgba(248,25
 
 .grid{margin-top:12px; display:grid; grid-template-columns: repeat(12, 1fr); gap:14px;}
 .card{
-  background: linear-gradient(#FFFFFF, #FFFFFF) padding-box,
-  linear-gradient(135deg, rgba(37,99,235,.20), rgba(124,58,237,.18), rgba(249,115,22,.16)) border-box;
-  border:1px solid transparent;
+  background:#FFFFFF;
+  border:1px solid var(--line);
   border-radius: var(--radius);
   box-shadow:none;
   padding:16px;
@@ -299,10 +291,6 @@ a.card.link-card:hover{border-color: rgba(15,23,42,.22); background: rgba(248,25
 .hero-compact .hero-row{margin-top:10px; display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap;}
 .hero-actions{display:flex; gap:10px; align-items:center; justify-content:flex-end;}
 
-/* UI polish: prevent squished admin controls */
-.hero-actions{flex-wrap:wrap;}
-.hero-actions .btn{white-space:nowrap;}
-
 .market-strip-compact{margin-top:12px;}
 .market-strip-compact .mchip{min-width:160px;}
 
@@ -341,19 +329,8 @@ a.card.link-card:hover{border-color: rgba(15,23,42,.22); background: rgba(248,25
 }
 
 .checks{display:flex; flex-direction:column; gap:8px;}
-.ck{display:flex; gap:8px; align-items:center; font-weight:850; color:rgba(15,23,42,.82); white-space:nowrap;}
+.ck{display:flex; gap:8px; align-items:center; font-weight:850; color:rgba(15,23,42,.82);}
 .ck input{width:16px; height:16px;}
-
-/* When .input class is applied directly to <input>, keep it compact */
-input.input, textarea.input, select.input{
-  display:block;
-  min-width:unset;
-  flex:0 0 auto;
-  width:260px;
-}
-@media (max-width: 760px){
-  input.input, textarea.input, select.input{width:100%;}
-}
 
 /* Meme / thumbs */
 .mini-action{height:34px; padding:0 12px; border-radius:999px; border:1px solid var(--line); background:#fff; font-weight:900; font-size:12px; cursor:pointer;}
@@ -402,40 +379,3 @@ body{background:#f6f7fb;}
 .card,.panel,.tile,.box{border-radius:18px;}
 .btn-primary{background:var(--jlab-accent);}
 .badge-accent{background:linear-gradient(90deg,var(--jlab-accent),var(--jlab-accent2));}
-
-
-/* Topbar login indicator */
-.nav-user{
-  display:inline-flex;
-  align-items:center;
-  gap:8px;
-  padding:10px 12px;
-  border-radius:999px;
-  border:1px solid rgba(148,163,184,.28);
-  background:#fff;
-  font-weight:700;
-  font-size:13px;
-  color:#334155;
-  white-space:nowrap;
-}
-.nav-user .dot{
-  width:8px;height:8px;border-radius:999px;background:#16a34a;display:inline-block;
-}
-
-/* Locked items */
-.item.is-locked{
-  position:relative;
-}
-.item.is-locked::after{
-  content:"LOCK";
-  position:absolute;
-  top:10px;
-  right:10px;
-  font-size:11px;
-  font-weight:800;
-  padding:6px 8px;
-  border-radius:999px;
-  border:1px solid rgba(239,68,68,.35);
-  color:#ef4444;
-  background:#fff;
-}

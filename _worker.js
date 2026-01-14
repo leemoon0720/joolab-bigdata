@@ -211,24 +211,6 @@ async function handleMarket() {
 const COOKIE_NAME = 'jlab_sess';
 const DEFAULT_SECRET = 'JLAB_CHANGE_ME_SECRET';
 
-function __jlab_findKV(env){
-  if(!env) return null;
-  // common names
-  const direct = env.JLAB_KV || env.BIGDATA_KV || env.BIGDATAKV || env.JLAB_BIGDATA_KV || env.KV;
-  if(direct && typeof direct.get==='function' && typeof direct.put==='function' && typeof direct.list==='function') return direct;
-  // scan any binding that looks like KV
-  try{
-    for(const k of Object.keys(env)){
-      const v = env[k];
-      if(v && typeof v.get==='function' && typeof v.put==='function' && typeof v.list==='function'){
-        return v;
-      }
-    }
-  }catch(e){}
-  return null;
-}
-
-
 function jsonResp(obj, status=200, extraHeaders={}) {
   return new Response(JSON.stringify(obj), {
     status,
@@ -899,45 +881,42 @@ async function handleYouTubeLatest(){
 
 export default {
   async fetch(request, env, ctx) {
-    const __kv = __jlab_findKV(env);
-    const __hasKV = !!(env && env.JLAB_KV && typeof env.JLAB_KV.get==='function' && typeof env.JLAB_KV.put==='function' && typeof env.JLAB_KV.list==='function');
-    const __env = (__kv && !__hasKV) ? Object.assign({}, env, { JLAB_KV: __kv }) : env;
     const url = new URL(request.url);
 
     // ==============================
     // Auth API
     // ==============================
     if (url.pathname === '/api/auth/login' && request.method === 'POST') {
-      return await handleAuthLogin(request, __env, url.origin);
+      return await handleAuthLogin(request, env, url.origin);
     }
     if (url.pathname === '/api/auth/me') {
-      return await handleAuthMe(request, __env, url.origin);
+      return await handleAuthMe(request, env, url.origin);
     }
     if (url.pathname === '/api/auth/logout') {
-      return await handleAuthLogout(request, __env, url.origin);
+      return await handleAuthLogout(request, env, url.origin);
     }
     if (url.pathname === '/api/auth/change_password' && request.method === 'POST') {
-      return await handleAuthChangePassword(request, __env, url.origin);
+      return await handleAuthChangePassword(request, env, url.origin);
     }
 
     // ==============================
     // Notice / Popup (Public read)
     // ==============================
     if (url.pathname === '/api/notice/latest') {
-      return await handleNoticeLatest(request, __env, url.origin);
+      return await handleNoticeLatest(request, env, url.origin);
     }
     if (url.pathname === '/api/popup/config') {
-      return await handlePopupConfig(request, __env, url.origin);
+      return await handlePopupConfig(request, env, url.origin);
     }
 
     // ==============================
     // Admin Save
     // ==============================
     if (url.pathname === '/api/admin/notice/save' && request.method === 'POST') {
-      return await handleAdminNoticeSave(request, __env, url.origin);
+      return await handleAdminNoticeSave(request, env, url.origin);
     }
     if (url.pathname === '/api/admin/popup/save' && request.method === 'POST') {
-      return await handleAdminPopupSave(request, __env, url.origin);
+      return await handleAdminPopupSave(request, env, url.origin);
     }
 
 
@@ -945,29 +924,29 @@ export default {
     // Posts API (Bigdata / Performance)
     // ==============================
     if (url.pathname === '/api/posts/create' && request.method === 'POST') {
-      return await handlePostsCreate(request, __env, url.origin);
+      return await handlePostsCreate(request, env, url.origin);
     }
     if (url.pathname === '/api/posts/delete' && request.method === 'POST') {
-      return await handlePostsDelete(request, __env, url.origin);
+      return await handlePostsDelete(request, env, url.origin);
     }
     if (url.pathname === '/api/posts/update_title' && request.method === 'POST') {
-      return await handlePostsUpdateTitle(request, __env, url.origin);
+      return await handlePostsUpdateTitle(request, env, url.origin);
     }
     if (url.pathname === '/api/posts/list') {
-      return await handlePostsList(request, __env);
+      return await handlePostsList(request, env);
     }
     if (url.pathname === '/api/posts/get') {
-      return await handlePostsGet(request, __env);
+      return await handlePostsGet(request, env);
     }
     if (url.pathname === '/api/posts/latest') {
-      return await handlePostsLatest(request, __env);
+      return await handlePostsLatest(request, env);
     }
 
     // ==============================
     // Signup Request (Public)
     // ==============================
     if (url.pathname === '/api/signup/request' && request.method === 'POST') {
-      return await handleSignupRequest(request, __env);
+      return await handleSignupRequest(request, env);
     }
 
     // ==============================
