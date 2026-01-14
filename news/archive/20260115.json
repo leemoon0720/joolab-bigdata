@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-15 08:34 KST",
+  "updated_at": "2026-01-15 08:46 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,8 +25,48 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-15 08:40",
+      "title": "“목표주가 50% 올립니다”…인적분할 한화 줄상향[오늘 나온 보고서]",
+      "url": "https://www.mk.co.kr/news/stock/11933535",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 08:38",
+      "title": "\"현대차, 6개월 안에 시총 110조 간다…목표가 대폭 상향\"-SK",
+      "url": "https://www.hankyung.com/article/2026011515836",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 08:36",
+      "title": "\"한화에어로, 중장기 50조 규모 파이프라인 기대…목표가↑\"-하나",
+      "url": "https://www.hankyung.com/article/2026011516306",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 08:32",
+      "title": "'나의 아저씨' 중국판 나오더니…한 달 새 20% 뛰었다 [종목+]",
+      "url": "https://www.hankyung.com/article/2026011515126",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
       "published_at": "2026-01-15 08:30",
-      "title": "“골든타임 놓치면 공멸”…핀산협, ‘조각투자 장외시장’ 인가 결단 촉구",
+      "title": "\"한화, 인적분할로 NAV 할인율 낮아질 것…목표가↑\"-삼성",
+      "url": "https://www.hankyung.com/article/2026011516236",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 08:30",
+      "title": "“골든타임 놓치면 공멸”…핀산협 ‘조각투자 장외시장’ 인가 결단 촉구",
       "url": "https://www.mk.co.kr/news/stock/11933526",
       "keywords_hit": []
     },
@@ -323,55 +363,12 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 17:33",
-      "title": "행동주의·소액주주, 주총 앞두고 '몸풀기'",
-      "url": "https://www.hankyung.com/article/2026011409721",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-14 17:33",
       "title": "트럼프 \"수수료 깎아라\"…비자·마스터카드 급락",
       "url": "https://www.mk.co.kr/news/stock/11933091",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-14 17:33",
-      "title": "자율주행 분사추진 '앱티브' 2년만에 신고가",
-      "url": "https://www.mk.co.kr/news/stock/11933088",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 17:25",
-      "title": "고강도 규제에…은행 주담대, 34개월 만에 감소",
-      "url": "https://www.hankyung.com/article/2026011409771",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 17:23",
-      "title": "개미는 인버스 베팅…일주일동안 2100억",
-      "url": "https://www.hankyung.com/article/2026011409431",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 17:22",
-      "title": "코스피 단기 급등에…\"리스크 관리할 때\" vs \"실적이 끌어올리는 장\"",
-      "url": "https://www.hankyung.com/article/2026011409471",
-      "keywords_hit": [
-        "코스피",
-        "실적"
-      ]
     }
   ]
 }
