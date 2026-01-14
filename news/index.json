@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-14 14:58 KST",
+  "updated_at": "2026-01-14 15:40 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,44 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-14 15:37",
+      "title": "[단독]세무대행 플랫폼 ‘삼쩜삼’, 1500억원 신규 투자 유치 추진",
+      "url": "https://www.mk.co.kr/news/stock/11932901",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-14 15:36",
+      "title": "EU과세 규정 강화에...사생활보호 코인 강세",
+      "url": "https://www.mk.co.kr/news/stock/11932898",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 15:33",
+      "title": "[속보] '파죽지세' 코스피 0.6% 오른 4723.1 마감…사상 최고",
+      "url": "https://www.hankyung.com/article/2026011404646",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-14 15:08",
+      "title": "지난해 코스피·코스닥 5만건 쏟아졌다…영문·밸류업 공시↑",
+      "url": "https://www.mk.co.kr/news/stock/11932860",
+      "keywords_hit": [
+        "코스피",
+        "코스닥",
+        "공시"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -319,14 +357,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 09:34",
-      "title": "DYP, 현대모비스 공급 업체 선정에 '상한가'",
-      "url": "https://www.hankyung.com/article/2026011493606",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-14 09:34",
@@ -350,30 +380,6 @@
       "published_at": "2026-01-14 09:19",
       "title": "한투운용 ‘KRX금현물 ETF’, 순자산액 4조원 돌파",
       "url": "https://www.mk.co.kr/news/stock/11932429",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-14 08:49",
-      "title": "“난 주식 한주도 없는데, 1년 새 시총 80% 껑충”…삼전·하이닉스 끌어올려",
-      "url": "https://www.mk.co.kr/news/economy/11932403",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-14 08:49",
-      "title": "“5천피가 말이돼? 지금이 상투”…곱버스 베팅하는 개미들",
-      "url": "https://www.mk.co.kr/news/stock/11932402",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-14 08:47",
-      "title": "“딱 97억 먹고 나왔어”…1043% 수익 인증한 ‘코인 불개미’ 정체는",
-      "url": "https://www.mk.co.kr/news/stock/11932401",
       "keywords_hit": []
     }
   ]
