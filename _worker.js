@@ -205,29 +205,11 @@ async function handleMarket() {
 // - 목적: 로컬스토리지 기반 "가짜 로그인" 제거
 // - 커뮤니티 회원 엑셀(assets/members_seed.json) 기반으로 로그인 허용
 // - 관리자(admin)만 공지/팝업 저장 가능
-// - 저장소: Cloudflare KV (권장: env.JLAB_KV). 없으면 읽기만(정적 JSON)로 폴백.
+// - 저장소: Cloudflare KV (권장: getKV(env)). 없으면 읽기만(정적 JSON)로 폴백.
 // ==============================
 
 const COOKIE_NAME = 'jlab_sess';
 const DEFAULT_SECRET = 'JLAB_CHANGE_ME_SECRET';
-
-function __jlab_findKV(env){
-  if(!env) return null;
-  // common names
-  const direct = env.JLAB_KV || env.BIGDATA_KV || env.BIGDATAKV || env.JLAB_BIGDATA_KV || env.KV;
-  if(direct && typeof direct.get==='function' && typeof direct.put==='function' && typeof direct.list==='function') return direct;
-  // scan any binding that looks like KV
-  try{
-    for(const k of Object.keys(env)){
-      const v = env[k];
-      if(v && typeof v.get==='function' && typeof v.put==='function' && typeof v.list==='function'){
-        return v;
-      }
-    }
-  }catch(e){}
-  return null;
-}
-
 
 function jsonResp(obj, status=200, extraHeaders={}) {
   return new Response(JSON.stringify(obj), {
@@ -352,8 +334,8 @@ async function loadSeed(env, baseUrl) {
 
 async function kvGetJSON(env, key) {
   try {
-    if (env && env.JLAB_KV && typeof env.JLAB_KV.get === 'function') {
-      const v = await env.JLAB_KV.get(key);
+    if (env && getKV(env) && typeof kv.get === 'function') {
+      const v = await kv.get(key);
       if (!v) return null;
       return JSON.parse(v);
     }
@@ -362,8 +344,8 @@ async function kvGetJSON(env, key) {
 }
 
 async function kvPutJSON(env, key, obj) {
-  if (!(env && env.JLAB_KV && typeof env.JLAB_KV.put === 'function')) return false;
-  await env.JLAB_KV.put(key, JSON.stringify(obj));
+  if (!(env && getKV(env) && typeof kv.put === 'function')) return false;
+  await kv.put(key, JSON.stringify(obj));
   return true;
 }
 
@@ -378,7 +360,7 @@ async function getUser(env, baseUrl, emailLower) {
 }
 
 async function ensureUserInKV(env, emailLower, seedUser, passwordPlain, secret) {
-  if (!(env && env.JLAB_KV && typeof env.JLAB_KV.put === 'function')) return false;
+  if (!(env && getKV(env) && typeof kv.put === 'function')) return false;
   const kvKey = `user:${emailLower}`;
   const passHash = await sha256Hex(`${secret}|${passwordPlain}`);
   const obj = {
@@ -391,7 +373,7 @@ async function ensureUserInKV(env, emailLower, seedUser, passwordPlain, secret) 
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   };
-  await env.JLAB_KV.put(kvKey, JSON.stringify(obj));
+  await kv.put(kvKey, JSON.stringify(obj));
   return true;
 }
 
@@ -466,7 +448,7 @@ async function handleAuthChangePassword(request, env, baseUrl) {
   const secret = (env && env.JLAB_AUTH_SECRET) ? env.JLAB_AUTH_SECRET : DEFAULT_SECRET;
   const payload = await requireAuth(request, env, baseUrl);
   if (!payload) return jsonResp({ ok:false, message:'로그인이 필요합니다.' }, 200);
-  if (!(env && env.JLAB_KV && typeof env.JLAB_KV.get === 'function')) {
+  if (!(env && getKV(env) && typeof kv.get === 'function')) {
     return jsonResp({ ok:false, message:'서버 저장소(KV)가 설정되지 않아 비밀번호 변경을 지원하지 않습니다.' }, 200);
   }
   let body=null;
@@ -514,7 +496,7 @@ async function requireAdmin(request, env, baseUrl) {
 async function handleAdminNoticeSave(request, env, baseUrl) {
   const admin = await requireAdmin(request, env, baseUrl);
   if (!admin) return jsonResp({ ok:false, message:'관리자 권한이 필요합니다.' }, 200);
-  if (!(env && env.JLAB_KV && typeof env.JLAB_KV.put === 'function')) {
+  if (!(env && getKV(env) && typeof kv.put === 'function')) {
     return jsonResp({ ok:false, message:'서버 저장소(KV)가 설정되지 않아 저장할 수 없습니다.' }, 200);
   }
   let body=null;
@@ -534,7 +516,7 @@ async function handleAdminNoticeSave(request, env, baseUrl) {
 async function handleAdminPopupSave(request, env, baseUrl) {
   const admin = await requireAdmin(request, env, baseUrl);
   if (!admin) return jsonResp({ ok:false, message:'관리자 권한이 필요합니다.' }, 200);
-  if (!(env && env.JLAB_KV && typeof env.JLAB_KV.put === 'function')) {
+  if (!(env && getKV(env) && typeof kv.put === 'function')) {
     return jsonResp({ ok:false, message:'서버 저장소(KV)가 설정되지 않아 저장할 수 없습니다.' }, 200);
   }
   let body=null;
@@ -569,8 +551,8 @@ function compactTs(d=new Date()){
 async function handlePostsCreate(request, env, baseUrl){
   const admin = await requireAdmin(request, env, baseUrl);
   if(!admin) return jsonResp({ok:false, error:'FORBIDDEN'}, 403);
-  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
-
+    const kv = getKV(env);
+  if(!kv) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
   const body = await request.json().catch(()=> ({}));
   const category = String(body.category||'').trim();
   const region = String(body.region||'').trim().toUpperCase();
@@ -601,30 +583,32 @@ const metaKey = `posts/meta/${category}/${region}/${ts}_${id}.json`;
   const idKey = `posts/id/${id}.json`;
   const htmlKey = `posts/html/${id}.html`;
 
-  await env.JLAB_KV.put(metaKey, JSON.stringify(meta));
-  await env.JLAB_KV.put(idKey, JSON.stringify(meta));
-  await env.JLAB_KV.put(htmlKey, html);
+  await kv.put(metaKey, JSON.stringify(meta));
+  await kv.put(idKey, JSON.stringify(meta));
+  await kv.put(htmlKey, html);
 
   // latest pointers
   if(['strong','accum','suspicious'].includes(category)){
-    await env.JLAB_KV.put('posts/latest/bigdata.json', JSON.stringify(meta));
+    await kv.put('posts/latest/bigdata.json', JSON.stringify(meta));
   }
   if(category === 'perf'){
-    await env.JLAB_KV.put('posts/latest/perf.json', JSON.stringify(meta));
+    await kv.put('posts/latest/perf.json', JSON.stringify(meta));
   }
   if(category === 'meme'){
-    await env.JLAB_KV.put('posts/latest/meme.json', JSON.stringify(meta));
+    await kv.put('posts/latest/meme.json', JSON.stringify(meta));
   }
 
   return jsonResp({ok:true, id, meta}, 200);
 }
 
 async function _listMetaByPrefix(env, prefix, limit){
+  const kv = getKV(env);
+
   const out=[];
-  const listed = await env.JLAB_KV.list({prefix, limit: limit || 50});
+  const listed = await kv.list({prefix, limit: limit || 50});
   for(const k of (listed.keys||[])){
     try{
-      const v = await env.JLAB_KV.get(k.name);
+      const v = await kv.get(k.name);
       if(v){
         const j = JSON.parse(v);
         out.push(j);
@@ -635,7 +619,7 @@ async function _listMetaByPrefix(env, prefix, limit){
 }
 
 async function handlePostsList(request, env){
-  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING', items:[]}, 200);
+  if(!getKV(env)) return jsonResp({ok:false, error:'KV_MISSING', items:[]}, 200);
   const url = new URL(request.url);
   const category = String(url.searchParams.get('category')||'').trim();
   const region = String(url.searchParams.get('region')||'').trim().toUpperCase();
@@ -666,11 +650,12 @@ async function handlePostsList(request, env){
 }
 
 async function handlePostsLatest(request, env){
-  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
+    const kv = getKV(env);
+  if(!kv) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
   const url = new URL(request.url);
   const scope = String(url.searchParams.get('scope')||'bigdata').trim();
   const key = (scope === 'perf') ? 'posts/latest/perf.json' : (scope === 'meme') ? 'posts/latest/meme.json' : 'posts/latest/bigdata.json';
-  const v = await env.JLAB_KV.get(key);
+  const v = await kv.get(key);
   if(!v) return jsonResp({ok:false, error:'EMPTY'}, 200);
   try{
     return jsonResp({ok:true, meta: JSON.parse(v)}, 200);
@@ -680,13 +665,14 @@ async function handlePostsLatest(request, env){
 }
 
 async function handlePostsGet(request, env){
-  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
+    const kv = getKV(env);
+  if(!kv) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
   const url = new URL(request.url);
   const id = String(url.searchParams.get('id')||'').trim();
   if(!id) return jsonResp({ok:false, error:'NO_ID'}, 200);
 
-  const metaStr = await env.JLAB_KV.get(`posts/id/${id}.json`);
-  const html = await env.JLAB_KV.get(`posts/html/${id}.html`);
+  const metaStr = await kv.get(`posts/id/${id}.json`);
+  const html = await kv.get(`posts/html/${id}.html`);
   if(!metaStr || !html) return jsonResp({ok:false, error:'NOT_FOUND'}, 200);
 
   let meta=null;
@@ -700,14 +686,16 @@ async function handlePostsGet(request, env){
 // Posts Admin: delete / update title
 // ==============================
 async function _recomputeLatest(env, scope){
-  if(!env || !env.JLAB_KV) return false;
+  if(!getKV(env)) return false;
   let latest = null;
 
   async function pull(prefix){
+  const kv = getKV(env);
+
     try{
-      const listed = await env.JLAB_KV.list({prefix, limit: 50});
+      const listed = await kv.list({prefix, limit: 50});
       for(const k of (listed.keys||[])){
-        const v = await env.JLAB_KV.get(k.name);
+        const v = await kv.get(k.name);
         if(!v) continue;
         let m=null;
         try{ m = JSON.parse(v); }catch(e){ m=null; }
@@ -722,15 +710,15 @@ async function _recomputeLatest(env, scope){
   if(scope === 'perf'){
     await pull('posts/meta/perf/KR/');
     await pull('posts/meta/perf/US/');
-    if(latest) await env.JLAB_KV.put('posts/latest/perf.json', JSON.stringify(latest));
-    else await env.JLAB_KV.delete('posts/latest/perf.json');
+    if(latest) await kv.put('posts/latest/perf.json', JSON.stringify(latest));
+    else await kv.delete('posts/latest/perf.json');
     return true;
   }
   if(scope === 'meme'){
     await pull('posts/meta/meme/KR/');
     await pull('posts/meta/meme/US/');
-    if(latest) await env.JLAB_KV.put('posts/latest/meme.json', JSON.stringify(latest));
-    else await env.JLAB_KV.delete('posts/latest/meme.json');
+    if(latest) await kv.put('posts/latest/meme.json', JSON.stringify(latest));
+    else await kv.delete('posts/latest/meme.json');
     return true;
   }
 
@@ -740,21 +728,21 @@ async function _recomputeLatest(env, scope){
     await pull(`posts/meta/${c}/KR/`);
     await pull(`posts/meta/${c}/US/`);
   }
-  if(latest) await env.JLAB_KV.put('posts/latest/bigdata.json', JSON.stringify(latest));
-  else await env.JLAB_KV.delete('posts/latest/bigdata.json');
+  if(latest) await kv.put('posts/latest/bigdata.json', JSON.stringify(latest));
+  else await kv.delete('posts/latest/bigdata.json');
   return true;
 }
 
 async function handlePostsDelete(request, env, baseUrl){
   const admin = await requireAdmin(request, env, baseUrl);
   if(!admin) return jsonResp({ok:false, error:'FORBIDDEN'}, 403);
-  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
-
+    const kv = getKV(env);
+  if(!kv) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
   const body = await request.json().catch(()=> ({}));
   const id = String(body.id||'').trim();
   if(!id) return jsonResp({ok:false, error:'NO_ID'}, 200);
 
-  const metaStr = await env.JLAB_KV.get(`posts/id/${id}.json`);
+  const metaStr = await kv.get(`posts/id/${id}.json`);
   if(!metaStr) return jsonResp({ok:false, error:'NOT_FOUND'}, 200);
 
   let meta=null;
@@ -770,9 +758,9 @@ async function handlePostsDelete(request, env, baseUrl){
   const htmlKey = `posts/html/${id}.html`;
 
   try{
-    if(metaKey) await env.JLAB_KV.delete(metaKey);
-    await env.JLAB_KV.delete(idKey);
-    await env.JLAB_KV.delete(htmlKey);
+    if(metaKey) await kv.delete(metaKey);
+    await kv.delete(idKey);
+    await kv.delete(htmlKey);
   }catch(e){
     return jsonResp({ok:false, error:'DELETE_FAIL'}, 200);
   }
@@ -781,7 +769,7 @@ async function handlePostsDelete(request, env, baseUrl){
   try{
     const scope = (category === 'perf') ? 'perf' : (category === 'meme') ? 'meme' : 'bigdata';
     const latestKey = (scope === 'perf') ? 'posts/latest/perf.json' : (scope === 'meme') ? 'posts/latest/meme.json' : 'posts/latest/bigdata.json';
-    const lv = await env.JLAB_KV.get(latestKey);
+    const lv = await kv.get(latestKey);
     if(lv){
       let lm=null;
       try{ lm = JSON.parse(lv); }catch(e){ lm=null; }
@@ -797,15 +785,15 @@ async function handlePostsDelete(request, env, baseUrl){
 async function handlePostsUpdateTitle(request, env, baseUrl){
   const admin = await requireAdmin(request, env, baseUrl);
   if(!admin) return jsonResp({ok:false, error:'FORBIDDEN'}, 403);
-  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
-
+    const kv = getKV(env);
+  if(!kv) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
   const body = await request.json().catch(()=> ({}));
   const id = String(body.id||'').trim();
   const title = String(body.title||'').trim();
   if(!id) return jsonResp({ok:false, error:'NO_ID'}, 200);
   if(!title) return jsonResp({ok:false, error:'NO_TITLE'}, 200);
 
-  const metaStr = await env.JLAB_KV.get(`posts/id/${id}.json`);
+  const metaStr = await kv.get(`posts/id/${id}.json`);
   if(!metaStr) return jsonResp({ok:false, error:'NOT_FOUND'}, 200);
 
   let meta=null;
@@ -822,8 +810,8 @@ async function handlePostsUpdateTitle(request, env, baseUrl){
   const metaKey = (category && region && ts) ? `posts/meta/${category}/${region}/${ts}_${id}.json` : null;
 
   try{
-    await env.JLAB_KV.put(`posts/id/${id}.json`, JSON.stringify(meta));
-    if(metaKey) await env.JLAB_KV.put(metaKey, JSON.stringify(meta));
+    await kv.put(`posts/id/${id}.json`, JSON.stringify(meta));
+    if(metaKey) await kv.put(metaKey, JSON.stringify(meta));
   }catch(e){
     return jsonResp({ok:false, error:'UPDATE_FAIL'}, 200);
   }
@@ -832,12 +820,12 @@ async function handlePostsUpdateTitle(request, env, baseUrl){
   try{
     const scope = (category === 'perf') ? 'perf' : (category === 'meme') ? 'meme' : 'bigdata';
     const latestKey = (scope === 'perf') ? 'posts/latest/perf.json' : (scope === 'meme') ? 'posts/latest/meme.json' : 'posts/latest/bigdata.json';
-    const lv = await env.JLAB_KV.get(latestKey);
+    const lv = await kv.get(latestKey);
     if(lv){
       let lm=null;
       try{ lm = JSON.parse(lv); }catch(e){ lm=null; }
       if(lm && lm.id === id){
-        await env.JLAB_KV.put(latestKey, JSON.stringify(meta));
+        await kv.put(latestKey, JSON.stringify(meta));
       }
     }
   }catch(e){}
@@ -849,7 +837,8 @@ async function handlePostsUpdateTitle(request, env, baseUrl){
 // Signup request (store minimal)
 // ==============================
 async function handleSignupRequest(request, env){
-  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
+    const kv = getKV(env);
+  if(!kv) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
   const body = await request.json().catch(()=> ({}));
   const email = String(body.email||'').trim();
   const name = String(body.name||'').trim();
@@ -862,7 +851,7 @@ async function handleSignupRequest(request, env){
   const created_at = new Date().toISOString();
   const rec = { id, email, name, phone, memo, created_at, created_ts: ts };
 
-  await env.JLAB_KV.put(`signup/requests/${ts}_${id}.json`, JSON.stringify(rec));
+  await kv.put(`signup/requests/${ts}_${id}.json`, JSON.stringify(rec));
   return jsonResp({ok:true}, 200);
 }
 
@@ -899,44 +888,42 @@ async function handleYouTubeLatest(){
 
 export default {
   async fetch(request, env, ctx) {
-    const __kv = __jlab_findKV(env);
-    const __env = (__kv && !(env && env.JLAB_KV)) ? Object.assign({}, env, { JLAB_KV: __kv }) : env;
     const url = new URL(request.url);
 
     // ==============================
     // Auth API
     // ==============================
     if (url.pathname === '/api/auth/login' && request.method === 'POST') {
-      return await handleAuthLogin(request, __env, url.origin);
+      return await handleAuthLogin(request, env, url.origin);
     }
     if (url.pathname === '/api/auth/me') {
-      return await handleAuthMe(request, __env, url.origin);
+      return await handleAuthMe(request, env, url.origin);
     }
     if (url.pathname === '/api/auth/logout') {
-      return await handleAuthLogout(request, __env, url.origin);
+      return await handleAuthLogout(request, env, url.origin);
     }
     if (url.pathname === '/api/auth/change_password' && request.method === 'POST') {
-      return await handleAuthChangePassword(request, __env, url.origin);
+      return await handleAuthChangePassword(request, env, url.origin);
     }
 
     // ==============================
     // Notice / Popup (Public read)
     // ==============================
     if (url.pathname === '/api/notice/latest') {
-      return await handleNoticeLatest(request, __env, url.origin);
+      return await handleNoticeLatest(request, env, url.origin);
     }
     if (url.pathname === '/api/popup/config') {
-      return await handlePopupConfig(request, __env, url.origin);
+      return await handlePopupConfig(request, env, url.origin);
     }
 
     // ==============================
     // Admin Save
     // ==============================
     if (url.pathname === '/api/admin/notice/save' && request.method === 'POST') {
-      return await handleAdminNoticeSave(request, __env, url.origin);
+      return await handleAdminNoticeSave(request, env, url.origin);
     }
     if (url.pathname === '/api/admin/popup/save' && request.method === 'POST') {
-      return await handleAdminPopupSave(request, __env, url.origin);
+      return await handleAdminPopupSave(request, env, url.origin);
     }
 
 
@@ -944,29 +931,29 @@ export default {
     // Posts API (Bigdata / Performance)
     // ==============================
     if (url.pathname === '/api/posts/create' && request.method === 'POST') {
-      return await handlePostsCreate(request, __env, url.origin);
+      return await handlePostsCreate(request, env, url.origin);
     }
     if (url.pathname === '/api/posts/delete' && request.method === 'POST') {
-      return await handlePostsDelete(request, __env, url.origin);
+      return await handlePostsDelete(request, env, url.origin);
     }
     if (url.pathname === '/api/posts/update_title' && request.method === 'POST') {
-      return await handlePostsUpdateTitle(request, __env, url.origin);
+      return await handlePostsUpdateTitle(request, env, url.origin);
     }
     if (url.pathname === '/api/posts/list') {
-      return await handlePostsList(request, __env);
+      return await handlePostsList(request, env);
     }
     if (url.pathname === '/api/posts/get') {
-      return await handlePostsGet(request, __env);
+      return await handlePostsGet(request, env);
     }
     if (url.pathname === '/api/posts/latest') {
-      return await handlePostsLatest(request, __env);
+      return await handlePostsLatest(request, env);
     }
 
     // ==============================
     // Signup Request (Public)
     // ==============================
     if (url.pathname === '/api/signup/request' && request.method === 'POST') {
-      return await handleSignupRequest(request, __env);
+      return await handleSignupRequest(request, env);
     }
 
     // ==============================
