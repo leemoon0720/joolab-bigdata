@@ -19,18 +19,14 @@
     const path = window.location.pathname;
     qsa('[data-nav]').forEach(a=>{
       const key = a.getAttribute('data-nav');
-      const map = {
+            const map = {
         notice: /^\/notice\/?/,
         news: /^\/news\/?/,
-        sample: /^\/sample\/?/,
-        strong: /^\/strong\/?/,
-        training: /^\/training\/?/,
         data: /^\/data\/?/,
+        sample: /^\/sample\/?/,
         performance: /^\/performance\/?/,
-        game: /^\/game\/?/,
-        login: /^\/login\/?/,
-        signup: /^\/signup\/?/,
-        post: /^\/post\/?/,
+        chartgame: /^\/(training\/game|training|game)\/?/,
+        meme: /^\/meme\/?/,
         subscribe: /^\/subscribe\/?/,
         account: /^\/account\/?/,
         ops: /^\/ops\/?/,
@@ -41,6 +37,76 @@
     });
   }
 
+
+  // ==============================
+  // Auth / Plan helpers
+  // ==============================
+  function getPlanLabelForEmail(email){
+    try{ return localStorage.getItem("jlab_plan_"+email) || "미구독"; }catch(e){ return "미구독"; }
+  }
+  function hasUSAccessByPlanLabel(plan){
+    const s = String(plan||"");
+    return (s.indexOf("89,000")>=0) || (s.indexOf("200,000")>=0) || (/\bPRO\b/i.test(s)) || (/\bVIP\b/i.test(s));
+  }
+  async function fetchMeSafe(){
+    try{
+      const me = await fetchJSON('/api/auth/me');
+      if(me && me.ok && me.user && me.user.email) return me;
+    }catch(e){}
+    return null;
+  }
+
+  // ==============================
+  // Topbar nav standardization
+  // ==============================
+  function renderTopNav(){
+    const nav = document.querySelector('.topbar .nav');
+    if(!nav) return;
+
+    const items = [
+      {key:'notice', label:'공지사항', href:'/notice/'},
+      {key:'news', label:'뉴스센터', href:'/news/'},
+      {key:'data', label:'빅데이터', href:'/data/'},
+      {key:'sample', label:'샘플자료실', href:'/sample/'},
+      {key:'performance', label:'성과표', href:'/performance/'},
+      {key:'chartgame', label:'차트게임', href:'/training/game/'},
+      {key:'meme', label:'유머', href:'/meme/'},
+      {key:'subscribe', label:'구독', href:'/subscribe/'},
+      {key:'account', label:'회원', href:'/account/'},
+      {key:'ops', label:'운영센터', href:'/ops/', adminOnly:true},
+    ];
+
+    nav.innerHTML = items.map(it=>{
+      return `<a href="${it.href}" data-nav="${it.key}" ${it.adminOnly?'data-admin-only="1"':''}>${it.label}</a>`;
+    }).join('');
+  }
+
+  async function enhanceTopNavWithAuth(){
+    // 기본: 운영센터 숨김
+    qsa('[data-admin-only="1"]').forEach(a=>a.style.display='none');
+
+    const me = await fetchMeSafe();
+    if(!me) return;
+
+    const email = me.user.email;
+    const role = me.user.role || 'user';
+    const isAdmin = /admin/i.test(role);
+
+    // 운영센터: 관리자만
+    if(isAdmin){
+      qsa('[data-admin-only="1"]').forEach(a=>a.style.display='');
+    }
+
+    // 회원 옆에 이메일 표시
+    const aAccount = document.querySelector('[data-nav="account"]');
+    if(aAccount && !byId('nav-user-email')){
+      const span = document.createElement('span');
+      span.id = 'nav-user-email';
+      span.className = 'nav-user';
+      span.innerHTML = `<span class="dot"></span><span>${esc(email)}</span>`;
+      aAccount.insertAdjacentElement('afterend', span);
+    }
+  }
   function setHeroStatus({updatedText='', statusText='', statusKind=''}={}){
     const upd = byId('badge-upd');
     const st = byId('badge-status');
@@ -519,13 +585,14 @@
   function renderMetaItem(meta, opts){
     opts = (opts && typeof opts === 'object') ? opts : {};
     const title = meta.title || '(제목 없음)';
-    const sub = `${meta.region||''} · ${meta.category||''} · ${fmtTime(meta.created_at||'')}`;
+    const sub = `${meta.region||''} · ${meta.category||''} · ${fmtTime(meta.created_at||'')}${locked ? ' · 🔒Pro+' : ''}`;
     const thumb = (meta && meta.thumb) ? String(meta.thumb) : '';
     const canDelete = !!opts.canDelete;
     const showActions = !!opts.showActions;
+    const locked = !!opts.locked;
 
     return `
-      <div class="item">
+      <div class="item ${locked?'is-locked':''}">
         <div>
           <div class="title">${esc(title)}</div>
           <div class="meta">${esc(sub)}</div>
@@ -533,7 +600,7 @@
         <div class="right">
           ${thumb ? `<img class="mini-thumb" src="${esc(thumb)}" alt="thumb">` : ``}
           ${showActions && canDelete ? `<button class="mini-action danger" type="button" data-act="post-delete" data-id="${esc(meta.id||'')}">삭제</button>` : ``}
-          <a href="/post/?id=${encodeURIComponent(meta.id)}">보기</a>
+          <a href="${locked?'/subscribe/':(`/post/?id=${encodeURIComponent(meta.id)}`)}">${locked?'구독 필요':'보기'}</a>
         </div>
       </div>
     `;
@@ -553,7 +620,7 @@
     if(homeNews){
       try{
         const data = await fetchJSON('/news/latest.json');
-        const items = (data.items||[]).slice(0,4);
+        const items = (data.items||[]).slice(0,5);
         const upd = data.updated_at || data.updated || data.update || '-';
         const meta = byId('home-news-meta');
         const badge = byId('home-news-upd');
@@ -577,78 +644,83 @@
             </div>
           `;
         }).join('');
-        // Themes (keywords_hit + fallback)
+
+        // Themes (keywords_hit)
         const box = byId('home-themes');
         if(box){
           const cnt = {};
-          const stop = new Set(['그리고','하지만','오늘','내일','어제','관련','기반','대한','통해','확인','발표','전망','가능','이상','이하','등','및','에서','으로','했다','합니다','the','and','for','with','from','this','that','will','were','are','was','into','over','under']);
-          const add = (k)=>{
-            if(!k) return;
-            k = String(k).trim();
-            if(!k) return;
-            if(stop.has(k)) return;
-            // 너무 긴 문구/숫자 단독 제거
-            if(k.length > 12) return;
-            if(/^[0-9]+$/.test(k)) return;
-            cnt[k] = (cnt[k]||0) + 1;
-          };
-          const addFromText = (t)=>{
-            if(!t) return;
-            const s = String(t)
-              .replace(/[\[\]{}()<>“”‘’"'`]/g,' ')
-              .replace(/[^0-9A-Za-z가-힣\s\-\/]/g,' ')
-              .replace(/\s+/g,' ')
-              .trim();
-            if(!s) return;
-            s.split(' ').forEach(w=>{
-              const ww = w.trim();
-              if(!ww) return;
-              // 한글 2글자 이상, 영문/숫자 혼합 토큰 허용(예: IPO, AI, M&A)
-              if(/^[가-힣]{2,}$/.test(ww) || /^[A-Za-z][A-Za-z0-9&\-\/]{1,10}$/.test(ww)){
-                add(ww.toUpperCase() === ww ? ww : ww);
-              }
-            });
-          };
           (data.items||[]).forEach(it=>{
-            // 명시 키워드/태그 우선
-            [it.keywords_hit, it.keywords, it.tags, it.themes].forEach(arr=>{
-              if(Array.isArray(arr)) arr.forEach(add);
+            (it.keywords_hit||[]).forEach(k=>{
+              if(!k) return;
+              cnt[k] = (cnt[k]||0) + 1;
             });
-            if(it.theme) add(it.theme);
-            // 제목/요약 기반 폴백
-            addFromText((it.title||it.headline||'') + ' ' + (it.summary||it.desc||it.description||''));
           });
-          let top = Object.entries(cnt).sort((a,b)=>b[1]-a[1]).slice(0,12);
-          if(!top.length){
-            const defaults = ['코스피','코스닥','IPO','상장','AI','증자','바이오','반도체','M&A'];
-            top = defaults.map(k=>[k,'']);
-          }
-          box.innerHTML = top.map(([k,n])=>{
-            const q = encodeURIComponent(k);
-            const c = n ? ` <span style="opacity:.65;">${n}</span>` : '';
-            return `<a class="chip" href="/news/?q=${q}">${esc(k)}${c}</a>`;
-          }).join('');
+          const top = Object.entries(cnt).sort((a,b)=>b[1]-a[1]).slice(0,12);
+          box.innerHTML = top.map(([k,n])=>`<a class="chip" href="/news/?tag=${encodeURIComponent(k)}">${esc(k)} <span style="opacity:.65;">${n}</span></a>`).join('');
         }
       }catch(e){
         homeNews.innerHTML = `<div class="item"><div><div class="title">뉴스 데이터를 불러오지 못했습니다.</div><div class="meta">/news/latest.json 확인</div></div></div>`;
       }
     }
 
-    // Bigdata latest 1
+    
+    // Bigdata latest (Strong/Accum/Suspicious combined)
     const homeBD = byId('home-bigdata');
     if(homeBD){
       try{
-        const j = await fetchJSON('/api/posts/latest?scope=bigdata');
-        const meta = j.meta;
+        const me = await fetchMeSafe();
+        const email = me?.user?.email || '';
+        const plan = email ? getPlanLabelForEmail(email) : '미구독';
+        const usOk = hasUSAccessByPlanLabel(plan);
+
+        const cats = ['strong','accum','suspicious'];
+        const bags = await Promise.all(cats.map(async c=>{
+          try{
+            const j = await fetchJSON(`/api/posts/list?category=${encodeURIComponent(c)}&region=ALL&limit=30`);
+            return (j.items||[]);
+          }catch(e){
+            return [];
+          }
+        }));
+        let items = bags.flat();
+        // dedupe by id
+        const seen = new Set();
+        items = items.filter(x=>{
+          const id = x && x.id;
+          if(!id) return false;
+          if(seen.has(id)) return false;
+          seen.add(id);
+          return true;
+        });
+
+        items.sort((a,b)=> String(b.created_ts||'').localeCompare(String(a.created_ts||'')));
+
+        const total = items.length;
+        const showN = Math.min(12, total);
+        const show = items.slice(0, showN);
+
         const b = byId('home-badge-bigdata');
-        if(b && meta && meta.created_at) b.textContent = `BIGDATA: ${fmtTime(meta.created_at)}`;
-        homeBD.innerHTML = meta ? renderMetaItem(meta) : `<div class="item"><div><div class="title">아직 게시글이 없습니다.</div><div class="meta">관리자 업로드 후 표시됩니다.</div></div></div>`;
+        if(b){
+          const upd = show[0]?.created_at || items[0]?.created_at || '';
+          b.textContent = upd ? `BIGDATA: ${fmtTime(upd)}` : 'BIGDATA: -';
+        }
+
+        if(!showN){
+          homeBD.innerHTML = `<div class="item"><div><div class="title">업로드된 글이 없습니다.</div><div class="meta">관리자 업로드 후 표시됩니다.</div></div></div>`;
+          return;
+        }
+
+        homeBD.innerHTML = show.map(meta=>{
+          const locked = (meta && meta.region === 'US') && (!usOk);
+          return renderMetaItem(meta, {locked});
+        }).join('') + `<div class="small" style="margin-top:10px;">최근 ${showN}개 표시 · 전체 ${total}개</div>`;
       }catch(e){
-        homeBD.innerHTML = `<div class="item"><div><div class="title">빅데이터 최신글 없음</div><div class="meta">KV 미설정 또는 업로드 전</div></div></div>`;
+        homeBD.innerHTML = `<div class="item"><div><div class="title">빅데이터를 불러오지 못했습니다.</div><div class="meta">KV 설정 확인</div></div></div>`;
       }
     }
 
     // Perf list (3)
+ (3)
     const homePerf = byId('home-perf');
     if(homePerf){
       try{
@@ -699,6 +771,10 @@
     if(!list) return;
 
     let isAdmin = false;
+    let meEmail = '';
+    let meRole = 'user';
+    let mePlan = '미구독';
+    let usOk = false;
 
     // default state
     let region = 'KR';
@@ -708,6 +784,13 @@
     const btnsCat = qsa('[data-bd-cat]');
 
     function setRegion(v){
+      // 해외(US)는 89,000원 이상(미국지표 포함)만
+      if(v === 'US' && !usOk){
+        // 버튼 상태 복구
+        btnsRegion.forEach(b=>b.classList.toggle('is-on', b.getAttribute('data-bd-region')===region));
+        list.innerHTML = `<div class="item"><div><div class="title">해외(미국지표) 권한이 없습니다.</div><div class="meta">Pro(89,000원) 이상부터 해외(US) 열람이 가능합니다.</div></div><div class="right"><a href="/subscribe/">구독 페이지로</a></div></div>`;
+        return;
+      }
       region = v;
       btnsRegion.forEach(b=>b.classList.toggle('is-on', b.getAttribute('data-bd-region')===region));
       load();
@@ -722,6 +805,14 @@
     btnsCat.forEach(b=>b.addEventListener('click', ()=>setCat(b.getAttribute('data-bd-cat'))));
 
     async function load(){
+      if(region === 'US' && !usOk){
+        list.innerHTML = `<div class="item"><div><div class="title">해외(미국지표) 권한이 없습니다.</div><div class="meta">Pro(89,000원) 이상부터 해외(US) 열람이 가능합니다.</div></div><div class="right"><a href="/subscribe/">구독 페이지로</a></div></div>`;
+        const upd = byId('bd-badge-upd');
+        const cnt = byId('bd-badge-count');
+        if(upd) upd.textContent = `UPD: -`;
+        if(cnt) cnt.textContent = `0개`;
+        return;
+      }
       list.innerHTML = `<div class="small">로딩 중...</div>`;
       try{
         const j = await fetchJSON(`/api/posts/list?category=${encodeURIComponent(cat)}&region=${encodeURIComponent(region)}&limit=50`);
@@ -739,6 +830,10 @@
     // admin upload UI
     try{
       const me = await fetchJSON('/api/auth/me');
+      meEmail = me?.user?.email || '';
+      meRole = me?.user?.role || 'user';
+      mePlan = meEmail ? getPlanLabelForEmail(meEmail) : '미구독';
+      usOk = hasUSAccessByPlanLabel(mePlan) || detectIsAdmin(me);
       isAdmin = detectIsAdmin(me);
       const box = byId('bd-admin-actions');
       if(box) box.style.display = isAdmin ? '' : 'none';
@@ -858,10 +953,16 @@ async function hydrateCategoryPage(){
         const manualTitle = (titleInput && titleInput.value ? titleInput.value : '').trim();
         const title = manualTitle || `${titleMap[st.category]||'빅데이터'} ${date_key}`;
 
-        const top10 = rows.slice(0,10);
-        const top30 = rows.slice(0,30);
-        const mrOpt = (st.category==='strong' || st.category==='accum') ? {top30_only:true, no_details:true} : null;
-        const html = buildMrankHtml(title, top10, top30, rows, mrOpt);
+        let html = '';
+        if(st.category === 'suspicious'){
+          const ranked = rankSuspiciousRows(rows);
+          const top15 = ranked.slice(0,15);
+          html = buildSrankHtmlTop15(title, top15);
+        }else{
+          const top10 = rows.slice(0,10);
+          const top30 = rows.slice(0,30);
+          html = buildMrankHtml(title, top10, top30, rows);
+        }
 
         const is_sample = !!byId('bd-ck-sample')?.checked;
 
@@ -941,6 +1042,21 @@ async function hydrateCategoryPage(){
         return;
       }
       const meta = j.meta || {};
+      // 해외(US) 콘텐츠는 Pro(89,000원) 이상만
+      if(meta && meta.region === 'US'){
+        const me = await fetchMeSafe();
+        const email = me?.user?.email || '';
+        const plan = email ? getPlanLabelForEmail(email) : '미구독';
+        const usOk = hasUSAccessByPlanLabel(plan) || detectIsAdmin(me||{});
+        if(!usOk){
+          frame.srcdoc = `<html><body style="background:#0b1220;color:#fff;font-family:system-ui;padding:24px;">
+            <h2 style="margin:0 0 10px;">해외(미국지표) 권한이 없습니다.</h2>
+            <p style="margin:0 0 14px;opacity:.85;">Pro(89,000원) 이상부터 해외(US) 열람이 가능합니다.</p>
+            <p style="margin:0;"><a href="/subscribe/" style="color:#93c5fd;">구독 페이지로 이동</a></p>
+          </body></html>`;
+          return;
+        }
+      }
       const ttl = byId('post-title');
       const sub = byId('post-sub');
       const upd = byId('post-upd');
@@ -1255,12 +1371,8 @@ details.details[open] > summary{
 </style>
 `;
 
-  function buildMrankHtml(title, top10, top30, allRows, opt){
+  function buildMrankHtml(title, top10, top30, allRows){
     const css = MRAK_CSS.replace('<style>','').replace('</style>','');
-    opt = opt || {};
-    const TOP30_ONLY = !!opt.top30_only;
-    const NO_DETAILS = !!opt.no_details;
-
 
     function safe(v){ return esc(v===null||v===undefined ? '' : String(v)); }
     function num(v){
@@ -1319,9 +1431,6 @@ details.details[open] > summary{
 
       const detailRows = Object.keys(row).map(k=>`<tr><td>${safe(k)}</td><td>${safe(row[k])}</td></tr>`).join('');
       const detailTbl = `<table><thead><tr><th>지표</th><th>값</th></tr></thead><tbody>${detailRows}</tbody></table>`;
-      const detailsHtml = NO_DETAILS ? '' : `
-            ${detailsHtml}
-          `;
 
       return `
         <div class="card">
@@ -1335,7 +1444,10 @@ details.details[open] > summary{
           <div class="card-body">
             <div class="chips">${chips}</div>
             <div class="kv kv-compact">${kvs}</div>
-            ${detailsHtml}
+            <details class="details">
+              <summary>전체지표 보기(전 컬럼)</summary>
+              <div class="details-wrap">${detailTbl}</div>
+            </details>
           </div>
         </div>
       `;
@@ -1359,17 +1471,7 @@ details.details[open] > summary{
     const cards10 = t10.map((r,i)=>renderCard(r,i+1)).join('');
     const cards30 = t30.map((r,i)=>renderCard(r,i+1)).join('');
 
-    const doc = TOP30_ONLY ? `<!doctype html><html lang="ko"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>${safe(title)}</title><style>${css}</style></head><body><div class="wrap">
-  <div class="jl-title">
-    <div>
-      <div class="ttl">${safe(title)}</div>
-      <div class="sub">업로드 기반 리포트 · TOP30 카드뉴스</div>
-    </div>
-  </div>
-
-  <h2 id="top30" style="margin:6px 0 10px 0;">TOP30</h2>
-  <div class="grid">${cards30}</div>
-</div></body></html>` : `<!doctype html><html lang="ko"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>${safe(title)}</title>
+    const doc = `<!doctype html><html lang="ko"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>${safe(title)}</title>
 <style>${css}
 table{ width:100%; border-collapse:collapse; margin-top:14px; }
 th, td{ border:1px solid rgba(255,255,255,0.10); padding:8px 10px; font-size:12px; color:rgba(234,240,255,0.88); }
@@ -1407,6 +1509,197 @@ tr:nth-child(even) td{ background: rgba(255,255,255,0.02); }
 </div></body></html>`;
     return doc;
   }
+
+  // =========================
+  // Suspicious Ranker (TOP15 cards only) — ported from srank.py
+  // - 업로드(엑셀/CSV) → 수상해 랭킹 산출 → 화면/HTML은 TOP15 카드만 (테이블 없음)
+  // =========================
+  function rankSuspiciousRows(rows){
+    const num = (v)=>{
+      if(v===null||v===undefined) return NaN;
+      const s = String(v).replace(/,/g,'').trim();
+      if(!s) return NaN;
+      const n = Number(s);
+      return Number.isFinite(n) ? n : NaN;
+    };
+    const toBool = (v)=>{
+      if(v===true || v===1) return true;
+      if(v===false || v===0 || v===null || v===undefined) return false;
+      const s = String(v).trim().toLowerCase();
+      return ['1','true','t','yes','y','on','ok','pass','o'].includes(s);
+    };
+    const codeNum = (row)=>{
+      // try 종목코드 -> 표시 "(005930)" -> 코드/code
+      const cands = [row['종목코드'], row['code'], row['CODE'], row['티커'], row['ticker']];
+      for(const c of cands){
+        const n = num(c);
+        if(Number.isFinite(n)) return n;
+      }
+      const disp = row['표시'] ?? row['display'] ?? '';
+      const m = String(disp).match(/\((\d+)\)/);
+      if(m) return Number(m[1]);
+      return NaN;
+    };
+
+    const scored = rows.map((row, i)=>{
+      const tvmult = num(row['TV_D1_MULT']);
+      const tvspk  = num(row['TVSPIKE20']);
+      const obvd   = num(row['OBV_s10_diff']);
+      const tvamt  = num(row['거래대금']);
+      const cmf    = num(row['CMF20']);
+      const clv    = num(row['CLV']);
+
+      const pwr  = toBool(row['POWERDAY20_ON']);
+      const brk  = toBool(row['DONCH20_BRK']);
+      const acc  = toBool(row['OBV_ACCEL_ON']);
+      const inst = toBool(row['INSTITUTIONAL_POWER']);
+
+      const t1 = Number.isFinite(tvmult) && tvmult >= 7.0;
+      const t2 = Number.isFinite(tvspk)  && tvspk  >= 3.0;
+      const t3 = Number.isFinite(obvd)   && obvd   > 0;
+      const t4 = Number.isFinite(cmf)    && cmf    > 0;
+      const t5 = Number.isFinite(clv)    && clv    > 0;
+
+      const elig = (t1?1:0)+(t2?1:0)+(t3?1:0)+(t4?1:0)+(t5?1:0)+(pwr?1:0)+(brk?1:0)+(acc?1:0)+(inst?1:0);
+
+      const row2 = Object.assign({}, row, {ELIG_COUNT: elig});
+      return {row: row2, i, elig, tvmult, tvspk, obvd, tvamt, code: codeNum(row2)};
+    });
+
+    scored.sort((a,b)=>{
+      // elig desc
+      if(b.elig!==a.elig) return b.elig - a.elig;
+      // TV_D1_MULT desc
+      if((b.tvmult||-Infinity)!==(a.tvmult||-Infinity)) return (b.tvmult||-Infinity) - (a.tvmult||-Infinity);
+      // TVSPIKE20 desc
+      if((b.tvspk||-Infinity)!==(a.tvspk||-Infinity)) return (b.tvspk||-Infinity) - (a.tvspk||-Infinity);
+      // OBV diff desc
+      if((b.obvd||-Infinity)!==(a.obvd||-Infinity)) return (b.obvd||-Infinity) - (a.obvd||-Infinity);
+      // 거래대금 desc
+      if((b.tvamt||-Infinity)!==(a.tvamt||-Infinity)) return (b.tvamt||-Infinity) - (a.tvamt||-Infinity);
+      // 종목코드 asc (NaN last)
+      const ac = Number.isFinite(a.code) ? a.code : Infinity;
+      const bc = Number.isFinite(b.code) ? b.code : Infinity;
+      if(ac!==bc) return ac - bc;
+      return a.i - b.i; // stable
+    });
+
+    return scored.map(x=>x.row);
+  }
+
+  function buildSrankHtmlTop15(title, top15Rows){
+    const css = MRAK_CSS.replace('<style>','').replace('</style>','');
+    const safe = (v)=>esc(v===null||v===undefined ? '' : String(v));
+
+    const num = (v)=>{
+      const s = String(v===null||v===undefined? '' : v).replace(/,/g,'').trim();
+      const n = Number(s);
+      return Number.isFinite(n) ? n : NaN;
+    };
+    const fmt0 = (v)=>{
+      const n = num(v);
+      if(!Number.isFinite(n)) return safe(v);
+      return n.toLocaleString('en-US', {maximumFractionDigits:0});
+    };
+    const fmt2 = (v)=>{
+      const n = num(v);
+      if(!Number.isFinite(n)) return safe(v);
+      return n.toLocaleString('en-US', {maximumFractionDigits:2});
+    };
+    const fmt3 = (v)=>{
+      const n = num(v);
+      if(!Number.isFinite(n)) return safe(v);
+      return n.toLocaleString('en-US', {maximumFractionDigits:3});
+    };
+    const toBool = (v)=>{
+      if(v===true || v===1) return true;
+      if(v===false || v===0 || v===null || v===undefined) return false;
+      const s = String(v).trim().toLowerCase();
+      return ['1','true','t','yes','y','on','ok','pass','o'].includes(s);
+    };
+
+    const kvLine = (label, valHtml)=>`<div class="kv-item"><div class="k">${safe(label)}</div><div class="v">${valHtml}</div></div>`;
+    const sign = (v)=>{
+      const n = num(v);
+      if(!Number.isFinite(n) || n===0) return '<span class="sig neu">·</span>';
+      if(n>0) return '<span class="sig pos">＋</span>';
+      return '<span class="sig neg">－</span>';
+    };
+
+    const pickTitleLine = (row)=>{
+      const disp = row['표시'] ?? row['display_name'] ?? '';
+      if(String(disp).trim()) return String(disp).trim();
+      const name = row['종목명'] ?? row['기업명'] ?? row['name'] ?? '';
+      const code = row['종목코드'] ?? row['ticker'] ?? row['code'] ?? '';
+      if(String(name).trim() && String(code).trim()) return `${String(name).trim()}(${String(code).trim()})`;
+      return String(name).trim() || String(code).trim() || '(미상)';
+    };
+
+    const cards = top15Rows.map((row, idx)=>{
+      const rk = idx+1;
+      const titleLine = pickTitleLine(row);
+
+      const chips = [];
+      if(toBool(row['POWERDAY20_ON'])) chips.push('POWERDAY20');
+      if(toBool(row['DONCH20_BRK'])) chips.push('DONCH20_BRK');
+      if(toBool(row['OBV_ACCEL_ON'])) chips.push('OBV_ACCEL');
+      if(toBool(row['INSTITUTIONAL_POWER'])) chips.push('INST_POWER');
+      const chipHtml = chips.length ? `<div class="chips">${chips.map(c=>`<span class="chip">${safe(c)}</span>`).join('')}</div>` : '';
+
+      const elig = row['ELIG_COUNT']!==undefined ? row['ELIG_COUNT'] : '';
+      const tvx = row['TV_D1_MULT']!==undefined ? row['TV_D1_MULT'] : '';
+
+      const kvs = [
+        kvLine('거래대금', `${sign(row['거래대금'])}<span>${fmt0(row['거래대금'])}</span>`),
+        kvLine('전일대비TV×', `${sign(row['TV_D1_MULT'])}<span>${fmt2(row['TV_D1_MULT'])}</span>`),
+        kvLine('TVSPIKE20', `${sign(row['TVSPIKE20'])}<span>${fmt2(row['TVSPIKE20'])}</span>`),
+        kvLine('OBV Δ(10)', `${sign(row['OBV_s10_diff'])}<span>${fmt0(row['OBV_s10_diff'])}</span>`),
+        kvLine('CMF20', `${sign(row['CMF20'])}<span>${fmt3(row['CMF20'])}</span>`),
+        kvLine('CLV', `${sign(row['CLV'])}<span>${fmt3(row['CLV'])}</span>`),
+      ].join('');
+
+      return `
+<div class="card">
+  <div class="card-head">
+    <div>
+      <div class="name">${safe(titleLine)}</div>
+      <div class="code">순위 ${rk} · 종가 ${fmt0(row['종가'])} · D1 ${fmt2(row['등락률(D1%)'])}% · 거래대금 ${fmt0(row['거래대금'])}</div>
+    </div>
+    <div class="rank-pill">TV× ${fmt2(tvx)} · SCORE ${safe(elig)}</div>
+  </div>
+  <div class="card-body">
+    ${chipHtml}
+    <div class="kv kv-compact">${kvs}</div>
+  </div>
+</div>`;
+    }).join('');
+
+    return `<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${safe(title)}</title>
+<style>${css}
+.wrap{ max-width:1240px; margin:0 auto; padding:18px 16px 34px 16px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="jl-title">
+    <div>
+      <h1>${safe(title)}</h1>
+      <div class="jl-sub">TOP15만 · 카드뉴스 · 테이블 없음</div>
+    </div>
+    <div class="badge">srank_TOP15</div>
+  </div>
+  <hr>
+  <div class="grid">${cards}</div>
+</div>
+</body>
+</html>`;
+  }
+
 
   async function parseFileToRows(file){
     const name = file?.name || '';
@@ -1483,8 +1776,7 @@ tr:nth-child(even) td{ background: rgba(255,255,255,0.02); }
 
         const top10 = rows.slice(0,10);
         const top30 = rows.slice(0,30);
-        const mrOpt = (st.category==='strong' || st.category==='accum') ? {top30_only:true, no_details:true} : null;
-        const html = buildMrankHtml(title, top10, top30, rows, mrOpt);
+        const html = buildMrankHtml(title, top10, top30, rows);
 
         const res = await postJSON('/api/posts/create', {
           category: st.category,
@@ -1529,8 +1821,7 @@ tr:nth-child(even) td{ background: rgba(255,255,255,0.02); }
         const title = manualTitle || `성과표 ${date_key}`;
         const top10 = rows.slice(0,10);
         const top30 = rows.slice(0,30);
-        const mrOpt = (st.category==='strong' || st.category==='accum') ? {top30_only:true, no_details:true} : null;
-        const html = buildMrankHtml(title, top10, top30, rows, mrOpt);
+        const html = buildMrankHtml(title, top10, top30, rows);
 
         const res = await postJSON('/api/posts/create', {
           category: 'perf',
@@ -1839,6 +2130,9 @@ ${(String(mediaType||"")||"").startsWith("video/") ? `      <video controls play
   }
 
 document.addEventListener('DOMContentLoaded', ()=>{
+    renderTopNav();
+    // auth-based enhancements (email badge / admin menu)
+    enhanceTopNavWithAuth();
     setActiveNav();
     initTickerSearch();
     hydrateMarketStrip();
