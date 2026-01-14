@@ -635,7 +635,7 @@ async function _listMetaByPrefix(env, prefix, limit){
 }
 
 async function handlePostsList(request, env){
-  if(!env || !env.JLAB_KV || typeof env.JLAB_KV.list!=='function') return jsonResp({ok:false, error:'KV_MISSING', items:[]}, 200);
+  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING', items:[]}, 200);
   const url = new URL(request.url);
   const category = String(url.searchParams.get('category')||'').trim();
   const region = String(url.searchParams.get('region')||'').trim().toUpperCase();
