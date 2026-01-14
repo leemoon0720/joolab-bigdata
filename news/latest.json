@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-14 16:34 KST",
+  "updated_at": "2026-01-14 16:49 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 16:41",
+      "title": "교보증권, 2026 경영전략회의…\"디지털 전환 가속·신사업 발굴\"",
+      "url": "https://www.hankyung.com/article/202601140685i",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -320,16 +328,6 @@
       "title": "한국거래소, 프리·애프터마켓 개설 추진…“2027년 24시간 거래 목표”",
       "url": "https://www.mk.co.kr/news/stock/11932550",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 10:44",
-      "title": "엔비알모션, 스팩 합병 상장 첫날 '상한가'",
-      "url": "https://www.hankyung.com/article/2026011496786",
-      "keywords_hit": [
-        "상장"
-      ]
     },
     {
       "source": "MK",
