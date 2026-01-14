@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-14 13:18 KST",
+  "updated_at": "2026-01-14 13:57 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,80 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 13:52",
+      "title": "[마켓PRO] 고수들, '삼성운용 5% 취득' 공시에 뉴로메카 매수",
+      "url": "https://www.hankyung.com/article/202601140116i",
+      "keywords_hit": [
+        "공시"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 13:51",
+      "title": "5000피 가까워지는데...개미는 한주새 2100억 '인버스' 베팅",
+      "url": "https://www.hankyung.com/article/202601149568i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 13:49",
+      "title": "\"연소득 200만원 줄었네요\"…청년만 가난해진다",
+      "url": "https://www.hankyung.com/article/202601140024i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 13:46",
+      "title": "작년 코스피 상장사 영문공시 9% 증가…코스닥 불성실공시 28% '뚝'",
+      "url": "https://www.hankyung.com/article/2026011401246",
+      "keywords_hit": [
+        "코스피",
+        "코스닥",
+        "상장",
+        "공시"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-14 13:45",
+      "title": "“금융위 윗선 개입 의혹” 野제동에… 업계 “대주주 20% 룰은 필패 카드” 성토",
+      "url": "https://www.mk.co.kr/news/stock/11932755",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 13:42",
+      "title": "\"주가조작 땐 패가망신\" 李 주문에 합동대응단 경쟁 체제로",
+      "url": "https://www.hankyung.com/article/2026011400746",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 13:25",
+      "title": "[단독] 한국거래소, 설립 70년 만에 첫 M&A…AI 스타트업 품는다",
+      "url": "https://www.hankyung.com/article/2026011497496",
+      "keywords_hit": [
+        "M&A",
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 13:15",
+      "title": "'한화' 이름 들어간 주식 다 올랐네…그룹주 동반 '불기둥' [종목+]",
+      "url": "https://www.hankyung.com/article/2026011400566",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -79,7 +153,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-14 11:01",
-      "title": "정부 코인거래소 대주주 지분 제한에 與 특위 제동",
+      "title": "정부 코인거래소 대주주 지분 제한에 국민의힘 특위 제동",
       "url": "https://www.mk.co.kr/news/stock/11932588",
       "keywords_hit": []
     },
@@ -261,28 +335,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 09:17",
-      "title": "[속보] 코스피 개장 직후 4700선 돌파…기관·개인 '사자'",
-      "url": "https://www.hankyung.com/article/202601149224i",
-      "keywords_hit": [
-        "코스피",
-        "기관"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 09:05",
-      "title": "[속보] 코스피, 장중 4700선 돌파…원·달러 환율은 1480원 육박",
-      "url": "https://www.hankyung.com/article/2026011492096",
-      "keywords_hit": [
-        "코스피",
-        "환율"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-14 08:49",
@@ -307,50 +359,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 08:44",
-      "title": "\"현대건설, 건설사 넘어 원전주로 재평가…목표가↑\"-NH",
-      "url": "https://www.hankyung.com/article/2026011491366",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 08:44",
-      "title": "\"SK텔레콤, 작년 4분기 실적 시장 기대치 밑돌 듯\"-삼성",
-      "url": "https://www.hankyung.com/article/2026011491186",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 08:41",
-      "title": "BTS, 34개 도시 79회 월드투어 공개…\"예상 뛰어넘어\" 들썩",
-      "url": "https://www.hankyung.com/article/2026011490447",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 08:31",
-      "title": "\"하이브, BTS 대규모 월드투어에 실적 개선 기대…목표가↑\"-IBK",
-      "url": "https://www.hankyung.com/article/2026011490886",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 08:22",
-      "title": "이자 간섭에 금융주 폭락, \"전기료 내라\" 빅테크 흔들 [김현석의 월스트리트나우]",
-      "url": "https://www.hankyung.com/article/202601148959i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-14 08:20",
@@ -367,16 +375,6 @@
       "title": "“SK하이닉스, 메모리 가격 상승폭 확대에 112만원 간다”…목표가↑",
       "url": "https://www.mk.co.kr/news/stock/11932386",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-14 06:02",
-      "title": "코스피 신고가 찍자 찾아온 ‘불청객’…공매도 대기자금 확 몰린 종목은",
-      "url": "https://www.mk.co.kr/news/stock/11932299",
-      "keywords_hit": [
-        "코스피"
-      ]
     }
   ]
 }
