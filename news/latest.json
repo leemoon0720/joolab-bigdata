@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-14 20:00 KST",
+  "updated_at": "2026-01-14 20:30 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-14 20:07",
+      "title": "김병주 구속 피한 MBK 홈플 회생시계 다시 도나",
+      "url": "https://www.mk.co.kr/news/stock/11933262",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -70,7 +78,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-14 17:50",
-      "title": "[포토] 4700선도 돌파 …'꿈의 5천피'까지 277포인트 남아",
+      "title": "[포토] 4700선도 돌파…'꿈의 5천피'까지 277포인트 남아",
       "url": "https://www.mk.co.kr/news/stock/11933162",
       "keywords_hit": []
     },
@@ -211,16 +219,8 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-14 17:33",
-      "title": "트럼프 \"카드 수수료 깎아라\" … 비자·마스터 주가 동반급락",
+      "title": "트럼프 \"수수료 깎아라\"…비자·마스터카드 급락",
       "url": "https://www.mk.co.kr/news/stock/11933091",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-14 17:33",
-      "title": "신용거래 규제 강화 … 제동걸린 중국 증시",
-      "url": "https://www.mk.co.kr/news/stock/11933090",
       "keywords_hit": []
     },
     {
@@ -229,6 +229,14 @@
       "published_at": "2026-01-14 17:33",
       "title": "자율주행 분사추진 '앱티브' 2년만에 신고가",
       "url": "https://www.mk.co.kr/news/stock/11933088",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-14 17:33",
+      "title": "신용거래 규제 강화 … 제동걸린 중국 증시",
+      "url": "https://www.mk.co.kr/news/stock/11933090",
       "keywords_hit": []
     },
     {
@@ -369,16 +377,6 @@
         "코스닥",
         "상장",
         "공시"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-14 16:02",
-      "title": "코스피, 4723.10 상승 마감…사상 첫 4700선 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11932937",
-      "keywords_hit": [
-        "코스피"
       ]
     }
   ]
