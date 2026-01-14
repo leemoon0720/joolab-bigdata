@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-15 08:22 KST",
+  "updated_at": "2026-01-15 08:34 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,12 +25,36 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-15 08:30",
+      "title": "“골든타임 놓치면 공멸”…핀산협, ‘조각투자 장외시장’ 인가 결단 촉구",
+      "url": "https://www.mk.co.kr/news/stock/11933526",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 08:22",
+      "title": "\"삼천당제약, S-PASS 기술적 의구심 해소해야\"-한국",
+      "url": "https://www.hankyung.com/article/2026011516166",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-15 08:19",
       "title": "“한화에어로스페이스, 불장 속 ‘방산 주도주’ 역할 톡톡”…목표가↑",
       "url": "https://www.mk.co.kr/news/stock/11933521",
       "keywords_hit": [
         "방산"
       ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 08:15",
+      "title": "트럼프 입만 본다…기술·은행주 매도 vs 소형·가치주 매수 [김현석의 월스트리트나우]",
+      "url": "https://www.hankyung.com/article/202601151514i",
+      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -195,19 +219,19 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-14 17:46",
-      "title": "李 \"패가망신 빈말 아니다\" 주가조작 합동대응단 확대",
-      "url": "https://www.mk.co.kr/news/stock/11933139",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-14 17:46",
       "title": "\"불장에 거래대금 급증\"…실적기대 커진 증권株",
       "url": "https://www.mk.co.kr/news/stock/11933138",
       "keywords_hit": [
         "실적"
       ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-14 17:46",
+      "title": "李 \"패가망신 빈말 아니다\" 주가조작 합동대응단 확대",
+      "url": "https://www.mk.co.kr/news/stock/11933139",
+      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -323,14 +347,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-14 17:33",
-      "title": "신용거래 규제 강화 … 제동걸린 중국 증시",
-      "url": "https://www.mk.co.kr/news/stock/11933090",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-14 17:25",
@@ -356,24 +372,6 @@
         "코스피",
         "실적"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 17:18",
-      "title": "'이란 사태'가 끌어올린 국제유가…WTI 60달러 넘었다",
-      "url": "https://www.hankyung.com/article/2026011409211",
-      "keywords_hit": [
-        "유가"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 17:13",
-      "title": "하루 1조원 몰렸다…스토리(IP), 3일만에 100% 폭등 이유는",
-      "url": "https://www.hankyung.com/article/202601140883g",
-      "keywords_hit": []
     }
   ]
 }
