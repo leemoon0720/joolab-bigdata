@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-14 13:57 KST",
+  "updated_at": "2026-01-14 14:26 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,6 +23,25 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-14 14:04",
+      "title": "스팩에도 공모주 훈풍… 새내기주 엔비알모션 상한가",
+      "url": "https://www.mk.co.kr/news/stock/11932777",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 14:00",
+      "title": "고환율에 '금리 인상' 목소리 솔솔…한은 \"경기 등 종합 판단\"",
+      "url": "https://www.hankyung.com/article/202601149811i",
+      "keywords_hit": [
+        "환율",
+        "금리"
+      ]
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-14 13:52",
@@ -36,16 +55,8 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-14 13:51",
-      "title": "5000피 가까워지는데...개미는 한주새 2100억 '인버스' 베팅",
+      "title": "5000피 가까워지는데…개미는 한주새 2100억 '하락 베팅'",
       "url": "https://www.hankyung.com/article/202601149568i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 13:49",
-      "title": "\"연소득 200만원 줄었네요\"…청년만 가난해진다",
-      "url": "https://www.hankyung.com/article/202601140024i",
       "keywords_hit": []
     },
     {
@@ -73,7 +84,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-14 13:42",
-      "title": "\"주가조작 땐 패가망신\" 李 주문에 합동대응단 경쟁 체제로",
+      "title": "\"주가조작 땐 패가망신\" 李 주문에 합동대응단 경쟁 체제로 개편",
       "url": "https://www.hankyung.com/article/2026011400746",
       "keywords_hit": []
     },
@@ -153,7 +164,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-14 11:01",
-      "title": "정부 코인거래소 대주주 지분 제한에 국민의힘 특위 제동",
+      "title": "“민간성과 옥죄는 李정부”…국힘, 코인거래소 지분제한에 공개반발",
       "url": "https://www.mk.co.kr/news/stock/11932588",
       "keywords_hit": []
     },
@@ -367,14 +378,6 @@
       "keywords_hit": [
         "AI"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-14 08:14",
-      "title": "“SK하이닉스, 메모리 가격 상승폭 확대에 112만원 간다”…목표가↑",
-      "url": "https://www.mk.co.kr/news/stock/11932386",
-      "keywords_hit": []
     }
   ]
 }
