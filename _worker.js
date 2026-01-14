@@ -900,8 +900,8 @@ async function handleYouTubeLatest(){
 export default {
   async fetch(request, env, ctx) {
     const __kv = __jlab_findKV(env);
-    const __hasRealKV = (env && env.JLAB_KV && typeof env.JLAB_KV.get==='function' && typeof env.JLAB_KV.put==='function' && typeof env.JLAB_KV.list==='function');
-    const __env = (__kv && !__hasRealKV) ? Object.assign({}, env, { JLAB_KV: __kv }) : env;
+    const __hasKV = !!(env && env.JLAB_KV && typeof env.JLAB_KV.get==='function' && typeof env.JLAB_KV.put==='function' && typeof env.JLAB_KV.list==='function');
+    const __env = (__kv && !__hasKV) ? Object.assign({}, env, { JLAB_KV: __kv }) : env;
     const url = new URL(request.url);
 
     // ==============================
