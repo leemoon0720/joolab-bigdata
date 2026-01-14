@@ -14,6 +14,31 @@
     }[ch]));
   }
 
+  // Normalize top navigation: simplify menu + keep consistent across pages
+  function normalizeTopNav(){
+    const nav = document.querySelector('.topbar .nav');
+    if(!nav) return;
+
+    // Unified minimal menu (remove 샘플자료실/성과표 등 과다 메뉴)
+    nav.innerHTML = [
+      '<a href="/notice/" data-nav="notice">공지</a>',
+      '<a href="/news/" data-nav="news">뉴스센터</a>',
+      '<a href="/data/" data-nav="data">빅데이터</a>',
+      '<a href="/game/" data-nav="game">게임</a>',
+      '<a href="/meme/" data-nav="meme">유머</a>',
+      '<a href="/subscribe/" data-nav="subscribe">구독</a>',
+      '<a href="/login/" data-nav="login">로그인</a>',
+      '<a href="/signup/" data-nav="signup">회원가입</a>',
+      '<a href="/ops/" data-nav="ops">운영</a>',
+    ].join('');
+
+    // 기본적으로 운영은 숨김(관리자만 표시)
+    const ops = nav.querySelector('a[data-nav="ops"]');
+    if(ops) ops.style.display = 'none';
+  }
+
+
+
 
   function setActiveNav(){
     const path = window.location.pathname;
@@ -1586,6 +1611,11 @@ tr:nth-child(even) td{ background: rgba(255,255,255,0.02); }
       const name = (byId('sub-name')?.value||'').trim();
       const phone = (byId('sub-phone')?.value||'').trim();
       const email = (byId('sub-email')?.value||'').trim();
+
+    // ops(운영) 메뉴는 관리자만 표시
+    const aOps = nav.querySelector('a[data-nav=\"ops\"]') || nav.querySelector('a[href^=\"/ops\"]');
+    const isAdmin = isLoggedIn && detectIsAdmin(me);
+    if(aOps) aOps.style.display = isAdmin ? '' : 'none';
       const ok1 = !!byId('sub-ck-terms')?.checked;
       const ok2 = !!byId('sub-ck-privacy')?.checked;
       const ok3 = !!byId('sub-ck-refund')?.checked;
@@ -1907,6 +1937,7 @@ ${(String(mediaType||"")||"").startsWith("video/") ? `      <video controls play
 
 
 document.addEventListener('DOMContentLoaded', ()=>{
+    normalizeTopNav();
     setActiveNav();
     hydrateAuthNav();
     initTickerSearch();
