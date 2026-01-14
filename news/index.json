@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-14 15:40 KST",
+  "updated_at": "2026-01-14 16:02 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,34 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-14 15:57",
+      "title": "금에 가장 쉽게 투자하는 방법, 토큰화된 금 [엠블록레터]",
+      "url": "https://www.mk.co.kr/news/stock/11932928",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-14 15:56",
+      "title": "“주식 곱버스서 날렸는데 원유 인버스도, 어쩌나”…개미들 거꾸로 가다 ‘쪽박’",
+      "url": "https://www.mk.co.kr/news/stock/11932925",
+      "keywords_hit": [
+        "원유"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-14 15:44",
+      "title": "반도체·희토류 이어...미국 정부, 미사일 기업까지 '직접 투자'",
+      "url": "https://www.hankyung.com/article/202601140325i",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -349,37 +377,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-14 09:39",
-      "title": "월드클래스기업협회, CES 2026 참관 프로그램 진행",
-      "url": "https://www.hankyung.com/article/2026011493726",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-14 09:34",
       "title": "비트코인, 58일만에 9.6만彿 돌파 [매일코인]",
       "url": "https://www.mk.co.kr/news/stock/11932444",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-14 09:31",
-      "title": "우리투자증권, 금융업 특화 ‘AI 에이전트’ 개발…전사적 AX 추진",
-      "url": "https://www.mk.co.kr/news/stock/11932440",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-14 09:19",
-      "title": "한투운용 ‘KRX금현물 ETF’, 순자산액 4조원 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11932429",
       "keywords_hit": []
     }
   ]
