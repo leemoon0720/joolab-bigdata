@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-15 13:53 KST",
+  "updated_at": "2026-01-15 14:20 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,30 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 14:17",
+      "title": "월렛원, ‘헥토월렛원’으로 사명 변경...대표이사 신규 선임",
+      "url": "https://www.mk.co.kr/news/stock/11933919",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 14:05",
+      "title": "한투운용 K정책수혜목표전환 펀드, 목표수익률 조기 달성",
+      "url": "https://www.mk.co.kr/news/stock/11933899",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 13:57",
+      "title": "삼성전자 언제까지 오를까? 증권가가 보는 '분기점 신호'",
+      "url": "https://www.hankyung.com/article/202601152628i",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -105,7 +129,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-15 10:31",
-      "title": "\"불필요한 논란에 발목 잡힐 때 아냐\" 핀산협, 조각투자 인가 결정 촉구",
+      "title": "\"더 늦어지면 안 된다\" 핀산협, 조각투자 인가 결정 촉구",
       "url": "https://www.hankyung.com/article/2026011520136",
       "keywords_hit": []
     },
@@ -337,37 +361,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 08:38",
-      "title": "\"현대차, 6개월 안에 시총 110조 간다…목표가 대폭 상향\"-SK",
-      "url": "https://www.hankyung.com/article/2026011515836",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-15 08:30",
       "title": "“골든타임 놓치면 공멸”…핀산협 ‘조각투자 장외시장’ 인가 결단 촉구",
       "url": "https://www.mk.co.kr/news/stock/11933526",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 08:19",
-      "title": "“한화에어로스페이스, 불장 속 ‘방산 주도주’ 역할 톡톡”…목표가↑",
-      "url": "https://www.mk.co.kr/news/stock/11933521",
-      "keywords_hit": [
-        "방산"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 07:47",
-      "title": "‘M7’ 빅테크 일제히 약세, 뉴욕증시 나스닥 1% 하락 마감 [월가월부]",
-      "url": "https://www.mk.co.kr/news/stock/11933506",
       "keywords_hit": []
     }
   ]
