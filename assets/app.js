@@ -1873,7 +1873,7 @@ tr:nth-child(even) td{ background: rgba(255,255,255,0.02); }
       }
     });
 
-    // gate pay links
+    // gate pay links (auto-save from form if possible)
     qsa('a[href^="/pay/"]').forEach(a=>{
       a.addEventListener('click', (e)=>{
         let ok=false;
@@ -1881,6 +1881,26 @@ tr:nth-child(even) td{ background: rgba(255,255,255,0.02); }
           const v = JSON.parse(localStorage.getItem('jlab_sub_info')||'null');
           ok = !!(v && v.email && v.name && v.phone);
         }catch(err){ ok=false; }
+
+        // If not saved yet, but user already filled the form, save automatically.
+        if(!ok){
+          const name = (byId('sub-name')?.value||'').trim();
+          const phone = (byId('sub-phone')?.value||'').trim();
+          const email = (byId('sub-email')?.value||'').trim();
+          const ok1 = !!byId('sub-ck-terms')?.checked;
+          const ok2 = !!byId('sub-ck-privacy')?.checked;
+          const ok3 = !!byId('sub-ck-refund')?.checked;
+
+          if(name && phone && email && (ok1 && ok2 && ok3)){
+            try{
+              localStorage.setItem('jlab_sub_info', JSON.stringify({name, phone, email, at: new Date().toISOString(), auto:true}));
+              ok = true;
+            }catch(err2){
+              ok = false;
+            }
+          }
+        }
+
         if(!ok){
           e.preventDefault();
           alert('구독 정보 입력(이름/휴대폰/이메일/동의)을 먼저 완료하십시오.');
