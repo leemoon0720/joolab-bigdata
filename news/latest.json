@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-15 17:34 KST",
+  "updated_at": "2026-01-15 17:58 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,133 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 17:57",
+      "title": "코아스, 50억원 규모 유상증자 실시",
+      "url": "https://www.mk.co.kr/news/stock/11934322",
+      "keywords_hit": [
+        "증자"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 17:57",
+      "title": "엔케이맥스, 9억원 규모 유상증자 실시",
+      "url": "https://www.mk.co.kr/news/stock/11934321",
+      "keywords_hit": [
+        "증자"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 17:51",
+      "title": "[마켓칼럼]인공지능과 주식시장의 변동성",
+      "url": "https://www.hankyung.com/article/202601153589i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 17:50",
+      "title": "\"형님 같이 가요\"…현대차 따라가는 우선주·기아",
+      "url": "https://www.mk.co.kr/news/stock/11934305",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 17:50",
+      "title": "LS주주, 에식스 공모주 받는다",
+      "url": "https://www.mk.co.kr/news/stock/11934304",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 17:50",
+      "title": "코스피 10거래일째 최고치 … 신고가 10개중 6개 대형주",
+      "url": "https://www.mk.co.kr/news/stock/11934303",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 17:44",
+      "title": "산 넘어 산 MBK … 금감원 중징계시 타격",
+      "url": "https://www.mk.co.kr/news/stock/11934279",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 17:42",
+      "title": "'韓증시 복귀' RIA 계좌, 빠르면 2월부터 시행",
+      "url": "https://www.mk.co.kr/news/stock/11934262",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 17:40",
+      "title": "[마켓칼럼] 반도체株 담으면서 환헤지하는 외국인들…韓 증시 여전히 저평가",
+      "url": "https://www.hankyung.com/article/202601153428i",
+      "keywords_hit": [
+        "외국인",
+        "반도체"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 17:37",
+      "title": "[유가증권시장 공시] 대한조선 / 한화오션",
+      "url": "https://www.mk.co.kr/news/stock/11934241",
+      "keywords_hit": [
+        "공시",
+        "유가"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 17:37",
+      "title": "[코스닥 공시] 상상인 / 협진",
+      "url": "https://www.mk.co.kr/news/stock/11934242",
+      "keywords_hit": [
+        "코스닥",
+        "공시"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 17:37",
+      "title": "오늘의 증시 일정 (1월 16일)",
+      "url": "https://www.mk.co.kr/news/stock/11934243",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 17:37",
+      "title": "\"바이낸스·바이비트 막히나요\" 구글 정책변경에 투자자 혼란",
+      "url": "https://www.mk.co.kr/news/stock/11934239",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 17:37",
+      "title": "주가 상승의 역설…순익 까먹는 '성과보상'",
+      "url": "https://www.mk.co.kr/news/stock/11934238",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -203,25 +330,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 15:51",
-      "title": "미래에셋운용, TIGER200 ETF 순자산 5.2조 돌파…역대 최고치 경신",
-      "url": "https://www.mk.co.kr/news/stock/11934032",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 15:48",
-      "title": "‘열흘째 상승’ 코스피, 4800선 문턱 마감…코스닥도 올라",
-      "url": "https://www.mk.co.kr/news/stock/11934021",
-      "keywords_hit": [
-        "코스피",
-        "코스닥"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-15 15:34",
@@ -242,53 +350,11 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 15:34",
-      "title": "“창립 행사 대신 온수매트 기부”…코리아에셋투자증권의 남다른 ‘생일’",
-      "url": "https://www.mk.co.kr/news/stock/11934005",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 15:33",
-      "title": "초판 공시",
-      "url": "https://www.mk.co.kr/news/stock/11934003",
-      "keywords_hit": [
-        "공시"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 15:12",
-      "title": "NH아문디운용 ‘성장코리아 목표전환형 펀드’, 목표 수익률 7% 달성",
-      "url": "https://www.mk.co.kr/news/stock/11933994",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-15 15:00",
       "title": "\"오를 건 알았지만 이럴 줄은\"…'우주패권 전쟁'에 불기둥 [종목+]",
       "url": "https://www.hankyung.com/article/202601152675i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 14:17",
-      "title": "월렛원, ‘헥토월렛원’으로 사명 변경...대표이사 신규 선임",
-      "url": "https://www.mk.co.kr/news/stock/11933919",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 14:05",
-      "title": "한투운용 K정책수혜목표전환 펀드, 목표수익률 조기 달성",
-      "url": "https://www.mk.co.kr/news/stock/11933899",
       "keywords_hit": []
     },
     {
@@ -305,64 +371,6 @@
       "published_at": "2026-01-15 13:42",
       "title": "[마켓PRO] \"웨이모에 뒤처져\" 평가에도…서학개미, 테슬라 반등에 베팅",
       "url": "https://www.hankyung.com/article/202601152582i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 13:30",
-      "title": "[마켓PRO] “D램 공급부족 되레 심화”…고수들, 다시 삼성전자 '사자'",
-      "url": "https://www.hankyung.com/article/202601152494i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 13:00",
-      "title": "\"우린 유통주 아냐\" 월마트의 파격…주가 대박 '환호' 터졌다 [양지윤의 니가가라 나스닥]",
-      "url": "https://www.hankyung.com/article/202601151984i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 11:17",
-      "title": "서울대기술지주, 초등 돌봄 스타트업 ‘아워스팟’ 투자",
-      "url": "https://www.mk.co.kr/news/stock/11933777",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 11:12",
-      "title": "KKR, 25억달러 규모 아시아 사모 크레딧 펀드 조성",
-      "url": "https://www.mk.co.kr/news/stock/11933768",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 10:47",
-      "title": "주식 초고수, 로봇주 또 담았다 [주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11933710",
-      "keywords_hit": [
-        "로봇"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 10:44",
-      "title": "“미국 기술주 힘 못쓰니 어쩔수 없지”…삼성전자·하이닉스 동반 하락",
-      "url": "https://www.mk.co.kr/news/stock/11933706",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 10:18",
-      "title": "한화 두글자 붙으면 주가 날아간다…갤러리아 또 ‘상한가 불기둥’",
-      "url": "https://www.mk.co.kr/news/stock/11933640",
       "keywords_hit": []
     }
   ]
