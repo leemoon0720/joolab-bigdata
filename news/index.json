@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-16 06:00 KST",
+  "updated_at": "2026-01-16 06:30 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,22 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 06:09",
+      "title": "돌아온 서학개미에 양도세 감면…RIA 계좌, 빠르면 2월부터 시행",
+      "url": "https://www.mk.co.kr/news/economy/11934653",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 06:03",
+      "title": "“주가 급등에 어닝쇼크 옵니다”…웃어야 할 기업들 등골 휘는 이유는?",
+      "url": "https://www.mk.co.kr/news/stock/11934644",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -159,6 +175,17 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-15 17:37",
+      "title": "[유가증권시장 공시] LS",
+      "url": "https://www.mk.co.kr/news/stock/11934241",
+      "keywords_hit": [
+        "공시",
+        "유가"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 17:37",
       "title": "오늘의 증시일정(1월 16일)",
       "url": "https://www.mk.co.kr/news/stock/11934243",
       "keywords_hit": []
@@ -172,17 +199,6 @@
       "keywords_hit": [
         "코스닥",
         "공시"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 17:37",
-      "title": "[유가증권시장 공시] LS",
-      "url": "https://www.mk.co.kr/news/stock/11934241",
-      "keywords_hit": [
-        "공시",
-        "유가"
       ]
     },
     {
@@ -316,22 +332,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 16:22",
-      "title": "페이코인, 서울랜드 결제 오픈",
-      "url": "https://www.mk.co.kr/news/stock/11934102",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 16:21",
-      "title": "대신증권, ‘온라인 채권 타임딜’ 출시",
-      "url": "https://www.mk.co.kr/news/stock/11934101",
-      "keywords_hit": []
     },
     {
       "source": "HK",
