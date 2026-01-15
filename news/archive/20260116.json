@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-16 08:16 KST",
+  "updated_at": "2026-01-16 08:35 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,6 +23,62 @@
   "count": 40,
   "items": [
     {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 08:23",
+      "title": "\"대한항공, 아시아나항공 실적 악화 부담…목표가↓\"-NH",
+      "url": "https://www.hankyung.com/article/2026011641546",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 08:22",
+      "title": "\"HD현대일렉트릭, 이익 개선 사이클 이어질 것…목표가↑\"-한국",
+      "url": "https://www.hankyung.com/article/2026011641566",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 08:20",
+      "title": "\"키움증권, '불장' 속 주요 사업부문에 온기…목표가 상향\"-한국",
+      "url": "https://www.hankyung.com/article/2026011641226",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 08:20",
+      "title": "\"SK텔레콤, 올해 실적·배당 정상화 전망\"-SK",
+      "url": "https://www.hankyung.com/article/2026011641356",
+      "keywords_hit": [
+        "실적",
+        "배당"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 08:17",
+      "title": "\"오래 기다렸다\"…BTS 역대급 투어에 하이브 개미 '환호' [종목+]",
+      "url": "https://www.hankyung.com/article/2026011640746",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 08:12",
+      "title": "코스피 4800선 돌파 코앞…반도체 온기 확산되나 [오늘장 미리보기]",
+      "url": "https://www.hankyung.com/article/202601164026i",
+      "keywords_hit": [
+        "코스피",
+        "반도체"
+      ]
+    },
+    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-16 08:10",
@@ -31,6 +87,14 @@
       "keywords_hit": [
         "코스피"
       ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 08:09",
+      "title": "TSMC의 거품 반박 \"수요 다 확인\"…클로드 충격, 언제까지 [김현석의 월스트리트나우]",
+      "url": "https://www.hankyung.com/article/202601164008i",
+      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -319,68 +383,6 @@
       "title": "한국은행, 주요 품목별 수출경쟁력 평가",
       "url": "https://www.hankyung.com/article/2026011533631",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 17:00",
-      "title": "KCGI자산운용, 휴면계좌 투자지원금 이벤트 진행",
-      "url": "https://www.hankyung.com/article/202601153317i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 16:58",
-      "title": "美·中 우주서 한판 붙는다…중궈웨이싱 한 달 125% 폭등",
-      "url": "https://www.hankyung.com/article/2026011533181",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 16:58",
-      "title": "월마트, 시총 1조弗 가입 유력",
-      "url": "https://www.hankyung.com/article/2026011533191",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 16:57",
-      "title": "AI 시대, 분석 비용 낮아져…판단력이 중요",
-      "url": "https://www.hankyung.com/article/2026011533201",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 15:59",
-      "title": "정은보 거래소 이사장, '청소년 도박 근절 캠페인' 동참",
-      "url": "https://www.hankyung.com/article/2026011531096",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 15:34",
-      "title": "[속보] '지붕킥' 코스피, 또 사상 최고치 마감…4800선 고지 눈앞",
-      "url": "https://www.hankyung.com/article/2026011529826",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 15:34",
-      "title": "\"떨어질 줄 몰랐어요\"…네이버 'AI 국대' 탈락에 개미들 '눈물'",
-      "url": "https://www.hankyung.com/article/202601152915i",
-      "keywords_hit": [
-        "AI"
-      ]
     }
   ]
 }
