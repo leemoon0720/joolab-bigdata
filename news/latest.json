@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-16 08:48 KST",
+  "updated_at": "2026-01-16 08:57 KST",
   "sources": [
     {
       "id": "HK",
@@ -39,6 +39,14 @@
       "keywords_hit": [
         "실적"
       ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 08:40",
+      "title": "\"삼성중공업, 美 조선 협력 구도 진전…목표가↑\"-상상인",
+      "url": "https://www.hankyung.com/article/2026011641716",
+      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -374,14 +382,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 17:04",
-      "title": "370조원 시장 열린다…토큰증권 법안, 국회 본회의 통과",
-      "url": "https://www.hankyung.com/article/202601152959g",
-      "keywords_hit": []
     }
   ]
 }
