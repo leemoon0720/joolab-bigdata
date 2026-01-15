@@ -379,3 +379,18 @@ body{background:#f6f7fb;}
 .card,.panel,.tile,.box{border-radius:18px;}
 .btn-primary{background:var(--jlab-accent);}
 .badge-accent{background:linear-gradient(90deg,var(--jlab-accent),var(--jlab-accent2));}
+
+/* ===== JLAB Theme v2 (Less white, more depth) ===== */
+:root{
+  --bg:#F1F5F9;                 /* 배경을 완전 흰색에서 살짝 빼서 눈부심 감소 */
+  --panel:#FFFFFF;
+  --line:rgba(148,163,184,.38); /* 경계선 대비 소폭 ↑ */
+  --shadow: 0 1px 2px rgba(15,23,42,.06), 0 12px 32px rgba(15,23,42,.10);
+  --shadow2: 0 1px 2px rgba(15,23,42,.05), 0 8px 24px rgba(15,23,42,.08);
+}
+body{background:var(--bg);} 
+.topbar{background:rgba(248,250,252,.92); backdrop-filter: blur(8px);} 
+.hero,.card,.item,.input,.chip,.mchip,.nav a{box-shadow:var(--shadow);} 
+.nav a,.chip,.mchip{background:rgba(255,255,255,.92);} 
+.hero,.card,.item,.input{background:rgba(255,255,255,.94);} 
+.nav a:hover,.chip:hover,.mchip:hover{background:rgba(241,245,249,.90);} 
