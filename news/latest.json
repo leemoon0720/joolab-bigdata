@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-15 21:18 KST",
+  "updated_at": "2026-01-15 22:10 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,32 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 22:04",
+      "title": "신세계, 역삼 센터필드 매각 추진에 발끈한 이유...“랜드마크 호텔도 있는데”",
+      "url": "https://www.mk.co.kr/news/business/11934512",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 22:00",
+      "title": "'최고가' 삼성전자·현대차 못 샀다?…\"저평가 우선주 노려라\" [분석+]",
+      "url": "https://www.hankyung.com/article/2026011531386",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 21:19",
+      "title": "“이쯤되니 무서워지는데”…새해들어 열흘째 기록경신 중인 코스피",
+      "url": "https://www.mk.co.kr/news/stock/11934485",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -308,22 +334,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 16:10",
-      "title": "‘367조 STO 머니무브’…토큰증권법 국회 본회의 통과",
-      "url": "https://www.mk.co.kr/news/stock/11934087",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 16:08",
-      "title": "17분간 종목·잔고 조회 ‘먹통’…토스증권, 간밤 MTS 오류",
-      "url": "https://www.mk.co.kr/news/stock/11934086",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-15 15:59",
@@ -365,14 +375,6 @@
       "published_at": "2026-01-15 13:57",
       "title": "'5만원→14만원' 엄청 뛰었는데…삼성전자 주가 전망에 '깜짝'",
       "url": "https://www.hankyung.com/article/202601152628i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 13:42",
-      "title": "[마켓PRO] \"웨이모에 뒤처져\" 평가에도…서학개미, 테슬라 반등에 베팅",
-      "url": "https://www.hankyung.com/article/202601152582i",
       "keywords_hit": []
     }
   ]
