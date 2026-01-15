@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-16 07:54 KST",
+  "updated_at": "2026-01-16 08:16 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,42 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 08:10",
+      "title": "열흘째 ‘불기둥’ 코스피…오늘 상승세로 4800선 넘길까",
+      "url": "https://www.mk.co.kr/news/stock/11934713",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 08:05",
+      "title": "“한화오션, 美 방위비 증대에 실적·주가 전망 쑥”…목표가↑",
+      "url": "https://www.mk.co.kr/news/stock/11934711",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 08:02",
+      "title": "\"한화오션, 美 방위비 증대 기대 속 큰 수혜…목표가 상향\"-대신",
+      "url": "https://www.hankyung.com/article/2026011640836",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 08:00",
+      "title": "26살 늦깎이 대학 신입생에서 ‘연금전도사’로…구독자 100만 유튜버가 말하는 100세 시대 대비법  [김유신의 딥 머니 토크]",
+      "url": "https://www.mk.co.kr/news/world/11934080",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -141,16 +177,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-15 17:50",
-      "title": "LS주주, 에식스 공모주 받는다",
-      "url": "https://www.mk.co.kr/news/stock/11934304",
+      "title": "\"형님 같이 가요\"…현대차 주가 따라가는 기아",
+      "url": "https://www.mk.co.kr/news/stock/11934305",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-15 17:50",
-      "title": "\"형님 같이 가요\"…현대차 주가 따라가는 기아",
-      "url": "https://www.mk.co.kr/news/stock/11934305",
+      "title": "LS주주, 에식스 공모주 받는다",
+      "url": "https://www.mk.co.kr/news/stock/11934304",
       "keywords_hit": []
     },
     {
@@ -197,14 +233,6 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-15 17:37",
-      "title": "오늘의 증시일정(1월 16일)",
-      "url": "https://www.mk.co.kr/news/stock/11934243",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 17:37",
       "title": "[코스닥 공시] 티에스아이 / 상상인 / 협진",
       "url": "https://www.mk.co.kr/news/stock/11934242",
       "keywords_hit": [
@@ -216,16 +244,8 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-15 17:37",
-      "title": "\"바이낸스 다운로드 막히나요\"…구글 정책변경에 투자자 혼란",
-      "url": "https://www.mk.co.kr/news/stock/11934239",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 17:37",
-      "title": "주가 상승의 역설…순익 까먹는 '성과보상'",
-      "url": "https://www.mk.co.kr/news/stock/11934238",
+      "title": "오늘의 증시일정(1월 16일)",
+      "url": "https://www.mk.co.kr/news/stock/11934243",
       "keywords_hit": []
     },
     {
@@ -335,16 +355,6 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 16:25",
-      "title": "코스피 연일 새 기록에도…신고가는 100위권 대형주만",
-      "url": "https://www.mk.co.kr/news/stock/11934112",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-15 15:59",
@@ -371,14 +381,6 @@
       "keywords_hit": [
         "AI"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 15:00",
-      "title": "\"오를 건 알았지만 이럴 줄은\"…'우주패권 전쟁'에 불기둥 [종목+]",
-      "url": "https://www.hankyung.com/article/202601152675i",
-      "keywords_hit": []
     }
   ]
 }
