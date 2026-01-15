@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-15 15:37 KST",
+  "updated_at": "2026-01-15 16:00 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,61 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 16:00",
+      "title": "대통령 체포 소식에 수익률 ‘껑충’ ETF 5종…만들어주고 밀어준 이는 현직 대통령 [매일 돈이 보이는 습관 M+]",
+      "url": "https://www.mk.co.kr/news/stock/11934035",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 15:58",
+      "title": "토종 블록체인 ‘카이아’...日 최대 토큰증권 컨소 합류",
+      "url": "https://www.mk.co.kr/news/stock/11934042",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 15:51",
+      "title": "미래에셋운용, TIGER200 ETF 순자산 5.2조 돌파…역대 최고치 경신",
+      "url": "https://www.mk.co.kr/news/stock/11934032",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 15:48",
+      "title": "‘열흘째 상승’ 코스피, 4800선 문턱 마감…코스닥도 올라",
+      "url": "https://www.mk.co.kr/news/stock/11934021",
+      "keywords_hit": [
+        "코스피",
+        "코스닥"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 15:34",
+      "title": "[속보] '지붕킥' 코스피, 또 사상 최고치 마감…4800선 고지 눈앞",
+      "url": "https://www.hankyung.com/article/2026011529826",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 15:34",
+      "title": "\"발표만 기다렸는데\"…'AI 국대' 탈락에 네이버 개미들 '눈물'",
+      "url": "https://www.hankyung.com/article/202601152915i",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -271,14 +326,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 09:46",
-      "title": "디지털자산 혁신인가 족쇄인가…美 상원 ‘클래리티 법안’ 해부",
-      "url": "https://www.mk.co.kr/news/stock/11933605",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-15 09:37",
@@ -305,24 +352,6 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 09:21",
-      "title": "코스피, 4710.28 하락 출발 후 상승 전환…미 기술주 약세 영향",
-      "url": "https://www.mk.co.kr/news/stock/11933584",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 09:18",
-      "title": "“이자는 내가 챙겨야”....美 은행과 코인거래소 전면전에 클래리티법안 좌초 위기",
-      "url": "https://www.mk.co.kr/news/stock/11933578",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-15 09:17",
@@ -341,32 +370,6 @@
       "keywords_hit": [
         "바이오"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 09:08",
-      "title": "[속보] 코스피, 장 초반 상승 전환 사상 최고가 경신…4730선 돌파",
-      "url": "https://www.hankyung.com/article/2026011517346",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 09:04",
-      "title": "\"코세스, 고객사로 블룸에너지 확보…현저한 저평가\"-키움",
-      "url": "https://www.hankyung.com/article/2026011517356",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 09:00",
-      "title": "“국내 30조 주식갑부 곧 나올듯”…이재용 삼성 회장 사상 첫 28.5조 넘어",
-      "url": "https://www.mk.co.kr/news/economy/11933551",
-      "keywords_hit": []
     }
   ]
 }
