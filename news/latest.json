@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-15 14:57 KST",
+  "updated_at": "2026-01-15 15:37 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,40 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 15:34",
+      "title": "“창립 행사 대신 온수매트 기부”…코리아에셋투자증권의 남다른 ‘생일’",
+      "url": "https://www.mk.co.kr/news/stock/11934005",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 15:33",
+      "title": "초판 공시",
+      "url": "https://www.mk.co.kr/news/stock/11934003",
+      "keywords_hit": [
+        "공시"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 15:12",
+      "title": "NH아문디운용 ‘성장코리아 목표전환형 펀드’, 목표 수익률 7% 달성",
+      "url": "https://www.mk.co.kr/news/stock/11933994",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 15:00",
+      "title": "\"오를 건 알았지만 이럴 줄은\"…'우주패권 전쟁'에 불기둥 [종목+]",
+      "url": "https://www.hankyung.com/article/202601152675i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -332,40 +366,6 @@
       "published_at": "2026-01-15 09:00",
       "title": "“국내 30조 주식갑부 곧 나올듯”…이재용 삼성 회장 사상 첫 28.5조 넘어",
       "url": "https://www.mk.co.kr/news/economy/11933551",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 08:52",
-      "title": "신영증권 “현대건설, 신규 프로젝트 논의 활발…이익 개선 이어질 것”",
-      "url": "https://www.mk.co.kr/news/stock/11933543",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 08:45",
-      "title": "\"하이브, BTS 초대형 월드투어로 실적 개선 기대…목표가↑\"-LS",
-      "url": "https://www.hankyung.com/article/2026011516826",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 08:40",
-      "title": "“목표주가 50% 올립니다”…‘인적분할’ 한화 줄상향 [오늘 나온 보고서]",
-      "url": "https://www.mk.co.kr/news/stock/11933535",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 08:30",
-      "title": "“골든타임 놓치면 공멸”…핀산협 ‘조각투자 장외시장’ 인가 결단 촉구",
-      "url": "https://www.mk.co.kr/news/stock/11933526",
       "keywords_hit": []
     }
   ]
