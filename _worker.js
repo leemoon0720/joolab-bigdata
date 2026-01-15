@@ -850,6 +850,81 @@ async function handleSignupRequest(request, env){
   return jsonResp({ok:true}, 200);
 }
 
+
+
+// ==============================
+// RSS proxy (Infomax) - JSON output
+// - 목적: 브라우저에서 RSS 직접 호출 시 CORS 차단을 회피하기 위해 /api/rss 제공
+// - 허용: https://news.einfomax.co.kr/rss/*
+// ==============================
+function stripCdata(s){
+  if(!s) return '';
+  return String(s).replace(/<!\[CDATA\[/g,'').replace(/\]\]>/g,'').trim();
+}
+function extractTag(block, tag){
+  const re = new RegExp(`<${tag}[^>]*>([\s\S]*?)<\/${tag}>`, 'i');
+  const m = String(block||'').match(re);
+  return m ? stripCdata(m[1]) : '';
+}
+function parseRssItems(xml, limit){
+  const out = [];
+  const s = String(xml||'');
+  const reItem = /<item>[\s\S]*?<\/item>/gi;
+  let m;
+  while((m = reItem.exec(s)) !== null){
+    const it = m[0];
+    const title = extractTag(it, 'title');
+    const link  = extractTag(it, 'link');
+    const desc  = extractTag(it, 'description');
+    const pub   = extractTag(it, 'pubDate');
+    if(title || link){
+      out.push({'title': title, 'link': link, 'description': desc, 'pubDate': pub});
+    }
+    if(out.length >= limit) break;
+  }
+  return out;
+}
+async function handleRssProxy(request){
+  const u = new URL(request.url);
+  const feed = (u.searchParams.get('u')||'').trim();
+  let limit = parseInt(u.searchParams.get('limit')||'10', 10);
+  if(!limit || limit < 1) limit = 10;
+  if(limit > 50) limit = 50;
+  if(!feed) return jsonResp({ok:false, error:'MISSING_URL'}, 200, {'access-control-allow-origin':'*'});
+
+  let feedUrl = feed;
+  try{
+    const fu = new URL(feedUrl);
+    const okHost = (fu.hostname === 'news.einfomax.co.kr');
+    const okPath = fu.pathname && fu.pathname.startsWith('/rss/');
+    if(!okHost || !okPath) throw new Error('DENY');
+  }catch(e){
+    return jsonResp({ok:false, error:'DENY'}, 200, {'access-control-allow-origin':'*'});
+  }
+
+  const cache = caches.default;
+  const cacheKey = new Request(u.origin + '/api/rss?u=' + encodeURIComponent(feedUrl) + '&limit=' + String(limit), {method:'GET'});
+  const cached = await cache.match(cacheKey);
+  if(cached) return cached;
+
+  try{
+    const xml = await fetchText(feedUrl);
+    const items = parseRssItems(xml, limit);
+    const body = JSON.stringify({ok:true, updated_at:new Date().toISOString(), source: feedUrl, items});
+    const res = new Response(body, {
+      status: 200,
+      headers: {
+        'content-type': 'application/json; charset=utf-8',
+        'cache-control': 'public, max-age=0, s-maxage=600, stale-while-revalidate=600',
+        'access-control-allow-origin': '*'
+      }
+    });
+    await cache.put(cacheKey, res.clone());
+    return res;
+  }catch(e){
+    return jsonResp({ok:false, error:String(e && e.message ? e.message : e)}, 200, {'access-control-allow-origin':'*'});
+  }
+}
 // ==============================
 // YouTube RSS (latest 1)
 // ==============================
@@ -884,6 +959,13 @@ async function handleYouTubeLatest(){
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
+
+    // ==============================
+    // RSS Proxy (Public)
+    // ==============================
+    if (url.pathname === '/api/rss') {
+      return await handleRssProxy(request);
+    }
 
     // ==============================
     // Auth API

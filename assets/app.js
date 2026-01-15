@@ -602,57 +602,30 @@
             </div>
           `;
         }).join('');
-        // Themes (keywords_hit + fallback)
-        const box = byId('home-themes');
-        if(box){
-          const cnt = {};
-          const stop = new Set(['그리고','하지만','오늘','내일','어제','관련','기반','대한','통해','확인','발표','전망','가능','이상','이하','등','및','에서','으로','했다','합니다','the','and','for','with','from','this','that','will','were','are','was','into','over','under']);
-          const add = (k)=>{
-            if(!k) return;
-            k = String(k).trim();
-            if(!k) return;
-            if(stop.has(k)) return;
-            // 너무 긴 문구/숫자 단독 제거
-            if(k.length > 12) return;
-            if(/^[0-9]+$/.test(k)) return;
-            cnt[k] = (cnt[k]||0) + 1;
-          };
-          const addFromText = (t)=>{
-            if(!t) return;
-            const s = String(t)
-              .replace(/[\[\]{}()<>“”‘’"'`]/g,' ')
-              .replace(/[^0-9A-Za-z가-힣\s\-\/]/g,' ')
-              .replace(/\s+/g,' ')
-              .trim();
-            if(!s) return;
-            s.split(' ').forEach(w=>{
-              const ww = w.trim();
-              if(!ww) return;
-              // 한글 2글자 이상, 영문/숫자 혼합 토큰 허용(예: IPO, AI, M&A)
-              if(/^[가-힣]{2,}$/.test(ww) || /^[A-Za-z][A-Za-z0-9&\-\/]{1,10}$/.test(ww)){
-                add(ww.toUpperCase() === ww ? ww : ww);
-              }
-            });
-          };
-          (data.items||[]).forEach(it=>{
-            // 명시 키워드/태그 우선
-            [it.keywords_hit, it.keywords, it.tags, it.themes].forEach(arr=>{
-              if(Array.isArray(arr)) arr.forEach(add);
-            });
-            if(it.theme) add(it.theme);
-            // 제목/요약 기반 폴백
-            addFromText((it.title||it.headline||'') + ' ' + (it.summary||it.desc||it.description||''));
-          });
-          let top = Object.entries(cnt).sort((a,b)=>b[1]-a[1]).slice(0,12);
-          if(!top.length){
-            const defaults = ['코스피','코스닥','IPO','상장','AI','증자','바이오','반도체','M&A'];
-            top = defaults.map(k=>[k,'']);
+        // Infomax RSS TOP10 (popular)
+        const infobox = byId('home-infomax');
+        if(infobox){
+          try{
+            const feed = 'https://news.einfomax.co.kr/rss/clickTop.xml';
+            const rss = await fetchJSON('/api/rss?u=' + encodeURIComponent(feed) + '&limit=10');
+            const items2 = (rss && rss.items) ? rss.items.slice(0,10) : [];
+            infobox.innerHTML = items2.length ? items2.map(it=>{
+              const title = it.title || '(제목 없음)';
+              const time = it.published_at || it.pubDate || it.time || '';
+              const link = it.link || it.url || '#';
+              return `
+                <div class="item">
+                  <div>
+                    <div class="title">${esc(title)}</div>
+                    <div class="meta">인포맥스 · ${esc(fmtTime(time))}</div>
+                  </div>
+                  <div class="right"><a href="${esc(link)}" target="_blank" rel="noopener">원문</a></div>
+                </div>
+              `;
+            }).join('') : `<div class="item"><div><div class="title">표시할 기사가 없습니다.</div><div class="meta">RSS 피드 확인</div></div></div>`;
+          }catch(err){
+            infobox.innerHTML = `<div class="item"><div><div class="title">인포맥스 RSS를 불러오지 못했습니다.</div><div class="meta">/api/rss 확인</div></div></div>`;
           }
-          box.innerHTML = top.map(([k,n])=>{
-            const q = encodeURIComponent(k);
-            const c = n ? ` <span style="opacity:.65;">${n}</span>` : '';
-            return `<a class="chip" href="/news/?q=${q}">${esc(k)}${c}</a>`;
-          }).join('');
         }
       }catch(e){
         homeNews.innerHTML = `<div class="item"><div><div class="title">뉴스 데이터를 불러오지 못했습니다.</div><div class="meta">/news/latest.json 확인</div></div></div>`;
