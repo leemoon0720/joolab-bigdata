@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-16 08:35 KST",
+  "updated_at": "2026-01-16 08:48 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,32 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 08:45",
+      "title": "국가대표 가슴에 ‘업비트’ 단다…대한체육회와 맞손",
+      "url": "https://www.mk.co.kr/news/stock/11934734",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 08:44",
+      "title": "中 여행객 증가에 화물 업황까지...대한항공 호실적에 목표가 ‘쑥’ [오늘 나온 보고서]",
+      "url": "https://www.mk.co.kr/news/stock/11934733",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 08:30",
+      "title": "[마켓PRO] Today's Pick : \"HD현대일렉트릭, 110만원 간다...북미·유럽 꾸준한 수주\"",
+      "url": "https://www.hankyung.com/article/202601164058i",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -213,8 +239,8 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-15 17:57",
-      "title": "엔케이맥스, 9억원 규모 유상증자 실시",
-      "url": "https://www.mk.co.kr/news/stock/11934321",
+      "title": "코아스, 50억원 규모 유상증자 실시",
+      "url": "https://www.mk.co.kr/news/stock/11934322",
       "keywords_hit": [
         "증자"
       ]
@@ -223,8 +249,8 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-15 17:57",
-      "title": "코아스, 50억원 규모 유상증자 실시",
-      "url": "https://www.mk.co.kr/news/stock/11934322",
+      "title": "엔케이맥스, 9억원 규모 유상증자 실시",
+      "url": "https://www.mk.co.kr/news/stock/11934321",
       "keywords_hit": [
         "증자"
       ]
@@ -241,16 +267,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-15 17:50",
-      "title": "\"형님 같이 가요\"…현대차 주가 따라가는 기아",
-      "url": "https://www.mk.co.kr/news/stock/11934305",
+      "title": "LS주주, 에식스 공모주 받는다",
+      "url": "https://www.mk.co.kr/news/stock/11934304",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-15 17:50",
-      "title": "LS주주, 에식스 공모주 받는다",
-      "url": "https://www.mk.co.kr/news/stock/11934304",
+      "title": "\"형님 같이 가요\"…현대차 주가 따라가는 기아",
+      "url": "https://www.mk.co.kr/news/stock/11934305",
       "keywords_hit": []
     },
     {
@@ -292,25 +318,6 @@
         "공시",
         "유가"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 17:37",
-      "title": "[코스닥 공시] 티에스아이 / 상상인 / 협진",
-      "url": "https://www.mk.co.kr/news/stock/11934242",
-      "keywords_hit": [
-        "코스닥",
-        "공시"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 17:37",
-      "title": "오늘의 증시일정(1월 16일)",
-      "url": "https://www.mk.co.kr/news/stock/11934243",
-      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -374,14 +381,6 @@
       "published_at": "2026-01-15 17:04",
       "title": "370조원 시장 열린다…토큰증권 법안, 국회 본회의 통과",
       "url": "https://www.hankyung.com/article/202601152959g",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 17:03",
-      "title": "한국은행, 주요 품목별 수출경쟁력 평가",
-      "url": "https://www.hankyung.com/article/2026011533631",
       "keywords_hit": []
     }
   ]
