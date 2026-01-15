@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-15 18:32 KST",
+  "updated_at": "2026-01-15 18:52 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,24 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 18:35",
+      "title": "“신고 안된 해외 코인앱 다 퇴출시킬 것”...구글 초강수 둔다",
+      "url": "https://www.mk.co.kr/news/stock/11934332",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 18:34",
+      "title": "EY한영 “CFO·세무 임원 86%, AI로 2년 내 효율성 30% 오를듯”",
+      "url": "https://www.mk.co.kr/news/stock/11934331",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -54,16 +72,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-15 17:50",
-      "title": "\"형님 같이 가요\"…현대차 따라가는 우선주·기아",
-      "url": "https://www.mk.co.kr/news/stock/11934305",
+      "title": "LS주주, 에식스 공모주 받는다",
+      "url": "https://www.mk.co.kr/news/stock/11934304",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-15 17:50",
-      "title": "LS주주, 에식스 공모주 받는다",
-      "url": "https://www.mk.co.kr/news/stock/11934304",
+      "title": "\"형님 같이 가요\"…현대차 따라가는 우선주·기아",
+      "url": "https://www.mk.co.kr/news/stock/11934305",
       "keywords_hit": []
     },
     {
@@ -306,27 +324,11 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 16:00",
-      "title": "대통령 체포 소식에 수익률 ‘껑충’ ETF 5종…만들어주고 밀어준 이는 현직 대통령 [매일 돈이 보이는 습관 M+]",
-      "url": "https://www.mk.co.kr/news/stock/11934035",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-15 15:59",
       "title": "정은보 거래소 이사장, '청소년 도박 근절 캠페인' 동참",
       "url": "https://www.hankyung.com/article/2026011531096",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 15:58",
-      "title": "토종 블록체인 ‘카이아’...日 최대 토큰증권 컨소 합류",
-      "url": "https://www.mk.co.kr/news/stock/11934042",
       "keywords_hit": []
     },
     {
