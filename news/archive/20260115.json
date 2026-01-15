@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-15 12:10 KST",
+  "updated_at": "2026-01-15 13:12 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 13:00",
+      "title": "\"유통주 아닌 기술주\"...'나스닥100' 편입 월마트, 시총 1조弗 눈앞 [양지윤의 니가가라 나스닥]",
+      "url": "https://www.hankyung.com/article/202601151984i",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -334,14 +342,6 @@
       "published_at": "2026-01-15 08:32",
       "title": "\"너무 재밌네요\"…요즘 '이 드라마' 난리 나더니 개미들 신났다 [종목+]",
       "url": "https://www.hankyung.com/article/2026011515126",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 08:30",
-      "title": "\"한화, 인적분할로 NAV 할인율 낮아질 것…목표가↑\"-삼성",
-      "url": "https://www.hankyung.com/article/2026011516236",
       "keywords_hit": []
     },
     {
