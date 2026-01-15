@@ -84,9 +84,22 @@
         <div class="card-cta"><a href="/news/">뉴스센터로</a></div>
       </div>
 
-      <div class="card home-card" style="grid-column: span 6;">
-        <div class="card-top"><h3>빅데이터 최신 12건</h3><span class="badge live">POST</span></div>
-        <div id="home-bigdata" class="list list-compact"></div>
+      <div class="card home-card" style="grid-column: span 12;">
+        <div class="card-top"><h3>빅데이터 최신</h3><span class="badge live">CATEGORIES</span></div>
+        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:12px;">
+          <div>
+            <div class="small" style="font-weight:700; margin:2px 0 6px;">강한종목</div>
+            <div id="home-bigdata-strong" class="list list-compact"></div>
+          </div>
+          <div>
+            <div class="small" style="font-weight:700; margin:2px 0 6px;">매집종목</div>
+            <div id="home-bigdata-accum" class="list list-compact"></div>
+          </div>
+          <div>
+            <div class="small" style="font-weight:700; margin:2px 0 6px;">수상해수상해</div>
+            <div id="home-bigdata-suspicious" class="list list-compact"></div>
+          </div>
+        </div>
         <div class="card-cta"><a href="/data/">더보기</a></div>
       </div>
 

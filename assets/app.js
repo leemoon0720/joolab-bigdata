@@ -659,9 +659,66 @@
       }
     }
 
-    // Bigdata latest 12
-    const homeBD = byId('home-bigdata');
-    if(homeBD){
+    // Bigdata home (category 3 x 4)
+    const bdStrong = byId('home-bigdata-strong');
+    const bdAccum = byId('home-bigdata-accum');
+    const bdSusp = byId('home-bigdata-suspicious');
+    const homeBD = byId('home-bigdata'); // legacy
+
+    async function fetchPostList(category, limit){
+      const u = `/api/posts/list?category=${encodeURIComponent(category)}&region=ALL&limit=${encodeURIComponent(String(limit||4))}`;
+      return await fetchJSON(u);
+    }
+
+    // New layout: 3 columns (strong/accum/suspicious)
+    if(bdStrong || bdAccum || bdSusp){
+      try{
+        const [jStrong, jAccum, jSusp] = await Promise.all([
+          fetchPostList('strong', 4),
+          fetchPostList('accum', 4),
+          fetchPostList('suspicious', 4),
+        ]);
+
+        const strongItems = (jStrong && jStrong.items) ? jStrong.items.slice(0,4) : [];
+        const accumItems  = (jAccum && jAccum.items) ? jAccum.items.slice(0,4) : [];
+        const suspItems   = (jSusp  && jSusp.items)  ? jSusp.items.slice(0,4)  : [];
+
+        if(bdStrong) bdStrong.innerHTML = strongItems.length
+          ? strongItems.map(m=>renderMetaItem(m)).join('')
+          : `<div class="item"><div><div class="title">게시글이 없습니다.</div><div class="meta">강한종목 업로드 후 표시됩니다.</div></div></div>`;
+
+        if(bdAccum) bdAccum.innerHTML = accumItems.length
+          ? accumItems.map(m=>renderMetaItem(m)).join('')
+          : `<div class="item"><div><div class="title">게시글이 없습니다.</div><div class="meta">매집종목 업로드 후 표시됩니다.</div></div></div>`;
+
+        if(bdSusp) bdSusp.innerHTML = suspItems.length
+          ? suspItems.map(m=>renderMetaItem(m)).join('')
+          : `<div class="item"><div><div class="title">게시글이 없습니다.</div><div class="meta">수상해수상해 업로드 후 표시됩니다.</div></div></div>`;
+
+        // Update BIGDATA badge with newest among 3 categories
+        const all = [].concat(strongItems, accumItems, suspItems);
+        all.sort((x,y)=> String(y.created_ts||'').localeCompare(String(x.created_ts||'')));
+        const newest = all[0];
+        const b = byId('home-badge-bigdata');
+        if(b && newest && newest.created_at) b.textContent = `BIGDATA: ${fmtTime(newest.created_at)}`;
+
+        // Legacy container fallback (if still exists)
+        if(homeBD){
+          homeBD.innerHTML = all.length
+            ? all.slice(0,12).map(m=>renderMetaItem(m)).join('')
+            : `<div class="item"><div><div class="title">표시할 업로드가 없습니다.</div><div class="meta">관리자 업로드 후 표시됩니다.</div></div></div>`;
+        }
+
+      }catch(e){
+        const msg = `<div class="item"><div><div class="title">빅데이터를 불러오지 못했습니다.</div><div class="meta">/api/posts/list 확인</div></div></div>`;
+        if(bdStrong) bdStrong.innerHTML = msg;
+        if(bdAccum) bdAccum.innerHTML = msg;
+        if(bdSusp) bdSusp.innerHTML = msg;
+        if(homeBD) homeBD.innerHTML = msg;
+      }
+
+    // Legacy layout: merged latest 12
+    }else if(homeBD){
       try{
         const [jStrong, jAccum, jSusp] = await Promise.all([
           fetchJSON('/api/posts/list?category=strong&region=ALL&limit=20'),
@@ -687,7 +744,6 @@
         homeBD.innerHTML = `<div class="item"><div><div class="title">빅데이터 최신글 없음</div><div class="meta">KV 미설정 또는 업로드 전</div></div></div>`;
       }
     }
-
     // Perf list (3)
     const homePerf = byId('home-perf');
     if(homePerf){
@@ -1885,74 +1941,53 @@ ${(String(mediaType||"")||"").startsWith("video/") ? `      <video controls play
 
 
   // ==============================
-  // Auth-aware topbar (Subscription status only)
+  // Auth-aware topbar (Login/Signup vs Account + Email)
   // ==============================
   async function hydrateAuthNav(){
     const nav = document.querySelector('.topbar .nav');
     if(!nav) return;
 
-    const aLogin  = nav.querySelector('a[data-nav="login"]')  || nav.querySelector('a[href^="/login"]');
+    // try locate existing links
+    const aLogin = nav.querySelector('a[data-nav="login"]') || nav.querySelector('a[href^="/login"]');
     const aSignup = nav.querySelector('a[data-nav="signup"]') || nav.querySelector('a[href^="/signup"]');
-    const aSub    = nav.querySelector('a[data-nav="subscribe"]') || nav.querySelector('a[href^="/subscribe"]');
-
-    // 운영(ops)
-    const aOps = nav.querySelector('a[data-nav="ops"]') || nav.querySelector('a[href^="/ops"]');
 
     let me = null;
     try{ me = await fetchJSON('/api/auth/me'); }catch(e){ me = null; }
 
     const isLoggedIn = !!(me && me.ok && me.user);
-    const isAdmin = isLoggedIn && detectIsAdmin(me);
+    const email = isLoggedIn ? String(me.user.email || me.user.id || '') : '';
 
-    // Subscription badge (next to '구독')
-    const badgeId = 'nav-sub-badge';
+    // badge element (next to account)
+    const badgeId = 'nav-user-badge';
     let badge = document.getElementById(badgeId);
 
-    // Logout link
-    let aLogout = nav.querySelector('a[data-nav="logout"]');
-
     if(isLoggedIn){
-      // Hide login/signup completely
-      if(aLogin) aLogin.style.display = 'none';
+      // convert login link into account link
+      if(aLogin){
+        aLogin.textContent = '회원';
+        aLogin.setAttribute('href', '/account/');
+      }
       if(aSignup) aSignup.style.display = 'none';
 
-      // Show ops only for admin
-      if(aOps) aOps.style.display = isAdmin ? '' : 'none';
-
-      // Show subscription status badge
-      if(!badge && aSub){
+      if(!badge && aLogin){
         badge = document.createElement('span');
         badge.id = badgeId;
-        badge.className = 'badge ok';
+        badge.className = 'badge';
         badge.style.marginLeft = '8px';
-        aSub.insertAdjacentElement('afterend', badge);
+        aLogin.insertAdjacentElement('afterend', badge);
       }
       if(badge){
         badge.style.display = '';
-        badge.textContent = '구독: 활성';
+        badge.textContent = email ? email : '로그인됨';
       }
-
-      // Add logout (minimal need)
-      if(!aLogout){
-        aLogout = document.createElement('a');
-        aLogout.setAttribute('href', '#');
-        aLogout.setAttribute('data-nav', 'logout');
-        aLogout.textContent = '로그아웃';
-        nav.appendChild(aLogout);
-      }
-      aLogout.onclick = async (e)=>{
-        e.preventDefault();
-        try{ await fetch('/api/auth/logout', {method:'POST', credentials:'include'}); }catch(err){}
-        try{ localStorage.removeItem('jlab_token'); localStorage.removeItem('joolab_token'); }catch(err){}
-        window.location.href = '/';
-      };
     }else{
-      // Not logged in
-      if(aLogin) aLogin.style.display = '';
+      // restore
+      if(aLogin){
+        aLogin.textContent = '로그인';
+        aLogin.setAttribute('href', '/login/');
+      }
       if(aSignup) aSignup.style.display = '';
-      if(aOps) aOps.style.display = 'none';
       if(badge) badge.remove();
-      if(aLogout) aLogout.remove();
     }
   }
 
