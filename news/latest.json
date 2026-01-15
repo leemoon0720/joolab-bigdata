@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-15 16:00 KST",
+  "updated_at": "2026-01-15 16:33 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,9 +25,67 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-15 16:25",
+      "title": "코스피 연일 새 기록에도…신고가는 100위권 대형주만",
+      "url": "https://www.mk.co.kr/news/stock/11934112",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 16:22",
+      "title": "페이코인, 서울랜드 결제 오픈",
+      "url": "https://www.mk.co.kr/news/stock/11934102",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 16:21",
+      "title": "대신증권, ‘온라인 채권 타임딜’ 출시",
+      "url": "https://www.mk.co.kr/news/stock/11934101",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 16:20",
+      "title": "바이셀스탠다드, SK증권과 토큰증권 MOU",
+      "url": "https://www.mk.co.kr/news/stock/11934100",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 16:10",
+      "title": "‘367조 STO 머니무브’…토큰증권법 국회 본회의 통과",
+      "url": "https://www.mk.co.kr/news/stock/11934087",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-15 16:08",
+      "title": "17분간 종목·잔고 조회 ‘먹통’…토스증권, 간밤 MTS 오류",
+      "url": "https://www.mk.co.kr/news/stock/11934086",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-15 16:00",
       "title": "대통령 체포 소식에 수익률 ‘껑충’ ETF 5종…만들어주고 밀어준 이는 현직 대통령 [매일 돈이 보이는 습관 M+]",
       "url": "https://www.mk.co.kr/news/stock/11934035",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 15:59",
+      "title": "정은보 거래소 이사장, '청소년 도박 근절 캠페인' 동참",
+      "url": "https://www.hankyung.com/article/2026011531096",
       "keywords_hit": []
     },
     {
@@ -71,7 +129,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-15 15:34",
-      "title": "\"발표만 기다렸는데\"…'AI 국대' 탈락에 네이버 개미들 '눈물'",
+      "title": "\"떨어질 줄 몰랐어요\"…'AI 국대' 탈락에 네이버 개미들 '눈물'",
       "url": "https://www.hankyung.com/article/202601152915i",
       "keywords_hit": [
         "AI"
@@ -247,35 +305,11 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 10:13",
-      "title": "[MK시그널] 북미 천연가스 처리 기업 타가 리소시즈, 매수신호 발생",
-      "url": "https://www.mk.co.kr/news/stock/11933633",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 10:09",
-      "title": "“더 떨어지진 않을 것 같아서”…하루 1조씩 자금 몰린다는 ETF는",
-      "url": "https://www.mk.co.kr/news/stock/11933628",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-15 10:06",
       "title": "인적분할 효과 갤러리아 상한가…한화그룹주 연일 '불기둥'",
       "url": "https://www.hankyung.com/article/202601151947i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 10:05",
-      "title": "“왕좌의 위기”… 바이낸스 점유율 25%로 ‘뚝’, 개미들은 ‘이곳’으로 떠났다",
-      "url": "https://www.mk.co.kr/news/stock/11933626",
       "keywords_hit": []
     },
     {
@@ -295,35 +329,6 @@
       "keywords_hit": [
         "금리"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 09:50",
-      "title": "[MK시그널] 카페24, 유료화 및 상점매출 급증에 주가 상승세... MK시그널 추천 후 상승률 12.35%기록",
-      "url": "https://www.mk.co.kr/news/stock/11933616",
-      "keywords_hit": [
-        "매출"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 09:50",
-      "title": "[속보] 올해 첫 금통위…‘환율·물가’ 걱정에 기준금리 5연속 동결",
-      "url": "https://www.mk.co.kr/news/economy/11933615",
-      "keywords_hit": [
-        "환율",
-        "금리"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 09:46",
-      "title": "[MK 골든크로스 돌파종목 : 포스코인터내셔널(047050) & 비트맥스(377030)]",
-      "url": "https://www.mk.co.kr/news/stock/11933607",
-      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -359,16 +364,6 @@
       "url": "https://www.hankyung.com/article/2026011517936",
       "keywords_hit": [
         "인수"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 09:14",
-      "title": "상폐 앞둔 웰바이오텍·인트로메딕, 정리매매 첫날 '급락'",
-      "url": "https://www.hankyung.com/article/2026011517496",
-      "keywords_hit": [
-        "바이오"
       ]
     }
   ]
