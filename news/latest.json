@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-15 16:57 KST",
+  "updated_at": "2026-01-15 17:34 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,112 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 17:10",
+      "title": "\"보통주에 비해 너무 저렴하다\"…현대차·LG전자 우선주에 눈길",
+      "url": "https://www.hankyung.com/article/2026011533571",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 17:09",
+      "title": "불장서 소외된 카카오…외국인·기관도 외면",
+      "url": "https://www.hankyung.com/article/2026011533611",
+      "keywords_hit": [
+        "외국인",
+        "기관"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 17:08",
+      "title": "코스피, 4800까지 '단 2.5P'…조선·로봇주가 상승 이끌어",
+      "url": "https://www.hankyung.com/article/2026011533591",
+      "keywords_hit": [
+        "코스피",
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 17:06",
+      "title": "\"삼성전자 매도 타이밍, IT 수요가 핵심\"",
+      "url": "https://www.hankyung.com/article/2026011533621",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 17:05",
+      "title": "[특징주 & 리포트] '포스코그룹주 일제히 강세' 등",
+      "url": "https://www.hankyung.com/article/2026011533561",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 17:05",
+      "title": "[포토] 코스피 4800까지 단 2.45p",
+      "url": "https://www.hankyung.com/article/202601153391i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 17:04",
+      "title": "370조원 시장 열린다…토큰증권 법안, 국회 본회의 통과",
+      "url": "https://www.hankyung.com/article/202601152959g",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 17:03",
+      "title": "한국은행, 주요 품목별 수출경쟁력 평가",
+      "url": "https://www.hankyung.com/article/2026011533631",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 17:00",
+      "title": "KCGI자산운용, 휴면계좌 투자지원금 이벤트 진행",
+      "url": "https://www.hankyung.com/article/202601153317i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 16:58",
+      "title": "美·中 우주서 한판 붙는다…중궈웨이싱 한 달 125% 폭등",
+      "url": "https://www.hankyung.com/article/2026011533181",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 16:58",
+      "title": "월마트, 시총 1조弗 가입 유력",
+      "url": "https://www.hankyung.com/article/2026011533191",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-15 16:57",
+      "title": "AI 시대, 분석 비용 낮아져…판단력이 중요",
+      "url": "https://www.hankyung.com/article/2026011533201",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -197,7 +303,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-15 13:42",
-      "title": "[마켓PRO] “웨이모에 뒤처져” 평가에도…서학개미, 테슬라 반등에 베팅",
+      "title": "[마켓PRO] \"웨이모에 뒤처져\" 평가에도…서학개미, 테슬라 반등에 베팅",
       "url": "https://www.hankyung.com/article/202601152582i",
       "keywords_hit": []
     },
@@ -216,27 +322,6 @@
       "title": "\"우린 유통주 아냐\" 월마트의 파격…주가 대박 '환호' 터졌다 [양지윤의 니가가라 나스닥]",
       "url": "https://www.hankyung.com/article/202601151984i",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 12:00",
-      "title": "[마켓PRO] 알고리즘 종목 Pick : \"파라마운트 인수제안 거부한 워너브라더스, 과매도 구간\"",
-      "url": "https://www.hankyung.com/article/202601152141i",
-      "keywords_hit": [
-        "인수"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 11:18",
-      "title": "코스피, 4750으로 최고가 경신 후 횡보…한은, 기준금리 동결",
-      "url": "https://www.hankyung.com/article/2026011522286",
-      "keywords_hit": [
-        "코스피",
-        "금리"
-      ]
     },
     {
       "source": "MK",
@@ -273,98 +358,12 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 10:31",
-      "title": "\"더 늦어지면 안 된다\" 핀산협, 조각투자 인가 결정 촉구",
-      "url": "https://www.hankyung.com/article/2026011520136",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 10:22",
-      "title": "[마켓PRO] Today's Pick : 한화 목표가 '쑥'…분할로 주주 체감 수익률 늘어날 전망",
-      "url": "https://www.hankyung.com/article/202601151979i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-15 10:18",
       "title": "한화 두글자 붙으면 주가 날아간다…갤러리아 또 ‘상한가 불기둥’",
       "url": "https://www.mk.co.kr/news/stock/11933640",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 10:13",
-      "title": "[마켓칼럼] 힘든 한 해가 될 것으로 보이는 국내 채권시장",
-      "url": "https://www.hankyung.com/article/202601125271i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 10:06",
-      "title": "인적분할 효과 갤러리아 상한가…한화그룹주 연일 '불기둥'",
-      "url": "https://www.hankyung.com/article/202601151947i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 10:00",
-      "title": "'인적분할' 재료에 한화그룹주 연이틀 질주…갤러리아 2연상",
-      "url": "https://www.hankyung.com/article/2026011518936",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 09:56",
-      "title": "대신증권, '온라인 채권 타임딜' 출시…고금리 단기채 한정 판매",
-      "url": "https://www.hankyung.com/article/2026011519756",
-      "keywords_hit": [
-        "금리"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 09:37",
-      "title": "이어지는 수주 모멘텀에…한화오션·삼성중공업 4%대↑",
-      "url": "https://www.hankyung.com/article/2026011518806",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 09:34",
-      "title": "한국정밀기계, 326억 규모 공급계약 소식에 2연상",
-      "url": "https://www.hankyung.com/article/2026011518346",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 09:31",
-      "title": "코스피, 사상 최고가 경신 후 '줄다리기'…美 약세·이란 정국 영향 [종합]",
-      "url": "https://www.hankyung.com/article/2026011518326",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 09:17",
-      "title": "나우로보틱스, 한양로보틱스 인수 소식에 18% '급등'",
-      "url": "https://www.hankyung.com/article/2026011517936",
-      "keywords_hit": [
-        "인수"
-      ]
     }
   ]
 }
