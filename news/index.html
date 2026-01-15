@@ -52,13 +52,47 @@
   </div>
 </section>
 
+    
+
+    <div class="section-title" style="margin-top:18px;">
+      <h2>인포맥스 RSS</h2>
+      <div class="hint">제목·언론사·시간·원문 링크만 표시합니다.</div>
+    </div>
+
+    <div class="tabs" id="rss-tabs"></div>
+
+    <div class="controls" style="margin-top:10px;">
+      <div class="input" style="min-width: min(520px, 100%); flex: 1 1 520px;">
+        <span style="font-weight:900; color:rgba(15,23,42,.65);">검색</span>
+        <input id="rss-q" type="text" placeholder="제목 검색 (예: 반도체, 환율, FOMC)" autocomplete="off"/>
+      </div>
+      <button class="btn ghost" type="button" id="rss-refresh">새로고침</button>
+    </div>
+
+    <div class="section-title" style="margin-top:18px;">
+      <h2>섹션 스냅샷 (3×3)</h2>
+      <div class="hint" id="rss-snap-info">로딩 중…</div>
+    </div>
+
+    <div class="grid" id="rss-snapshot"></div>
+
+    <style>
+      /* News RSS snapshot grid */
+      #rss-snapshot .rss-card{grid-column: span 4;}
+      #rss-snapshot .rss-card .meta{margin-top:8px; font-size:12px; color: rgba(100,116,139,.95); font-weight:800;}
+      #rss-snapshot .rss-card .ttl{margin-top:8px; font-weight:1000; letter-spacing:-.3px; line-height:1.35;}
+      @media (max-width: 760px){
+        #rss-snapshot .rss-card{grid-column: span 12;}
+      }
+    </style>
+
     <div class="section-title">
       <h2>최신 리스트</h2>
       <div class="hint" id="news-info">업데이트: - · 수집: -건</div>
     </div>
     <div id="news-list" class="list"></div>
     <div class="hr"></div>
-    <div class="small">데이터 파일: /news/latest.json · /news/archive/YYYYMMDD.json · /news/index.json</div>
+    <div class="small">RSS 소스: news.einfomax.co.kr (인포맥스) · 프록시: /api/rss?u=... (CORS 회피)</div>
   </div>
 </main>
 

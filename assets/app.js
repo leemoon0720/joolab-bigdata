@@ -155,7 +155,201 @@
       .replaceAll("'","&#039;");
   }
 
-  async function hydrateNewsPreview(){
+  
+
+  // ===== RSS (Infomax) =====
+  function parseRssXmlToItems(xmlText){
+    try{
+      const doc = new DOMParser().parseFromString(xmlText, 'text/xml');
+      const channelTitle = doc.querySelector('channel > title')?.textContent?.trim() || '';
+      const items = Array.from(doc.querySelectorAll('item')).map(it=>{
+        const title = it.querySelector('title')?.textContent?.trim() || '';
+        const link = it.querySelector('link')?.textContent?.trim() || '';
+        const pubDate = it.querySelector('pubDate')?.textContent?.trim() || '';
+        // Some feeds have dc:creator or category; keep minimal
+        return { title, link, pubDate, channelTitle };
+      }).filter(x=>x.title && x.link);
+      return { channelTitle, items };
+    }catch(e){
+      return { channelTitle:'', items:[] };
+    }
+  }
+
+  async function fetchRssViaProxy(feedUrl){
+    // Worker proxy: /api/rss?u=<encoded>
+    const u = '/api/rss?u=' + encodeURIComponent(feedUrl) + '&limit=40';
+    const r = await fetch(u, { cache: 'no-store' });
+    if(!r.ok) throw new Error('RSS fetch failed: ' + r.status);
+    const text = await r.text();
+    return parseRssXmlToItems(text);
+  }
+
+  function infomaxFeeds(){
+    return [
+      { key:'popular', name:'인기', url:'https://news.einfomax.co.kr/rss/clickTop.xml' },
+      { key:'all', name:'전체', url:'https://news.einfomax.co.kr/rss/allArticle.xml' },
+      { key:'S1N2', name:'증권', url:'https://news.einfomax.co.kr/rss/S1N2.xml' },
+      { key:'S1N7', name:'IB/기업', url:'https://news.einfomax.co.kr/rss/S1N7.xml' },
+      { key:'S1N15', name:'정책/금융', url:'https://news.einfomax.co.kr/rss/S1N15.xml' },
+      { key:'S1N16', name:'채권/외환', url:'https://news.einfomax.co.kr/rss/S1N16.xml' },
+      { key:'S1N17', name:'부동산', url:'https://news.einfomax.co.kr/rss/S1N17.xml' },
+      { key:'S1N23', name:'국제뉴스', url:'https://news.einfomax.co.kr/rss/S1N23.xml' },
+      { key:'S1N21', name:'해외주식', url:'https://news.einfomax.co.kr/rss/S1N21.xml' },
+      { key:'S1N9', name:'칼럼/이슈', url:'https://news.einfomax.co.kr/rss/S1N9.xml' },
+    ];
+  }
+
+  function renderRssList(targetEl, items, query){
+    const q = (query||'').trim().toLowerCase();
+    const filtered = q ? items.filter(it=> (it.title||'').toLowerCase().includes(q)) : items;
+    targetEl.innerHTML = filtered.slice(0,50).map(it=>{
+      const title = it.title || '(제목 없음)';
+      const link = it.link || '#';
+      const time = it.pubDate || '';
+      const press = '연합인포맥스';
+      return `
+        <div class="item">
+          <div>
+            <a class="title" href="${link}" target="_blank" rel="noopener">${escapeHtml(title)}</a>
+            <div class="meta">${escapeHtml(press)} · ${escapeHtml(time)}</div>
+          </div>
+          <div class="right">원문</div>
+        </div>
+      `;
+    }).join('');
+    return { filteredCount: filtered.length, totalCount: items.length };
+  }
+
+  async function hydrateInfomaxNewsCenter(){
+    const tabsEl = byId('rss-tabs');
+    const snapEl = byId('rss-snapshot');
+    const listEl = byId('news-list');
+    if(!tabsEl || !listEl) return;
+
+    const feeds = infomaxFeeds();
+    const qInput = byId('rss-q');
+    const btnRefresh = byId('rss-refresh');
+    const info = byId('news-info');
+    const snapInfo = byId('rss-snap-info');
+
+    let current = feeds[0]; // default: 인기
+    let currentItems = [];
+
+    function setActiveTab(key){
+      Array.from(tabsEl.querySelectorAll('.tab')).forEach(b=>{
+        b.classList.toggle('active', b.dataset.key === key);
+      });
+    }
+
+    async function loadTab(feed){
+      current = feed;
+      setActiveTab(feed.key);
+      setHeroStatus({ updatedText:'UPD: -', statusText:'로딩…', statusKind:'wait' });
+      if(info) info.textContent = '로딩 중…';
+      try{
+        const { items } = await fetchRssViaProxy(feed.url);
+        currentItems = items || [];
+        const q = qInput ? qInput.value : '';
+        const { filteredCount, totalCount } = renderRssList(listEl, currentItems, q);
+        const upd = currentItems[0]?.pubDate || '-';
+        if(info) info.textContent = `피드: ${feed.name} · 수집: ${filteredCount}/${totalCount}건`;
+        setHeroStatus({ updatedText:`UPD: ${fmtTime(upd)}`, statusText:`OK · ${totalCount}건`, statusKind:'ok' });
+      }catch(e){
+        currentItems = [];
+        listEl.innerHTML = `
+          <div class="card">
+            <div class="card-top"><h3>RSS 연결 실패</h3><span class="badge missing">MISSING</span></div>
+            <p>인포맥스 RSS를 불러오지 못했습니다. (/api/rss 프록시 확인)</p>
+          </div>
+        `;
+        if(info) info.textContent = '연결 실패: 인포맥스 RSS';
+        setHeroStatus({ updatedText:'UPD: -', statusText:'MISSING', statusKind:'missing' });
+      }
+    }
+
+    function onSearch(){
+      const q = qInput ? qInput.value : '';
+      const { filteredCount, totalCount } = renderRssList(listEl, currentItems, q);
+      if(info) info.textContent = `피드: ${current.name} · 수집: ${filteredCount}/${totalCount}건`;
+    }
+
+    // tabs
+    tabsEl.innerHTML = feeds.map(f=>`<button type="button" class="tab" data-key="${f.key}">${escapeHtml(f.name)}</button>`).join('');
+    tabsEl.addEventListener('click', (e)=>{
+      const t = e.target;
+      if(!(t && t.classList && t.classList.contains('tab'))) return;
+      const key = t.dataset.key;
+      const f = feeds.find(x=>x.key===key);
+      if(f) loadTab(f);
+    });
+
+    if(qInput){
+      qInput.addEventListener('input', ()=>{ onSearch(); });
+    }
+    if(btnRefresh){
+      btnRefresh.addEventListener('click', ()=> loadTab(current));
+    }
+
+    // Snapshot 3x3 (exclude '전체' to keep compact)
+    if(snapEl){
+      const snapFeeds = feeds.filter(f=>f.key!=='all').slice(0,9);
+      snapEl.innerHTML = snapFeeds.map(f=>{
+        return `
+          <a class="card link-card rss-card" href="#" data-snap="${f.key}">
+            <div class="card-top"><h3>${escapeHtml(f.name)}</h3><span class="badge upd">LIVE</span></div>
+            <div class="ttl" style="margin-top:10px; font-weight:1000;">로딩…</div>
+            <div class="meta">-</div>
+          </a>
+        `;
+      }).join('');
+
+      snapEl.addEventListener('click', (e)=>{
+        const a = e.target.closest('a[data-snap]');
+        if(!a) return;
+        e.preventDefault();
+        const key = a.dataset.snap;
+        const f = feeds.find(x=>x.key===key);
+        if(f) loadTab(f);
+        // scroll to list
+        listEl.scrollIntoView({ behavior:'smooth', block:'start' });
+      });
+
+      if(snapInfo) snapInfo.textContent = '수집 중…';
+
+      // load each snapshot card in parallel
+      await Promise.all(snapFeeds.map(async f=>{
+        try{
+          const { items } = await fetchRssViaProxy(f.url);
+          const first = (items||[])[0];
+          const card = snapEl.querySelector(`a[data-snap="${f.key}"]`);
+          if(card && first){
+            const ttl = card.querySelector('.ttl');
+            const meta = card.querySelector('.meta');
+            if(ttl) ttl.textContent = first.title || '-';
+            if(meta) meta.textContent = `연합인포맥스 · ${first.pubDate||'-'}`;
+            card.href = first.link || '#';
+            card.target = '_blank';
+            card.rel = 'noopener';
+          }
+        }catch(e){
+          const card = snapEl.querySelector(`a[data-snap="${f.key}"]`);
+          if(card){
+            const ttl = card.querySelector('.ttl');
+            const meta = card.querySelector('.meta');
+            if(ttl) ttl.textContent = '연결 실패';
+            if(meta) meta.textContent = '/api/rss 확인';
+          }
+        }
+      }));
+
+      if(snapInfo) snapInfo.textContent = '완료';
+    }
+
+    // initial load
+    setActiveTab(current.key);
+    await loadTab(current);
+  }
+async function hydrateNewsPreview(){
     const box = byId('news-preview');
     if(!box) return;
     try{
@@ -203,6 +397,9 @@
   }
 
   async function hydrateNewsCenter(){
+    const rssTabs = byId('rss-tabs');
+    if(rssTabs) return hydrateInfomaxNewsCenter();
+
     const list = byId('news-list');
     if(!list) return;
     try{
