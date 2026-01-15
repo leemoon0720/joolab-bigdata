@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-15 19:44 KST",
+  "updated_at": "2026-01-15 19:58 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,6 +25,14 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-15 19:55",
+      "title": "MBK 제재결정 또 보류 … 금감원 \"더 논의 필요\"",
+      "url": "https://www.mk.co.kr/news/stock/11934421",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-15 18:35",
       "title": "“신고 안된 해외 코인앱 다 퇴출시킬 것”...구글 초강수 둔다",
       "url": "https://www.mk.co.kr/news/stock/11934332",
@@ -44,8 +52,8 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-15 17:57",
-      "title": "코아스, 50억원 규모 유상증자 실시",
-      "url": "https://www.mk.co.kr/news/stock/11934322",
+      "title": "엔케이맥스, 9억원 규모 유상증자 실시",
+      "url": "https://www.mk.co.kr/news/stock/11934321",
       "keywords_hit": [
         "증자"
       ]
@@ -54,8 +62,8 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-15 17:57",
-      "title": "엔케이맥스, 9억원 규모 유상증자 실시",
-      "url": "https://www.mk.co.kr/news/stock/11934321",
+      "title": "코아스, 50억원 규모 유상증자 실시",
+      "url": "https://www.mk.co.kr/news/stock/11934322",
       "keywords_hit": [
         "증자"
       ]
@@ -106,7 +114,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-15 17:42",
-      "title": "'韓증시 복귀' RIA 계좌, 빠르면 2월부터 시행",
+      "title": "'韓증시 복귀' RIA 계좌, 빠르면 내달부터 시행",
       "url": "https://www.mk.co.kr/news/stock/11934262",
       "keywords_hit": []
     },
@@ -147,7 +155,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-15 17:37",
-      "title": "오늘의 증시일정 (1월15일)",
+      "title": "오늘의 증시일정(1월 16일)",
       "url": "https://www.mk.co.kr/news/stock/11934243",
       "keywords_hit": []
     },
@@ -155,7 +163,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-15 17:37",
-      "title": "\"바이낸스 다운로드 막히나요\" 구글 정책변경에 투자자 혼란",
+      "title": "\"바이낸스 다운로드 막히나요\"…구글 정책변경에 투자자 혼란",
       "url": "https://www.mk.co.kr/news/stock/11934239",
       "keywords_hit": []
     },
@@ -313,14 +321,6 @@
       "published_at": "2026-01-15 16:10",
       "title": "‘367조 STO 머니무브’…토큰증권법 국회 본회의 통과",
       "url": "https://www.mk.co.kr/news/stock/11934087",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 16:08",
-      "title": "17분간 종목·잔고 조회 ‘먹통’…토스증권, 간밤 MTS 오류",
-      "url": "https://www.mk.co.kr/news/stock/11934086",
       "keywords_hit": []
     },
     {
