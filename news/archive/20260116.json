@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-16 14:58 KST",
+  "updated_at": "2026-01-16 15:41 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,6 +23,22 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 15:24",
+      "title": "하나증권, 첫 발행어음 일주일 만에 3000억원 규모 완판",
+      "url": "https://www.mk.co.kr/news/stock/11935254",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 15:12",
+      "title": "하나증권, 첫 발행어음 일주일 만에 3000억원 규모 완판",
+      "url": "https://www.mk.co.kr/news/stock/11935240",
+      "keywords_hit": []
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-16 14:48",
@@ -34,7 +50,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-16 14:41",
-      "title": "\"2주만에 손실 25%\" 곱버스 개미의 비명… '이 ETF' 산 개미들은 대박",
+      "title": "2500만원 손실 vs 7800만원 대박…1억 넣은 개미 '엇갈린 희비'",
       "url": "https://www.hankyung.com/article/202601165186i",
       "keywords_hit": []
     },
@@ -66,7 +82,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-16 14:25",
-      "title": "클라우드플레어, 英 스타트업 인수…“AI학습 수익화 시스템 개발”",
+      "title": "클라우드플레어, 英 스타트업 인수…\"AI학습 수익화 시스템 개발\"",
       "url": "https://www.hankyung.com/article/202601165170i",
       "keywords_hit": [
         "인수",
@@ -93,7 +109,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-16 14:05",
-      "title": "\"오천피가 코앞이네\"…'15만전자 가나' 설레는 국장 개미들",
+      "title": "\"오천피가 코앞이네\"…'15만전자 가나' 개미들 두근두근",
       "url": "https://www.hankyung.com/article/202601165166i",
       "keywords_hit": []
     },
@@ -101,7 +117,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-16 13:57",
-      "title": "[마켓PRO] “K바이오 관심 증가”…고수들, 메지온·보로노이 매수",
+      "title": "[마켓PRO] \"K바이오 관심 증가\"…고수들, 메지온·보로노이 매수",
       "url": "https://www.hankyung.com/article/202601165112i",
       "keywords_hit": [
         "바이오"
@@ -350,22 +366,6 @@
         "코스피",
         "반도체"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 09:03",
-      "title": "한투증권 “HD현대일렉트릭, 신규 수주 꾸준…수익성 개선도 지속”",
-      "url": "https://www.mk.co.kr/news/stock/11934753",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 08:58",
-      "title": "“비트코인, 지금이 바닥인가...18만달러까지 간다”",
-      "url": "https://www.mk.co.kr/news/stock/11934748",
-      "keywords_hit": []
     }
   ]
 }
