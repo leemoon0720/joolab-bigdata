@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-16 10:57 KST",
+  "updated_at": "2026-01-16 12:40 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,53 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 11:42",
+      "title": "MBK파트너스, 홈플러스 지원 위해 DIP 1천억 긴급 투입",
+      "url": "https://www.mk.co.kr/news/stock/11935011",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 11:21",
+      "title": "'파죽지세' 코스피, 시총 사상 첫 4000조 돌파",
+      "url": "https://www.hankyung.com/article/2026011648636",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 11:09",
+      "title": "초고수, 메지온·보로노이 등 K-바이오 담았다 [주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11934936",
+      "keywords_hit": [
+        "바이오"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 11:04",
+      "title": "트럼프發 연준 독립성 논란…비트코인에 악재로 작용할까",
+      "url": "https://www.hankyung.com/article/202601153061g",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 11:00",
+      "title": "코스피는 오천피 바라보는데…코스닥 톱10 모두 '파란불'",
+      "url": "https://www.hankyung.com/article/2026011646726",
+      "keywords_hit": [
+        "코스피",
+        "코스닥"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -279,7 +326,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-16 08:58",
-      "title": "\"中 따라가면 돈 번다\"…연초부터 뭉칫돈 '우르르' 몰리는 곳 [맹진규의 글로벌 머니플로우]",
+      "title": "하루 '840조' 역대급 돈 몰렸다…3월 앞두고 심상치 않은 중국 증시 [맹진규의 글로벌 머니플로우]",
       "url": "https://www.hankyung.com/article/202601153619i",
       "keywords_hit": []
     },
@@ -308,32 +355,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 08:40",
-      "title": "\"삼성중공업, 美 조선 협력 구도 진전…목표가↑\"-상상인",
-      "url": "https://www.hankyung.com/article/2026011641716",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 08:30",
-      "title": "[마켓PRO] Today's Pick : \"HD현대일렉트릭, 110만원 간다...북미·유럽 꾸준한 수주\"",
-      "url": "https://www.hankyung.com/article/202601164058i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 08:23",
-      "title": "\"대한항공, 아시아나항공 실적 악화 부담…목표가↓\"-NH",
-      "url": "https://www.hankyung.com/article/2026011641546",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-16 08:10",
@@ -359,22 +380,6 @@
       "published_at": "2026-01-16 08:00",
       "title": "26살 늦깎이 대학 신입생에서 ‘연금전도사’로…구독자 100만 유튜버가 말하는 100세 시대 대비법  [김유신의 딥 머니 토크]",
       "url": "https://www.mk.co.kr/news/world/11934080",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 06:09",
-      "title": "돌아온 서학개미에 양도세 감면…RIA 계좌, 빠르면 2월부터 시행",
-      "url": "https://www.mk.co.kr/news/economy/11934653",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 06:03",
-      "title": "“주가 급등에 어닝쇼크 옵니다”…웃어야 할 기업들 등골 휘는 이유는?",
-      "url": "https://www.mk.co.kr/news/stock/11934644",
       "keywords_hit": []
     }
   ]
