@@ -1837,11 +1837,6 @@ tr:nth-child(even) td{ background: rgba(255,255,255,0.02); }
       const name = (byId('sub-name')?.value||'').trim();
       const phone = (byId('sub-phone')?.value||'').trim();
       const email = (byId('sub-email')?.value||'').trim();
-
-    // ops(운영) 메뉴는 관리자만 표시
-    const aOps = nav.querySelector('a[data-nav=\"ops\"]') || nav.querySelector('a[href^=\"/ops\"]');
-    const isAdmin = isLoggedIn && detectIsAdmin(me);
-    if(aOps) aOps.style.display = isAdmin ? '' : 'none';
       const ok1 = !!byId('sub-ck-terms')?.checked;
       const ok2 = !!byId('sub-ck-privacy')?.checked;
       const ok3 = !!byId('sub-ck-refund')?.checked;
