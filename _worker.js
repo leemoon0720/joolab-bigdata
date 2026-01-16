@@ -379,6 +379,8 @@ async function ensureUserInKV(env, emailLower, seedUser, passwordPlain, secret) 
 
 function isPublicPath(pathname) {
   // 공개 허용(로그인 없이 접근)
+  if (pathname === '/' ) return true;
+  if (pathname === '/sample/' || pathname === '/sample') return true;
   if (pathname === '/account/' || pathname === '/account') return true;
   if (pathname === '/login/' || pathname === '/login') return true;
   if (pathname === '/signup/' || pathname === '/signup') return true;
@@ -394,6 +396,17 @@ function isPublicPath(pathname) {
   if (pathname === '/sitemap.xml') return true;
   return false;
 }
+
+const BIGDATA_CATS = ['strong','accum','suspicious'];
+
+function isBigdataPagePath(pathname) {
+  // 멤버 전용: 빅데이터/강한/매집/수상해
+  return pathname === '/data' || pathname.startsWith('/data/')
+    || pathname === '/strong' || pathname.startsWith('/strong/')
+    || pathname === '/accum' || pathname.startsWith('/accum/')
+    || pathname === '/suspicious' || pathname.startsWith('/suspicious/');
+}
+
 
 async function requireAuth(request, env, baseUrl) {
   const secret = (env && env.JLAB_AUTH_SECRET) ? env.JLAB_AUTH_SECRET : DEFAULT_SECRET;
@@ -629,6 +642,14 @@ async function handlePostsList(request, env){
 
   const allowed = ['strong','accum','suspicious','perf','meme'];
   if(!allowed.includes(category)) return jsonResp({ok:false, error:'BAD_CATEGORY', items:[]}, 200);
+  // 비로그인: bigdata 카테고리는 샘플(sample=1)만 노출
+  if (BIGDATA_CATS.includes(category)) {
+    const payload = await requireAuth(request, env, new URL(request.url).origin);
+    if (!payload && !sampleOnly) {
+      return jsonResp({ ok:true, updated_at: new Date().toISOString(), count: 0, items: [] }, 200);
+    }
+  }
+
 
   let items=[];
   if(region && region !== 'ALL'){
@@ -653,6 +674,10 @@ async function handlePostsLatest(request, env){
   if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
   const url = new URL(request.url);
   const scope = String(url.searchParams.get('scope')||'bigdata').trim();
+  if (scope === 'bigdata') {
+    const payload = await requireAuth(request, env, new URL(request.url).origin);
+    if (!payload) return jsonResp({ ok:false, error:'LOGIN_REQUIRED' }, 200);
+  }
   const key = (scope === 'perf') ? 'posts/latest/perf.json' : (scope === 'meme') ? 'posts/latest/meme.json' : 'posts/latest/bigdata.json';
   const v = await env.JLAB_KV.get(key);
   if(!v) return jsonResp({ok:false, error:'EMPTY'}, 200);
@@ -675,6 +700,10 @@ async function handlePostsGet(request, env){
 
   let meta=null;
   try{ meta = JSON.parse(metaStr); }catch(e){ meta=null; }
+  if (meta && BIGDATA_CATS.includes(String(meta.category||'')) && !meta.is_sample) {
+    const payload = await requireAuth(request, env, new URL(request.url).origin);
+    if (!payload) return jsonResp({ ok:false, error:'LOGIN_REQUIRED' }, 200);
+  }
   return jsonResp({ok:true, meta, html}, 200);
 }
 
@@ -1064,15 +1093,13 @@ export default {
     }
 
     // ==============================
-    // Login required gate (except public paths)
+    // Bigdata gate (Home first: never force login screen)
+    // - 비로그인: 빅데이터 영역(/data,/strong,/accum,/suspicious) 진입 시 홈으로 되돌림
     // ==============================
-    if (!isPublicPath(url.pathname)) {
+    if (isBigdataPagePath(url.pathname)) {
       const payload = await requireAuth(request, env, url.origin);
       if (!payload) {
-        // assets/api는 위에서 처리됨. 나머지는 account로 이동.
-        const to = new URL('/account/', url.origin);
-        to.searchParams.set('next', url.pathname + (url.search || ''));
-        return Response.redirect(to.toString(), 302);
+        return Response.redirect(new URL('/', url.origin).toString(), 302);
       }
     }
 
