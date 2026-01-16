@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-17 06:56 KST",
+  "updated_at": "2026-01-17 07:19 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,22 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-17 07:00",
+      "title": "주가 10만원 '아, 옛날이여' 하더니…이 종목 5만원 뚫을까 [윤현주의 主食이 주식]",
+      "url": "https://www.hankyung.com/article/202511279840i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-17 07:00",
+      "title": "삼성전자, 올해 자산가 '순매수 1위'…부자들 주식 계좌 보니",
+      "url": "https://www.hankyung.com/article/202601166131i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -246,24 +262,6 @@
       "title": "美 코인법 연기에 암호화폐株 하락",
       "url": "https://www.hankyung.com/article/2026011657921",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 17:12",
-      "title": "\"만성적 물량 부담 덜었다…韓증시, 체질 개선\"",
-      "url": "https://www.hankyung.com/article/2026011657941",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 17:11",
-      "title": "코스피 사상 첫 4800선 돌파…시가총액 4000조원 시대 개막 [HK영상]",
-      "url": "https://www.hankyung.com/article/202601165784i",
-      "keywords_hit": [
-        "코스피"
-      ]
     },
     {
       "source": "MK",
