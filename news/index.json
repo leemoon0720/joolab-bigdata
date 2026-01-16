@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-17 05:52 KST",
+  "updated_at": "2026-01-17 06:11 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-17 06:10",
+      "title": "“아들, 삼전 아직 팔면 안되지?”…무서운 코스피, 상승률 세계 1위",
+      "url": "https://www.mk.co.kr/news/stock/11935701",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -132,19 +142,19 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-16 17:48",
-      "title": "이지스 '센터필드 매각' 추진에 … 신세계, 소송 검토",
-      "url": "https://www.mk.co.kr/news/stock/11935482",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 17:48",
       "title": "삼성생명, 두나무 지분인수 부인에도 5%↑",
       "url": "https://www.mk.co.kr/news/stock/11935483",
       "keywords_hit": [
         "인수"
       ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 17:48",
+      "title": "이지스 '센터필드 매각' 추진에 … 신세계, 소송 검토",
+      "url": "https://www.mk.co.kr/news/stock/11935482",
+      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -365,14 +375,6 @@
       "published_at": "2026-01-16 10:51",
       "title": "“15만전자 코앞”…삼성전자 최고가 경신, SK하이닉스도 오름세",
       "url": "https://www.mk.co.kr/news/stock/11934904",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 10:50",
-      "title": "중국 ‘라부부’ 대신 미국 ‘라푸푸’…아이들 ‘코묻은’ 돈 노리는 이 회사 [오찬종의 매일뉴욕]",
-      "url": "https://www.mk.co.kr/news/stock/11934890",
       "keywords_hit": []
     }
   ]
