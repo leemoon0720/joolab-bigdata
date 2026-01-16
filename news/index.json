@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-16 12:40 KST",
+  "updated_at": "2026-01-16 13:27 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,32 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 13:23",
+      "title": "“사내부부라고요? 인상 쓸 일 없겠네”…SK하이닉스, 올해도 ‘보너스 1.4억’",
+      "url": "https://www.mk.co.kr/news/business/11935071",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 13:19",
+      "title": "코스피, 시총 사상 첫 4000조 돌파…11거래일 연속 최고치 랠리",
+      "url": "https://www.mk.co.kr/news/stock/11935065",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 13:10",
+      "title": "'서진시스템 자회사' 텍슨, IMC 그룹 '잉거솔'과 전략적 제휴",
+      "url": "https://www.hankyung.com/article/2026011651046",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -323,14 +349,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 08:58",
-      "title": "하루 '840조' 역대급 돈 몰렸다…3월 앞두고 심상치 않은 중국 증시 [맹진규의 글로벌 머니플로우]",
-      "url": "https://www.hankyung.com/article/202601153619i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-16 08:58",
@@ -363,24 +381,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 08:05",
-      "title": "“한화오션, 美 방위비 증대에 실적·주가 전망 쑥”…목표가↑",
-      "url": "https://www.mk.co.kr/news/stock/11934711",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 08:00",
-      "title": "26살 늦깎이 대학 신입생에서 ‘연금전도사’로…구독자 100만 유튜버가 말하는 100세 시대 대비법  [김유신의 딥 머니 토크]",
-      "url": "https://www.mk.co.kr/news/world/11934080",
-      "keywords_hit": []
     }
   ]
 }
