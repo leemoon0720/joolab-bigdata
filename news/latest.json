@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-17 08:13 KST",
+  "updated_at": "2026-01-17 08:33 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-17 08:17",
+      "title": "해싯 발작→4.2% 돌파, 누가 샀다고? 마이크론 질주 [김현석의 월스트리트나우]",
+      "url": "https://www.hankyung.com/article/202601176268i",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -254,14 +262,6 @@
         "코스피",
         "실적"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 17:14",
-      "title": "美 코인법 연기에 암호화폐株 하락",
-      "url": "https://www.hankyung.com/article/2026011657921",
-      "keywords_hit": []
     },
     {
       "source": "MK",
