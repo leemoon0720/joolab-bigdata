@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-16 14:49 KST",
+  "updated_at": "2026-01-16 14:58 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 14:48",
+      "title": "하나증권, '하나 THE 발행어음' 출시 일주일 만에 3000억 조기 달성",
+      "url": "https://www.hankyung.com/article/202601165371i",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -305,14 +313,6 @@
       "keywords_hit": [
         "유가"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 09:52",
-      "title": "앱클론 \"헨리우스, JPMHC서 AC101 가치 강조\"",
-      "url": "https://www.hankyung.com/article/2026011645036",
-      "keywords_hit": []
     },
     {
       "source": "MK",
