@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-16 18:58 KST",
+  "updated_at": "2026-01-16 19:29 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 19:15",
+      "title": "금융위 ‘생산적 금융·자본시장 혁신’ 성과 공무원 대거 포상",
+      "url": "https://www.mk.co.kr/news/stock/11935534",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -102,19 +110,19 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-16 17:48",
-      "title": "삼성생명, 두나무 지분인수 부인에도 5%↑",
-      "url": "https://www.mk.co.kr/news/stock/11935483",
-      "keywords_hit": [
-        "인수"
-      ]
+      "title": "이지스 '센터필드 매각' 추진에 … 신세계, 소송 검토",
+      "url": "https://www.mk.co.kr/news/stock/11935482",
+      "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-16 17:48",
-      "title": "이지스 '센터필드 매각' 추진에 … 신세계, 소송 검토",
-      "url": "https://www.mk.co.kr/news/stock/11935482",
-      "keywords_hit": []
+      "title": "삼성생명, 두나무 지분인수 부인에도 5%↑",
+      "url": "https://www.mk.co.kr/news/stock/11935483",
+      "keywords_hit": [
+        "인수"
+      ]
     },
     {
       "source": "MK",
@@ -368,16 +376,6 @@
       "title": "중국 ‘라부부’ 대신 미국 ‘라푸푸’…아이들 ‘코묻은’ 돈 노리는 이 회사 [오찬종의 매일뉴욕]",
       "url": "https://www.mk.co.kr/news/stock/11934890",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 10:41",
-      "title": "LG 씨엔에스, 오픈AI와 파트너십에 6%대 급등",
-      "url": "https://www.mk.co.kr/news/stock/11934887",
-      "keywords_hit": [
-        "AI"
-      ]
     }
   ]
 }
