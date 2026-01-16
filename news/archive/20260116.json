@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-16 08:57 KST",
+  "updated_at": "2026-01-16 10:57 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,6 +25,275 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-16 10:51",
+      "title": "“15만전자 코앞”…삼성전자 최고가 경신, SK하이닉스도 오름세",
+      "url": "https://www.mk.co.kr/news/stock/11934904",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 10:50",
+      "title": "중국 ‘라부부’ 대신 미국 ‘라푸푸’…아이들 ‘코묻은’ 돈 노리는 이 회사 [오찬종의 매일뉴욕]",
+      "url": "https://www.mk.co.kr/news/stock/11934890",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 10:41",
+      "title": "LG 씨엔에스, 오픈AI와 파트너십에 6%대 급등",
+      "url": "https://www.mk.co.kr/news/stock/11934887",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 10:40",
+      "title": "솔라나, 아시아 최대 디지털 자산 축제 나선다…홍콩서도 엑셀러레이트 개최",
+      "url": "https://www.mk.co.kr/news/stock/11934884",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 10:36",
+      "title": "삼성전자 지분가치 상승 기대감에...삼성생명 주가 9.7% 급등",
+      "url": "https://www.mk.co.kr/news/stock/11934879",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 10:20",
+      "title": "코스피, 연속 질주로 첫 4800선 돌파…\"오천피 코앞\" [HK영상]",
+      "url": "https://www.hankyung.com/article/202601164668i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 10:14",
+      "title": "[MK 골든크로스 돌파종목 : 현대차증권(001500) & 지역난방공사(071320)]",
+      "url": "https://www.mk.co.kr/news/stock/11934844",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 10:14",
+      "title": "[MK시그널] 효성티앤씨, 스판덱스 공급 과잉 해소 기대감 등에 주가 상승세... MK시그널 추천 후 상승률 41.28%기록",
+      "url": "https://www.mk.co.kr/news/stock/11934843",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 10:04",
+      "title": "키움증권, MTS 안에서 '실시간 채팅형 커뮤니티' 서비스 개시",
+      "url": "https://www.hankyung.com/article/2026011646126",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 10:04",
+      "title": "효성티앤씨, 중국 경쟁사 파산 위기에 주가 급등세",
+      "url": "https://www.hankyung.com/article/2026011645266",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 10:02",
+      "title": "미국 이란 공격 우려 완화에…WTI 4% 급락 [오늘의 유가]",
+      "url": "https://www.hankyung.com/article/202601164383i",
+      "keywords_hit": [
+        "유가"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 09:52",
+      "title": "앱클론 \"헨리우스, JPMHC서 AC101 가치 강조\"",
+      "url": "https://www.hankyung.com/article/2026011645036",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 09:48",
+      "title": "클로봇, 보스턴다이내믹스 '스팟' SI 인증 획득에 52주 최고가 경신",
+      "url": "https://www.hankyung.com/article/2026011645016",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 09:38",
+      "title": "“11일 연속 최고치 뚫으며 달린다”…코스피 사상 첫 4800선 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11934803",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 09:36",
+      "title": "트럼프 가문의 ‘크립토 은행’ 승부수… “USD1 스테이블코인으로 기축통화 노린다”",
+      "url": "https://www.mk.co.kr/news/stock/11934799",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 09:34",
+      "title": "JP모건도 벽 허물었다… 스테이블코인, ‘폐쇄형’ 벗어나 광폭 행보",
+      "url": "https://www.mk.co.kr/news/stock/11934794",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 09:32",
+      "title": "트럼프 '꿈의 군대' 구상에…한달새 주가 60% 폭등한 회사 [핫픽!해외주식]",
+      "url": "https://www.hankyung.com/article/202601153529i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 09:28",
+      "title": "\"오픈AI와 협력\"…LG CNS, 6%대 강세",
+      "url": "https://www.hankyung.com/article/2026011643976",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 09:28",
+      "title": "대한항공, 올해 실적 개선 기대감에 장중 8%대 급등",
+      "url": "https://www.hankyung.com/article/2026011643876",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 09:24",
+      "title": "\"오천피 눈앞\"…코스피 11일 연속 질주해 사상 첫 4800선 돌파",
+      "url": "https://www.hankyung.com/article/2026011642816",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 09:22",
+      "title": "프롬바이오, 탈모 줄기세포치료제 독성시험 완료 소식에 '급등'",
+      "url": "https://www.hankyung.com/article/2026011643846",
+      "keywords_hit": [
+        "바이오"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 09:10",
+      "title": "상장폐지 앞둔 파멥신, 정리매매 첫날 '급락'",
+      "url": "https://www.hankyung.com/article/2026011643296",
+      "keywords_hit": [
+        "상장"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 09:05",
+      "title": "코스피 4800까지 뚫었다…美 반도체주 훈풍에 상승 출발",
+      "url": "https://www.mk.co.kr/news/stock/11934755",
+      "keywords_hit": [
+        "코스피",
+        "반도체"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 09:03",
+      "title": "[속보] 코스피 4800 돌파…11거래일 연속 상승 '파죽지세'",
+      "url": "https://www.hankyung.com/article/2026011642956",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 09:03",
+      "title": "[속보] 코스피, 사상 첫 4800선 돌파…11일째 상승세",
+      "url": "https://www.hankyung.com/article/2026011642997",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 09:03",
+      "title": "한투증권 “HD현대일렉트릭, 신규 수주 꾸준…수익성 개선도 지속”",
+      "url": "https://www.mk.co.kr/news/stock/11934753",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 09:02",
+      "title": "[속보] 코스피 사상 첫 4800 돌파…연일 최고치 경신",
+      "url": "https://www.hankyung.com/article/202601164136i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 09:00",
+      "title": "\"부패 이너서클\" 지적 금융지주에 메스…금융위, 지배구조 선진화 TF 킥오프",
+      "url": "https://www.hankyung.com/article/2026011641986",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 08:58",
+      "title": "\"中 따라가면 돈 번다\"…연초부터 뭉칫돈 '우르르' 몰리는 곳 [맹진규의 글로벌 머니플로우]",
+      "url": "https://www.hankyung.com/article/202601153619i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 08:58",
+      "title": "“비트코인, 지금이 바닥인가...18만달러까지 간다”",
+      "url": "https://www.mk.co.kr/news/stock/11934748",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-16 08:45",
       "title": "국가대표 가슴에 ‘업비트’ 단다…대한체육회와 맞손",
       "url": "https://www.mk.co.kr/news/stock/11934734",
@@ -34,11 +303,9 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-16 08:44",
-      "title": "中 여행객 증가에 화물 업황까지...대한항공 호실적에 목표가 ‘쑥’ [오늘 나온 보고서]",
+      "title": "“대한항공 목표주가 10% 올립니다”…중국 여행객 늘고화물까지 몰린다는데 [오늘 나온 보고서]",
       "url": "https://www.mk.co.kr/news/stock/11934733",
-      "keywords_hit": [
-        "실적"
-      ]
+      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -67,52 +334,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 08:22",
-      "title": "\"HD현대일렉트릭, 이익 개선 사이클 이어질 것…목표가↑\"-한국",
-      "url": "https://www.hankyung.com/article/2026011641566",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 08:20",
-      "title": "\"키움증권, '불장' 속 주요 사업부문에 온기…목표가 상향\"-한국",
-      "url": "https://www.hankyung.com/article/2026011641226",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 08:20",
-      "title": "\"SK텔레콤, 올해 실적·배당 정상화 전망\"-SK",
-      "url": "https://www.hankyung.com/article/2026011641356",
-      "keywords_hit": [
-        "실적",
-        "배당"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 08:17",
-      "title": "\"오래 기다렸다\"…BTS 역대급 투어에 하이브 개미 '환호' [종목+]",
-      "url": "https://www.hankyung.com/article/2026011640746",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 08:12",
-      "title": "코스피 4800선 돌파 코앞…반도체 온기 확산되나 [오늘장 미리보기]",
-      "url": "https://www.hankyung.com/article/202601164026i",
-      "keywords_hit": [
-        "코스피",
-        "반도체"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-16 08:10",
@@ -121,14 +342,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 08:09",
-      "title": "TSMC의 거품 반박 \"수요 다 확인\"…클로드 충격, 언제까지 [김현석의 월스트리트나우]",
-      "url": "https://www.hankyung.com/article/202601164008i",
-      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -141,31 +354,12 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 08:02",
-      "title": "\"한화오션, 美 방위비 증대 기대 속 큰 수혜…목표가 상향\"-대신",
-      "url": "https://www.hankyung.com/article/2026011640836",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-16 08:00",
       "title": "26살 늦깎이 대학 신입생에서 ‘연금전도사’로…구독자 100만 유튜버가 말하는 100세 시대 대비법  [김유신의 딥 머니 토크]",
       "url": "https://www.mk.co.kr/news/world/11934080",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 07:38",
-      "title": "TSMC 역대 최고 실적…필라델피아 반도체 1.76% 상승 [뉴욕증시 브리핑]",
-      "url": "https://www.hankyung.com/article/2026011640336",
-      "keywords_hit": [
-        "반도체",
-        "실적"
-      ]
     },
     {
       "source": "MK",
@@ -182,206 +376,6 @@
       "title": "“주가 급등에 어닝쇼크 옵니다”…웃어야 할 기업들 등골 휘는 이유는?",
       "url": "https://www.mk.co.kr/news/stock/11934644",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 22:13",
-      "title": "“이제 현대차 담기엔 부담되는데”…‘형제’ 우선주·기아 대신 줍줍할까",
-      "url": "https://www.mk.co.kr/news/stock/11934516",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 22:04",
-      "title": "신세계, 역삼 센터필드 매각 추진에 발끈한 이유...“랜드마크 호텔도 있는데”",
-      "url": "https://www.mk.co.kr/news/business/11934512",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 22:00",
-      "title": "\"삼전·현대차 못 샀는데 어쩌죠\"…\"아직 싸다\" 전문가 찜한 주식 [분석+]",
-      "url": "https://www.hankyung.com/article/2026011531386",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 21:19",
-      "title": "“이쯤되니 무서워지는데”…새해들어 열흘째 기록경신 중인 코스피",
-      "url": "https://www.mk.co.kr/news/stock/11934485",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 19:55",
-      "title": "MBK 제재결정 또 보류 … 금감원 \"더 논의 필요\"",
-      "url": "https://www.mk.co.kr/news/stock/11934421",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 18:35",
-      "title": "“신고 안된 해외 코인앱 다 퇴출시킬 것”...구글 초강수 둔다",
-      "url": "https://www.mk.co.kr/news/stock/11934332",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 18:34",
-      "title": "EY한영 “CFO·세무 임원 86%, AI로 2년 내 효율성 30% 오를듯”",
-      "url": "https://www.mk.co.kr/news/stock/11934331",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 17:57",
-      "title": "코아스, 50억원 규모 유상증자 실시",
-      "url": "https://www.mk.co.kr/news/stock/11934322",
-      "keywords_hit": [
-        "증자"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 17:57",
-      "title": "엔케이맥스, 9억원 규모 유상증자 실시",
-      "url": "https://www.mk.co.kr/news/stock/11934321",
-      "keywords_hit": [
-        "증자"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 17:51",
-      "title": "[마켓칼럼]인공지능과 주식시장의 변동성",
-      "url": "https://www.hankyung.com/article/202601153589i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 17:50",
-      "title": "LS주주, 에식스 공모주 받는다",
-      "url": "https://www.mk.co.kr/news/stock/11934304",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 17:50",
-      "title": "\"형님 같이 가요\"…현대차 주가 따라가는 기아",
-      "url": "https://www.mk.co.kr/news/stock/11934305",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 17:50",
-      "title": "코스피 10거래일째 최고치 … 신고가 10개중 6개 대형주",
-      "url": "https://www.mk.co.kr/news/stock/11934303",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 17:42",
-      "title": "'韓증시 복귀' RIA 계좌, 빠르면 내달부터 시행",
-      "url": "https://www.mk.co.kr/news/stock/11934262",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 17:40",
-      "title": "[마켓칼럼] 반도체株 담으면서 환헤지하는 외국인들…韓 증시 여전히 저평가",
-      "url": "https://www.hankyung.com/article/202601153428i",
-      "keywords_hit": [
-        "외국인",
-        "반도체"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-15 17:37",
-      "title": "[유가증권시장 공시] LS",
-      "url": "https://www.mk.co.kr/news/stock/11934241",
-      "keywords_hit": [
-        "공시",
-        "유가"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 17:10",
-      "title": "\"지금 안 사면 늦어요\"…주총 앞두고 개미들 눈 돌리는 곳",
-      "url": "https://www.hankyung.com/article/2026011533571",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 17:09",
-      "title": "불장서 소외된 카카오…외국인·기관도 외면",
-      "url": "https://www.hankyung.com/article/2026011533611",
-      "keywords_hit": [
-        "외국인",
-        "기관"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 17:08",
-      "title": "코스피, 4800까지 '단 2.5P'…조선·로봇주가 상승 이끌어",
-      "url": "https://www.hankyung.com/article/2026011533591",
-      "keywords_hit": [
-        "코스피",
-        "로봇"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 17:06",
-      "title": "\"삼성전자 매도 타이밍, IT 수요가 핵심\"",
-      "url": "https://www.hankyung.com/article/2026011533621",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 17:05",
-      "title": "[특징주 & 리포트] '포스코그룹주 일제히 강세' 등",
-      "url": "https://www.hankyung.com/article/2026011533561",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-15 17:05",
-      "title": "[포토] 코스피 4800까지 단 2.45p",
-      "url": "https://www.hankyung.com/article/202601153391i",
-      "keywords_hit": [
-        "코스피"
-      ]
     }
   ]
 }
