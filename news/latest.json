@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-16 17:30 KST",
+  "updated_at": "2026-01-16 17:55 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,12 +23,99 @@
   "count": 40,
   "items": [
     {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 17:48",
+      "title": "코스피 시총 4000조 시대",
+      "url": "https://www.hankyung.com/article/2026011659221",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 17:48",
+      "title": "클라우드플레어, 英 AI 스타트업 인수",
+      "url": "https://www.hankyung.com/article/2026011658421",
+      "keywords_hit": [
+        "인수",
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 17:48",
+      "title": "삼성생명, 두나무 지분인수 부인에도 5%↑",
+      "url": "https://www.mk.co.kr/news/stock/11935483",
+      "keywords_hit": [
+        "인수"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 17:48",
+      "title": "이지스 '센터필드 매각' 추진에 … 신세계, 소송 검토",
+      "url": "https://www.mk.co.kr/news/stock/11935482",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 17:48",
+      "title": "운용자산 10조 성장한 IMM \"AI·헬스케어·에너지 집중\"",
+      "url": "https://www.mk.co.kr/news/stock/11935481",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 17:48",
+      "title": "\"무섭게 오른다\"… 코스피 상승률 세계 1위",
+      "url": "https://www.mk.co.kr/news/stock/11935480",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 17:47",
+      "title": "눈 소식 없는 美 서부…베일리조트 실적 '먹구름'",
+      "url": "https://www.hankyung.com/article/2026011658471",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 17:46",
+      "title": "넷플릭스, 소니와 '동맹'…10조원 규모 독점 계약",
+      "url": "https://www.hankyung.com/article/2026011658451",
+      "keywords_hit": []
+    },
+    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-16 17:30",
       "title": "삼성·SK·한화 주가 달릴때 홀로 뒤쳐지 ‘이곳’…이번에도 정공법 통할까 [K주식, 이걸 사? 말아?]",
       "url": "https://www.mk.co.kr/news/stock/11935161",
       "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 17:24",
+      "title": "\"최고의 투자처는 반도체…삼성·SK하이닉스 여전히 싸다\"",
+      "url": "https://www.hankyung.com/article/202601165725i",
+      "keywords_hit": [
+        "반도체"
+      ]
     },
     {
       "source": "HK",
@@ -204,49 +291,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 14:30",
-      "title": "\"다음주 빅딜\" 예고…알테오젠, 장중 12% 급등",
-      "url": "https://www.hankyung.com/article/202601165236i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 14:27",
-      "title": "쏟아내던 주식 물량이 사라졌다…'코리아 디스카운트' 탈출 신호 나왔다",
-      "url": "https://www.hankyung.com/article/202601165292i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 14:25",
-      "title": "클라우드플레어, 英 스타트업 인수…\"AI학습 수익화 시스템 개발\"",
-      "url": "https://www.hankyung.com/article/202601165170i",
-      "keywords_hit": [
-        "인수",
-        "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 14:17",
-      "title": "비트코인 랠리 믿었는데…美 의회 한 방에 개미들 '우수수'",
-      "url": "https://www.hankyung.com/article/202601165212i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 14:13",
-      "title": "[마켓PRO] \"CPU도 공급부족\" 소식에…서학개미, 인텔 매수",
-      "url": "https://www.hankyung.com/article/202601165117i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-16 13:46",
@@ -331,38 +375,6 @@
       "keywords_hit": [
         "AI"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 10:40",
-      "title": "솔라나, 아시아 최대 디지털 자산 축제 나선다…홍콩서도 엑셀러레이트 개최",
-      "url": "https://www.mk.co.kr/news/stock/11934884",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 10:36",
-      "title": "삼성전자 지분가치 상승 기대감에...삼성생명 주가 9.7% 급등",
-      "url": "https://www.mk.co.kr/news/stock/11934879",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 10:14",
-      "title": "[MK 골든크로스 돌파종목 : 현대차증권(001500) & 지역난방공사(071320)]",
-      "url": "https://www.mk.co.kr/news/stock/11934844",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 10:14",
-      "title": "[MK시그널] 효성티앤씨, 스판덱스 공급 과잉 해소 기대감 등에 주가 상승세... MK시그널 추천 후 상승률 41.28%기록",
-      "url": "https://www.mk.co.kr/news/stock/11934843",
-      "keywords_hit": []
     }
   ]
 }
