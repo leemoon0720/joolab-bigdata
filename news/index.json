@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-16 16:56 KST",
+  "updated_at": "2026-01-16 17:30 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,101 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 17:30",
+      "title": "삼성·SK·한화 주가 달릴때 홀로 뒤쳐지 ‘이곳’…이번에도 정공법 통할까 [K주식, 이걸 사? 말아?]",
+      "url": "https://www.mk.co.kr/news/stock/11935161",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 17:18",
+      "title": "올해 채권투자 흔들 3대 이슈",
+      "url": "https://www.hankyung.com/article/2026011657911",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 17:17",
+      "title": "올 26% 손실에도…개미 '곱버스' 베팅",
+      "url": "https://www.hankyung.com/article/2026011657901",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 17:15",
+      "title": "\"깜짝 실적 쏟아질 것\"…코스피 랠리, 가속도 붙는다",
+      "url": "https://www.hankyung.com/article/2026011657871",
+      "keywords_hit": [
+        "코스피",
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 17:14",
+      "title": "美 코인법 연기에 암호화폐株 하락",
+      "url": "https://www.hankyung.com/article/2026011657921",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 17:12",
+      "title": "\"만성적 물량 부담 덜었다…韓증시, 체질 개선\"",
+      "url": "https://www.hankyung.com/article/2026011657941",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 17:11",
+      "title": "코스피 사상 첫 4800선 돌파…시가총액 4000조원 시대 개막 [HK영상]",
+      "url": "https://www.hankyung.com/article/202601165784i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 17:10",
+      "title": "하나증권 첫 발행어음, 1주일만에 3000억 판매",
+      "url": "https://www.hankyung.com/article/2026011657951",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 17:10",
+      "title": "[특징주 & 리포트] 삼성생명·증권, 나란히 강세",
+      "url": "https://www.hankyung.com/article/2026011657891",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 17:06",
+      "title": "무섭게 오른다... 코스피 상승률 세계 1위",
+      "url": "https://www.mk.co.kr/news/stock/11935381",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 16:56",
+      "title": "넥스트증권, 유연근무·원격근무 도입 2월 도입 추진",
+      "url": "https://www.hankyung.com/article/202601165755i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -152,24 +247,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 14:05",
-      "title": "\"오천피가 코앞이네\"…'15만전자 가나' 개미들 두근두근",
-      "url": "https://www.hankyung.com/article/202601165166i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 13:57",
-      "title": "[마켓PRO] \"K바이오 관심 증가\"…고수들, 메지온·보로노이 매수",
-      "url": "https://www.hankyung.com/article/202601165112i",
-      "keywords_hit": [
-        "바이오"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-16 13:46",
@@ -186,27 +263,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 13:34",
-      "title": "티오더, 고객센터·현장 방문 지원 확대",
-      "url": "https://www.hankyung.com/article/2026011651456",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-16 13:33",
       "title": "“노이즈 콘텐츠 ‘야핑’ 퇴출”...카이토 20% 급락 [매일코인]",
       "url": "https://www.mk.co.kr/news/stock/11935078",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 13:26",
-      "title": "서울신용평가, 내부 체질 개선 추진",
-      "url": "https://www.hankyung.com/article/2026011651256",
       "keywords_hit": []
     },
     {
@@ -228,30 +289,12 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 13:10",
-      "title": "'서진시스템 자회사' 텍슨, IMC 그룹 '잉거솔'과 전략적 제휴",
-      "url": "https://www.hankyung.com/article/2026011651046",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-16 11:42",
       "title": "MBK파트너스, 홈플러스 지원 위해 DIP 1천억 긴급 투입",
       "url": "https://www.mk.co.kr/news/stock/11935011",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 11:21",
-      "title": "'파죽지세' 코스피, 시총 사상 첫 4000조 돌파",
-      "url": "https://www.hankyung.com/article/2026011648636",
-      "keywords_hit": [
-        "코스피"
-      ]
     },
     {
       "source": "MK",
@@ -261,25 +304,6 @@
       "url": "https://www.mk.co.kr/news/stock/11934936",
       "keywords_hit": [
         "바이오"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 11:04",
-      "title": "트럼프發 연준 독립성 논란…비트코인에 악재로 작용할까",
-      "url": "https://www.hankyung.com/article/202601153061g",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 11:00",
-      "title": "코스피는 오천피 바라보는데…코스닥 톱10 모두 '파란불'",
-      "url": "https://www.hankyung.com/article/2026011646726",
-      "keywords_hit": [
-        "코스피",
-        "코스닥"
       ]
     },
     {
@@ -325,16 +349,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 10:20",
-      "title": "코스피, 연속 질주로 첫 4800선 돌파…\"오천피 코앞\" [HK영상]",
-      "url": "https://www.hankyung.com/article/202601164668i",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-16 10:14",
@@ -348,24 +362,6 @@
       "published_at": "2026-01-16 10:14",
       "title": "[MK시그널] 효성티앤씨, 스판덱스 공급 과잉 해소 기대감 등에 주가 상승세... MK시그널 추천 후 상승률 41.28%기록",
       "url": "https://www.mk.co.kr/news/stock/11934843",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 09:38",
-      "title": "“11일 연속 최고치 뚫으며 달린다”…코스피 사상 첫 4800선 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11934803",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 09:36",
-      "title": "트럼프 가문의 ‘크립토 은행’ 승부수… “USD1 스테이블코인으로 기축통화 노린다”",
-      "url": "https://www.mk.co.kr/news/stock/11934799",
       "keywords_hit": []
     }
   ]
