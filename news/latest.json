@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-16 13:27 KST",
+  "updated_at": "2026-01-16 13:57 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,46 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 13:46",
+      "title": "“차트 보며 바로 소통한다”…키움증권, 실시간 채팅 커뮤니티 개설",
+      "url": "https://www.mk.co.kr/news/stock/11935088",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 13:36",
+      "title": "교보증권, IT부문 채용연계형 인턴사원 모집",
+      "url": "https://www.mk.co.kr/news/stock/11935080",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 13:34",
+      "title": "티오더, 고객센터·현장 방문 지원 확대",
+      "url": "https://www.hankyung.com/article/2026011651456",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 13:33",
+      "title": "“노이즈 콘텐츠 ‘야핑’ 퇴출”...카이토 20% 급락 [매일코인]",
+      "url": "https://www.mk.co.kr/news/stock/11935078",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 13:26",
+      "title": "서울신용평가, 내부 체질 개선 추진",
+      "url": "https://www.hankyung.com/article/2026011651256",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -331,56 +371,12 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 09:02",
-      "title": "[속보] 코스피 사상 첫 4800 돌파…연일 최고치 경신",
-      "url": "https://www.hankyung.com/article/202601164136i",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 09:00",
-      "title": "\"부패 이너서클\" 지적 금융지주에 메스…금융위, 지배구조 선진화 TF 킥오프",
-      "url": "https://www.hankyung.com/article/2026011641986",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-16 08:58",
       "title": "“비트코인, 지금이 바닥인가...18만달러까지 간다”",
       "url": "https://www.mk.co.kr/news/stock/11934748",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 08:45",
-      "title": "국가대표 가슴에 ‘업비트’ 단다…대한체육회와 맞손",
-      "url": "https://www.mk.co.kr/news/stock/11934734",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 08:44",
-      "title": "“대한항공 목표주가 10% 올립니다”…중국 여행객 늘고화물까지 몰린다는데 [오늘 나온 보고서]",
-      "url": "https://www.mk.co.kr/news/stock/11934733",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 08:10",
-      "title": "열흘째 ‘불기둥’ 코스피…오늘 상승세로 4800선 넘길까",
-      "url": "https://www.mk.co.kr/news/stock/11934713",
-      "keywords_hit": [
-        "코스피"
-      ]
     }
   ]
 }
