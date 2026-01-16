@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-16 17:55 KST",
+  "updated_at": "2026-01-16 18:25 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,51 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 18:05",
+      "title": "디지털자산기본법 고삐 죄는 與…\"은행 중심은 혁신 저해\"",
+      "url": "https://www.hankyung.com/article/202601165823g",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 17:57",
+      "title": "코스피 4800도 단숨에 돌파…기관이 6거래일 연속 쓸어담아",
+      "url": "https://www.hankyung.com/article/2026011659571",
+      "keywords_hit": [
+        "코스피",
+        "기관"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 17:49",
+      "title": "시장 만족 못시킨 美은행주…\"실적시즌 기대감 낮춰야\"",
+      "url": "https://www.hankyung.com/article/2026011658411",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 17:49",
+      "title": "BHP·리오틴토 '맞손'…호주 철광석 공동 채굴",
+      "url": "https://www.hankyung.com/article/2026011658371",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 17:49",
+      "title": "\"중국 기술주 쓸어담자\"…하루 4조위안 '뭉칫돈'",
+      "url": "https://www.hankyung.com/article/2026011658461",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -129,7 +174,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-16 17:17",
-      "title": "올 26% 손실에도…개미 '곱버스' 베팅",
+      "title": "'오천피' 코앞인데 쪽박 행렬…'곱버스' 개미들 비명 터졌다",
       "url": "https://www.hankyung.com/article/2026011657901",
       "keywords_hit": []
     },
@@ -223,16 +268,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 15:58",
-      "title": "코스피, 4800선도 뚫었다…합산 시총 사상 첫 4000조원",
-      "url": "https://www.hankyung.com/article/2026011655056",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-16 15:55",
@@ -241,14 +276,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 15:38",
-      "title": "CPI 호조…비트코인 9만5000달러 안착·이더리움은 3300달러 돌파 [이수현의 코인레이더]",
-      "url": "https://www.hankyung.com/article/202601164989g",
-      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -264,30 +291,6 @@
       "published_at": "2026-01-16 15:12",
       "title": "하나증권, 첫 발행어음 일주일 만에 3000억원 규모 완판",
       "url": "https://www.mk.co.kr/news/stock/11935240",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 14:48",
-      "title": "하나증권, '하나 THE 발행어음' 출시 일주일 만에 3000억 조기 달성",
-      "url": "https://www.hankyung.com/article/202601165371i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 14:41",
-      "title": "2500만원 손실 vs 7800만원 대박…1억 넣은 개미 '엇갈린 희비'",
-      "url": "https://www.hankyung.com/article/202601165186i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 14:40",
-      "title": "교보증권, 2026년 상반기 채용연계형 인턴사원 모집",
-      "url": "https://www.hankyung.com/article/202601165359i",
       "keywords_hit": []
     },
     {
