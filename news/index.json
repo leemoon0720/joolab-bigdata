@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-16 18:25 KST",
+  "updated_at": "2026-01-16 18:47 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 18:24",
+      "title": "[포토] 파죽지세 코스피…4840.74로 마감",
+      "url": "https://www.hankyung.com/article/202601166027i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -256,16 +266,6 @@
       "title": "초고수의 엇갈린 투심…현대차 사고 삼성전자 팔고[주식 초고수는 지금]",
       "url": "https://www.mk.co.kr/news/stock/11935338",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 16:17",
-      "title": "호실적에도 트럼프에 운 美 은행주…투자 매력은 여전",
-      "url": "https://www.hankyung.com/article/202601165618i",
-      "keywords_hit": [
-        "실적"
-      ]
     },
     {
       "source": "MK",
