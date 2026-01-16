@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-16 21:23 KST",
+  "updated_at": "2026-01-16 22:11 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 22:00",
+      "title": "'칭찬해, 내 손가락'…'5만전자'에도 끝까지 버텼더니 초대박 [종목+]",
+      "url": "https://www.hankyung.com/article/2026011656136",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -247,14 +255,6 @@
       "published_at": "2026-01-16 17:10",
       "title": "하나증권 첫 발행어음, 1주일만에 3000억 판매",
       "url": "https://www.hankyung.com/article/2026011657951",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 17:10",
-      "title": "[특징주 & 리포트] 삼성생명·증권, 나란히 강세",
-      "url": "https://www.hankyung.com/article/2026011657891",
       "keywords_hit": []
     },
     {
