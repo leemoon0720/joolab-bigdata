@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-16 16:01 KST",
+  "updated_at": "2026-01-16 16:33 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,34 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 16:31",
+      "title": "초고수의 엇갈린 투심…현대차 사고 삼성전자 팔고[주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11935338",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 16:17",
+      "title": "호실적에도 트럼프에 운 美 은행주…투자 매력은 여전",
+      "url": "https://www.hankyung.com/article/202601165618i",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 15:58",
+      "title": "코스피, 4800선도 뚫었다…합산 시총 사상 첫 4000조원",
+      "url": "https://www.hankyung.com/article/2026011655056",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -323,22 +351,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 10:04",
-      "title": "키움증권, MTS 안에서 '실시간 채팅형 커뮤니티' 서비스 개시",
-      "url": "https://www.hankyung.com/article/2026011646126",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 10:04",
-      "title": "효성티앤씨, 중국 경쟁사 파산 위기에 주가 급등세",
-      "url": "https://www.hankyung.com/article/2026011645266",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-16 09:38",
@@ -354,14 +366,6 @@
       "published_at": "2026-01-16 09:36",
       "title": "트럼프 가문의 ‘크립토 은행’ 승부수… “USD1 스테이블코인으로 기축통화 노린다”",
       "url": "https://www.mk.co.kr/news/stock/11934799",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 09:34",
-      "title": "JP모건도 벽 허물었다… 스테이블코인, ‘폐쇄형’ 벗어나 광폭 행보",
-      "url": "https://www.mk.co.kr/news/stock/11934794",
       "keywords_hit": []
     }
   ]
