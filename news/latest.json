@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-16 15:41 KST",
+  "updated_at": "2026-01-16 16:01 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,24 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-16 15:55",
+      "title": "“자고 일어나면 신기록, 주말이 아쉽네”…4800대 뚫고 마감한 코스피",
+      "url": "https://www.mk.co.kr/news/stock/11935296",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 15:38",
+      "title": "CPI 호조…비트코인 9만5000달러 안착·이더리움은 3300달러 돌파 [이수현의 코인레이더]",
+      "url": "https://www.hankyung.com/article/202601164989g",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -321,16 +339,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 10:02",
-      "title": "미국 이란 공격 우려 완화에…WTI 4% 급락 [오늘의 유가]",
-      "url": "https://www.hankyung.com/article/202601164383i",
-      "keywords_hit": [
-        "유가"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-16 09:38",
@@ -355,17 +363,6 @@
       "title": "JP모건도 벽 허물었다… 스테이블코인, ‘폐쇄형’ 벗어나 광폭 행보",
       "url": "https://www.mk.co.kr/news/stock/11934794",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 09:05",
-      "title": "코스피 4800까지 뚫었다…美 반도체주 훈풍에 상승 출발",
-      "url": "https://www.mk.co.kr/news/stock/11934755",
-      "keywords_hit": [
-        "코스피",
-        "반도체"
-      ]
     }
   ]
 }
