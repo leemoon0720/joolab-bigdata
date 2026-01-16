@@ -379,8 +379,6 @@ async function ensureUserInKV(env, emailLower, seedUser, passwordPlain, secret) 
 
 function isPublicPath(pathname) {
   // 공개 허용(로그인 없이 접근)
-  if (pathname === '/' ) return true;
-  if (pathname === '/sample/' || pathname === '/sample') return true;
   if (pathname === '/account/' || pathname === '/account') return true;
   if (pathname === '/login/' || pathname === '/login') return true;
   if (pathname === '/signup/' || pathname === '/signup') return true;
@@ -397,17 +395,6 @@ function isPublicPath(pathname) {
   return false;
 }
 
-const BIGDATA_CATS = ['strong','accum','suspicious'];
-
-function isBigdataPagePath(pathname) {
-  // 멤버 전용: 빅데이터/강한/매집/수상해
-  return pathname === '/data' || pathname.startsWith('/data/')
-    || pathname === '/strong' || pathname.startsWith('/strong/')
-    || pathname === '/accum' || pathname.startsWith('/accum/')
-    || pathname === '/suspicious' || pathname.startsWith('/suspicious/');
-}
-
-
 async function requireAuth(request, env, baseUrl) {
   const secret = (env && env.JLAB_AUTH_SECRET) ? env.JLAB_AUTH_SECRET : DEFAULT_SECRET;
   const cookies = parseCookies(request.headers.get('cookie') || '');
@@ -416,6 +403,69 @@ async function requireAuth(request, env, baseUrl) {
   if (!payload || !payload.email) return null;
   return payload;
 }
+
+function isBigdataPath(pathname){
+  if(!pathname) return false;
+  if (pathname === '/data' || pathname.startsWith('/data/')) return true;
+  if (pathname === '/strong' || pathname.startsWith('/strong/')) return true;
+  if (pathname === '/accum' || pathname.startsWith('/accum/')) return true;
+  if (pathname === '/suspicious' || pathname.startsWith('/suspicious/')) return true;
+  return false;
+}
+
+function renderBigdataMembersOnly(url){
+  const next = (url && url.pathname ? (url.pathname + (url.search || '')) : '/data/');
+  const safeNext = String(next).replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  const loginUrl = '/account/?next=' + encodeURIComponent(next);
+
+  const html =
+    '<!doctype html>' +
+    '<html lang="ko">' +
+    '<head>' +
+    '  <meta charset="utf-8"/>' +
+    '  <meta name="viewport" content="width=device-width,initial-scale=1"/>' +
+    '  <title>구독 멤버십 전용</title>' +
+    '  <style>' +
+    '    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Apple SD Gothic Neo,Noto Sans KR,sans-serif;background:#0b1220;color:#e5e7eb;}' +
+    '    .wrap{max-width:860px;margin:0 auto;padding:28px 16px 56px;}' +
+    '    .card{background:#101a33;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;box-shadow:0 12px 30px rgba(0,0,0,.25);}' +
+    '    h1{font-size:22px;margin:0 0 10px;line-height:1.3;}' +
+    '    p{margin:8px 0 0;line-height:1.6;color:#cbd5e1;}' +
+    '    .hint{margin-top:14px;padding:12px 14px;border-radius:12px;background:rgba(59,130,246,.12);border:1px solid rgba(59,130,246,.25);color:#dbeafe;}' +
+    '    .btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px;}' +
+    '    a.btn{display:inline-block;padding:10px 14px;border-radius:12px;text-decoration:none;font-weight:700;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#e5e7eb;}' +
+    '    a.btn.primary{background:rgba(34,197,94,.18);border-color:rgba(34,197,94,.35);}' +
+    '    a.btn.blue{background:rgba(59,130,246,.18);border-color:rgba(59,130,246,.35);}' +
+    '    .small{margin-top:14px;font-size:12px;color:#94a3b8;}' +
+    '    code{background:rgba(255,255,255,.08);padding:2px 6px;border-radius:8px;}' +
+    '  </style>' +
+    '</head>' +
+    '<body>' +
+    '  <div class="wrap">' +
+    '    <div class="card">' +
+    '      <h1>이 공간은 구독 멤버십 전용입니다.</h1>' +
+    '      <p>빅데이터센터(강한종목/매집종목/수상해수상해)는 <b>구독 멤버</b>만 열람할 수 있습니다.</p>' +
+    '      <div class="hint">샘플 자료는 <b>홈 화면</b>에서 확인할 수 있습니다.</div>' +
+    '      <div class="btns">' +
+    '        <a class="btn" href="/">홈으로 이동</a>' +
+    '        <a class="btn blue" href="/subscribe/">구독 안내 보기</a>' +
+    '        <a class="btn primary" href="' + loginUrl + '">구독 멤버 로그인</a>' +
+    '      </div>' +
+    '      <div class="small">요청 경로: <code>' + safeNext + '</code></div>' +
+    '    </div>' +
+    '  </div>' +
+    '</body>' +
+    '</html>';
+
+  return new Response(html, {
+    status: 200,
+    headers: {
+      'content-type': 'text/html; charset=utf-8',
+      'cache-control': 'no-store'
+    }
+  });
+}
+
 
 async function handleAuthLogin(request, env, baseUrl) {
   const secret = (env && env.JLAB_AUTH_SECRET) ? env.JLAB_AUTH_SECRET : DEFAULT_SECRET;
@@ -631,7 +681,7 @@ async function _listMetaByPrefix(env, prefix, limit){
   return out;
 }
 
-async function handlePostsList(request, env){
+async function handlePostsList(request, env, baseUrl){
   if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING', items:[]}, 200);
   const url = new URL(request.url);
   const category = String(url.searchParams.get('category')||'').trim();
@@ -640,16 +690,13 @@ async function handlePostsList(request, env){
 
   const sampleOnly = String(url.searchParams.get('sample')||'').trim() === '1';
 
+  const payload = await requireAuth(request, env, baseUrl);
+
   const allowed = ['strong','accum','suspicious','perf','meme'];
   if(!allowed.includes(category)) return jsonResp({ok:false, error:'BAD_CATEGORY', items:[]}, 200);
-  // 비로그인: bigdata 카테고리는 샘플(sample=1)만 노출
-  if (BIGDATA_CATS.includes(category)) {
-    const payload = await requireAuth(request, env, new URL(request.url).origin);
-    if (!payload && !sampleOnly) {
-      return jsonResp({ ok:true, updated_at: new Date().toISOString(), count: 0, items: [] }, 200);
-    }
-  }
 
+  const isBigdata = ['strong','accum','suspicious'].includes(category);
+  if (isBigdata && !payload && !sampleOnly) return jsonResp({ok:false, error:'MEMBERS_ONLY', items:[]}, 200);
 
   let items=[];
   if(region && region !== 'ALL'){
@@ -670,14 +717,13 @@ async function handlePostsList(request, env){
   return jsonResp({ok:true, updated_at, count: items.length, items}, 200);
 }
 
-async function handlePostsLatest(request, env){
+async function handlePostsLatest(request, env, baseUrl){
   if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
   const url = new URL(request.url);
   const scope = String(url.searchParams.get('scope')||'bigdata').trim();
-  if (scope === 'bigdata') {
-    const payload = await requireAuth(request, env, new URL(request.url).origin);
-    if (!payload) return jsonResp({ ok:false, error:'LOGIN_REQUIRED' }, 200);
-  }
+  const payload = await requireAuth(request, env, baseUrl);
+  if (scope === 'bigdata' && !payload) return jsonResp({ok:false, error:'MEMBERS_ONLY'}, 200);
+
   const key = (scope === 'perf') ? 'posts/latest/perf.json' : (scope === 'meme') ? 'posts/latest/meme.json' : 'posts/latest/bigdata.json';
   const v = await env.JLAB_KV.get(key);
   if(!v) return jsonResp({ok:false, error:'EMPTY'}, 200);
@@ -688,11 +734,13 @@ async function handlePostsLatest(request, env){
   }
 }
 
-async function handlePostsGet(request, env){
+async function handlePostsGet(request, env, baseUrl){
   if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
   const url = new URL(request.url);
   const id = String(url.searchParams.get('id')||'').trim();
   if(!id) return jsonResp({ok:false, error:'NO_ID'}, 200);
+
+  const payload = await requireAuth(request, env, baseUrl);
 
   const metaStr = await env.JLAB_KV.get(`posts/id/${id}.json`);
   const html = await env.JLAB_KV.get(`posts/html/${id}.html`);
@@ -700,10 +748,12 @@ async function handlePostsGet(request, env){
 
   let meta=null;
   try{ meta = JSON.parse(metaStr); }catch(e){ meta=null; }
-  if (meta && BIGDATA_CATS.includes(String(meta.category||'')) && !meta.is_sample) {
-    const payload = await requireAuth(request, env, new URL(request.url).origin);
-    if (!payload) return jsonResp({ ok:false, error:'LOGIN_REQUIRED' }, 200);
-  }
+
+  const cat = String(meta && meta.category ? meta.category : '');
+  const isBigdata = ['strong','accum','suspicious'].includes(cat);
+  const isSample = !!(meta && meta.is_sample);
+  if (isBigdata && !isSample && !payload) return jsonResp({ok:false, error:'MEMBERS_ONLY'}, 200);
+
   return jsonResp({ok:true, meta, html}, 200);
 }
 
@@ -1046,13 +1096,13 @@ export default {
       return await handlePostsUpdateTitle(request, env, url.origin);
     }
     if (url.pathname === '/api/posts/list') {
-      return await handlePostsList(request, env);
+      return await handlePostsList(request, env, url.origin);
     }
     if (url.pathname === '/api/posts/get') {
-      return await handlePostsGet(request, env);
+      return await handlePostsGet(request, env, url.origin);
     }
     if (url.pathname === '/api/posts/latest') {
-      return await handlePostsLatest(request, env);
+      return await handlePostsLatest(request, env, url.origin);
     }
 
     // ==============================
@@ -1093,13 +1143,14 @@ export default {
     }
 
     // ==============================
-    // Bigdata gate (Home first: never force login screen)
-    // - 비로그인: 빅데이터 영역(/data,/strong,/accum,/suspicious) 진입 시 홈으로 되돌림
+    // Bigdata members-only gate
+    // - 비구독자: 안내문 화면
+    // - 구독자: 정상 진입
     // ==============================
-    if (isBigdataPagePath(url.pathname)) {
+    if (isBigdataPath(url.pathname)) {
       const payload = await requireAuth(request, env, url.origin);
       if (!payload) {
-        return Response.redirect(new URL('/', url.origin).toString(), 302);
+        return renderBigdataMembersOnly(url);
       }
     }
 
