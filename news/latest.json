@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-16 20:00 KST",
+  "updated_at": "2026-01-16 20:27 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-16 19:55",
+      "title": "외환당국, 국내증권사…환전거래 실시간 점검",
+      "url": "https://www.hankyung.com/article/2026011661041",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -258,14 +266,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 16:56",
-      "title": "넥스트증권, 유연근무·원격근무 도입 2월 도입 추진",
-      "url": "https://www.hankyung.com/article/202601165755i",
-      "keywords_hit": []
     },
     {
       "source": "MK",
