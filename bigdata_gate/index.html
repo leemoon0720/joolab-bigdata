@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>빅데이터 이용 안내 | 주랩</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@latest/dist/web/variable/pretendardvariable.css">
+  <link rel="stylesheet" href="/assets/app.css"/>
+  <style>
+    /* UI only: keep in-page to avoid extra file */
+    .gate-wrap{max-width:980px;margin:0 auto;}
+    .gate-hero{padding:34px 0 12px;}
+    .gate-hero h1{margin:0 0 10px;font-size:28px;letter-spacing:-0.02em;}
+    .gate-hero p{margin:0;color:rgba(255,255,255,.78);line-height:1.6;}
+    .gate-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px;margin-top:18px;}
+    .gate-card{grid-column:span 12;background:rgba(255,255,255,.04);border:1px solid rgba(201,162,77,.28);border-radius:16px;padding:16px;}
+    @media(min-width:860px){.gate-card{grid-column:span 4;}}
+    .gate-card h3{margin:0 0 8px;font-size:16px;}
+    .gate-card p{margin:0 0 14px;color:rgba(255,255,255,.75);font-size:13px;line-height:1.6;}
+    .gate-actions{display:flex;gap:10px;flex-wrap:wrap;}
+    .gate-actions a{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:0 14px;border-radius:12px;border:1px solid rgba(201,162,77,.35);color:#E6C87A;text-decoration:none;background:rgba(0,0,0,.25);}
+    .gate-actions a.primary{background:rgba(201,162,77,.14);border-color:rgba(201,162,77,.55);color:#fff;}
+    .gate-note{margin-top:14px;color:rgba(255,255,255,.6);font-size:12px;}
+  </style>
+</head>
+<body>
+<div class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="/">
+      <div class="brand-badge">JL</div>
+      <div>
+        <div class="brand-title">주랩 빅데이터 센터</div>
+        <div class="brand-sub">샘플 · 뉴스 · 빅데이터 · 성과 · 게임</div>
+      </div>
+    </a>
+    <nav class="nav">
+      <a href="/notice/" data-nav="notice">공지</a>
+      <a href="/news/" data-nav="news">뉴스센터</a>
+      <a href="/sample/" data-nav="sample">샘플자료실</a>
+      <a href="/subscribe/" data-nav="subscribe">구독</a>
+      <a href="/signup/" data-nav="signup">회원가입</a>
+      <a href="/login/" data-nav="login">로그인</a>
+    </nav>
+  </div>
+</div>
+
+<main class="main">
+  <div class="container gate-wrap">
+
+    <section class="gate-hero">
+      <h1>빅데이터 이용 안내</h1>
+      <p>
+        비로그인(비회원/비구독) 상태에서는 <b>빅데이터(강한종목·매집종목·수상해수상해)</b> 접근이 제한됩니다.<br>
+        아래에서 <b>샘플자료</b>를 먼저 확인하신 후, 구독 안내 확인 → 회원가입/로그인 순서로 진행해 주십시오.
+      </p>
+      <div class="gate-note" id="gate-next" style="display:none;"></div>
+    </section>
+
+    <section class="gate-grid">
+      <div class="gate-card">
+        <h3>샘플자료실</h3>
+        <p>비구독자 공개 영역입니다. 샘플로 화면/구성/자료 형태를 먼저 확인할 수 있습니다.</p>
+        <div class="gate-actions">
+          <a class="primary" href="/sample/">샘플자료 보기</a>
+        </div>
+      </div>
+
+      <div class="gate-card">
+        <h3>구독 안내</h3>
+        <p>구독 등급/가격/제공 범위를 확인하고, 본인에게 맞는 플랜을 선택할 수 있습니다.</p>
+        <div class="gate-actions">
+          <a class="primary" href="/subscribe/">구독 안내 보기</a>
+        </div>
+      </div>
+
+      <div class="gate-card">
+        <h3>회원가입 / 로그인</h3>
+        <p>회원가입 후 로그인하면 빅데이터 접근이 가능합니다. 이미 계정이 있으면 바로 로그인하십시오.</p>
+        <div class="gate-actions">
+          <a href="/signup/">회원가입</a>
+          <a class="primary" href="/login/">로그인</a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<script>
+  (function(){
+    try{
+      const u = new URL(location.href);
+      const next = u.searchParams.get('next') || '';
+      if(next){
+        const el = document.getElementById('gate-next');
+        el.style.display = 'block';
+        el.textContent = '요청하신 페이지: ' + next;
+        // 로그인 링크에 next 전달
+        const login = document.querySelector('a[href="/login/"]');
+        if(login){
+          const lu = new URL(login.getAttribute('href'), location.origin);
+          lu.searchParams.set('next', next);
+          login.setAttribute('href', lu.pathname + lu.search);
+        }
+      }
+    }catch(e){}
+  })();
+</script>
+
+</body>
+</html>

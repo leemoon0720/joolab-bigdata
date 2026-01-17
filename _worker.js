@@ -387,6 +387,7 @@ async function ensureUserInKV(env, emailLower, seedUser, passwordPlain, secret) 
 }
 
 function isPublicPath(pathname) {
+  if (pathname === '/bigdata_gate' || pathname.startsWith('/bigdata_gate/')) return true;
   // 기본: 전부 공개
   // 예외: 빅데이터(/data, /strong, /accum, /suspicious)와 운영(/ops)은 로그인 필요
   if (pathname === "/data" || pathname.startsWith("/data/")) return false;
@@ -1098,8 +1099,18 @@ export default {
       const payload = await requireAuth(request, env, url.origin);
       if (!payload) {
         // assets/api는 위에서 처리됨. 나머지는 account로 이동.
+        const next = url.pathname + (url.search || '');
+        const isBigdata = (url.pathname === '/data' || url.pathname.startsWith('/data/')
+          || url.pathname === '/strong' || url.pathname.startsWith('/strong/')
+          || url.pathname === '/accum' || url.pathname.startsWith('/accum/')
+          || url.pathname === '/suspicious' || url.pathname.startsWith('/suspicious/'));
+        if (isBigdata) {
+          const to = new URL('/bigdata_gate/', url.origin);
+          to.searchParams.set('next', next);
+          return Response.redirect(to.toString(), 302);
+        }
         const to = new URL('/login/', url.origin);
-        to.searchParams.set('next', url.pathname + (url.search || ''));
+        to.searchParams.set('next', next);
         return Response.redirect(to.toString(), 302);
       }
     }
