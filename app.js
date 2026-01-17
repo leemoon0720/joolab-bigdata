@@ -19,16 +19,17 @@
     const nav = document.querySelector('.topbar .nav');
     if(!nav) return;
 
-    // Unified minimal menu (remove 샘플자료실/성과표 등 과다 메뉴)
+    // Unified minimal menu (비구독자도 이동 가능한 공개 메뉴 포함)
     nav.innerHTML = [
       '<a href="/notice/" data-nav="notice">공지</a>',
       '<a href="/news/" data-nav="news">뉴스센터</a>',
+      '<a href="/sample/" data-nav="sample">샘플자료</a>',
       '<a href="/data/" data-nav="data">빅데이터</a>',
+      '<a href="/performance/" data-nav="performance">성과표</a>',
       '<a href="/game/" data-nav="game">게임</a>',
       '<a href="/meme/" data-nav="meme">유머</a>',
       '<a href="/subscribe/" data-nav="subscribe">구독</a>',
       '<a href="/login/" data-nav="login">로그인</a>',
-      '<a href="/signup/" data-nav="signup">회원가입</a>',
       '<a href="/ops/" data-nav="ops">운영</a>',
     ].join('');
 
@@ -769,80 +770,7 @@ async function hydrateNewsPreview(){
     });
   }
 
-  function isAuthError(e){
-    const s = String(e || '');
-    return s.includes('401') || s.includes('403');
-  }
-
-  function ensureHomeSampleCard(){
-    if(byId('home-samples')) return;
-    const grid = document.querySelector('.grid.home-grid');
-    if(!grid) return;
-
-    const bdAnchor = byId('home-bigdata-strong');
-    const bdCard = bdAnchor ? bdAnchor.closest('.card') : null;
-
-    const card = document.createElement('div');
-    card.className = 'card home-card';
-    card.style.gridColumn = 'span 12';
-    card.innerHTML = [
-      '<div class="card-top"><h3>샘플자료</h3><span class="badge">FREE</span></div>',
-      '<div class="small" id="home-samples-meta">빅데이터는 구독 멤버십 전용입니다. 샘플은 여기에서 확인하시면 됩니다.</div>',
-      '<div id="home-samples" class="list list-compact"></div>',
-      '<div class="card-cta"><a href="/sample/">샘플자료실로</a></div>'
-    ].join('');
-
-    if(bdCard) bdCard.insertAdjacentElement('beforebegin', card);
-    else grid.appendChild(card);
-  }
-
-  async function hydrateHomeSamples(){
-    const box = byId('home-samples');
-    if(!box) return;
-
-    const meta = byId('home-samples-meta');
-    box.innerHTML = '<div class="small">로딩 중...</div>';
-
-    async function fetchSample(cat, limit){
-      const u = `/api/posts/list?category=${encodeURIComponent(cat)}&region=ALL&limit=${encodeURIComponent(String(limit||4))}&sample=1`;
-      return await fetchJSON(u);
-    }
-
-    try{
-      const [a,b,c] = await Promise.all([
-        fetchSample('strong', 4),
-        fetchSample('accum', 4),
-        fetchSample('suspicious', 4),
-      ]);
-
-      let items = []
-        .concat((a && a.items) ? a.items : [])
-        .concat((b && b.items) ? b.items : [])
-        .concat((c && c.items) ? c.items : []);
-
-      items.sort((x,y)=> String(y.created_ts||y.created_at||'').localeCompare(String(x.created_ts||x.created_at||'')));
-      items = items.slice(0,8);
-
-      if(meta){
-        const newest = items[0];
-        const t = newest ? fmtTime(newest.created_at || '') : '-';
-        meta.textContent = `샘플 최신: ${t} · ${items.length}개 표시`;
-      }
-
-      box.innerHTML = items.length
-        ? items.map(renderMetaItem).join('')
-        : '<div class="item"><div><div class="title">샘플이 없습니다.</div><div class="meta">관리자가 업로드 시 샘플 공개를 체크하면 여기와 샘플자료실에 노출됩니다.</div></div></div>';
-    }catch(e){
-      box.innerHTML = '<div class="item"><div><div class="title">샘플을 불러오지 못했습니다.</div><div class="meta">/api/posts/list?sample=1 확인</div></div></div>';
-    }
-  }
-
-
   async function hydrateHomeDashboard(){
-    // Home: show samples first (for non-subscribers)
-    ensureHomeSampleCard();
-    hydrateHomeSamples();
-
     // News preview
     const homeNews = byId('home-news');
     if(homeNews){
@@ -908,6 +836,72 @@ async function hydrateNewsPreview(){
     const bdSusp = byId('home-bigdata-suspicious');
     const homeBD = byId('home-bigdata'); // legacy
 
+    // Home sample card: 비구독자에게 "사이트 유용함"을 홈에서 바로 노출
+    const homeGrid = document.querySelector('.grid.home-grid');
+    function ensureHomeSampleCard(){
+      if(!homeGrid) return;
+      if(byId('home-sample-list')) return;
+
+      const card = document.createElement('div');
+      card.className = 'card home-card';
+      card.style.gridColumn = 'span 6';
+      card.innerHTML = `
+        <div class="card-top"><h3>샘플자료</h3><span class="badge" id="home-sample-upd">UPD</span></div>
+        <div class="small" id="home-sample-meta">회원가입 전 미리보기</div>
+        <div id="home-sample-list" class="list list-compact"></div>
+        <div class="card-cta"><a href="/sample/">샘플자료실로</a></div>
+      `;
+
+      // Insert right after the "빅데이터 최신" card if present
+      let inserted = false;
+      const cards = Array.from(homeGrid.querySelectorAll('.card.home-card'));
+      for(const c of cards){
+        const h = c.querySelector('h3');
+        if(h && (h.textContent||'').trim() === '빅데이터 최신'){
+          homeGrid.insertBefore(card, c.nextSibling);
+          inserted = true;
+          break;
+        }
+      }
+      if(!inserted) homeGrid.appendChild(card);
+    }
+
+    ensureHomeSampleCard();
+
+    async function hydrateHomeSampleCard(){
+      const box = byId('home-sample-list');
+      if(!box) return;
+      box.innerHTML = `<div class="item"><div><div class="title">로딩 중...</div><div class="meta">샘플자료 불러오는 중</div></div></div>`;
+      try{
+        const [jA, jS] = await Promise.all([
+          fetchJSON('/api/posts/list?category=accum&region=ALL&limit=30&sample=1'),
+          fetchJSON('/api/posts/list?category=strong&region=ALL&limit=30&sample=1'),
+        ]);
+        let items = []
+          .concat((jA && jA.items) ? jA.items : [])
+          .concat((jS && jS.items) ? jS.items : []);
+
+        items = (items || []).filter(Boolean);
+        items.sort((x,y)=> String(y.created_ts||'').localeCompare(String(x.created_ts||'')));
+        items = items.slice(0, 6);
+
+        const upd = byId('home-sample-upd');
+        const meta = byId('home-sample-meta');
+        const newest = items[0];
+        if(upd) upd.textContent = newest && newest.created_at ? `UPD: ${fmtTime(newest.created_at)}` : 'UPD: -';
+        if(meta) meta.textContent = items.length ? `샘플 ${items.length}개 표시 (최근순)` : '샘플이 없습니다.';
+
+        box.innerHTML = items.length
+          ? items.map(renderMetaItem).join('')
+          : `<div class="item"><div><div class="title">샘플이 없습니다.</div><div class="meta">운영에서 업로드 시 ‘샘플 공개’를 체크하면 홈/샘플자료실에 표시됩니다.</div></div></div>`;
+      }catch(e){
+        box.innerHTML = `<div class="item"><div><div class="title">샘플을 불러오지 못했습니다.</div><div class="meta">/api/posts/list?sample=1 응답 확인</div></div></div>`;
+      }
+    }
+
+    // Always try to show sample card on home
+    hydrateHomeSampleCard();
+
     async function fetchPostList(category, limit){
       const u = `/api/posts/list?category=${encodeURIComponent(category)}&region=ALL&limit=${encodeURIComponent(String(limit||4))}`;
       return await fetchJSON(u);
@@ -953,26 +947,12 @@ async function hydrateNewsPreview(){
         }
 
       }catch(e){
-        const locked = isAuthError(e);
-        const msg = locked
-          ? `<div class="item"><div><div class="title">구독 멤버십 전용</div><div class="meta">비구독자는 빅데이터센터를 볼 수 없습니다. 위 ‘샘플자료’에서 먼저 확인하시면 됩니다.</div></div></div>`
-          : `<div class="item"><div><div class="title">빅데이터를 불러오지 못했습니다.</div><div class="meta">/api/posts/list 확인</div></div></div>`;
-
+        // 비구독자(로그인 불가) 또는 멤버십 전용 차단 시: 에러 대신 안내 문구로 표시
+        const msg = `<div class="item"><div><div class="title">구독 멤버십 전용 공간입니다.</div><div class="meta"><a href="/sample/">홈의 샘플자료</a>를 확인하거나 <a href="/subscribe/">구독 안내</a>를 확인해 주십시오.</div></div></div>`;
         if(bdStrong) bdStrong.innerHTML = msg;
         if(bdAccum) bdAccum.innerHTML = msg;
         if(bdSusp) bdSusp.innerHTML = msg;
         if(homeBD) homeBD.innerHTML = msg;
-
-        if(locked){
-          const bdCard = (bdStrong && bdStrong.closest('.card')) || (bdAccum && bdAccum.closest('.card')) || (bdSusp && bdSusp.closest('.card')) || null;
-          const cta = bdCard ? bdCard.querySelector('.card-cta a') : null;
-          if(cta){
-            cta.setAttribute('href', '/subscribe/');
-            cta.textContent = '구독 안내';
-          }
-          const b = byId('home-badge-bigdata');
-          if(b) b.textContent = 'BIGDATA: MEMBERSHIP';
-        }
       }
 
     // Legacy layout: merged latest 12
