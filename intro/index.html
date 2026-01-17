@@ -8,10 +8,10 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@latest/dist/web/variable/pretendardvariable.css">
   <link rel="stylesheet" href="/assets/app.css"/>
 </head>
-<body class="page-intro">
+<body>
 <header class="vip-top">
   <div class="vip-top-inner">
-    <a class="vip-brand" href="/">
+    <a class="vip-brand" href="/" aria-label="JOOLAB 홈">
       <img src="/assets/joolab_logo.png" alt="JOOLAB" class="vip-logo"/>
       <div class="vip-brand-text">
         <div class="vip-brand-title">JOOLAB</div>
@@ -28,57 +28,47 @@
 </header>
 
 <main class="vip-page">
-  <section class="vip-card" aria-label="JOOLAB 소개">
+  <section class="vip-panel" aria-label="JOOLAB 소개">
     <div class="vip-kicker">VIP DATA LAB</div>
-    <h1 class="vip-h1">주랩은 ‘이야기’가 아니라<br/>‘숫자’로만 판단합니다.</h1>
-    <p class="vip-p">거래대금·수급·추세 지표를 중심으로, 시장에서 <b>돈이 움직인 흔적</b>만 정리합니다. 추측성 멘트와 과장은 제외합니다.</p>
+    <h1 class="vip-h1">주랩은 ‘말’이 아니라<br/>데이터로만 판단합니다.</h1>
+    <p class="vip-p">
+      주랩은 거래대금·수급·추세의 <b>변화</b>를 기준으로,
+      시장에서 자금이 움직인 흔적을 정리합니다.
+      추측과 감정은 배제하고, <b>숫자</b>만 남깁니다.
+    </p>
 
-    <div class="vip-kv" role="list" aria-label="핵심 메뉴">
-      <div class="vip-kv-row" role="listitem"><span class="vip-kv-k">뉴스</span><span class="vip-kv-v">오늘 핵심 이슈만, 빠르게</span></div>
-      <div class="vip-kv-row" role="listitem"><span class="vip-kv-k">빅데이터</span><span class="vip-kv-v">강한종목 / 매집종목 / 수상해수상해 (회원 전용)</span></div>
-      <div class="vip-kv-row" role="listitem"><span class="vip-kv-k">자료실</span><span class="vip-kv-v">엑셀·문서 다운로드</span></div>
-      <div class="vip-kv-row" role="listitem"><span class="vip-kv-k">성과표</span><span class="vip-kv-v">기록 기반으로 확인</span></div>
-    </div>
-
-    <h2 class="vip-h2">빅데이터 3개 분류</h2>
     <div class="vip-bullets" role="list">
       <div class="vip-bullet" role="listitem">
         <span class="dot" aria-hidden="true"></span>
         <div>
-          <div class="bttl">강한종목</div>
-          <div class="bsub">지표가 깔끔한 종목을 “정리된 형태”로 누적합니다.</div>
+          <div class="bttl">뉴스</div>
+          <div class="bsub">오늘 핵심 이슈만, 짧고 빠르게 확인합니다.</div>
         </div>
       </div>
       <div class="vip-bullet" role="listitem">
         <span class="dot" aria-hidden="true"></span>
         <div>
-          <div class="bttl">매집종목</div>
-          <div class="bsub">거래대금·수급·매집 지표를 기준으로 순위를 제공합니다.</div>
+          <div class="bttl">빅데이터</div>
+          <div class="bsub">강한종목·매집종목·이상신호를 누적으로 관리합니다.</div>
         </div>
       </div>
       <div class="vip-bullet" role="listitem">
         <span class="dot" aria-hidden="true"></span>
         <div>
-          <div class="bttl">수상해수상해</div>
-          <div class="bsub">전일 대비 거래대금 급증 등 “이상 신호”를 따로 분리해 봅니다.</div>
+          <div class="bttl">자료실</div>
+          <div class="bsub">엑셀·문서·리포트를 바로 내려받을 수 있습니다.</div>
         </div>
       </div>
     </div>
 
-    <h2 class="vip-h2">이용 흐름</h2>
-    <ol class="vip-steps">
-      <li><b>홈</b>에서 메뉴(뉴스/빅데이터/자료실)를 선택합니다.</li>
-      <li><b>빅데이터</b>는 로그인 후, 분류(KR/US)를 선택합니다.</li>
-      <li>각 게시글은 카드뉴스처럼 바로 확인하며, 필요 시 HTML/자료를 내려받습니다.</li>
-    </ol>
-
-    <p class="vip-note">주의: 빅데이터(강한/매집/수상해)는 멤버십 권한에 따라 노출됩니다.</p>
-
-    <div class="vip-cta">
-      <a class="vip-btn" href="/subscribe/">구독 안내</a>
-      <a class="vip-btn vip-btn-ghost" href="/">홈으로</a>
+    <div class="vip-actions">
+      <a class="vip-btn vip-btn-solid" href="/subscribe/">구독 안내</a>
+      <a class="vip-btn" href="/data/">빅데이터</a>
+      <a class="vip-btn" href="/news/">뉴스</a>
     </div>
   </section>
 </main>
+
+<script src="/assets/app.js" defer></script>
 </body>
 </html>

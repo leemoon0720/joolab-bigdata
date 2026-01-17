@@ -484,17 +484,17 @@ body{background:var(--bg);}
    VIP THEME (Black & Gold) — Global overrides
    ========================================================= */
 :root{
-  --vip-bg: radial-gradient(900px 600px at 16% 10%, rgba(212,175,55,.09) 0%, rgba(0,0,0,0) 62%),
-            radial-gradient(980px 680px at 88% 18%, rgba(230,201,107,.06) 0%, rgba(0,0,0,0) 66%),
-            linear-gradient(180deg, #0B0D10 0%, #07070A 100%);
-  --vip-panel: rgba(18,21,28,.88);
-  --vip-panel2: rgba(18,21,28,.72);
-  --vip-text: #E6E8ED;
-  --vip-muted: rgba(185,190,201,.86);
-  --vip-line: rgba(212,175,55,.20);
+  --vip-bg: radial-gradient(800px 520px at 15% 8%, rgba(212,175,55,.10) 0%, rgba(0,0,0,0) 62%),
+            radial-gradient(900px 640px at 88% 18%, rgba(242,214,128,.08) 0%, rgba(0,0,0,0) 64%),
+            linear-gradient(180deg, #0B0C10 0%, #07070A 100%);
+  --vip-panel: rgba(16,16,18,.88);
+  --vip-panel2: rgba(16,16,18,.72);
+  --vip-text: #EAECEF;
+  --vip-muted: rgba(234,236,239,.64);
+  --vip-line: rgba(212,175,55,.22);
   --vip-gold: #D4AF37;
-  --vip-gold2: #E6C96B;
-  --vip-goldGrad: linear-gradient(135deg, rgba(212,175,55,1), rgba(230,201,107,1));
+  --vip-gold2: #F2D680;
+  --vip-goldGrad: linear-gradient(135deg, rgba(212,175,55,1), rgba(242,214,128,1));
 }
 
 /* Force global theme (no pink / no white UI) */
@@ -538,14 +538,14 @@ body{
 .nav a{
   background: rgba(16,16,18,.68) !important;
   border: 1px solid rgba(212,175,55,.22) !important;
-  color: rgba(230,232,237,.92) !important;
+  color: rgba(234,236,239,.92) !important;
   box-shadow: none !important;
 }
 .nav a:hover{background: rgba(16,16,18,.84) !important; opacity:1 !important;}
 .nav a.active{
   background: rgba(212,175,55,.16) !important;
   border-color: rgba(212,175,55,.55) !important;
-  color: rgba(230,201,107,.92) !important;
+  color: rgba(242,214,128,.98) !important;
 }
 
 .hero,.card,.item,.input,.chip,.mchip{
@@ -556,116 +556,7 @@ body{
 .badge{
   border-color: rgba(212,175,55,.22) !important;
   background: rgba(16,16,18,.74) !important;
-  color: rgba(230,232,237,.86) !important;
-}
-
-
-/* =========================================================
-   VIP TOPBAR + PAGE LAYOUT (used by home/intro)
-   ========================================================= */
-.vip-top{
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background: rgba(10,10,12,.78);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-bottom: 1px solid var(--line);
-}
-.vip-top::after{
-  content:"";
-  display:block;
-  height:2px;
-  background: var(--brandGrad);
-  opacity:.28;
-}
-.vip-top-inner{
-  max-width: 980px;
-  margin: 0 auto;
-  padding: 14px 18px;
-  display:flex;
-  align-items:center;
-  justify-content: space-between;
-  gap: 12px;
-}
-.vip-brand{
-  display:flex;
-  align-items:center;
-  gap: 12px;
-  text-decoration:none;
-}
-.vip-logo{
-  width: 52px;
-  height: 52px;
-  border-radius: 14px;
-  background: rgba(16,16,18,.64);
-  border: 1px solid rgba(212,175,55,.22);
-}
-.vip-brand-title{font-weight: 900; letter-spacing: .8px; color: rgba(230,232,237,.96); line-height: 1.05;}
-.vip-brand-sub{font-weight: 800; letter-spacing: .4px; color: rgba(185,190,201,.82); font-size: 12px; margin-top: 2px;}
-.vip-top-actions{display:flex; align-items:center; gap: 8px; flex-wrap: wrap;}
-.vip-pill{
-  height: 38px;
-  padding: 0 12px;
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  border-radius: 999px;
-  text-decoration:none;
-  border: 1px solid rgba(212,175,55,.22);
-  background: rgba(18,21,28,.72);
-  color: rgba(230,232,237,.92);
-  font-weight: 900;
-  font-size: 13px;
-}
-.vip-pill:hover{background: rgba(18,21,28,.86); border-color: rgba(212,175,55,.44);}
-.vip-pill-primary{
-  background: rgba(212,175,55,.16);
-  border-color: rgba(212,175,55,.52);
-  color: rgba(230,201,107,.92);
-}
-.vip-pill-primary:hover{background: rgba(212,175,55,.22);}
-
-.vip-home{padding: 18px 0 56px;}
-.vip-page{padding: 18px 0 56px;}
-.vip-card{
-  max-width: 980px;
-  margin: 18px auto 0;
-  padding: 22px;
-  border-radius: 18px;
-  background: rgba(18,21,28,.84);
-  border: 1px solid rgba(212,175,55,.22);
-}
-
-/* Intro key-value rows */
-.vip-kv{margin-top: 14px; display:grid; gap: 10px;}
-.vip-kv-row{display:flex; gap: 10px; align-items:center; justify-content: space-between; padding: 12px 14px; border-radius: 14px; background: rgba(0,0,0,.18); border: 1px solid rgba(212,175,55,.14);} 
-.vip-kv-k{font-weight: 900; color: rgba(230,201,107,.88);} 
-.vip-kv-v{font-weight: 800; color: rgba(185,190,201,.92);} 
-.vip-cta{margin-top: 16px; display:flex; gap: 10px; flex-wrap: wrap;}
-
-/* Buttons (VIP) */
-.vip-btn{
-  height: 40px;
-  padding: 0 14px;
-  border-radius: 999px;
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  border: 1px solid rgba(212,175,55,.28);
-  background: rgba(18,21,28,.72);
-  color: rgba(230,232,237,.92);
-  font-weight: 900;
-  text-decoration:none;
-}
-.vip-btn:hover{background: rgba(18,21,28,.90);} 
-.vip-btn-ghost{background: rgba(0,0,0,.10);} 
-
-@media (max-width: 760px){
-  .vip-top-inner{padding: 12px 14px;}
-  .vip-logo{width: 46px; height: 46px;}
-  .vip-brand-sub{display:none;}
-  .vip-card{margin-top: 12px; padding: 16px;}
+  color: rgba(234,236,239,.86) !important;
 }
 
 /* =========================================================
@@ -703,29 +594,6 @@ body{
 .vip-tile:hover{border-color: rgba(212,175,55,.55); background: rgba(16,16,18,.92);}
 .vip-tile:active{transform: translateY(1px); background: rgba(16,16,18,.98);}
 
-
-.vip-tile-ico{
-  width: 40px;
-  height: 40px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-}
-.vip-svg{
-  width: 40px;
-  height: 40px;
-  stroke: rgba(230,201,107,.88);
-  stroke-width: 1.8;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  fill: none;
-}
-.vip-tile-label{
-  font-weight: 900;
-  font-size: 12px;
-  letter-spacing: .2px;
-  color: rgba(230,232,237,.92);
-}
 .vip-icon{
   width: 38px;
   height: 38px;
@@ -736,7 +604,7 @@ body{
 .vip-icon svg{
   width: 38px;
   height: 38px;
-  stroke: rgba(230,201,107,.90);
+  stroke: rgba(242,214,128,.95);
   stroke-width: 1.8;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -747,7 +615,7 @@ body{
   font-weight: 800;
   font-size: 12px;
   letter-spacing: .2px;
-  color: rgba(230,232,237,.92);
+  color: rgba(234,236,239,.92);
 }
 
 /* Home topbar: keep only the 4 links already in home HTML. */
@@ -768,7 +636,7 @@ body{
 .vip-kicker{
   font-weight: 900;
   letter-spacing: 1.4px;
-  color: rgba(230,201,107,.84);
+  color: rgba(242,214,128,.88);
   font-size: 12px;
 }
 .vip-h1{
@@ -778,7 +646,7 @@ body{
 }
 .vip-p{
   margin: 10px 0 0;
-  color: rgba(185,190,201,.92);
+  color: rgba(234,236,239,.72);
   font-weight: 700;
   line-height: 1.55;
 }
@@ -786,7 +654,7 @@ body{
 .vip-bullet{display:flex; gap:10px; align-items:flex-start; padding:12px; border-radius:14px; background: rgba(0,0,0,.16); border:1px solid rgba(212,175,55,.14);} 
 .vip-bullet .dot{width:10px; height:10px; margin-top:6px; border-radius:999px; background: rgba(212,175,55,.72);} 
 .vip-bullet .bttl{font-weight:900;}
-.vip-bullet .bsub{margin-top:4px; color: rgba(185,190,201,.82); font-weight:700; font-size:13px;}
+.vip-bullet .bsub{margin-top:4px; color: rgba(234,236,239,.68); font-weight:700; font-size:13px;}
 .vip-actions{margin-top:16px; display:flex; gap:10px; flex-wrap:wrap;}
 .vip-btn{
   height: 40px;
@@ -797,14 +665,14 @@ body{
   justify-content:center;
   border: 1px solid rgba(212,175,55,.28);
   background: rgba(16,16,18,.76);
-  color: rgba(230,232,237,.92);
+  color: rgba(234,236,239,.92);
   font-weight: 900;
 }
 .vip-btn:hover{background: rgba(16,16,18,.92);}
 .vip-btn-solid{
   background: rgba(212,175,55,.18);
   border-color: rgba(212,175,55,.55);
-  color: rgba(230,201,107,.92);
+  color: rgba(242,214,128,.98);
 }
 
 /* =========================================================
@@ -813,16 +681,16 @@ body{
    ========================================================= */
 
 /* Stronger text contrast on subscription screens */
-body .plan-card .price{color: rgba(230,201,107,.92) !important;}
-body .plist{color: rgba(230,232,237,.86) !important;}
-body .plist li{color: rgba(230,232,237,.84) !important;}
-body .policy-card p{color: rgba(230,232,237,.78) !important;}
-body .small{color: rgba(185,190,201,.82) !important;}
-body .foot-links a{color: rgba(230,232,237,.78) !important;}
+body .plan-card .price{color: rgba(242,214,128,.98) !important;}
+body .plist{color: rgba(234,236,239,.86) !important;}
+body .plist li{color: rgba(234,236,239,.84) !important;}
+body .policy-card p{color: rgba(234,236,239,.78) !important;}
+body .small{color: rgba(234,236,239,.68) !important;}
+body .foot-links a{color: rgba(234,236,239,.78) !important;}
 body .foot-links .dot{color: rgba(234,236,239,.35) !important;}
 
 /* Inputs: readable text + placeholder */
-body .input input{color: rgba(230,232,237,.92) !important;}
+body .input input{color: rgba(234,236,239,.92) !important;}
 body .input input::placeholder{color: rgba(234,236,239,.40) !important;}
 
 /* Plan cards: one per row ("한 칸씩"), clean list style */
@@ -843,7 +711,7 @@ body .plan-card .plist li::before{
   width: 6px;
   height: 6px;
   border-radius: 999px;
-  background: rgba(230,201,107,.86);
+  background: rgba(242,214,128,.90);
   box-shadow: 0 0 0 2px rgba(212,175,55,.18);
 }
 
@@ -853,4 +721,118 @@ body .plan-card .plist li::before{
   body .plan-card .price{font-size: 22px !important;}
   body .btn{width: 100% !important; justify-content: center !important;}
   body .pcta{flex-direction: column !important; align-items: stretch !important;}
+}
+
+/* =========================================================
+   VIP HOME/INTRO — premium topbar + icon medallion + aliases
+   (Keeps black+gold VIP, reduces glare, fixes class mismatches)
+   ========================================================= */
+
+:root{
+  --vip-bg-solid:#0B0D10;
+  --vip-panel-solid:#12151C;
+  --vip-text-1:#E6E8ED;
+  --vip-text-2:#B9BEC9;
+}
+
+body{background: var(--vip-bg-solid) !important;}
+
+.vip-top{
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(11,13,16,.72);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(212,175,55,.18);
+}
+.vip-top-inner{
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.vip-brand{display:flex; align-items:center; gap: 12px; text-decoration:none;}
+.vip-logo{width: 44px; height: 44px; object-fit: contain; border-radius: 10px;}
+.vip-brand-title{font-weight: 950; letter-spacing: .4px; color: var(--vip-text-1);}
+.vip-brand-sub{margin-top: 2px; font-weight: 800; font-size: 12px; color: rgba(242,214,128,.82); letter-spacing: 1.1px;}
+.vip-brand-text{display:flex; flex-direction:column; line-height:1.1;}
+
+.vip-top-actions{display:flex; align-items:center; gap: 10px; flex-wrap: wrap; justify-content: flex-end;}
+.vip-pill{
+  height: 36px;
+  padding: 0 14px;
+  border-radius: 999px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  text-decoration:none;
+  border: 1px solid rgba(212,175,55,.28);
+  background: rgba(18,21,28,.72);
+  color: rgba(230,232,237,.92);
+  font-weight: 900;
+}
+.vip-pill:hover{background: rgba(18,21,28,.88); border-color: rgba(212,175,55,.55);}
+.vip-pill-primary{
+  background: rgba(212,175,55,.16);
+  border-color: rgba(212,175,55,.62);
+  color: rgba(242,214,128,.98);
+}
+
+/* Grid spacing refinement */
+.vip-home{padding: 22px 0 54px;}
+.vip-grid{padding-top: 18px;}
+
+/* Premium icon medallion */
+.vip-icon{
+  width: 46px;
+  height: 46px;
+  border-radius: 16px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:
+    radial-gradient(18px 18px at 30% 25%, rgba(242,214,128,.18), rgba(0,0,0,0) 70%),
+    linear-gradient(180deg, rgba(18,21,28,.88), rgba(12,14,18,.92));
+  border: 1px solid rgba(212,175,55,.30);
+}
+.vip-svg{
+  width: 28px;
+  height: 28px;
+  stroke: rgba(242,214,128,.95);
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Aliases for earlier HTML variants (safety) */
+.vip-tile-ico{
+  width: 46px;
+  height: 46px;
+  border-radius: 16px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:
+    radial-gradient(18px 18px at 30% 25%, rgba(242,214,128,.18), rgba(0,0,0,0) 70%),
+    linear-gradient(180deg, rgba(18,21,28,.88), rgba(12,14,18,.92));
+  border: 1px solid rgba(212,175,55,.30);
+}
+.vip-tile-label{
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: .2px;
+  color: rgba(230,232,237,.92);
+}
+
+/* Tile label refinement (less glare) */
+.vip-label{color: rgba(230,232,237,.92); font-weight: 900;}
+
+/* Mobile: prevent topbar overflow */
+@media (max-width: 520px){
+  .vip-top-inner{padding: 12px 14px;}
+  .vip-logo{width: 40px; height: 40px;}
+  .vip-pill{height: 34px; padding: 0 12px;}
 }
