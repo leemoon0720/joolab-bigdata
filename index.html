@@ -8,177 +8,171 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@latest/dist/web/variable/pretendardvariable.css">
   <link rel="stylesheet" href="/assets/app.css"/>
 </head>
-<body>
 
-<div class="topbar">
-  <div class="container topbar-inner">
-    <a class="brand" href="/">
-      <div class="brand-badge">JL</div>
-      <div>
-        <div class="brand-title">주랩 빅데이터 센터</div>
-        <div class="brand-sub">뉴스 · 빅데이터 · 성과 · 게임</div>
-      </div>
-    </a>
-    <nav class="nav">
-      <a href="/notice/" data-nav="notice">공지</a>
-      <a href="/news/" data-nav="news">뉴스센터</a>
-      <a href="/data/" data-nav="data">빅데이터</a>
-      <a href="/sample/" data-nav="sample">샘플자료실</a>
-      <a href="/performance/" data-nav="performance">성과표</a>
-      <a href="/game/" data-nav="game">게임</a>
-      <a href="/meme/" data-nav="meme">웃긴짤</a>
-      <a href="/subscribe/" data-nav="subscribe">구독</a>
-      <a href="/login/" data-nav="login">로그인</a>
-      <a href="/signup/" data-nav="signup">회원가입</a>
-      <a href="/ops/" data-nav="ops">운영</a>
-    </nav>
-  </div>
-</div>
+<body class="home-launch">
 
-<main class="main">
-  <div class="container">
-
-    <section class="hero hero-compact">
-      <div class="hero-head">
-</div>
-
-      <div class="hero-row">
-        <div class="statusbar">
-          <span class="badge live">LIVE</span>
-          <span class="badge upd" id="home-badge-news">NEWS: -</span>
-          <span class="badge upd" id="home-badge-bigdata">BIGDATA: -</span>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="/" aria-label="홈">
+        <div class="brand-badge">JL</div>
+        <div>
+          <div class="brand-title">주랩</div>
+          <div class="brand-sub">뉴스 · 빅데이터 · 자료 · 성과</div>
         </div>
-      </div>
+      </a>
 
-      <div class="market-strip market-strip-compact" id="market-strip">
-        <a class="mchip" data-key="kospi" data-sym="^KS11" href="https://finance.naver.com/sise/sise_index.nhn?code=KOSPI" target="_blank" rel="noopener">
-          <span class="mname">KOSPI</span>
-          <span class="mval" id="mval-kospi">-</span>
-          <span class="mchg" id="mchg-kospi"></span>
-        </a>
-        <a class="mchip" data-key="kosdaq" data-sym="^KQ11" href="https://finance.naver.com/sise/sise_index.nhn?code=KOSDAQ" target="_blank" rel="noopener">
-          <span class="mname">KOSDAQ</span>
-          <span class="mval" id="mval-kosdaq">-</span>
-          <span class="mchg" id="mchg-kosdaq"></span>
-        </a>
-        <a class="mchip" data-key="usdkrw" data-sym="USDKRW=X" href="https://finance.naver.com/marketindex/exchangeDetail.nhn?marketindexCd=FX_USDKRW" target="_blank" rel="noopener">
-          <span class="mname">USD/KRW</span>
-          <span class="mval" id="mval-usdkrw">-</span>
-          <span class="mchg" id="mchg-usdkrw"></span>
-        </a>
-      </div>
-    </section>
-
-    <div class="grid home-grid">
-      <div class="card home-card" style="grid-column: span 6;">
-        <div class="card-top"><h3>뉴스 맛보기</h3><span class="badge upd" id="home-news-upd">UPD</span></div>
-        <div class="small" id="home-news-meta">-</div>
-        <div id="home-news" class="list list-compact"></div>
-        <div class="card-cta"><a href="/news/">더보기</a></div>
-      </div>
-
-      <div class="card home-card" style="grid-column: span 6;">
-        <div class="card-top"><h3>인포맥스 인기 TOP10</h3><span class="badge">RSS</span></div>
-        <div class="small">인포맥스 인기기사(clickTop) 기준</div>
-        <div id="home-infomax" class="list list-compact"></div>
-        <div class="card-cta"><a href="/news/">뉴스센터로</a></div>
-      </div>
-
-      <div class="card home-card" style="grid-column: span 12;">
-        <div class="card-top"><h3>빅데이터 최신</h3><span class="badge live">CATEGORIES</span></div>
-        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:12px;">
-          <div>
-            <div class="small" style="font-weight:700; margin:2px 0 6px;">강한종목</div>
-            <div id="home-bigdata-strong" class="list list-compact"></div>
-          </div>
-          <div>
-            <div class="small" style="font-weight:700; margin:2px 0 6px;">매집종목</div>
-            <div id="home-bigdata-accum" class="list list-compact"></div>
-          </div>
-          <div>
-            <div class="small" style="font-weight:700; margin:2px 0 6px;">수상해수상해</div>
-            <div id="home-bigdata-suspicious" class="list list-compact"></div>
-          </div>
-        </div>
-        <div class="card-cta"><a href="/data/">더보기</a></div>
-      </div>
-
-
-      <div class="card home-card" style="grid-column: span 6;">
-        <div class="card-top"><h3>샘플자료</h3><span class="badge">FREE</span></div>
-        <div class="small" id="home-sample-meta">-</div>
-        <div id="home-sample" class="list list-compact"></div>
-        <div class="card-cta"><a href="/sample/">샘플자료실로</a></div>
-      </div>
-
-      <div class="card home-card" style="grid-column: span 6;">
-        <div class="card-top"><h3>성과표</h3><span class="badge" id="home-perf-badge">LIST</span></div>
-        <div id="home-perf" class="list list-compact"></div>
-        <div class="card-cta"><a href="/performance/">더보기</a></div>
-      </div>
-
-      <div class="card home-card" style="grid-column: span 6;">
-        <div class="card-top"><h3>유튜브</h3><span class="badge live">LATEST</span></div>
-        <div id="home-youtube" class="yt-card"></div>
-        <div class="card-cta"><a href="https://www.youtube.com/channel/UC85ROrNcbOFDOeC5b0RaQMQ" target="_blank" rel="noopener">채널로</a></div>
-      </div>
-
-      <div class="card home-card" style="grid-column: span 6;">
-        <div class="card-top"><h3>게임</h3><span class="badge upd">FUN</span></div>
-        <div class="mini-grid">
-          <a class="mini-tile" href="/training/">
-            <div class="mini-ttl">차트게임</div>
-            <div class="mini-sub">패턴 퀴즈</div>
-          </a>
-          <a class="mini-tile" href="/game/">
-            <div class="mini-ttl">미니게임</div>
-            <div class="mini-sub">추가 예정</div>
-          </a>
-        </div>
-        <div class="card-cta"><a href="/game/">더보기</a></div>
-      </div>
+      <nav class="nav" aria-label="상단 메뉴">
+        <a href="/subscribe/" data-nav="subscribe">구독</a>
+        <a href="/login/" data-nav="login">로그인</a>
+      </nav>
     </div>
-
   </div>
-</main>
 
-<script>
-(async ()=>{
-  try{
-    const box = document.getElementById('home-sample');
-    if(!box) return;
-    const meta = document.getElementById('home-sample-meta');
+  <main class="main">
+    <div class="container">
+      <section class="launch-hero">
+        <h1 class="launch-title">필요한 것만 깔끔하게</h1>
+        <p class="launch-sub">타일만 누르면 바로 들어갑니다.</p>
+      </section>
 
-    const r = await fetch('/api/posts/list?category=sample&region=ALL&limit=6', { credentials: 'include' });
-    const j = await r.json();
-    const items = (j.items || []).slice(0,6);
+      <section class="launch-grid" aria-label="빠른 이동">
+        <a class="launch-tile t-news" href="/news/" aria-label="뉴스">
+          <div class="tile-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M6 7h10M6 11h10M6 15h7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M4.5 5.5h15v13a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2v-13z" stroke="currentColor" stroke-width="2" opacity=".65"/>
+            </svg>
+          </div>
+          <div class="tile-text">
+            <div class="tile-title">뉴스</div>
+            <div class="tile-sub">오늘 핵심 이슈</div>
+          </div>
+        </a>
 
-    if(meta) meta.textContent = items.length ? ('샘플 ' + items.length + '건') : '샘플 자료가 없습니다.';
+        <a class="launch-tile t-bigdata" href="/data/" aria-label="빅데이터">
+          <div class="tile-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M6 18V9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M12 18V6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M18 18v-7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M4 20h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+            </svg>
+          </div>
+          <div class="tile-text">
+            <div class="tile-title">빅데이터</div>
+            <div class="tile-sub">구독자 전용</div>
+          </div>
+        </a>
 
-    box.innerHTML = items.length ? items.map(m=>{
-      const id = encodeURIComponent(m.id || '');
-      const title = m.title || '(제목 없음)';
-      const sub = (m.region||'') + ' · ' + (m.category||'');
-      return (
-        '<div class="item">' +
-          '<div>' +
-            '<div class="title">' + title + '</div>' +
-            '<div class="meta">' + sub + '</div>' +
-          '</div>' +
-          '<div class="right">' +
-            '<a href="/post/?id=' + id + '">보기</a>' +
-          '</div>' +
-        '</div>'
-      );
-    }).join('') : '<div class="item"><div><div class="title">샘플 자료가 없습니다.</div><div class="meta">/sample/에서 업로드하면 홈에 표시됩니다.</div></div></div>';
-  }catch(e){
-    const box = document.getElementById('home-sample');
-    if(box) box.innerHTML = '<div class="item"><div><div class="title">샘플을 불러오지 못했습니다.</div><div class="meta">/api/posts/list?category=sample 확인</div></div></div>';
-  }
-})();
-</script>
+        <a class="launch-tile t-library" href="/library/" aria-label="자료실">
+          <div class="tile-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M4 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7z" stroke="currentColor" stroke-width="2"/>
+              <path d="M8 13h8" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+            </svg>
+          </div>
+          <div class="tile-text">
+            <div class="tile-title">자료실</div>
+            <div class="tile-sub">엑셀 · 문서</div>
+          </div>
+        </a>
 
+        <a class="launch-tile t-subscribe" href="/subscribe/" aria-label="구독">
+          <div class="tile-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M7 10h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M7 14h6" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+              <path d="M6 4h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H9l-5 0V6a2 2 0 0 1 2-2z" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <div class="tile-text">
+            <div class="tile-title">구독</div>
+            <div class="tile-sub">멤버십 안내</div>
+          </div>
+        </a>
 
-<script src="/assets/app.js"></script>
+        <a class="launch-tile t-performance" href="/performance/" aria-label="성과표">
+          <div class="tile-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M6 16l3-4 3 2 5-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M4 20h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+            </svg>
+          </div>
+          <div class="tile-text">
+            <div class="tile-title">성과표</div>
+            <div class="tile-sub">성과 · 기록</div>
+          </div>
+        </a>
+
+        <a class="launch-tile t-qa" href="/help/" aria-label="Q&A">
+          <div class="tile-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M7 8a4.5 4.5 0 0 1 8.7 1.6c0 3-3.2 3.2-3.2 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M12.5 17.8h0" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M4 4h16v14H8l-4 2V4z" stroke="currentColor" stroke-width="2" opacity=".65"/>
+            </svg>
+          </div>
+          <div class="tile-text">
+            <div class="tile-title">Q&amp;A</div>
+            <div class="tile-sub">질문 · 답변</div>
+          </div>
+        </a>
+
+        <a class="launch-tile t-youtube" href="https://www.youtube.com/channel/UC85ROrNcbOFDOeC5b0RaQMQ" target="_blank" rel="noopener" aria-label="유튜브">
+          <div class="tile-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M10 9.5l6 3.5-6 3.5v-7z" fill="currentColor"/>
+              <path d="M21 7.2a3 3 0 0 0-2.1-2.1C17 4.6 12 4.6 12 4.6s-5 0-6.9.5A3 3 0 0 0 3 7.2 31 31 0 0 0 2.6 12c0 1.7.1 3.3.4 4.8a3 3 0 0 0 2.1 2.1c1.9.5 6.9.5 6.9.5s5 0 6.9-.5a3 3 0 0 0 2.1-2.1c.3-1.5.4-3.1.4-4.8s-.1-3.3-.4-4.8z" stroke="currentColor" stroke-width="2" opacity=".65"/>
+            </svg>
+          </div>
+          <div class="tile-text">
+            <div class="tile-title">유튜브</div>
+            <div class="tile-sub">영상 보기</div>
+          </div>
+        </a>
+
+        <a class="launch-tile t-blog" href="http://www.joolab.co.kr/" target="_blank" rel="noopener" aria-label="블로그">
+          <div class="tile-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M7 4h10v16H7V4z" stroke="currentColor" stroke-width="2"/>
+              <path d="M9 8h6M9 12h6M9 16h4" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+            </svg>
+          </div>
+          <div class="tile-text">
+            <div class="tile-title">블로그</div>
+            <div class="tile-sub">글 보기</div>
+          </div>
+        </a>
+
+        <a class="launch-tile t-game" href="/games/" aria-label="게임">
+          <div class="tile-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M7.5 10.5h9a4.5 4.5 0 0 1 4.3 3.3l1 3.6a2 2 0 0 1-1.9 2.6H18a2 2 0 0 1-1.7-1l-1.1-1.8H8.8L7.7 19a2 2 0 0 1-1.7 1H4.1a2 2 0 0 1-1.9-2.6l1-3.6A4.5 4.5 0 0 1 7.5 10.5z" stroke="currentColor" stroke-width="2"/>
+              <path d="M8.5 14.5h3M10 13v3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M16.5 14h0" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M18.2 15.2h0" stroke="currentColor" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+            </svg>
+          </div>
+          <div class="tile-text">
+            <div class="tile-title">게임</div>
+            <div class="tile-sub">가볍게</div>
+          </div>
+        </a>
+      </section>
+
+      <footer class="launch-footer">
+        <div class="launch-footlinks">
+          <a href="/privacy.html">개인정보처리방침</a>
+          <span class="dot">·</span>
+          <a href="/terms.html">이용약관</a>
+          <span class="dot">·</span>
+          <a href="/contact.html">문의</a>
+        </div>
+        <div class="launch-copy">© JOOLAB</div>
+      </footer>
+    </div>
+  </main>
+
+  <script src="/assets/app.js"></script>
 </body>
 </html>
