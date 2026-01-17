@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-18 07:56 KST",
+  "updated_at": "2026-01-18 08:19 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,27 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-18 08:00",
+      "title": "\"'오천피' 목전 코스피…상법 3차 개정 업고 더 오를까 [주간전망]",
+      "url": "https://www.hankyung.com/article/2026011656286",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-18 08:00",
+      "title": "AI열풍 '숨은 주인공'...매출 270% 폭발에 주가도 '빵끗'[전범진의 종목 직구]",
+      "url": "https://www.hankyung.com/article/202601186785i",
+      "keywords_hit": [
+        "매출",
+        "AI"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -245,30 +266,12 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 17:46",
-      "title": "넷플릭스, 소니와 '동맹'…10조원 규모 독점 계약",
-      "url": "https://www.hankyung.com/article/2026011658451",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-16 17:30",
       "title": "삼성·SK·한화 주가 달릴때 홀로 뒤처진 ‘이곳’…이번에도 정공법 통할까 [K주식, 이걸 사? 말아?]",
       "url": "https://www.mk.co.kr/news/stock/11935161",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 17:24",
-      "title": "\"최고의 투자처는 반도체…삼성·SK하이닉스 여전히 싸다\"",
-      "url": "https://www.hankyung.com/article/202601165725i",
-      "keywords_hit": [
-        "반도체"
-      ]
     },
     {
       "source": "MK",
