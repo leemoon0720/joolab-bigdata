@@ -39,42 +39,50 @@
 
 <section class="hero hero-compact">
   <h1>샘플자료실</h1>
-  <p>회원가입 전 미리보기입니다. (강한종목/매집종목 샘플만 노출)</p>
+  <p>
+    비구독자 공개 영역입니다. 샘플은 <b>독립 자료실</b>로 운영되며, 빅데이터(강한/매집/수상해)와 분리됩니다.
+  </p>
 
   <div class="hero-row">
     <div class="statusbar">
-      <span class="badge upd" id="sample-badge-upd">UPD: -</span>
-      <span class="badge" id="sample-badge-count">-</span>
+      <span class="badge live">FREE</span>
+      <span class="badge upd" id="cat-badge-upd">UPD: -</span>
+      <span class="badge" id="cat-badge-count">-</span>
+    </div>
+
+    <div class="hero-actions" id="cat-admin-actions" style="display:none; gap:8px;">
+      <input id="cat-title" class="input" placeholder="(선택) 제목 직접 입력" style="min-width:240px;"/>
+      <button class="btn primary" id="cat-btn-upload" type="button">샘플 업로드</button>
+      <input id="cat-file" type="file" accept=".xlsx,.xls,.csv" style="display:none;">
     </div>
   </div>
 </section>
 
 <div class="grid">
   <div class="card" style="grid-column: span 12;">
-    <div class="card-top"><h3>필터</h3><span class="badge">SAMPLE</span></div>
-    <div class="filter-row">
-      <div class="chips">
-        <button class="chip chip-toggle is-on" data-sample-region="KR" type="button">국내</button>
-        <button class="chip chip-toggle" data-sample-region="US" type="button">해외</button>
-        <button class="chip chip-toggle" data-sample-region="ALL" type="button">전체</button>
-      </div>
-      <div class="chips">
-        <button class="chip chip-toggle is-on" data-sample-cat="accum" type="button">매집종목</button>
-        <button class="chip chip-toggle" data-sample-cat="strong" type="button">강한종목</button>
-      </div>
+    <div class="card-top"><h3>국내/해외</h3><span class="badge">REGION</span></div>
+    <div class="chips">
+      <button class="chip chip-toggle is-on" data-cat-region="KR" type="button">국내</button>
+      <button class="chip chip-toggle" data-cat-region="US" type="button">해외</button>
     </div>
-    <div class="small" style="margin-top:10px;">관리자가 업로드 시 “샘플 공개”를 체크한 글만 이곳에 표시됩니다.</div>
+    <div class="small" style="margin-top:10px;">
+      안내: 이 페이지는 <b>category=sample</b>만 보여줍니다. 기존처럼 빅데이터에서 “샘플공개” 체크한 글을 끌어오지 않습니다.
+    </div>
   </div>
 
   <div class="card" style="grid-column: span 12;">
     <div class="card-top"><h3>목록</h3><span class="badge">LIST</span></div>
-    <div id="sample-list" class="list"></div>
+    <div id="cat-list" class="list"></div>
   </div>
 </div>
+
+<script>window.__CAT_KEY__ = "sample";</script>
 
   </div>
 </main>
 
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
 <script src="/assets/app.js"></script>
+<script src="/assets/member.js"></script>
 </body>
 </html>
