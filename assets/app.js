@@ -2272,3 +2272,16 @@ document.addEventListener('DOMContentLoaded', ()=>{
     setInterval(()=>{ hydrateMarketStrip(); }, 60*1000);
   });
 })();
+
+/* === UI HOTFIX: MENU VISIBILITY === */
+(function(){
+  try{
+    const isAuthed = document.body && document.body.classList.contains('authed');
+    document.querySelectorAll('[data-guest-only]').forEach(el=>{
+      el.style.display = isAuthed ? 'none' : '';
+    });
+    document.querySelectorAll('[data-user-only]').forEach(el=>{
+      el.style.display = isAuthed ? '' : 'none';
+    });
+  }catch(e){}
+})();
