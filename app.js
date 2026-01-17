@@ -1,4 +1,12 @@
 (function(){
+  // Force Blue/Cyan theme variables (guards against cached/overridden pink theme)
+  try{
+    const r = document.documentElement;
+    r.style.setProperty('--brand', 'rgba(37,99,235,1)');
+    r.style.setProperty('--brand2', 'rgba(6,182,212,1)');
+    r.style.setProperty('--brandGrad', 'linear-gradient(135deg, rgba(37,99,235,1), rgba(29,78,216,1), rgba(6,182,212,1))');
+  }catch(e){}
+
   const byId = (id)=>document.getElementById(id);
   const qsa = (sel)=>Array.from(document.querySelectorAll(sel));
   // HTML escape (XSS-safe)
