@@ -14,30 +14,40 @@
     }[ch]));
   }
 
-  // Normalize top navigation: simplify menu + keep consistent across pages
+  // Normalize top navigation: minimal + auth-aware menu (UI ONLY)
   function normalizeTopNav(){
     const nav = document.querySelector('.topbar .nav');
     if(!nav) return;
 
-    // Unified menu (keep core pages + sample + library)
+    // 메뉴는 '비로그인/로그인' 조건에 따라 표시만 다르게 함(기능/데이터/라우팅 미변경)
     nav.innerHTML = [
-      '<a href="/notice/" data-nav="notice">공지</a>',
-      '<a href="/news/" data-nav="news">뉴스센터</a>',
-      '<a href="/sample/" data-nav="sample">샘플자료실</a>',
-      '<a href="/library/" data-nav="library">자료실</a>',
-      '<a href="/data/" data-nav="data">빅데이터</a>',
-      '<a href="/performance/" data-nav="performance">성과표</a>',
-      '<a href="/game/" data-nav="game">게임</a>',
-      '<a href="/meme/" data-nav="meme">유머</a>',
-      '<a href="/subscribe/" data-nav="subscribe">구독</a>',
-      '<a href="/login/" data-nav="login">로그인</a>',
-      '<a href="/signup/" data-nav="signup">회원가입</a>',
-      '<a href="/ops/" data-nav="ops">운영</a>'
-    ].join('');
+      '<a href="/" data-nav="home" data-when="both">홈</a>',
+      '<a href="/notice/" data-nav="notice" data-when="both">공지</a>',
 
-    // 운영은 관리자만 표시
-    const ops = nav.querySelector('a[data-nav="ops"]');
-    if(ops) ops.style.display = 'none';
+      '<a href="/sample/" data-nav="sample" data-when="guest">샘플</a>',
+      '<a href="/subscribe/" data-nav="subscribe" data-when="guest">구독</a>',
+
+      '<a href="/news/" data-nav="news" data-when="user">뉴스</a>',
+      '<a href="/data/" data-nav="data" data-when="user">데이터</a>',
+      '<a href="/library/" data-nav="library" data-when="user">자료실</a>',
+      '<a href="/game/" data-nav="game" data-when="user">게임</a>',
+
+      '<a href="/login/" data-nav="login" data-when="both">회원</a>'
+    ].join('');
+  }
+
+  // Normalize top brand: logo + unified title/subtitle (UI ONLY)
+  function normalizeTopBrand(){
+    const brand = document.querySelector('.topbar .brand');
+    if(!brand) return;
+
+    brand.innerHTML = [
+      '<img class="brand-logo" src="/assets/joolab_logo.png" alt="JOOLAB"/>',
+      '<div class="brand-text">',
+        '<div class="brand-title">JOOLAB</div>',
+        '<div class="brand-sub">STOCK RESEARCH LAB</div>',
+      '</div>'
+    ].join('');
   }
 
 
@@ -2205,56 +2215,38 @@ ${(String(mediaType||"")||"").startsWith("video/") ? `      <video controls play
   // ==============================
   // Auth-aware topbar (Login/Signup vs Account + Email)
   // ==============================
+
+  // ==============================
+  // Auth-aware topbar (회원 메뉴 + 비로그인/로그인 메뉴 토글)
+  // ==============================
   async function hydrateAuthNav(){
     const nav = document.querySelector('.topbar .nav');
     if(!nav) return;
 
-    // try locate existing links
-    const aLogin = nav.querySelector('a[data-nav="login"]') || nav.querySelector('a[href^="/login"]');
-    const aSignup = nav.querySelector('a[data-nav="signup"]') || nav.querySelector('a[href^="/signup"]');
+    const aMember = nav.querySelector('a[data-nav="login"]') || nav.querySelector('a[href^="/login"]') || nav.querySelector('a[href^="/account"]');
 
     let me = null;
     try{ me = await fetchJSON('/api/auth/me'); }catch(e){ me = null; }
 
     const isLoggedIn = !!(me && me.ok && me.user);
-    const email = isLoggedIn ? String(me.user.email || me.user.id || '') : '';
 
-    // badge element (next to account)
-    const badgeId = 'nav-user-badge';
-    let badge = document.getElementById(badgeId);
+    // 메뉴 토글: guest/user/both
+    nav.querySelectorAll('a[data-when]').forEach(a=>{
+      const w = a.getAttribute('data-when');
+      const show = (w === 'both') || (w === 'guest' && !isLoggedIn) || (w === 'user' && isLoggedIn);
+      a.style.display = show ? '' : 'none';
+    });
 
-    if(isLoggedIn){
-      // convert login link into account link
-      if(aLogin){
-        aLogin.textContent = '회원';
-        aLogin.setAttribute('href', '/account/');
-      }
-      if(aSignup) aSignup.style.display = 'none';
-
-      if(!badge && aLogin){
-        badge = document.createElement('span');
-        badge.id = badgeId;
-        badge.className = 'badge';
-        badge.style.marginLeft = '8px';
-        aLogin.insertAdjacentElement('afterend', badge);
-      }
-      if(badge){
-        badge.style.display = '';
-        badge.textContent = email ? email : '로그인됨';
-      }
-    }else{
-      // restore
-      if(aLogin){
-        aLogin.textContent = '로그인';
-        aLogin.setAttribute('href', '/login/');
-      }
-      if(aSignup) aSignup.style.display = '';
-      if(badge) badge.remove();
+    // 회원 메뉴는 항상 '회원'
+    if(aMember){
+      aMember.textContent = '회원';
+      aMember.setAttribute('href', isLoggedIn ? '/account/' : '/login/');
     }
   }
 
 
 document.addEventListener('DOMContentLoaded', ()=>{
+    normalizeTopBrand();
     normalizeTopNav();
     setActiveNav();
     hydrateAuthNav();
