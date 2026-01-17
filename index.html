@@ -3,148 +3,101 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>주랩 빅데이터 센터</title>
+  <title>주랩</title>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@latest/dist/web/variable/pretendardvariable.css">
   <link rel="stylesheet" href="/assets/app.css"/>
 </head>
-<body class="home-launch">
-  <div class="topbar">
-    <div class="container topbar-inner">
-      <a class="brand" href="/" aria-label="홈">
-        <div class="brand-badge">JL</div>
-        <div>
-          <div class="brand-title">주랩</div>
-          <div class="brand-sub">뉴스 · 빅데이터 · 자료 · 성과</div>
-        </div>
-      </a>
-      <nav class="nav" aria-label="상단 메뉴">
-        <a href="/subscribe/" data-nav="subscribe">구독</a>
-        <a href="/login/" data-nav="login">로그인</a>
-      </nav>
-    </div>
+<body class="page-home vip">
+
+<div class="topbar vip-topbar">
+  <div class="container topbar-inner">
+    <a class="brand vip-brand" href="/" aria-label="주랩 홈">
+      <div class="brand-badge vip-badge">JL</div>
+      <div class="brand-title vip-title">JOOLAB</div>
+    </a>
+
+    <nav class="nav vip-home-nav" aria-label="홈 상단 메뉴">
+      <a href="/subscribe/" data-nav="subscribe">구독</a>
+      <a href="/signup/" data-nav="signup">회원가입</a>
+      <a href="/login/" data-nav="login">로그인</a>
+      <a href="/notice/" data-nav="notice">공지</a>
+    </nav>
   </div>
-  <main class="main">
-    <div class="container">
-      <section class="launch-grid" aria-label="빠른 이동">
-        <a class="launch-tile t-news" href="/news/" aria-label="뉴스">
-          <div class="tile-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <path d="M6 7h10M6 11h10M6 15h7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M4.5 5.5h15v13a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2v-13z" stroke="currentColor" stroke-width="2" opacity=".65"/>
-            </svg>
+</div>
+
+<main class="main">
+  <div class="container">
+    <section class="vip-launcher" aria-label="주요 메뉴">
+      <div class="vip-grid">
+
+        <a class="vip-tile" href="/intro/" aria-label="소개">
+          <div class="vip-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 7.5c2.2 0 4-1.57 4-3.5S14.2.5 12 .5 8 2.07 8 4s1.8 3.5 4 3.5Z"/><path d="M4.5 23.5c0-4.42 3.36-8 7.5-8s7.5 3.58 7.5 8"/></svg>
           </div>
-          <div class="tile-text">
-            <div class="tile-title">뉴스</div>
-          </div>
+          <div class="vip-label">소개</div>
         </a>
-        <a class="launch-tile t-bigdata" href="/data/" aria-label="빅데이터">
-          <div class="tile-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <path d="M6 18V9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M12 18V6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M18 18v-7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M4 20h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".65"/>
-            </svg>
+
+        <a class="vip-tile" href="/news/" aria-label="뉴스">
+          <div class="vip-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 4h13v16H6a2 2 0 0 1-2-2V4Z"/><path d="M17 7h3v11a2 2 0 0 1-2 2h-1"/><path d="M7 8h7"/><path d="M7 12h7"/><path d="M7 16h5"/></svg>
           </div>
-          <div class="tile-text">
-            <div class="tile-title">빅데이터</div>
-          </div>
+          <div class="vip-label">뉴스</div>
         </a>
-        <a class="launch-tile t-library" href="/library/" aria-label="자료실">
-          <div class="tile-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <path d="M4 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7z" stroke="currentColor" stroke-width="2"/>
-              <path d="M8 13h8" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".65"/>
-            </svg>
+
+        <a class="vip-tile" href="/data/" aria-label="빅데이터">
+          <div class="vip-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 7c0-1.66 3.58-3 8-3s8 1.34 8 3-3.58 3-8 3-8-1.34-8-3Z"/><path d="M4 7v10c0 1.66 3.58 3 8 3s8-1.34 8-3V7"/><path d="M4 12c0 1.66 3.58 3 8 3s8-1.34 8-3"/></svg>
           </div>
-          <div class="tile-text">
-            <div class="tile-title">자료실</div>
-          </div>
+          <div class="vip-label">빅데이터</div>
         </a>
-        <a class="launch-tile t-subscribe" href="/subscribe/" aria-label="구독">
-          <div class="tile-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <path d="M7 10h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M7 14h6" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".65"/>
-              <path d="M6 4h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H9l-5 0V6a2 2 0 0 1 2-2z" stroke="currentColor" stroke-width="2"/>
-            </svg>
+
+        <a class="vip-tile" href="/library/" aria-label="자료실">
+          <div class="vip-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M3.5 6.5h7l1.5 2H20.5a2 2 0 0 1 2 2v8a3 3 0 0 1-3 3h-14a3 3 0 0 1-3-3v-10a2 2 0 0 1 2-2Z"/><path d="M7 15h10"/></svg>
           </div>
-          <div class="tile-text">
-            <div class="tile-title">구독</div>
-          </div>
+          <div class="vip-label">자료실</div>
         </a>
-        <a class="launch-tile t-performance" href="/performance/" aria-label="성과표">
-          <div class="tile-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <path d="M6 16l3-4 3 2 5-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M4 20h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".65"/>
-            </svg>
+
+        <a class="vip-tile" href="/subscribe/" aria-label="구독">
+          <div class="vip-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M6 3.5h12a2 2 0 0 1 2 2V10a6 6 0 0 1-6 6h-4a6 6 0 0 1-6-6V5.5a2 2 0 0 1 2-2Z"/><path d="M8 21.5h8"/><path d="M12 16v5.5"/></svg>
           </div>
-          <div class="tile-text">
-            <div class="tile-title">성과표</div>
-          </div>
+          <div class="vip-label">구독</div>
         </a>
-        <a class="launch-tile t-qa" href="/help/" aria-label="Q&A">
-          <div class="tile-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <path d="M7 8a4.5 4.5 0 0 1 8.7 1.6c0 3-3.2 3.2-3.2 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M12.5 17.8h0" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
-              <path d="M4 4h16v14H8l-4 2V4z" stroke="currentColor" stroke-width="2" opacity=".65"/>
-            </svg>
+
+        <a class="vip-tile" href="/performance/" aria-label="성과표">
+          <div class="vip-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 20V5"/><path d="M4 20h16"/><path d="M7 16v-4"/><path d="M12 16V8"/><path d="M17 16v-6"/></svg>
           </div>
-          <div class="tile-text">
-            <div class="tile-title">Q&amp;A</div>
-          </div>
+          <div class="vip-label">성과표</div>
         </a>
-        <a class="launch-tile t-youtube" href="https://www.youtube.com/channel/UC85ROrNcbOFDOeC5b0RaQMQ" target="_blank" rel="noopener" aria-label="유튜브">
-          <div class="tile-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <path d="M10 9.5l6 3.5-6 3.5v-7z" fill="currentColor"/>
-              <path d="M21 7.2a3 3 0 0 0-2.1-2.1C17 4.6 12 4.6 12 4.6s-5 0-6.9.5A3 3 0 0 0 3 7.2 31 31 0 0 0 2.6 12c0 1.7.1 3.3.4 4.8a3 3 0 0 0 2.1 2.1c1.9.5 6.9.5 6.9.5s5 0 6.9-.5a3 3 0 0 0 2.1-2.1c.3-1.5.4-3.1.4-4.8s-.1-3.3-.4-4.8z" stroke="currentColor" stroke-width="2" opacity=".65"/>
-            </svg>
+
+        <a class="vip-tile" href="/help/" aria-label="Q&A">
+          <div class="vip-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 4.5h16v12H7l-3 3v-15Z"/><path d="M9 9.5a3 3 0 0 1 6 0c0 2-3 2-3 4"/><path d="M12 15.7h.01"/></svg>
           </div>
-          <div class="tile-text">
-            <div class="tile-title">유튜브</div>
-          </div>
+          <div class="vip-label">Q&A</div>
         </a>
-        <a class="launch-tile t-blog" href="http://www.joolab.co.kr/" target="_blank" rel="noopener" aria-label="블로그">
-          <div class="tile-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <path d="M7 4h10v16H7V4z" stroke="currentColor" stroke-width="2"/>
-              <path d="M9 8h6M9 12h6M9 16h4" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".65"/>
-            </svg>
+
+        <a class="vip-tile" href="https://www.youtube.com/channel/UC85ROrNcbOFDOeC5b0RaQMQ" target="_blank" rel="noopener" aria-label="유튜브">
+          <div class="vip-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M21 8.5s-.2-1.4-.8-2c-.8-.8-1.7-.8-2.1-.9C15.2 5.5 12 5.5 12 5.5h0s-3.2 0-6.1.1c-.4.1-1.3.1-2.1.9-.6.6-.8 2-.8 2S3 10.1 3 11.7v.6C3 13.9 3.2 15.5 3.2 15.5s.2 1.4.8 2c.8.8 1.9.8 2.4.9C8.3 18.5 12 18.5 12 18.5s3.2 0 6.1-.1c.4-.1 1.3-.1 2.1-.9.6-.6.8-2 .8-2s.2-1.6.2-3.2v-.6c0-1.6-.2-3.2-.2-3.2Z"/><path d="M10.5 10.2 15 12.5l-4.5 2.3v-4.6Z"/></svg>
           </div>
-          <div class="tile-text">
-            <div class="tile-title">블로그</div>
-          </div>
+          <div class="vip-label">유튜브</div>
         </a>
-        <a class="launch-tile t-game" href="/games/" aria-label="게임">
-          <div class="tile-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <path d="M7.5 10.5h9a4.5 4.5 0 0 1 4.3 3.3l1 3.6a2 2 0 0 1-1.9 2.6H18a2 2 0 0 1-1.7-1l-1.1-1.8H8.8L7.7 19a2 2 0 0 1-1.7 1H4.1a2 2 0 0 1-1.9-2.6l1-3.6A4.5 4.5 0 0 1 7.5 10.5z" stroke="currentColor" stroke-width="2"/>
-              <path d="M8.5 14.5h3M10 13v3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M16.5 14h0" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
-              <path d="M18.2 15.2h0" stroke="currentColor" stroke-width="3" stroke-linecap="round" opacity=".7"/>
-            </svg>
+
+        <a class="vip-tile" href="/game/" aria-label="게임">
+          <div class="vip-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M7.5 8.5h9a4 4 0 0 1 4 4v2.5a4 4 0 0 1-4 4h-.7l-1.3-1.5H9.5L8.2 19h-.7a4 4 0 0 1-4-4v-2.5a4 4 0 0 1 4-4Z"/><path d="M8 13h3"/><path d="M9.5 11.5v3"/><path d="M15.5 12.5h.01"/><path d="M17 14h.01"/></svg>
           </div>
-          <div class="tile-text">
-            <div class="tile-title">게임</div>
-          </div>
+          <div class="vip-label">게임</div>
         </a>
-      </section>
-            <footer class="launch-footer">
-        <div class="launch-footlinks">
-          <a href="/privacy.html">개인정보처리방침</a>
-          <span class="dot">·</span>
-          <a href="/terms.html">이용약관</a>
-          <span class="dot">·</span>
-          <a href="/contact.html">문의</a>
-        </div>
-        <div class="launch-copy">© JOOLAB</div>
-      </footer>
-    </div>
-  </main>
-  <script src="/assets/app.js"></script>
+
+      </div>
+    </section>
+  </div>
+</main>
+
 </body>
 </html>
