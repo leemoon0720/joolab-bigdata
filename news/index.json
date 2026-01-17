@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-17 16:26 KST",
+  "updated_at": "2026-01-17 16:39 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-17 15:37",
+      "title": "\"아직 안 끝났어요\"…삼성전자, 지금 다시 봐야 하는 이유 [한경우의 케이스스터디]",
+      "url": "https://www.hankyung.com/article/2026011654806",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -261,17 +269,6 @@
       "title": "'그래도 오천피 못 믿어'…쪽박 찼는데 또 '곱버스' 탄 개미들",
       "url": "https://www.hankyung.com/article/2026011657901",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 17:15",
-      "title": "\"깜짝 실적 쏟아질 것\"…코스피 랠리, 가속도 붙는다",
-      "url": "https://www.hankyung.com/article/2026011657871",
-      "keywords_hit": [
-        "코스피",
-        "실적"
-      ]
     },
     {
       "source": "MK",
