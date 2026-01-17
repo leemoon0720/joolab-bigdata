@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-18 08:35 KST",
+  "updated_at": "2026-01-18 08:46 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-18 08:30",
+      "title": "미국 개입도 안 통한 환율…'복병'은 따로 있다? [빈난새의 빈틈없이월가]",
+      "url": "https://www.hankyung.com/article/202601186793i",
+      "keywords_hit": [
+        "환율"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -250,16 +260,6 @@
       "url": "https://www.mk.co.kr/news/stock/11935480",
       "keywords_hit": [
         "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 17:47",
-      "title": "눈 소식 없는 美 서부…베일리조트 실적 '먹구름'",
-      "url": "https://www.hankyung.com/article/2026011658471",
-      "keywords_hit": [
-        "실적"
       ]
     },
     {
