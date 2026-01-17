@@ -235,7 +235,46 @@
     const u = '/api/rss?u=' + encodeURIComponent(feedUrl) + '&limit=40';
     const r = await fetch(u, { cache: 'no-store' });
     if(!r.ok) throw new Error('RSS fetch failed: ' + r.status);
+
+    // The worker returns JSON ({ok, items:[{title,link,pubDate}]}) but older builds may return raw XML.
+    const ct = (r.headers.get('content-type')||'').toLowerCase();
+
+    // 1) Prefer JSON
+    if(ct.includes('application/json') || ct.includes('text/json')){
+      const j = await r.json().catch(()=>null);
+      if(!j) throw new Error('RSS JSON parse failed');
+      if(j.ok === false) throw new Error(j.error || 'RSS proxy error');
+      const items = Array.isArray(j.items) ? j.items : [];
+      const mapped = items.map(it=>({
+        title: (it && it.title) ? String(it.title).trim() : '',
+        link:  (it && it.link)  ? String(it.link).trim()  : '',
+        pubDate: (it && (it.pubDate || it.published_at || it.time)) ? String(it.pubDate || it.published_at || it.time).trim() : '',
+        channelTitle: ''
+      })).filter(x=>x.title && x.link);
+      return { channelTitle: '', items: mapped };
+    }
+
+    // 2) Fallback: attempt to parse as JSON by content
     const text = await r.text();
+    const t = (text||'').trim();
+    if(t.startsWith('{')){
+      try{
+        const j = JSON.parse(t);
+        if(j && j.ok === false) throw new Error(j.error || 'RSS proxy error');
+        const items = Array.isArray(j && j.items) ? j.items : [];
+        const mapped = items.map(it=>({
+          title: (it && it.title) ? String(it.title).trim() : '',
+          link:  (it && it.link)  ? String(it.link).trim()  : '',
+          pubDate: (it && (it.pubDate || it.published_at || it.time)) ? String(it.pubDate || it.published_at || it.time).trim() : '',
+          channelTitle: ''
+        })).filter(x=>x.title && x.link);
+        return { channelTitle: '', items: mapped };
+      }catch(e){
+        // continue to XML
+      }
+    }
+
+    // 3) Raw XML
     return parseRssXmlToItems(text);
   }
 
