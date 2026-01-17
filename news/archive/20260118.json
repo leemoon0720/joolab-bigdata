@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-18 07:33 KST",
+  "updated_at": "2026-01-18 07:47 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-18 07:42",
+      "title": "\"떨어질 때 됐다\" 곱버스 올라탄 개미들…증권가 전망은 [노정동의 어쩌다 투자자]",
+      "url": "https://www.hankyung.com/article/2026011653756",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -261,14 +269,6 @@
       "keywords_hit": [
         "반도체"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 17:18",
-      "title": "올해 채권투자 흔들 3대 이슈",
-      "url": "https://www.hankyung.com/article/2026011657911",
-      "keywords_hit": []
     },
     {
       "source": "MK",
