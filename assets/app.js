@@ -13,31 +13,84 @@
       '`':'&#96;'
     }[ch]));
   }
+  // Normalize top navigation: user-specified menu split (logged-out vs logged-in)
+  function buildTopbarMenu(isLoggedIn){
+    const items = isLoggedIn ? [
+      {href:'/', key:'home', label:'홈'},
+      {href:'/news/', key:'news', label:'뉴스'},
+      {href:'/data/', key:'data', label:'빅데이터'},
+      {href:'/library/', key:'library', label:'자료실'},
+      {href:'/account/', key:'account', label:'회원'}
+    ] : [
+      {href:'/', key:'home', label:'홈'},
+      {href:'/notice/', key:'notice', label:'공지'},
+      {href:'/sample/', key:'sample', label:'샘플'},
+      {href:'/subscribe/', key:'subscribe', label:'구독'},
+      {href:'/account/', key:'account', label:'회원'}
+    ];
+    return items.map(it=>`<a href="${it.href}" data-nav="${it.key}">${it.label}</a>`).join('');
+  }
 
-  // Normalize top navigation: simplify menu + keep consistent across pages
-  function normalizeTopNav(){
-    const nav = document.querySelector('.topbar .nav');
+  function normalizeHomeTopNav(isLoggedIn){
+    const nav = document.querySelector('nav.home9-actions');
     if(!nav) return;
+    const items = isLoggedIn ? [
+      {href:'/', key:'home', label:'홈'},
+      {href:'/news/', key:'news', label:'뉴스'},
+      {href:'/data/', key:'data', label:'빅데이터'},
+      {href:'/library/', key:'library', label:'자료실'},
+      {href:'/account/', key:'account', label:'회원'}
+    ] : [
+      {href:'/', key:'home', label:'홈'},
+      {href:'/notice/', key:'notice', label:'공지'},
+      {href:'/sample/', key:'sample', label:'샘플'},
+      {href:'/subscribe/', key:'subscribe', label:'구독'},
+      {href:'/account/', key:'account', label:'회원'}
+    ];
+    nav.innerHTML = items.map(it=>`<a class="home9-pill" href="${it.href}" data-nav="${it.key}">${it.label}</a>`).join('');
+  }
 
-    // Unified menu (keep core pages + sample + library)
-    nav.innerHTML = [
-      '<a href="/notice/" data-nav="notice">공지</a>',
-      '<a href="/news/" data-nav="news">뉴스센터</a>',
-      '<a href="/sample/" data-nav="sample">샘플자료실</a>',
-      '<a href="/library/" data-nav="library">자료실</a>',
-      '<a href="/data/" data-nav="data">빅데이터</a>',
-      '<a href="/performance/" data-nav="performance">성과표</a>',
-      '<a href="/game/" data-nav="game">게임</a>',
-      '<a href="/meme/" data-nav="meme">유머</a>',
-      '<a href="/subscribe/" data-nav="subscribe">구독</a>',
-      '<a href="/login/" data-nav="login">로그인</a>',
-      '<a href="/signup/" data-nav="signup">회원가입</a>',
-      '<a href="/ops/" data-nav="ops">운영</a>'
-    ].join('');
+  function standardizeTopbarLogo(){
+    const brand = document.querySelector('.topbar a.brand');
+    if(!brand) return;
+    const badge = brand.querySelector('.brand-badge');
+    if(!badge) return;
+    if(badge.querySelector('img')) return;
 
-    // 운영은 관리자만 표시
-    const ops = nav.querySelector('a[data-nav="ops"]');
-    if(ops) ops.style.display = 'none';
+    // Replace JL badge with logo image, aligned with home header
+    badge.textContent = '';
+    badge.style.background = 'transparent';
+    badge.style.boxShadow = 'none';
+    badge.style.width = '44px';
+    badge.style.height = '44px';
+    badge.style.border = '1px solid rgba(0,0,0,.10)';
+    badge.style.borderRadius = '12px';
+
+    const img = document.createElement('img');
+    img.src = '/assets/joolab_logo.png';
+    img.alt = 'JOOLAB';
+    img.style.width = '34px';
+    img.style.height = '34px';
+    img.style.objectFit = 'contain';
+    badge.appendChild(img);
+  }
+
+  function applyHeaderMenus(isLoggedIn){
+    // Topbar menu (internal pages)
+    const topNav = document.querySelector('.topbar .nav');
+    if(topNav) topNav.innerHTML = buildTopbarMenu(isLoggedIn);
+
+    // Home header menu
+    normalizeHomeTopNav(isLoggedIn);
+
+    // Logo alignment across home/internal
+    standardizeTopbarLogo();
+  }
+
+  function normalizeTopNav(){
+    // Fast path: token-based (no network)
+    const isLoggedIn = !!getAuthToken();
+    applyHeaderMenus(isLoggedIn);
   }
 
 
@@ -2201,56 +2254,22 @@ ${(String(mediaType||"")||"").startsWith("video/") ? `      <video controls play
     });
   }
 
-
   // ==============================
-  // Auth-aware topbar (Login/Signup vs Account + Email)
+  // Auth-aware header menus (logged-out vs logged-in)
   // ==============================
   async function hydrateAuthNav(){
-    const nav = document.querySelector('.topbar .nav');
-    if(!nav) return;
-
-    // try locate existing links
-    const aLogin = nav.querySelector('a[data-nav="login"]') || nav.querySelector('a[href^="/login"]');
-    const aSignup = nav.querySelector('a[data-nav="signup"]') || nav.querySelector('a[href^="/signup"]');
-
-    let me = null;
-    try{ me = await fetchJSON('/api/auth/me'); }catch(e){ me = null; }
-
-    const isLoggedIn = !!(me && me.ok && me.user);
-    const email = isLoggedIn ? String(me.user.email || me.user.id || '') : '';
-
-    // badge element (next to account)
-    const badgeId = 'nav-user-badge';
-    let badge = document.getElementById(badgeId);
-
-    if(isLoggedIn){
-      // convert login link into account link
-      if(aLogin){
-        aLogin.textContent = '회원';
-        aLogin.setAttribute('href', '/account/');
-      }
-      if(aSignup) aSignup.style.display = 'none';
-
-      if(!badge && aLogin){
-        badge = document.createElement('span');
-        badge.id = badgeId;
-        badge.className = 'badge';
-        badge.style.marginLeft = '8px';
-        aLogin.insertAdjacentElement('afterend', badge);
-      }
-      if(badge){
-        badge.style.display = '';
-        badge.textContent = email ? email : '로그인됨';
-      }
-    }else{
-      // restore
-      if(aLogin){
-        aLogin.textContent = '로그인';
-        aLogin.setAttribute('href', '/login/');
-      }
-      if(aSignup) aSignup.style.display = '';
-      if(badge) badge.remove();
+    let isLoggedIn = !!getAuthToken();
+    try{
+      const me = await fetchJSON('/api/auth/me');
+      if(me && me.ok && me.user) isLoggedIn = true;
+      if(me && me.ok === false) isLoggedIn = false;
+    }catch(e){
+      // keep token-based 판단
     }
+
+    applyHeaderMenus(isLoggedIn);
+    // 메뉴 재구성 후 active 표시 재적용
+    setActiveNav();
   }
 
 
