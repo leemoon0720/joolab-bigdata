@@ -104,14 +104,13 @@
       </div>
 
 
-
-      <!-- SAMPLE PREVIEW (FREE) -->
       <div class="card home-card" style="grid-column: span 6;">
-        <div class="card-top"><h3>샘플자료</h3><span class="badge upd" id="home-sample-upd">UPD</span></div>
-        <div class="small" id="home-sample-meta">회원가입 전 미리보기</div>
-        <div id="home-sample-list" class="list list-compact"></div>
+        <div class="card-top"><h3>샘플자료</h3><span class="badge">FREE</span></div>
+        <div class="small" id="home-sample-meta">-</div>
+        <div id="home-sample" class="list list-compact"></div>
         <div class="card-cta"><a href="/sample/">샘플자료실로</a></div>
       </div>
+
       <div class="card home-card" style="grid-column: span 6;">
         <div class="card-top"><h3>성과표</h3><span class="badge" id="home-perf-badge">LIST</span></div>
         <div id="home-perf" class="list list-compact"></div>
@@ -144,78 +143,41 @@
 </main>
 
 <script>
-(function(){
-  function esc(s){
-    return String(s==null?'':s)
-      .replace(/&/g,'&amp;')
-      .replace(/</g,'&lt;')
-      .replace(/>/g,'&gt;')
-      .replace(/"/g,'&quot;')
-      .replace(/'/g,'&#39;');
-  }
-  function fmtTime(iso){
-    if(!iso) return '-';
-    try{
-      var d = new Date(iso);
-      if(String(d) === 'Invalid Date') return String(iso);
-      var y=d.getFullYear();
-      var m=String(d.getMonth()+1).padStart(2,'0');
-      var day=String(d.getDate()).padStart(2,'0');
-      var hh=String(d.getHours()).padStart(2,'0');
-      var mm=String(d.getMinutes()).padStart(2,'0');
-      return y+'-'+m+'-'+day+' '+hh+':'+mm;
-    }catch(e){
-      return String(iso);
-    }
-  }
-  async function get(url){
-    var r = await fetch(url, {headers:{'accept':'application/json'}});
-    return await r.json();
-  }
-  function renderItem(m){
-    var title = m.title || '(제목 없음)';
-    var meta = [m.category, m.region, (m.created_at?fmtTime(m.created_at):'')].filter(Boolean).join(' · ');
-    var href = m.id ? ('/post/?id='+encodeURIComponent(m.id)) : '#';
-    return (
-      '<div class="item">'
-      + '<div>'
-      +   '<div class="title">'+esc(title)+'</div>'
-      +   '<div class="meta">'+esc(meta)+'</div>'
-      + '</div>'
-      + '<div class="right"><a href="'+esc(href)+'">보기</a></div>'
-      + '</div>'
-    );
-  }
-  async function hydrate(){
-    var box = document.getElementById('home-sample-list');
+(async ()=>{
+  try{
+    const box = document.getElementById('home-sample');
     if(!box) return;
-    box.innerHTML = '<div class="item"><div><div class="title">로딩 중...</div><div class="meta">샘플자료 불러오는 중</div></div></div>';
-    try{
-      var a = await get('/api/posts/list?category=accum&region=ALL&limit=30&sample=1');
-      var s = await get('/api/posts/list?category=strong&region=ALL&limit=30&sample=1');
-      var items = [].concat((a&&a.items)||[], (s&&s.items)||[]).filter(Boolean);
-      items.sort(function(x,y){
-        return String(y.created_ts||'').localeCompare(String(x.created_ts||''));
-      });
-      items = items.slice(0,6);
+    const meta = document.getElementById('home-sample-meta');
 
-      var upd = document.getElementById('home-sample-upd');
-      var meta = document.getElementById('home-sample-meta');
-      var newest = items[0];
-      if(upd) upd.textContent = newest && newest.created_at ? ('UPD: '+fmtTime(newest.created_at)) : 'UPD: -';
-      if(meta) meta.textContent = items.length ? ('샘플 '+items.length+'개 표시 (최근순)') : '샘플이 없습니다.';
+    const r = await fetch('/api/posts/list?category=sample&region=ALL&limit=6', { credentials: 'include' });
+    const j = await r.json();
+    const items = (j.items || []).slice(0,6);
 
-      box.innerHTML = items.length
-        ? items.map(renderItem).join('')
-        : '<div class="item"><div><div class="title">샘플이 없습니다.</div><div class="meta">운영에서 업로드 시 “샘플 공개”를 체크한 글만 홈/샘플자료실에 표시됩니다.</div></div></div>';
-    }catch(e){
-      box.innerHTML = '<div class="item"><div><div class="title">샘플을 불러오지 못했습니다.</div><div class="meta">/api/posts/list?sample=1 응답 또는 KV 연결을 확인하십시오.</div></div></div>';
-    }
+    if(meta) meta.textContent = items.length ? ('샘플 ' + items.length + '건') : '샘플 자료가 없습니다.';
+
+    box.innerHTML = items.length ? items.map(m=>{
+      const id = encodeURIComponent(m.id || '');
+      const title = m.title || '(제목 없음)';
+      const sub = (m.region||'') + ' · ' + (m.category||'');
+      return (
+        '<div class="item">' +
+          '<div>' +
+            '<div class="title">' + title + '</div>' +
+            '<div class="meta">' + sub + '</div>' +
+          '</div>' +
+          '<div class="right">' +
+            '<a href="/post/?id=' + id + '">보기</a>' +
+          '</div>' +
+        '</div>'
+      );
+    }).join('') : '<div class="item"><div><div class="title">샘플 자료가 없습니다.</div><div class="meta">/sample/에서 업로드하면 홈에 표시됩니다.</div></div></div>';
+  }catch(e){
+    const box = document.getElementById('home-sample');
+    if(box) box.innerHTML = '<div class="item"><div><div class="title">샘플을 불러오지 못했습니다.</div><div class="meta">/api/posts/list?category=sample 확인</div></div></div>';
   }
-  if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', hydrate);
-  else hydrate();
 })();
 </script>
+
 
 <script src="/assets/app.js"></script>
 </body>
