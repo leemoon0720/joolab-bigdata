@@ -724,115 +724,250 @@ body .plan-card .plist li::before{
 }
 
 /* =========================================================
-   VIP HOME/INTRO — premium topbar + icon medallion + aliases
-   (Keeps black+gold VIP, reduces glare, fixes class mismatches)
+   VIP BLACK+GOLD (Home / Intro) - readability & layout fix
+   - Keeps VIP look, removes glare, fixes missing classes
    ========================================================= */
-
 :root{
   --vip-bg-solid:#0B0D10;
   --vip-panel-solid:#12151C;
-  --vip-text-1:#E6E8ED;
-  --vip-text-2:#B9BEC9;
+  --vip-text-solid:#E6E8ED;
+  --vip-muted-solid:#B9BEC9;
+  --vip-dim-solid:#8A90A0;
+  --vip-gold-solid:#D4AF37;
+  --vip-line-solid: rgba(212,175,55,.18);
 }
 
-body{background: var(--vip-bg-solid) !important;}
+/* Apply VIP theme only where VIP header exists */
+body:has(.vip-top){
+  background: var(--vip-bg-solid);
+  color: var(--vip-text-solid);
+}
 
+/* Header */
 .vip-top{
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(11,13,16,.72);
+  background: rgba(11,13,16,.78);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(212,175,55,.18);
+  border-bottom: 1px solid var(--vip-line-solid);
 }
 .vip-top-inner{
-  max-width: 1040px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 14px 18px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 16px;
+}
+.vip-brand{
+  display: flex;
+  align-items: center;
   gap: 12px;
+  text-decoration: none;
+  color: inherit;
 }
-.vip-brand{display:flex; align-items:center; gap: 12px; text-decoration:none;}
-.vip-logo{width: 44px; height: 44px; object-fit: contain; border-radius: 10px;}
-.vip-brand-title{font-weight: 950; letter-spacing: .4px; color: var(--vip-text-1);}
-.vip-brand-sub{margin-top: 2px; font-weight: 800; font-size: 12px; color: rgba(242,214,128,.82); letter-spacing: 1.1px;}
-.vip-brand-text{display:flex; flex-direction:column; line-height:1.1;}
-
-.vip-top-actions{display:flex; align-items:center; gap: 10px; flex-wrap: wrap; justify-content: flex-end;}
-.vip-pill{
+.vip-logo{
+  width: 36px;
   height: 36px;
-  padding: 0 14px;
-  border-radius: 999px;
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  text-decoration:none;
-  border: 1px solid rgba(212,175,55,.28);
-  background: rgba(18,21,28,.72);
-  color: rgba(230,232,237,.92);
+  object-fit: contain;
+}
+.vip-brand-text{display:flex; flex-direction:column;}
+.vip-brand-title{
   font-weight: 900;
+  letter-spacing: .10em;
+  font-size: 13px;
+  line-height: 1;
+  color: var(--vip-text-solid);
 }
-.vip-pill:hover{background: rgba(18,21,28,.88); border-color: rgba(212,175,55,.55);}
+.vip-brand-sub{
+  margin-top: 4px;
+  font-weight: 800;
+  font-size: 11px;
+  letter-spacing: .14em;
+  color: var(--vip-dim-solid);
+}
+.vip-top-actions{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Pills */
+.vip-pill{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(212,175,55,.28);
+  background: rgba(18,21,28,.60);
+  color: var(--vip-text-solid);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 800;
+}
+.vip-pill:hover{
+  background: rgba(31,36,48,.72);
+  border-color: rgba(212,175,55,.42);
+}
 .vip-pill-primary{
-  background: rgba(212,175,55,.16);
-  border-color: rgba(212,175,55,.62);
-  color: rgba(242,214,128,.98);
+  border-color: rgba(212,175,55,.55);
+  background: linear-gradient(135deg, rgba(212,175,55,.20), rgba(242,214,128,.08));
+}
+.vip-pill-primary:hover{
+  background: linear-gradient(135deg, rgba(212,175,55,.26), rgba(242,214,128,.10));
 }
 
-/* Grid spacing refinement */
-.vip-home{padding: 22px 0 54px;}
-.vip-grid{padding-top: 18px;}
+/* Home container */
+.vip-home{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 18px 44px;
+}
 
-/* Premium icon medallion */
-.vip-icon{
-  width: 46px;
-  height: 46px;
-  border-radius: 16px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
+/* 9 buttons: bigger tiles + tighter spacing */
+.vip-grid{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;               /* tighter */
+  padding: 0;
+}
+@media (max-width: 780px){
+  .vip-grid{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+}
+.vip-tile{
+  min-height: 152px;       /* bigger */
+  padding: 18px 14px;      /* tighter inner spacing */
+  border-radius: 18px;
+  border: 1px solid var(--vip-line-solid);
+  background: rgba(18,21,28,.92);
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  transition: transform .12s ease, border-color .12s ease, background .12s ease;
+}
+.vip-tile:hover{
+  transform: translateY(-1px);
+  border-color: rgba(212,175,55,.32);
+  background: rgba(26,30,40,.92);
+}
+
+/* Icon medallion */
+.vip-tile-ico{
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background:
-    radial-gradient(18px 18px at 30% 25%, rgba(242,214,128,.18), rgba(0,0,0,0) 70%),
-    linear-gradient(180deg, rgba(18,21,28,.88), rgba(12,14,18,.92));
-  border: 1px solid rgba(212,175,55,.30);
+    radial-gradient(140% 140% at 30% 20%, rgba(212,175,55,.22), rgba(0,0,0,0) 60%),
+    rgba(0,0,0,.18);
+  border: 1px solid rgba(212,175,55,.28);
+  margin: 0 0 10px 0;
 }
 .vip-svg{
-  width: 28px;
-  height: 28px;
-  stroke: rgba(242,214,128,.95);
-  stroke-width: 1.9;
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: rgba(212,175,55,.95);
+  stroke-width: 1.8;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-/* Aliases for earlier HTML variants (safety) */
-.vip-tile-ico{
-  width: 46px;
-  height: 46px;
-  border-radius: 16px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  background:
-    radial-gradient(18px 18px at 30% 25%, rgba(242,214,128,.18), rgba(0,0,0,0) 70%),
-    linear-gradient(180deg, rgba(18,21,28,.88), rgba(12,14,18,.92));
-  border: 1px solid rgba(212,175,55,.30);
+  opacity: .98;
 }
 .vip-tile-label{
+  font-size: 16px;
   font-weight: 900;
-  font-size: 12px;
-  letter-spacing: .2px;
-  color: rgba(230,232,237,.92);
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+  color: var(--vip-text-solid);
 }
 
-/* Tile label refinement (less glare) */
-.vip-label{color: rgba(230,232,237,.92); font-weight: 900;}
+/* Intro / simple VIP content blocks */
+.vip-page{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 36px 18px 60px;
+}
+.vip-card{
+  background: rgba(18,21,28,.92);
+  border: 1px solid var(--vip-line-solid);
+  border-radius: 18px;
+  padding: 28px 22px;
+}
+.vip-h1{
+  margin: 0 0 10px;
+  font-size: 22px;
+  font-weight: 900;
+  color: var(--vip-text-solid);
+  letter-spacing: -0.01em;
+}
+.vip-p{
+  margin: 0 0 18px;
+  font-size: 14px;
+  color: var(--vip-muted-solid);
+  line-height: 1.6;
+}
+.vip-kv{
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+}
+.vip-kv-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(0,0,0,.16);
+  border: 1px solid rgba(212,175,55,.14);
+}
+.vip-kv-k{
+  font-weight: 900;
+  color: var(--vip-text-solid);
+}
+.vip-kv-v{
+  font-weight: 800;
+  color: var(--vip-muted-solid);
+}
+.vip-cta{
+  margin-top: 18px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
 
-/* Mobile: prevent topbar overflow */
-@media (max-width: 520px){
-  .vip-top-inner{padding: 12px 14px;}
-  .vip-logo{width: 40px; height: 40px;}
-  .vip-pill{height: 34px; padding: 0 12px;}
+/* Buttons (override to VIP black+gold) */
+.vip-btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  padding: 0 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(212,175,55,.28);
+  background: rgba(18,21,28,.70);
+  color: var(--vip-text-solid);
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 13px;
+}
+.vip-btn:hover{
+  border-color: rgba(212,175,55,.42);
+  background: rgba(31,36,48,.72);
+}
+.vip-btn-ghost{
+  background: transparent;
 }
