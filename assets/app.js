@@ -1197,10 +1197,6 @@ async function hydrateCategoryPage(){
         const rows = await parseFileToRows(f);
         const date_key = guessDateKey(f.name);
         const st = getState ? getState() : {category: catKey, region:'KR'};
-        if(String(st.region||'').toUpperCase()==='ALL'){
-          throw new Error('업로드 전 지역을 국내(KR) 또는 해외(US)로 선택하십시오.');
-        }
-
         const titleMap = {accum:'매집종목', strong:'강한종목', suspicious:'수상해수상해', sample:'샘플자료'};
         const manualTitle = (titleInput && titleInput.value ? titleInput.value : '').trim();
         const title = manualTitle || `${titleMap[st.category]||'빅데이터'} ${date_key}`;
@@ -1667,8 +1663,8 @@ details.details[open] > summary{
       const detailRows = Object.keys(row).map(k=>`<tr><td>${safe(k)}</td><td>${safe(row[k])}</td></tr>`).join('');
       const detailTbl = `<table><thead><tr><th>지표</th><th>값</th></tr></thead><tbody>${detailRows}</tbody></table>`;
       const detailsHtml = NO_DETAILS ? '' : `
-        <details class="details"><summary>상세지표</summary>${detailTbl}</details>
-      `;
+            ${detailsHtml}
+          `;
 
       return `
         <div class="card">

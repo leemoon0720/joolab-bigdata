@@ -3,101 +3,137 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>JOOLAB | Stock Research Lab</title>
+  <title>주랩 빅데이터 센터</title>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@latest/dist/web/variable/pretendardvariable.css">
   <link rel="stylesheet" href="/assets/app.css"/>
+</head>
+<body>
 
-  <link rel="stylesheet" href="/assets/home_9btn_icon_fit_only.css"></head>
-<body class="page-home">
-
-<header class="vip-top">
-  <div class="vip-top-inner">
-    <a class="vip-brand" href="/">
-      <img src="/assets/joolab_logo.png" alt="JOOLAB" class="vip-logo"/>
-      <div class="vip-brand-text">
-        <div class="vip-brand-title">JOOLAB</div>
-        <div class="vip-brand-sub">STOCK RESEARCH LAB</div>
+<div class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="/">
+      <div class="brand-badge">JL</div>
+      <div>
+        <div class="brand-title">주랩 빅데이터 센터</div>
+        <div class="brand-sub">뉴스 · 빅데이터 · 성과 · 게임</div>
       </div>
     </a>
-
-    <nav class="vip-top-actions" aria-label="홈 상단 버튼">
-      <a class="vip-pill" href="/notice/">공지</a>
-      <a class="vip-pill" href="/subscribe/">구독</a>
-      <a class="vip-pill" href="/signup/">회원가입</a>
-      <a class="vip-pill vip-pill-primary" href="/login/">로그인</a>
+    <nav class="nav">
+      <a href="/notice/" data-nav="notice">공지</a>
+      <a href="/news/" data-nav="news">뉴스센터</a>
+      <a href="/data/" data-nav="data">빅데이터</a>
+      <a href="/sample/" data-nav="sample">샘플자료실</a>
+      <a href="/performance/" data-nav="performance">성과표</a>
+      <a href="/game/" data-nav="game">게임</a>
+      <a href="/meme/" data-nav="meme">웃긴짤</a>
+      <a href="/subscribe/" data-nav="subscribe">구독</a>
+      <a href="/login/" data-nav="login">로그인</a>
+      <a href="/signup/" data-nav="signup">회원가입</a>
+      <a href="/ops/" data-nav="ops">운영</a>
     </nav>
   </div>
-</header>
+</div>
 
-<main class="vip-home">
-  <section class="vip-grid" aria-label="홈 버튼">
+<main class="main">
+  <div class="container">
 
-    <a class="vip-tile" href="/intro/" data-tile="intro">
-      <div class="vip-tile-ico" aria-hidden="true">
-        <svg viewBox="0 0 24 24" class="vip-svg"><path d="M12 2c4.97 0 9 4.03 9 9 0 4.97-4.03 9-9 9S3 15.97 3 11c0-4.97 4.03-9 9-9zm0 5.2a1 1 0 0 0-1 1v.1a1 1 0 0 0 2 0v-.1a1 1 0 0 0-1-1zm-1.1 3.4h2.2c.5 0 .9.4.9.9v5.1c0 .5-.4.9-.9.9h-2.2c-.5 0-.9-.4-.9-.9v-5.1c0-.5.4-.9.9-.9z"/></svg>
+    <section class="hero hero-compact">
+      <div class="hero-head">
+</div>
+
+      <div class="hero-row">
+        <div class="statusbar">
+          <span class="badge live">LIVE</span>
+          <span class="badge upd" id="home-badge-news">NEWS: -</span>
+          <span class="badge upd" id="home-badge-bigdata">BIGDATA: -</span>
+        </div>
       </div>
-      <div class="vip-tile-label">소개</div>
-    </a>
 
-    <a class="vip-tile" href="/news/" data-tile="news">
-      <div class="vip-tile-ico" aria-hidden="true">
-        <svg viewBox="0 0 24 24" class="vip-svg"><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4H20v15.5A2.5 2.5 0 0 1 17.5 22h-11A2.5 2.5 0 0 1 4 19.5v-13zm5.2 2.2h8.6a1 1 0 0 1 0 2H9.2a1 1 0 0 1 0-2zm0 4h8.6a1 1 0 0 1 0 2H9.2a1 1 0 0 1 0-2zm0 4h6.2a1 1 0 0 1 0 2H9.2a1 1 0 0 1 0-2z"/></svg>
+      <div class="market-strip market-strip-compact" id="market-strip">
+        <a class="mchip" data-key="kospi" data-sym="^KS11" href="https://finance.naver.com/sise/sise_index.nhn?code=KOSPI" target="_blank" rel="noopener">
+          <span class="mname">KOSPI</span>
+          <span class="mval" id="mval-kospi">-</span>
+          <span class="mchg" id="mchg-kospi"></span>
+        </a>
+        <a class="mchip" data-key="kosdaq" data-sym="^KQ11" href="https://finance.naver.com/sise/sise_index.nhn?code=KOSDAQ" target="_blank" rel="noopener">
+          <span class="mname">KOSDAQ</span>
+          <span class="mval" id="mval-kosdaq">-</span>
+          <span class="mchg" id="mchg-kosdaq"></span>
+        </a>
+        <a class="mchip" data-key="usdkrw" data-sym="USDKRW=X" href="https://finance.naver.com/marketindex/exchangeDetail.nhn?marketindexCd=FX_USDKRW" target="_blank" rel="noopener">
+          <span class="mname">USD/KRW</span>
+          <span class="mval" id="mval-usdkrw">-</span>
+          <span class="mchg" id="mchg-usdkrw"></span>
+        </a>
       </div>
-      <div class="vip-tile-label">뉴스</div>
-    </a>
+    </section>
 
-    <a class="vip-tile" href="/data/" data-tile="bigdata">
-      <div class="vip-tile-ico" aria-hidden="true">
-        <svg viewBox="0 0 24 24" class="vip-svg"><path d="M4 18.5a1.5 1.5 0 0 0 3 0V9.2a1.5 1.5 0 0 0-3 0v9.3zm6 0a1.5 1.5 0 0 0 3 0V5.7a1.5 1.5 0 0 0-3 0v12.8zm6 0a1.5 1.5 0 0 0 3 0v-6.5a1.5 1.5 0 0 0-3 0v6.5z"/></svg>
+    <div class="grid home-grid">
+      <div class="card home-card" style="grid-column: span 6;">
+        <div class="card-top"><h3>뉴스 맛보기</h3><span class="badge upd" id="home-news-upd">UPD</span></div>
+        <div class="small" id="home-news-meta">-</div>
+        <div id="home-news" class="list list-compact"></div>
+        <div class="card-cta"><a href="/news/">더보기</a></div>
       </div>
-      <div class="vip-tile-label">빅데이터</div>
-    </a>
 
-    <a class="vip-tile" href="/library/" data-tile="library">
-      <div class="vip-tile-ico" aria-hidden="true">
-        <svg viewBox="0 0 24 24" class="vip-svg"><path d="M4.5 5.5A2.5 2.5 0 0 1 7 3h4.3c.6 0 1.2.2 1.6.7l1.1 1.2c.2.2.5.3.8.3H20a2 2 0 0 1 2 2v9.8A3 3 0 0 1 19 20H7.5A3 3 0 0 1 4.5 17V5.5zm3.2 5.2h8.2a1 1 0 0 1 0 2H7.7a1 1 0 0 1 0-2zm0 4h6.2a1 1 0 0 1 0 2H7.7a1 1 0 0 1 0-2z"/></svg>
+      <div class="card home-card" style="grid-column: span 6;">
+        <div class="card-top"><h3>인포맥스 인기 TOP10</h3><span class="badge">RSS</span></div>
+        <div class="small">인포맥스 인기기사(clickTop) 기준</div>
+        <div id="home-infomax" class="list list-compact"></div>
+        <div class="card-cta"><a href="/news/">뉴스센터로</a></div>
       </div>
-      <div class="vip-tile-label">자료실</div>
-    </a>
 
-    <a class="vip-tile" href="/subscribe/" data-tile="subscribe">
-      <div class="vip-tile-ico" aria-hidden="true">
-        <svg viewBox="0 0 24 24" class="vip-svg"><path d="M12 2l2.7 6.1 6.6.6-5 4.3 1.5 6.4L12 16.9 6.2 19.4l1.5-6.4-5-4.3 6.6-.6L12 2z"/></svg>
+      <div class="card home-card" style="grid-column: span 12;">
+        <div class="card-top"><h3>빅데이터 최신</h3><span class="badge live">CATEGORIES</span></div>
+        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:12px;">
+          <div>
+            <div class="small" style="font-weight:700; margin:2px 0 6px;">강한종목</div>
+            <div id="home-bigdata-strong" class="list list-compact"></div>
+          </div>
+          <div>
+            <div class="small" style="font-weight:700; margin:2px 0 6px;">매집종목</div>
+            <div id="home-bigdata-accum" class="list list-compact"></div>
+          </div>
+          <div>
+            <div class="small" style="font-weight:700; margin:2px 0 6px;">수상해수상해</div>
+            <div id="home-bigdata-suspicious" class="list list-compact"></div>
+          </div>
+        </div>
+        <div class="card-cta"><a href="/data/">더보기</a></div>
       </div>
-      <div class="vip-tile-label">구독</div>
-    </a>
 
-    <a class="vip-tile" href="/performance/" data-tile="perf">
-      <div class="vip-tile-ico" aria-hidden="true">
-        <svg viewBox="0 0 24 24" class="vip-svg"><path d="M6 3h12a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm2.2 5.2h7.6a1 1 0 1 1 0 2H8.2a1 1 0 1 1 0-2zm0 4h7.6a1 1 0 1 1 0 2H8.2a1 1 0 1 1 0-2zm0 4h5.2a1 1 0 1 1 0 2H8.2a1 1 0 1 1 0-2z"/></svg>
+      <div class="card home-card" style="grid-column: span 6;">
+        <div class="card-top"><h3>성과표</h3><span class="badge" id="home-perf-badge">LIST</span></div>
+        <div id="home-perf" class="list list-compact"></div>
+        <div class="card-cta"><a href="/performance/">더보기</a></div>
       </div>
-      <div class="vip-tile-label">성과표</div>
-    </a>
 
-    <a class="vip-tile" href="/qna/" data-tile="qna">
-      <div class="vip-tile-ico" aria-hidden="true">
-        <svg viewBox="0 0 24 24" class="vip-svg"><path d="M12 3c5 0 9 3.4 9 7.6 0 2.4-1.3 4.5-3.4 5.9-.1 1.1.3 2.3 1 3.2.2.2.1.5-.1.6-1.7.7-3.8.3-5.3-.6-.4.1-.8.1-1.2.1-5 0-9-3.4-9-7.6S7 3 12 3zm-.1 4.2c-1.6 0-2.8 1-2.8 2.4a1 1 0 0 0 2 0c0-.3.3-.4.8-.4.5 0 .8.2.8.5 0 .2-.1.3-.5.6-.8.6-1.2 1.1-1.2 2.1v.3a1 1 0 0 0 2 0v-.2c0-.3.1-.4.6-.8.9-.6 1.1-1.4 1.1-2 0-1.4-1.3-2.5-2.8-2.5zm0 7.8a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2z"/></svg>
+      <div class="card home-card" style="grid-column: span 6;">
+        <div class="card-top"><h3>유튜브</h3><span class="badge live">LATEST</span></div>
+        <div id="home-youtube" class="yt-card"></div>
+        <div class="card-cta"><a href="https://www.youtube.com/channel/UC85ROrNcbOFDOeC5b0RaQMQ" target="_blank" rel="noopener">채널로</a></div>
       </div>
-      <div class="vip-tile-label">Q&amp;A</div>
-    </a>
 
-    <a class="vip-tile" href="https://www.youtube.com/channel/UC85ROrNcbOFDOeC5b0RaQMQ" target="_blank" rel="noopener" data-tile="youtube">
-      <div class="vip-tile-ico" aria-hidden="true">
-        <svg viewBox="0 0 24 24" class="vip-svg"><path d="M21.6 7.1c.3 1.1.3 3.4.3 3.4s0 2.3-.3 3.4c-.2.9-1 1.6-1.9 1.8-1.7.3-7.7.3-7.7.3s-6 0-7.7-.3c-.9-.2-1.6-.9-1.9-1.8C2.1 12.8 2 10.5 2 10.5s0-2.3.3-3.4c.2-.9 1-1.6 1.9-1.8C5.9 5 12 5 12 5s6 0 7.7.3c.9.2 1.6.9 1.9 1.8zM10.2 13.6l5.2-3.1-5.2-3.1v6.2z"/></svg>
+      <div class="card home-card" style="grid-column: span 6;">
+        <div class="card-top"><h3>게임</h3><span class="badge upd">FUN</span></div>
+        <div class="mini-grid">
+          <a class="mini-tile" href="/training/">
+            <div class="mini-ttl">차트게임</div>
+            <div class="mini-sub">패턴 퀴즈</div>
+          </a>
+          <a class="mini-tile" href="/game/">
+            <div class="mini-ttl">미니게임</div>
+            <div class="mini-sub">추가 예정</div>
+          </a>
+        </div>
+        <div class="card-cta"><a href="/game/">더보기</a></div>
       </div>
-      <div class="vip-tile-label">유튜브</div>
-    </a>
+    </div>
 
-    <a class="vip-tile" href="/game/" data-tile="game">
-      <div class="vip-tile-ico" aria-hidden="true">
-        <svg viewBox="0 0 24 24" class="vip-svg"><path d="M7.5 8h9A3.5 3.5 0 0 1 20 11.5v3A3.5 3.5 0 0 1 16.5 18h-9A3.5 3.5 0 0 1 4 14.5v-3A3.5 3.5 0 0 1 7.5 8zm1.2 2.5a1 1 0 0 0-1 1v.6H7a1 1 0 1 0 0 2h.7v.6a1 1 0 1 0 2 0v-.6h.6a1 1 0 1 0 0-2h-.6v-.6a1 1 0 0 0-1-1zm7.8.6a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zm-2 2.6a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z"/></svg>
-      </div>
-      <div class="vip-tile-label">게임</div>
-    </a>
-
-  </section>
+  </div>
 </main>
 
+<script src="/assets/app.js"></script>
 </body>
 </html>
