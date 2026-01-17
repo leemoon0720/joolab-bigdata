@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>자료실 | 주랩</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@latest/dist/web/variable/pretendardvariable.css">
+  <link rel="stylesheet" href="/assets/app.css"/>
+</head>
+<body>
+<div class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="/">
+      <div class="brand-badge">JL</div>
+      <div>
+        <div class="brand-title">주랩 빅데이터 센터</div>
+        <div class="brand-sub">샘플 · 자료실 · 뉴스 · 빅데이터</div>
+      </div>
+    </a>
+    <nav class="nav">
+      <!-- will be normalized by /assets/app.js -->
+      <a href="/notice/" data-nav="notice">공지</a>
+      <a href="/news/" data-nav="news">뉴스센터</a>
+      <a href="/sample/" data-nav="sample">샘플</a>
+      <a href="/library/" data-nav="library">자료실</a>
+      <a href="/data/" data-nav="data">빅데이터</a>
+      <a href="/subscribe/" data-nav="subscribe">구독</a>
+      <a href="/login/" data-nav="login">로그인</a>
+      <a href="/ops/" data-nav="ops">운영</a>
+    </nav>
+  </div>
+</div>
+
+<main class="main">
+  <div class="container">
+
+<section class="hero hero-compact">
+  <h1>자료실</h1>
+  <p>엑셀/문서/PDF 파일을 업로드해 두고, 구독자는 다운로드할 수 있습니다.</p>
+
+  <div class="hero-row">
+    <div class="statusbar">
+      <span class="badge live">LIVE</span>
+      <span class="badge upd" id="lib-badge-upd">UPD: -</span>
+      <span class="badge" id="lib-badge-count">-</span>
+    </div>
+
+    <div class="hero-actions" id="lib-admin-actions" style="display:none; gap:10px;">
+      <input class="input" id="lib-title" placeholder="표시 제목(선택)" style="max-width:340px;">
+      <button class="btn primary" id="lib-btn-upload" type="button">파일 업로드</button>
+      <input id="lib-file" type="file" accept=".xlsx,.xls,.csv,.pdf,.docx,.pptx,.txt" style="display:none;">
+    </div>
+  </div>
+</section>
+
+<div class="grid">
+  <div class="card" style="grid-column: span 12;">
+    <div class="card-top"><h3>목록</h3><span class="badge">FILES</span></div>
+    <div id="lib-list" class="list"></div>
+    <div class="small" style="margin-top:10px;">
+      업로드: 관리자만 가능 · 다운로드: 구독자 로그인 필요
+    </div>
+  </div>
+</div>
+
+  </div>
+</main>
+
+<script src="/assets/app.js"></script>
+<script src="/assets/member.js"></script>
+</body>
+</html>

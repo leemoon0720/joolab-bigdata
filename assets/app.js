@@ -1,12 +1,4 @@
 (function(){
-  // Force Blue/Cyan theme variables (guards against cached/overridden pink theme)
-  try{
-    const r = document.documentElement;
-    r.style.setProperty('--brand', 'rgba(37,99,235,1)');
-    r.style.setProperty('--brand2', 'rgba(6,182,212,1)');
-    r.style.setProperty('--brandGrad', 'linear-gradient(135deg, rgba(37,99,235,1), rgba(29,78,216,1), rgba(6,182,212,1))');
-  }catch(e){}
-
   const byId = (id)=>document.getElementById(id);
   const qsa = (sel)=>Array.from(document.querySelectorAll(sel));
   // HTML escape (XSS-safe)
@@ -27,26 +19,26 @@
     const nav = document.querySelector('.topbar .nav');
     if(!nav) return;
 
-    // Unified minimal menu (비구독자도 이동 가능한 공개 메뉴 포함)
+    // Unified menu (keep core pages + sample + library)
     nav.innerHTML = [
       '<a href="/notice/" data-nav="notice">공지</a>',
       '<a href="/news/" data-nav="news">뉴스센터</a>',
-      '<a href="/sample/" data-nav="sample">샘플자료</a>',
+      '<a href="/sample/" data-nav="sample">샘플자료실</a>',
+      '<a href="/library/" data-nav="library">자료실</a>',
       '<a href="/data/" data-nav="data">빅데이터</a>',
       '<a href="/performance/" data-nav="performance">성과표</a>',
       '<a href="/game/" data-nav="game">게임</a>',
       '<a href="/meme/" data-nav="meme">유머</a>',
       '<a href="/subscribe/" data-nav="subscribe">구독</a>',
       '<a href="/login/" data-nav="login">로그인</a>',
-      '<a href="/ops/" data-nav="ops">운영</a>',
+      '<a href="/signup/" data-nav="signup">회원가입</a>',
+      '<a href="/ops/" data-nav="ops">운영</a>'
     ].join('');
 
-    // 기본적으로 운영은 숨김(관리자만 표시)
+    // 운영은 관리자만 표시
     const ops = nav.querySelector('a[data-nav="ops"]');
     if(ops) ops.style.display = 'none';
   }
-
-
 
 
   function setActiveNav(){
@@ -57,6 +49,7 @@
         notice: /^\/notice\/?/,
         news: /^\/news\/?/,
         sample: /^\/sample\/?/,
+        library: /^\/library\/?/,
         strong: /^\/strong\/?/,
         training: /^\/training\/?/,
         data: /^\/data\/?/,
@@ -844,72 +837,6 @@ async function hydrateNewsPreview(){
     const bdSusp = byId('home-bigdata-suspicious');
     const homeBD = byId('home-bigdata'); // legacy
 
-    // Home sample card: 비구독자에게 "사이트 유용함"을 홈에서 바로 노출
-    const homeGrid = document.querySelector('.grid.home-grid');
-    function ensureHomeSampleCard(){
-      if(!homeGrid) return;
-      if(byId('home-sample-list')) return;
-
-      const card = document.createElement('div');
-      card.className = 'card home-card';
-      card.style.gridColumn = 'span 6';
-      card.innerHTML = `
-        <div class="card-top"><h3>샘플자료</h3><span class="badge" id="home-sample-upd">UPD</span></div>
-        <div class="small" id="home-sample-meta">회원가입 전 미리보기</div>
-        <div id="home-sample-list" class="list list-compact"></div>
-        <div class="card-cta"><a href="/sample/">샘플자료실로</a></div>
-      `;
-
-      // Insert right after the "빅데이터 최신" card if present
-      let inserted = false;
-      const cards = Array.from(homeGrid.querySelectorAll('.card.home-card'));
-      for(const c of cards){
-        const h = c.querySelector('h3');
-        if(h && (h.textContent||'').trim() === '빅데이터 최신'){
-          homeGrid.insertBefore(card, c.nextSibling);
-          inserted = true;
-          break;
-        }
-      }
-      if(!inserted) homeGrid.appendChild(card);
-    }
-
-    ensureHomeSampleCard();
-
-    async function hydrateHomeSampleCard(){
-      const box = byId('home-sample-list');
-      if(!box) return;
-      box.innerHTML = `<div class="item"><div><div class="title">로딩 중...</div><div class="meta">샘플자료 불러오는 중</div></div></div>`;
-      try{
-        const [jA, jS] = await Promise.all([
-          fetchJSON('/api/posts/list?category=accum&region=ALL&limit=30&sample=1'),
-          fetchJSON('/api/posts/list?category=strong&region=ALL&limit=30&sample=1'),
-        ]);
-        let items = []
-          .concat((jA && jA.items) ? jA.items : [])
-          .concat((jS && jS.items) ? jS.items : []);
-
-        items = (items || []).filter(Boolean);
-        items.sort((x,y)=> String(y.created_ts||'').localeCompare(String(x.created_ts||'')));
-        items = items.slice(0, 6);
-
-        const upd = byId('home-sample-upd');
-        const meta = byId('home-sample-meta');
-        const newest = items[0];
-        if(upd) upd.textContent = newest && newest.created_at ? `UPD: ${fmtTime(newest.created_at)}` : 'UPD: -';
-        if(meta) meta.textContent = items.length ? `샘플 ${items.length}개 표시 (최근순)` : '샘플이 없습니다.';
-
-        box.innerHTML = items.length
-          ? items.map(renderMetaItem).join('')
-          : `<div class="item"><div><div class="title">샘플이 없습니다.</div><div class="meta">운영에서 업로드 시 ‘샘플 공개’를 체크하면 홈/샘플자료실에 표시됩니다.</div></div></div>`;
-      }catch(e){
-        box.innerHTML = `<div class="item"><div><div class="title">샘플을 불러오지 못했습니다.</div><div class="meta">/api/posts/list?sample=1 응답 확인</div></div></div>`;
-      }
-    }
-
-    // Always try to show sample card on home
-    hydrateHomeSampleCard();
-
     async function fetchPostList(category, limit){
       const u = `/api/posts/list?category=${encodeURIComponent(category)}&region=ALL&limit=${encodeURIComponent(String(limit||4))}`;
       return await fetchJSON(u);
@@ -955,8 +882,7 @@ async function hydrateNewsPreview(){
         }
 
       }catch(e){
-        // 비구독자(로그인 불가) 또는 멤버십 전용 차단 시: 에러 대신 안내 문구로 표시
-        const msg = `<div class="item"><div><div class="title">구독 멤버십 전용 공간입니다.</div><div class="meta"><a href="/sample/">홈의 샘플자료</a>를 확인하거나 <a href="/subscribe/">구독 안내</a>를 확인해 주십시오.</div></div></div>`;
+        const msg = `<div class="item"><div><div class="title">빅데이터를 불러오지 못했습니다.</div><div class="meta">/api/posts/list 확인</div></div></div>`;
         if(bdStrong) bdStrong.innerHTML = msg;
         if(bdAccum) bdAccum.innerHTML = msg;
         if(bdSusp) bdSusp.innerHTML = msg;
@@ -1093,44 +1019,119 @@ async function hydrateNewsPreview(){
     load();
   }
 
-
-  
   async function hydrateSampleRoom(){
     const list = byId('sample-list');
     if(!list) return;
 
-    let cat = 'accum';
     let region = 'KR';
-
-    const btnCat = qsa('[data-sample-cat]');
     const btnReg = qsa('[data-sample-region]');
 
-    function setCat(v){
-      cat = v;
-      btnCat.forEach(b=>b.classList.toggle('is-on', b.getAttribute('data-sample-cat')===cat));
-      load();
-    }
     function setRegion(v){
       region = v;
       btnReg.forEach(b=>b.classList.toggle('is-on', b.getAttribute('data-sample-region')===region));
       load();
     }
 
-    btnCat.forEach(b=>b.addEventListener('click', ()=>setCat(b.getAttribute('data-sample-cat'))));
     btnReg.forEach(b=>b.addEventListener('click', ()=>setRegion(b.getAttribute('data-sample-region'))));
 
     async function load(){
       list.innerHTML = `<div class="small">로딩 중...</div>`;
       try{
-        const j = await fetchJSON(`/api/posts/list?category=${encodeURIComponent(cat)}&region=${encodeURIComponent(region)}&limit=30&sample=1`);
+        const j = await fetchJSON(`/api/posts/list?category=sample&region=${encodeURIComponent(region)}&limit=50`);
         const items = (j.items||[]);
         const upd = byId('sample-badge-upd');
         const cnt = byId('sample-badge-count');
         if(upd) upd.textContent = `UPD: ${fmtTime(j.updated_at||'')}`;
         if(cnt) cnt.textContent = `${items.length}개`;
-        list.innerHTML = items.length ? items.map(renderMetaItem).join('') : `<div class="item"><div><div class="title">샘플이 없습니다.</div><div class="meta">관리자가 업로드 시 ‘샘플 공개’를 체크하면 여기에 노출됩니다.</div></div></div>`;
+        list.innerHTML = items.length
+          ? items.map(renderMetaItem).join('')
+          : `<div class="item"><div><div class="title">샘플이 없습니다.</div><div class="meta">운영센터에서 샘플자료실 업로드를 사용해 주십시오.</div></div></div>`;
       }catch(e){
         list.innerHTML = `<div class="item"><div><div class="title">샘플을 불러오지 못했습니다.</div><div class="meta">KV 설정 확인</div></div></div>`;
+      }
+    }
+
+    load();
+  }
+
+
+  async function hydrateLibraryRoom(){
+    const list = byId('lib-list');
+    if(!list) return;
+
+    const upd = byId('lib-badge-upd');
+    const cnt = byId('lib-badge-count');
+
+    const adminBox = byId('lib-admin-actions');
+    const btnUpload = byId('lib-btn-upload');
+    const fileInput = byId('lib-file');
+    const titleInput = byId('lib-title');
+    const msg = byId('lib-msg');
+
+    function setMsg(t, ok){
+      if(!msg) return;
+      msg.textContent = t || '';
+      msg.style.color = ok ? '#16a34a' : '#ef4444';
+    }
+
+    // detect admin
+    let isAdmin = false;
+    try{
+      const me = await fetchJSON('/api/auth/me');
+      isAdmin = !!(me && me.ok && me.user && me.user.role === 'admin');
+    }catch(e){ isAdmin = false; }
+    if(adminBox) adminBox.style.display = isAdmin ? '' : 'none';
+
+    if(isAdmin && btnUpload && fileInput){
+      btnUpload.addEventListener('click', ()=> fileInput.click());
+      fileInput.addEventListener('change', async ()=>{
+        const f = fileInput.files && fileInput.files[0];
+        if(!f) return;
+        btnUpload.disabled = true;
+        btnUpload.textContent = '업로드 중...';
+        setMsg('', true);
+        try{
+          const fd = new FormData();
+          fd.append('file', f);
+          const t = (titleInput && titleInput.value ? titleInput.value : '').trim();
+          if(t) fd.append('title', t);
+          const r = await fetch('/api/files/upload', { method:'POST', credentials:'include', headers: authHeaders(), body: fd });
+          const j = await r.json().catch(()=>null);
+          if(!j || !j.ok){
+            setMsg((j && j.error) ? ('업로드 실패: ' + j.error) : '업로드 실패', false);
+          }else{
+            setMsg('업로드 완료', true);
+            if(titleInput) titleInput.value = '';
+            await load();
+          }
+        }catch(e){
+          setMsg('업로드 실패', false);
+        }finally{
+          btnUpload.disabled = false;
+          btnUpload.textContent = '업로드';
+          fileInput.value = '';
+        }
+      });
+    }
+
+    function renderFileItem(it){
+      const id = esc(it.id||'');
+      const title = esc(it.title||it.filename||'파일');
+      const meta = `${esc(it.filename||'')} · ${(it.size||0).toLocaleString()} bytes`;
+      const href = `/api/files/get?id=${encodeURIComponent(it.id||'')}`;
+      return `<div class="item"><div><div class="title">${title}</div><div class="meta">${meta}</div></div><div class="right"><a class="btn" href="${href}">다운로드</a></div></div>`;
+    }
+
+    async function load(){
+      list.innerHTML = `<div class="small">로딩 중...</div>`;
+      try{
+        const j = await fetchJSON('/api/files/list?limit=50');
+        const items = (j.items||[]);
+        if(upd) upd.textContent = `UPD: ${fmtTime(j.updated_at||'')}`;
+        if(cnt) cnt.textContent = `${items.length}개`;
+        list.innerHTML = items.length ? items.map(renderFileItem).join('') : `<div class="item"><div><div class="title">자료가 없습니다.</div><div class="meta">관리자가 업로드하면 표시됩니다.</div></div></div>`;
+      }catch(e){
+        list.innerHTML = `<div class="item"><div><div class="title">목록을 불러오지 못했습니다.</div><div class="meta">로그인/권한 확인</div></div></div>`;
       }
     }
 
@@ -1196,7 +1197,7 @@ async function hydrateCategoryPage(){
         const rows = await parseFileToRows(f);
         const date_key = guessDateKey(f.name);
         const st = getState ? getState() : {category: catKey, region:'KR'};
-        const titleMap = {accum:'매집종목', strong:'강한종목', suspicious:'수상해수상해'};
+        const titleMap = {accum:'매집종목', strong:'강한종목', suspicious:'수상해수상해', sample:'샘플자료'};
         const manualTitle = (titleInput && titleInput.value ? titleInput.value : '').trim();
         const title = manualTitle || `${titleMap[st.category]||'빅데이터'} ${date_key}`;
 
@@ -1819,7 +1820,7 @@ tr:nth-child(even) td{ background: rgba(255,255,255,0.02); }
         const rows = await parseFileToRows(f);
         const date_key = guessDateKey(f.name);
         const st = getState ? getState() : {category:'accum', region:'KR'};
-        const titleMap = {accum:'매집종목', strong:'강한종목', suspicious:'수상해수상해'};
+        const titleMap = {accum:'매집종목', strong:'강한종목', suspicious:'수상해수상해', sample:'샘플자료'};
         const manualTitle = (titleInput && titleInput.value ? titleInput.value : '').trim();
         const title = manualTitle || `${titleMap[st.category]||'빅데이터'} ${date_key}`;
 
@@ -2269,6 +2270,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     hydratePerformance();
     hydrateCategoryPage();
     hydrateSampleRoom();
+    hydrateLibraryRoom();
     hydrateMemeBoard();
     hydratePost();
     bindSignupRequest();

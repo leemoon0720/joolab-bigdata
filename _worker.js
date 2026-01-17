@@ -729,14 +729,11 @@ async function handlePostsList(request, env){
 
   let items=[];
   if(category === 'sample'){
-    // Independent sample category + legacy samples (strong/accum with is_sample flag)
-    const buckets = [];
+    // Independent sample category (완전 독립)
     const regions = (region && region !== 'ALL') ? [region] : ['KR','US'];
+    const buckets = [];
     for(const r of regions){
       buckets.push(await _listMetaByPrefix(env, 'posts/meta/sample/' + r + '/', limit));
-      // legacy samples
-      buckets.push((await _listMetaByPrefix(env, 'posts/meta/strong/' + r + '/', limit)).filter(x=>x && x.is_sample));
-      buckets.push((await _listMetaByPrefix(env, 'posts/meta/accum/' + r + '/', limit)).filter(x=>x && x.is_sample));
     }
     items = buckets.flat();
   }else{
