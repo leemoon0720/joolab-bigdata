@@ -3,180 +3,230 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>JOOLAB | 빅데이터 센터</title>
+  <title>JOOLAB | HOME</title>
+  <meta name="theme-color" content="#05060a"/>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@latest/dist/web/variable/pretendardvariable.css">
   <link rel="stylesheet" href="/assets/app.css"/>
-</head>
-<body>
+  <style>
+    /* HOME 3x3 (UI ONLY) */
+    html,body{height:100%;}
+    body.home9{
+      margin:0;
+      font-family: Pretendard, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic", sans-serif;
+      color:#EDEDED;
+      background:
+        radial-gradient(820px 620px at 20% 10%, rgba(255,212,102,.12) 0%, rgba(0,0,0,0) 60%),
+        radial-gradient(820px 620px at 80% 20%, rgba(201,162,77,.10) 0%, rgba(0,0,0,0) 62%),
+        linear-gradient(180deg, #0B0F14 0%, #06080B 55%, #05070A 100%);
+      background-attachment: fixed;
+    }
 
-<header class="vip-top">
-  <div class="vip-top-inner">
-    <a class="vip-brand" href="/">
-      <img src="/assets/joolab_logo.png" alt="JOOLAB" class="vip-logo"/>
-      <div class="vip-brand-text">
-        <div class="vip-brand-title">JOOLAB</div>
-        <div class="vip-brand-sub">STOCK RESEARCH LAB</div>
+    .home9-top{
+      position:sticky; top:0; z-index:30;
+      background: rgba(5,7,10,.72);
+      border-bottom: 1px solid rgba(201,162,77,.18);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .home9-top-inner{
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 14px 20px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:14px;
+    }
+    .home9-brand{display:flex; align-items:center; gap:12px; min-width:240px;}
+    .home9-brand img{width:44px; height:44px; object-fit:contain; filter: drop-shadow(0 10px 24px rgba(201,162,77,.20));}
+    .home9-bt{display:flex; flex-direction:column; line-height:1.05;}
+    .home9-title{font-weight:900; letter-spacing:-.4px; font-size:18px; color:#EDEDED;}
+    .home9-sub{font-weight:700; font-size:12px; letter-spacing:.5px; color: rgba(201,162,77,.92); margin-top:4px;}
+
+    .home9-actions{display:flex; gap:10px; flex-wrap:wrap; justify-content:flex-end;}
+    .home9-pill{
+      height:38px;
+      padding:0 14px;
+      border-radius:999px;
+      display:inline-flex; align-items:center; justify-content:center;
+      font-weight:900;
+      font-size:13px;
+      color:#EDEDED;
+      border:1px solid rgba(201,162,77,.28);
+      background: rgba(0,0,0,.18);
+    }
+    .home9-pill:hover{background: rgba(201,162,77,.08);}
+    .home9-pill.primary{
+      background: linear-gradient(180deg, rgba(201,162,77,.22), rgba(201,162,77,.10));
+      border-color: rgba(201,162,77,.45);
+    }
+
+    .home9-main{min-height: calc(100vh - 72px); display:flex; align-items:center; justify-content:center; padding: 26px 18px 52px;}
+
+    /* size: photo보다 약간 크게 */
+    .home9-grid{
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      width: min(640px, 92vw);
+    }
+
+    .home9-tile{
+      aspect-ratio: 1/1;
+      border-radius: 18px;
+      background: rgba(0,0,0,.22);
+      border: 1px solid rgba(201,162,77,.55);
+      box-shadow:
+        0 18px 50px rgba(0,0,0,.55),
+        inset 0 0 0 1px rgba(255,255,255,.03),
+        0 0 22px rgba(201,162,77,.14);
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      gap: 12px;
+      transition: transform .12s ease, box-shadow .12s ease, background .12s ease;
+      user-select:none;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .home9-tile:hover{
+      transform: translateY(-1px);
+      background: rgba(201,162,77,.06);
+      box-shadow:
+        0 18px 54px rgba(0,0,0,.58),
+        inset 0 0 0 1px rgba(255,255,255,.04),
+        0 0 30px rgba(201,162,77,.20);
+    }
+    .home9-ico{width:52px; height:52px; color: rgba(201,162,77,1);}
+    .home9-label{font-size:17px; font-weight:900; color: rgba(201,162,77,1); letter-spacing:-.2px;}
+
+    /* keep legacy home scripts safe: hide old sections if any */
+    .home9-legacy{display:none !important;}
+
+    @media (max-width: 480px){
+      .home9-grid{gap: 12px; width: min(560px, 96vw);} 
+      .home9-ico{width:46px; height:46px;}
+      .home9-label{font-size:16px;}
+    }
+  </style>
+</head>
+<body class="home9">
+
+<header class="home9-top">
+  <div class="home9-top-inner">
+    <a class="home9-brand" href="/" aria-label="JOOLAB HOME">
+      <img src="/assets/joolab_logo.png" alt="JOOLAB"/>
+      <div class="home9-bt">
+        <div class="home9-title">JOOLAB</div>
+        <div class="home9-sub">STOCK RESEARCH LAB</div>
       </div>
     </a>
-    <nav class="vip-top-actions" aria-label="상단 버튼">
-      <a class="vip-pill" href="/notice/">공지</a>
-      <a class="vip-pill" href="/subscribe/">구독</a>
-      <a class="vip-pill" href="/signup/">회원가입</a>
-      <a class="vip-pill vip-pill-primary" href="/login/">로그인</a>
+
+    <nav class="home9-actions" aria-label="상단 메뉴">
+      <a class="home9-pill" href="/notice/">공지</a>
+      <a class="home9-pill" href="/subscribe/">구독</a>
+      <a class="home9-pill" href="/signup/">회원가입</a>
+      <a class="home9-pill primary" href="/login/">로그인</a>
     </nav>
   </div>
 </header>
 
-<main class="main">
-  <div class="container">
+<main class="home9-main">
+  <section class="home9-grid" aria-label="홈 9개 버튼">
 
-    <section class="hero hero-compact">
-      <div style="display:flex; flex-direction:column; gap:8px; align-items:flex-start;">
-        <h1 style="margin:0;">VIP DATA LAB</h1>
-        <p style="margin:0;">주랩은 ‘말’이 아니라 데이터로만 판단합니다. 거래대금·수급·추세 변화의 흔적만 정리합니다.</p>
-      </div>
+    <a class="home9-tile" href="/intro/" aria-label="소개">
+      <svg class="home9-ico" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M4 19V6.6A2.6 2.6 0 0 1 6.6 4H20v15H6.6A2.6 2.6 0 0 0 4 21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M8 8h8M8 12h7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <div class="home9-label">소개</div>
+    </a>
 
-      <div class="hero-row" style="margin-top:14px;">
-        <div class="statusbar">
-          <span class="badge live">LIVE</span>
-          <span class="badge upd" id="home-badge-news">NEWS: -</span>
-          <span class="badge upd" id="home-badge-bigdata">BIGDATA: -</span>
-        </div>
-      </div>
+    <a class="home9-tile" href="/news/" aria-label="뉴스">
+      <svg class="home9-ico" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M4 6h16v13H4z" stroke="currentColor" stroke-width="2"/>
+        <path d="M7 9h6M7 12h10M7 15h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <path d="M14 9h3v3h-3z" stroke="currentColor" stroke-width="2"/>
+      </svg>
+      <div class="home9-label">뉴스</div>
+    </a>
 
-      <div class="market-strip market-strip-compact" id="market-strip" style="margin-top:12px;">
-        <a class="mchip" data-key="kospi" data-sym="^KS11" href="https://finance.naver.com/sise/sise_index.nhn?code=KOSPI" target="_blank" rel="noopener">
-          <span class="mname">KOSPI</span>
-          <span class="mval" id="mval-kospi">-</span>
-          <span class="mchg" id="mchg-kospi"></span>
-        </a>
-        <a class="mchip" data-key="kosdaq" data-sym="^KQ11" href="https://finance.naver.com/sise/sise_index.nhn?code=KOSDAQ" target="_blank" rel="noopener">
-          <span class="mname">KOSDAQ</span>
-          <span class="mval" id="mval-kosdaq">-</span>
-          <span class="mchg" id="mchg-kosdaq"></span>
-        </a>
-        <a class="mchip" data-key="usdkrw" data-sym="USDKRW=X" href="https://finance.naver.com/marketindex/exchangeDetail.nhn?marketindexCd=FX_USDKRW" target="_blank" rel="noopener">
-          <span class="mname">USD/KRW</span>
-          <span class="mval" id="mval-usdkrw">-</span>
-          <span class="mchg" id="mchg-usdkrw"></span>
-        </a>
-      </div>
-    </section>
+    <a class="home9-tile" href="/data/" aria-label="빅데이터">
+      <svg class="home9-ico" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M4 7c0 1.66 3.58 3 8 3s8-1.34 8-3-3.58-3-8-3-8 1.34-8 3Z" stroke="currentColor" stroke-width="2"/>
+        <path d="M4 7v5c0 1.66 3.58 3 8 3s8-1.34 8-3V7" stroke="currentColor" stroke-width="2"/>
+        <path d="M4 12v5c0 1.66 3.58 3 8 3s8-1.34 8-3v-5" stroke="currentColor" stroke-width="2"/>
+      </svg>
+      <div class="home9-label">빅데이터</div>
+    </a>
 
-    <section class="vip-section" style="margin-top:14px;">
-      <div class="vip-grid9" aria-label="메인 9개 버튼">
-        <a class="vip-tile" href="/intro/">
-          <svg class="vip-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19h16"/><path d="M6 17V7a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v10"/><path d="M9 9h6"/><path d="M9 12h6"/></svg>
-          <div class="vip-tile-title">소개</div>
-          <div class="vip-tile-sub">서비스 안내</div>
-        </a>
-        <a class="vip-tile" href="/news/">
-          <svg class="vip-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="M7 9h6"/><path d="M7 12h10"/><path d="M7 15h10"/></svg>
-          <div class="vip-tile-title">뉴스</div>
-          <div class="vip-tile-sub">핵심 이슈 요약</div>
-        </a>
-        <a class="vip-tile" href="/data/">
-          <svg class="vip-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V5"/><path d="M4 19h16"/><path d="M8 15v-4"/><path d="M12 15V7"/><path d="M16 15v-2"/></svg>
-          <div class="vip-tile-title">빅데이터</div>
-          <div class="vip-tile-sub">강한·매집·수상해</div>
-        </a>
-        <a class="vip-tile" href="/library/">
-          <svg class="vip-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h7v14H4z"/><path d="M13 6h7v14h-7z"/><path d="M7 10h1"/><path d="M16 10h1"/></svg>
-          <div class="vip-tile-title">자료실</div>
-          <div class="vip-tile-sub">리포트·다운로드</div>
-        </a>
-        <a class="vip-tile" href="/subscribe/">
-          <svg class="vip-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8h12"/><path d="M7 8v12h10V8"/><path d="M9 4h6"/><path d="M9 12h6"/><path d="M9 15h6"/></svg>
-          <div class="vip-tile-title">구독</div>
-          <div class="vip-tile-sub">멤버십 안내</div>
-        </a>
-        <a class="vip-tile" href="/performance/">
-          <svg class="vip-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19h16"/><path d="M6 17l4-6 3 3 5-8"/><circle cx="10" cy="11" r="1"/><circle cx="13" cy="14" r="1"/><circle cx="18" cy="6" r="1"/></svg>
-          <div class="vip-tile-title">성과표</div>
-          <div class="vip-tile-sub">기록·정렬</div>
-        </a>
-        <a class="vip-tile" href="/qna/">
-          <svg class="vip-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H7l-3 3z"/><path d="M9 10a3 3 0 0 1 6 0c0 2-3 2-3 4"/><path d="M12 16h.01"/></svg>
-          <div class="vip-tile-title">Q&A</div>
-          <div class="vip-tile-sub">문의·요청</div>
-        </a>
-        <a class="vip-tile" href="https://www.youtube.com/channel/UC85ROrNcbOFDOeC5b0RaQMQ" target="_blank" rel="noopener">
-          <svg class="vip-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 9l6 3-6 3z"/><path d="M3.5 8.5c0-2 1.5-3.5 3.5-3.5h10c2 0 3.5 1.5 3.5 3.5v7c0 2-1.5 3.5-3.5 3.5H7c-2 0-3.5-1.5-3.5-3.5z"/></svg>
-          <div class="vip-tile-title">유튜브</div>
-          <div class="vip-tile-sub">채널 바로가기</div>
-        </a>
-        <a class="vip-tile" href="/game/">
-          <svg class="vip-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 12h12"/><path d="M8 10v4"/><circle cx="16" cy="10" r="1"/><circle cx="18" cy="14" r="1"/><path d="M5 16l-1-4 1-4h14l1 4-1 4z"/></svg>
-          <div class="vip-tile-title">게임</div>
-          <div class="vip-tile-sub">차트/퀴즈</div>
-        </a>
-      </div>
-    </section>
+    <a class="home9-tile" href="/library/" aria-label="자료실">
+      <svg class="home9-ico" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M3 7a2 2 0 0 1 2-2h5l2 2h7a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+      </svg>
+      <div class="home9-label">자료실</div>
+    </a>
 
-    <!-- Existing LIVE sections (kept to avoid JS errors: UI only) -->
-    <div class="grid home-grid">
-      <div class="card home-card" style="grid-column: span 6;">
-        <div class="card-top"><h3>뉴스 맛보기</h3><span class="badge upd" id="home-news-upd">UPD</span></div>
-        <div class="small" id="home-news-meta">-</div>
-        <div id="home-news" class="list list-compact"></div>
-        <div class="card-cta"><a href="/news/">더보기</a></div>
-      </div>
+    <a class="home9-tile" href="/subscribe/" aria-label="구독">
+      <svg class="home9-ico" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M3 7h18v10H3z" stroke="currentColor" stroke-width="2"/>
+        <path d="M7 17V7" stroke="currentColor" stroke-width="2" opacity=".9"/>
+        <path d="M9 12h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <div class="home9-label">구독</div>
+    </a>
 
-      <div class="card home-card" style="grid-column: span 6;">
-        <div class="card-top"><h3>인포맥스 인기 TOP10</h3><span class="badge">RSS</span></div>
-        <div class="small">인포맥스 인기기사(clickTop) 기준</div>
-        <div id="home-infomax" class="list list-compact"></div>
-        <div class="card-cta"><a href="/news/">뉴스센터로</a></div>
-      </div>
+    <a class="home9-tile" href="/performance/" aria-label="성과표">
+      <svg class="home9-ico" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M4 19V5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <path d="M4 19h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <path d="M7 15l3-3 2 2 5-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <div class="home9-label">성과표</div>
+    </a>
 
-      <div class="card home-card" style="grid-column: span 12;">
-        <div class="card-top"><h3>빅데이터 최신</h3><span class="badge live">CATEGORIES</span></div>
-        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:12px;">
-          <div>
-            <div class="small" style="font-weight:700; margin:2px 0 6px;">강한종목</div>
-            <div id="home-bigdata-strong" class="list list-compact"></div>
-          </div>
-          <div>
-            <div class="small" style="font-weight:700; margin:2px 0 6px;">매집종목</div>
-            <div id="home-bigdata-accum" class="list list-compact"></div>
-          </div>
-          <div>
-            <div class="small" style="font-weight:700; margin:2px 0 6px;">수상해수상해</div>
-            <div id="home-bigdata-suspicious" class="list list-compact"></div>
-          </div>
-        </div>
-        <div class="card-cta"><a href="/data/">더보기</a></div>
-      </div>
+    <a class="home9-tile" href="/qna/" aria-label="Q&amp;N">
+      <svg class="home9-ico" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v8Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M9 9a3 3 0 0 1 6 0c0 2-3 2-3 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <path d="M12 17h.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+      <div class="home9-label">Q/N</div>
+    </a>
 
-      <div class="card home-card" style="grid-column: span 6;">
-        <div class="card-top"><h3>성과표</h3><span class="badge" id="home-perf-badge">LIST</span></div>
-        <div id="home-perf" class="list list-compact"></div>
-        <div class="card-cta"><a href="/performance/">더보기</a></div>
-      </div>
+    <a class="home9-tile" href="https://www.youtube.com/channel/UC85ROrNcbOFDOeC5b0RaQMQ" target="_blank" rel="noopener" aria-label="유튜브">
+      <svg class="home9-ico" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M22 12s0-3.3-.42-4.82a2.86 2.86 0 0 0-2-2.02C17.9 4.7 12 4.7 12 4.7s-5.9 0-7.58.46a2.86 2.86 0 0 0-2 2.02C2 8.7 2 12 2 12s0 3.3.42 4.82a2.86 2.86 0 0 0 2 2.02C6.1 19.3 12 19.3 12 19.3s5.9 0 7.58-.46a2.86 2.86 0 0 0 2-2.02C22 15.3 22 12 22 12Z" stroke="currentColor" stroke-width="2"/>
+        <path d="M10 9.5v5l5-2.5-5-2.5Z" fill="currentColor"/>
+      </svg>
+      <div class="home9-label">유튜브</div>
+    </a>
 
-      <div class="card home-card" style="grid-column: span 6;">
-        <div class="card-top"><h3>유튜브</h3><span class="badge live">LATEST</span></div>
-        <div id="home-youtube" class="yt-card"></div>
-        <div class="card-cta"><a href="https://www.youtube.com/channel/UC85ROrNcbOFDOeC5b0RaQMQ" target="_blank" rel="noopener">채널로</a></div>
-      </div>
+    <a class="home9-tile" href="/game/" aria-label="게임">
+      <svg class="home9-ico" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M6 12h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <path d="M7.5 12c-2.5 0-4.5 2-4.5 4.5S5 21 7.5 21c1.2 0 2.3-.46 3.1-1.2h2.8c.8.74 1.9 1.2 3.1 1.2 2.5 0 4.5-2 4.5-4.5S19 12 16.5 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M9 9.5h.01M8 8.5h.01M10 8.5h.01M9 7.5h.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+        <path d="M15.7 8.3h.01M17.2 9.8h.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+      <div class="home9-label">게임</div>
+    </a>
 
-      <div class="card home-card" style="grid-column: span 6;">
-        <div class="card-top"><h3>게임</h3><span class="badge upd">FUN</span></div>
-        <div class="mini-grid">
-          <a class="mini-tile" href="/training/">
-            <div class="mini-ttl">차트게임</div>
-            <div class="mini-sub">패턴 퀴즈</div>
-          </a>
-          <a class="mini-tile" href="/game/">
-            <div class="mini-ttl">미니게임</div>
-            <div class="mini-sub">추가 예정</div>
-          </a>
-        </div>
-        <div class="card-cta"><a href="/game/">더보기</a></div>
-      </div>
-    </div>
+  </section>
 
+  <!-- legacy home section kept hidden to avoid JS errors in /assets/app.js -->
+  <div class="home9-legacy">
+    <div id="home-badge-news"></div>
+    <div id="home-badge-bigdata"></div>
+    <div id="market-strip"></div>
+    <div id="home-news"></div>
+    <div id="home-infomax"></div>
+    <div id="home-bigdata-strong"></div>
+    <div id="home-bigdata-accum"></div>
+    <div id="home-bigdata-suspicious"></div>
+    <div id="home-perf"></div>
+    <div id="home-youtube"></div>
   </div>
 </main>
 
