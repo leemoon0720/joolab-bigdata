@@ -200,111 +200,6 @@ async function handleMarket() {
 
 
 
-
-
-// ==============================
-// Membership Gate / Helpers
-// ==============================
-
-function isBigdataCategory(cat){
-  const c = String(cat||'').trim();
-  return ['strong','accum','suspicious','analysis','bigdata'].includes(c);
-}
-
-function isPublicCategory(cat){
-  const c = String(cat||'').trim();
-  return ['sample','perf','meme'].includes(c);
-}
-
-function wantsHtml(request){
-  const a = String(request.headers.get('accept')||'');
-  return a.includes('text/html');
-}
-
-function htmlResp(html, status=200, extraHeaders={}){
-  return new Response(html, {
-    status,
-    headers: {
-      'content-type': 'text/html; charset=utf-8',
-      'cache-control': 'no-store',
-      ...extraHeaders
-    }
-  });
-}
-
-function buildMembershipGateHtml(kind){
-  const isLib = (kind === 'library');
-  const title = isLib ? '자료실은 구독 멤버십 전용입니다' : '이 공간은 구독 멤버십 전용입니다';
-  const subtitle = isLib
-    ? '비구독자는 자료실(엑셀/문서)을 열람할 수 없습니다. 샘플자료실은 무료로 공개됩니다.'
-    : '비구독자는 빅데이터센터(강한/매집/수상해)를 열람할 수 없습니다. 샘플자료실은 무료로 공개됩니다.';
-
-  return '<!doctype html><html lang="ko"><head>' +
-    '<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>' +
-    '<title>멤버십 안내 | 주랩</title>' +
-    '<style>' +
-    ':root{--bg:#0b1220;--txt:#eaf2ff;--mut:#a9b6d6;--line:rgba(255,255,255,.08);--a:#4ea1ff;--b:#39d0ff;}' +
-    '*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Pretendard Variable",sans-serif;' +
-    'background:radial-gradient(1100px 520px at 20% -10%, rgba(78,161,255,.35), transparent 55%),' +
-    'radial-gradient(900px 520px at 90% 0%, rgba(57,208,255,.22), transparent 55%),' +
-    'linear-gradient(180deg,#081022 0%, #050a15 100%);color:var(--txt);}' +
-    '.wrap{max-width:980px;margin:40px auto;padding:0 16px;}' +
-    '.card{border:1px solid var(--line);background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02));' +
-    'backdrop-filter: blur(10px);border-radius:18px;overflow:hidden;box-shadow:0 18px 60px rgba(0,0,0,.35);}' +
-    '.hd{padding:26px 24px;border-bottom:1px solid var(--line);background:linear-gradient(90deg, rgba(78,161,255,.16), rgba(57,208,255,.10));}' +
-    '.hd h1{margin:0;font-size:26px;letter-spacing:-0.3px;}' +
-    '.hd p{margin:10px 0 0;color:var(--mut);font-size:14px;line-height:1.5;}' +
-    '.badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}' +
-    '.badge{font-size:12px;padding:6px 10px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--mut);}' +
-    '.bd{padding:18px 24px 24px;}' +
-    '.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:12px;}' +
-    '.box{grid-column:span 12;border:1px solid var(--line);background:rgba(0,0,0,.18);border-radius:14px;padding:16px;}' +
-    '.box h3{margin:0 0 10px;font-size:15px;color:#dbe8ff;}' +
-    '.ul{margin:0;padding:0 0 0 18px;color:var(--mut);font-size:13px;line-height:1.65;}' +
-    '.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px;}' +
-    '.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:10px 14px;border-radius:12px;border:1px solid var(--line);' +
-    'background:rgba(255,255,255,.06);color:var(--txt);text-decoration:none;font-weight:700;font-size:14px;}' +
-    '.btn.primary{background:linear-gradient(90deg, rgba(78,161,255,.92), rgba(57,208,255,.92));border-color:transparent;color:#061022;}' +
-    '.btn.ghost{background:transparent;}' +
-    '@media (min-width: 860px){.box{grid-column:span 6;}}' +
-    '</style></head><body>' +
-    '<div class="wrap"><div class="card">' +
-      '<div class="hd">' +
-        '<h1>' + title + '</h1>' +
-        '<p>' + subtitle + '</p>' +
-        '<div class="badges">' +
-          '<span class="badge">비로그인: 탐색 가능</span>' +
-          '<span class="badge">구독자: 전체 열람</span>' +
-          '<span class="badge">샘플: 무료 공개</span>' +
-        '</div>' +
-      '</div>' +
-      '<div class="bd">' +
-        '<div class="grid">' +
-          '<div class="box">' +
-            '<h3>가능한 것</h3>' +
-            '<ul class="ul">' +
-              '<li>홈/공지/뉴스/유머/게임/구독 안내는 모두 열람 가능합니다.</li>' +
-              '<li>샘플자료실은 무료로 공개됩니다.</li>' +
-            '</ul>' +
-          '</div>' +
-          '<div class="box">' +
-            '<h3>멤버십 전용</h3>' +
-            '<ul class="ul">' +
-              '<li>빅데이터센터(강한/매집/수상해) 전체 열람</li>' +
-              '<li>자료실(엑셀/문서) 다운로드/열람</li>' +
-            '</ul>' +
-          '</div>' +
-        '</div>' +
-        '<div class="actions">' +
-          '<a class="btn primary" href="/subscribe/">구독 안내 보기</a>' +
-          '<a class="btn" href="/sample/">샘플자료실 보기</a>' +
-          '<a class="btn" href="/login/">구독자 로그인</a>' +
-          '<a class="btn ghost" href="/">홈으로</a>' +
-        '</div>' +
-      '</div>' +
-    '</div></div>' +
-    '</body></html>';
-}
 // ==============================
 // Auth / Session / Admin Storage
 // - 목적: 로컬스토리지 기반 "가짜 로그인" 제거
@@ -376,12 +271,21 @@ function parseCookies(cookieHeader) {
   return out;
 }
 
-function makeCookie(name, value, maxAgeSec) {
+function makeCookie(name, value, maxAgeSec, host) {
   const attrs = [
     `${name}=${value}`,
     `Path=/`,
     `SameSite=Lax`
   ];
+
+  // 동일 최상위 도메인(joolab.co.kr) 하위 서브도메인 간 세션 유지
+  try {
+    const h = String(host || '').toLowerCase();
+    if (h === 'joolab.co.kr' || h.endsWith('.joolab.co.kr')) {
+      attrs.push('Domain=.joolab.co.kr');
+    }
+  } catch (e) {}
+
   // Pages/Workers는 HTTPS가 기본이므로 Secure를 켭니다.
   attrs.push('Secure');
   // XSS 방지
@@ -482,7 +386,17 @@ async function ensureUserInKV(env, emailLower, seedUser, passwordPlain, secret) 
   return true;
 }
 
-function isPublicPath(pathname) { return true; }
+function isPublicPath(pathname) {
+  // 기본: 전부 공개
+  // 예외: 빅데이터(/data, /strong, /accum, /suspicious)와 운영(/ops)은 로그인 필요
+  if (pathname === "/data" || pathname.startsWith("/data/")) return false;
+  if (pathname === "/strong" || pathname.startsWith("/strong/")) return false;
+  if (pathname === "/accum" || pathname.startsWith("/accum/")) return false;
+  if (pathname === "/suspicious" || pathname.startsWith("/suspicious/")) return false;
+  if (pathname === "/ops" || pathname.startsWith("/ops/")) return false;
+  return true;
+}
+
 
 async function requireAuth(request, env, baseUrl) {
   const secret = (env && env.JLAB_AUTH_SECRET) ? env.JLAB_AUTH_SECRET : DEFAULT_SECRET;
@@ -520,7 +434,7 @@ async function handleAuthLogin(request, env, baseUrl) {
   const now = Date.now();
   const exp = now + 1000*60*60*24*14; // 14일
   const token = await makeToken(secret, { email, role, iat: now, exp });
-  const setCookie = makeCookie(COOKIE_NAME, token, 60*60*24*14);
+  const setCookie = makeCookie(COOKIE_NAME, token, 60*60*24*14, new URL(request.url).hostname);
   return jsonResp({ ok:true, user:{ email, role } }, 200, { 'set-cookie': setCookie });
 }
 
@@ -531,7 +445,7 @@ async function handleAuthMe(request, env, baseUrl) {
 }
 
 async function handleAuthLogout(request, env, baseUrl) {
-  const setCookie = makeCookie(COOKIE_NAME, '', 0);
+  const setCookie = makeCookie(COOKIE_NAME, '', 0, new URL(request.url).hostname);
   return jsonResp({ ok:true }, 200, { 'set-cookie': setCookie });
 }
 
@@ -652,10 +566,9 @@ async function handlePostsCreate(request, env, baseUrl){
   const html = String(body.html||'');
   const thumb = String(body.thumb||'');
 
-  let is_sample = Boolean(body.is_sample);
-  if (category === 'sample') is_sample = false; // sample is independent category
+  const is_sample = Boolean(body.is_sample);
 
-  const allowed = ['strong','accum','suspicious','perf','meme','sample'];
+  const allowed = ['strong','accum','suspicious','perf','meme'];
   if(!allowed.includes(category)) return jsonResp({ok:false, error:'BAD_CATEGORY'}, 200);
   if(!['KR','US'].includes(region)) return jsonResp({ok:false, error:'BAD_REGION'}, 200);
   if(!title || html.length < 10) return jsonResp({ok:false, error:'BAD_PAYLOAD'}, 200);
@@ -713,40 +626,34 @@ async function handlePostsList(request, env){
   const url = new URL(request.url);
   const category = String(url.searchParams.get('category')||'').trim();
   const region = String(url.searchParams.get('region')||'').trim().toUpperCase();
-  const limit = Math.min(Math.max(parseInt(url.searchParams.get('limit')||'30',10)||30, 1), 80);
+  const reqLimit = Math.min(Math.max(parseInt(url.searchParams.get('limit')||'30',10)||30, 1), 80);
 
   const sampleOnly = String(url.searchParams.get('sample')||'').trim() === '1';
 
-  // Membership gating: Bigdata categories require login
-  const auth = await requireAuth(request, env, url.origin).catch(()=>null);
-  if (isBigdataCategory(category) && !auth){
-    return jsonResp({ok:false, error:'AUTH_REQUIRED', items:[]}, 200);
-  }
-
-
-  const allowed = ['strong','accum','suspicious','perf','meme','sample'];
+  const allowed = ['strong','accum','suspicious','perf','meme'];
   if(!allowed.includes(category)) return jsonResp({ok:false, error:'BAD_CATEGORY', items:[]}, 200);
 
-  let items=[];
-  if(category === 'sample'){
-    // Independent sample category (완전 독립)
-    const regions = (region && region !== 'ALL') ? [region] : ['KR','US'];
-    const buckets = [];
-    for(const r of regions){
-      buckets.push(await _listMetaByPrefix(env, 'posts/meta/sample/' + r + '/', limit));
-    }
-    items = buckets.flat();
-  }else{
-    if(region && region !== 'ALL'){
-      const prefix = 'posts/meta/' + category + '/' + region + '/';
-      items = await _listMetaByPrefix(env, prefix, limit);
-    }else{
-      const a = await _listMetaByPrefix(env, 'posts/meta/' + category + '/KR/', limit);
-      const b = await _listMetaByPrefix(env, 'posts/meta/' + category + '/US/', limit);
-      items = a.concat(b);
-    }
-    if(sampleOnly){ items = (items||[]).filter(x=>!!(x && x.is_sample)); }
+  const isBigdataCat = (category === 'strong' || category === 'accum' || category === 'suspicious');
+
+  // 빅데이터는 로그인 필요. 단, sample=1(샘플)은 비로그인 공개.
+  if (isBigdataCat && !sampleOnly) {
+    const payload = await requireAuth(request, env, url.origin);
+    if(!payload) return jsonResp({ok:false, error:'LOGIN_REQUIRED', items:[]}, 401);
   }
+
+  // 샘플은 "불리하게": 최대 1개만 노출
+  const limit = (isBigdataCat && sampleOnly) ? Math.min(reqLimit, 1) : reqLimit;
+
+  let items=[];
+  if(region && region !== 'ALL'){
+    const prefix = `posts/meta/${category}/${region}/`;
+    items = await _listMetaByPrefix(env, prefix, limit);
+  }else{
+    const a = await _listMetaByPrefix(env, `posts/meta/${category}/KR/`, limit);
+    const b = await _listMetaByPrefix(env, `posts/meta/${category}/US/`, limit);
+    items = a.concat(b);
+  }
+
   if(sampleOnly){ items = (items||[]).filter(x=>!!(x && x.is_sample)); }
 
   items.sort((x,y)=> String(y.created_ts||'').localeCompare(String(x.created_ts||'')));
@@ -755,17 +662,18 @@ async function handlePostsList(request, env){
   const updated_at = items[0]?.created_at || new Date().toISOString();
   return jsonResp({ok:true, updated_at, count: items.length, items}, 200);
 }
-
 async function handlePostsLatest(request, env){
   if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
   const url = new URL(request.url);
   const scope = String(url.searchParams.get('scope')||'bigdata').trim();
-  const key = (scope === 'perf') ? 'posts/latest/perf.json' : (scope === 'meme') ? 'posts/latest/meme.json' : 'posts/latest/bigdata.json';
-  const auth = await requireAuth(request, env, url.origin).catch(()=>null);
-  if(scope === 'bigdata' && !auth){
-    return jsonResp({ok:false, error:'AUTH_REQUIRED'}, 200);
+
+  const isBigdataScope = !(scope === 'perf' || scope === 'meme');
+  if (isBigdataScope) {
+    const payload = await requireAuth(request, env, url.origin);
+    if(!payload) return jsonResp({ok:false, error:'LOGIN_REQUIRED'}, 401);
   }
 
+  const key = (scope === 'perf') ? 'posts/latest/perf.json' : (scope === 'meme') ? 'posts/latest/meme.json' : 'posts/latest/bigdata.json';
   const v = await env.JLAB_KV.get(key);
   if(!v) return jsonResp({ok:false, error:'EMPTY'}, 200);
   try{
@@ -787,9 +695,12 @@ async function handlePostsGet(request, env){
 
   let meta=null;
   try{ meta = JSON.parse(metaStr); }catch(e){ meta=null; }
-  const auth = await requireAuth(request, env, url.origin).catch(()=>null);
-  if(meta && isBigdataCategory(meta.category) && !auth){
-    return jsonResp({ok:false, error:'AUTH_REQUIRED'}, 200);
+
+  const cat = String(meta && meta.category ? meta.category : '').trim();
+  const isBigdataCat = (cat === 'strong' || cat === 'accum' || cat === 'suspicious');
+  if (isBigdataCat && !(meta && meta.is_sample)) {
+    const payload = await requireAuth(request, env, url.origin);
+    if(!payload) return jsonResp({ok:false, error:'LOGIN_REQUIRED'}, 401);
   }
 
   return jsonResp({ok:true, meta, html}, 200);
@@ -969,117 +880,6 @@ async function handleSignupRequest(request, env){
 
 
 
-
-
-// ==============================
-// Files Library (Excel/Docs Upload)
-// - Upload: admin only
-// - List/Get: members only
-// - Storage: Cloudflare KV (base64)
-// ==============================
-
-function base64Encode(u8){
-  let s='';
-  for(let i=0;i<u8.length;i++) s += String.fromCharCode(u8[i]);
-  return btoa(s);
-}
-function base64Decode(b64){
-  const bin = atob(String(b64||''));
-  const out = new Uint8Array(bin.length);
-  for(let i=0;i<bin.length;i++) out[i] = bin.charCodeAt(i);
-  return out;
-}
-function guessContentTypeByName(name){
-  const n = String(name||'').toLowerCase();
-  if(n.endsWith('.xlsx')) return 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
-  if(n.endsWith('.xls')) return 'application/vnd.ms-excel';
-  if(n.endsWith('.csv')) return 'text/csv; charset=utf-8';
-  if(n.endsWith('.pdf')) return 'application/pdf';
-  if(n.endsWith('.docx')) return 'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
-  if(n.endsWith('.pptx')) return 'application/vnd.openxmlformats-officedocument.presentationml.presentation';
-  if(n.endsWith('.txt')) return 'text/plain; charset=utf-8';
-  return 'application/octet-stream';
-}
-
-async function handleFilesUpload(request, env, baseUrl){
-  const admin = await requireAdmin(request, env, baseUrl);
-  if(!admin) return jsonResp({ok:false, error:'FORBIDDEN'}, 200);
-  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
-
-  const ct = String(request.headers.get('content-type')||'');
-  if(!ct.includes('multipart/form-data')) return jsonResp({ok:false, error:'BAD_CONTENT_TYPE'}, 200);
-
-  const form = await request.formData();
-  const file = form.get('file');
-  if(!file || typeof file.arrayBuffer !== 'function') return jsonResp({ok:false, error:'NO_FILE'}, 200);
-
-  const title = String(form.get('title')||'').trim();
-  const buf = await file.arrayBuffer();
-  const size = buf.byteLength || 0;
-  const maxBytes = 8 * 1024 * 1024;
-  if(size <= 0) return jsonResp({ok:false, error:'EMPTY_FILE'}, 200);
-  if(size > maxBytes) return jsonResp({ok:false, error:'FILE_TOO_LARGE', max_bytes:maxBytes}, 200);
-
-  const id = (crypto && crypto.randomUUID) ? crypto.randomUUID() : String(Math.random()).slice(2);
-  const ts = compactTs(new Date());
-  const created_at = new Date().toISOString();
-  const filename = String(file.name||'file');
-  const content_type = String(file.type||'').trim() || guessContentTypeByName(filename);
-
-  const meta = { id, title: (title || filename), filename, size, content_type, created_at, created_ts: ts, by: admin.email || admin.user_id || 'admin' };
-  const b64 = base64Encode(new Uint8Array(buf));
-
-  await env.JLAB_KV.put('files/meta/' + ts + '_' + id + '.json', JSON.stringify(meta));
-  await env.JLAB_KV.put('files/id/' + id + '.json', JSON.stringify(meta));
-  await env.JLAB_KV.put('files/blob/' + id + '.b64', b64);
-
-  return jsonResp({ok:true, id, meta}, 200);
-}
-
-async function handleFilesList(request, env, baseUrl){
-  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING', items:[]}, 200);
-  const auth = await requireAuth(request, env, baseUrl);
-  if(!auth) return jsonResp({ok:false, error:'AUTH_REQUIRED', items:[]}, 200);
-
-  const url = new URL(request.url);
-  const limit = Math.min(Math.max(parseInt(url.searchParams.get('limit')||'50',10)||50, 1), 80);
-  const items = await _listMetaByPrefix(env, 'files/meta/', limit);
-  items.sort((x,y)=> String(y.created_ts||'').localeCompare(String(x.created_ts||'')));
-
-  const updated_at = items[0] && items[0].created_at ? items[0].created_at : new Date().toISOString();
-  return jsonResp({ok:true, updated_at, count: items.length, items}, 200);
-}
-
-async function handleFilesGet(request, env, baseUrl){
-  if(!env || !env.JLAB_KV) return jsonResp({ok:false, error:'KV_MISSING'}, 200);
-  const auth = await requireAuth(request, env, baseUrl);
-  if(!auth) return jsonResp({ok:false, error:'AUTH_REQUIRED'}, 200);
-
-  const url = new URL(request.url);
-  const id = String(url.searchParams.get('id')||'').trim();
-  if(!id) return jsonResp({ok:false, error:'NO_ID'}, 200);
-
-  const metaStr = await env.JLAB_KV.get('files/id/' + id + '.json');
-  const blobB64 = await env.JLAB_KV.get('files/blob/' + id + '.b64');
-  if(!metaStr || !blobB64) return jsonResp({ok:false, error:'NOT_FOUND'}, 200);
-
-  let meta=null;
-  try{ meta = JSON.parse(metaStr); }catch(e){ meta=null; }
-
-  const bytes = base64Decode(blobB64);
-  const filename = (meta && meta.filename) ? String(meta.filename) : ('file_' + id);
-  const contentType = (meta && meta.content_type) ? String(meta.content_type) : 'application/octet-stream';
-
-  const cd = "attachment; filename*=UTF-8''" + encodeURIComponent(filename);
-  return new Response(bytes, {
-    status: 200,
-    headers: {
-      'content-type': contentType,
-      'content-disposition': cd,
-      'cache-control': 'no-store'
-    }
-  });
-}
 // ==============================
 // RSS proxy (Infomax) - JSON output
 // - 목적: 브라우저에서 RSS 직접 호출 시 CORS 차단을 회피하기 위해 /api/rss 제공
@@ -1254,20 +1054,6 @@ export default {
       return await handlePostsLatest(request, env);
     }
 
-
-    // ==============================
-    // Files Library API
-    // ==============================
-    if (url.pathname === '/api/files/upload' && request.method === 'POST') {
-      return await handleFilesUpload(request, env, url.origin);
-    }
-    if (url.pathname === '/api/files/list') {
-      return await handleFilesList(request, env, url.origin);
-    }
-    if (url.pathname === '/api/files/get') {
-      return await handleFilesGet(request, env, url.origin);
-    }
-
     // ==============================
     // Signup Request (Public)
     // ==============================
@@ -1306,29 +1092,19 @@ export default {
     }
 
     // ==============================
-    // Membership Gate (Pages)
-    // - Bigdata pages: members only
-    // - Library downloads: members only (API gated)
-    // - Everything else: public
+    // Login required gate (except public paths)
     // ==============================
-    const p = url.pathname;
-    const isBigPage = (p === '/data' || p.startsWith('/data/') || p === '/strong' || p.startsWith('/strong/') || p === '/accum' || p.startsWith('/accum/') || p === '/suspicious' || p.startsWith('/suspicious/'));
-    if(isBigPage){
-      const auth = await requireAuth(request, env, url.origin).catch(()=>null);
-      if(!auth){
-        return htmlResp(buildMembershipGateHtml('bigdata'));
+    if (!isPublicPath(url.pathname)) {
+      const payload = await requireAuth(request, env, url.origin);
+      if (!payload) {
+        // assets/api는 위에서 처리됨. 나머지는 account로 이동.
+        const to = new URL('/login/', url.origin);
+        to.searchParams.set('next', url.pathname + (url.search || ''));
+        return Response.redirect(to.toString(), 302);
       }
     }
 
-    const isLibPage = (p === '/library' || p.startsWith('/library/'));
-    if(isLibPage){
-      const auth = await requireAuth(request, env, url.origin).catch(()=>null);
-      if(!auth){
-        // library page itself is visible but shows membership gate
-        return htmlResp(buildMembershipGateHtml('library'));
-      }
-    }
-
+    // Static assets passthrough
     if (env && env.ASSETS && typeof env.ASSETS.fetch === 'function') {
       return env.ASSETS.fetch(request);
     }
