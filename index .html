@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>주랩 빅데이터 센터</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@latest/dist/web/variable/pretendardvariable.css">
+  <link rel="stylesheet" href="/assets/app.css"/>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="/">
+      <div class="brand-badge">JL</div>
+      <div>
+        <div class="brand-title">주랩 빅데이터 센터</div>
+        <div class="brand-sub">뉴스 · 빅데이터 · 성과 · 게임</div>
+      </div>
+    </a>
+    <nav class="nav">
+      <a href="/notice/" data-nav="notice">공지</a>
+      <a href="/news/" data-nav="news">뉴스센터</a>
+      <a href="/data/" data-nav="data">빅데이터</a>
+      <a href="/sample/" data-nav="sample">샘플자료실</a>
+      <a href="/performance/" data-nav="performance">성과표</a>
+      <a href="/game/" data-nav="game">게임</a>
+      <a href="/meme/" data-nav="meme">웃긴짤</a>
+      <a href="/subscribe/" data-nav="subscribe">구독</a>
+      <a href="/login/" data-nav="login">로그인</a>
+      <a href="/signup/" data-nav="signup">회원가입</a>
+      <a href="/ops/" data-nav="ops">운영</a>
+    </nav>
+  </div>
+</div>
+
+<main class="main">
+  <div class="container">
+
+    <section class="hero hero-compact">
+      <div class="hero-head">
+</div>
+
+      <div class="hero-row">
+        <div class="statusbar">
+          <span class="badge live">LIVE</span>
+          <span class="badge upd" id="home-badge-news">NEWS: -</span>
+          <span class="badge upd" id="home-badge-bigdata">BIGDATA: -</span>
+        </div>
+      </div>
+
+      <div class="market-strip market-strip-compact" id="market-strip">
+        <a class="mchip" data-key="kospi" data-sym="^KS11" href="https://finance.naver.com/sise/sise_index.nhn?code=KOSPI" target="_blank" rel="noopener">
+          <span class="mname">KOSPI</span>
+          <span class="mval" id="mval-kospi">-</span>
+          <span class="mchg" id="mchg-kospi"></span>
+        </a>
+        <a class="mchip" data-key="kosdaq" data-sym="^KQ11" href="https://finance.naver.com/sise/sise_index.nhn?code=KOSDAQ" target="_blank" rel="noopener">
+          <span class="mname">KOSDAQ</span>
+          <span class="mval" id="mval-kosdaq">-</span>
+          <span class="mchg" id="mchg-kosdaq"></span>
+        </a>
+        <a class="mchip" data-key="usdkrw" data-sym="USDKRW=X" href="https://finance.naver.com/marketindex/exchangeDetail.nhn?marketindexCd=FX_USDKRW" target="_blank" rel="noopener">
+          <span class="mname">USD/KRW</span>
+          <span class="mval" id="mval-usdkrw">-</span>
+          <span class="mchg" id="mchg-usdkrw"></span>
+        </a>
+      </div>
+    </section>
+
+    <div class="grid home-grid">
+      <div class="card home-card" style="grid-column: span 6;">
+        <div class="card-top"><h3>뉴스 맛보기</h3><span class="badge upd" id="home-news-upd">UPD</span></div>
+        <div class="small" id="home-news-meta">-</div>
+        <div id="home-news" class="list list-compact"></div>
+        <div class="card-cta"><a href="/news/">더보기</a></div>
+      </div>
+
+      <div class="card home-card" style="grid-column: span 6;">
+        <div class="card-top"><h3>인포맥스 인기 TOP10</h3><span class="badge">RSS</span></div>
+        <div class="small">인포맥스 인기기사(clickTop) 기준</div>
+        <div id="home-infomax" class="list list-compact"></div>
+        <div class="card-cta"><a href="/news/">뉴스센터로</a></div>
+      </div>
+
+      <div class="card home-card" style="grid-column: span 12;">
+        <div class="card-top"><h3>빅데이터 최신</h3><span class="badge live">CATEGORIES</span></div>
+        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:12px;">
+          <div>
+            <div class="small" style="font-weight:700; margin:2px 0 6px;">강한종목</div>
+            <div id="home-bigdata-strong" class="list list-compact"></div>
+          </div>
+          <div>
+            <div class="small" style="font-weight:700; margin:2px 0 6px;">매집종목</div>
+            <div id="home-bigdata-accum" class="list list-compact"></div>
+          </div>
+          <div>
+            <div class="small" style="font-weight:700; margin:2px 0 6px;">수상해수상해</div>
+            <div id="home-bigdata-suspicious" class="list list-compact"></div>
+          </div>
+        </div>
+        <div class="card-cta"><a href="/data/">더보기</a></div>
+      </div>
+
+
+
+      <!-- SAMPLE PREVIEW (FREE) -->
+      <div class="card home-card" style="grid-column: span 6;">
+        <div class="card-top"><h3>샘플자료</h3><span class="badge upd" id="home-sample-upd">UPD</span></div>
+        <div class="small" id="home-sample-meta">회원가입 전 미리보기</div>
+        <div id="home-sample-list" class="list list-compact"></div>
+        <div class="card-cta"><a href="/sample/">샘플자료실로</a></div>
+      </div>
+      <div class="card home-card" style="grid-column: span 6;">
+        <div class="card-top"><h3>성과표</h3><span class="badge" id="home-perf-badge">LIST</span></div>
+        <div id="home-perf" class="list list-compact"></div>
+        <div class="card-cta"><a href="/performance/">더보기</a></div>
+      </div>
+
+      <div class="card home-card" style="grid-column: span 6;">
+        <div class="card-top"><h3>유튜브</h3><span class="badge live">LATEST</span></div>
+        <div id="home-youtube" class="yt-card"></div>
+        <div class="card-cta"><a href="https://www.youtube.com/channel/UC85ROrNcbOFDOeC5b0RaQMQ" target="_blank" rel="noopener">채널로</a></div>
+      </div>
+
+      <div class="card home-card" style="grid-column: span 6;">
+        <div class="card-top"><h3>게임</h3><span class="badge upd">FUN</span></div>
+        <div class="mini-grid">
+          <a class="mini-tile" href="/training/">
+            <div class="mini-ttl">차트게임</div>
+            <div class="mini-sub">패턴 퀴즈</div>
+          </a>
+          <a class="mini-tile" href="/game/">
+            <div class="mini-ttl">미니게임</div>
+            <div class="mini-sub">추가 예정</div>
+          </a>
+        </div>
+        <div class="card-cta"><a href="/game/">더보기</a></div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<script>
+(function(){
+  function esc(s){
+    return String(s==null?'':s)
+      .replace(/&/g,'&amp;')
+      .replace(/</g,'&lt;')
+      .replace(/>/g,'&gt;')
+      .replace(/"/g,'&quot;')
+      .replace(/'/g,'&#39;');
+  }
+  function fmtTime(iso){
+    if(!iso) return '-';
+    try{
+      var d = new Date(iso);
+      if(String(d) === 'Invalid Date') return String(iso);
+      var y=d.getFullYear();
+      var m=String(d.getMonth()+1).padStart(2,'0');
+      var day=String(d.getDate()).padStart(2,'0');
+      var hh=String(d.getHours()).padStart(2,'0');
+      var mm=String(d.getMinutes()).padStart(2,'0');
+      return y+'-'+m+'-'+day+' '+hh+':'+mm;
+    }catch(e){
+      return String(iso);
+    }
+  }
+  async function get(url){
+    var r = await fetch(url, {headers:{'accept':'application/json'}});
+    return await r.json();
+  }
+  function renderItem(m){
+    var title = m.title || '(제목 없음)';
+    var meta = [m.category, m.region, (m.created_at?fmtTime(m.created_at):'')].filter(Boolean).join(' · ');
+    var href = m.id ? ('/post/?id='+encodeURIComponent(m.id)) : '#';
+    return (
+      '<div class="item">'
+      + '<div>'
+      +   '<div class="title">'+esc(title)+'</div>'
+      +   '<div class="meta">'+esc(meta)+'</div>'
+      + '</div>'
+      + '<div class="right"><a href="'+esc(href)+'">보기</a></div>'
+      + '</div>'
+    );
+  }
+  async function hydrate(){
+    var box = document.getElementById('home-sample-list');
+    if(!box) return;
+    box.innerHTML = '<div class="item"><div><div class="title">로딩 중...</div><div class="meta">샘플자료 불러오는 중</div></div></div>';
+    try{
+      var a = await get('/api/posts/list?category=accum&region=ALL&limit=30&sample=1');
+      var s = await get('/api/posts/list?category=strong&region=ALL&limit=30&sample=1');
+      var items = [].concat((a&&a.items)||[], (s&&s.items)||[]).filter(Boolean);
+      items.sort(function(x,y){
+        return String(y.created_ts||'').localeCompare(String(x.created_ts||''));
+      });
+      items = items.slice(0,6);
+
+      var upd = document.getElementById('home-sample-upd');
+      var meta = document.getElementById('home-sample-meta');
+      var newest = items[0];
+      if(upd) upd.textContent = newest && newest.created_at ? ('UPD: '+fmtTime(newest.created_at)) : 'UPD: -';
+      if(meta) meta.textContent = items.length ? ('샘플 '+items.length+'개 표시 (최근순)') : '샘플이 없습니다.';
+
+      box.innerHTML = items.length
+        ? items.map(renderItem).join('')
+        : '<div class="item"><div><div class="title">샘플이 없습니다.</div><div class="meta">운영에서 업로드 시 “샘플 공개”를 체크한 글만 홈/샘플자료실에 표시됩니다.</div></div></div>';
+    }catch(e){
+      box.innerHTML = '<div class="item"><div><div class="title">샘플을 불러오지 못했습니다.</div><div class="meta">/api/posts/list?sample=1 응답 또는 KV 연결을 확인하십시오.</div></div></div>';
+    }
+  }
+  if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', hydrate);
+  else hydrate();
+})();
+</script>
+
+<script src="/assets/app.js"></script>
+</body>
+</html>
