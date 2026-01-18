@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-19 06:16 KST",
+  "updated_at": "2026-01-19 06:32 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 06:32",
+      "title": "“넷플릭스 고점 대비 많이 떨어졌던데”…이번주 실적발표 ‘슈퍼위크’",
+      "url": "https://www.mk.co.kr/news/stock/11936446",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -371,16 +381,6 @@
       "url": "https://www.mk.co.kr/news/stock/11935483",
       "keywords_hit": [
         "인수"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 17:48",
-      "title": "운용자산 10조 성장한 IMM \"AI·헬스케어·에너지 집중\"",
-      "url": "https://www.mk.co.kr/news/stock/11935481",
-      "keywords_hit": [
-        "AI"
       ]
     }
   ]
