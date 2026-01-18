@@ -36,6 +36,11 @@
     const style = document.createElement('style');
     style.id = 'newscenter-v2-style';
     style.textContent = `
+      /* Fix dark-on-dark text in controls (news page only) */
+      body[data-nc="v2"] .controls .input span{color:rgba(226,232,240,.92)!important;}
+      body[data-nc="v2"] .controls .input input{color:rgba(226,232,240,1)!important; caret-color:rgba(226,232,240,1)!important;}
+      body[data-nc="v2"] .controls .input input::placeholder{color:rgba(148,163,184,.9)!important;}
+
       body[data-nc="v2"] .tabs{gap:8px; flex-wrap:wrap;}
       body[data-nc="v2"] .tabs .tab{padding:10px 12px; border-radius:12px; font-weight:900;}
       body[data-nc="v2"] .nc-layout{display:grid; grid-template-columns: 2fr 1fr; gap:14px;}
@@ -297,7 +302,17 @@
     `;
   }
 
-  function renderLatestPane(el, items, q){
+  function renderLatestPane(el, items, q, armed){
+    if(!armed){
+      el.innerHTML = `
+        <div class="card">
+          <div class="card-top"><h3>종목뉴스 검색</h3><span class="badge wait">WAIT</span></div>
+          <p style="margin:0;">상단 검색창에 종목/키워드를 입력한 뒤 <b>검색</b>을 누르시면 결과가 표시됩니다.</p>
+        </div>
+      `;
+      return;
+    }
+
     const query = (q||'').trim().toLowerCase();
     const filtered = query ? items.filter(it=> (it.title||'').toLowerCase().includes(query)) : items;
     const top = filtered.slice(0, 18);
@@ -457,6 +472,7 @@
     const tabs = byId('nc-tabs');
     const qInput = byId('nc-q');
     const btnRefresh = byId('nc-refresh');
+    const btnSearch = byId("nc-search");
     const paneLatest = byId('nc-pane-latest');
     const paneTheme = byId('nc-pane-theme');
     const paneRss = byId('nc-pane-rss');
@@ -470,6 +486,18 @@
     renderRssPane(paneRss, feeds);
 
     let unified = [];
+    let searchArmed = false;
+
+
+    function renderWaitPanes(){
+      renderLatestPane(paneLatest, [], (qInput ? qInput.value : ''), false);
+      paneTheme.innerHTML = `
+        <div class="card">
+          <div class="card-top"><h3>테마 스냅샷</h3><span class="badge wait">WAIT</span></div>
+          <p style="margin:0;">상단에서 <b>검색</b>을 누르시면 테마(3×3)와 최신 리스트가 표시됩니다.</p>
+        </div>
+      `;
+    }
 
     async function loadAll(){
       setHeroStatus({updatedText:'UPD: -', statusText:'로딩…', statusKind:'wait'});
@@ -485,8 +513,13 @@
         const upd = unified[0]?.pubDate || '-';
         setHeroStatus({updatedText:`UPD: ${fmtTime(upd)}`, statusText:`OK · ${unified.length}건`, statusKind:'ok'});
 
-        renderLatestPane(paneLatest, unified, qInput ? qInput.value : '');
-        renderThemePane(paneTheme, unified);
+        if(searchArmed){
+          const qNow = qInput ? qInput.value : '';
+          renderLatestPane(paneLatest, unified, qNow, true);
+          renderThemePane(paneTheme, unified);
+        }else{
+          renderWaitPanes();
+        }
       }catch(e){
         unified = [];
         setHeroStatus({updatedText:'UPD: -', statusText:'MISSING', statusKind:'missing'});
@@ -507,18 +540,46 @@
       showPane(b.dataset.tab);
     });
 
-    if(qInput){
-      qInput.addEventListener('input', ()=>{
-        if(unified.length) renderLatestPane(paneLatest, unified, qInput.value);
-      });
-    }
-    if(btnRefresh){
-      btnRefresh.addEventListener('click', ()=> loadAll());
+    function doSearch(){
+      const q = (qInput ? String(qInput.value||"") : "").trim();
+      // Option 2: results must appear only after explicit search.
+      searchArmed = true;
+      showPane("latest");
+
+      const run = async ()=>{
+        if(!unified.length){
+          await loadAll();
+        }
+        renderLatestPane(paneLatest, unified, q, true);
+        renderThemePane(paneTheme, unified);
+      };
+      // fire and forget with proper error handling via loadAll
+      run();
     }
 
-    // initial
+    if(qInput){
+      qInput.addEventListener("keydown", (e)=>{
+        if(e.key === "Enter"){
+          e.preventDefault();
+          doSearch();
+        }
+      });
+    }
+    if(btnSearch){
+      btnSearch.addEventListener("click", doSearch);
+    }
+    if(btnRefresh){
+      btnRefresh.addEventListener("click", ()=>{
+        // Explicit action only.
+        searchArmed = true;
+        loadAll();
+      });
+    }
+
+    // initial: do NOT load until user presses search (Option 2).
     showPane('latest');
-    await loadAll();
+    setHeroStatus({updatedText:'UPD: -', statusText:'대기', statusKind:'wait'});
+    renderWaitPanes();
   }
 
   document.addEventListener('DOMContentLoaded', boot);

@@ -40,9 +40,10 @@
         </div>
         <div class="controls" style="margin:0; padding:0; border:0; background:transparent; gap:10px; flex:1 1 520px; justify-content:flex-end;">
           <div class="input" style="min-width:min(520px,100%); flex: 1 1 520px;">
-            <span style="font-weight:900; color:rgba(15,23,42,.65);">종목</span>
-            <input id="nc-q" type="text" placeholder="종목/키워드 검색 (예: 삼성전자, 하이닉스, HBM, 수주)" autocomplete="off"/>
+            <span style="font-weight:900; color:rgba(226,232,240,.92);">종목</span>
+            <input id="nc-q" type="text" placeholder="종목/키워드 검색 (예: 삼성전자, 하이닉스, HBM, 수주)" autocomplete="off" spellcheck="false" enterkeyhint="search"/>
           </div>
+          <button class="btn primary" type="button" id="nc-search">검색</button>
           <button class="btn ghost" type="button" id="nc-refresh">새로고침</button>
         </div>
       </div>
