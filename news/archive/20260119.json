@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-19 07:58 KST",
+  "updated_at": "2026-01-19 08:23 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,8 +25,36 @@
     {
       "source": "HK",
       "press": "한국경제",
+      "published_at": "2026-01-19 08:12",
+      "title": "증권주 강세 보일까…코스피 4850선 돌파 코앞 [오늘장 미리보기]",
+      "url": "https://www.hankyung.com/article/202601197900i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 08:01",
+      "title": "“삼성중공업, 올해 해양수주금액 최대 11.8조 가능성”…목표가↑",
+      "url": "https://www.mk.co.kr/news/stock/11936469",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 08:00",
+      "title": "'AI 시대' 돈복사기로 뜬다…6개월 만에 '주가 2배' 불기둥 [핫픽! 해외주식]",
+      "url": "https://www.hankyung.com/article/202601165574i",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
       "published_at": "2026-01-19 07:53",
-      "title": "\"HD현대일렉트릭, 보수적 가이던스에도 수주 기대 충분…목표가↑\"",
+      "title": "\"HD현대일렉트릭, 보수적 가이던스에도 수주 기대 충분…목표가↑\"-키움",
       "url": "https://www.hankyung.com/article/2026011978876",
       "keywords_hit": []
     },
@@ -314,29 +342,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-18 16:31",
-      "title": "유상증자 러시 속 똑똑한 투자법…\"증권신고서부터 읽어라\"",
-      "url": "https://www.hankyung.com/article/2026011873891",
-      "keywords_hit": [
-        "증자"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-18 15:49",
       "title": "에릭 트럼프 등 글로벌 빅샷 총출동...공룡 실리콘밸리 VC부터 디지털자산 펀드 대표까지",
       "url": "https://www.mk.co.kr/news/stock/11936138",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-18 14:30",
-      "title": "'오를 때 됐다' 미국발 호재에 줄줄이 두자릿수 수익률",
-      "url": "https://www.hankyung.com/article/202601187276i",
       "keywords_hit": []
     },
     {
@@ -374,14 +384,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 19:15",
-      "title": "금융위 ‘생산적 금융·자본시장 혁신’ 성과 공무원 대거 포상",
-      "url": "https://www.mk.co.kr/news/stock/11935534",
-      "keywords_hit": []
     }
   ]
 }
