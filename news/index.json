@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-18 08:56 KST",
+  "updated_at": "2026-01-18 10:47 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,22 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-18 10:37",
+      "title": "“더 갈 것같긴 한데 들어가기는 겁나고”…지금부턴 삼전닉스 보다 여기가 정답",
+      "url": "https://www.mk.co.kr/news/stock/11935986",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-18 09:30",
+      "title": "“대기업 다니며 착실히 모았는데 -17억”...‘적금 올인’ 했더니 노후 흔들",
+      "url": "https://www.mk.co.kr/news/economy/11935962",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -54,7 +70,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-18 07:42",
-      "title": "\"떨어질 때 됐다\" 곱버스 올라탄 개미들…증권가 전망은 [노정동의 어쩌다 투자자]",
+      "title": "\"이제 떨어질 때 됐다\"…불기둥에도 곱버스 올라탄 개미들 [노정동의 어쩌다 투자자]",
       "url": "https://www.hankyung.com/article/2026011653756",
       "keywords_hit": []
     },
@@ -354,24 +370,6 @@
       "url": "https://www.mk.co.kr/news/stock/11935065",
       "keywords_hit": [
         "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 11:42",
-      "title": "MBK파트너스, 홈플러스 지원 위해 DIP 1천억 긴급 투입",
-      "url": "https://www.mk.co.kr/news/stock/11935011",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 11:09",
-      "title": "초고수, 메지온·보로노이 등 K-바이오 담았다 [주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11934936",
-      "keywords_hit": [
-        "바이오"
       ]
     }
   ]
