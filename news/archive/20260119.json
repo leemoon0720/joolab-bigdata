@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-19 06:53 KST",
+  "updated_at": "2026-01-19 07:12 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 07:00",
+      "title": "유리기판 테마 타고 한달여 만에 두 배 뛴 엔젯…실적 반등 시점은 [류은혁의 종목 핫라인]",
+      "url": "https://www.hankyung.com/article/202601165965i",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -325,16 +335,6 @@
       "url": "https://www.hankyung.com/article/202601186793i",
       "keywords_hit": [
         "환율"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-18 08:00",
-      "title": "\"'오천피' 목전 코스피…상법 3차 개정 업고 더 오를까 [주간전망]",
-      "url": "https://www.hankyung.com/article/2026011656286",
-      "keywords_hit": [
-        "코스피"
       ]
     },
     {
