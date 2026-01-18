@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-18 16:45 KST",
+  "updated_at": "2026-01-18 16:54 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,25 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-18 16:49",
+      "title": "홍라희, 삼성전자 주식 2조 처분",
+      "url": "https://www.mk.co.kr/news/stock/11936195",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-18 16:49",
+      "title": "고배당에 분리과세까지 … 리츠 투자해볼까",
+      "url": "https://www.mk.co.kr/news/stock/11936192",
+      "keywords_hit": [
+        "배당",
+        "리츠"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -358,22 +377,6 @@
       "published_at": "2026-01-16 13:36",
       "title": "교보증권, IT부문 채용연계형 인턴사원 모집",
       "url": "https://www.mk.co.kr/news/stock/11935080",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 13:33",
-      "title": "“노이즈 콘텐츠 ‘야핑’ 퇴출”...카이토 20% 급락 [매일코인]",
-      "url": "https://www.mk.co.kr/news/stock/11935078",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 13:23",
-      "title": "“사내부부라고요? 인상 쓸 일 없겠네”…SK하이닉스, 올해도 ‘보너스 1.4억’",
-      "url": "https://www.mk.co.kr/news/business/11935071",
       "keywords_hit": []
     }
   ]
