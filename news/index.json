@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-18 18:24 KST",
+  "updated_at": "2026-01-18 18:40 KST",
   "sources": [
     {
       "id": "HK",
@@ -55,14 +55,6 @@
       "keywords_hit": [
         "AI"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-18 17:28",
-      "title": "넷플릭스도 제쳤다…'月 803억 결제' 한국서 대박 난 서비스",
-      "url": "https://www.hankyung.com/article/2026011875411",
-      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -299,6 +291,14 @@
       "published_at": "2026-01-18 07:42",
       "title": "\"이제 떨어질 때 됐다\"…불기둥에도 곱버스 올라탄 개미들 [노정동의 어쩌다 투자자]",
       "url": "https://www.hankyung.com/article/2026011653756",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-18 07:00",
+      "title": "'월급 35만원' 이 악물고 버텼다…급기야 '연봉 2억' 찍은 비결 [윤현주의 主食이 주식]",
+      "url": "https://www.hankyung.com/article/202601137251i",
       "keywords_hit": []
     },
     {
