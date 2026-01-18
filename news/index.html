@@ -20,18 +20,8 @@
       </div>
     </a>
     <nav class="nav">
-      <a href="/notice/" data-nav="notice">공지사항</a>
-      <a href="/news/" data-nav="news">뉴스센터</a>
-      <a href="/strong/" data-nav="strong">강한종목</a>
-      <a href="/training/" data-nav="training">트레이닝</a>
-      <a href="/data/" data-nav="data">빅데이터</a>
-      <a href="/sample/" data-nav="sample">샘플자료실</a>
-      <a href="/performance/" data-nav="performance">성과표</a>
-      <a href="/game/" data-nav="game">게임</a>
-      <a href="/meme/" data-nav="meme">웃긴짤</a>
-      <a href="/subscribe/" data-nav="subscribe">월구독</a>
-      <a href="/account/" data-nav="account">회원</a>
-      <a href="/ops/" data-nav="ops">운영센터</a>
+      <!-- app.js에서 메뉴를 통일 렌더링합니다 -->
+      <a href="/">홈</a>
     </nav>
   </div>
 </div>
@@ -39,82 +29,57 @@
 <main class="main">
   <div class="container">
 
-<section class="hero">
-  <h1>뉴스센터</h1>
-  <p>본문 전재 없이 제목·언론사·시간·링크만 표시합니다.</p>
-  <div class="hero-row">
-    <div class="statusbar">
-      <span class="badge live">LIVE</span>
-      <span class="badge upd" id="badge-upd">UPD: -</span>
-      <span class="badge wait" id="badge-status">대기</span>
-    </div>
-    
-  </div>
-</section>
-
-    
-
-    <div class="section-title" style="margin-top:18px;">
-      <h2>인포맥스 RSS</h2>
-      <div class="hint">제목·언론사·시간·원문 링크만 표시합니다.</div>
-    </div>
-
-    <div class="tabs" id="rss-tabs"></div>
-
-    <div class="controls" style="margin-top:10px;">
-      <div class="input" style="min-width: min(520px, 100%); flex: 1 1 520px;">
-        <span style="font-weight:900; color:rgba(15,23,42,.65);">검색</span>
-        <input id="rss-q" type="text" placeholder="제목 검색 (예: 반도체, 환율, FOMC)" autocomplete="off"/>
+    <section class="hero">
+      <h1>뉴스센터</h1>
+      <p>본문 전재 없이 제목·언론사·시간·원문 링크만 표시합니다.</p>
+      <div class="hero-row" style="gap:10px; flex-wrap:wrap;">
+        <div class="statusbar">
+          <span class="badge live">LIVE</span>
+          <span class="badge upd" id="badge-upd">UPD: -</span>
+          <span class="badge wait" id="badge-status">대기</span>
+        </div>
+        <div class="controls" style="margin:0; padding:0; border:0; background:transparent; gap:10px; flex:1 1 520px; justify-content:flex-end;">
+          <div class="input" style="min-width:min(520px,100%); flex: 1 1 520px;">
+            <span style="font-weight:900; color:rgba(15,23,42,.65);">종목</span>
+            <input id="nc-q" type="text" placeholder="종목/키워드 검색 (예: 삼성전자, 하이닉스, HBM, 수주)" autocomplete="off"/>
+          </div>
+          <button class="btn ghost" type="button" id="nc-refresh">새로고침</button>
+        </div>
       </div>
-      <button class="btn ghost" type="button" id="rss-refresh">새로고침</button>
-    </div>
+    </section>
 
-    <div class="section-title" style="margin-top:18px;">
-      <h2>섹션 스냅샷 (3×3)</h2>
-      <div class="hint" id="rss-snap-info">로딩 중…</div>
-    </div>
+    <div class="tabs" id="nc-tabs"></div>
 
-    <div class="grid" id="rss-snapshot"></div>
+    <div id="nc-pane-latest" class="pane" style="margin-top:14px;"></div>
+    <div id="nc-pane-theme" class="pane" style="margin-top:14px; display:none;"></div>
+    <div id="nc-pane-rss" class="pane" style="margin-top:14px; display:none;"></div>
 
-    <style>
-      /* News RSS snapshot grid */
-      #rss-snapshot .rss-card{grid-column: span 4;}
-      #rss-snapshot .rss-card .meta{margin-top:8px; font-size:12px; color: rgba(100,116,139,.95); font-weight:800;}
-      #rss-snapshot .rss-card .ttl{margin-top:8px; font-weight:1000; letter-spacing:-.3px; line-height:1.35;}
-      @media (max-width: 760px){
-        #rss-snapshot .rss-card{grid-column: span 12;}
-      }
-    </style>
-
-    <div class="section-title">
-      <h2>최신 리스트</h2>
-      <div class="hint" id="news-info">업데이트: - · 수집: -건</div>
-    </div>
-    <div id="news-list" class="list"></div>
-    <div class="hr"></div>
-    <div class="small">RSS 소스: news.einfomax.co.kr (인포맥스) · 프록시: /api/rss?u=... (CORS 회피)</div>
+    <div class="hr" style="margin-top:18px;"></div>
+    <div class="small">소스: 인포맥스 RSS · 프록시: <b>/api/rss</b> (CORS 회피) · 저장: 없음(링크만)</div>
   </div>
 </main>
 
-  <div class="footer container">
-    <div class="foot-links">
-      <a href="/subscribe/">월구독</a>
-      <span class="dot">·</span>
-      <a href="/terms/">이용약관</a>
-      <span class="dot">·</span>
-      <a href="/privacy/">개인정보처리방침</a>
-      <span class="dot">·</span>
-      <a href="/refund/">환불·해지 규정</a>
-      <span class="dot">·</span>
-      <a href="/account/">회원/내 구독</a>
-    </div>
-    <div class="small">
-      상호: <b>웰니스컴퍼니</b> | 대표: <b>박혜민</b> | 사업자등록번호: <b>121-41-51435</b><br>
-      주소: 서울특별시 강동구 천호대로 1240 (둔촌동, 프라자아파트)<br>
-      고객센터: <a href="tel:01049513154">010-4951-3154</a> | 이메일: <a href="mailto:2zshot@naver.com">2zshot@naver.com</a>
-    </div>
-    <div class="small">© JOOLAB · Bigdata Center</div>
+<div class="footer container">
+  <div class="foot-links">
+    <a href="/subscribe/">월구독</a>
+    <span class="dot">·</span>
+    <a href="/terms/">이용약관</a>
+    <span class="dot">·</span>
+    <a href="/privacy/">개인정보처리방침</a>
+    <span class="dot">·</span>
+    <a href="/refund/">환불·해지 규정</a>
+    <span class="dot">·</span>
+    <a href="/account/">회원/내 구독</a>
   </div>
+  <div class="small">
+    상호: <b>웰니스컴퍼니</b> | 대표: <b>박혜민</b> | 사업자등록번호: <b>121-41-51435</b><br>
+    주소: 서울특별시 강동구 천호대로 1240 (둔촌동, 프라자아파트)<br>
+    고객센터: <a href="tel:01049513154">010-4951-3154</a> | 이메일: <a href="mailto:2zshot@naver.com">2zshot@naver.com</a>
+  </div>
+  <div class="small">© JOOLAB · Bigdata Center</div>
+</div>
+
 <script src="/assets/app.js"></script>
+<script src="/assets/newscenter_v2.js"></script>
 </body>
 </html>
