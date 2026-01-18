@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-19 07:12 KST",
+  "updated_at": "2026-01-19 07:35 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,26 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 07:27",
+      "title": "\"한화엔진, 내연기관이 밀고 전기 추진체가 끈다…목표가↑\"-한국",
+      "url": "https://www.hankyung.com/article/2026011978806",
+      "keywords_hit": [
+        "기관"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 07:22",
+      "title": "“한국항공우주, 올해 실적 턴어라운드 본격화”…목표가↑",
+      "url": "https://www.mk.co.kr/news/stock/11936457",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -328,16 +348,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-18 08:30",
-      "title": "미국 개입도 안 통한 환율…'복병'은 따로 있다? [빈난새의 빈틈없이월가]",
-      "url": "https://www.hankyung.com/article/202601186793i",
-      "keywords_hit": [
-        "환율"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-17 11:30",
@@ -372,16 +382,6 @@
       "title": "이지스 '센터필드 매각' 추진에 … 신세계, 소송 검토",
       "url": "https://www.mk.co.kr/news/stock/11935482",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 17:48",
-      "title": "삼성생명, 두나무 지분인수 부인에도 5%↑",
-      "url": "https://www.mk.co.kr/news/stock/11935483",
-      "keywords_hit": [
-        "인수"
-      ]
     }
   ]
 }
