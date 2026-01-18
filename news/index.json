@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-18 13:58 KST",
+  "updated_at": "2026-01-18 14:27 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-18 13:56",
+      "title": "5일 만에 '730억' 사들였다…한국 자산가 '뭉칫돈' 몰린 종목",
+      "url": "https://www.hankyung.com/article/202601187147i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -227,17 +235,6 @@
       "url": "https://www.hankyung.com/article/2026011659221",
       "keywords_hit": [
         "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 17:48",
-      "title": "클라우드플레어, 英 AI 스타트업 인수",
-      "url": "https://www.hankyung.com/article/2026011658421",
-      "keywords_hit": [
-        "인수",
-        "AI"
       ]
     },
     {
