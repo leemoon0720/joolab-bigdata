@@ -461,7 +461,14 @@
       theme: byId('nc-pane-theme'),
       rss: byId('nc-pane-rss')
     };
-    Object.entries(panes).forEach(([k,el])=>{ if(el) el.style.display = (k===key ? '' : 'none'); });
+    // Site-wide CSS defines `.pane{display:none}` and `.pane.active{display:block}`.
+    // Use the `active` class so panes actually render under app.css.
+    Object.entries(panes).forEach(([k,el])=>{
+      if(!el) return;
+      el.classList.toggle('active', k===key);
+      // Also set inline display as a hard override in case other styles exist.
+      el.style.display = (k===key ? 'block' : 'none');
+    });
     const tabs = byId('nc-tabs');
     if(tabs){
       Array.from(tabs.querySelectorAll('.tab')).forEach(b=>b.classList.toggle('active', b.dataset.tab===key));
