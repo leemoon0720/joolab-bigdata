@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-18 16:33 KST",
+  "updated_at": "2026-01-18 16:45 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,102 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-18 16:38",
+      "title": "원전·로봇이 상위권 차지…'곱버스' 베팅도 늘어",
+      "url": "https://www.hankyung.com/article/2026011873771",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-18 16:37",
+      "title": "\"올해는 AI 잘 쓰는 기업이 뜰 것…금융·유통 업종 유망\"",
+      "url": "https://www.hankyung.com/article/2026011873741",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-18 16:36",
+      "title": "올 51% 뛴 현대건설…목표가 줄상향",
+      "url": "https://www.hankyung.com/article/2026011873711",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-18 16:35",
+      "title": "이달 코스피 10개 중 1개가 신고가",
+      "url": "https://www.hankyung.com/article/2026011873781",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-18 16:34",
+      "title": "SK하이닉스·심텍, 반도체株 대거 매수",
+      "url": "https://www.hankyung.com/article/2026011873731",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-18 16:34",
+      "title": "59조 몰린 월 배당 ETF…커버드콜 상품 투자 1순위",
+      "url": "https://www.hankyung.com/article/2026011873801",
+      "keywords_hit": [
+        "배당"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-18 16:33",
+      "title": "저금리·인플레…퇴직연금, 주식비중 70% 돌파",
+      "url": "https://www.hankyung.com/article/2026011873841",
+      "keywords_hit": [
+        "금리"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-18 16:32",
+      "title": "'고배당주'만 골라담는 ETF 출격",
+      "url": "https://www.hankyung.com/article/2026011873861",
+      "keywords_hit": [
+        "배당"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-18 16:32",
+      "title": "퇴직연금 계좌 경영성과급 이체…연금으로 받으면 50% 稅 감면",
+      "url": "https://www.hankyung.com/article/2026011873831",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-18 16:31",
+      "title": "유상증자 러시 속 똑똑한 투자법…\"증권신고서부터 읽어라\"",
+      "url": "https://www.hankyung.com/article/2026011873891",
+      "keywords_hit": [
+        "증자"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -141,14 +237,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-17 07:00",
-      "title": "삼성전자, 올해 자산가 '순매수 1위'…부자들 주식 계좌 보니",
-      "url": "https://www.hankyung.com/article/202601166131i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-17 06:10",
@@ -159,88 +247,11 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-17 00:07",
-      "title": "한국거래소, 단일종목 레버리지·지수 3배 추종 ETF 검토",
-      "url": "https://www.hankyung.com/article/2026011661916",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 22:00",
-      "title": "'칭찬해, 내 손가락'…'5만전자'에도 끝까지 버텼더니 초대박 [종목+]",
-      "url": "https://www.hankyung.com/article/2026011656136",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 19:55",
-      "title": "외환당국, 국내증권사…환전거래 실시간 점검",
-      "url": "https://www.hankyung.com/article/2026011661041",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-16 19:15",
       "title": "금융위 ‘생산적 금융·자본시장 혁신’ 성과 공무원 대거 포상",
       "url": "https://www.mk.co.kr/news/stock/11935534",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 18:24",
-      "title": "[포토] 파죽지세 코스피…4840.74로 마감",
-      "url": "https://www.hankyung.com/article/202601166027i",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 18:05",
-      "title": "디지털자산기본법 고삐 죄는 與…\"은행 중심은 혁신 저해\"",
-      "url": "https://www.hankyung.com/article/202601165823g",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 17:57",
-      "title": "코스피 4800도 단숨에 돌파…기관이 6거래일 연속 쓸어담아",
-      "url": "https://www.hankyung.com/article/2026011659571",
-      "keywords_hit": [
-        "코스피",
-        "기관"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 17:49",
-      "title": "시장 만족 못시킨 美은행주…\"어닝시즌 기대감 낮춰야\"",
-      "url": "https://www.hankyung.com/article/2026011658411",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 17:49",
-      "title": "BHP·리오틴토 '맞손'…호주 철광석 공동 채굴",
-      "url": "https://www.hankyung.com/article/2026011658371",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-16 17:49",
-      "title": "\"중국 기술주 쓸어담자\"…하루 4조위안 '뭉칫돈'",
-      "url": "https://www.hankyung.com/article/2026011658461",
       "keywords_hit": []
     },
     {
