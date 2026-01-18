@@ -921,7 +921,7 @@ function stripCdata(s){
   return String(s).replace(/<!\[CDATA\[/g,'').replace(/\]\]>/g,'').trim();
 }
 function extractTag(block, tag){
-  const re = new RegExp(`<${tag}[^>]*>([\s\S]*?)<\/${tag}>`, 'i');
+  const re = new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\/${tag}>`, 'i');
   const m = String(block||'').match(re);
   return m ? stripCdata(m[1]) : '';
 }
