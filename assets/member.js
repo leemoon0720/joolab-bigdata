@@ -199,6 +199,13 @@
 
     if(btnLogout){
       btnLogout.addEventListener("click", async ()=>{
+        // IMPORTANT: this site uses Bearer tokens saved in localStorage.
+        // Server-side logout clears cookie, but tokens must be cleared on client to truly logout.
+        try{ localStorage.removeItem("jlab_token"); }catch(e){}
+        try{ localStorage.removeItem("joolab_token"); }catch(e){}
+        try{ sessionStorage.removeItem("jlab_token"); }catch(e){}
+        try{ sessionStorage.removeItem("joolab_token"); }catch(e){}
+
         try{
           await fetchJSON('/api/auth/logout');
         }catch(e){}
