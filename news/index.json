@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-19 07:48 KST",
+  "updated_at": "2026-01-19 07:58 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,6 +25,22 @@
     {
       "source": "HK",
       "press": "한국경제",
+      "published_at": "2026-01-19 07:53",
+      "title": "\"HD현대일렉트릭, 보수적 가이던스에도 수주 기대 충분…목표가↑\"",
+      "url": "https://www.hankyung.com/article/2026011978876",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 07:51",
+      "title": "“삼전이 계속 오를 순 없잖아요”...5천피 이후 국장 책임질 주도주는",
+      "url": "https://www.mk.co.kr/news/stock/11936464",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
       "published_at": "2026-01-19 07:27",
       "title": "\"한화엔진, 내연기관이 밀고 전기 추진체가 끈다…목표가↑\"-한국",
       "url": "https://www.hankyung.com/article/2026011978806",
@@ -46,7 +62,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-19 07:00",
-      "title": "한 달 새 주가 두배 '폭등'…AI 필수품 되더니 주가 '불기둥' [류은혁의 종목 핫라인]",
+      "title": "한 달 새 주가 두배 '폭등'…AI 필수품 되더니 '불기둥' 쏜 종목 [류은혁의 종목 핫라인]",
       "url": "https://www.hankyung.com/article/202601165965i",
       "keywords_hit": [
         "AI"
@@ -324,14 +340,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-18 13:56",
-      "title": "5일 만에 '730억' 사들였다…한국 자산가 '뭉칫돈' 몰린 종목",
-      "url": "https://www.hankyung.com/article/202601187147i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-18 10:37",
@@ -373,14 +381,6 @@
       "published_at": "2026-01-16 19:15",
       "title": "금융위 ‘생산적 금융·자본시장 혁신’ 성과 공무원 대거 포상",
       "url": "https://www.mk.co.kr/news/stock/11935534",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 17:48",
-      "title": "이지스 '센터필드 매각' 추진에 … 신세계, 소송 검토",
-      "url": "https://www.mk.co.kr/news/stock/11935482",
       "keywords_hit": []
     }
   ]
