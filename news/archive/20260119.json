@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-19 05:55 KST",
+  "updated_at": "2026-01-19 06:16 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,22 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 05:58",
+      "title": "“올해 최대 20%까지 떨어질 것”…골드만삭스가 ‘과열’ 경고한 투자처는",
+      "url": "https://www.mk.co.kr/news/stock/11936443",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 05:57",
+      "title": "“삼전 주식 2조 처분합니다”…상속세 납부·대출상환에 쓴다는 관장님",
+      "url": "https://www.mk.co.kr/news/stock/11936442",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -366,24 +382,6 @@
       "keywords_hit": [
         "AI"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 17:48",
-      "title": "\"무섭게 오른다\"… 코스피 상승률 세계 1위",
-      "url": "https://www.mk.co.kr/news/stock/11935480",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 17:30",
-      "title": "삼성·SK·한화 주가 달릴때 홀로 뒤처진 ‘이곳’…이번에도 정공법 통할까 [K주식, 이걸 사? 말아?]",
-      "url": "https://www.mk.co.kr/news/stock/11935161",
-      "keywords_hit": []
     }
   ]
 }
