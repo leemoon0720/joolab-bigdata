@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-18 17:19 KST",
+  "updated_at": "2026-01-18 17:44 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,35 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-18 17:29",
+      "title": "넷플보다 7배 비싸도 지갑 연다…생성형 AI 구독, 2년새 30배 급증",
+      "url": "https://www.hankyung.com/article/2026011875001",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-18 17:28",
+      "title": "넷플릭스도 제쳤다…'月 803억 결제' 한국서 대박 난 서비스",
+      "url": "https://www.hankyung.com/article/2026011875411",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-18 17:22",
+      "title": "오픈AI·앤스로픽…美 IPO '초대어' 뜬다",
+      "url": "https://www.hankyung.com/article/2026011874991",
+      "keywords_hit": [
+        "IPO",
+        "AI"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -249,22 +278,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-18 07:00",
-      "title": "'월급 35만원' 이 악물고 버텼다…급기야 '연봉 2억' 찍은 비결 [윤현주의 主食이 주식]",
-      "url": "https://www.hankyung.com/article/202601137251i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-17 15:37",
-      "title": "\"삼성전자 팔고 갈아탈까 했는데\"…다시 봐야 하는 이유 [한경우의 케이스스터디]",
-      "url": "https://www.hankyung.com/article/2026011654806",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-17 11:30",
@@ -273,14 +286,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-17 08:17",
-      "title": "해싯 발작→4.2% 돌파, 누가 샀다고? 마이크론 질주 [김현석의 월스트리트나우]",
-      "url": "https://www.hankyung.com/article/202601176268i",
-      "keywords_hit": []
     },
     {
       "source": "MK",
