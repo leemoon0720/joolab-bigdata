@@ -199,21 +199,60 @@
 
     if(btnLogout){
       btnLogout.addEventListener("click", async ()=>{
-        // IMPORTANT: this site uses Bearer tokens saved in localStorage.
-        // Server-side logout clears cookie, but tokens must be cleared on client to truly logout.
-        try{ localStorage.removeItem("jlab_token"); }catch(e){}
-        try{ localStorage.removeItem("joolab_token"); }catch(e){}
-        try{ sessionStorage.removeItem("jlab_token"); }catch(e){}
-        try{ sessionStorage.removeItem("joolab_token"); }catch(e){}
+        // HARD LOGOUT: clear session cookie + any client tokens, then force reload.
+        // This site authenticates via HttpOnly cookie (jlab_sess). Client tokens may still exist from older builds.
+        try{ btnLogout.disabled = true; }catch(e){}
 
+        // 1) Call server logout first (sets Set-Cookie Max-Age=0)
         try{
-          await fetchJSON('/api/auth/logout');
+          await fetch('/api/auth/logout', { method:'GET', cache:'no-store', credentials:'include' });
         }catch(e){}
-        await render();
+
+        // 2) Best-effort client-side cleanup (does not affect HttpOnly cookie, but prevents stale UI logic)
+        const keys = [
+          'jlab_token','joolab_token','token','access_token','auth','auth_token','session','user','me'
+        ];
+        try{
+          keys.forEach(k=>{ try{ localStorage.removeItem(k); }catch(e){} });
+        }catch(e){}
+        try{
+          keys.forEach(k=>{ try{ sessionStorage.removeItem(k); }catch(e){} });
+        }catch(e){}
+
+        // 3) Best-effort cookie removal (HttpOnly cookies cannot be deleted via JS, but we try for non-HttpOnly variants)
+        // Server-side logout is the source of truth; this is only a safety net.
+        function expireCookie(name, domain){
+          let s = `${name}=; Max-Age=0; Path=/; SameSite=Lax; Secure`;
+          if(domain) s += `; Domain=${domain}`;
+          document.cookie = s;
+        }
+        try{
+          const host = location.hostname;
+          // host-only
+          expireCookie('jlab_sess', '');
+          // common domains
+          expireCookie('jlab_sess', host);
+          // parent domains
+          const parts = host.split('.');
+          if(parts.length >= 2){
+            const p1 = '.' + parts.slice(-2).join('.');
+            expireCookie('jlab_sess', p1);
+          }
+                  }catch(e){}
+        // Also try known apex domain for this project
+        try{ expireCookie('jlab_sess', '.joolab.co.kr'); }catch(e){}
+        try{ expireCookie('jlab_sess', 'joolab.co.kr'); }catch(e){}
+
+        // 4) Force navigation to refresh all scripts and nav state
+        try{
+          const ts = Date.now();
+          window.location.replace('/account/?logout=1&ts=' + ts);
+          return;
+        }catch(e){}
+        try{ window.location.href = '/account/'; }catch(e){}
       });
     }
-
-    if(btnCancel){
+if(btnCancel){
       btnCancel.addEventListener("click", ()=>{
         setMsg(cancelMsg, "구독 해지는 월구독 페이지에서 진행해 주십시오.", false);
       });
