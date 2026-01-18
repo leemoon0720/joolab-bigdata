@@ -189,7 +189,30 @@
     const u = '/api/rss?u=' + encodeURIComponent(feedUrl) + '&limit=40';
     const r = await fetch(u, { cache: 'no-store' });
     if(!r.ok) throw new Error('RSS fetch failed: ' + r.status);
+
+    // 현재 /api/rss 는 JSON으로 반환(Worker에서 CORS 회피 + 파싱 단순화)
+    // 다만 예전 배포(혹은 임시)에서 XML을 그대로 반환하는 경우도 있어
+    // JSON → 실패하면 XML 파싱으로 폴백합니다.
+    const ct = (r.headers.get('content-type')||'').toLowerCase();
+    if(ct.includes('application/json')){
+      const j = await r.json();
+      if(!j || !j.ok) throw new Error('RSS proxy error');
+      const items = Array.isArray(j.items) ? j.items : [];
+      return { channelTitle:'', items };
+    }
+
+    // fallback: XML text
     const text = await r.text();
+    // JSON처럼 보이면 한 번 더 시도
+    if(text && text.trim().startsWith('{')){
+      try{
+        const j = JSON.parse(text);
+        if(j && j.ok){
+          const items = Array.isArray(j.items) ? j.items : [];
+          return { channelTitle:'', items };
+        }
+      }catch(e){}
+    }
     return parseRssXmlToItems(text);
   }
 

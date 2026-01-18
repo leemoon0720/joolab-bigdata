@@ -3,6 +3,36 @@
 // 배경: Pages Direct Upload(Zip 업로드)에서는 /functions 가 실행되지 않을 수 있어 _worker.js 로 처리합니다.
 
 const UA = 'Mozilla/5.0 (compatible; JooLabBigData/1.0)';
+// RSS 전용 UA (봇 차단/406 회피 목적)
+const RSS_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36';
+
+async function fetchRssText(url) {
+  // Infomax RSS는 헤더가 브라우저스럽지 않으면 406/403이 발생할 수 있어
+  // RSS 전용 헤더 세트로 요청합니다.
+  const baseHeaders = {
+    'user-agent': RSS_UA,
+    'accept': 'application/rss+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.7',
+    'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7',
+    'cache-control': 'no-cache',
+    'pragma': 'no-cache',
+    'referer': 'https://news.einfomax.co.kr/',
+    'upgrade-insecure-requests': '1'
+  };
+
+  // 1차 시도
+  let r = await fetch(url, { headers: baseHeaders });
+  // 406/403 등에서 Accept를 더 느슨하게 바꿔 재시도
+  if (!r.ok && (r.status === 406 || r.status === 403)) {
+    r = await fetch(url, {
+      headers: {
+        ...baseHeaders,
+        'accept': 'text/xml,application/xml;q=0.9,*/*;q=0.8'
+      }
+    });
+  }
+  if (!r.ok) throw new Error(`http_${r.status}`);
+  return await r.text();
+}
 
 function toNum(v) {
   if (v === null || v === undefined) return null;
@@ -937,7 +967,7 @@ async function handleRssProxy(request){
   if(cached) return cached;
 
   try{
-    const xml = await fetchText(feedUrl);
+    const xml = await fetchRssText(feedUrl);
     const items = parseRssItems(xml, limit);
     const body = JSON.stringify({ok:true, updated_at:new Date().toISOString(), source: feedUrl, items});
     const res = new Response(body, {
