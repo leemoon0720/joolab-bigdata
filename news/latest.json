@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-18 20:29 KST",
+  "updated_at": "2026-01-18 20:41 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-18 20:27",
+      "title": "빅테크가 韓시장 장악…'소버린 AI' 회의론 확산",
+      "url": "https://www.hankyung.com/article/2026011876131",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -291,14 +301,6 @@
       "published_at": "2026-01-18 08:00",
       "title": "순식간에 주가 50% 폭등…월가도 깜짝 놀란 '보랏빛 돌풍' [전범진의 종목 직구]",
       "url": "https://www.hankyung.com/article/202601186785i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-18 07:42",
-      "title": "\"이제 떨어질 때 됐다\"…불기둥에도 곱버스 올라탄 개미들 [노정동의 어쩌다 투자자]",
-      "url": "https://www.hankyung.com/article/2026011653756",
       "keywords_hit": []
     },
     {
