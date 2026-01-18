@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-19 08:38 KST",
+  "updated_at": "2026-01-19 08:48 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,42 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 08:40",
+      "title": "\"K-증시, 강한 IT 쏠림…반도체 비중 낮출 필요 없어\"-한국",
+      "url": "https://www.hankyung.com/article/2026011979576",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 08:40",
+      "title": "공매도 재개 후 첫 대규모 ‘철퇴’… 신한운용·파레토 등 6곳 과징금 40억",
+      "url": "https://www.mk.co.kr/news/stock/11936493",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 08:39",
+      "title": "\"네이버만 왜 이래\"…'국대 AI' 탈락에 속타는 주주 [진영기의 찐개미 찐투자]",
+      "url": "https://www.hankyung.com/article/2026011979166",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 08:38",
+      "title": "삼전닉스 조정 우려?…“메모리 강세 지속, 비중확대 유효” [오늘 나온 보고서]",
+      "url": "https://www.mk.co.kr/news/stock/11936491",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -324,24 +360,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-18 16:32",
-      "title": "'고배당주'만 골라담는 ETF 출격",
-      "url": "https://www.hankyung.com/article/2026011873861",
-      "keywords_hit": [
-        "배당"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-18 16:32",
-      "title": "퇴직연금 계좌 경영성과급 이체…연금으로 받으면 50% 稅 감면",
-      "url": "https://www.hankyung.com/article/2026011873831",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-18 15:49",
@@ -364,26 +382,6 @@
       "title": "“대기업 다니며 착실히 모았는데 -17억”...‘적금 올인’ 했더니 노후 흔들",
       "url": "https://www.mk.co.kr/news/economy/11935962",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-17 11:30",
-      "title": "“달리는 코스피 올라타자” 투자예탁금 보름새 5조 늘었다",
-      "url": "https://www.mk.co.kr/news/stock/11935806",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-17 06:10",
-      "title": "“아들, 삼전 아직 팔면 안되지?”…무서운 코스피, 상승률 세계 1위",
-      "url": "https://www.mk.co.kr/news/stock/11935701",
-      "keywords_hit": [
-        "코스피"
-      ]
     }
   ]
 }
