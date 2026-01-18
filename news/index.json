@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-18 16:54 KST",
+  "updated_at": "2026-01-18 17:19 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,6 +25,45 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-18 17:17",
+      "title": "[이번주 증시 예보] 삼성바이오·인텔·넷플릭스 … 실적발표 주목",
+      "url": "https://www.mk.co.kr/news/stock/11936251",
+      "keywords_hit": [
+        "실적",
+        "바이오"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-18 17:17",
+      "title": "[표] 이번주 머니 캘린더",
+      "url": "https://www.mk.co.kr/news/stock/11936250",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-18 17:17",
+      "title": "오천피 선봉에 '삼전닉스'가 섰다면 이젠 로봇·원전·조선株가 힘보탠다",
+      "url": "https://www.mk.co.kr/news/stock/11936248",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-18 17:02",
+      "title": "2.65% 남았다…與 '코스피5000' 특위 \"이제 숫자 빼야 하나\" [박주연의 여의도 나침반]",
+      "url": "https://www.hankyung.com/article/202601187462i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-18 16:49",
       "title": "홍라희, 삼성전자 주식 2조 처분",
       "url": "https://www.mk.co.kr/news/stock/11936195",
@@ -45,11 +84,9 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-18 16:38",
-      "title": "원전·로봇이 상위권 차지…'곱버스' 베팅도 늘어",
+      "title": "일주일 새 680억 몰리더니…'수익률 대박' 개미들 웃은 종목",
       "url": "https://www.hankyung.com/article/2026011873771",
-      "keywords_hit": [
-        "로봇"
-      ]
+      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -93,11 +130,9 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-18 16:34",
-      "title": "59조 몰린 월 배당 ETF…커버드콜 상품 투자 1순위",
+      "title": "'매달 수익 쏠쏠하네' 재테크족에 인기 폭발…'59조' 뚫었다",
       "url": "https://www.hankyung.com/article/2026011873801",
-      "keywords_hit": [
-        "배당"
-      ]
+      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -248,14 +283,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-17 07:00",
-      "title": "반토막 났던 주식, 한 달 만에 50% 뛰더니…개미들 '두근두근' [윤현주의 主食이 주식]",
-      "url": "https://www.hankyung.com/article/202511279840i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-17 06:10",
@@ -353,30 +380,6 @@
       "published_at": "2026-01-16 15:24",
       "title": "하나증권, 첫 발행어음 일주일 만에 3000억원 규모 완판",
       "url": "https://www.mk.co.kr/news/stock/11935254",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 15:12",
-      "title": "하나증권, 첫 발행어음 일주일 만에 3000억원 규모 완판",
-      "url": "https://www.mk.co.kr/news/stock/11935240",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 13:46",
-      "title": "“차트 보며 바로 소통한다”…키움증권, 실시간 채팅 커뮤니티 개설",
-      "url": "https://www.mk.co.kr/news/stock/11935088",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 13:36",
-      "title": "교보증권, IT부문 채용연계형 인턴사원 모집",
-      "url": "https://www.mk.co.kr/news/stock/11935080",
       "keywords_hit": []
     }
   ]
