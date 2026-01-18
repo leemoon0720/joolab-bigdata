@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-18 20:59 KST",
+  "updated_at": "2026-01-18 21:52 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,6 +23,14 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-18 21:38",
+      "title": "국민연금, 국내주식 투자비중 늘린다…예금서 증시로 ‘머니무브’",
+      "url": "https://www.mk.co.kr/news/stock/11936400",
+      "keywords_hit": []
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-18 20:27",
@@ -44,16 +52,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-18 17:47",
-      "title": "美빅테크보다 잘나가네 … 中기술주 반년새 50%↑",
-      "url": "https://www.mk.co.kr/news/stock/11936289",
+      "title": "트럼프 농가 지원책에 농산물株 들썩",
+      "url": "https://www.mk.co.kr/news/stock/11936288",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-18 17:47",
-      "title": "트럼프 농가 지원책에 농산물株 들썩",
-      "url": "https://www.mk.co.kr/news/stock/11936288",
+      "title": "美빅테크보다 잘나가네 … 中기술주 반년새 50%↑",
+      "url": "https://www.mk.co.kr/news/stock/11936289",
       "keywords_hit": []
     },
     {
@@ -376,16 +384,6 @@
       "title": "삼성·SK·한화 주가 달릴때 홀로 뒤처진 ‘이곳’…이번에도 정공법 통할까 [K주식, 이걸 사? 말아?]",
       "url": "https://www.mk.co.kr/news/stock/11935161",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-16 17:06",
-      "title": "무섭게 오른다... 코스피 상승률 세계 1위",
-      "url": "https://www.mk.co.kr/news/stock/11935381",
-      "keywords_hit": [
-        "코스피"
-      ]
     }
   ]
 }
