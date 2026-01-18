@@ -3,36 +3,6 @@
 // 배경: Pages Direct Upload(Zip 업로드)에서는 /functions 가 실행되지 않을 수 있어 _worker.js 로 처리합니다.
 
 const UA = 'Mozilla/5.0 (compatible; JooLabBigData/1.0)';
-// RSS 전용 UA (봇 차단/406 회피 목적)
-const RSS_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36';
-
-async function fetchRssText(url) {
-  // Infomax RSS는 헤더가 브라우저스럽지 않으면 406/403이 발생할 수 있어
-  // RSS 전용 헤더 세트로 요청합니다.
-  const baseHeaders = {
-    'user-agent': RSS_UA,
-    'accept': 'application/rss+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.7',
-    'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7',
-    'cache-control': 'no-cache',
-    'pragma': 'no-cache',
-    'referer': 'https://news.einfomax.co.kr/',
-    'upgrade-insecure-requests': '1'
-  };
-
-  // 1차 시도
-  let r = await fetch(url, { headers: baseHeaders });
-  // 406/403 등에서 Accept를 더 느슨하게 바꿔 재시도
-  if (!r.ok && (r.status === 406 || r.status === 403)) {
-    r = await fetch(url, {
-      headers: {
-        ...baseHeaders,
-        'accept': 'text/xml,application/xml;q=0.9,*/*;q=0.8'
-      }
-    });
-  }
-  if (!r.ok) throw new Error(`http_${r.status}`);
-  return await r.text();
-}
 
 function toNum(v) {
   if (v === null || v === undefined) return null;
@@ -476,9 +446,48 @@ async function handleAuthMe(request, env, baseUrl) {
 }
 
 async function handleAuthLogout(request, env, baseUrl) {
-  const setCookie = makeCookie(COOKIE_NAME, '', 0, new URL(request.url).hostname);
-  return jsonResp({ ok:true }, 200, { 'set-cookie': setCookie });
+  const host = new URL(request.url).hostname;
+  const h = String(host || '').toLowerCase();
+
+  // 쿠키 삭제는 'Domain 유무'에 따라 별개로 존재할 수 있으므로
+  // 1) host-only 쿠키 삭제 2) (해당 시) .joolab.co.kr 도메인 쿠키 삭제를 함께 수행합니다.
+  const cookies = [];
+
+  // 1) host-only 삭제 (Domain 속성 없이)
+  cookies.push(makeCookie(COOKIE_NAME, '', 0, ''));
+
+  // 2) 최상위 도메인 공유 쿠키 삭제 (.joolab.co.kr)
+  if (h === 'joolab.co.kr' || h.endsWith('.joolab.co.kr')) {
+    const attrs = [
+      `${COOKIE_NAME}=`,
+      `Path=/`,
+      `SameSite=Lax`,
+      `Domain=.joolab.co.kr`,
+      `Secure`,
+      `HttpOnly`,
+      `Max-Age=0`
+    ];
+    cookies.push(attrs.join('; '));
+  }
+
+  const u = new URL(request.url);
+  const next = u.searchParams.get('next');
+
+  const headers = new Headers({
+    'content-type': 'application/json; charset=utf-8',
+    'cache-control': 'no-store'
+  });
+  for (const c of cookies) headers.append('set-cookie', c);
+
+  // next가 있으면 브라우저 네비게이션 기반 로그아웃도 지원(세션 반영이 확실합니다)
+  if (next) {
+    headers.set('location', next);
+    return new Response('', { status: 302, headers });
+  }
+
+  return new Response(JSON.stringify({ ok: true }), { status: 200, headers });
 }
+
 
 async function handleAuthChangePassword(request, env, baseUrl) {
   const secret = (env && env.JLAB_AUTH_SECRET) ? env.JLAB_AUTH_SECRET : DEFAULT_SECRET;
@@ -921,7 +930,7 @@ function stripCdata(s){
   return String(s).replace(/<!\[CDATA\[/g,'').replace(/\]\]>/g,'').trim();
 }
 function extractTag(block, tag){
-  const re = new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\/${tag}>`, 'i');
+  const re = new RegExp(`<${tag}[^>]*>([\s\S]*?)<\/${tag}>`, 'i');
   const m = String(block||'').match(re);
   return m ? stripCdata(m[1]) : '';
 }
@@ -967,7 +976,7 @@ async function handleRssProxy(request){
   if(cached) return cached;
 
   try{
-    const xml = await fetchRssText(feedUrl);
+    const xml = await fetchText(feedUrl);
     const items = parseRssItems(xml, limit);
     const body = JSON.stringify({ok:true, updated_at:new Date().toISOString(), source: feedUrl, items});
     const res = new Response(body, {
