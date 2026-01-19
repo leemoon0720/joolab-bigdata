@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-20 07:22 KST",
+  "updated_at": "2026-01-20 07:43 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,24 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 07:26",
+      "title": "스틱인베, 밸류업 공시… “2028년까지 AUM 15조원”",
+      "url": "https://www.mk.co.kr/news/stock/11937387",
+      "keywords_hit": [
+        "공시"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 07:24",
+      "title": "\"한화오션, 상선 부문 성장에 특수선 모멘텀까지…목표가↑\"-키움",
+      "url": "https://www.hankyung.com/article/2026012002996",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -299,16 +317,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 17:25",
-      "title": "AI랠리 '숨은 승자' 크레도…6개월 만에 50% 쑥",
-      "url": "https://www.hankyung.com/article/2026011997891",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-19 17:18",
@@ -370,14 +378,6 @@
       "published_at": "2026-01-19 15:24",
       "title": "부동산 디벨로퍼 MDM플러스, ‘삼성생명 부산사옥’ 매각 나선다",
       "url": "https://www.mk.co.kr/news/stock/11936946",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-19 15:24",
-      "title": "한양증권 “임직원 연금저축 ETF 투자, 지수 추종이 40%”",
-      "url": "https://www.mk.co.kr/news/stock/11936945",
       "keywords_hit": []
     }
   ]
