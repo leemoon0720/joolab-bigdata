@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-19 18:59 KST",
+  "updated_at": "2026-01-19 19:37 KST",
   "sources": [
     {
       "id": "HK",
@@ -192,6 +192,17 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-19 17:28",
+      "title": "[코스닥 공시] 글로벌텍스프리",
+      "url": "https://www.mk.co.kr/news/stock/11937126",
+      "keywords_hit": [
+        "코스닥",
+        "공시"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 17:28",
       "title": "LG전자 \"우리도 10만전자\"",
       "url": "https://www.mk.co.kr/news/stock/11937124",
       "keywords_hit": []
@@ -367,16 +378,6 @@
       "title": "한양증권 “임직원 연금저축 ETF 투자, 지수 추종이 40%”",
       "url": "https://www.mk.co.kr/news/stock/11936945",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-19 15:09",
-      "title": "알에프텍 자회사, 370억원 투자 유치…“글로벌 헬스케어 네트워크와 결합, IPO 속도”",
-      "url": "https://www.mk.co.kr/news/stock/11936932",
-      "keywords_hit": [
-        "IPO"
-      ]
     }
   ]
 }
