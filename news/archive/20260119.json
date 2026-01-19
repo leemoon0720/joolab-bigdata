@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-19 13:54 KST",
+  "updated_at": "2026-01-19 14:27 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,46 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 14:16",
+      "title": "코스피가 멈추질 않는다…4900선마저 돌파",
+      "url": "https://www.hankyung.com/article/2026011988976",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 14:05",
+      "title": "[속보] 코스피, 상승폭 키워 장중 사상 첫 4900선 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11936865",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 14:01",
+      "title": "[속보] 코스피 4900선 첫 돌파…사상 최초",
+      "url": "https://www.hankyung.com/article/202601198995i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 13:55",
+      "title": "[속보] 코스피, 사상 첫 4900선 돌파",
+      "url": "https://www.hankyung.com/article/2026011989716",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -98,11 +138,9 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-19 11:36",
-      "title": "\"발전소 내놔\" AI 전력전쟁 시작…트럼프 한마디에 수혜주 갈린다",
+      "title": "\"발전소 내놔\" 트럼프 꺼내든 카드 때문에…들썩 거리는 종목 [종목+]",
       "url": "https://www.hankyung.com/article/202601198755i",
-      "keywords_hit": [
-        "AI"
-      ]
+      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -315,30 +353,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 09:46",
-      "title": "비츠로넥스텍, 273억 통합풍동장치 공급계약 소식에 '급등'",
-      "url": "https://www.hankyung.com/article/2026011983426",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 09:39",
-      "title": "\"SK하이닉스와 공급 계약 체결\"…브이엠, 6%대 강세",
-      "url": "https://www.hankyung.com/article/2026011982846",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 09:37",
-      "title": "\"진작 살 걸\"…현대차 '비밀병기' 반응 폭발에 또 신고가 [종목+]",
-      "url": "https://www.hankyung.com/article/202601198224i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-19 09:04",
@@ -360,14 +374,6 @@
       "published_at": "2026-01-19 08:38",
       "title": "삼전닉스 너무 올라 부담된다고?…“메모리 강세 지속, 비중확대 유효” [오늘 나온 보고서]",
       "url": "https://www.mk.co.kr/news/stock/11936491",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-19 08:01",
-      "title": "“삼성중공업, 올해 해양수주금액 최대 11.8조 가능성”…목표가↑",
-      "url": "https://www.mk.co.kr/news/stock/11936469",
       "keywords_hit": []
     }
   ]
