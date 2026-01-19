@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-19 17:56 KST",
+  "updated_at": "2026-01-19 18:35 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,6 +25,14 @@
     {
       "source": "HK",
       "press": "한국경제",
+      "published_at": "2026-01-19 18:03",
+      "title": "한경Aicel 데이터 기반 'K수출기업액티브' 대박",
+      "url": "https://www.hankyung.com/article/2026011998301",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
       "published_at": "2026-01-19 17:53",
       "title": "로봇·전력기기·양자컴 담은 KEDI…'초혁신 지수' 입증",
       "url": "https://www.hankyung.com/article/2026011998311",
@@ -36,7 +44,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-19 17:52",
-      "title": "\"외환시장에 달러 넘친다\"는데 … 환율은 1470원대로 상승",
+      "title": "\"외환시장에 달러 넘친다\"는데…환율은 1470원대로 상승",
       "url": "https://www.hankyung.com/article/2026011998911",
       "keywords_hit": [
         "환율"
@@ -325,16 +333,6 @@
       "title": "월가 전문가가 직접 톱픽 골라준다…급성장하는 액티브 ETF",
       "url": "https://www.hankyung.com/article/202601199029i",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 15:58",
-      "title": "코스피, 사상 첫 4900선 돌파 마감…삼전·하닉·현차 모두 달렸다",
-      "url": "https://www.hankyung.com/article/2026011993596",
-      "keywords_hit": [
-        "코스피"
-      ]
     },
     {
       "source": "MK",
