@@ -203,14 +203,17 @@ async function handleMarket() {
 // ==============================
 // Auth / Session / Admin Storage
 // - 목적: 로컬스토리지 기반 "가짜 로그인" 제거
-// - 커뮤니티 회원 엑셀(assets/members_seed.json) 기반으로 로그인 허용
+// - 정적 회원명단(seed) 미사용
 // - 관리자(admin)만 공지/팝업 저장 가능
 // - 저장소: Cloudflare KV (권장: env.JLAB_KV). 없으면 읽기만(정적 JSON)로 폴백.
 // ==============================
 
 const COOKIE_NAME = 'jlab_sess';
-const DEFAULT_SECRET = 'JLAB_CHANGE_ME_SECRET';
 
+function getAuthSecret(env) {
+  const s = (env && env.JLAB_AUTH_SECRET) ? String(env.JLAB_AUTH_SECRET).trim() : '';
+  return s ? s : null;
+}
 function jsonResp(obj, status=200, extraHeaders={}) {
   return new Response(JSON.stringify(obj), {
     status,
@@ -314,32 +317,6 @@ async function verifyToken(secret, token) {
   }
 }
 
-let SEED_CACHE = null;
-
-async function fetchStaticJSON(env, baseUrl, path) {
-  try {
-    if (env && env.ASSETS && typeof env.ASSETS.fetch === 'function') {
-      const req = new Request(new URL(path, baseUrl).toString(), { method: 'GET' });
-      const res = await env.ASSETS.fetch(req);
-      if (!res.ok) return null;
-      return await res.json();
-    }
-  } catch (e) {}
-  return null;
-}
-
-async function loadSeed(env, baseUrl) {
-  if (SEED_CACHE) return SEED_CACHE;
-  const seed = await fetchStaticJSON(env, baseUrl, '/assets/members_seed.json');
-  const users = seed && Array.isArray(seed.users) ? seed.users : [];
-  const map = {};
-  for (const u of users) {
-    if (!u || !u.email) continue;
-    map[String(u.email).toLowerCase()] = u;
-  }
-  SEED_CACHE = { updated_at: seed ? seed.updated_at : null, users_map: map };
-  return SEED_CACHE;
-}
 
 async function kvGetJSON(env, key) {
   try {
@@ -358,33 +335,48 @@ async function kvPutJSON(env, key, obj) {
   return true;
 }
 
-async function getUser(env, baseUrl, emailLower) {
-  const kvKey = `user:${emailLower}`;
-  const kvUser = await kvGetJSON(env, kvKey);
-  if (kvUser) return { source: 'kv', user: kvUser };
-  const seed = await loadSeed(env, baseUrl);
-  const u = seed.users_map[emailLower] || null;
-  if (u) return { source: 'seed', user: u };
+
+async function fetchStaticJSON(env, baseUrl, path) {
+  try {
+    if (env && env.ASSETS && typeof env.ASSETS.fetch === 'function') {
+      const req = new Request(new URL(path, baseUrl).toString(), { method: 'GET' });
+      const res = await env.ASSETS.fetch(req);
+      if (!res.ok) return null;
+      return await res.json();
+    }
+  } catch (e) {}
   return null;
 }
 
-async function ensureUserInKV(env, emailLower, seedUser, passwordPlain, secret) {
+async function getUser(env, emailLower) {
+  const kvKey = `user:${emailLower}`;
+  const kvUser = await kvGetJSON(env, kvKey);
+  if (kvUser) return { source: 'kv', user: kvUser };
+  return null;
+}
+
+
+async function upsertUserInKV(env, emailLower, profile, passwordPlain, secret, roleOverride) {
   if (!(env && env.JLAB_KV && typeof env.JLAB_KV.put === 'function')) return false;
   const kvKey = `user:${emailLower}`;
   const passHash = await sha256Hex(`${secret}|${passwordPlain}`);
+  const nowISO = new Date().toISOString();
+  let existing = null;
+  try { existing = await kvGetJSON(env, kvKey); } catch (e) { existing = null; }
   const obj = {
     email: emailLower,
-    user_id: seedUser.user_id || '',
-    name: seedUser.name || '',
-    nickname: seedUser.nickname || '',
-    role: seedUser.role || 'user',
+    user_id: (profile && profile.user_id) ? String(profile.user_id) : (existing && existing.user_id ? existing.user_id : ''),
+    name: (profile && profile.name) ? String(profile.name) : (existing && existing.name ? existing.name : ''),
+    nickname: (profile && profile.nickname) ? String(profile.nickname) : (existing && existing.nickname ? existing.nickname : ''),
+    role: roleOverride ? String(roleOverride) : (existing && existing.role ? existing.role : 'user'),
     pass_hash: passHash,
-    created_at: new Date().toISOString(),
-    updated_at: new Date().toISOString()
+    created_at: (existing && existing.created_at) ? existing.created_at : nowISO,
+    updated_at: nowISO
   };
   await env.JLAB_KV.put(kvKey, JSON.stringify(obj));
   return true;
 }
+
 
 function isPublicPath(pathname) {
   if (pathname === '/bigdata_gate' || pathname.startsWith('/bigdata_gate/')) return true;
@@ -400,7 +392,8 @@ function isPublicPath(pathname) {
 
 
 async function requireAuth(request, env, baseUrl) {
-  const secret = (env && env.JLAB_AUTH_SECRET) ? env.JLAB_AUTH_SECRET : DEFAULT_SECRET;
+  const secret = getAuthSecret(env);
+  if (!secret) return null;
   const cookies = parseCookies(request.headers.get('cookie') || '');
   const token = cookies[COOKIE_NAME] || '';
   const payload = await verifyToken(secret, token);
@@ -409,27 +402,34 @@ async function requireAuth(request, env, baseUrl) {
 }
 
 async function handleAuthLogin(request, env, baseUrl) {
-  const secret = (env && env.JLAB_AUTH_SECRET) ? env.JLAB_AUTH_SECRET : DEFAULT_SECRET;
+  const secret = getAuthSecret(env);
+  if (!secret) return jsonResp({ ok:false, message:'서버 설정이 완료되지 않았습니다. (JLAB_AUTH_SECRET 필요)' }, 200);
+
   let body = null;
   try { body = await request.json(); } catch(e) {}
   const email = String(body && body.email ? body.email : '').trim().toLowerCase();
   const pass = String(body && body.password ? body.password : '').trim();
   if (!email || !email.includes('@') || !pass) return jsonResp({ ok:false, message:'이메일/비밀번호를 확인해 주십시오.' }, 200);
 
-  const rec = await getUser(env, baseUrl, email);
+  // 관리자 부트스트랩(시드/정적 회원명단 미사용)
+  const adminEmail = String(env && env.JLAB_ADMIN_EMAIL ? env.JLAB_ADMIN_EMAIL : '').trim().toLowerCase();
+  const adminPass = String(env && env.JLAB_ADMIN_PASSWORD ? env.JLAB_ADMIN_PASSWORD : '').trim();
+  if (adminEmail && adminPass && email === adminEmail && pass === adminPass) {
+    try { await upsertUserInKV(env, email, { user_id:'', name:'', nickname:'' }, pass, secret, 'admin'); } catch(e) {}
+    const now = Date.now();
+    const exp = now + 1000*60*60*24*14; // 14일
+    const token = await makeToken(secret, { email, role: 'admin', iat: now, exp });
+    const setCookie = makeCookie(COOKIE_NAME, token, 60*60*24*14, new URL(request.url).hostname);
+    return jsonResp({ ok:true, user:{ email, role:'admin' } }, 200, { 'set-cookie': setCookie });
+  }
+
+  // 일반 회원: KV 기반 계정만 허용(정적 seed 폴백 제거)
+  const rec = await getUser(env, email);
   if (!rec || !rec.user) return jsonResp({ ok:false, message:'등록된 회원이 아닙니다.' }, 200);
 
-  // KV에 비번이 있으면 KV 검증, 없으면 seed 방식(초기 비번=아이디)로 검증
-  if (rec.source === 'kv' && rec.user.pass_hash) {
-    const inHash = await sha256Hex(`${secret}|${pass}`);
-    if (inHash !== rec.user.pass_hash) return jsonResp({ ok:false, message:'비밀번호가 올바르지 않습니다.' }, 200);
-  } else {
-    const seedUser = rec.user;
-    const initPass = String(seedUser.user_id || '').trim();
-    if (!initPass || pass !== initPass) return jsonResp({ ok:false, message:'초기 비밀번호는 "커뮤니티 아이디"입니다.' }, 200);
-    // KV가 있으면 최초 로그인 시 KV 유저로 승격(비번 변경 가능)
-    await ensureUserInKV(env, email, seedUser, pass, secret);
-  }
+  if (!rec.user.pass_hash) return jsonResp({ ok:false, message:'비밀번호가 설정되지 않았습니다. 관리자에게 문의하십시오.' }, 200);
+  const inHash = await sha256Hex(`${secret}|${pass}`);
+  if (inHash !== rec.user.pass_hash) return jsonResp({ ok:false, message:'비밀번호가 올바르지 않습니다.' }, 200);
 
   const role = rec.user.role || 'user';
   const now = Date.now();
@@ -438,6 +438,7 @@ async function handleAuthLogin(request, env, baseUrl) {
   const setCookie = makeCookie(COOKIE_NAME, token, 60*60*24*14, new URL(request.url).hostname);
   return jsonResp({ ok:true, user:{ email, role } }, 200, { 'set-cookie': setCookie });
 }
+
 
 async function handleAuthMe(request, env, baseUrl) {
   const payload = await requireAuth(request, env, baseUrl);
@@ -490,7 +491,8 @@ async function handleAuthLogout(request, env, baseUrl) {
 
 
 async function handleAuthChangePassword(request, env, baseUrl) {
-  const secret = (env && env.JLAB_AUTH_SECRET) ? env.JLAB_AUTH_SECRET : DEFAULT_SECRET;
+  const secret = getAuthSecret(env);
+  if (!secret) return jsonResp({ ok:false, message:'서버 설정이 완료되지 않았습니다. (JLAB_AUTH_SECRET 필요)' }, 200);
   const payload = await requireAuth(request, env, baseUrl);
   if (!payload) return jsonResp({ ok:false, message:'로그인이 필요합니다.' }, 200);
   if (!(env && env.JLAB_KV && typeof env.JLAB_KV.get === 'function')) {
