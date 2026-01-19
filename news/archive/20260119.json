@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-19 16:54 KST",
+  "updated_at": "2026-01-19 17:26 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,56 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 17:18",
+      "title": "“오천피 눈앞인데 천스닥은 멀다”…코스피 훨훨, 코스닥 미지근",
+      "url": "https://www.mk.co.kr/news/stock/11937086",
+      "keywords_hit": [
+        "코스피",
+        "코스닥"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 17:14",
+      "title": "[M&A 매물장터] 연매출 140억원 석재관련 기업 매물로",
+      "url": "https://www.mk.co.kr/news/stock/11937080",
+      "keywords_hit": [
+        "M&A",
+        "매출"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 17:07",
+      "title": "불법 공매도 6곳에 40억 과징금",
+      "url": "https://www.hankyung.com/article/2026011997111",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 16:47",
+      "title": "\"'AI 트레이드' 무너졌다\"…따로 움직이는 'M7' 빅테크",
+      "url": "https://www.hankyung.com/article/2026011995757",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 16:46",
+      "title": "코스피, 첫 4900선 돌파…'삼전·닉스·현대차' 상승 마감 [HK영상]",
+      "url": "https://www.hankyung.com/article/202601199638i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -291,14 +341,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 11:36",
-      "title": "\"발전소 내놔\" 트럼프 꺼내든 카드 때문에…들썩 거리는 종목 [종목+]",
-      "url": "https://www.hankyung.com/article/202601198755i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-19 11:36",
@@ -306,27 +348,6 @@
       "url": "https://www.mk.co.kr/news/stock/11936785",
       "keywords_hit": [
         "배당"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 11:27",
-      "title": "\"방산업종 내 실적·수주 상대적 우위\" 한국항공우주 52주 신고가",
-      "url": "https://www.hankyung.com/article/2026011987176",
-      "keywords_hit": [
-        "실적",
-        "방산"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 11:13",
-      "title": "[마켓PRO] \"관세 우려 일시적\" 고수들, 반도체 매수…현대차는 팔아",
-      "url": "https://www.hankyung.com/article/202601198604i",
-      "keywords_hit": [
-        "반도체"
       ]
     },
     {
@@ -362,24 +383,6 @@
       "keywords_hit": [
         "매출"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-19 10:53",
-      "title": "현대차, ‘아틀라스’ 호평에 52주 신고가 경신…‘피지컬 AI’ 선도주 우뚝",
-      "url": "https://www.mk.co.kr/news/stock/11936702",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-19 10:40",
-      "title": "신고가 질주하는 현대차…LG엔솔 넘어 시총 3위로",
-      "url": "https://www.mk.co.kr/news/stock/11936677",
-      "keywords_hit": []
     }
   ]
 }
