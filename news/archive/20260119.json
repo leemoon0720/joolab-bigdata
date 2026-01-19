@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-19 15:32 KST",
+  "updated_at": "2026-01-19 16:04 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,52 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 15:58",
+      "title": "코스피, 사상 첫 4900선 돌파 마감…삼전·닉스·현차 모두 달렸다",
+      "url": "https://www.hankyung.com/article/2026011993596",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 15:51",
+      "title": "‘12일 연속 상승’ 코스피, 사상 첫 4900선 마감…현대차, 시총 3위 우뚝",
+      "url": "https://www.mk.co.kr/news/stock/11936967",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 15:45",
+      "title": "한국판 슈드로 '유턴'하는 美 배당족…\"S&P500보다 더 올랐다\"",
+      "url": "https://www.hankyung.com/article/202601198893i",
+      "keywords_hit": [
+        "배당"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 15:39",
+      "title": "마이크론 \"스마트폰·PC 회사들, 메모리 확보 위해 줄 서\"",
+      "url": "https://www.hankyung.com/article/2026011993837",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 15:29",
+      "title": "카카오 값 최대폭 하락했지만…초콜릿 가격 내리지 않는 까닭은",
+      "url": "https://www.hankyung.com/article/2026011983101",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -271,14 +317,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 11:06",
-      "title": "TS트릴리온, 고양시 소재 데이터센터의 UPS 구축 프로젝트 수주",
-      "url": "https://www.hankyung.com/article/2026011986646",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-19 11:02",
@@ -315,14 +353,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 10:46",
-      "title": "[속보] 현대차 11% 급등…LG엔솔 제치고 시총 3위",
-      "url": "https://www.hankyung.com/article/202601198570i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-19 10:40",
@@ -339,27 +369,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 10:28",
-      "title": "\"삼성중공업, 올해 해양플랜트 수주 개선 전망…목표가↑\"-KB",
-      "url": "https://www.hankyung.com/article/2026011982906",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-19 10:26",
       "title": "미래에셋증권, DC형 퇴직연금 전 업권 1위 도약...적립금 16조원 달성",
       "url": "https://www.mk.co.kr/news/stock/11936651",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 10:20",
-      "title": "한양증권 \"임직원 연금저축 ETF 투자 중 지수추종 비중 최대\"",
-      "url": "https://www.hankyung.com/article/2026011984656",
       "keywords_hit": []
     },
     {
@@ -369,16 +383,6 @@
       "title": "[MK시그널] 공공안전 통신기업 모토로라 솔루션즈, 매수신호 발생",
       "url": "https://www.mk.co.kr/news/stock/11936642",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-19 10:08",
-      "title": "[MK 골든크로스 돌파종목 : 켐트로닉스(089010) & 프롬바이오(377220)]",
-      "url": "https://www.mk.co.kr/news/stock/11936634",
-      "keywords_hit": [
-        "바이오"
-      ]
     }
   ]
 }
