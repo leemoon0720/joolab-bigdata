@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-19 16:04 KST",
+  "updated_at": "2026-01-19 16:38 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,10 +23,34 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 16:28",
+      "title": "미래에셋증권, DC 퇴직연금 적립금 16.3조…전 업권 1위",
+      "url": "https://www.mk.co.kr/news/stock/11937026",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 16:20",
+      "title": "두쫀쿠 시세는 5500원?…타임폴리오 “두쫀쿠 2알로 ETF 1주 산다”",
+      "url": "https://www.mk.co.kr/news/stock/11937009",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 16:00",
+      "title": "월가 전문가가 직접 톱픽 골라준다…급성장하는 액티브 ETF",
+      "url": "https://www.hankyung.com/article/202601199029i",
+      "keywords_hit": []
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-19 15:58",
-      "title": "코스피, 사상 첫 4900선 돌파 마감…삼전·닉스·현차 모두 달렸다",
+      "title": "코스피, 사상 첫 4900선 돌파 마감…삼전·하닉·현차 모두 달렸다",
       "url": "https://www.hankyung.com/article/2026011993596",
       "keywords_hit": [
         "코스피"
@@ -298,17 +322,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 11:09",
-      "title": "코스피 장중 4880선 돌파…코스닥도 상승 전환",
-      "url": "https://www.hankyung.com/article/202601198620i",
-      "keywords_hit": [
-        "코스피",
-        "코스닥"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-19 11:09",
@@ -366,22 +379,6 @@
       "published_at": "2026-01-19 10:36",
       "title": "상위 1% 초고수 순매수 1위 하이닉스…삼전·포스코도 담았다 [주식 초고수는 지금]",
       "url": "https://www.mk.co.kr/news/stock/11936664",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-19 10:26",
-      "title": "미래에셋증권, DC형 퇴직연금 전 업권 1위 도약...적립금 16조원 달성",
-      "url": "https://www.mk.co.kr/news/stock/11936651",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-19 10:15",
-      "title": "[MK시그널] 공공안전 통신기업 모토로라 솔루션즈, 매수신호 발생",
-      "url": "https://www.mk.co.kr/news/stock/11936642",
       "keywords_hit": []
     }
   ]
