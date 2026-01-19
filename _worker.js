@@ -912,6 +912,120 @@ async function handleAdminPopupSave(request, env, baseUrl) {
 
 
 // ==============================
+// Admin User Management (KV)
+// - 목적: 일반회원 생성/비밀번호 재설정(관리자 전용)
+// - 저장: KV key user:<email>
+// ==============================
+
+async function handleAdminUsersCreate(request, env, baseUrl){
+  const admin = await requireAdmin(request, env, baseUrl);
+  if(!admin) return jsonResp({ ok:false, message:'관리자 권한이 필요합니다.' }, 200);
+  const secret = getAuthSecret(env);
+  if(!secret) return jsonResp({ ok:false, message:'서버 설정이 완료되지 않았습니다. (JLAB_AUTH_SECRET 필요)' }, 200);
+  if(!(env && env.JLAB_KV && typeof env.JLAB_KV.put === 'function')){
+    return jsonResp({ ok:false, message:'서버 저장소(KV)가 설정되지 않았습니다.' }, 200);
+  }
+
+  const body = await request.json().catch(()=> ({}));
+  const email = String(body.email||'').trim().toLowerCase();
+  const password = String(body.password||'').trim();
+  const name = String(body.name||'').trim();
+  const nickname = String(body.nickname||'').trim();
+  const roleIn = String(body.role||'user').trim().toLowerCase();
+
+  if(!email || !email.includes('@')) return jsonResp({ ok:false, message:'이메일이 올바르지 않습니다.' }, 200);
+  if(password.length < 8) return jsonResp({ ok:false, message:'비밀번호는 8자 이상으로 설정해 주십시오.' }, 200);
+
+  const role = (roleIn === 'admin') ? 'admin' : 'user';
+
+  try{
+    await upsertUserInKV(env, email, { name, nickname }, password, secret, role);
+  }catch(e){
+    return jsonResp({ ok:false, message:'생성 실패', detail:String(e && e.message ? e.message : e) }, 200);
+  }
+
+  return jsonResp({ ok:true, email, role }, 200);
+}
+
+async function handleAdminUsersResetPassword(request, env, baseUrl){
+  const admin = await requireAdmin(request, env, baseUrl);
+  if(!admin) return jsonResp({ ok:false, message:'관리자 권한이 필요합니다.' }, 200);
+  const secret = getAuthSecret(env);
+  if(!secret) return jsonResp({ ok:false, message:'서버 설정이 완료되지 않았습니다. (JLAB_AUTH_SECRET 필요)' }, 200);
+  if(!(env && env.JLAB_KV && typeof env.JLAB_KV.put === 'function')){
+    return jsonResp({ ok:false, message:'서버 저장소(KV)가 설정되지 않았습니다.' }, 200);
+  }
+
+  const body = await request.json().catch(()=> ({}));
+  const email = String(body.email||'').trim().toLowerCase();
+  const newPassword = String(body.new_password||'').trim();
+  if(!email || !email.includes('@')) return jsonResp({ ok:false, message:'이메일이 올바르지 않습니다.' }, 200);
+  if(newPassword.length < 8) return jsonResp({ ok:false, message:'비밀번호는 8자 이상으로 설정해 주십시오.' }, 200);
+
+  const key = `user:${email}`;
+  const existing = await kvGetJSON(env, key);
+  if(!existing) return jsonResp({ ok:false, message:'등록된 회원이 아닙니다.' }, 200);
+
+  try{
+    await upsertUserInKV(env, email, { name: existing.name||'', nickname: existing.nickname||'', user_id: existing.user_id||'' }, newPassword, secret, existing.role || 'user');
+  }catch(e){
+    return jsonResp({ ok:false, message:'재설정 실패', detail:String(e && e.message ? e.message : e) }, 200);
+  }
+
+  return jsonResp({ ok:true, email }, 200);
+}
+
+async function handleAdminUsersGet(request, env, baseUrl){
+  const admin = await requireAdmin(request, env, baseUrl);
+  if(!admin) return jsonResp({ ok:false, message:'관리자 권한이 필요합니다.' }, 200);
+  if(!(env && env.JLAB_KV && typeof env.JLAB_KV.get === 'function')){
+    return jsonResp({ ok:false, message:'서버 저장소(KV)가 설정되지 않았습니다.' }, 200);
+  }
+
+  const u = new URL(request.url);
+  const email = String(u.searchParams.get('email')||'').trim().toLowerCase();
+  if(!email || !email.includes('@')) return jsonResp({ ok:false, message:'이메일이 올바르지 않습니다.' }, 200);
+
+  const rec = await kvGetJSON(env, `user:${email}`);
+  if(!rec) return jsonResp({ ok:false, message:'NOT_FOUND' }, 200);
+
+  // do not expose pass_hash
+  const out = { ...rec };
+  if(out.pass_hash) delete out.pass_hash;
+  return jsonResp({ ok:true, user: out }, 200);
+}
+
+async function handleAdminSignupRequests(request, env, baseUrl){
+  const admin = await requireAdmin(request, env, baseUrl);
+  if(!admin) return jsonResp({ ok:false, message:'관리자 권한이 필요합니다.' }, 200);
+  if(!(env && env.JLAB_KV && typeof env.JLAB_KV.list === 'function')){
+    return jsonResp({ ok:false, message:'서버 저장소(KV)가 설정되지 않았습니다.' }, 200);
+  }
+
+  const u = new URL(request.url);
+  let limit = parseInt(u.searchParams.get('limit') || '20', 10);
+  if(!Number.isFinite(limit) || limit < 1) limit = 20;
+  if(limit > 50) limit = 50;
+
+  const listed = await env.JLAB_KV.list({ prefix: 'signup/requests/', limit });
+  const keys = (listed && listed.keys) ? listed.keys.map(k=>k.name) : [];
+  // 최신이 앞으로 오도록 역순
+  keys.sort();
+  keys.reverse();
+
+  const items = [];
+  for(const k of keys){
+    try{
+      const v = await env.JLAB_KV.get(k);
+      if(!v) continue;
+      const j = JSON.parse(v);
+      items.push(j);
+    }catch(e){}
+  }
+  return jsonResp({ ok:true, items }, 200);
+}
+
+// ==============================
 // Posts (KV storage)
 // ==============================
 function compactTs(d=new Date()){
@@ -1422,6 +1536,23 @@ export default {
     }
     if (url.pathname === '/api/admin/popup/save' && request.method === 'POST') {
       return await handleAdminPopupSave(request, env, url.origin);
+    }
+
+
+    // ==============================
+    // Admin Users (Create/Reset/List Signup)
+    // ==============================
+    if (url.pathname === '/api/admin/users/create' && request.method === 'POST') {
+      return await handleAdminUsersCreate(request, env, url.origin);
+    }
+    if (url.pathname === '/api/admin/users/reset_password' && request.method === 'POST') {
+      return await handleAdminUsersResetPassword(request, env, url.origin);
+    }
+    if (url.pathname === '/api/admin/users/get') {
+      return await handleAdminUsersGet(request, env, url.origin);
+    }
+    if (url.pathname === '/api/admin/signup/requests') {
+      return await handleAdminSignupRequests(request, env, url.origin);
     }
 
 
