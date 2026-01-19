@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-19 19:37 KST",
+  "updated_at": "2026-01-19 19:58 KST",
   "sources": [
     {
       "id": "HK",
@@ -78,9 +78,11 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-19 17:47",
-      "title": "대형주만 달린다 … 현대차 16% 폭등, 시총 3위로",
+      "title": "피지컬 AI의 힘 … 현대차 16% 폭등, 시총 3위로",
       "url": "https://www.mk.co.kr/news/stock/11937226",
-      "keywords_hit": []
+      "keywords_hit": [
+        "AI"
+      ]
     },
     {
       "source": "MK",
