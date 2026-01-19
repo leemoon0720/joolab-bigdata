@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-19 11:08 KST",
+  "updated_at": "2026-01-19 12:57 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,74 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 11:36",
+      "title": "\"발전소 내놔\" AI 전력전쟁 시작…트럼프 한마디에 수혜주 갈린다",
+      "url": "https://www.hankyung.com/article/202601198755i",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 11:36",
+      "title": "KB운용 ‘KB액티브배당 펀드’, 1년 수익률 109%",
+      "url": "https://www.mk.co.kr/news/stock/11936785",
+      "keywords_hit": [
+        "배당"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 11:27",
+      "title": "\"방산업종 내 실적·수주 상대적 우위\" 한국항공우주 52주 신고가",
+      "url": "https://www.hankyung.com/article/2026011987176",
+      "keywords_hit": [
+        "실적",
+        "방산"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 11:13",
+      "title": "[마켓PRO] \"관세 우려 일시적\" 고수들, 반도체 매수…현대차는 팔아",
+      "url": "https://www.hankyung.com/article/202601198604i",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 11:09",
+      "title": "코스피 장중 4880선 돌파…코스닥도 상승 전환",
+      "url": "https://www.hankyung.com/article/202601198620i",
+      "keywords_hit": [
+        "코스피",
+        "코스닥"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 11:09",
+      "title": "그린란드 관세 우려에 비트코인 3% 급락 [매일코인]",
+      "url": "https://www.mk.co.kr/news/stock/11936738",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 11:06",
+      "title": "TS트릴리온, 고양시 소재 데이터센터의 UPS 구축 프로젝트 수주",
+      "url": "https://www.hankyung.com/article/2026011986646",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -267,39 +335,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 08:12",
-      "title": "증권주 강세 보일까…코스피 4850선 돌파 코앞 [오늘장 미리보기]",
-      "url": "https://www.hankyung.com/article/202601197900i",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-19 08:01",
       "title": "“삼성중공업, 올해 해양수주금액 최대 11.8조 가능성”…목표가↑",
       "url": "https://www.mk.co.kr/news/stock/11936469",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 08:00",
-      "title": "'AI 시대' 돈복사기로 뜬다…6개월 만에 '주가 2배' 불기둥 [핫픽! 해외주식]",
-      "url": "https://www.hankyung.com/article/202601165574i",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 07:53",
-      "title": "\"HD현대일렉트릭, 보수적 가이던스에도 수주 기대 충분…목표가↑\"-키움",
-      "url": "https://www.hankyung.com/article/2026011978876",
       "keywords_hit": []
     },
     {
@@ -309,16 +349,6 @@
       "title": "“삼전이 계속 오를 순 없잖아요”...5천피 이후 국장 책임질 주도주는",
       "url": "https://www.mk.co.kr/news/stock/11936464",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 07:27",
-      "title": "\"한화엔진, 내연기관이 밀고 전기 추진체가 끈다…목표가↑\"-한국",
-      "url": "https://www.hankyung.com/article/2026011978806",
-      "keywords_hit": [
-        "기관"
-      ]
     },
     {
       "source": "MK",
@@ -331,16 +361,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 07:00",
-      "title": "한 달 새 주가 두배 '폭등'…AI 필수품 되더니 '불기둥' 쏜 종목 [류은혁의 종목 핫라인]",
-      "url": "https://www.hankyung.com/article/202601165965i",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-19 06:32",
@@ -349,22 +369,6 @@
       "keywords_hit": [
         "실적"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-19 05:58",
-      "title": "“올해 최대 20%까지 떨어질 것”…골드만삭스가 ‘과열’ 경고한 투자처는",
-      "url": "https://www.mk.co.kr/news/stock/11936443",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-19 05:57",
-      "title": "“삼전 주식 2조 처분합니다”…상속세 납부·대출상환에 쓴다는 관장님",
-      "url": "https://www.mk.co.kr/news/stock/11936442",
-      "keywords_hit": []
     }
   ]
 }
