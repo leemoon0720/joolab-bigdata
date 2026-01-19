@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-20 07:43 KST",
+  "updated_at": "2026-01-20 07:55 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,33 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 07:41",
+      "title": "달러 비싸도 美 주식 사자, 서학개미 투자액 250조 돌파",
+      "url": "https://www.hankyung.com/article/2026012003047",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 07:36",
+      "title": "뉴욕증시 '마틴 루서 킹 데이' 휴장…내일 거래 재개",
+      "url": "https://www.hankyung.com/article/2026012003086",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 07:36",
+      "title": "\"NH투자증권, 호실적 바탕으로 高배당까지…목표가↑\"-DB",
+      "url": "https://www.hankyung.com/article/2026012003106",
+      "keywords_hit": [
+        "실적",
+        "배당"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -225,27 +252,11 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 17:45",
-      "title": "[특징주 & 리포트]''하이닉스 파트너' 브이엠 급등' 등",
-      "url": "https://www.hankyung.com/article/2026011998481",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-19 17:45",
       "title": "[속보] SKT, ‘개인정보 유출’ 과징금 1300억원 취소 소송 제기",
       "url": "https://www.mk.co.kr/news/business/11937221",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 17:43",
-      "title": "한국은행 12월 생산자물가지수",
-      "url": "https://www.hankyung.com/article/2026011998491",
       "keywords_hit": []
     },
     {
@@ -262,14 +273,6 @@
       "published_at": "2026-01-19 17:31",
       "title": "꿈의 5천피 카운트다운 … 현대차 시총100조 눈앞",
       "url": "https://www.mk.co.kr/news/stock/11937140",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 17:28",
-      "title": "큰손들 이미 싹쓸이 중…'560조 뭉칫돈' 몰린 곳이",
-      "url": "https://www.hankyung.com/article/2026011997931",
       "keywords_hit": []
     },
     {
