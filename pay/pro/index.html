@@ -65,6 +65,13 @@
         <li>업데이트: 영업일 장 마감 후 1회</li>
       </ul>
 
+      
+      <div class="checks" style="margin-top:12px;">
+        <label class="ck"><input id="ck-terms" type="checkbox"> <a href="/terms/" target="_blank" rel="noopener">이용약관</a> 동의</label>
+        <label class="ck"><input id="ck-privacy" type="checkbox"> <a href="/privacy/" target="_blank" rel="noopener">개인정보처리방침</a> 동의</label>
+        <label class="ck"><input id="ck-refund" type="checkbox"> <a href="/refund/" target="_blank" rel="noopener">환불·해지 규정</a> 확인</label>
+      </div>
+
       <div class="controls" style="margin-top:14px;">
         <button class="btn primary" id="payBtn" type="button" disabled style="opacity:.6;">결제하기</button>
         <a class="btn ghost" href="/subscribe/">돌아가기</a>
@@ -74,7 +81,7 @@
 
       <div class="small" style="margin-top:10px;">
         본 서비스는 정보(데이터 열람) 제공입니다. 매수/매도 지시, 수익 보장, 투자 권유는 제공하지 않습니다.<br>
-        디지털 콘텐츠 제공이 개시(열람/다운로드/재생 포함)된 경우 해당 결제건은 환불이 불가합니다. 해지 시 다음 결제는 자동 중단됩니다.
+        디지털 콘텐츠 제공이 개시(열람/다운로드/재생 포함)된 경우 해당 결제건은 환불이 불가합니다. 본 결제는 자동결제가 아닌 30일 이용권(만료형)입니다. 만료 후에는 재결제가 필요합니다.
       </div>
     </section>
   </div>
@@ -106,11 +113,24 @@
 (async function(){
   var msgEl = document.getElementById('payMsg');
   var btn = document.getElementById('payBtn');
+  var orderReady = false;
+  function allAgreed(){
+    var a = document.getElementById('ck-terms');
+    var b = document.getElementById('ck-privacy');
+    var c = document.getElementById('ck-refund');
+    return !!(a && a.checked && b && b.checked && c && c.checked);
+  }
+  function refreshPayEnabled(){
+    if(!btn) return;
+    var enable = orderReady && allAgreed();
+    btn.disabled = !enable;
+    btn.style.opacity = enable ? '1' : '.6';
+  }
   function setMsg(s){ if(msgEl) msgEl.textContent = s || ''; }
   function setBusy(b){
     if(!btn) return;
-    btn.disabled = !!b;
-    btn.style.opacity = b ? '.6' : '1';
+    btn.disabled = !!b || !orderReady || !allAgreed();
+    btn.style.opacity = (btn.disabled) ? '.6' : '1';
   }
 
   setBusy(true);
@@ -151,6 +171,8 @@
   var payment = tossPayments.payment({ customerKey: order.customerKey || order.orderId });
 
   setMsg('');
+  orderReady = true;
+  refreshPayEnabled();
   setBusy(false);
 
   btn.addEventListener('click', async function(){

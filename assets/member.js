@@ -112,11 +112,6 @@
     return await r.json();
   }
 
-
-  function getPlan(email){
-    try { return localStorage.getItem("jlab_plan_"+email) || "미구독"; } catch(e){ return "미구독"; }
-  }
-
   async function render(){
     const acctBadge = $("acct-badge");
     const subBadge = $("sub-badge");
@@ -133,10 +128,26 @@
       }
       const email = me.user.email;
       const role = me.user.role || "user";
-      const plan = getPlan(email);
+
+      // 구독은 서버 기준(/api/subscription/me)
+      let planDisplay = '미구독';
+      let status = 'none';
+      let expireAt = null;
+      try{
+        const sub = await fetchJSON('/api/subscription/me');
+        if(sub && sub.ok){
+          planDisplay = sub.plan_display || '미구독';
+          status = sub.status || 'none';
+          expireAt = sub.expire_at || null;
+        }
+      }catch(e){}
+
       if(acctBadge) acctBadge.textContent = (role === "admin") ? "ADMIN" : "LOGIN";
-      if(subBadge) subBadge.textContent = plan;
-      if(subDesc) subDesc.textContent = `현재 로그인: ${email} · 권한: ${role} · 구독: ${plan}`;
+      if(subBadge) subBadge.textContent = planDisplay;
+      if(subDesc){
+        const expText = expireAt ? (' · 만료: ' + String(expireAt).slice(0,10)) : '';
+        subDesc.textContent = `현재 로그인: ${email} · 권한: ${role} · 구독: ${planDisplay}${expText}`;
+      }
 
       applyAccountPageUI(true, email);
     }catch(e){
@@ -253,8 +264,22 @@
       });
     }
 if(btnCancel){
-      btnCancel.addEventListener("click", ()=>{
-        setMsg(cancelMsg, "구독 해지는 월구독 페이지에서 진행해 주십시오.", false);
+      btnCancel.addEventListener("click", async ()=>{
+        // Cancel = stop access immediately (this does NOT mean refund).
+        const ok = confirm('구독 해지를 진행하시겠습니까?\n- 만료형 이용권은 자동결제가 아닙니다.\n- 해지는 접근 권한을 즉시 비활성화합니다.\n- 환불은 환불·해지 규정에 따릅니다.');
+        if(!ok) return;
+        try{
+          setMsg(cancelMsg, '해지 처리 중...', true);
+          const res = await postJSON('/api/subscription/cancel', {});
+          if(res && res.ok){
+            setMsg(cancelMsg, '해지가 완료되었습니다. (접근 권한이 비활성화되었습니다)', true);
+            await render();
+            return;
+          }
+          setMsg(cancelMsg, (res && (res.message||res.error)) ? (res.message||res.error) : '해지 실패', false);
+        }catch(e){
+          setMsg(cancelMsg, '해지 실패 (서버 오류)', false);
+        }
       });
     }
   }

@@ -67,6 +67,13 @@
         <li>Basic + Premium 전부 포함(미국 지표 포함)</li>
       </ul>
 
+      
+      <div class="checks" style="margin-top:12px;">
+        <label class="ck"><input id="ck-terms" type="checkbox"> <a href="/terms/" target="_blank" rel="noopener">이용약관</a> 동의</label>
+        <label class="ck"><input id="ck-privacy" type="checkbox"> <a href="/privacy/" target="_blank" rel="noopener">개인정보처리방침</a> 동의</label>
+        <label class="ck"><input id="ck-refund" type="checkbox"> <a href="/refund/" target="_blank" rel="noopener">환불·해지 규정</a> 확인</label>
+      </div>
+
       <div class="controls" style="margin-top:14px;">
         <button class="btn primary" id="payBtn" type="button" disabled style="opacity:.6;">결제하기</button>
         <a class="btn ghost" href="/subscribe/">돌아가기</a>
@@ -107,11 +114,24 @@
 (async function(){
   var msgEl = document.getElementById('payMsg');
   var btn = document.getElementById('payBtn');
+  var orderReady = false;
+  function allAgreed(){
+    var a = document.getElementById('ck-terms');
+    var b = document.getElementById('ck-privacy');
+    var c = document.getElementById('ck-refund');
+    return !!(a && a.checked && b && b.checked && c && c.checked);
+  }
+  function refreshPayEnabled(){
+    if(!btn) return;
+    var enable = orderReady && allAgreed();
+    btn.disabled = !enable;
+    btn.style.opacity = enable ? '1' : '.6';
+  }
   function setMsg(s){ if(msgEl) msgEl.textContent = s || ''; }
   function setBusy(b){
     if(!btn) return;
-    btn.disabled = !!b;
-    btn.style.opacity = b ? '.6' : '1';
+    btn.disabled = !!b || !orderReady || !allAgreed();
+    btn.style.opacity = (btn.disabled) ? '.6' : '1';
   }
 
   setBusy(true);
@@ -152,6 +172,8 @@
   var payment = tossPayments.payment({ customerKey: order.customerKey || order.orderId });
 
   setMsg('');
+  orderReady = true;
+  refreshPayEnabled();
   setBusy(false);
 
   btn.addEventListener('click', async function(){
