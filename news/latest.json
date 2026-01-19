@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-19 16:38 KST",
+  "updated_at": "2026-01-19 16:54 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 16:40",
+      "title": "미래에셋운용, 연금자산 50조 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11937038",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -371,14 +379,6 @@
       "published_at": "2026-01-19 10:40",
       "title": "신고가 질주하는 현대차…LG엔솔 넘어 시총 3위로",
       "url": "https://www.mk.co.kr/news/stock/11936677",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-19 10:36",
-      "title": "상위 1% 초고수 순매수 1위 하이닉스…삼전·포스코도 담았다 [주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11936664",
       "keywords_hit": []
     }
   ]
