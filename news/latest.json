@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-19 12:57 KST",
+  "updated_at": "2026-01-19 13:54 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,78 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 13:53",
+      "title": "“2026년 폭발적 성장”...피델리티 “비트코인, ‘컨테이너 혁명’ 순간 왔다”",
+      "url": "https://www.mk.co.kr/news/stock/11936851",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 13:44",
+      "title": "회삿돈으로 산 자사주 재단법인에 무상 출연…주주 '반발' [종목+]",
+      "url": "https://www.hankyung.com/article/2026011986276",
+      "keywords_hit": [
+        "자사주"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 13:44",
+      "title": "\"달러 풍부하다\"는 한은…환율은 왜 계속 오를까 [한경 외환시장 워치]",
+      "url": "https://www.hankyung.com/article/202601198878i",
+      "keywords_hit": [
+        "환율"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 13:29",
+      "title": "케이엠제약, 제너럴브랜즈와 10억 규모 코스메틱 공급계약 체결",
+      "url": "https://www.hankyung.com/article/2026011989076",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 13:29",
+      "title": "“코스피 5000P 달성 순간 잡자” 금융사들 ‘딜링룸’ 노출 전쟁",
+      "url": "https://www.mk.co.kr/news/economy/11936832",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 13:26",
+      "title": "[마켓PRO] “기업 AI 예산 증대”…서학개미, 팰런티아 '사자'",
+      "url": "https://www.hankyung.com/article/202601198613i",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 13:25",
+      "title": "[단독]자산유동화 나서는 대구백화점, 저축은행도 결국 내놨다",
+      "url": "https://www.mk.co.kr/news/stock/11936828",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 13:24",
+      "title": "한국투자증권, '한투배틀' 실전투자 대회 개최",
+      "url": "https://www.hankyung.com/article/2026011989006",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -267,32 +339,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 09:31",
-      "title": "현대차, '아틀라스' 찬사에 최고가 질주…시총 3위 올랐다",
-      "url": "https://www.hankyung.com/article/2026011981886",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 09:30",
-      "title": "하락 출발한 코스피, 방향성 탐색…'불기둥' 현대차 시총 3위로",
-      "url": "https://www.hankyung.com/article/2026011981636",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 09:19",
-      "title": "삼성전자 1주도 없이 '100억어치 팔았다'…어떻게 가능했나보니",
-      "url": "https://www.hankyung.com/article/202601198167i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-19 09:04",
@@ -301,29 +347,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 08:40",
-      "title": "\"K-증시, 강한 IT 쏠림…반도체 비중 낮출 필요 없어\"-한국",
-      "url": "https://www.hankyung.com/article/2026011979576",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-19 08:40",
       "title": "공매도 재개 후 첫 대규모 ‘철퇴’… 신한운용·파레토 등 6곳 과징금 40억",
       "url": "https://www.mk.co.kr/news/stock/11936493",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 08:39",
-      "title": "\"네이버만 왜 이러죠\"…주저앉은 주가에 속 타는 개미들 [진영기의 찐개미 찐투자]",
-      "url": "https://www.hankyung.com/article/2026011979166",
       "keywords_hit": []
     },
     {
@@ -341,34 +369,6 @@
       "title": "“삼성중공업, 올해 해양수주금액 최대 11.8조 가능성”…목표가↑",
       "url": "https://www.mk.co.kr/news/stock/11936469",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-19 07:51",
-      "title": "“삼전이 계속 오를 순 없잖아요”...5천피 이후 국장 책임질 주도주는",
-      "url": "https://www.mk.co.kr/news/stock/11936464",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-19 07:22",
-      "title": "“한국항공우주, 올해 실적 턴어라운드 본격화”…목표가↑",
-      "url": "https://www.mk.co.kr/news/stock/11936457",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-19 06:32",
-      "title": "“넷플릭스 고점 대비 많이 떨어졌던데”…이번주 실적발표 ‘슈퍼위크’",
-      "url": "https://www.mk.co.kr/news/stock/11936446",
-      "keywords_hit": [
-        "실적"
-      ]
     }
   ]
 }
