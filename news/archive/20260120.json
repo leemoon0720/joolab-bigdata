@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-20 08:17 KST",
+  "updated_at": "2026-01-20 08:36 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 08:34",
+      "title": "IBK투자증권 “한미약품, 신약 모멘텀 확보…실적 기대치 상회 전망”",
+      "url": "https://www.mk.co.kr/news/stock/11937407",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -374,14 +384,6 @@
       "published_at": "2026-01-19 16:28",
       "title": "미래에셋증권, DC 퇴직연금 적립금 16.3조…전 업권 1위",
       "url": "https://www.mk.co.kr/news/stock/11937026",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-19 16:20",
-      "title": "두쫀쿠 시세는 5500원?…타임폴리오 “두쫀쿠 2알로 ETF 1주 산다”",
-      "url": "https://www.mk.co.kr/news/stock/11937009",
       "keywords_hit": []
     }
   ]
