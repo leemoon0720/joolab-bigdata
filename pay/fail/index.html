@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>결제 실패 | 주랩 빅데이터 센터</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@latest/dist/web/variable/pretendardvariable.css">
+  <link rel="stylesheet" href="/assets/app.css"/>
+</head>
+<body>
+<div class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="/">
+      <div class="brand-badge">JL</div>
+      <div>
+        <div class="brand-title">주랩 빅데이터 센터</div>
+        <div class="brand-sub">한국 증권 뉴스 · 데이터 아카이브</div>
+      </div>
+    </a>
+    <nav class="nav">
+      <a href="/subscribe/" data-nav="subscribe">월구독</a>
+      <a href="/account/" data-nav="account">회원</a>
+    </nav>
+  </div>
+</div>
+
+<main class="main">
+  <div class="container">
+    <section class="card doc-card">
+      <div class="card-top">
+        <h3>결제 실패</h3>
+        <span class="badge">TOSS</span>
+      </div>
+      <div id="status" class="small" style="margin-top:10px;"></div>
+      <div class="controls" style="margin-top:14px;">
+        <a class="btn ghost" href="/subscribe/">월구독</a>
+        <a class="btn ghost" href="/account/">회원/내 구독</a>
+      </div>
+    </section>
+  </div>
+</main>
+<div class="footer container">
+  <div class="small">© JOOLAB · Bigdata Center</div>
+</div>
+<script src="/assets/app.js"></script>
+<script>
+(function(){
+  var el = document.getElementById('status');
+  var p = new URLSearchParams(location.search);
+  var code = p.get('code') || '';
+  var msg = p.get('message') || '';
+  el.textContent = '실패 코드: ' + code + (msg ? ' | 메시지: ' + msg : '');
+})();
+</script>
+</body>
+</html>

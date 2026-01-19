@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>결제 성공 | 주랩 빅데이터 센터</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@latest/dist/web/variable/pretendardvariable.css">
+  <link rel="stylesheet" href="/assets/app.css"/>
+</head>
+<body>
+<div class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="/">
+      <div class="brand-badge">JL</div>
+      <div>
+        <div class="brand-title">주랩 빅데이터 센터</div>
+        <div class="brand-sub">한국 증권 뉴스 · 데이터 아카이브</div>
+      </div>
+    </a>
+    <nav class="nav">
+      <a href="/subscribe/" data-nav="subscribe">월구독</a>
+      <a href="/account/" data-nav="account">회원</a>
+    </nav>
+  </div>
+</div>
+
+<main class="main">
+  <div class="container">
+    <section class="card doc-card">
+      <div class="card-top">
+        <h3>결제 승인 처리</h3>
+        <span class="badge">TOSS</span>
+      </div>
+      <div id="status" class="small" style="margin-top:10px;">승인 처리 중...</div>
+      <div class="controls" style="margin-top:14px;">
+        <a class="btn ghost" href="/account/">회원/내 구독</a>
+        <a class="btn ghost" href="/subscribe/">월구독</a>
+      </div>
+    </section>
+  </div>
+</main>
+<div class="footer container">
+  <div class="foot-links">
+    <a href="/terms/">이용약관</a>
+    <span class="dot">·</span>
+    <a href="/privacy/">개인정보처리방침</a>
+    <span class="dot">·</span>
+    <a href="/refund/">환불·해지 규정</a>
+  </div>
+  <div class="small">© JOOLAB · Bigdata Center</div>
+</div>
+<script src="/assets/app.js"></script>
+<script>
+(async function(){
+  var el = document.getElementById('status');
+  function set(s){ if(el) el.textContent = s; }
+  var p = new URLSearchParams(location.search);
+  var paymentKey = p.get('paymentKey') || '';
+  var orderId = p.get('orderId') || '';
+  var amount = p.get('amount') || '';
+  if(!paymentKey || !orderId || !amount){
+    set('필수 파라미터가 없습니다. (paymentKey/orderId/amount)');
+    return;
+  }
+  set('서버에서 결제 승인 확인 중...');
+  var res;
+  try{
+    res = await fetch('/api/payments/toss/confirm', {
+      method:'POST',
+      credentials:'include',
+      headers:{'content-type':'application/json'},
+      body: JSON.stringify({ paymentKey: paymentKey, orderId: orderId, amount: Number(amount) })
+    }).then(function(r){ return r.json(); });
+  }catch(e){
+    set('승인 요청 오류');
+    return;
+  }
+  if(res && res.ok){
+    set('결제가 완료되었습니다. (구독이 활성화되었습니다)');
+    return;
+  }
+  if(res && (res.message||res.error)){
+    if(String(res.message||'').indexOf('로그인') >= 0){
+      var next = encodeURIComponent(location.pathname + location.search);
+      location.href = '/login/?next=' + next;
+      return;
+    }
+    set('승인 실패: ' + (res.message || res.error));
+    return;
+  }
+  set('승인 실패');
+})();
+</script>
+</body>
+</html>

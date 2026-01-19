@@ -517,6 +517,331 @@ async function handleAuthChangePassword(request, env, baseUrl) {
   return jsonResp({ ok:true, message:'비밀번호가 변경되었습니다.' }, 200);
 }
 
+// ==============================
+// Subscription (server-side)
+// - 목적: localStorage 기반 구독 판정 제거
+// - 저장: KV key sub:<email>
+//   { email, plan, status, expire_at, created_at, updated_at }
+// - access_active: (status in [active,canceled]) && (expire_at null or expire_at > now)
+// ==============================
+function _normalizePlan(p){
+  const x = String(p||'').trim().toLowerCase();
+  if(!x) return '';
+  const map = {
+    'basic':'basic',
+    'pro':'pro',
+    'premium':'pro',
+    'vip':'vip',
+    'coaching':'coaching'
+  };
+  return map[x] || x;
+}
+function _planDisplay(p){
+  const x = _normalizePlan(p);
+  if(x === 'basic') return 'BASIC';
+  if(x === 'pro') return 'PREMIUM';
+  if(x === 'vip') return 'VIP';
+  if(x === 'coaching') return 'COACHING';
+  if(x === 'admin') return 'ADMIN';
+  return '미구독';
+}
+
+async function getSubscription(env, emailLower){
+  if(!(env && env.JLAB_KV && typeof env.JLAB_KV.get === 'function')) return null;
+  return await kvGetJSON(env, `sub:${emailLower}`);
+}
+
+function computeSubscriptionView(sub){
+  if(!sub) return { plan:'', plan_display:'미구독', status:'none', expire_at:null, access_active:false };
+  const plan = _normalizePlan(sub.plan||'');
+  const status = String(sub.status||'none').trim().toLowerCase();
+  const expire_at = sub.expire_at || null;
+  let active = false;
+  if(status === 'active' || status === 'canceled'){
+    if(!expire_at){
+      active = true
+    } else {
+      const ts = Date.parse(String(expire_at));
+      if(Number.isFinite(ts) && ts > Date.now()) active = true;
+    }
+  }
+  return {
+    plan,
+    plan_display: _planDisplay(plan),
+    status,
+    expire_at,
+    access_active: active
+  };
+}
+
+async function handleSubscriptionMe(request, env, baseUrl){
+  const payload = await requireAuth(request, env, baseUrl);
+  if(!payload) return jsonResp({ok:false, message:'로그인이 필요합니다.'}, 200);
+  const email = String(payload.email||'').trim().toLowerCase();
+  const role = String(payload.role||'user');
+
+  if(role === 'admin'){
+    return jsonResp({ ok:true, email, role, plan:'admin', plan_display:'ADMIN', status:'active', expire_at:null, access_active:true }, 200);
+  }
+
+  const sub = await getSubscription(env, email);
+  const view = computeSubscriptionView(sub);
+  return jsonResp({ ok:true, email, role, ...view }, 200);
+}
+
+async function handleSubscriptionAdminSet(request, env, baseUrl){
+  const admin = await requireAdmin(request, env, baseUrl);
+  if(!admin) return jsonResp({ok:false, message:'관리자 권한이 필요합니다.'}, 200);
+  if(!(env && env.JLAB_KV && typeof env.JLAB_KV.put === 'function')){
+    return jsonResp({ok:false, message:'서버 저장소(KV)가 설정되지 않았습니다.'}, 200);
+  }
+
+  const body = await request.json().catch(()=> ({}));
+  const email = String(body.email||'').trim().toLowerCase();
+  const planIn = _normalizePlan(body.plan||'');
+  const days = Number(body.days);
+  const expireAtIn = String(body.expire_at||'').trim();
+
+  if(!email || !email.includes('@')) return jsonResp({ok:false, message:'이메일이 올바르지 않습니다.'}, 200);
+
+  // planIn empty/none -> delete subscription
+  const allowed = ['basic','pro','vip','coaching'];
+  if(planIn && !allowed.includes(planIn)) return jsonResp({ok:false, message:'플랜이 올바르지 않습니다.'}, 200);
+
+  const key = `sub:${email}`;
+  if(!planIn){
+    try{ await env.JLAB_KV.delete(key); }catch(e){}
+    return jsonResp({ok:true, email, deleted:true}, 200);
+  }
+
+  let expire_at = null
+  if(expireAtIn){
+    // accept ISO or yyyy-mm-dd
+    let d = Date.parse(expireAtIn);
+    if(!Number.isFinite(d)) return jsonResp({ok:false, message:'만료일(expire_at)이 올바르지 않습니다.'}, 200);
+    expire_at = new Date(d).toISOString();
+  } else {
+    const addDays = (Number.isFinite(days) && days>0) ? days : 30;
+    expire_at = new Date(Date.now() + addDays*86400000).toISOString();
+  }
+
+  let existing = null;
+  try{ existing = await kvGetJSON(env, key); }catch(e){ existing = null; }
+  const nowISO = new Date().toISOString();
+  const rec = {
+    email,
+    plan: planIn,
+    status: 'active',
+    expire_at,
+    created_at: (existing && existing.created_at) ? existing.created_at : nowISO,
+    updated_at: nowISO,
+    updated_by: admin.email || admin.user_id || 'admin'
+  };
+  await env.JLAB_KV.put(key, JSON.stringify(rec));
+  return jsonResp({ok:true, email, plan:planIn, plan_display:_planDisplay(planIn), status:'active', expire_at}, 200);
+}
+
+async function handleSubscriptionCancel(request, env, baseUrl){
+  const payload = await requireAuth(request, env, baseUrl);
+  if(!payload) return jsonResp({ok:false, message:'로그인이 필요합니다.'}, 200);
+  if(!(env && env.JLAB_KV && typeof env.JLAB_KV.put === 'function')){
+    return jsonResp({ok:false, message:'서버 저장소(KV)가 설정되지 않았습니다.'}, 200);
+  }
+  const email = String(payload.email||'').trim().toLowerCase();
+  const key = `sub:${email}`;
+  let existing = null;
+  try{ existing = await kvGetJSON(env, key); }catch(e){ existing = null; }
+  if(!existing){
+    return jsonResp({ok:false, message:'구독 정보가 없습니다.'}, 200);
+  }
+  existing.status = 'canceled';
+  existing.updated_at = new Date().toISOString();
+  existing.updated_by = email;
+  await env.JLAB_KV.put(key, JSON.stringify(existing));
+  const view = computeSubscriptionView(existing);
+  return jsonResp({ok:true, email, ...view}, 200);
+}
+
+
+
+// ==============================
+// Payments (Toss, single payment → expiry subscription)
+// - 목적: 승인 전 테스트 결제 흐름 구축 (단건결제/만료형 이용권)
+// - 저장: KV
+//    order:<orderId>  { orderId, email, plan, amount, status, created_at, updated_at, paymentKey? }
+// - 구독: sub:<email> 업데이트 (active + expire_at + 30일)
+// ==============================
+function getPriceByPlan(env, plan){
+  const p = _normalizePlan(plan);
+  const ov = (k)=>{ const v=(env&&env[k]!=null)?String(env[k]).trim():''; const n=Number(v); return (Number.isFinite(n) && n>0) ? Math.floor(n) : null; };
+  const defaults = { basic:29000, pro:89000, vip:200000, coaching:150000 };
+  const map = { basic:'PRICE_BASIC', pro:'PRICE_PRO', vip:'PRICE_VIP', coaching:'PRICE_COACHING' };
+  const key = map[p];
+  const o = key ? ov(key) : null;
+  return o || defaults[p] || 0;
+}
+function planToOrderName(plan){
+  const p=_normalizePlan(plan);
+  if(p==='basic') return '주랩 BASIC 월간 이용권';
+  if(p==='pro') return '주랩 PREMIUM 월간 이용권';
+  if(p==='vip') return '주랩 VIP 월간 이용권';
+  if(p==='coaching') return '주랩 COACHING 이용권';
+  return '주랩 이용권';
+}
+function addDaysISO(baseMs, days){
+  const d = new Date(baseMs + days*86400000);
+  return d.toISOString();
+}
+function safeOrigin(urlOrigin){
+  return String(urlOrigin||'').replace(/\/+$/,'');
+}
+
+async function handleTossConfig(request, env, baseUrl){
+  const clientKey = (env && env.TOSS_CLIENT_KEY) ? String(env.TOSS_CLIENT_KEY).trim() : '';
+  if(!clientKey) return jsonResp({ok:false, message:'TOSS_CLIENT_KEY 미설정'}, 200);
+  const origin = safeOrigin(baseUrl);
+  return jsonResp({
+    ok:true,
+    clientKey,
+    successUrl: origin + '/pay/success/',
+    failUrl: origin + '/pay/fail/'
+  }, 200);
+}
+
+async function handleOrdersCreate(request, env, baseUrl){
+  const payload = await requireAuth(request, env, baseUrl);
+  if(!payload) return jsonResp({ok:false, message:'로그인이 필요합니다.'}, 401);
+  if(!(env && env.JLAB_KV && typeof env.JLAB_KV.put === 'function')){
+    return jsonResp({ok:false, message:'서버 저장소(KV)가 설정되지 않았습니다.'}, 200);
+  }
+  const body = await request.json().catch(()=> ({}));
+  const plan = _normalizePlan(body.plan||'');
+  const allowed=['basic','pro','vip','coaching'];
+  if(!allowed.includes(plan)) return jsonResp({ok:false, message:'플랜이 올바르지 않습니다.'}, 200);
+
+  const amount = getPriceByPlan(env, plan);
+  if(!amount || amount<100) return jsonResp({ok:false, message:'결제 금액 설정이 올바르지 않습니다.'}, 200);
+
+  const orderId = (crypto && crypto.randomUUID) ? crypto.randomUUID() : String(Math.random()).slice(2) + String(Date.now());
+  const email = String(payload.email||'').trim().toLowerCase();
+  const nowISO = new Date().toISOString();
+  const origin = safeOrigin(baseUrl);
+  const rec = {
+    orderId,
+    email,
+    plan,
+    amount,
+    status:'READY',
+    created_at: nowISO,
+    updated_at: nowISO
+  };
+  await env.JLAB_KV.put(`order:${orderId}`, JSON.stringify(rec));
+  return jsonResp({
+    ok:true,
+    orderId,
+    orderName: planToOrderName(plan),
+    amount,
+    customerEmail: email,
+    successUrl: origin + '/pay/success/',
+    failUrl: origin + '/pay/fail/',
+    customerKey: orderId
+  }, 200);
+}
+
+async function handleTossConfirm(request, env, baseUrl){
+  const payload = await requireAuth(request, env, baseUrl);
+  if(!payload) return jsonResp({ok:false, message:'로그인이 필요합니다.'}, 401);
+  if(!(env && env.JLAB_KV && typeof env.JLAB_KV.put === 'function')){
+    return jsonResp({ok:false, message:'서버 저장소(KV)가 설정되지 않았습니다.'}, 200);
+  }
+  const secretKey = (env && env.TOSS_SECRET_KEY) ? String(env.TOSS_SECRET_KEY).trim() : '';
+  if(!secretKey) return jsonResp({ok:false, message:'TOSS_SECRET_KEY 미설정'}, 200);
+
+  const body = await request.json().catch(()=> ({}));
+  const paymentKey = String(body.paymentKey||'').trim();
+  const orderId = String(body.orderId||'').trim();
+  const amount = Number(body.amount);
+  if(!paymentKey || !orderId || !Number.isFinite(amount)) return jsonResp({ok:false, message:'요청 값이 올바르지 않습니다.'}, 200);
+
+  const orderKey = `order:${orderId}`;
+  const order = await kvGetJSON(env, orderKey);
+  if(!order || !order.email) return jsonResp({ok:false, message:'주문 정보를 찾을 수 없습니다.'}, 200);
+
+  const email = String(order.email||'').trim().toLowerCase();
+  const me = String(payload.email||'').trim().toLowerCase();
+  const role = String(payload.role||'user');
+  if(role !== 'admin' && me !== email){
+    return jsonResp({ok:false, message:'권한이 없습니다.'}, 403);
+  }
+
+  if(Number(order.amount) !== Math.floor(amount)){
+    return jsonResp({ok:false, message:'결제 금액이 일치하지 않습니다.'}, 200);
+  }
+
+  if(String(order.status||'') === 'PAID'){
+    const sub = await getSubscription(env, email);
+    const view = computeSubscriptionView(sub);
+    return jsonResp({ok:true, already:true, email, ...view}, 200);
+  }
+
+  const auth = btoa(secretKey + ':');
+  let confirmJson = null;
+  try{
+    const resp = await fetch('https://api.tosspayments.com/v1/payments/confirm', {
+      method:'POST',
+      headers:{
+        'Authorization': 'Basic ' + auth,
+        'Content-Type':'application/json'
+      },
+      body: JSON.stringify({ paymentKey, orderId, amount: Math.floor(amount) })
+    });
+    const text = await resp.text();
+    try { confirmJson = JSON.parse(text); } catch(_) { confirmJson = { raw:text }; }
+    if(!resp.ok){
+      order.status = 'FAILED';
+      order.updated_at = new Date().toISOString();
+      order.fail = { status: resp.status, body: confirmJson };
+      await env.JLAB_KV.put(orderKey, JSON.stringify(order));
+      return jsonResp({ok:false, message:'결제 승인 실패', status: resp.status, detail: confirmJson}, 200);
+    }
+  }catch(e){
+    order.status = 'FAILED';
+    order.updated_at = new Date().toISOString();
+    order.fail = { error: String(e && e.message ? e.message : e) };
+    await env.JLAB_KV.put(orderKey, JSON.stringify(order));
+    return jsonResp({ok:false, message:'결제 승인 요청 오류', detail: String(e && e.message ? e.message : e)}, 200);
+  }
+
+  order.status = 'PAID';
+  order.paymentKey = paymentKey;
+  order.updated_at = new Date().toISOString();
+  order.paid_at = order.updated_at;
+  await env.JLAB_KV.put(orderKey, JSON.stringify(order));
+
+  const nowISO = new Date().toISOString();
+  const days = 30;
+  let baseMs = Date.now();
+  let existing = await getSubscription(env, email);
+  if(existing && existing.expire_at){
+    const ex = Date.parse(String(existing.expire_at));
+    if(Number.isFinite(ex) && ex > baseMs) baseMs = ex;
+  }
+  const expire_at = addDaysISO(baseMs, days);
+  const subRec = {
+    email,
+    plan: order.plan,
+    status: 'active',
+    expire_at,
+    created_at: (existing && existing.created_at) ? existing.created_at : nowISO,
+    updated_at: nowISO,
+    updated_by: 'payment'
+  };
+  await env.JLAB_KV.put(`sub:${email}`, JSON.stringify(subRec));
+  const view = computeSubscriptionView(subRec);
+  return jsonResp({ok:true, email, payment: confirmJson, ...view}, 200);
+}
+
+
 async function handleNoticeLatest(request, env, baseUrl) {
   const kvVal = await kvGetJSON(env, 'notice_latest');
   if (kvVal) return jsonResp({ ok:true, ...kvVal }, 200);
@@ -1054,6 +1379,32 @@ export default {
     }
 
     // ==============================
+        // ==============================
+    // Payments (Toss)
+    // ==============================
+    if (url.pathname === '/api/payments/toss/config') {
+      return await handleTossConfig(request, env, url.origin);
+    }
+    if (url.pathname === '/api/orders/create' && request.method === 'POST') {
+      return await handleOrdersCreate(request, env, url.origin);
+    }
+    if (url.pathname === '/api/payments/toss/confirm' && request.method === 'POST') {
+      return await handleTossConfirm(request, env, url.origin);
+    }
+
+// Subscription API
+    // ==============================
+    if (url.pathname === '/api/subscription/me') {
+      return await handleSubscriptionMe(request, env, url.origin);
+    }
+    if (url.pathname === '/api/subscription/admin/set' && request.method === 'POST') {
+      return await handleSubscriptionAdminSet(request, env, url.origin);
+    }
+    if (url.pathname === '/api/subscription/cancel' && request.method === 'POST') {
+      return await handleSubscriptionCancel(request, env, url.origin);
+    }
+
+    // ==============================
     // Notice / Popup (Public read)
     // ==============================
     if (url.pathname === '/api/notice/latest') {
@@ -1154,6 +1505,25 @@ export default {
         to.searchParams.set('next', next);
         return Response.redirect(to.toString(), 302);
       }
+
+      // 구독(만료형) 게이트: 빅데이터 영역은 로그인 + 유효 구독이 필요합니다.
+      const isBigdata = (url.pathname === '/data' || url.pathname.startsWith('/data/')
+        || url.pathname === '/strong' || url.pathname.startsWith('/strong/')
+        || url.pathname === '/accum' || url.pathname.startsWith('/accum/')
+        || url.pathname === '/suspicious' || url.pathname.startsWith('/suspicious/'));
+
+      if (isBigdata && (payload.role || 'user') !== 'admin') {
+        const email = String(payload.email||'').trim().toLowerCase();
+        const sub = await getSubscription(env, email);
+        const view = computeSubscriptionView(sub);
+        if (!view.access_active) {
+          const next = url.pathname + (url.search || '');
+          const to = new URL('/bigdata_gate/', url.origin);
+          to.searchParams.set('next', next);
+          return Response.redirect(to.toString(), 302);
+        }
+      }
+
     }
 
     // Static assets passthrough

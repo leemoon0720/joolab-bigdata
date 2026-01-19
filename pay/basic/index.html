@@ -68,9 +68,11 @@
       </ul>
 
       <div class="controls" style="margin-top:14px;">
-        <a class="btn primary" href="/subscribe/" style="pointer-events:none; opacity:.6;" aria-disabled="true">결제 연동 준비중</a>
+        <button class="btn primary" id="payBtn" type="button" disabled style="opacity:.6;">결제하기</button>
         <a class="btn ghost" href="/subscribe/">돌아가기</a>
       </div>
+
+      <div id="payMsg" class="small" style="margin-top:10px;"></div>
 
       <div class="small" style="margin-top:10px;">
         본 서비스는 정보(데이터 열람) 제공입니다. 매수/매도 지시, 수익 보장, 투자 권유는 제공하지 않습니다.<br>
@@ -99,6 +101,79 @@
     <div class="small">© JOOLAB · Bigdata Center</div>
   </div>
   <script src="/assets/app.js"></script>
+
+
+<script src="https://js.tosspayments.com/v2/standard"></script>
+<script>
+(async function(){
+  var msgEl = document.getElementById('payMsg');
+  var btn = document.getElementById('payBtn');
+  function setMsg(s){ if(msgEl) msgEl.textContent = s || ''; }
+  function setBusy(b){
+    if(!btn) return;
+    btn.disabled = !!b;
+    btn.style.opacity = b ? '.6' : '1';
+  }
+
+  setBusy(true);
+  setMsg('로그인 확인 중...');
+
+  var me = null;
+  try { me = await fetch('/api/auth/me', { credentials:'include' }).then(function(r){return r.json();}); } catch(e) { me = {ok:false}; }
+  if(!me || !me.ok){
+    var next = encodeURIComponent(location.pathname);
+    location.href = '/login/?next=' + next;
+    return;
+  }
+
+  setMsg('주문 생성 중...');
+  var order = null;
+  try {
+    order = await fetch('/api/orders/create', {
+      method: 'POST',
+      credentials: 'include',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ plan: 'basic' })
+    }).then(function(r){return r.json();});
+  } catch(e) { order = {ok:false}; }
+
+  if(!order || !order.ok){
+    setMsg((order && (order.message || order.error)) ? (order.message || order.error) : '주문 생성 실패');
+    return;
+  }
+
+  var cfg = null;
+  try { cfg = await fetch('/api/payments/toss/config', { credentials:'include' }).then(function(r){return r.json();}); } catch(e) { cfg = {ok:false}; }
+  if(!cfg || !cfg.ok){
+    setMsg((cfg && cfg.message) ? cfg.message : '결제 설정 오류');
+    return;
+  }
+
+  var tossPayments = TossPayments(cfg.clientKey);
+  var payment = tossPayments.payment({ customerKey: order.customerKey || order.orderId });
+
+  setMsg('');
+  setBusy(false);
+
+  btn.addEventListener('click', async function(){
+    setBusy(true);
+    setMsg('결제창 여는 중...');
+    try {
+      await payment.requestPayment({
+        amount: order.amount,
+        orderId: order.orderId,
+        orderName: order.orderName,
+        successUrl: order.successUrl,
+        failUrl: order.failUrl,
+        customerEmail: order.customerEmail
+      });
+    } catch(e) {
+      setMsg('결제 요청이 취소되었거나 오류가 발생했습니다.');
+      setBusy(false);
+    }
+  });
+})();
+</script>
 
 </body>
 </html>
