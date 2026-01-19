@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-19 23:02 KST",
+  "updated_at": "2026-01-19 23:39 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,24 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 23:24",
+      "title": "[마켓칼럼]미국의 '제네시스 미션'과 투자 기회",
+      "url": "https://www.hankyung.com/article/202601198992i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 23:07",
+      "title": "우리운용, 합병 2년 만에 순자산 60조원…역대 최대 실적",
+      "url": "https://www.hankyung.com/article/2026011901326",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -321,24 +339,6 @@
       "keywords_hit": [
         "M&A",
         "매출"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 17:07",
-      "title": "불법 공매도 6곳에 40억 과징금",
-      "url": "https://www.hankyung.com/article/2026011997111",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 16:47",
-      "title": "\"'AI 트레이드' 무너졌다\"…따로 움직이는 'M7' 빅테크",
-      "url": "https://www.hankyung.com/article/2026011995757",
-      "keywords_hit": [
-        "AI"
       ]
     },
     {
