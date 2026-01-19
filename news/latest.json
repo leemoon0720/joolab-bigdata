@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-19 08:58 KST",
+  "updated_at": "2026-01-19 11:08 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,6 +23,216 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 11:02",
+      "title": "키움증권, 공모 김치본드 단독주관…규제완화 후 최초",
+      "url": "https://www.mk.co.kr/news/stock/11936723",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 10:58",
+      "title": "지수 40%·테마 35%…한양증권 임직원 연금저축 ETF 비중 보니",
+      "url": "https://www.mk.co.kr/news/stock/11936719",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 10:58",
+      "title": "“1년 매출 90% 규모 수주 따냈다”…비츠로넥스텍 7%대 급등 ‘52주 신고가’",
+      "url": "https://www.mk.co.kr/news/stock/11936718",
+      "keywords_hit": [
+        "매출"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 10:53",
+      "title": "현대차, ‘아틀라스’ 호평에 52주 신고가 경신…‘피지컬 AI’ 선도주 우뚝",
+      "url": "https://www.mk.co.kr/news/stock/11936702",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 10:46",
+      "title": "[속보] 현대차 11% 급등…LG엔솔 제치고 시총 3위",
+      "url": "https://www.hankyung.com/article/202601198570i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 10:40",
+      "title": "신고가 질주하는 현대차…LG엔솔 넘어 시총 3위로",
+      "url": "https://www.mk.co.kr/news/stock/11936677",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 10:36",
+      "title": "상위 1% 초고수 순매수 1위 하이닉스…삼전·포스코도 담았다 [주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11936664",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 10:28",
+      "title": "\"삼성중공업, 올해 해양플랜트 수주 개선 전망…목표가↑\"-KB",
+      "url": "https://www.hankyung.com/article/2026011982906",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 10:26",
+      "title": "미래에셋증권, DC형 퇴직연금 전 업권 1위 도약...적립금 16조원 달성",
+      "url": "https://www.mk.co.kr/news/stock/11936651",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 10:20",
+      "title": "한양증권 \"임직원 연금저축 ETF 투자 중 지수추종 비중 최대\"",
+      "url": "https://www.hankyung.com/article/2026011984656",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 10:18",
+      "title": "로봇株 열풍 계속…두산로보틱스 20% 급등",
+      "url": "https://www.hankyung.com/article/2026011983696",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 10:15",
+      "title": "[MK시그널] 공공안전 통신기업 모토로라 솔루션즈, 매수신호 발생",
+      "url": "https://www.mk.co.kr/news/stock/11936642",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 10:08",
+      "title": "[MK 골든크로스 돌파종목 : 켐트로닉스(089010) & 프롬바이오(377220)]",
+      "url": "https://www.mk.co.kr/news/stock/11936634",
+      "keywords_hit": [
+        "바이오"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 10:07",
+      "title": "\"지금 들어가도 될까?\"…'20% 급등' 불기둥 뿜자 개미 '들썩' [종목+]",
+      "url": "https://www.hankyung.com/article/202601198381i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 09:59",
+      "title": "[MK시그널] 오리온, 4분기 어닝 서프라이즈 및 중국 법인 수익성 회복 기대감 등에 주가 상승세... MK시그널 추천 후 상승률 8.33%기록",
+      "url": "https://www.mk.co.kr/news/stock/11936626",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 09:58",
+      "title": "혼자서 주식으로만 1조원 갖고 있다는 이 남자…무슨 종목 담았길래",
+      "url": "https://www.mk.co.kr/news/stock/11936625",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 09:55",
+      "title": "[마켓PRO] Today's Pick : \"드디어 나온 BTS 복귀계획…하이브 새 역사 쓸 것\"",
+      "url": "https://www.hankyung.com/article/202601198275i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 09:49",
+      "title": "넥스트증권, 사내문화 TF '넥스터즈' 3개월 활동 마무리",
+      "url": "https://www.hankyung.com/article/202601198359i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 09:46",
+      "title": "비츠로넥스텍, 273억 통합풍동장치 공급계약 소식에 '급등'",
+      "url": "https://www.hankyung.com/article/2026011983426",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 09:39",
+      "title": "\"SK하이닉스와 공급 계약 체결\"…브이엠, 6%대 강세",
+      "url": "https://www.hankyung.com/article/2026011982846",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 09:37",
+      "title": "\"진작 살 걸\"…현대차 '비밀병기' 반응 폭발에 또 신고가 [종목+]",
+      "url": "https://www.hankyung.com/article/202601198224i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 09:31",
+      "title": "현대차, '아틀라스' 찬사에 최고가 질주…시총 3위 올랐다",
+      "url": "https://www.hankyung.com/article/2026011981886",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 09:30",
+      "title": "하락 출발한 코스피, 방향성 탐색…'불기둥' 현대차 시총 3위로",
+      "url": "https://www.hankyung.com/article/2026011981636",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 09:19",
+      "title": "삼성전자 1주도 없이 '100억어치 팔았다'…어떻게 가능했나보니",
+      "url": "https://www.hankyung.com/article/202601198167i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 09:04",
+      "title": "“주식시장은 마디숫자 좋아해”…5천 도달하면 이 종목 강세라는데",
+      "url": "https://www.mk.co.kr/news/stock/11936516",
+      "keywords_hit": []
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-19 08:40",
@@ -44,11 +254,9 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-19 08:39",
-      "title": "\"네이버만 왜 이래\"…'국대 AI' 탈락에 속타는 주주 [진영기의 찐개미 찐투자]",
+      "title": "\"네이버만 왜 이러죠\"…주저앉은 주가에 속 타는 개미들 [진영기의 찐개미 찐투자]",
       "url": "https://www.hankyung.com/article/2026011979166",
-      "keywords_hit": [
-        "AI"
-      ]
+      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -156,231 +364,6 @@
       "published_at": "2026-01-19 05:57",
       "title": "“삼전 주식 2조 처분합니다”…상속세 납부·대출상환에 쓴다는 관장님",
       "url": "https://www.mk.co.kr/news/stock/11936442",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 01:03",
-      "title": "홍라희 삼전 주식 2조원 처분한다",
-      "url": "https://www.hankyung.com/article/2026011876731",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-18 21:38",
-      "title": "국민연금, 국내주식 투자비중 늘리나…예금서 증시로 ‘머니무브’",
-      "url": "https://www.mk.co.kr/news/stock/11936400",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-18 20:27",
-      "title": "빅테크가 韓시장 장악…'소버린 AI' 회의론 확산",
-      "url": "https://www.hankyung.com/article/2026011876131",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-18 18:34",
-      "title": "홍라희, 삼성전자 주식 1500만주 처분한다…약 2조 규모",
-      "url": "https://www.hankyung.com/article/2026011875877",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-18 17:47",
-      "title": "트럼프 농가 지원책에 농산물株 들썩",
-      "url": "https://www.mk.co.kr/news/stock/11936288",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-18 17:47",
-      "title": "美빅테크보다 잘나가네 … 中기술주 반년새 50%↑",
-      "url": "https://www.mk.co.kr/news/stock/11936289",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-18 17:47",
-      "title": "구리값 파죽지세 꺾이나 … 골드만 \"올해 10~20% 떨어질것\"",
-      "url": "https://www.mk.co.kr/news/stock/11936287",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-18 17:29",
-      "title": "넷플보다 7배 비싸도 지갑 연다…생성형 AI 구독, 2년새 30배 급증",
-      "url": "https://www.hankyung.com/article/2026011875001",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-18 17:22",
-      "title": "오픈AI·앤스로픽…美 IPO '초대어' 뜬다",
-      "url": "https://www.hankyung.com/article/2026011874991",
-      "keywords_hit": [
-        "IPO",
-        "AI"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-18 17:17",
-      "title": "[이번주 증시 예보] 삼성바이오·인텔·넷플릭스 … 실적발표 주목",
-      "url": "https://www.mk.co.kr/news/stock/11936251",
-      "keywords_hit": [
-        "실적",
-        "바이오"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-18 17:17",
-      "title": "[표] 이번주 머니 캘린더",
-      "url": "https://www.mk.co.kr/news/stock/11936250",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-18 17:17",
-      "title": "오천피 선봉에 '삼전닉스'가 섰다면 이젠 로봇·원전·조선株가 힘보탠다",
-      "url": "https://www.mk.co.kr/news/stock/11936248",
-      "keywords_hit": [
-        "로봇"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-18 17:02",
-      "title": "3% 남았다…與 '코스피5000' 특위 \"이제 숫자 빼야 하나\" [박주연의 여의도 나침반]",
-      "url": "https://www.hankyung.com/article/202601187462i",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-18 16:49",
-      "title": "홍라희, 삼성전자 주식 2조 처분",
-      "url": "https://www.mk.co.kr/news/stock/11936195",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-18 16:49",
-      "title": "고배당에 분리과세까지 … 리츠 투자해볼까",
-      "url": "https://www.mk.co.kr/news/stock/11936192",
-      "keywords_hit": [
-        "배당",
-        "리츠"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-18 16:38",
-      "title": "일주일 새 680억 몰리더니…'수익률 대박' 개미들 웃은 종목",
-      "url": "https://www.hankyung.com/article/2026011873771",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-18 16:37",
-      "title": "\"올해는 AI 잘 쓰는 기업이 뜰 것…금융·유통 업종 유망\"",
-      "url": "https://www.hankyung.com/article/2026011873741",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-18 16:36",
-      "title": "올 51% 뛴 현대건설…목표가 줄상향",
-      "url": "https://www.hankyung.com/article/2026011873711",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-18 16:35",
-      "title": "이달 코스피 10개 중 1개가 신고가",
-      "url": "https://www.hankyung.com/article/2026011873781",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-18 16:34",
-      "title": "SK하이닉스·심텍, 반도체株 대거 매수",
-      "url": "https://www.hankyung.com/article/2026011873731",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-18 16:34",
-      "title": "\"매달 통장에 따박따박\" 난리 나더니…'59조' 뭉칫돈 몰렸다",
-      "url": "https://www.hankyung.com/article/2026011873801",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-18 16:33",
-      "title": "저금리·인플레…퇴직연금, 주식비중 70% 돌파",
-      "url": "https://www.hankyung.com/article/2026011873841",
-      "keywords_hit": [
-        "금리"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-18 15:49",
-      "title": "에릭 트럼프 등 글로벌 빅샷 총출동...공룡 실리콘밸리 VC부터 디지털자산 펀드 대표까지",
-      "url": "https://www.mk.co.kr/news/stock/11936138",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-18 10:37",
-      "title": "“더 갈 것 같긴 한데 들어가기는 겁나고”…지금부턴 삼전닉스 보다 여기가 정답",
-      "url": "https://www.mk.co.kr/news/stock/11935986",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-18 09:30",
-      "title": "“대기업 다니며 착실히 모았는데 -17억”...‘적금 올인’ 했더니 노후 흔들",
-      "url": "https://www.mk.co.kr/news/economy/11935962",
       "keywords_hit": []
     }
   ]
