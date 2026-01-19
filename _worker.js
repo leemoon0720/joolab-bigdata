@@ -368,6 +368,7 @@ async function upsertUserInKV(env, emailLower, profile, passwordPlain, secret, r
     user_id: (profile && profile.user_id) ? String(profile.user_id) : (existing && existing.user_id ? existing.user_id : ''),
     name: (profile && profile.name) ? String(profile.name) : (existing && existing.name ? existing.name : ''),
     nickname: (profile && profile.nickname) ? String(profile.nickname) : (existing && existing.nickname ? existing.nickname : ''),
+    phone: (profile && profile.phone) ? String(profile.phone) : (existing && existing.phone ? existing.phone : ''),
     role: roleOverride ? String(roleOverride) : (existing && existing.role ? existing.role : 'user'),
     pass_hash: passHash,
     created_at: (existing && existing.created_at) ? existing.created_at : nowISO,
@@ -440,6 +441,60 @@ async function handleAuthLogin(request, env, baseUrl) {
 }
 
 
+
+
+async function handleAuthSignupOrLogin(request, env, baseUrl) {
+  const secret = getAuthSecret(env);
+  if (!secret) return jsonResp({ ok:false, message:'서버 설정이 완료되지 않았습니다. (JLAB_AUTH_SECRET 필요)' }, 200);
+  if (!(env && env.JLAB_KV && typeof env.JLAB_KV.get === 'function')) {
+    return jsonResp({ ok:false, message:'서버 저장소(KV)가 설정되지 않아 회원가입을 지원하지 않습니다.' }, 200);
+  }
+
+  let body = null;
+  try { body = await request.json(); } catch(e) {}
+
+  const email = String(body && body.email ? body.email : '').trim().toLowerCase();
+  const pass = String(body && body.password ? body.password : '').trim();
+  const name = String(body && body.name ? body.name : '').trim();
+  const nickname = String(body && body.nickname ? body.nickname : '').trim();
+  const phone = String(body && body.phone ? body.phone : '').trim();
+
+  if (!email || !email.includes('@') || pass.length < 8) {
+    return jsonResp({ ok:false, message:'이메일/비밀번호(8자 이상)를 확인해 주십시오.' }, 200);
+  }
+
+  // If user exists -> login
+  const rec = await getUser(env, email);
+  if (rec && rec.user) {
+    if (!rec.user.pass_hash) {
+      return jsonResp({ ok:false, message:'비밀번호가 설정되지 않았습니다. 관리자에게 문의하십시오.' }, 200);
+    }
+    const inHash = await sha256Hex(`${secret}|${pass}`);
+    if (inHash !== rec.user.pass_hash) {
+      return jsonResp({ ok:false, message:'비밀번호가 올바르지 않습니다.' }, 200);
+    }
+    const role = rec.user.role || 'user';
+    const now = Date.now();
+    const exp = now + 1000*60*60*24*14;
+    const token = await makeToken(secret, { email, role, iat: now, exp });
+    const setCookie = makeCookie(COOKIE_NAME, token, 60*60*24*14, new URL(request.url).hostname);
+    return jsonResp({ ok:true, mode:'login', user:{ email, role } }, 200, { 'set-cookie': setCookie });
+  }
+
+  // Otherwise create user -> login
+  const profile = { user_id:'', name, nickname, phone };
+  try {
+    await upsertUserInKV(env, email, profile, pass, secret, 'user');
+  } catch (e) {
+    return jsonResp({ ok:false, message:'회원가입 처리 중 오류가 발생했습니다.' }, 200);
+  }
+
+  const now = Date.now();
+  const exp = now + 1000*60*60*24*14;
+  const token = await makeToken(secret, { email, role: 'user', iat: now, exp });
+  const setCookie = makeCookie(COOKIE_NAME, token, 60*60*24*14, new URL(request.url).hostname);
+  return jsonResp({ ok:true, mode:'signup', user:{ email, role:'user' } }, 200, { 'set-cookie': setCookie });
+}
 async function handleAuthMe(request, env, baseUrl) {
   const payload = await requireAuth(request, env, baseUrl);
   if (!payload) return jsonResp({ ok:false }, 200);
@@ -1481,6 +1536,9 @@ export default {
     // ==============================
     if (url.pathname === '/api/auth/login' && request.method === 'POST') {
       return await handleAuthLogin(request, env, url.origin);
+    }
+    if (url.pathname === '/api/auth/signup_or_login' && request.method === 'POST') {
+      return await handleAuthSignupOrLogin(request, env, url.origin);
     }
     if (url.pathname === '/api/auth/me') {
       return await handleAuthMe(request, env, url.origin);

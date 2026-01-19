@@ -43,6 +43,7 @@
       <div class="hero-top">
         <div>
           <h1>월구독 멤버십</h1>
+          <div class="small" style="margin-top:6px;">회원가입은 <b>결제 과정에서 자동으로 진행</b>됩니다. 아래 정보 입력 후 원하는 플랜을 결제하면 즉시 이용 가능합니다.</div>
           <div class="hero-sub price-stack">
   <div class="price-line"><b>Basic</b> — 월 29,000원 (국내)</div>
   <div class="price-line"><b>Premium</b> — 월 99,000원 (국내+미국)</div>
@@ -75,6 +76,9 @@
 
           <label class="flabel">이메일</label>
           <div class="input" style="min-width:100%;"><input id="sub-email" type="email" placeholder="이메일"></div>
+
+          <label class="flabel">비밀번호(8자 이상)</label>
+          <div class="input" style="min-width:100%;"><input id="sub-pass" type="password" placeholder="비밀번호"></div>
 
           <div class="checks" style="margin-top:12px;">
             <label class="ck"><input id="sub-ck-terms" type="checkbox"> 이용약관 동의</label>
@@ -202,6 +206,49 @@
     <div class="small">© JOOLAB · Bigdata Center</div>
   </div>
   <script src="/assets/app.js"></script>
+
+
+<script>
+(function(){
+  var btn = document.getElementById('sub-btn-save');
+  var msg = document.getElementById('sub-msg');
+  function setMsg(s){ if(msg) msg.textContent = s || ''; }
+  function agreed(){
+    var a=document.getElementById('sub-ck-terms');
+    var b=document.getElementById('sub-ck-privacy');
+    var c=document.getElementById('sub-ck-refund');
+    return !!(a&&a.checked&&b&&b.checked&&c&&c.checked);
+  }
+  if(btn){
+    btn.onclick = async function(){
+      var name = (document.getElementById('sub-name')||{}).value || '';
+      var phone = (document.getElementById('sub-phone')||{}).value || '';
+      var email = (document.getElementById('sub-email')||{}).value || '';
+      var pass = (document.getElementById('sub-pass')||{}).value || '';
+      if(!agreed()){ setMsg('약관/개인정보/환불·해지 규정 확인 체크가 필요합니다.'); return; }
+      if(!email || email.indexOf('@')<0){ setMsg('이메일을 확인해 주십시오.'); return; }
+      if(!pass || pass.length < 8){ setMsg('비밀번호는 8자 이상으로 설정해 주십시오.'); return; }
+      setMsg('회원가입/로그인 처리 중...');
+      try{
+        var r = await fetch('/api/auth/signup_or_login', {
+          method:'POST',
+          credentials:'include',
+          headers:{'content-type':'application/json'},
+          body: JSON.stringify({email: email, password: pass, name: name, phone: phone})
+        });
+        var j = await r.json();
+        if(j && j.ok){
+          setMsg('가입/로그인 완료. 원하는 플랜 결제 버튼을 눌러 진행해 주십시오.');
+          return;
+        }
+        setMsg((j && (j.message||j.error)) ? (j.message||j.error) : '실패');
+      }catch(e){
+        setMsg('네트워크 오류');
+      }
+    };
+  }
+})();
+</script>
 
 </body>
 </html>

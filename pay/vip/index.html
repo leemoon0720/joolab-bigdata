@@ -65,6 +65,25 @@
       </ul>
 
       
+
+      <!-- AUTH BOX: signup/login for payment -->
+      <div id="authBox" style="margin-top:12px; display:none; padding:12px; border:1px solid rgba(0,0,0,.08); border-radius:14px;">
+        <div class="small" style="margin-bottom:8px;"><b>결제 진행을 위해 회원가입(또는 로그인)이 필요합니다.</b></div>
+        <div class="form" style="gap:10px;">
+          <label class="flabel">이메일</label>
+          <div class="input" style="min-width:100%;"><input id="auth-email" type="email" placeholder="이메일"></div>
+          <label class="flabel">비밀번호(8자 이상)</label>
+          <div class="input" style="min-width:100%;"><input id="auth-pass" type="password" placeholder="비밀번호"></div>
+          <label class="flabel">이름(처음 1회, 선택)</label>
+          <div class="input" style="min-width:100%;"><input id="auth-name" type="text" placeholder="이름"></div>
+          <div style="display:flex; gap:10px; align-items:center; margin-top:10px;">
+            <button class="btn primary" type="button" id="auth-btn">가입/로그인 후 결제 진행</button>
+            <a class="btn ghost" id="auth-login-link" href="/login/">기존 로그인</a>
+          </div>
+          <div class="small" id="auth-msg" style="margin-top:10px;"></div>
+        </div>
+      </div>
+
       <div class="checks" style="margin-top:12px;">
         <label class="ck"><input id="ck-terms" type="checkbox"> <a href="/terms/" target="_blank" rel="noopener">이용약관</a> 동의</label>
         <label class="ck"><input id="ck-privacy" type="checkbox"> <a href="/privacy/" target="_blank" rel="noopener">개인정보처리방침</a> 동의</label>
@@ -138,8 +157,31 @@
   var me = null;
   try { me = await fetch('/api/auth/me', { credentials:'include' }).then(function(r){return r.json();}); } catch(e) { me = {ok:false}; }
   if(!me || !me.ok){
-    var next = encodeURIComponent(location.pathname);
-    location.href = '/login/?next=' + next;
+    if(document.getElementById('authBox')){
+      document.getElementById('authBox').style.display = 'block';
+      var loginLink = document.getElementById('auth-login-link');
+      if(loginLink) loginLink.href = '/login/?next=' + encodeURIComponent('/pay/vip/');
+      setMsg('회원가입/로그인 후 결제를 진행해 주십시오.');
+      setBusy(true);
+      var ab = document.getElementById('auth-btn');
+      if(ab){
+        ab.onclick = async function(){
+          var em = (document.getElementById('auth-email')||{}).value || '';
+          var pw = (document.getElementById('auth-pass')||{}).value || '';
+          var nm = (document.getElementById('auth-name')||{}).value || '';
+          var am = document.getElementById('auth-msg');
+          if(am) am.textContent = '처리 중...';
+          try{
+            var r = await fetch('/api/auth/signup_or_login', {method:'POST', credentials:'include', headers:{'content-type':'application/json'}, body: JSON.stringify({email: em, password: pw, name: nm})});
+            var j = await r.json();
+            if(j && j.ok){ location.reload(); return; }
+            if(am) am.textContent = (j && (j.message||j.error)) ? (j.message||j.error) : '실패';
+          }catch(e){
+            if(am) am.textContent = '네트워크 오류';
+          }
+        };
+      }
+    }
     return;
   }
 
