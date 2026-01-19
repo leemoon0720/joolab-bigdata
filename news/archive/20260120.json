@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-20 06:34 KST",
+  "updated_at": "2026-01-20 06:47 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,24 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 06:30",
+      "title": "\"목표가보다 높이 날았다\"…새해 45% 치솟은 한국항공우주 [종목+]",
+      "url": "https://www.hankyung.com/article/2026011995226",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 06:30",
+      "title": "'자사주 소각 의무화' 상법 개정 속도…담아야 할 종목은? [분석+]",
+      "url": "https://www.hankyung.com/article/2026011992236",
+      "keywords_hit": [
+        "자사주"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -289,24 +307,6 @@
       "keywords_hit": [
         "AI"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 17:25",
-      "title": "日, 금리인상 기조 계속…미즈호 등 은행주 주목해야",
-      "url": "https://www.hankyung.com/article/2026011997911",
-      "keywords_hit": [
-        "금리"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 17:24",
-      "title": "북미 때린 북극한파에…천연가스 하루새 10%↑",
-      "url": "https://www.hankyung.com/article/2026011997881",
-      "keywords_hit": []
     },
     {
       "source": "MK",
