@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-19 14:55 KST",
+  "updated_at": "2026-01-19 15:32 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,8 +25,68 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-19 15:24",
+      "title": "부동산 디벨로퍼 MDM플러스, ‘삼성생명 부산사옥’ 매각 나선다",
+      "url": "https://www.mk.co.kr/news/stock/11936946",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 15:24",
+      "title": "한양증권 “임직원 연금저축 ETF 투자, 지수 추종이 40%”",
+      "url": "https://www.mk.co.kr/news/stock/11936945",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 15:12",
+      "title": "[마켓칼럼] 로봇의 'GPT 모먼트', 승자는 '데이터 공장'에서 결정된다",
+      "url": "https://www.hankyung.com/article/202601091928i",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 15:11",
+      "title": "[마켓칼럼] 일본 시장에서 보는 투자 기회",
+      "url": "https://www.hankyung.com/article/202601199300i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 15:09",
+      "title": "알에프텍 자회사, 370억원 투자 유치…“글로벌 헬스케어 네트워크와 결합, IPO 속도”",
+      "url": "https://www.mk.co.kr/news/stock/11936932",
+      "keywords_hit": [
+        "IPO"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 15:02",
+      "title": "“양자컴퓨터 위협은 현실”…월가 큰손, 비트코인 버리고 ‘금’으로 회귀",
+      "url": "https://www.mk.co.kr/news/stock/11936924",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 14:57",
+      "title": "'5만전자'서 1년 만에…삼성전자 주가 15만원 넘었다",
+      "url": "https://www.hankyung.com/article/2026011991616",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-19 14:54",
-      "title": "5천피 카운트다운…현대차, ‘피지컬 AI’ 날개 달고 시총 100조 눈앞",
+      "title": "현대차 시총 사상 첫 100조 돌파…‘피지컬 AI’ 등에 업고 날았다",
       "url": "https://www.mk.co.kr/news/stock/11936918",
       "keywords_hit": [
         "AI"
@@ -303,16 +363,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 10:18",
-      "title": "로봇株 열풍 계속…두산로보틱스 20% 급등",
-      "url": "https://www.hankyung.com/article/2026011983696",
-      "keywords_hit": [
-        "로봇"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-19 10:15",
@@ -329,54 +379,6 @@
       "keywords_hit": [
         "바이오"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 10:07",
-      "title": "\"지금 들어가도 될까?\"…'20% 급등' 불기둥 뿜자 개미 '들썩' [종목+]",
-      "url": "https://www.hankyung.com/article/202601198381i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-19 09:59",
-      "title": "[MK시그널] 오리온, 4분기 어닝 서프라이즈 및 중국 법인 수익성 회복 기대감 등에 주가 상승세... MK시그널 추천 후 상승률 8.33%기록",
-      "url": "https://www.mk.co.kr/news/stock/11936626",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-19 09:58",
-      "title": "혼자서 주식으로만 1조원 갖고 있다는 이 남자…무슨 종목 담았길래",
-      "url": "https://www.mk.co.kr/news/stock/11936625",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 09:55",
-      "title": "[마켓PRO] Today's Pick : \"드디어 나온 BTS 복귀계획…하이브 새 역사 쓸 것\"",
-      "url": "https://www.hankyung.com/article/202601198275i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-19 09:04",
-      "title": "“주식시장은 마디숫자 좋아해”…5천 도달하면 이 종목 강세라는데",
-      "url": "https://www.mk.co.kr/news/stock/11936516",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-19 08:40",
-      "title": "공매도 재개 후 첫 대규모 ‘철퇴’… 신한운용·파레토 등 6곳 과징금 40억",
-      "url": "https://www.mk.co.kr/news/stock/11936493",
-      "keywords_hit": []
     }
   ]
 }
