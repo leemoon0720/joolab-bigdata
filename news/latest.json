@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-19 21:42 KST",
+  "updated_at": "2026-01-19 22:34 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,26 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 22:00",
+      "title": "\"로봇이 비행기·자동차 만든다\"…유비테크 144% 급등 [조아라의 차이나스톡]",
+      "url": "https://www.hankyung.com/article/202601190106i",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 22:00",
+      "title": "하루 만에 '500억' 샀다…외국인 러브콜에 주가 급등한 회사 [종목+]",
+      "url": "https://www.hankyung.com/article/2026011997476",
+      "keywords_hit": [
+        "외국인"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -322,16 +342,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 16:46",
-      "title": "코스피, 첫 4900선 돌파…'삼전·닉스·현대차' 상승 마감 [HK영상]",
-      "url": "https://www.hankyung.com/article/202601199638i",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-19 16:40",
@@ -353,14 +363,6 @@
       "published_at": "2026-01-19 16:20",
       "title": "두쫀쿠 시세는 5500원?…타임폴리오 “두쫀쿠 2알로 ETF 1주 산다”",
       "url": "https://www.mk.co.kr/news/stock/11937009",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 16:00",
-      "title": "월가 전문가가 직접 톱픽 골라준다…급성장하는 액티브 ETF",
-      "url": "https://www.hankyung.com/article/202601199029i",
       "keywords_hit": []
     },
     {
