@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-20 08:49 KST",
+  "updated_at": "2026-01-20 08:58 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,6 +23,14 @@
   "count": 40,
   "items": [
     {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 08:48",
+      "title": "\"대한조선, 탱커 시장 호황에 선가 상승…목표가↑\"-다올",
+      "url": "https://www.hankyung.com/article/2026012004366",
+      "keywords_hit": []
+    },
+    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-20 08:46",
@@ -33,8 +41,24 @@
     {
       "source": "HK",
       "press": "한국경제",
+      "published_at": "2026-01-20 08:45",
+      "title": "\"한화에어로, 광범위한 수출 파이프라인 돋보여…목표가↑\"-한국",
+      "url": "https://www.hankyung.com/article/2026012004256",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 08:44",
+      "title": "일주일 만에 40% 넘게 뛰었다…은 ETN '불기둥' [종목+]",
+      "url": "https://www.hankyung.com/article/2026012004176",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
       "published_at": "2026-01-20 08:37",
-      "title": "[마켓PRO] Today's Pick : \" 한미약품 - 실적 기대치 상회 전망. 임상 데이터도 쏟아진다\"",
+      "title": "[마켓PRO] Today's Pick : \" 한미약품 - 실적 기대치 상회 전망…임상 데이터도 쏟아진다\"",
       "url": "https://www.hankyung.com/article/202601200384i",
       "keywords_hit": [
         "실적"
@@ -243,34 +267,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 17:53",
-      "title": "로봇·전력기기·양자컴 담은 KEDI…'초혁신 지수' 입증",
-      "url": "https://www.hankyung.com/article/2026011998311",
-      "keywords_hit": [
-        "로봇"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 17:52",
-      "title": "\"외환시장에 달러 넘친다\"는데…환율은 1470원대로 상승",
-      "url": "https://www.hankyung.com/article/2026011998911",
-      "keywords_hit": [
-        "환율"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 17:51",
-      "title": "한경 KEDI 순자산 10조…1년 반 새 10배 불어났다",
-      "url": "https://www.hankyung.com/article/2026011998831",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-19 17:47",
@@ -318,16 +314,19 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-19 17:28",
-      "title": "LG전자 \"우리도 10만전자\"",
-      "url": "https://www.mk.co.kr/news/stock/11937124",
-      "keywords_hit": []
+      "title": "[코스닥 공시] 글로벌텍스프리",
+      "url": "https://www.mk.co.kr/news/stock/11937126",
+      "keywords_hit": [
+        "코스닥",
+        "공시"
+      ]
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-19 17:28",
-      "title": "\"지정학 갈등 수혜\"… 포스코·LX인터 고공행진",
-      "url": "https://www.mk.co.kr/news/stock/11937123",
+      "title": "LG전자 \"우리도 10만전자\"",
+      "url": "https://www.mk.co.kr/news/stock/11937124",
       "keywords_hit": []
     },
     {
@@ -339,6 +338,14 @@
       "keywords_hit": [
         "배당"
       ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 17:28",
+      "title": "\"지정학 갈등 수혜\"… 포스코인터·LX인터 고공행진",
+      "url": "https://www.mk.co.kr/news/stock/11937123",
+      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -379,14 +386,6 @@
         "M&A",
         "매출"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-19 16:40",
-      "title": "미래에셋운용, 연금자산 50조 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11937038",
-      "keywords_hit": []
     }
   ]
 }
