@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-19 14:27 KST",
+  "updated_at": "2026-01-19 14:55 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,10 +23,28 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-19 14:54",
+      "title": "5천피 카운트다운…현대차, ‘피지컬 AI’ 날개 달고 시총 100조 눈앞",
+      "url": "https://www.mk.co.kr/news/stock/11936918",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-19 14:38",
+      "title": "[속보] 삼성전자, 1%대로 상승폭 확대…15만전자 달성",
+      "url": "https://www.hankyung.com/article/2026011991556",
+      "keywords_hit": []
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-19 14:16",
-      "title": "코스피가 멈추질 않는다…4900선마저 돌파",
+      "title": "진격의 코스피, 4900선도 넘었다…현대차·기아 '질주'",
       "url": "https://www.hankyung.com/article/2026011988976",
       "keywords_hit": [
         "코스피"
@@ -74,7 +92,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-19 13:44",
-      "title": "회삿돈으로 산 자사주 재단법인에 무상 출연…주주 '반발' [종목+]",
+      "title": "슈프리마에이치큐 \"자사주, 재단에 무상 출연\"…주주 '반발' [종목+]",
       "url": "https://www.hankyung.com/article/2026011986276",
       "keywords_hit": [
         "자사주"
@@ -345,14 +363,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-19 09:49",
-      "title": "넥스트증권, 사내문화 TF '넥스터즈' 3개월 활동 마무리",
-      "url": "https://www.hankyung.com/article/202601198359i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-19 09:04",
@@ -366,14 +376,6 @@
       "published_at": "2026-01-19 08:40",
       "title": "공매도 재개 후 첫 대규모 ‘철퇴’… 신한운용·파레토 등 6곳 과징금 40억",
       "url": "https://www.mk.co.kr/news/stock/11936493",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-19 08:38",
-      "title": "삼전닉스 너무 올라 부담된다고?…“메모리 강세 지속, 비중확대 유효” [오늘 나온 보고서]",
-      "url": "https://www.mk.co.kr/news/stock/11936491",
       "keywords_hit": []
     }
   ]
