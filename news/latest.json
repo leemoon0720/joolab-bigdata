@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-21 07:41 KST",
+  "updated_at": "2026-01-21 07:57 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 07:48",
+      "title": "\"금호석유화학, 로봇 산업 성장의 수혜주로 떠올라…목표가↑\"-한국",
+      "url": "https://www.hankyung.com/article/2026012127416",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -372,14 +382,6 @@
       "keywords_hit": [
         "상장"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 16:20",
-      "title": "\"여전히 싸다\"…주가 61% 폭등 '불기둥' 뿜더니 파격 전망 [종목+]",
-      "url": "https://www.hankyung.com/article/202601201536i",
-      "keywords_hit": []
     }
   ]
 }
