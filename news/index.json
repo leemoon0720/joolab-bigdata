@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-21 06:34 KST",
+  "updated_at": "2026-01-21 06:47 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 06:30",
+      "title": "\"中 경기부양 온다\"…대한유화, 52주 신고가 새로 썼다 [종목+]",
+      "url": "https://www.hankyung.com/article/2026012018426",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -372,16 +380,6 @@
       "title": "\"ETF 따라가면 못 판다\"…차별화한 공모펀드, 자금유입 42%↑",
       "url": "https://www.hankyung.com/article/202601201902i",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 15:41",
-      "title": "'롤러코스터' 탄 코스피…신고가 찍고, 13거래일만 하락마감",
-      "url": "https://www.hankyung.com/article/2026012018376",
-      "keywords_hit": [
-        "코스피"
-      ]
     }
   ]
 }
