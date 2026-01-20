@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-20 14:42 KST",
+  "updated_at": "2026-01-20 14:58 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 14:50",
+      "title": "“퇴직연금 1000조 시대…중도인출 막을 인센티브 필요”",
+      "url": "https://www.mk.co.kr/news/stock/11937884",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -260,14 +268,6 @@
       "published_at": "2026-01-20 09:50",
       "title": "‘트럼프 그린란드 관세’에 비트코인 휘청… 9만2천달러 선 위협",
       "url": "https://www.mk.co.kr/news/stock/11937502",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 09:48",
-      "title": "[MK 골든크로스 돌파종목 : 에코프로비엠(247540) & 롯데지주(004990)]",
-      "url": "https://www.mk.co.kr/news/stock/11937501",
       "keywords_hit": []
     },
     {
