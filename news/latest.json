@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-20 16:39 KST",
+  "updated_at": "2026-01-20 16:54 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,22 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 16:49",
+      "title": "같은 엔터주, 다른 주가…‘BTS 효과’에 하이브만 웃었다",
+      "url": "https://www.mk.co.kr/news/stock/11938048",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 16:41",
+      "title": "이찬진 “시장질서 훼손한 PEF에 개입 불가피...‘핀셋 검사’ 할 것”",
+      "url": "https://www.mk.co.kr/news/stock/11938038",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -275,25 +291,6 @@
       "title": "“토요일 밤 미국주식 산다”…뉴욕증시, 24시간 ‘블록체인 거래소’ 띄운다",
       "url": "https://www.mk.co.kr/news/stock/11937586",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 10:25",
-      "title": "NH투자증권, 불공정거래 모니터링 강화…“임원 가족계좌까지 신고”",
-      "url": "https://www.mk.co.kr/news/stock/11937585",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 10:18",
-      "title": "“2주 걸리던 진단을 1분으로”…엔젠바이오, LG 정밀 의료 AI 도입에 상한가",
-      "url": "https://www.mk.co.kr/news/stock/11937576",
-      "keywords_hit": [
-        "AI",
-        "바이오"
-      ]
     },
     {
       "source": "HK",
