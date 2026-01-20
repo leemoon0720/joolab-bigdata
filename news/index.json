@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-20 14:58 KST",
+  "updated_at": "2026-01-20 15:42 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,9 +25,45 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-20 15:33",
+      "title": "“원주시에 ‘삼양불닭로’ 생긴다”…화제된 삼양식품 풀매수 [주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11937938",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 15:22",
+      "title": "TIMEFOLIO 차이나AI테크액티브 ETF, 수익률 50% 돌파",
+      "url": "https://www.hankyung.com/article/2026012017536",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 15:11",
+      "title": "\"삼전·하닉, 이제 떨어질 때도 됐다\"…반도체 인버스 ETN도 나온다",
+      "url": "https://www.hankyung.com/article/202601201350i",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-20 14:50",
       "title": "“퇴직연금 1000조 시대…중도인출 막을 인센티브 필요”",
       "url": "https://www.mk.co.kr/news/stock/11937884",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 14:40",
+      "title": "HD현대중공업, 4816억원 규모 유조선·화학제품운반선 수주",
+      "url": "https://www.hankyung.com/article/2026012015236",
       "keywords_hit": []
     },
     {
@@ -263,14 +299,6 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 09:50",
-      "title": "‘트럼프 그린란드 관세’에 비트코인 휘청… 9만2천달러 선 위협",
-      "url": "https://www.mk.co.kr/news/stock/11937502",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-20 09:46",
@@ -349,32 +377,6 @@
       "title": "\"대한조선, 탱커 시장 호황에 선가 상승…목표가↑\"-다올",
       "url": "https://www.hankyung.com/article/2026012004366",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 08:45",
-      "title": "\"한화에어로, 광범위한 수출 파이프라인 돋보여…목표가↑\"-한국",
-      "url": "https://www.hankyung.com/article/2026012004256",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 08:44",
-      "title": "일주일 만에 '47%' 폭등했는데…전문가 '경고' 쏟아진 이유  [종목+]",
-      "url": "https://www.hankyung.com/article/2026012004176",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 08:37",
-      "title": "[마켓PRO] Today's Pick : \" 한미약품 - 실적 기대치 상회 전망…임상 데이터도 쏟아진다\"",
-      "url": "https://www.hankyung.com/article/202601200384i",
-      "keywords_hit": [
-        "실적"
-      ]
     }
   ]
 }
