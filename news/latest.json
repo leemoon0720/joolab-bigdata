@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-20 17:24 KST",
+  "updated_at": "2026-01-20 17:56 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,248 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 17:52",
+      "title": "'비행기 제조 로봇' 기대에…中 유비테크 주가 날았다",
+      "url": "https://www.hankyung.com/article/2026012021791",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 17:51",
+      "title": "메모리 붐에…마이크론, 대만 반도체공장 인수",
+      "url": "https://www.hankyung.com/article/2026012021801",
+      "keywords_hit": [
+        "반도체",
+        "인수"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 17:51",
+      "title": "잘나가던 '유럽 명품주'…관세·환율에 직격탄",
+      "url": "https://www.hankyung.com/article/2026012021831",
+      "keywords_hit": [
+        "환율"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 17:51",
+      "title": "'토종 PEF' 스틱 도용환 회장, 美 운용사에 지분 넘겨",
+      "url": "https://www.mk.co.kr/news/stock/11938198",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 17:51",
+      "title": "美 앤스로픽 투자에 SKT 이틀새 12% 급등",
+      "url": "https://www.mk.co.kr/news/stock/11938197",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 17:50",
+      "title": "\"M7 동반 상승 끝났다…종목 옥석가리기 시작\"",
+      "url": "https://www.hankyung.com/article/2026012021841",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 17:50",
+      "title": "오늘의 증시 일정 (1월 21일)",
+      "url": "https://www.mk.co.kr/news/stock/11938194",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 17:50",
+      "title": "[코스닥 공시] 알로이스",
+      "url": "https://www.mk.co.kr/news/stock/11938195",
+      "keywords_hit": [
+        "코스닥",
+        "공시"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 17:50",
+      "title": "[유가증권시장 공시] HD현대중공",
+      "url": "https://www.mk.co.kr/news/stock/11938193",
+      "keywords_hit": [
+        "공시",
+        "유가"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 17:50",
+      "title": "NYSE도 24시간 토큰화시장 진출",
+      "url": "https://www.mk.co.kr/news/stock/11938191",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 17:50",
+      "title": "우리자산운용, 순자산 60조",
+      "url": "https://www.mk.co.kr/news/stock/11938188",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 17:50",
+      "title": "\"퇴직연금 4년후 1천조 시대 … 중도인출 막을 유인책 필요\"",
+      "url": "https://www.mk.co.kr/news/stock/11938189",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 17:50",
+      "title": "이찬진, PEF업계 쇄신 주문 \"시장질서 훼손땐 핀셋검사\"",
+      "url": "https://www.mk.co.kr/news/stock/11938185",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 17:50",
+      "title": "\"AI서비스 존재감 미미\"… 네카오 시총 비중 2% 밑으로",
+      "url": "https://www.mk.co.kr/news/stock/11938183",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 17:50",
+      "title": "韓美 원자력협력 기대감 … 한전 16% 급등",
+      "url": "https://www.mk.co.kr/news/stock/11938184",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 17:50",
+      "title": "\"최대 123조\"…자사주 소각 의무화 임박",
+      "url": "https://www.mk.co.kr/news/stock/11938182",
+      "keywords_hit": [
+        "자사주"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 17:50",
+      "title": "다보링크, 10억원 규모 유상증자 실시",
+      "url": "https://www.mk.co.kr/news/stock/11938169",
+      "keywords_hit": [
+        "증자"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 17:36",
+      "title": "'삼성전자 사자' 개미들 '빚투' 폭증하더니…'기록' 터졌다",
+      "url": "https://www.hankyung.com/article/2026012022041",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 17:36",
+      "title": "\"3000만원 넣으면 1200만원을…\" 파격 혜택에 '관심 폭발'",
+      "url": "https://www.hankyung.com/article/2026012022681",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 17:33",
+      "title": "롯데지주·SK…'3차 상법개정' 수혜주 뜬다",
+      "url": "https://www.hankyung.com/article/2026012022071",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 17:32",
+      "title": "첫 반도체 인버스 상품 나온다",
+      "url": "https://www.hankyung.com/article/2026012022061",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 17:31",
+      "title": "\"국민 여론은 압도적\" 대통령 한마디에 줄줄이 상한가 '직행'",
+      "url": "https://www.hankyung.com/article/202601202247i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 17:30",
+      "title": "코스피 랠리에도 원·달러 환율 뛰는 까닭",
+      "url": "https://www.hankyung.com/article/2026012022091",
+      "keywords_hit": [
+        "코스피",
+        "환율"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 17:29",
+      "title": "銀값 고공행진에 은 ETN 잘나가네",
+      "url": "https://www.hankyung.com/article/2026012022101",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 17:29",
+      "title": "[특징주 & 리포트] '신규 원전 기대에 16% 뛴 한전' 등",
+      "url": "https://www.hankyung.com/article/2026012022031",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 17:25",
+      "title": "넷플릭스 유나이티드항공 실적",
+      "url": "https://www.hankyung.com/article/2026012022111",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 17:25",
+      "title": "국민연금, 스타필드 매각 결정...이지스 운용자산 회수 속도 높여",
+      "url": "https://www.mk.co.kr/news/stock/11938115",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -91,24 +333,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 16:04",
-      "title": "메트로·서울로 브릿지론 연장 불발된 이지스, 금융구조 개편 속도낸다",
-      "url": "https://www.mk.co.kr/news/stock/11937983",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 16:03",
-      "title": "“올해 매일 상승했었는데”…코스피, 새해 들어 첫 하락 4800선 마감",
-      "url": "https://www.mk.co.kr/news/stock/11937975",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-20 15:57",
@@ -125,14 +349,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 15:33",
-      "title": "“원주시에 ‘삼양불닭로’ 생긴다”…화제된 삼양식품 풀매수 [주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11937938",
-      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -155,229 +371,12 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 14:50",
-      "title": "“퇴직연금 1000조 시대…중도인출 막을 인센티브 필요”",
-      "url": "https://www.mk.co.kr/news/stock/11937884",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-20 14:40",
       "title": "HD현대중공업, 4816억원 규모 유조선·화학제품운반선 수주",
       "url": "https://www.hankyung.com/article/2026012015236",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 14:15",
-      "title": "이수앱지스, ‘ISU305’ 러시아 품목 허가 승인… 라이선스 아웃 성과",
-      "url": "https://www.mk.co.kr/news/stock/11937858",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 14:01",
-      "title": "미래에셋운용, TIGER 조선TOP10 ETF 순자산 1조원 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11937830",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 13:58",
-      "title": "KB증권 중개형 ISA 잔고 4조 돌파…2030 비중 53% 급증",
-      "url": "https://www.mk.co.kr/news/stock/11937828",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 13:54",
-      "title": "삼일PwC “AI 투자성과 체감 12%뿐…기업간 AI 격차, 기업 경쟁력 좌우”",
-      "url": "https://www.mk.co.kr/news/stock/11937819",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 13:44",
-      "title": "한국투자증권, FC자산 10조 돌파…2년만에 80% 성장",
-      "url": "https://www.mk.co.kr/news/stock/11937810",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 13:43",
-      "title": "“AI·바이오·방산 전부 담았다”…RISE 코리아전략산업액티브 ETF 출시",
-      "url": "https://www.mk.co.kr/news/stock/11937809",
-      "keywords_hit": [
-        "AI",
-        "바이오",
-        "방산"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 13:39",
-      "title": "“돈 생길 때 마다 반짝반짝 콩알금 모아요”…요즘 유행한다는 ‘소액 금테크’",
-      "url": "https://www.mk.co.kr/news/stock/11937805",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 13:39",
-      "title": "EY한영 “러 북극항로 전략 본격화…한·러 협력 기회”",
-      "url": "https://www.mk.co.kr/news/stock/11937804",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 11:18",
-      "title": "코스피, 외국인 1.5조 매물폭탄에도 약보합…코스닥은 강세",
-      "url": "https://www.hankyung.com/article/2026012011796",
-      "keywords_hit": [
-        "코스피",
-        "코스닥",
-        "외국인"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 11:18",
-      "title": "이란 사태 진정·미국 휴장에…유가 보합세 [오늘의 유가]",
-      "url": "https://www.hankyung.com/article/202601200605i",
-      "keywords_hit": [
-        "유가"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 11:03",
-      "title": "\"43만 부자·은퇴자 감세 안돼\"…국민참여펀드 역차별 논란",
-      "url": "https://www.hankyung.com/article/202601200968i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 11:01",
-      "title": "[인사] 우리투자증권",
-      "url": "https://www.mk.co.kr/news/stock/11937629",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 11:00",
-      "title": "‘로봇 기업’ 기대감 계속된다…이 종목 연일 매수 [주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11937626",
-      "keywords_hit": [
-        "로봇"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 10:47",
-      "title": "\"중국 부양책으로 화학시황 반등\" 분석에…대한유화·금호석유 강세",
-      "url": "https://www.hankyung.com/article/2026012010166",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 10:26",
-      "title": "DB증권 잠실금융센터, 투자 세미나 개최",
-      "url": "https://www.hankyung.com/article/2026012009826",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 10:11",
-      "title": "[마켓칼럼] 일본 시장에서 보는 투자 기회",
-      "url": "https://www.hankyung.com/article/202601200918i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 10:00",
-      "title": "엔젠바이오, LG AI연구원과 라이선스 계약 소식에 상한가",
-      "url": "https://www.hankyung.com/article/2026012008486",
-      "keywords_hit": [
-        "AI",
-        "바이오"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 09:51",
-      "title": "SK텔레콤 주가 연이틀 강세…AI 겹호재에 경쟁력 부각",
-      "url": "https://www.hankyung.com/article/2026012007256",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 09:46",
-      "title": "탈모치료제 후보물질 美 특허 등록 소식에…JW중외제약 '급등'",
-      "url": "https://www.hankyung.com/article/2026012007086",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 09:45",
-      "title": "\"BTS 돌아오면 1조5000억 대박\" 기대감 폭발…주가 '들썩' [종목+]",
-      "url": "https://www.hankyung.com/article/2026012007496",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 09:44",
-      "title": "독파모 첫 '재도전' 나왔다…모티프테크놀로지스 \"추가공모 참여\"",
-      "url": "https://www.hankyung.com/article/202601200751i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 09:35",
-      "title": "'피지컬 AI' 업은 현대차, 장중 시총 100조 달성",
-      "url": "https://www.hankyung.com/article/2026012005716",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 09:31",
-      "title": "코스피, 외국인·기관 차익실현에 하락…삼전·SK하닉 3%↓",
-      "url": "https://www.hankyung.com/article/2026012006936",
-      "keywords_hit": [
-        "코스피",
-        "외국인",
-        "기관"
-      ]
     }
   ]
 }
