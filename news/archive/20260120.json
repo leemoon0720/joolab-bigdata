@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-20 16:05 KST",
+  "updated_at": "2026-01-20 16:39 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,38 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 16:38",
+      "title": "민주당, 2월 초 스테이블코인 포함 ‘디지털자산기본법’ 독자 발의",
+      "url": "https://www.mk.co.kr/news/stock/11938035",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 16:20",
+      "title": "\"여전히 싸다\"…주가 61% 폭등 '불기둥' 뿜더니 파격 전망 [종목+]",
+      "url": "https://www.hankyung.com/article/202601201536i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 16:17",
+      "title": "KB증권, 중개형 ISA 잔고 4조원 돌파…2030세대 유입 가속",
+      "url": "https://www.mk.co.kr/news/stock/11938012",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 16:17",
+      "title": "“비대면 계좌 만들면 상품 드려요”…iM증권, 신규 고객에 혜택",
+      "url": "https://www.mk.co.kr/news/stock/11938011",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -70,7 +102,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-20 15:22",
-      "title": "TIMEFOLIO 차이나AI테크액티브 ETF, 수익률 50% 돌파",
+      "title": "타임폴리오 차이나AI테크액티브 ETF, 수익률 50% 돌파",
       "url": "https://www.hankyung.com/article/2026012017536",
       "keywords_hit": [
         "AI"
@@ -264,27 +296,11 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 10:13",
-      "title": "[MK시그널] 글로버스 메디컬, 수익률 54.5% 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11937559",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-20 10:11",
       "title": "[마켓칼럼] 일본 시장에서 보는 투자 기회",
       "url": "https://www.hankyung.com/article/202601200918i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 10:02",
-      "title": "[속보] 성장펀드 3년 이상 투자땐 최대 40% 소득공제…납입금 2억원 한도",
-      "url": "https://www.mk.co.kr/news/stock/11937535",
       "keywords_hit": []
     },
     {
@@ -296,16 +312,6 @@
       "keywords_hit": [
         "AI",
         "바이오"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 09:58",
-      "title": "“코스피 5000 코앞이었는데”…하락 폭 늘려가며 4800선까지 내려",
-      "url": "https://www.mk.co.kr/news/stock/11937526",
-      "keywords_hit": [
-        "코스피"
       ]
     },
     {
@@ -371,16 +377,6 @@
       "title": "이브이첨단소재, 에쓰씨엔지니어링 매각 소식에 9%↑",
       "url": "https://www.hankyung.com/article/2026012006716",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 09:18",
-      "title": "코스피, 개인 매수에 상승 출발…한화에어로스페이스 4%대↑",
-      "url": "https://www.hankyung.com/article/2026012006176",
-      "keywords_hit": [
-        "코스피"
-      ]
     }
   ]
 }
