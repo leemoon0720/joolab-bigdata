@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-20 17:56 KST",
+  "updated_at": "2026-01-20 18:33 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,52 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 18:29",
+      "title": "美 앤트로픽 투자에 SKT ‘훨훨’",
+      "url": "https://www.mk.co.kr/news/stock/11938269",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 18:26",
+      "title": "[인기검색TOP5] 종근당바이오, JW중외제약, 대한광통신, 두산로보틱스, 에코프로",
+      "url": "https://www.mk.co.kr/news/stock/11938268",
+      "keywords_hit": [
+        "바이오"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 18:00",
+      "title": "고환율에 달러族 급증 … 정부, RIA 꼼수 막는다",
+      "url": "https://www.mk.co.kr/news/stock/11938247",
+      "keywords_hit": [
+        "환율"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 17:58",
+      "title": "현대차 시총 100조 '터치'…\"단기 급등했지만 여전히 저평가 상태\"",
+      "url": "https://www.hankyung.com/article/2026012023051",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 17:56",
+      "title": "짐 젤터 \"美인플레 끝났다는 생각은 오산…AI기업 고평가된 측면 있다\"",
+      "url": "https://www.hankyung.com/article/2026012021781",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -81,6 +127,17 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-20 17:50",
+      "title": "[유가증권시장 공시] HD현대중공",
+      "url": "https://www.mk.co.kr/news/stock/11938193",
+      "keywords_hit": [
+        "공시",
+        "유가"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 17:50",
       "title": "오늘의 증시 일정 (1월 21일)",
       "url": "https://www.mk.co.kr/news/stock/11938194",
       "keywords_hit": []
@@ -94,17 +151,6 @@
       "keywords_hit": [
         "코스닥",
         "공시"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 17:50",
-      "title": "[유가증권시장 공시] HD현대중공",
-      "url": "https://www.mk.co.kr/news/stock/11938193",
-      "keywords_hit": [
-        "공시",
-        "유가"
       ]
     },
     {
@@ -301,35 +347,11 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 16:38",
-      "title": "민주당, 2월 초 스테이블코인 포함 ‘디지털자산기본법’ 독자 발의",
-      "url": "https://www.mk.co.kr/news/stock/11938035",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-20 16:20",
       "title": "\"여전히 싸다\"…주가 61% 폭등 '불기둥' 뿜더니 파격 전망 [종목+]",
       "url": "https://www.hankyung.com/article/202601201536i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 16:17",
-      "title": "KB증권, 중개형 ISA 잔고 4조원 돌파…2030세대 유입 가속",
-      "url": "https://www.mk.co.kr/news/stock/11938012",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 16:17",
-      "title": "“비대면 계좌 만들면 상품 드려요”…iM증권, 신규 고객에 혜택",
-      "url": "https://www.mk.co.kr/news/stock/11938011",
       "keywords_hit": []
     },
     {
@@ -359,24 +381,6 @@
       "keywords_hit": [
         "AI"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 15:11",
-      "title": "\"삼전·하닉, 이제 떨어질 때도 됐다\"…반도체 인버스 ETN도 나온다",
-      "url": "https://www.hankyung.com/article/202601201350i",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 14:40",
-      "title": "HD현대중공업, 4816억원 규모 유조선·화학제품운반선 수주",
-      "url": "https://www.hankyung.com/article/2026012015236",
-      "keywords_hit": []
     }
   ]
 }
