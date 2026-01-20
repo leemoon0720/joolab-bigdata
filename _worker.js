@@ -729,7 +729,7 @@ async function handleSubscriptionCancel(request, env, baseUrl){
 function getPriceByPlan(env, plan){
   const p = _normalizePlan(plan);
   const ov = (k)=>{ const v=(env&&env[k]!=null)?String(env[k]).trim():''; const n=Number(v); return (Number.isFinite(n) && n>0) ? Math.floor(n) : null; };
-  const defaults = { basic:29000, pro:89000, vip:200000, coaching:150000 };
+  const defaults = { basic:29000, pro:99000, vip:199000, coaching:150000 };
   const map = { basic:'PRICE_BASIC', pro:'PRICE_PRO', vip:'PRICE_VIP', coaching:'PRICE_COACHING' };
   const key = map[p];
   const o = key ? ov(key) : null;
@@ -1694,6 +1694,13 @@ export default {
         to.searchParams.set('next', next);
         return Response.redirect(to.toString(), 302);
       }
+
+      // 운영(/ops) 페이지는 관리자만 접근 허용
+      const isOps = (url.pathname === "/ops" || url.pathname.startsWith("/ops/"));
+      if (isOps && (payload.role || "user") !== "admin") {
+        return Response.redirect(new URL("/account/", url.origin).toString(), 302);
+      }
+
 
       // 구독(만료형) 게이트: 빅데이터 영역은 로그인 + 유효 구독이 필요합니다.
       const isBigdata = (url.pathname === '/data' || url.pathname.startsWith('/data/')

@@ -265,14 +265,14 @@
     }
 if(btnCancel){
       btnCancel.addEventListener("click", async ()=>{
-        // Cancel = stop access immediately (this does NOT mean refund).
-        const ok = confirm('구독 해지를 진행하시겠습니까?\n- 만료형 이용권은 자동결제가 아닙니다.\n- 해지는 접근 권한을 즉시 비활성화합니다.\n- 환불은 환불·해지 규정에 따릅니다.');
+        // Cancel = canceled 처리(만료일까지 이용 가능). (환불과는 별개입니다.)
+        const ok = confirm('구독 해지를 진행하시겠습니까?\n- 만료형 이용권은 자동결제가 아닙니다.\n- 해지는 자동결제(정기결제)가 없으며, 만료일까지 이용 가능합니다.\n- 환불은 환불·해지 규정에 따릅니다.');
         if(!ok) return;
         try{
           setMsg(cancelMsg, '해지 처리 중...', true);
           const res = await postJSON('/api/subscription/cancel', {});
           if(res && res.ok){
-            setMsg(cancelMsg, '해지가 완료되었습니다. (접근 권한이 비활성화되었습니다)', true);
+            setMsg(cancelMsg, '해지가 완료되었습니다. 만료일까지 이용 가능합니다', true);
             await render();
             return;
           }
