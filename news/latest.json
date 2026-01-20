@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-20 14:04 KST",
+  "updated_at": "2026-01-20 14:42 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 14:15",
+      "title": "이수앱지스, ‘ISU305’ 러시아 품목 허가 승인… 라이선스 아웃 성과",
+      "url": "https://www.mk.co.kr/news/stock/11937858",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -315,17 +323,6 @@
       "title": "이브이첨단소재, 에쓰씨엔지니어링 매각 소식에 9%↑",
       "url": "https://www.hankyung.com/article/2026012006716",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 09:27",
-      "title": "“치솟는 환율 때문에 정말 힘든데”…한미 시장금리 축소에도 환율 불안 왜?",
-      "url": "https://www.mk.co.kr/news/economy/11937465",
-      "keywords_hit": [
-        "환율",
-        "금리"
-      ]
     },
     {
       "source": "HK",
