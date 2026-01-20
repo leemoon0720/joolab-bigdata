@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-21 08:44 KST",
+  "updated_at": "2026-01-21 08:55 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 08:45",
+      "title": "\"에코프로비엠, 로봇용 전고체전지 수요 증가 수혜 기대…목표가↑\"-KB",
+      "url": "https://www.hankyung.com/article/2026012128916",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -378,14 +388,6 @@
       "published_at": "2026-01-20 17:50",
       "title": "우리자산운용, 순자산 60조",
       "url": "https://www.mk.co.kr/news/stock/11938188",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 17:36",
-      "title": "'지금 빚내서라도 올라타야 돈 번다'…개미들 '30조 풀베팅'",
-      "url": "https://www.hankyung.com/article/2026012022041",
       "keywords_hit": []
     }
   ]
