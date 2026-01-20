@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-21 07:57 KST",
+  "updated_at": "2026-01-21 08:26 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,78 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 08:25",
+      "title": "“한국전력, 실적 개선에 국내외 원전 확대 방향성”…목표가↑",
+      "url": "https://www.mk.co.kr/news/stock/11938607",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 08:18",
+      "title": "한중 교류·로봇 테마 탄 형지엘리트…채무 부담 덜었다 [종목+]",
+      "url": "https://www.hankyung.com/article/2026012127606",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 08:13",
+      "title": "\"'피지컬 AI' 현대차, 테슬라 상대할 유일 기업…목표가 80만원으로 상향\"-KB",
+      "url": "https://www.hankyung.com/article/2026012128336",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 08:00",
+      "title": "“넷마블, 올해 신작 기대감 뚝”…목표가↓",
+      "url": "https://www.mk.co.kr/news/stock/11938597",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 07:59",
+      "title": "삼성제약, ‘PSP 치료제 GV1001’ 조건부 허가 신청",
+      "url": "https://www.mk.co.kr/news/stock/11938596",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 07:56",
+      "title": "[속보] 비트코인 5% 급락…8만9000달러도 붕괴",
+      "url": "https://www.hankyung.com/article/2026012127637",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 07:55",
+      "title": "코스피 5000 코앞인데…'그린란드 관세' 여파로 출렁일까 [오늘장 미리보기]",
+      "url": "https://www.hankyung.com/article/202601212714i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 07:55",
+      "title": "\"알테오젠, GSK와 계약 작은 것 아냐…연내 기술이전 이어질 것\"-하나",
+      "url": "https://www.hankyung.com/article/2026012127546",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -229,20 +301,20 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-20 17:50",
-      "title": "오늘의 증시 일정 (1월 21일)",
-      "url": "https://www.mk.co.kr/news/stock/11938194",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 17:50",
       "title": "[코스닥 공시] 알로이스",
       "url": "https://www.mk.co.kr/news/stock/11938195",
       "keywords_hit": [
         "코스닥",
         "공시"
       ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 17:50",
+      "title": "오늘의 증시 일정 (1월 21일)",
+      "url": "https://www.mk.co.kr/news/stock/11938194",
+      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -266,32 +338,6 @@
       "published_at": "2026-01-20 17:50",
       "title": "\"퇴직연금 4년후 1천조 시대 … 중도인출 막을 유인책 필요\"",
       "url": "https://www.mk.co.kr/news/stock/11938189",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 17:50",
-      "title": "이찬진, PEF업계 쇄신 주문…\"시장질서 훼손땐 핀셋검사\"",
-      "url": "https://www.mk.co.kr/news/stock/11938185",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 17:50",
-      "title": "\"AI서비스 존재감 미미\"… 네카오 시총 비중 2% 밑으로",
-      "url": "https://www.mk.co.kr/news/stock/11938183",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 17:50",
-      "title": "韓美 원자력협력 기대감 … 한전 16% 급등",
-      "url": "https://www.mk.co.kr/news/stock/11938184",
       "keywords_hit": []
     },
     {
@@ -335,53 +381,6 @@
       "title": "\"국민 여론은 압도적\" 대통령 한마디에 줄줄이 상한가 '직행'",
       "url": "https://www.hankyung.com/article/202601202247i",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 17:30",
-      "title": "코스피 랠리에도 원·달러 환율 뛰는 까닭",
-      "url": "https://www.hankyung.com/article/2026012022091",
-      "keywords_hit": [
-        "코스피",
-        "환율"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 17:29",
-      "title": "銀값 고공행진에 은 ETN 잘나가네",
-      "url": "https://www.hankyung.com/article/2026012022101",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 17:29",
-      "title": "[특징주 & 리포트] '신규 원전 기대에 16% 뛴 한전' 등",
-      "url": "https://www.hankyung.com/article/2026012022031",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 17:25",
-      "title": "넷플릭스 유나이티드항공 실적",
-      "url": "https://www.hankyung.com/article/2026012022111",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 17:13",
-      "title": "우리자산운용 '초대형IB·금융지주' 투자 ETF 신규 상장",
-      "url": "https://www.hankyung.com/article/2026012021196",
-      "keywords_hit": [
-        "상장"
-      ]
     }
   ]
 }
