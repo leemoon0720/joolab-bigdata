@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-20 15:42 KST",
+  "updated_at": "2026-01-20 16:05 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,42 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 16:04",
+      "title": "메트로·서울로 브릿지론 연장 불발된 이지스, 금융구조 개편 속도낸다",
+      "url": "https://www.mk.co.kr/news/stock/11937983",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 16:03",
+      "title": "“올해 매일 상승했었는데”…코스피, 새해 들어 첫 하락 4800선 마감",
+      "url": "https://www.mk.co.kr/news/stock/11937975",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 15:57",
+      "title": "\"ETF 따라가면 못 판다\"…차별화한 공모펀드, 자금유입 42%↑",
+      "url": "https://www.hankyung.com/article/202601201902i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 15:41",
+      "title": "'롤러코스터' 탄 코스피…신고가 찍고, 13거래일만 하락마감",
+      "url": "https://www.hankyung.com/article/2026012018376",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -273,22 +309,6 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 09:57",
-      "title": "[MK시그널] 넥스틸,  美석유기업들의 베네수엘라 진출 가시화에 따른 주가 상승세... MK시그널 추천 후 상승률 12.67%기록",
-      "url": "https://www.mk.co.kr/news/stock/11937525",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 09:57",
-      "title": "SK텔레콤, ‘앤트로픽’ 지분가치 재평가에 52주 신고가 경신",
-      "url": "https://www.mk.co.kr/news/stock/11937524",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-20 09:51",
@@ -361,22 +381,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 08:56",
-      "title": "\"하이브, BTS 월드투어로 이익 레버리지 확대…목표가↑\"-DS",
-      "url": "https://www.hankyung.com/article/2026012005106",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 08:48",
-      "title": "\"대한조선, 탱커 시장 호황에 선가 상승…목표가↑\"-다올",
-      "url": "https://www.hankyung.com/article/2026012004366",
-      "keywords_hit": []
     }
   ]
 }
