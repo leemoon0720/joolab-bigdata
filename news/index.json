@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-20 21:35 KST",
+  "updated_at": "2026-01-20 22:31 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,27 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-20 22:00",
+      "title": "전기차 캐즘에 발목 잡힌 2차전지株…로봇 타고 다시 달릴까 [종목+]",
+      "url": "https://www.hankyung.com/article/2026012020906",
+      "keywords_hit": [
+        "2차전지",
+        "로봇"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 21:43",
+      "title": "다가오는 자사주 소각 의무화…기보유 자사주 규모만 최대 123억",
+      "url": "https://www.mk.co.kr/news/stock/11938383",
+      "keywords_hit": [
+        "자사주"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -199,16 +220,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-20 17:50",
-      "title": "\"퇴직연금 4년후 1천조 시대 … 중도인출 막을 유인책 필요\"",
-      "url": "https://www.mk.co.kr/news/stock/11938189",
+      "title": "우리자산운용, 순자산 60조",
+      "url": "https://www.mk.co.kr/news/stock/11938188",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-20 17:50",
-      "title": "우리자산운용, 순자산 60조",
-      "url": "https://www.mk.co.kr/news/stock/11938188",
+      "title": "\"퇴직연금 4년후 1천조 시대 … 중도인출 막을 유인책 필요\"",
+      "url": "https://www.mk.co.kr/news/stock/11938189",
       "keywords_hit": []
     },
     {
@@ -245,16 +266,6 @@
       "url": "https://www.mk.co.kr/news/stock/11938182",
       "keywords_hit": [
         "자사주"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 17:50",
-      "title": "다보링크, 10억원 규모 유상증자 실시",
-      "url": "https://www.mk.co.kr/news/stock/11938169",
-      "keywords_hit": [
-        "증자"
       ]
     },
     {
@@ -370,16 +381,6 @@
       "url": "https://www.hankyung.com/article/2026012018376",
       "keywords_hit": [
         "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 15:22",
-      "title": "타임폴리오 차이나AI테크액티브 ETF, 수익률 50% 돌파",
-      "url": "https://www.hankyung.com/article/2026012017536",
-      "keywords_hit": [
-        "AI"
       ]
     }
   ]
