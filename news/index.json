@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-21 08:26 KST",
+  "updated_at": "2026-01-21 08:44 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,6 +25,36 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-21 08:44",
+      "title": "500대 기업, 지난해 자사주 소각 21조원 육박…삼성전자 ‘최다’",
+      "url": "https://www.mk.co.kr/news/business/11938615",
+      "keywords_hit": [
+        "자사주"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 08:31",
+      "title": "\"SK하이닉스, 올해 영업이익률 40% 돌파 전망…목표가 99만원\"-유진",
+      "url": "https://www.hankyung.com/article/2026012128736",
+      "keywords_hit": [
+        "영업이익"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 08:29",
+      "title": "\"현대로템, 수출국 다변화 긍정적\"-메리츠",
+      "url": "https://www.hankyung.com/article/2026012128726",
+      "keywords_hit": [
+        "리츠"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-21 08:25",
       "title": "“한국전력, 실적 개선에 국내외 원전 확대 방향성”…목표가↑",
       "url": "https://www.mk.co.kr/news/stock/11938607",
@@ -35,8 +65,26 @@
     {
       "source": "HK",
       "press": "한국경제",
+      "published_at": "2026-01-21 08:23",
+      "title": "[마켓PRO] Today's Pick : \"현대차, 지금이 가장 싼 이유: 생산성 혁명\"",
+      "url": "https://www.hankyung.com/article/202601212854i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 08:22",
+      "title": "재발한 관세 위협, 폭발한 일본 금리…미국 매도 or 또 다른 기회 [김현석의 월스트리트나우]",
+      "url": "https://www.hankyung.com/article/202601212775i",
+      "keywords_hit": [
+        "금리"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
       "published_at": "2026-01-21 08:18",
-      "title": "한중 교류·로봇 테마 탄 형지엘리트…채무 부담 덜었다 [종목+]",
+      "title": "李 대통령 테마주였어?…로봇주 열풍 타고 숨통 트이더니 [종목+]",
       "url": "https://www.hankyung.com/article/2026012127606",
       "keywords_hit": [
         "로봇"
@@ -301,20 +349,20 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-20 17:50",
+      "title": "오늘의 증시 일정 (1월 21일)",
+      "url": "https://www.mk.co.kr/news/stock/11938194",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 17:50",
       "title": "[코스닥 공시] 알로이스",
       "url": "https://www.mk.co.kr/news/stock/11938195",
       "keywords_hit": [
         "코스닥",
         "공시"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 17:50",
-      "title": "오늘의 증시 일정 (1월 21일)",
-      "url": "https://www.mk.co.kr/news/stock/11938194",
-      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -333,53 +381,11 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 17:50",
-      "title": "\"퇴직연금 4년후 1천조 시대 … 중도인출 막을 유인책 필요\"",
-      "url": "https://www.mk.co.kr/news/stock/11938189",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-20 17:36",
       "title": "'지금 빚내서라도 올라타야 돈 번다'…개미들 '30조 풀베팅'",
       "url": "https://www.hankyung.com/article/2026012022041",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 17:36",
-      "title": "\"3000만원 넣으면 1200만원을…\" 파격 혜택에 '관심 폭발'",
-      "url": "https://www.hankyung.com/article/2026012022681",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 17:33",
-      "title": "롯데지주·SK…'3차 상법개정' 수혜주 뜬다",
-      "url": "https://www.hankyung.com/article/2026012022071",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 17:32",
-      "title": "첫 반도체 인버스 상품 나온다",
-      "url": "https://www.hankyung.com/article/2026012022061",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 17:31",
-      "title": "\"국민 여론은 압도적\" 대통령 한마디에 줄줄이 상한가 '직행'",
-      "url": "https://www.hankyung.com/article/202601202247i",
       "keywords_hit": []
     }
   ]
