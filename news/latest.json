@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-20 18:56 KST",
+  "updated_at": "2026-01-20 19:29 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,22 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 19:25",
+      "title": "국민연금, 고양 스타필드 매각",
+      "url": "https://www.mk.co.kr/news/stock/11938282",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 19:04",
+      "title": "“금 진즉 사둘껄”…대서양 무역전운에 ‘금값 4700달러’ 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11938280",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -181,7 +197,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-20 17:50",
-      "title": "이찬진, PEF업계 쇄신 주문 \"시장질서 훼손땐 핀셋검사\"",
+      "title": "이찬진, PEF업계 쇄신 주문…\"시장질서 훼손땐 핀셋검사\"",
       "url": "https://www.mk.co.kr/news/stock/11938185",
       "keywords_hit": []
     },
@@ -207,7 +223,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-20 17:50",
-      "title": "\"최대 123조\"…자사주 소각 의무화 임박",
+      "title": "\"최대 123조\"… 자사주 소각 의무화 임박",
       "url": "https://www.mk.co.kr/news/stock/11938182",
       "keywords_hit": [
         "자사주"
@@ -227,7 +243,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-20 17:36",
-      "title": "'삼성전자 사자' 개미들 '빚투' 폭증하더니…'기록' 터졌다",
+      "title": "'지금 빚내서라도 올라타야 돈 번다'…개미들 '30조 풀베팅'",
       "url": "https://www.hankyung.com/article/2026012022041",
       "keywords_hit": []
     },
@@ -329,22 +345,6 @@
       "keywords_hit": [
         "상장"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 16:49",
-      "title": "같은 엔터주, 다른 주가…‘BTS 효과’에 하이브만 웃었다",
-      "url": "https://www.mk.co.kr/news/stock/11938048",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 16:41",
-      "title": "이찬진 “시장질서 훼손한 PEF에 개입 불가피...‘핀셋 검사’ 할 것”",
-      "url": "https://www.mk.co.kr/news/stock/11938038",
-      "keywords_hit": []
     },
     {
       "source": "HK",
