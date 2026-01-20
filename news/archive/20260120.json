@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-20 13:35 KST",
+  "updated_at": "2026-01-20 14:04 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,68 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 14:01",
+      "title": "미래에셋운용, TIGER 조선TOP10 ETF 순자산 1조원 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11937830",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 13:58",
+      "title": "KB증권 중개형 ISA 잔고 4조 돌파…2030 비중 53% 급증",
+      "url": "https://www.mk.co.kr/news/stock/11937828",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 13:54",
+      "title": "삼일PwC “AI 투자성과 체감 12%뿐…기업간 AI 격차, 기업 경쟁력 좌우”",
+      "url": "https://www.mk.co.kr/news/stock/11937819",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 13:44",
+      "title": "한국투자증권, FC자산 10조 돌파…2년만에 80% 성장",
+      "url": "https://www.mk.co.kr/news/stock/11937810",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 13:43",
+      "title": "“AI·바이오·방산 전부 담았다”…RISE 코리아전략산업액티브 ETF 출시",
+      "url": "https://www.mk.co.kr/news/stock/11937809",
+      "keywords_hit": [
+        "AI",
+        "바이오",
+        "방산"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 13:39",
+      "title": "“돈 생길 때 마다 반짝반짝 콩알금 모아요”…요즘 유행한다는 ‘소액 금테크’",
+      "url": "https://www.mk.co.kr/news/stock/11937805",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-20 13:39",
+      "title": "EY한영 “러 북극항로 전략 본격화…한·러 협력 기회”",
+      "url": "https://www.mk.co.kr/news/stock/11937804",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -276,24 +338,6 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 09:06",
-      "title": "업비트, ‘난방비 5만원’ 쏜다…가스앱과 제휴 이벤트",
-      "url": "https://www.mk.co.kr/news/stock/11937437",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 09:06",
-      "title": "코스피 시총 3위 오른 현대차…“60만원대 간다” 목표가 상향 줄이어 [오늘 나온 보고서]",
-      "url": "https://www.mk.co.kr/news/stock/11937435",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-20 08:56",
@@ -307,14 +351,6 @@
       "published_at": "2026-01-20 08:48",
       "title": "\"대한조선, 탱커 시장 호황에 선가 상승…목표가↑\"-다올",
       "url": "https://www.hankyung.com/article/2026012004366",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 08:46",
-      "title": "“달러 이렇게 비싼데도 맙소사”… ‘서학개미’ 줄섰다, 투자액 250조 돌파",
-      "url": "https://www.mk.co.kr/news/economy/11937413",
       "keywords_hit": []
     },
     {
@@ -341,45 +377,6 @@
       "url": "https://www.hankyung.com/article/202601200384i",
       "keywords_hit": [
         "실적"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 08:34",
-      "title": "IBK투자증권 “한미약품, 신약 모멘텀 확보…실적 기대치 상회 전망”",
-      "url": "https://www.mk.co.kr/news/stock/11937407",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 08:13",
-      "title": "“NH투자증권, 4분기 호실적에 고배당 기대”…목표가↑",
-      "url": "https://www.mk.co.kr/news/stock/11937401",
-      "keywords_hit": [
-        "실적",
-        "배당"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 08:07",
-      "title": "“현대건설, 건설사 넘어 글로벌 원전기업 도약”…목표가↑",
-      "url": "https://www.mk.co.kr/news/stock/11937398",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 07:26",
-      "title": "스틱인베, 밸류업 공시… “2028년까지 AUM 15조원”",
-      "url": "https://www.mk.co.kr/news/stock/11937387",
-      "keywords_hit": [
-        "공시"
       ]
     }
   ]
