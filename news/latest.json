@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-21 13:16 KST",
+  "updated_at": "2026-01-21 13:57 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,6 +23,24 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 13:44",
+      "title": "현대차 우선주, 코리아써키트에 쏠린 눈[주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11938908",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 13:33",
+      "title": "암호화폐에도 코스피처럼 대표 지수 생길까? [엠블록레터]",
+      "url": "https://www.mk.co.kr/news/stock/11938897",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-21 13:09",
@@ -34,7 +52,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-21 12:58",
-      "title": "[마켓PRO] '70% 급등' 현대차 놓친 고수들 '우선주'로 눈돌려",
+      "title": "[마켓PRO] '70% 급등' 현대차 놓친 고수들, 우선주로 눈돌려",
       "url": "https://www.hankyung.com/article/202601213824i",
       "keywords_hit": []
     },
@@ -343,24 +361,6 @@
       "title": "“넷마블, 올해 신작 기대감 뚝”…목표가↓",
       "url": "https://www.mk.co.kr/news/stock/11938597",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 07:59",
-      "title": "삼성제약, ‘PSP 치료제 GV1001’ 조건부 허가 신청",
-      "url": "https://www.mk.co.kr/news/stock/11938596",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 07:05",
-      "title": "“AI 뭐 없네?” 증시 존재감 희미해진 네카오…시총 비중 2% 밑으로",
-      "url": "https://www.mk.co.kr/news/stock/11938572",
-      "keywords_hit": [
-        "AI"
-      ]
     }
   ]
 }
