@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-22 06:29 KST",
+  "updated_at": "2026-01-22 06:53 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 06:36",
+      "title": "“로봇 백덤블링 보고 바로 담았습니다”…시총 100조 등극한 현대차",
+      "url": "https://www.mk.co.kr/news/stock/11939752",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -229,16 +239,6 @@
       "title": "\"지금이 기회\"… 스트레티지 코인추가 매수",
       "url": "https://www.mk.co.kr/news/stock/11939317",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 17:24",
-      "title": "[미국주식 돋보기] 'AI전력난 수혜' 블룸에너지 올 53% 질주",
-      "url": "https://www.mk.co.kr/news/stock/11939315",
-      "keywords_hit": [
-        "AI"
-      ]
     },
     {
       "source": "HK",
