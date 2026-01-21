@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-21 16:55 KST",
+  "updated_at": "2026-01-21 17:26 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,157 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 17:24",
+      "title": "1Q 미국우주항공테크 … 순자산 3000억원 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11939320",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 17:24",
+      "title": "매출 늘었는데도 넷플릭스 주가 시간외 하락",
+      "url": "https://www.mk.co.kr/news/stock/11939316",
+      "keywords_hit": [
+        "매출"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 17:24",
+      "title": "\"지금이 기회\"… 스트래티지 코인추가 매수",
+      "url": "https://www.mk.co.kr/news/stock/11939317",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 17:24",
+      "title": "'AI전력난 수혜' 블룸에너지 올 53% 질주",
+      "url": "https://www.mk.co.kr/news/stock/11939315",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 17:19",
+      "title": "韓 토종PEF 벌써 20년…세대교체 바람",
+      "url": "https://www.mk.co.kr/news/stock/11939301",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 17:12",
+      "title": "美 AI·로봇 육성책…전력기기·에너지 운용株에 기회",
+      "url": "https://www.hankyung.com/article/2026012147001",
+      "keywords_hit": [
+        "AI",
+        "로봇"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 17:12",
+      "title": "“정보 미리 빼내 33억 차익 챙겨”…증선위, NH직원 등 검찰 고발",
+      "url": "https://www.mk.co.kr/news/stock/11939273",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 17:11",
+      "title": "AI 버블론 놓고 '갑론을박'…\"그래도 K증시는 더 간다\" [한경 트렌드쇼]",
+      "url": "https://www.hankyung.com/article/2026012145616",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 17:11",
+      "title": "머스크 \"사이버캡, 옵티머스 생산속도…미친 듯 빨라질 것\"",
+      "url": "https://www.hankyung.com/article/2026012147011",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 17:10",
+      "title": "美·유럽 '그린란드 분쟁' 격화…뭉칫돈 몰리는 금·은·동 ETF",
+      "url": "https://www.hankyung.com/article/2026012146541",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 17:09",
+      "title": "[특징주 & 리포트] '알테오젠, 기술이전 실망에 급락' 등",
+      "url": "https://www.hankyung.com/article/2026012146581",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 17:08",
+      "title": "한국은행, 작년 4분기 및 연간 실질 국내총생산",
+      "url": "https://www.hankyung.com/article/2026012146571",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 17:07",
+      "title": "\"美 S&P500·나스닥100처럼…코스피도 적립식 장투할 때\"",
+      "url": "https://www.hankyung.com/article/2026012146521",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 17:06",
+      "title": "현대차 질주에 로봇 공급망株도 '방긋'",
+      "url": "https://www.hankyung.com/article/2026012146531",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 17:05",
+      "title": "K방산으로 월가 홀린 한화운용",
+      "url": "https://www.hankyung.com/article/2026012146551",
+      "keywords_hit": [
+        "방산"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 17:05",
+      "title": "타임폴리오 ETF 'TIME'으로 바꾼다",
+      "url": "https://www.hankyung.com/article/2026012146561",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 17:00",
+      "title": "이재용, 5000피 앞두고 신기록…개인 주식재산 30조 첫 돌파",
+      "url": "https://www.mk.co.kr/news/business/11939228",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -151,16 +302,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 15:35",
-      "title": "롤러코스터 탄 코스피, 현대차 질주에 4900선 탈환…종가 최고치 경신",
-      "url": "https://www.hankyung.com/article/2026012143066",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-21 15:29",
@@ -174,14 +315,6 @@
       "published_at": "2026-01-21 15:29",
       "title": "마스턴투자운용, 여주에 7개층 규모 대형 물류센터 개발 나서",
       "url": "https://www.mk.co.kr/news/stock/11939067",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 15:28",
-      "title": "미래에셋증권, 고객맞춤형랩 잔고 6兆 돌파",
-      "url": "https://www.hankyung.com/article/202601214323i",
       "keywords_hit": []
     },
     {
@@ -201,16 +334,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 15:16",
-      "title": "김남기 미래에셋 ETF 대표 \"코스피 장기 우상향하려면 연금 역차별 세제 개선해야\"",
-      "url": "https://www.hankyung.com/article/202601214195i",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-21 15:07",
@@ -219,65 +342,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 15:05",
-      "title": "인도·러시아에도 밀린 한국…'원화 가치' 글로벌 꼴찌 수준",
-      "url": "https://www.hankyung.com/article/202601213867i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-21 14:59",
       "title": "이름은 짧게, 성과는 강하게…4조 굴리는 타임폴리오, ‘TIME’ 리브랜딩",
       "url": "https://www.mk.co.kr/news/stock/11939029",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 14:30",
-      "title": "케이엔에스 베트남법인, 자율이동로봇 개발 완료…양산 개시",
-      "url": "https://www.hankyung.com/article/2026012141006",
-      "keywords_hit": [
-        "로봇"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 14:24",
-      "title": "\"곧 80만원 간다\"…테슬라 대항마로 뜨자 10%대 '불기둥' [종목+]",
-      "url": "https://www.hankyung.com/article/202601214056i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 14:15",
-      "title": "네이버-한국은행, 글로벌 중앙은행 최초 전용 AI 플랫폼 구축",
-      "url": "https://www.hankyung.com/article/202601214051i",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 14:08",
-      "title": "레드스톤 \"RWA, 기관 진입 본격화…올해 큰 성장 이룰 것\" [코인터뷰]",
-      "url": "https://www.hankyung.com/article/202601213368g",
-      "keywords_hit": [
-        "기관"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 14:06",
-      "title": "\"조 단위 계약인 줄\"…기술이전 호재에도 20% 폭락한 종목 [종목+]",
-      "url": "https://www.hankyung.com/article/202601213980i",
       "keywords_hit": []
     },
     {
@@ -297,72 +366,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 13:09",
-      "title": "[마켓PRO] 서학개미 고수들, 엔비디아 4%대 급락에 '줍줍'",
-      "url": "https://www.hankyung.com/article/202601213826i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 11:42",
-      "title": "MSTR, 올해 5조원 투자했는데 벌써 2500억원 손해 [매일코인]",
-      "url": "https://www.mk.co.kr/news/stock/11938852",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 11:11",
-      "title": "“생리대 무상공급 검토” 이 대통령 한마디에…모나리자·깨끗한나라 급등",
-      "url": "https://www.mk.co.kr/news/stock/11938810",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 11:09",
-      "title": "교보증권, ‘프리미어골드 대치센터’ 오픈…VIP 자산관리 강화",
-      "url": "https://www.mk.co.kr/news/stock/11938808",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 11:08",
-      "title": "NH투자증권, 30억 고액자산가 6000명 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11938806",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 10:40",
-      "title": "현대차, 52주 신고가 경신…“이젠 테슬라와 견줘야”",
-      "url": "https://www.mk.co.kr/news/stock/11938760",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 10:17",
-      "title": "교실서 배우는 블록체인·AI‥두나무, ‘업클래스 주니어’로 디지털 인재 육성",
-      "url": "https://www.mk.co.kr/news/stock/11938720",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 10:17",
-      "title": "트럼프발 지정학 리스크에 비트코인 9만불 붕괴… ‘공포의 화요일’",
-      "url": "https://www.mk.co.kr/news/stock/11938719",
-      "keywords_hit": []
     }
   ]
 }
