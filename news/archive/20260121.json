@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-21 16:02 KST",
+  "updated_at": "2026-01-21 16:38 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,44 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 16:20",
+      "title": "‘종합 커머스 기업’ 지오벤처스, 신규 투자 유치 나선다",
+      "url": "https://www.mk.co.kr/news/stock/11939163",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 16:12",
+      "title": "[포토] 현대차 14.61% 급등…코스피 4909.93로 마감",
+      "url": "https://www.hankyung.com/article/202601214475i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 16:07",
+      "title": "“4900선 회복한 코스피”…종가 최고치 경신, 현대차는 14%대 급등",
+      "url": "https://www.mk.co.kr/news/stock/11939135",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 16:01",
+      "title": "\"AI 랠리 마지막 신호는?\"…유동원·윤지호·홍춘욱이 답했다 [한경 트렌드쇼]",
+      "url": "https://www.hankyung.com/article/2026012142536",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -58,7 +96,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-21 15:43",
-      "title": "현대차 질주에… 로봇 SW·부품株 '불기둥'",
+      "title": "현대차 질주에…로봇 SW·부품株 '불기둥'",
       "url": "https://www.hankyung.com/article/202601214256i",
       "keywords_hit": [
         "로봇"
@@ -76,11 +114,10 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-21 15:35",
-      "title": "[속보] 롤러코스터 탄 코스피, 4909.93 마감…환율 1471원",
+      "title": "롤러코스터 탄 코스피, 현대차 질주에 4900선 탈환…종가 최고치 경신",
       "url": "https://www.hankyung.com/article/2026012143066",
       "keywords_hit": [
-        "코스피",
-        "환율"
+        "코스피"
       ]
     },
     {
@@ -296,24 +333,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 10:57",
-      "title": "\"피지컬 AI 정책 수혜주로 부상 기대\" 유비쿼스 52주 신고가",
-      "url": "https://www.hankyung.com/article/2026012134756",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 10:53",
-      "title": "타임폴리오, ETF 브랜드 'TIME'으로 교체…\"접근성 제고\"",
-      "url": "https://www.hankyung.com/article/2026012135206",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-21 10:40",
@@ -345,22 +364,6 @@
       "published_at": "2026-01-21 10:16",
       "title": "“공포에 3조 태웠다”…스트래티지, 비트코인 2.2만개 ‘폭풍 매수’",
       "url": "https://www.mk.co.kr/news/stock/11938704",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 10:12",
-      "title": "트럼프 “알래스카 프로젝트 착수”소식에 가스관 관련주 급등[특징주]",
-      "url": "https://www.mk.co.kr/news/stock/11938693",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 10:08",
-      "title": "[MK 골든크로스 돌파종목 : 씨피시스템(413630) & 일진홀딩스(015860)]",
-      "url": "https://www.mk.co.kr/news/stock/11938688",
       "keywords_hit": []
     }
   ]
