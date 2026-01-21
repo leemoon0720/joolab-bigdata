@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-21 12:17 KST",
+  "updated_at": "2026-01-21 13:16 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,30 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 13:09",
+      "title": "[마켓PRO] 서학개미 고수들, 엔비디아 4%대 급락에 '줍줍'",
+      "url": "https://www.hankyung.com/article/202601213826i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 12:58",
+      "title": "[마켓PRO] '70% 급등' 현대차 놓친 고수들 '우선주'로 눈돌려",
+      "url": "https://www.hankyung.com/article/202601213824i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 12:18",
+      "title": "TIMEFOLIO→TIME으로…'액티브 명가' 타임폴리오, ETF 브랜드 바꾼다",
+      "url": "https://www.hankyung.com/article/202601213277i",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -285,41 +309,12 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 09:15",
-      "title": "미국발 악재에 휘청…코스피·코스닥 하락 출발",
-      "url": "https://www.hankyung.com/article/2026012129786",
-      "keywords_hit": [
-        "코스피",
-        "코스닥"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-21 08:55",
       "title": "“현대차 들어가기 늦었죠?”...목표가 단숨에 2.5배 올린 ‘80만원’ 등장 [오늘 나온 보고서]",
       "url": "https://www.mk.co.kr/news/stock/11938627",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 08:51",
-      "title": "\"넷마블, 올해 신작 기대감 낮고 출시 지연 가능성…목표가↓\"-대신",
-      "url": "https://www.hankyung.com/article/2026012129426",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 08:45",
-      "title": "\"에코프로비엠, 로봇용 전고체전지 수요 증가 수혜 기대…목표가↑\"-KB",
-      "url": "https://www.hankyung.com/article/2026012128916",
-      "keywords_hit": [
-        "로봇"
-      ]
     },
     {
       "source": "MK",
