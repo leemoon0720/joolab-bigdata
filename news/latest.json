@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-21 17:56 KST",
+  "updated_at": "2026-01-21 18:31 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,42 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 18:24",
+      "title": "증선위, 공개매수 정보로 3.7억 챙긴 NH증권 직원 檢고발",
+      "url": "https://www.hankyung.com/article/2026012148976",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 18:03",
+      "title": "천스닥 고지에서 굴러떨어졌다…코스닥 대장주 ‘22% 폭락’ 대체 왜",
+      "url": "https://www.mk.co.kr/news/stock/11939423",
+      "keywords_hit": [
+        "코스닥"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 17:56",
+      "title": "미래에셋증권, 고객맞춤형랩 잔고 6조원 돌파",
+      "url": "https://www.hankyung.com/article/2026012148706",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 17:43",
+      "title": "李 '환율 수준' 이례적 언급…1분기 특단대책 나오나",
+      "url": "https://www.hankyung.com/article/2026012147921",
+      "keywords_hit": [
+        "환율"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -140,7 +176,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-21 17:12",
-      "title": "“정보 미리 빼내 33억 차익 챙겨”…증선위, NH직원 등 검찰 고발",
+      "title": "“미공개 정보로 33억 차익 챙겨”…증선위, NH직원 등 검찰 고발",
       "url": "https://www.mk.co.kr/news/stock/11939273",
       "keywords_hit": []
     },
@@ -190,7 +226,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-21 17:07",
-      "title": "\"美 S&P500·나스닥100처럼…코스피도 적립식 장투할 때\"",
+      "title": "김남기 미래에셋운용 부사장 \"美 S&P500·나스닥100처럼…코스피도 적립식 장투할 때\"",
       "url": "https://www.hankyung.com/article/2026012146521",
       "keywords_hit": [
         "코스피"
@@ -332,40 +368,6 @@
       "published_at": "2026-01-21 15:51",
       "title": "[단독] 거래소에 '맞불'…넥스트레이드도 오전 7시 개장 추진",
       "url": "https://www.hankyung.com/article/2026012139326",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 15:46",
-      "title": "현대차證 '다정다익 '별들의 전쟁' 우승",
-      "url": "https://www.hankyung.com/article/2026012127226",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 15:43",
-      "title": "현대차 질주에…로봇 SW·부품株 '불기둥'",
-      "url": "https://www.hankyung.com/article/202601214256i",
-      "keywords_hit": [
-        "로봇"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 15:35",
-      "title": "교보증권, '프리미어골드 대치센터' 오픈…VIP 자산관리 강화",
-      "url": "https://www.hankyung.com/article/202601214350i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 15:29",
-      "title": "코람코자산운용 임원인사...김태원·윤장호 신규 사장 선임",
-      "url": "https://www.mk.co.kr/news/stock/11939068",
       "keywords_hit": []
     }
   ]
