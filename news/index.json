@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-22 08:34 KST",
+  "updated_at": "2026-01-22 08:52 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,42 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 08:45",
+      "title": "“엄청 나가서 2800만원씩 벌었어요”…작년 서학개미 양도세 신고 52만명",
+      "url": "https://www.mk.co.kr/news/stock/11939830",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 08:37",
+      "title": "반년전 10만원대 현대차 주가, 이제는 목표가 ‘85만원’ [오늘 나온 보고서]",
+      "url": "https://www.mk.co.kr/news/stock/11939826",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 08:32",
+      "title": "\"현대차, 그룹 로봇 생태계 핵심…목표가 85만원\"-삼성",
+      "url": "https://www.hankyung.com/article/2026012254566",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 08:30",
+      "title": "[마켓PRO] Today's Pick : \"삼성바이오로직스, 230만원 간다…추가 수주 주목\"",
+      "url": "https://www.hankyung.com/article/202601225455i",
+      "keywords_hit": [
+        "바이오"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -274,24 +310,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 17:24",
-      "title": "1Q 미국우주항공테크…순자산 3000억원 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11939320",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 17:24",
-      "title": "매출 늘었는데도 넷플릭스 주가 하락",
-      "url": "https://www.mk.co.kr/news/stock/11939316",
-      "keywords_hit": [
-        "매출"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-21 17:12",
@@ -352,26 +370,6 @@
       "url": "https://www.hankyung.com/article/2026012146521",
       "keywords_hit": [
         "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 17:06",
-      "title": "현대차 질주에 로봇 공급망株도 '방긋'",
-      "url": "https://www.hankyung.com/article/2026012146531",
-      "keywords_hit": [
-        "로봇"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 17:05",
-      "title": "K방산으로 월가 홀린 한화운용",
-      "url": "https://www.hankyung.com/article/2026012146551",
-      "keywords_hit": [
-        "방산"
       ]
     }
   ]
