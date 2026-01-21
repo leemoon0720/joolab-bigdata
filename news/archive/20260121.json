@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-21 13:57 KST",
+  "updated_at": "2026-01-21 14:31 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,24 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 14:08",
+      "title": "레드스톤 \"RWA, 기관 진입 본격화…올해 큰 성장 이룰 것\" [코인터뷰]",
+      "url": "https://www.hankyung.com/article/202601213368g",
+      "keywords_hit": [
+        "기관"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 14:06",
+      "title": "\"조 단위 계약인 줄\"…기술이전 호재에도 20% 폭락한 종목 [종목+]",
+      "url": "https://www.hankyung.com/article/202601213980i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -298,22 +316,6 @@
       "published_at": "2026-01-21 09:31",
       "title": "美 전역 한파 예고에…천연가스 ETN '불기둥'",
       "url": "https://www.hankyung.com/article/2026012131236",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 09:30",
-      "title": "\"테슬라 상대할 유일한 업체\"…현대차 주가 '파격 전망' [종목+]",
-      "url": "https://www.hankyung.com/article/2026012131366",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 09:28",
-      "title": "트럼프 \"알래스카 천연가스 프로젝트 착수\" 언급에…강관주 '들썩'",
-      "url": "https://www.hankyung.com/article/2026012131276",
       "keywords_hit": []
     },
     {
