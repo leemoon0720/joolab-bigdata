@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-22 05:57 KST",
+  "updated_at": "2026-01-22 06:29 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,17 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 06:00",
+      "title": "서학개미 포트폴리오에 AI 주식 밖에 없다고요?…깜짝실적 금융주 골드만삭스 모건스탠리 어떠세요 [매일 돈이 보이는 습관 M+]",
+      "url": "https://www.mk.co.kr/news/economy/11938017",
+      "keywords_hit": [
+        "실적",
+        "AI"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -228,14 +239,6 @@
       "keywords_hit": [
         "AI"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 17:19",
-      "title": "韓 토종PEF 벌써 20년…세대교체 바람",
-      "url": "https://www.mk.co.kr/news/stock/11939301",
-      "keywords_hit": []
     },
     {
       "source": "HK",
