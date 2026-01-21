@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-21 21:54 KST",
+  "updated_at": "2026-01-21 22:41 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,24 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 22:00",
+      "title": "'성투하세요' 1억 벌고 떠난 개미…한전 종토방 '들썩' [종목+] ·",
+      "url": "https://www.hankyung.com/article/2026012148926",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 21:55",
+      "title": "“넷플릭스에 무슨 악재가 있나?”...괜찮은 실적에도 연일 주가 하락",
+      "url": "https://www.mk.co.kr/news/stock/11939572",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -301,14 +319,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 17:00",
-      "title": "이재용, 5000피 앞두고 신기록…개인 주식재산 30조 첫 돌파",
-      "url": "https://www.mk.co.kr/news/business/11939228",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-21 16:47",
@@ -359,14 +369,6 @@
       "keywords_hit": [
         "AI"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 15:51",
-      "title": "[단독] 거래소에 '맞불'…넥스트레이드도 오전 7시 개장 추진",
-      "url": "https://www.hankyung.com/article/2026012139326",
-      "keywords_hit": []
     }
   ]
 }
