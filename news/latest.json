@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-21 08:55 KST",
+  "updated_at": "2026-01-21 10:25 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,177 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 10:19",
+      "title": "원·달러 환율, 한 달 만에 장중 1480원 돌파",
+      "url": "https://www.hankyung.com/article/2026012133286",
+      "keywords_hit": [
+        "환율"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 10:19",
+      "title": "'兆 단위' 아닌 수천억대 계약 소식에…알테오젠 16%대 급락",
+      "url": "https://www.hankyung.com/article/2026012132836",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 10:18",
+      "title": "한화오션, 7883억원 규모 LNG운반선 수주",
+      "url": "https://www.hankyung.com/article/2026012133626",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 10:17",
+      "title": "교실서 배우는 블록체인·AI‥두나무, ‘업클래스 주니어’로 디지털 인재 육성",
+      "url": "https://www.mk.co.kr/news/stock/11938720",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 10:17",
+      "title": "트럼프발 지정학 리스크에 비트코인 9만불 붕괴… ‘공포의 화요일’",
+      "url": "https://www.mk.co.kr/news/stock/11938719",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 10:16",
+      "title": "“공포에 3조 태웠다”…스트래티지, 비트코인 2.2만개 ‘폭풍 매수’",
+      "url": "https://www.mk.co.kr/news/stock/11938704",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 10:12",
+      "title": "트럼프 “알래스카 프로젝트 착수”소식에 가스관 관련주 급등[특징주]",
+      "url": "https://www.mk.co.kr/news/stock/11938693",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 10:08",
+      "title": "[MK 골든크로스 돌파종목 : 씨피시스템(413630) & 일진홀딩스(015860)]",
+      "url": "https://www.mk.co.kr/news/stock/11938688",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 10:08",
+      "title": "[MK시그널] 오뚜기, 글로벌 식품 기업으로의 밸류에이션 재평가 기대 등에 주가 상승세... MK시그널 추천 후 상승률 4.43%기록",
+      "url": "https://www.mk.co.kr/news/stock/11938687",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 10:07",
+      "title": "[MK시그널] PTC 테라퓨틱스 매도신호 포착, 수익률 48.4% 달성",
+      "url": "https://www.mk.co.kr/news/stock/11938686",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 09:53",
+      "title": "모나리자, 이 대통령의 생리대 무상 공급 언급에 '강세'",
+      "url": "https://www.hankyung.com/article/2026012131586",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 09:41",
+      "title": "'코스피 과열' 의견 냈다가 결국 퇴사…여의도 증권맨 '속앓이'",
+      "url": "https://www.hankyung.com/article/2026012129166",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 09:38",
+      "title": "트럼프 ‘알래스카 LNG’ 발언에…가스관·강관 관련주 급등",
+      "url": "https://www.mk.co.kr/news/stock/11938665",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 09:31",
+      "title": "美 전역 한파 예고에…천연가스 ETN '불기둥'",
+      "url": "https://www.hankyung.com/article/2026012131236",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 09:30",
+      "title": "\"테슬라 상대할 유일한 업체\"…현대차 주가 '파격 전망' [종목+]",
+      "url": "https://www.hankyung.com/article/2026012131366",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 09:28",
+      "title": "트럼프 \"알래스카 천연가스 프로젝트 착수\" 언급에…강관주 '들썩'",
+      "url": "https://www.hankyung.com/article/2026012131276",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 09:18",
+      "title": "“코스피 5000피, 지옥문 열리는거 아냐”…일주일 새 인버스 베팅 줄었다",
+      "url": "https://www.mk.co.kr/news/economy/11938645",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 09:15",
+      "title": "미국발 악재에 휘청…코스피·코스닥 하락 출발",
+      "url": "https://www.hankyung.com/article/2026012129786",
+      "keywords_hit": [
+        "코스피",
+        "코스닥"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 08:55",
+      "title": "“현대차 들어가기 늦었죠?”...목표가 단숨에 2.5배 올린 ‘80만원’ 등장 [오늘 나온 보고서]",
+      "url": "https://www.mk.co.kr/news/stock/11938627",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 08:51",
+      "title": "\"넷마블, 올해 신작 기대감 낮고 출시 지연 가능성…목표가↓\"-대신",
+      "url": "https://www.hankyung.com/article/2026012129426",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -153,24 +324,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 07:48",
-      "title": "\"금호석유화학, 로봇 산업 성장의 수혜주로 떠올라…목표가↑\"-한국",
-      "url": "https://www.hankyung.com/article/2026012127416",
-      "keywords_hit": [
-        "로봇"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 07:16",
-      "title": "대서양 관세전쟁 일촉즉발…나스닥 2.39% '하락' [뉴욕증시 브리핑]",
-      "url": "https://www.hankyung.com/article/2026012127156",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-21 07:05",
@@ -178,25 +331,6 @@
       "url": "https://www.mk.co.kr/news/stock/11938572",
       "keywords_hit": [
         "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 06:30",
-      "title": "\"다들 떠난 줄 알았는데\"…깜짝 전망에 52주 신고가 쓴 종목  [종목+]",
-      "url": "https://www.hankyung.com/article/2026012018426",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 22:00",
-      "title": "전기차 캐즘에 발목 잡힌 2차전지株…로봇 타고 다시 달릴까 [종목+]",
-      "url": "https://www.hankyung.com/article/2026012020906",
-      "keywords_hit": [
-        "2차전지",
-        "로봇"
       ]
     },
     {
@@ -241,153 +375,6 @@
       "published_at": "2026-01-20 19:04",
       "title": "“금 진즉 사둘껄”…대서양 무역전운에 ‘금값 4700달러’ 돌파",
       "url": "https://www.mk.co.kr/news/stock/11938280",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 18:29",
-      "title": "美 앤트로픽 투자에 SKT ‘훨훨’",
-      "url": "https://www.mk.co.kr/news/stock/11938269",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 18:26",
-      "title": "[인기검색TOP5] 종근당바이오, JW중외제약, 대한광통신, 두산로보틱스, 에코프로",
-      "url": "https://www.mk.co.kr/news/stock/11938268",
-      "keywords_hit": [
-        "바이오"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 18:00",
-      "title": "고환율에 달러族 급증 … 정부, RIA 꼼수 막는다",
-      "url": "https://www.mk.co.kr/news/stock/11938247",
-      "keywords_hit": [
-        "환율"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 17:58",
-      "title": "현대차 시총 100조 '터치'…\"단기 급등했지만 여전히 저평가 상태\"",
-      "url": "https://www.hankyung.com/article/2026012023051",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 17:56",
-      "title": "짐 젤터 \"美인플레 끝났다는 생각은 오산…AI기업 고평가된 측면 있다\"",
-      "url": "https://www.hankyung.com/article/2026012021781",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 17:52",
-      "title": "'비행기 제조 로봇' 기대에…中 유비테크 주가 날았다",
-      "url": "https://www.hankyung.com/article/2026012021791",
-      "keywords_hit": [
-        "로봇"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 17:51",
-      "title": "메모리 붐에…마이크론, 대만 반도체공장 인수",
-      "url": "https://www.hankyung.com/article/2026012021801",
-      "keywords_hit": [
-        "반도체",
-        "인수"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 17:51",
-      "title": "잘나가던 '유럽 명품주'…관세·환율에 직격탄",
-      "url": "https://www.hankyung.com/article/2026012021831",
-      "keywords_hit": [
-        "환율"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 17:51",
-      "title": "'토종 PEF' 스틱 도용환 회장, 美 운용사에 지분 넘겨",
-      "url": "https://www.mk.co.kr/news/stock/11938198",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 17:51",
-      "title": "美 앤스로픽 투자에 SKT 이틀새 12% 급등",
-      "url": "https://www.mk.co.kr/news/stock/11938197",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-20 17:50",
-      "title": "\"M7 동반 상승 끝났다…종목 옥석가리기 시작\"",
-      "url": "https://www.hankyung.com/article/2026012021841",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 17:50",
-      "title": "[유가증권시장 공시] HD현대중공업",
-      "url": "https://www.mk.co.kr/news/stock/11938193",
-      "keywords_hit": [
-        "공시",
-        "유가"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 17:50",
-      "title": "오늘의 증시 일정 (1월 21일)",
-      "url": "https://www.mk.co.kr/news/stock/11938194",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 17:50",
-      "title": "[코스닥 공시] 알로이스",
-      "url": "https://www.mk.co.kr/news/stock/11938195",
-      "keywords_hit": [
-        "코스닥",
-        "공시"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 17:50",
-      "title": "NYSE도 24시간 토큰화시장 진출",
-      "url": "https://www.mk.co.kr/news/stock/11938191",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 17:50",
-      "title": "우리자산운용, 순자산 60조",
-      "url": "https://www.mk.co.kr/news/stock/11938188",
       "keywords_hit": []
     }
   ]
