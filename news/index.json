@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-21 16:38 KST",
+  "updated_at": "2026-01-21 16:55 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,46 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 16:47",
+      "title": "[포토] 현대차증권 정영조 책임매니저-정명재 매니저, '제31회 한경 스타워즈 하반기 우승'",
+      "url": "https://www.hankyung.com/article/2026012146267",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 16:46",
+      "title": "[포토] 이수구 신한투자증권 대리, '제31회 한경 스타워즈 하반기 2위'",
+      "url": "https://www.hankyung.com/article/2026012146177",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 16:45",
+      "title": "[포토] 한국투자증권 홍경민 대리-이광희 대리, '제31회 한경 스타워즈 하반기 3위'",
+      "url": "https://www.hankyung.com/article/2026012146087",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 16:42",
+      "title": "[포토] '제31회 한경 스타워즈 하반기 시상식' 영광의 얼굴들",
+      "url": "https://www.hankyung.com/article/2026012145947",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 16:39",
+      "title": "교보증권 ‘프리미어골드 대치센터’ 오픈… VIP 자산관리 강화",
+      "url": "https://www.mk.co.kr/news/stock/11939185",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -267,46 +307,12 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 12:58",
-      "title": "[마켓PRO] '70% 급등' 현대차 놓친 고수들, 우선주로 눈돌려",
-      "url": "https://www.hankyung.com/article/202601213824i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 12:18",
-      "title": "TIMEFOLIO→TIME으로…'액티브 명가' 타임폴리오, ETF 브랜드 바꾼다",
-      "url": "https://www.hankyung.com/article/202601213277i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 12:06",
-      "title": "비트코인 폭락에도…스토리(IP) 코인, 나홀로 두 자릿수 급등세",
-      "url": "https://www.hankyung.com/article/202601213458g",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-21 11:42",
       "title": "MSTR, 올해 5조원 투자했는데 벌써 2500억원 손해 [매일코인]",
       "url": "https://www.mk.co.kr/news/stock/11938852",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 11:11",
-      "title": "그린란드 사태에도 '굳건'…코스피, 상승 전환하며 4900 회복",
-      "url": "https://www.hankyung.com/article/2026012135456",
-      "keywords_hit": [
-        "코스피"
-      ]
     },
     {
       "source": "MK",
@@ -356,14 +362,6 @@
       "published_at": "2026-01-21 10:17",
       "title": "트럼프발 지정학 리스크에 비트코인 9만불 붕괴… ‘공포의 화요일’",
       "url": "https://www.mk.co.kr/news/stock/11938719",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 10:16",
-      "title": "“공포에 3조 태웠다”…스트래티지, 비트코인 2.2만개 ‘폭풍 매수’",
-      "url": "https://www.mk.co.kr/news/stock/11938704",
       "keywords_hit": []
     }
   ]
