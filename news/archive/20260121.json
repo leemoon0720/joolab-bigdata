@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-21 17:26 KST",
+  "updated_at": "2026-01-21 17:56 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,65 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 17:40",
+      "title": "스틱 대주주 오르는 미리캐피탈 “장기투자자로 협력”",
+      "url": "https://www.mk.co.kr/news/stock/11939396",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 17:36",
+      "title": "오늘의 증시일정 (1월22일)",
+      "url": "https://www.mk.co.kr/news/stock/11939394",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 17:36",
+      "title": "[유가증권시장 공시] 한미약품 / GKL",
+      "url": "https://www.mk.co.kr/news/stock/11939393",
+      "keywords_hit": [
+        "공시",
+        "유가"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 17:36",
+      "title": "'오천피' 눈앞인데 … 증권가 \"더 간다, 사라\"",
+      "url": "https://www.mk.co.kr/news/stock/11939390",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 17:36",
+      "title": "현대차 또 15% 뛰어올라 '시총 100조원 클럽' 안착",
+      "url": "https://www.mk.co.kr/news/stock/11939388",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 17:36",
+      "title": "'천스닥' 보였는데…알테오젠 쇼크에 와르르",
+      "url": "https://www.mk.co.kr/news/stock/11939387",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 17:33",
+      "title": "日 총선 변수까지 겹쳐 … 美 국채값 뚝뚝",
+      "url": "https://www.mk.co.kr/news/stock/11939360",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -308,64 +367,6 @@
       "title": "코람코자산운용 임원인사...김태원·윤장호 신규 사장 선임",
       "url": "https://www.mk.co.kr/news/stock/11939068",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 15:29",
-      "title": "마스턴투자운용, 여주에 7개층 규모 대형 물류센터 개발 나서",
-      "url": "https://www.mk.co.kr/news/stock/11939067",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 15:27",
-      "title": "현대차 우선주 매수세 계속...고려아연도 순매수[주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11939065",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 15:24",
-      "title": "“한국만 ‘가상자산’ 낡은 틀에 갇혀… 디지털자산기본법 제정, 더는 미룰 수 없다”",
-      "url": "https://www.mk.co.kr/news/stock/11939056",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 15:07",
-      "title": "[단독] 지드래곤도 반한 주류 스타트업, 경영권 담보 투자 유치 도전",
-      "url": "https://www.mk.co.kr/news/stock/11939041",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 14:59",
-      "title": "이름은 짧게, 성과는 강하게…4조 굴리는 타임폴리오, ‘TIME’ 리브랜딩",
-      "url": "https://www.mk.co.kr/news/stock/11939029",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 13:44",
-      "title": "현대차 우선주, 코리아써키트에 쏠린 눈[주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11938908",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 13:33",
-      "title": "암호화폐에도 코스피처럼 대표 지수 생길까? [엠블록레터]",
-      "url": "https://www.mk.co.kr/news/stock/11938897",
-      "keywords_hit": [
-        "코스피"
-      ]
     }
   ]
 }
