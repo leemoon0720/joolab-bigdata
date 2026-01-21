@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-21 22:41 KST",
+  "updated_at": "2026-01-21 23:06 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,8 +25,18 @@
     {
       "source": "HK",
       "press": "한국경제",
+      "published_at": "2026-01-21 22:41",
+      "title": "코넥스 상장사 볼빅, 재고 과대계상 덜미…검찰 고발",
+      "url": "https://www.hankyung.com/article/202601215099i",
+      "keywords_hit": [
+        "상장"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
       "published_at": "2026-01-21 22:00",
-      "title": "'성투하세요' 1억 벌고 떠난 개미…한전 종토방 '들썩' [종목+] ·",
+      "title": "\"1억 벌고 갑니다\" 개미들 신났다…한전 종토방 '들썩' [종목+]",
       "url": "https://www.hankyung.com/article/2026012148926",
       "keywords_hit": []
     },
@@ -102,7 +112,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-21 17:43",
-      "title": "李 '환율 수준' 이례적 언급…1분기 특단대책 나오나",
+      "title": "李 '환율 수준' 이례적 언급…시장 기대심리 꺾이나",
       "url": "https://www.hankyung.com/article/2026012147921",
       "keywords_hit": [
         "환율"
@@ -358,16 +368,6 @@
       "url": "https://www.hankyung.com/article/202601214475i",
       "keywords_hit": [
         "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 16:01",
-      "title": "\"AI 랠리 마지막 신호는?\"…유동원·윤지호·홍춘욱이 답했다 [한경 트렌드쇼]",
-      "url": "https://www.hankyung.com/article/2026012142536",
-      "keywords_hit": [
-        "AI"
       ]
     }
   ]
