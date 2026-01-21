@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-21 14:54 KST",
+  "updated_at": "2026-01-21 15:29 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,86 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 15:27",
+      "title": "현대차 우선주 매수세 계속...고려아연도 순매수[주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11939065",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 15:24",
+      "title": "“한국만 ‘가상자산’ 낡은 틀에 갇혀… 디지털자산기본법 제정, 더는 미룰 수 없다”",
+      "url": "https://www.mk.co.kr/news/stock/11939056",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 15:16",
+      "title": "김남기 미래에셋 ETF 대표 \"코스피 장기 우상향하려면 연금 역차별 세제 개선해야\"",
+      "url": "https://www.hankyung.com/article/202601214195i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 15:07",
+      "title": "[단독] 지드래곤도 반한 주류 스타트업, 경영권 담보 투자 유치 도전",
+      "url": "https://www.mk.co.kr/news/stock/11939041",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 15:05",
+      "title": "명목실효환율 64개국 중 61위…인도·러시아에도 뒤져",
+      "url": "https://www.hankyung.com/article/202601213867i",
+      "keywords_hit": [
+        "환율"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 14:59",
+      "title": "이름은 짧게, 성과는 강하게…4조 굴리는 타임폴리오, ‘TIME’ 리브랜딩",
+      "url": "https://www.mk.co.kr/news/stock/11939029",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 14:30",
+      "title": "케이엔에스 베트남법인, 자율이동로봇 개발 완료…양산 개시",
+      "url": "https://www.hankyung.com/article/2026012141006",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 14:24",
+      "title": "\"곧 80만원 간다\"…테슬라 대항마로 뜨자 10%대 '불기둥' [종목+]",
+      "url": "https://www.hankyung.com/article/202601214056i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 14:15",
+      "title": "네이버-한국은행, 글로벌 중앙은행 최초 전용 AI 플랫폼 구축",
+      "url": "https://www.hankyung.com/article/202601214051i",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -211,22 +291,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 10:19",
-      "title": "대형 호재 나왔는데 주가 '와르르'…실망한 개미들 '눈물' [종목+]",
-      "url": "https://www.hankyung.com/article/2026012132836",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 10:18",
-      "title": "한화오션, 7883억원 규모 LNG운반선 수주",
-      "url": "https://www.hankyung.com/article/2026012133626",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-21 10:17",
@@ -285,37 +349,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 09:53",
-      "title": "모나리자, 이 대통령의 생리대 무상 공급 언급에 '강세'",
-      "url": "https://www.hankyung.com/article/2026012131586",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 09:41",
-      "title": "'코스피 과열' 의견 냈다가 결국 퇴사…여의도 증권맨 '속앓이' [여의도발]",
-      "url": "https://www.hankyung.com/article/2026012129166",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-21 09:38",
       "title": "트럼프 ‘알래스카 LNG’ 발언에…가스관·강관 관련주 급등",
       "url": "https://www.mk.co.kr/news/stock/11938665",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 09:31",
-      "title": "美 전역 한파 예고에…천연가스 ETN '불기둥'",
-      "url": "https://www.hankyung.com/article/2026012131236",
       "keywords_hit": []
     },
     {
@@ -327,42 +365,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 08:55",
-      "title": "“현대차 들어가기 늦었죠?”...목표가 단숨에 2.5배 올린 ‘80만원’ 등장 [오늘 나온 보고서]",
-      "url": "https://www.mk.co.kr/news/stock/11938627",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 08:44",
-      "title": "500대 기업, 지난해 자사주 소각 21조원 육박…삼성전자 ‘최다’",
-      "url": "https://www.mk.co.kr/news/business/11938615",
-      "keywords_hit": [
-        "자사주"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 08:25",
-      "title": "“한국전력, 실적 개선에 국내외 원전 확대 방향성”…목표가↑",
-      "url": "https://www.mk.co.kr/news/stock/11938607",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 08:00",
-      "title": "“넷마블, 올해 신작 기대감 뚝”…목표가↓",
-      "url": "https://www.mk.co.kr/news/stock/11938597",
-      "keywords_hit": []
     }
   ]
 }
