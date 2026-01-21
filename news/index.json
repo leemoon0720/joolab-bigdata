@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-21 19:57 KST",
+  "updated_at": "2026-01-21 20:26 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 20:25",
+      "title": "“추격 매수는 이럴 때 하는 거야”...떨어질수록 더 사는 남자의 끝은?",
+      "url": "https://www.mk.co.kr/news/stock/11939513",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -161,19 +169,19 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-21 17:24",
-      "title": "\"지금이 기회\"… 스트레티지 코인추가 매수",
-      "url": "https://www.mk.co.kr/news/stock/11939317",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 17:24",
       "title": "매출 늘었는데도 넷플릭스 주가 하락",
       "url": "https://www.mk.co.kr/news/stock/11939316",
       "keywords_hit": [
         "매출"
       ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 17:24",
+      "title": "\"지금이 기회\"… 스트레티지 코인추가 매수",
+      "url": "https://www.mk.co.kr/news/stock/11939317",
+      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -208,7 +216,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-21 17:12",
-      "title": "“미공개 정보로 33억 차익 챙겨”…증선위, NH직원 등 검찰 고발",
+      "title": "“미공개 정보로 33억 차익 챙겨”…증선위, 증권사 직원 검찰 고발",
       "url": "https://www.mk.co.kr/news/stock/11939273",
       "keywords_hit": []
     },
@@ -330,14 +338,6 @@
       "published_at": "2026-01-21 16:42",
       "title": "[포토] '제31회 한경 스타워즈 하반기 시상식' 영광의 얼굴들",
       "url": "https://www.hankyung.com/article/2026012145947",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 16:39",
-      "title": "교보증권 ‘프리미어골드 대치센터’ 오픈… VIP 자산관리 강화",
-      "url": "https://www.mk.co.kr/news/stock/11939185",
       "keywords_hit": []
     },
     {
