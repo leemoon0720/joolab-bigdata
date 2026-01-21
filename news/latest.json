@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-22 07:15 KST",
+  "updated_at": "2026-01-22 07:47 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,41 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 07:42",
+      "title": "\"코스닥 대장주가 짓누른 바이오 투심…살펴볼 낙폭과대주는\"",
+      "url": "https://www.hankyung.com/article/2026012253156",
+      "keywords_hit": [
+        "코스닥",
+        "바이오"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 07:22",
+      "title": "트럼프 '그린란드 관세' 철회에 동반 상승…다우 1.2%↑ [뉴욕증시 브리핑]",
+      "url": "https://www.hankyung.com/article/2026012253096",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 07:20",
+      "title": "트럼프 유럽 추가 관세 철회 선언하자 뉴욕증시 반색…3대 지수 일제히 상승 [월가월부]",
+      "url": "https://www.mk.co.kr/news/stock/11939787",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 07:19",
+      "title": "\"효성티앤씨, 판가 인상·경쟁사 위기…목표가 30만→51만원 상향\"-하나",
+      "url": "https://www.hankyung.com/article/2026012253016",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -233,14 +268,6 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 17:24",
-      "title": "\"지금이 기회\"… 스트레티지 코인추가 매수",
-      "url": "https://www.mk.co.kr/news/stock/11939317",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-21 17:12",
@@ -346,32 +373,6 @@
       "title": "[포토] 이수구 신한투자증권 대리, '제31회 한경 스타워즈 하반기 2위'",
       "url": "https://www.hankyung.com/article/2026012146177",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 16:45",
-      "title": "[포토] 한국투자증권 홍경민 대리-이광희 대리, '제31회 한경 스타워즈 하반기 3위'",
-      "url": "https://www.hankyung.com/article/2026012146087",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 16:42",
-      "title": "[포토] '제31회 한경 스타워즈 하반기 시상식' 영광의 얼굴들",
-      "url": "https://www.hankyung.com/article/2026012145947",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 16:12",
-      "title": "[포토] 현대차 14.61% 급등…코스피 4909.93로 마감",
-      "url": "https://www.hankyung.com/article/202601214475i",
-      "keywords_hit": [
-        "코스피"
-      ]
     }
   ]
 }
