@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-21 18:56 KST",
+  "updated_at": "2026-01-21 19:30 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,22 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 19:20",
+      "title": "일본 ‘소비세 폐지 공약’에 채권시장 요동…美국채 가격 급락해",
+      "url": "https://www.mk.co.kr/news/stock/11939469",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 19:05",
+      "title": "회계사 1차 시험 지원자 2000명 줄어…경쟁률 하락",
+      "url": "https://www.mk.co.kr/news/stock/11939465",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -86,6 +102,14 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-21 17:36",
+      "title": "타임폴리오 ETF 'TIME'으로 개명",
+      "url": "https://www.mk.co.kr/news/stock/11939392",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 17:36",
       "title": "[유가증권시장 공시] 한미약품 / GKL",
       "url": "https://www.mk.co.kr/news/stock/11939393",
       "keywords_hit": [
@@ -129,7 +153,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-21 17:24",
-      "title": "1Q 미국우주항공테크 … 순자산 3000억원 돌파",
+      "title": "1Q 미국우주항공테크…순자산 3000억원 돌파",
       "url": "https://www.mk.co.kr/news/stock/11939320",
       "keywords_hit": []
     },
@@ -137,7 +161,15 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-21 17:24",
-      "title": "매출 늘었는데도 넷플릭스 주가 시간외 하락",
+      "title": "\"지금이 기회\"… 스트레티지 코인추가 매수",
+      "url": "https://www.mk.co.kr/news/stock/11939317",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 17:24",
+      "title": "매출 늘었는데도 넷플릭스 주가 하락",
       "url": "https://www.mk.co.kr/news/stock/11939316",
       "keywords_hit": [
         "매출"
@@ -147,15 +179,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-21 17:24",
-      "title": "\"지금이 기회\"… 스트래티지 코인추가 매수",
-      "url": "https://www.mk.co.kr/news/stock/11939317",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 17:24",
-      "title": "'AI전력난 수혜' 블룸에너지 올 53% 질주",
+      "title": "[미국주식 돋보기] 'AI전력난 수혜' 블룸에너지 올 53% 질주",
       "url": "https://www.mk.co.kr/news/stock/11939315",
       "keywords_hit": [
         "AI"
@@ -317,29 +341,11 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 16:20",
-      "title": "‘종합 커머스 기업’ 지오벤처스, 신규 투자 유치 나선다",
-      "url": "https://www.mk.co.kr/news/stock/11939163",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-21 16:12",
       "title": "[포토] 현대차 14.61% 급등…코스피 4909.93로 마감",
       "url": "https://www.hankyung.com/article/202601214475i",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 16:07",
-      "title": "“4900선 회복한 코스피”…종가 최고치 경신, 현대차는 14%대 급등",
-      "url": "https://www.mk.co.kr/news/stock/11939135",
       "keywords_hit": [
         "코스피"
       ]
@@ -353,14 +359,6 @@
       "keywords_hit": [
         "AI"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 15:59",
-      "title": "미래에셋증권, 고객맞춤형랩 잔고 6조원 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11939093",
-      "keywords_hit": []
     },
     {
       "source": "HK",
