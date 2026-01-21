@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-21 15:29 KST",
+  "updated_at": "2026-01-21 16:02 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,91 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 15:59",
+      "title": "미래에셋증권, 고객맞춤형랩 잔고 6조원 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11939093",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 15:52",
+      "title": "타임폴리오운용, ETF 브랜드 ‘TIME’으로 리브랜딩",
+      "url": "https://www.mk.co.kr/news/stock/11939090",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 15:51",
+      "title": "[단독] 거래소에 '맞불'…넥스트레이드도 오전 7시 개장 추진",
+      "url": "https://www.hankyung.com/article/2026012139326",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 15:46",
+      "title": "현대차證 '다정다익 '별들의 전쟁' 우승",
+      "url": "https://www.hankyung.com/article/2026012127226",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 15:43",
+      "title": "현대차 질주에… 로봇 SW·부품株 '불기둥'",
+      "url": "https://www.hankyung.com/article/202601214256i",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 15:35",
+      "title": "교보증권, '프리미어골드 대치센터' 오픈…VIP 자산관리 강화",
+      "url": "https://www.hankyung.com/article/202601214350i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 15:35",
+      "title": "[속보] 롤러코스터 탄 코스피, 4909.93 마감…환율 1471원",
+      "url": "https://www.hankyung.com/article/2026012143066",
+      "keywords_hit": [
+        "코스피",
+        "환율"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 15:29",
+      "title": "코람코자산운용 임원인사...김태원·윤장호 신규 사장 선임",
+      "url": "https://www.mk.co.kr/news/stock/11939068",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 15:29",
+      "title": "마스턴투자운용, 여주에 7개층 규모 대형 물류센터 개발 나서",
+      "url": "https://www.mk.co.kr/news/stock/11939067",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 15:28",
+      "title": "미래에셋증권, 고객맞춤형랩 잔고 6兆 돌파",
+      "url": "https://www.hankyung.com/article/202601214323i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -60,11 +145,9 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-21 15:05",
-      "title": "명목실효환율 64개국 중 61위…인도·러시아에도 뒤져",
+      "title": "인도·러시아에도 밀린 한국…'원화 가치' 글로벌 꼴찌 수준",
       "url": "https://www.hankyung.com/article/202601213867i",
-      "keywords_hit": [
-        "환율"
-      ]
+      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -231,64 +314,12 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 10:45",
-      "title": "NH투자증권, 30억원 이상 맡긴 고액자산가 고객 6000명 돌파",
-      "url": "https://www.hankyung.com/article/2026012135016",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 10:40",
-      "title": "대신증권, kt위즈와 스폰서십 계약 5년 연장",
-      "url": "https://www.hankyung.com/article/2026012134826",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-21 10:40",
       "title": "현대차, 52주 신고가 경신…“이젠 테슬라와 견줘야”",
       "url": "https://www.mk.co.kr/news/stock/11938760",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 10:37",
-      "title": "하나증권, 신규 계좌 대상 국내주식 거래 혜택 제공 이벤트",
-      "url": "https://www.hankyung.com/article/2026012134626",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 10:34",
-      "title": "\"한두 달 뒤 환율 1400원 전후로 하락\"…李 대통령도 구두개입",
-      "url": "https://www.hankyung.com/article/202601213430i",
-      "keywords_hit": [
-        "환율"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 10:34",
-      "title": "현대차, 52만원 돌파하며 최고가 경신…시총 107조",
-      "url": "https://www.hankyung.com/article/2026012134456",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 10:19",
-      "title": "원·달러 환율, 한 달 만에 장중 1480원 돌파",
-      "url": "https://www.hankyung.com/article/2026012133286",
-      "keywords_hit": [
-        "환율"
-      ]
     },
     {
       "source": "MK",
@@ -331,40 +362,6 @@
       "title": "[MK 골든크로스 돌파종목 : 씨피시스템(413630) & 일진홀딩스(015860)]",
       "url": "https://www.mk.co.kr/news/stock/11938688",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 10:08",
-      "title": "[MK시그널] 오뚜기, 글로벌 식품 기업으로의 밸류에이션 재평가 기대 등에 주가 상승세... MK시그널 추천 후 상승률 4.43%기록",
-      "url": "https://www.mk.co.kr/news/stock/11938687",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 10:07",
-      "title": "[MK시그널] PTC 테라퓨틱스 매도신호 포착, 수익률 48.4% 달성",
-      "url": "https://www.mk.co.kr/news/stock/11938686",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 09:38",
-      "title": "트럼프 ‘알래스카 LNG’ 발언에…가스관·강관 관련주 급등",
-      "url": "https://www.mk.co.kr/news/stock/11938665",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 09:18",
-      "title": "“코스피 5000피, 지옥문 열리는거 아냐”…일주일 새 인버스 베팅 줄었다",
-      "url": "https://www.mk.co.kr/news/economy/11938645",
-      "keywords_hit": [
-        "코스피"
-      ]
     }
   ]
 }
