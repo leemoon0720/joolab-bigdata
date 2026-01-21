@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-21 10:25 KST",
+  "updated_at": "2026-01-21 12:17 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,6 +25,124 @@
     {
       "source": "HK",
       "press": "한국경제",
+      "published_at": "2026-01-21 12:06",
+      "title": "비트코인 폭락에도…스토리(IP) 코인, 나홀로 두 자릿수 급등세",
+      "url": "https://www.hankyung.com/article/202601213458g",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 11:42",
+      "title": "MSTR, 올해 5조원 투자했는데 벌써 2500억원 손해 [매일코인]",
+      "url": "https://www.mk.co.kr/news/stock/11938852",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 11:11",
+      "title": "그린란드 사태에도 '굳건'…코스피, 상승 전환하며 4900 회복",
+      "url": "https://www.hankyung.com/article/2026012135456",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 11:11",
+      "title": "“생리대 무상공급 검토” 이 대통령 한마디에…모나리자·깨끗한나라 급등",
+      "url": "https://www.mk.co.kr/news/stock/11938810",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 11:09",
+      "title": "교보증권, ‘프리미어골드 대치센터’ 오픈…VIP 자산관리 강화",
+      "url": "https://www.mk.co.kr/news/stock/11938808",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 11:08",
+      "title": "NH투자증권, 30억 고액자산가 6000명 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11938806",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 10:57",
+      "title": "\"피지컬 AI 정책 수혜주로 부상 기대\" 유비쿼스 52주 신고가",
+      "url": "https://www.hankyung.com/article/2026012134756",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 10:53",
+      "title": "타임폴리오, ETF 브랜드 'TIME'으로 교체…\"접근성 제고\"",
+      "url": "https://www.hankyung.com/article/2026012135206",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 10:45",
+      "title": "NH투자증권, 30억원 이상 맡긴 고액자산가 고객 6000명 돌파",
+      "url": "https://www.hankyung.com/article/2026012135016",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 10:40",
+      "title": "대신증권, kt위즈와 스폰서십 계약 5년 연장",
+      "url": "https://www.hankyung.com/article/2026012134826",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-21 10:40",
+      "title": "현대차, 52주 신고가 경신…“이젠 테슬라와 견줘야”",
+      "url": "https://www.mk.co.kr/news/stock/11938760",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 10:37",
+      "title": "하나증권, 신규 계좌 대상 국내주식 거래 혜택 제공 이벤트",
+      "url": "https://www.hankyung.com/article/2026012134626",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 10:34",
+      "title": "\"한두 달 뒤 환율 1400원 전후로 하락\"…李 대통령도 구두개입",
+      "url": "https://www.hankyung.com/article/202601213430i",
+      "keywords_hit": [
+        "환율"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-21 10:34",
+      "title": "현대차, 52만원 돌파하며 최고가 경신…시총 107조",
+      "url": "https://www.hankyung.com/article/2026012134456",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
       "published_at": "2026-01-21 10:19",
       "title": "원·달러 환율, 한 달 만에 장중 1480원 돌파",
       "url": "https://www.hankyung.com/article/2026012133286",
@@ -36,7 +154,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-21 10:19",
-      "title": "'兆 단위' 아닌 수천억대 계약 소식에…알테오젠 16%대 급락",
+      "title": "대형 호재 나왔는데 주가 '와르르'…실망한 개미들 '눈물' [종목+]",
       "url": "https://www.hankyung.com/article/2026012132836",
       "keywords_hit": []
     },
@@ -118,7 +236,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-21 09:41",
-      "title": "'코스피 과열' 의견 냈다가 결국 퇴사…여의도 증권맨 '속앓이'",
+      "title": "'코스피 과열' 의견 냈다가 결국 퇴사…여의도 증권맨 '속앓이' [여의도발]",
       "url": "https://www.hankyung.com/article/2026012129166",
       "keywords_hit": [
         "코스피"
@@ -214,26 +332,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 08:31",
-      "title": "\"SK하이닉스, 올해 영업이익률 40% 돌파 전망…목표가 99만원\"-유진",
-      "url": "https://www.hankyung.com/article/2026012128736",
-      "keywords_hit": [
-        "영업이익"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 08:29",
-      "title": "\"현대로템, 수출국 다변화 긍정적\"-메리츠",
-      "url": "https://www.hankyung.com/article/2026012128726",
-      "keywords_hit": [
-        "리츠"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-21 08:25",
@@ -241,44 +339,6 @@
       "url": "https://www.mk.co.kr/news/stock/11938607",
       "keywords_hit": [
         "실적"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 08:23",
-      "title": "[마켓PRO] Today's Pick : \"현대차, 지금이 가장 싼 이유: 생산성 혁명\"",
-      "url": "https://www.hankyung.com/article/202601212854i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 08:22",
-      "title": "재발한 관세 위협, 폭발한 일본 금리…미국 매도 or 또 다른 기회 [김현석의 월스트리트나우]",
-      "url": "https://www.hankyung.com/article/202601212775i",
-      "keywords_hit": [
-        "금리"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 08:18",
-      "title": "李 대통령 테마주였어?…로봇주 열풍 타고 숨통 트이더니 [종목+]",
-      "url": "https://www.hankyung.com/article/2026012127606",
-      "keywords_hit": [
-        "로봇"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 08:13",
-      "title": "\"'피지컬 AI' 현대차, 테슬라 상대할 유일 기업…목표가 80만원으로 상향\"-KB",
-      "url": "https://www.hankyung.com/article/2026012128336",
-      "keywords_hit": [
-        "AI"
       ]
     },
     {
@@ -298,32 +358,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 07:56",
-      "title": "[속보] 비트코인 5% 급락…8만9000달러도 붕괴",
-      "url": "https://www.hankyung.com/article/2026012127637",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 07:55",
-      "title": "코스피 5000 코앞인데…'그린란드 관세' 여파로 출렁일까 [오늘장 미리보기]",
-      "url": "https://www.hankyung.com/article/202601212714i",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 07:55",
-      "title": "\"알테오젠, GSK와 계약 작은 것 아냐…연내 기술이전 이어질 것\"-하나",
-      "url": "https://www.hankyung.com/article/2026012127546",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-21 07:05",
@@ -332,50 +366,6 @@
       "keywords_hit": [
         "AI"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 21:43",
-      "title": "다가오는 자사주 소각 의무화…기보유 자사주 규모만 최대 123억",
-      "url": "https://www.mk.co.kr/news/stock/11938383",
-      "keywords_hit": [
-        "자사주"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 21:27",
-      "title": "고환율에 ‘달러족’ 급증…정부 RIA 꼼수 막는다",
-      "url": "https://www.mk.co.kr/news/economy/11938366",
-      "keywords_hit": [
-        "환율"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 20:13",
-      "title": "“삼전·하이닉스, 차익실현 끝?”…시총 상위 종목 애프터마켓서 뚝뚝",
-      "url": "https://www.mk.co.kr/news/stock/11938316",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 19:25",
-      "title": "국민연금, 고양 스타필드 매각",
-      "url": "https://www.mk.co.kr/news/stock/11938282",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-20 19:04",
-      "title": "“금 진즉 사둘껄”…대서양 무역전운에 ‘금값 4700달러’ 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11938280",
-      "keywords_hit": []
     }
   ]
 }
