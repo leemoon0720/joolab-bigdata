@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-22 21:00 KST",
+  "updated_at": "2026-01-22 22:09 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 22:00",
+      "title": "'오천피 시대 일등공신' 삼성전자…\"20만원도 문제 없다\" [종목+]",
+      "url": "https://www.hankyung.com/article/2026012269956",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -367,14 +375,6 @@
       "published_at": "2026-01-22 17:01",
       "title": "미국도 한국도…우주항공 ETF '불기둥'",
       "url": "https://www.hankyung.com/article/2026012271361",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 17:00",
-      "title": "350% 뛴 AST스페이스모바일 \"올 저궤도 상업위성 60기 배치\"",
-      "url": "https://www.hankyung.com/article/2026012271351",
       "keywords_hit": []
     }
   ]
