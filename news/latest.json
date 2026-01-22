@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-22 17:53 KST",
+  "updated_at": "2026-01-22 18:24 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,81 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 18:22",
+      "title": "반도체 끌고 조선·방산 받치고…‘대표선수’ 늘며 코스피 체질개선",
+      "url": "https://www.mk.co.kr/news/stock/11940601",
+      "keywords_hit": [
+        "코스피",
+        "반도체",
+        "방산"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 18:01",
+      "title": "꿈의 5000P 찍었다…43년 코스피 새역사",
+      "url": "https://www.mk.co.kr/news/stock/11940550",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 17:59",
+      "title": "반도체 끌고 로봇·조선·방산 받치고 … '대표선수' 많아진 코스피",
+      "url": "https://www.mk.co.kr/news/stock/11940540",
+      "keywords_hit": [
+        "코스피",
+        "반도체",
+        "방산",
+        "로봇"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 17:59",
+      "title": "밸류업 기업 소개 … '오천피 캠페인' 이끈 매경",
+      "url": "https://www.mk.co.kr/news/stock/11940539",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 17:59",
+      "title": "은행자금 증시로 대이동 … '개미 빚투' 29조 사상최대",
+      "url": "https://www.mk.co.kr/news/stock/11940538",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 17:59",
+      "title": "한국투자증권, 두 번째 IMA도 7400억원 유입…단기간 1.8조원 몰려",
+      "url": "https://www.mk.co.kr/news/stock/11940536",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 17:55",
+      "title": "중국發 성장에 2000 → 10년 박스피 → 이재명시대 랠리",
+      "url": "https://www.mk.co.kr/news/stock/11940516",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 17:55",
+      "title": "기업경쟁력·유동성·증시부양책 삼박자 … '뉴 챕터' 열었다",
+      "url": "https://www.mk.co.kr/news/stock/11940515",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -79,9 +154,11 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-22 17:42",
-      "title": "\"코리아 프리미엄, 오천피도 싸다\" VS \"3개월새 1000P 급등해 과열\"",
+      "title": "'세계 1위' 코스피 폭주에도 \"아직 싸다\"…파격 전망의 이유",
       "url": "https://www.hankyung.com/article/2026012273301",
-      "keywords_hit": []
+      "keywords_hit": [
+        "코스피"
+      ]
     },
     {
       "source": "HK",
@@ -107,11 +184,9 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-22 17:36",
-      "title": "'AI날개' 단 K인더스트리…18년 박스피 뚫고 반전",
+      "title": "\"中에 밀린다\" 공포 시달리더니…18년 갇혀있던 한국 '대반전'",
       "url": "https://www.hankyung.com/article/2026012272841",
-      "keywords_hit": [
-        "AI"
-      ]
+      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -261,18 +336,10 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 17:04",
-      "title": "KB증권, 디지털 개인연금자산 3조원 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11940406",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-22 17:03",
-      "title": "\"요금 올려도 이탈 안해\"…주가 30% 빠져도 월가도 찜한 회사",
+      "title": "\"요금 올려도 이탈 안해\"…주가 30% 빠졌는데 월가가 찜한 회사",
       "url": "https://www.hankyung.com/article/2026012271391",
       "keywords_hit": []
     },
@@ -306,66 +373,6 @@
       "published_at": "2026-01-22 17:00",
       "title": "메타 \"스레드에 광고 도입\"…이용자 늘자 수익화 나서",
       "url": "https://www.hankyung.com/article/2026012271381",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 16:17",
-      "title": "이 대통령, 민주 코스피 특위와 오찬…“3차 상법 개정 조속히”",
-      "url": "https://www.mk.co.kr/news/stock/11940360",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 15:48",
-      "title": "‘꿈의 지수 5000피’ 장중 돌파한 코스피, 오름폭 줄여 4952.53 마감",
-      "url": "https://www.mk.co.kr/news/stock/11940298",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 15:37",
-      "title": "NH아문디운용, ‘필승 코리아 펀드’ 순자산 1조원 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11940285",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 15:35",
-      "title": "‘돈나무 언니’가 이끄는 아크 “디지털 자산 시총 5년 내 28조달러 간다”",
-      "url": "https://www.mk.co.kr/news/stock/11940279",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 15:21",
-      "title": "현대차 우선주 사고파는 초고수들…삼성전자·SK하이닉스 매도세도 집중[주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11940265",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 15:19",
-      "title": "예탁원, 장외파생상품거래 증거금 보관금액 42조원…전년대비 10.6%↑",
-      "url": "https://www.mk.co.kr/news/stock/11940263",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 14:54",
-      "title": "한국투자증권, 두 번째 IMA 7400억원 유입…총 1.8조원 몰려",
-      "url": "https://www.mk.co.kr/news/stock/11940225",
       "keywords_hit": []
     }
   ]
