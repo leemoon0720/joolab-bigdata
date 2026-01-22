@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-22 16:36 KST",
+  "updated_at": "2026-01-22 16:52 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,6 +23,26 @@
   "count": 40,
   "items": [
     {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 16:47",
+      "title": "[포토] 코스피 5000시대 개막",
+      "url": "https://www.hankyung.com/article/202601227092i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 16:46",
+      "title": "거래소, 밸류업 공시 가이드라인 개정…\"자율성 확대\"",
+      "url": "https://www.hankyung.com/article/2026012270566",
+      "keywords_hit": [
+        "공시"
+      ]
+    },
+    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-22 16:17",
@@ -36,7 +56,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-22 16:08",
-      "title": "연금 부정수급 행태 손본다…예비타당성 조사도 개편",
+      "title": "정부, 연금 부정수급 행태 손본다…예비타당성 조사도 개편",
       "url": "https://www.hankyung.com/article/202601226958i",
       "keywords_hit": []
     },
@@ -338,29 +358,11 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 10:34",
-      "title": "\"의료용 수술로봇 사업 성장\" 전망에…큐렉소, 52주 신고가",
-      "url": "https://www.hankyung.com/article/2026012257716",
-      "keywords_hit": [
-        "로봇"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-22 10:34",
       "title": "빗썸, ‘정보보호 자문위원회’ 발족",
       "url": "https://www.mk.co.kr/news/stock/11939997",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 10:26",
-      "title": "삼성전자, 시총 사상 첫 1000조 돌파…'20만전자' 노린다",
-      "url": "https://www.hankyung.com/article/202601225902i",
       "keywords_hit": []
     },
     {
