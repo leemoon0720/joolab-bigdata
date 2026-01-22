@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-23 07:20 KST",
+  "updated_at": "2026-01-23 07:44 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,40 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 07:37",
+      "title": "\"삼성전자, 올 영업익 170조 전망…목표가 20만원으로 상향\"-키움",
+      "url": "https://www.hankyung.com/article/2026012377386",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 07:32",
+      "title": "4분기 매출 20조원, 전망치 상회했는데…7% 급락한 인텔, 왜?",
+      "url": "https://www.mk.co.kr/news/stock/11940961",
+      "keywords_hit": [
+        "매출"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 07:23",
+      "title": "\"삼성증권, 증시 호조에 발행어음 사업 기대도…목표가↑\"-DB",
+      "url": "https://www.hankyung.com/article/2026012377246",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 07:15",
+      "title": "그린란드 긴장 완화에 이틀째 '안도랠리'…테슬라 '급등' [뉴욕증시 브리핑]",
+      "url": "https://www.hankyung.com/article/2026012377146",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -343,40 +377,6 @@
       "published_at": "2026-01-22 17:12",
       "title": "[특징주 & 리포트] '신작 출시 소식에 뛴 펄어비스' 등",
       "url": "https://www.hankyung.com/article/2026012271971",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 17:10",
-      "title": "인텔 실적",
-      "url": "https://www.hankyung.com/article/2026012272021",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 17:06",
-      "title": "한국맥쿼리, 카이스트에 장학금 1800만원 지원",
-      "url": "https://www.mk.co.kr/news/stock/11940410",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 17:03",
-      "title": "\"요금 올려도 이탈 안해\"…주가 30% 빠졌는데 월가가 찜한 회사",
-      "url": "https://www.hankyung.com/article/2026012271391",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 17:02",
-      "title": "중동 찾은 올트먼, 투자금 유치 속도",
-      "url": "https://www.hankyung.com/article/2026012271311",
       "keywords_hit": []
     }
   ]
