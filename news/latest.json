@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-22 12:03 KST",
+  "updated_at": "2026-01-22 13:15 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,6 +23,22 @@
   "count": 40,
   "items": [
     {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 13:00",
+      "title": "사막서 유튜브 보는 시대 온다…'텐베거' 노리는 AST스페이스모바일 [양지윤의 니가가라 나스닥]",
+      "url": "https://www.hankyung.com/article/202601226264i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 12:47",
+      "title": "유안타증권 금융센터평촌지점, 투자설명회 개최",
+      "url": "https://www.hankyung.com/article/2026012263356",
+      "keywords_hit": []
+    },
+    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-22 11:45",
@@ -44,9 +60,12 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-22 11:41",
-      "title": "'오천피 시대' 개막·16만전자 달성…K증시 새 역사 썼다",
+      "title": "반도체주가 밀고 현대차가 끌고…진격의 코스피 \"더 간다\"",
       "url": "https://www.hankyung.com/article/2026012258426",
-      "keywords_hit": []
+      "keywords_hit": [
+        "코스피",
+        "반도체"
+      ]
     },
     {
       "source": "MK",
@@ -362,22 +381,6 @@
       "keywords_hit": [
         "바이오"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 08:23",
-      "title": "'오천피' 목전…美 증시 훈풍에 '상승 랠리' 이어가나 [오늘장 미리보기]",
-      "url": "https://www.hankyung.com/article/202601225405i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 08:08",
-      "title": "완벽한 TACO! 트럼프가 \"오른다\"면 무조건 매수? [김현석의 월스트리트나우]",
-      "url": "https://www.hankyung.com/article/202601225344i",
-      "keywords_hit": []
     }
   ]
 }
