@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-22 14:55 KST",
+  "updated_at": "2026-01-22 15:33 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,22 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 15:21",
+      "title": "현대차 우선주 사고파는 초고수들…삼성전자·SK하이닉스 매도세도 집중[주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11940265",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 15:19",
+      "title": "예탁원, 장외파생상품거래 증거금 보관금액 42조원…전년대비 10.6%↑",
+      "url": "https://www.mk.co.kr/news/stock/11940263",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -351,22 +367,6 @@
       "keywords_hit": [
         "매출"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 09:50",
-      "title": "[MK 골든크로스 돌파종목 : 이미지스(115610) & 유비쿼스(264450)]",
-      "url": "https://www.mk.co.kr/news/stock/11939940",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 09:40",
-      "title": "한국 기업 역사상 최초...삼성전자 시총 장중 ‘1000조원’ 넘었다",
-      "url": "https://www.mk.co.kr/news/business/11939932",
-      "keywords_hit": []
     },
     {
       "source": "HK",
