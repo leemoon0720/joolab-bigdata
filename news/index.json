@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-22 16:01 KST",
+  "updated_at": "2026-01-22 16:36 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,35 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 16:17",
+      "title": "이 대통령, 민주 코스피 특위와 오찬…“3차 상법 개정 조속히”",
+      "url": "https://www.mk.co.kr/news/stock/11940360",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 16:08",
+      "title": "연금 부정수급 행태 손본다…예비타당성 조사도 개편",
+      "url": "https://www.hankyung.com/article/202601226958i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 16:06",
+      "title": "오천피 찍고 숨 고른 코스피, 최고치 행진…'반도체 투톱' 강세",
+      "url": "https://www.hankyung.com/article/2026012268186",
+      "keywords_hit": [
+        "코스피",
+        "반도체"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -343,35 +372,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 10:19",
-      "title": "이승훈 \"증시 펀더멘털 굳건…단기 조정 가능성은 열어둬야\"",
-      "url": "https://www.hankyung.com/article/2026012258916",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-22 10:19",
       "title": "젠큐릭스, 암 유전자 변이 검사 4종 유럽 CE-IVDR 인증 획득",
       "url": "https://www.mk.co.kr/news/stock/11939977",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 10:17",
-      "title": "\"내년에 삼성전자 제칠 것\"…日 손 잡더니 주가 '불기둥'",
-      "url": "https://www.hankyung.com/article/202601225896i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 10:12",
-      "title": "[MK시그널] 젠맙 매도신호 포착, 수익률 34.4% 달성",
-      "url": "https://www.mk.co.kr/news/stock/11939968",
       "keywords_hit": []
     }
   ]
