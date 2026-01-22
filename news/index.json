@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-23 07:57 KST",
+  "updated_at": "2026-01-23 08:25 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,8 +25,52 @@
     {
       "source": "HK",
       "press": "한국경제",
+      "published_at": "2026-01-23 08:15",
+      "title": "\"슈프리마, 현대차 로봇 생태계의 핵심 보안 파트너\"-KB",
+      "url": "https://www.hankyung.com/article/2026012378056",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 08:15",
+      "title": "3대 의문 분석 : 금, Mag 7, 소형주 어디로 [김현석의 월스트리트나우]",
+      "url": "https://www.hankyung.com/article/202601237661i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 08:14",
+      "title": "올들어 15% 오른 코스피…'5000피' 찍고 더 갈 종목은 [오늘장 미리보기]",
+      "url": "https://www.hankyung.com/article/202601237751i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 08:10",
+      "title": "“삼성전자 아직도 저평가…올해 ‘20만 전자’ 간다”",
+      "url": "https://www.mk.co.kr/news/stock/11940981",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 08:03",
+      "title": "\"삼성생명, 삼전 주가 상승 긍정적…목표가 상향\"-NH",
+      "url": "https://www.hankyung.com/article/2026012377606",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
       "published_at": "2026-01-23 07:48",
-      "title": "\"ICTK, 해킹 방지법·주파수 재할당 추진으로 매출 급증 기대\"-하나",
+      "title": "\"아이씨티케이, 해킹 방지법·주파수 재할당으로 매출 급증 기대\"-하나",
       "url": "https://www.hankyung.com/article/2026012377296",
       "keywords_hit": [
         "매출"
@@ -311,14 +355,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 17:22",
-      "title": "\"글로벌 디지털 자산 2030년까지 9배 급증\"",
-      "url": "https://www.mk.co.kr/news/stock/11940426",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-22 17:18",
@@ -345,41 +381,6 @@
       "keywords_hit": [
         "로봇"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 17:14",
-      "title": "불장에도 속 터지는 개미들…'만원 한 장 못 벌었다' 비명",
-      "url": "https://www.hankyung.com/article/2026012272041",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 17:14",
-      "title": "커지는 친환경연료 시장…제이씨케미칼 주목",
-      "url": "https://www.hankyung.com/article/2026012271981",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 17:13",
-      "title": "코스피 오늘도 종가 최고치 경신…'반도체 투톱' 강세 [HK영상]",
-      "url": "https://www.hankyung.com/article/202601227229i",
-      "keywords_hit": [
-        "코스피",
-        "반도체"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 17:13",
-      "title": "'오천피 공약' 이재명 대통령, ETF 수익 쏠쏠",
-      "url": "https://www.hankyung.com/article/2026012272031",
-      "keywords_hit": []
     }
   ]
 }
