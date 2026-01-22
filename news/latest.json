@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-22 13:15 KST",
+  "updated_at": "2026-01-22 13:59 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,10 +23,64 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 13:56",
+      "title": "젬백스, 루게릭병 세계 석학과 손잡고 유럽 임상 추진",
+      "url": "https://www.mk.co.kr/news/stock/11940165",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 13:51",
+      "title": "아이에스티이, SK하이닉스와 43억 규모 장비 공급 계약 체결",
+      "url": "https://www.hankyung.com/article/2026012264136",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 13:48",
+      "title": "유디엠텍, 도요타 본사 기술 전시회 공식 초청",
+      "url": "https://www.hankyung.com/article/2026012264476",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 13:39",
+      "title": "케이지에이, 27억 규모 2차전지 장비 공급계약 체결",
+      "url": "https://www.hankyung.com/article/2026012264236",
+      "keywords_hit": [
+        "2차전지"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 13:30",
+      "title": "카자흐스탄 유전 공급 차질…유가 이틀째 상승 WTI 0.4%↑ [오늘의 유가]",
+      "url": "https://www.hankyung.com/article/202601225652i",
+      "keywords_hit": [
+        "유가"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 13:19",
+      "title": "삼성SDS, 작년 4분기 영업이익 2261억…전년비 6.9% 증가",
+      "url": "https://www.hankyung.com/article/2026012261326",
+      "keywords_hit": [
+        "영업이익"
+      ]
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-22 13:00",
-      "title": "사막서 유튜브 보는 시대 온다…'텐베거' 노리는 AST스페이스모바일 [양지윤의 니가가라 나스닥]",
+      "title": "'3만원일 때 비웃었는데'…1년 만에 350% 폭등한 회사 정체 [양지윤의 니가가라 나스닥]",
       "url": "https://www.hankyung.com/article/202601226264i",
       "keywords_hit": []
     },
@@ -52,7 +106,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-22 11:44",
-      "title": "‘5000피 공약 달성’ 이재명 대통령…ETF 수익률은?",
+      "title": "‘오천피 공약’ 달성한 이재명 대통령…보유한 ETF 수익률은?",
       "url": "https://www.mk.co.kr/news/stock/11940099",
       "keywords_hit": []
     },
@@ -315,24 +369,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 09:02",
-      "title": "[속보] 코스피, 5000선 첫 돌파…증시 역사상 최초",
-      "url": "https://www.hankyung.com/article/202601225556i",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 09:02",
-      "title": "사상 첫 '꿈의 오천피' 달성…한국 증시 새 역사 썼다",
-      "url": "https://www.hankyung.com/article/2026012255626",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-22 09:02",
@@ -340,46 +376,6 @@
       "url": "https://www.mk.co.kr/news/stock/11939847",
       "keywords_hit": [
         "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 09:01",
-      "title": "“알테오젠 쇼크로 바이오주 변동성 확대…본질적 가치에 집중”",
-      "url": "https://www.mk.co.kr/news/stock/11939845",
-      "keywords_hit": [
-        "바이오"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 09:00",
-      "title": "\"로봇 시장 성장 기대감, 이차전지 수혜는 제한적\"-LS",
-      "url": "https://www.hankyung.com/article/2026012255086",
-      "keywords_hit": [
-        "로봇"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 08:32",
-      "title": "\"현대차, 그룹 로봇 생태계 핵심…목표가 85만원\"-삼성",
-      "url": "https://www.hankyung.com/article/2026012254566",
-      "keywords_hit": [
-        "로봇"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 08:30",
-      "title": "[마켓PRO] Today's Pick : \"삼성바이오로직스, 230만원 간다…추가 수주 주목\"",
-      "url": "https://www.hankyung.com/article/202601225455i",
-      "keywords_hit": [
-        "바이오"
       ]
     }
   ]
