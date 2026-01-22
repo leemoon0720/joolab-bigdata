@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-22 09:56 KST",
+  "updated_at": "2026-01-22 12:03 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,8 +25,211 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-22 11:45",
+      "title": "미래에셋운용, TIGER 휴머노이드로봇 ETF 2종 순자산 9000억원 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11940101",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 11:44",
+      "title": "‘5000피 공약 달성’ 이재명 대통령…ETF 수익률은?",
+      "url": "https://www.mk.co.kr/news/stock/11940099",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 11:41",
+      "title": "'오천피 시대' 개막·16만전자 달성…K증시 새 역사 썼다",
+      "url": "https://www.hankyung.com/article/2026012258426",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 11:30",
+      "title": "“미국이 크립토 선도할 것” 트럼프 한마디에 비트코인 반등 [매일코인]",
+      "url": "https://www.mk.co.kr/news/stock/11940086",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 11:21",
+      "title": "꿈의 '오천피 시대' 열리자…증권株 동반 강세",
+      "url": "https://www.hankyung.com/article/2026012261456",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 11:13",
+      "title": "코스피, 꿈의 '오천피 시대' 열었다…장중 사상 첫 5000 돌파 [HK영상]",
+      "url": "https://www.hankyung.com/article/202601226141i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 11:12",
+      "title": "해시드, 원화 스테이블코인 체인 ‘마루’ 공개",
+      "url": "https://www.mk.co.kr/news/stock/11940071",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 11:08",
+      "title": "펄어비스, 신작 '붉은사막' 출시 앞두고 5%대 강세",
+      "url": "https://www.hankyung.com/article/2026012261306",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 11:02",
+      "title": "“코스피 5000 돌파” 공약 달성한 이 대통령…ETF계좌 보니 ‘대박’",
+      "url": "https://www.mk.co.kr/news/stock/11940051",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 10:59",
+      "title": "김학균 \"반도체 '슈퍼사이클' 기대 여전…美 장기채 주목\"",
+      "url": "https://www.hankyung.com/article/2026012257556",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 10:56",
+      "title": "'로봇 수혜주'로 뜬 2차전지株…주가 계속 오를까",
+      "url": "https://www.hankyung.com/article/202601225961i",
+      "keywords_hit": [
+        "2차전지",
+        "로봇"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 10:44",
+      "title": "민주, 코스피 5천 돌파에 “46년 만에 대기록…7천 시대 열겠다”",
+      "url": "https://www.mk.co.kr/news/stock/11940016",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 10:34",
+      "title": "\"의료용 수술로봇 사업 성장\" 전망에…큐렉소, 52주 신고가",
+      "url": "https://www.hankyung.com/article/2026012257716",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 10:34",
+      "title": "빗썸, ‘정보보호 자문위원회’ 발족",
+      "url": "https://www.mk.co.kr/news/stock/11939997",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 10:26",
+      "title": "삼성전자, 시총 사상 첫 1000조 돌파…'20만전자' 노린다",
+      "url": "https://www.hankyung.com/article/202601225902i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 10:20",
+      "title": "현대차 보통주 비싸다…우선주로 눈 돌린 초고수들[주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11939978",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 10:19",
+      "title": "이승훈 \"증시 펀더멘털 굳건…단기 조정 가능성은 열어둬야\"",
+      "url": "https://www.hankyung.com/article/2026012258916",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 10:19",
+      "title": "젠큐릭스, 암 유전자 변이 검사 4종 유럽 CE-IVDR 인증 획득",
+      "url": "https://www.mk.co.kr/news/stock/11939977",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 10:17",
+      "title": "\"내년에 삼성전자 제칠 것\"…日 손 잡더니 주가 '불기둥'",
+      "url": "https://www.hankyung.com/article/202601225896i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 10:12",
+      "title": "[MK시그널] 젠맙 매도신호 포착, 수익률 34.4% 달성",
+      "url": "https://www.mk.co.kr/news/stock/11939968",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 10:11",
+      "title": "박희찬 \"오천피 견인차 '반도체 투톱'…견인력 충분히 남았다\"",
+      "url": "https://www.hankyung.com/article/2026012257886",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 10:11",
+      "title": "코스피 5천 시대 현실로…이재명 대통령, 민주당 특위와 오찬",
+      "url": "https://www.mk.co.kr/news/stock/11939965",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 10:09",
+      "title": "신작 출시 앞두고 5% 넘게 뛴 펄어비스",
+      "url": "https://www.hankyung.com/article/202601225847i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-22 09:56",
-      "title": "美 의회, 디지털자산 법안 논의 3월로 연기…‘집값 잡기’에 밀렸다",
+      "title": "“집값이 미쳤는데 코인법은 무슨”…입법논의 3월로 미룬다는 美의회",
       "url": "https://www.mk.co.kr/news/stock/11939950",
       "keywords_hit": []
     },
@@ -106,11 +309,9 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-22 09:02",
-      "title": "[속보] 코스피, 사상 첫 5000선 돌파…2% 급등",
+      "title": "사상 첫 '꿈의 오천피' 달성…한국 증시 새 역사 썼다",
       "url": "https://www.hankyung.com/article/2026012255626",
-      "keywords_hit": [
-        "코스피"
-      ]
+      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -141,22 +342,6 @@
       "keywords_hit": [
         "로봇"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 08:45",
-      "title": "“엄청 나가서 2800만원씩 벌었어요”…작년 서학개미 양도세 신고 52만명",
-      "url": "https://www.mk.co.kr/news/stock/11939830",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 08:37",
-      "title": "반년전 10만원대 현대차 주가, 이제는 목표가 ‘85만원’ [오늘 나온 보고서]",
-      "url": "https://www.mk.co.kr/news/stock/11939826",
-      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -192,193 +377,6 @@
       "published_at": "2026-01-22 08:08",
       "title": "완벽한 TACO! 트럼프가 \"오른다\"면 무조건 매수? [김현석의 월스트리트나우]",
       "url": "https://www.hankyung.com/article/202601225344i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 07:48",
-      "title": "\"현대로템, K2 전차 수출국 다변화 전망\"-키움",
-      "url": "https://www.hankyung.com/article/2026012253336",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 07:42",
-      "title": "\"코스닥 대장주가 짓누른 바이오 투심…살펴볼 낙폭과대주는\"",
-      "url": "https://www.hankyung.com/article/2026012253156",
-      "keywords_hit": [
-        "코스닥",
-        "바이오"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 07:22",
-      "title": "트럼프 '그린란드 관세' 철회에 동반 상승…다우 1.2%↑ [뉴욕증시 브리핑]",
-      "url": "https://www.hankyung.com/article/2026012253096",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 07:20",
-      "title": "트럼프 유럽 추가 관세 철회 선언하자 뉴욕증시 반색…3대 지수 일제히 상승 [월가월부]",
-      "url": "https://www.mk.co.kr/news/stock/11939787",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 07:19",
-      "title": "\"효성티앤씨, 판가 인상·경쟁사 위기…목표가 30만→51만원 상향\"-하나",
-      "url": "https://www.hankyung.com/article/2026012253016",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 06:36",
-      "title": "“로봇 백덤블링 보고 바로 담았습니다”…시총 100조 등극한 현대차",
-      "url": "https://www.mk.co.kr/news/stock/11939752",
-      "keywords_hit": [
-        "로봇"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 06:00",
-      "title": "서학개미 포트폴리오에 AI 주식 밖에 없다고요?…깜짝실적 금융주 골드만삭스 모건스탠리 어떠세요 [매일 돈이 보이는 습관 M+]",
-      "url": "https://www.mk.co.kr/news/economy/11938017",
-      "keywords_hit": [
-        "실적",
-        "AI"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 23:13",
-      "title": "코넥스 골프업체 볼빅 회계조작…과징금·검찰 고발",
-      "url": "https://www.mk.co.kr/news/stock/11939617",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 22:41",
-      "title": "코넥스 상장사 볼빅, 재고 과대계상 덜미…검찰 고발",
-      "url": "https://www.hankyung.com/article/202601215099i",
-      "keywords_hit": [
-        "상장"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 22:00",
-      "title": "\"1억 벌고 갑니다\" 개미들 신났다…한전 종토방 '들썩' [종목+]",
-      "url": "https://www.hankyung.com/article/2026012148926",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 21:55",
-      "title": "“넷플릭스에 무슨 악재가 있나?”...괜찮은 실적에도 연일 주가 하락",
-      "url": "https://www.mk.co.kr/news/stock/11939572",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 20:25",
-      "title": "“추격 매수는 이럴 때 하는 거야”...떨어질수록 더 사는 남자의 끝은?",
-      "url": "https://www.mk.co.kr/news/stock/11939513",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 19:20",
-      "title": "일본 ‘소비세 폐지 공약’에 채권시장 요동…美국채 가격 급락해",
-      "url": "https://www.mk.co.kr/news/stock/11939469",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 19:05",
-      "title": "회계사 1차 시험 지원자 2000명 줄어…경쟁률 하락",
-      "url": "https://www.mk.co.kr/news/stock/11939465",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 18:42",
-      "title": "KB증권 PRIME CLUB, 유튜브 600만뷰 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11939457",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 18:24",
-      "title": "증선위, 공개매수 정보로 3.7억 챙긴 NH증권 직원 檢고발",
-      "url": "https://www.hankyung.com/article/2026012148976",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 17:56",
-      "title": "미래에셋증권, 고객맞춤형랩 잔고 6조원 돌파",
-      "url": "https://www.hankyung.com/article/2026012148706",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 17:43",
-      "title": "李 '환율 수준' 이례적 언급…시장 기대심리 꺾이나",
-      "url": "https://www.hankyung.com/article/2026012147921",
-      "keywords_hit": [
-        "환율"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 17:12",
-      "title": "美 AI·로봇 육성책…전력기기·에너지株에 기회",
-      "url": "https://www.hankyung.com/article/2026012147001",
-      "keywords_hit": [
-        "AI",
-        "로봇"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 17:11",
-      "title": "AI 버블론 놓고 '갑론을박'…\"그래도 K증시는 더 간다\" [한경 트렌드쇼]",
-      "url": "https://www.hankyung.com/article/2026012145616",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 17:11",
-      "title": "머스크 \"사이버캡 옵티머스 생산속도 미친 듯 빨라질 것\"",
-      "url": "https://www.hankyung.com/article/2026012147011",
       "keywords_hit": []
     }
   ]
