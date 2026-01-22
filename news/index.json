@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-22 14:36 KST",
+  "updated_at": "2026-01-22 14:55 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,32 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 14:54",
+      "title": "한국투자증권, 두 번째 IMA 7400억원 유입…총 1.8조원 몰려",
+      "url": "https://www.mk.co.kr/news/stock/11940225",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 14:48",
+      "title": "“한동안 잠잠하더니” 2차전지주 강세…삼성SDI 18%대 폭등",
+      "url": "https://www.mk.co.kr/news/stock/11940214",
+      "keywords_hit": [
+        "2차전지"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 14:47",
+      "title": "“안전자산은 역시 금”…금값 고공행진에 금 ETF 불붙었다",
+      "url": "https://www.mk.co.kr/news/stock/11940212",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -340,32 +366,6 @@
       "published_at": "2026-01-22 09:40",
       "title": "한국 기업 역사상 최초...삼성전자 시총 장중 ‘1000조원’ 넘었다",
       "url": "https://www.mk.co.kr/news/business/11939932",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 09:33",
-      "title": "9조원 美 국채 ETF, 블록체인 위로 올라간다... “월가 인프라 혁명 시작”",
-      "url": "https://www.mk.co.kr/news/stock/11939925",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 09:26",
-      "title": "‘꿈의 지수’ 5000포인트 뚫은 코스피…역대 최고치 달성",
-      "url": "https://www.mk.co.kr/news/stock/11939870",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 09:25",
-      "title": "“1인당 2800만원 벌어 기분좋게 세금낸다”…서학개미 양도세 첫 ‘50만명’",
-      "url": "https://www.mk.co.kr/news/economy/11939868",
       "keywords_hit": []
     },
     {
