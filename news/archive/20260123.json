@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-23 07:44 KST",
+  "updated_at": "2026-01-23 07:57 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 07:48",
+      "title": "\"ICTK, 해킹 방지법·주파수 재할당 추진으로 매출 급증 기대\"-하나",
+      "url": "https://www.hankyung.com/article/2026012377296",
+      "keywords_hit": [
+        "매출"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -369,14 +379,6 @@
       "published_at": "2026-01-22 17:13",
       "title": "'오천피 공약' 이재명 대통령, ETF 수익 쏠쏠",
       "url": "https://www.hankyung.com/article/2026012272031",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 17:12",
-      "title": "[특징주 & 리포트] '신작 출시 소식에 뛴 펄어비스' 등",
-      "url": "https://www.hankyung.com/article/2026012271971",
       "keywords_hit": []
     }
   ]
