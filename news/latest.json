@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-22 08:52 KST",
+  "updated_at": "2026-01-22 09:56 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,126 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 09:56",
+      "title": "美 의회, 디지털자산 법안 논의 3월로 연기…‘집값 잡기’에 밀렸다",
+      "url": "https://www.mk.co.kr/news/stock/11939950",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 09:54",
+      "title": "[MK시그널] 컴투스, 야구 게임 누적 매출 1조 돌파 및 자산 가치 대비 저평가 등에 주가 상승세... MK시그널 추천 후 상승률 6.48%",
+      "url": "https://www.mk.co.kr/news/stock/11939947",
+      "keywords_hit": [
+        "매출"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 09:50",
+      "title": "[MK 골든크로스 돌파종목 : 이미지스(115610) & 유비쿼스(264450)]",
+      "url": "https://www.mk.co.kr/news/stock/11939940",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 09:40",
+      "title": "한국 기업 역사상 최초...삼성전자 시총 장중 ‘1000조원’ 넘었다",
+      "url": "https://www.mk.co.kr/news/business/11939932",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 09:33",
+      "title": "9조원 美 국채 ETF, 블록체인 위로 올라간다... “월가 인프라 혁명 시작”",
+      "url": "https://www.mk.co.kr/news/stock/11939925",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 09:26",
+      "title": "‘꿈의 지수’ 5000포인트 뚫은 코스피…역대 최고치 달성",
+      "url": "https://www.mk.co.kr/news/stock/11939870",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 09:25",
+      "title": "“1인당 2800만원 벌어 기분좋게 세금낸다”…서학개미 양도세 첫 ‘50만명’",
+      "url": "https://www.mk.co.kr/news/economy/11939868",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 09:17",
+      "title": "진격의 반도체…15만전자·77만닉스에 개미들 '싱글벙글'",
+      "url": "https://www.hankyung.com/article/2026012255676",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 09:02",
+      "title": "[속보] 코스피, 5000선 첫 돌파…증시 역사상 최초",
+      "url": "https://www.hankyung.com/article/202601225556i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 09:02",
+      "title": "[속보] 코스피, 사상 첫 5000선 돌파…2% 급등",
+      "url": "https://www.hankyung.com/article/2026012255626",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 09:02",
+      "title": "[속보] 코스피, ‘꿈의 오천피’ 시대 열렸다…삼전·SK하닉 3%대 급등",
+      "url": "https://www.mk.co.kr/news/stock/11939847",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 09:01",
+      "title": "“알테오젠 쇼크로 바이오주 변동성 확대…본질적 가치에 집중”",
+      "url": "https://www.mk.co.kr/news/stock/11939845",
+      "keywords_hit": [
+        "바이오"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 09:00",
+      "title": "\"로봇 시장 성장 기대감, 이차전지 수혜는 제한적\"-LS",
+      "url": "https://www.hankyung.com/article/2026012255086",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -215,16 +335,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 18:03",
-      "title": "천스닥 고지에서 굴러떨어졌다…코스닥 대장주 ‘22% 폭락’ 대체 왜",
-      "url": "https://www.mk.co.kr/news/stock/11939423",
-      "keywords_hit": [
-        "코스닥"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-21 17:56",
@@ -241,73 +351,6 @@
       "keywords_hit": [
         "환율"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 17:40",
-      "title": "스틱 대주주 오르는 미리캐피탈 “장기투자자로 협력”",
-      "url": "https://www.mk.co.kr/news/stock/11939396",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 17:36",
-      "title": "오늘의 증시일정 (1월22일)",
-      "url": "https://www.mk.co.kr/news/stock/11939394",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 17:36",
-      "title": "타임폴리오 ETF 'TIME'으로 개명",
-      "url": "https://www.mk.co.kr/news/stock/11939392",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 17:36",
-      "title": "[유가증권시장 공시] 한미약품 / GKL",
-      "url": "https://www.mk.co.kr/news/stock/11939393",
-      "keywords_hit": [
-        "공시",
-        "유가"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 17:36",
-      "title": "'오천피' 눈앞인데 … 증권가 \"더 간다, 사라\"",
-      "url": "https://www.mk.co.kr/news/stock/11939390",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 17:36",
-      "title": "현대차 또 15% 뛰어올라 '시총 100조원 클럽' 안착",
-      "url": "https://www.mk.co.kr/news/stock/11939388",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 17:36",
-      "title": "'천스닥' 보였는데…알테오젠 쇼크에 와르르",
-      "url": "https://www.mk.co.kr/news/stock/11939387",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-21 17:33",
-      "title": "日 총선 변수까지 겹쳐 … 美 국채값 뚝뚝",
-      "url": "https://www.mk.co.kr/news/stock/11939360",
-      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -337,40 +380,6 @@
       "title": "머스크 \"사이버캡 옵티머스 생산속도 미친 듯 빨라질 것\"",
       "url": "https://www.hankyung.com/article/2026012147011",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 17:10",
-      "title": "美·유럽 '그린란드 분쟁' 격화…뭉칫돈 몰리는 금·은·동 ETF",
-      "url": "https://www.hankyung.com/article/2026012146541",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 17:09",
-      "title": "[특징주 & 리포트] '알테오젠, 기술이전 실망에 급락' 등",
-      "url": "https://www.hankyung.com/article/2026012146581",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 17:08",
-      "title": "한국은행, 작년 4분기 및 연간 실질 국내총생산",
-      "url": "https://www.hankyung.com/article/2026012146571",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-21 17:07",
-      "title": "김남기 부사장 \"美 S&P500·나스닥100처럼 코스피도 적립식 장투할 때\"",
-      "url": "https://www.hankyung.com/article/2026012146521",
-      "keywords_hit": [
-        "코스피"
-      ]
     }
   ]
 }
