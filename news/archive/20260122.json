@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-22 17:17 KST",
+  "updated_at": "2026-01-22 17:53 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,183 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 17:52",
+      "title": "서울식품공업, 15억 원 규모 전환사채 발행",
+      "url": "https://www.mk.co.kr/news/stock/11940506",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 17:51",
+      "title": "신한증권 상반기 워크숍 개최 … 이선훈 대표 \"진짜혁신 달성\"",
+      "url": "https://www.mk.co.kr/news/stock/11940505",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 17:51",
+      "title": "SI업체 두산로지스틱스 700억에 매물로",
+      "url": "https://www.mk.co.kr/news/stock/11940504",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 17:51",
+      "title": "\"불장서 실력 발휘\"… 주식형 액티브ETF 인기",
+      "url": "https://www.mk.co.kr/news/stock/11940501",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 17:51",
+      "title": "넥사다이내믹스, 10억원 규모 유상증자 실시",
+      "url": "https://www.mk.co.kr/news/stock/11940498",
+      "keywords_hit": [
+        "증자"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 17:43",
+      "title": "반도체 밀릴 땐 '차·방·원'이 끌어…쉴 틈 없는 코스피",
+      "url": "https://www.hankyung.com/article/2026012273371",
+      "keywords_hit": [
+        "코스피",
+        "반도체"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 17:42",
+      "title": "\"코리아 프리미엄, 오천피도 싸다\" VS \"3개월새 1000P 급등해 과열\"",
+      "url": "https://www.hankyung.com/article/2026012273301",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 17:41",
+      "title": "외국인 컴백…'30% 벽' 뚫었다",
+      "url": "https://www.hankyung.com/article/2026012273291",
+      "keywords_hit": [
+        "외국인"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 17:41",
+      "title": "\"추가 랠리 위해선 상속세·배당세 완화돼야\"",
+      "url": "https://www.hankyung.com/article/2026012273281",
+      "keywords_hit": [
+        "배당"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 17:36",
+      "title": "'AI날개' 단 K인더스트리…18년 박스피 뚫고 반전",
+      "url": "https://www.hankyung.com/article/2026012272841",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 17:35",
+      "title": "코스피 5000 '터치'…46년 만에 대기록",
+      "url": "https://www.hankyung.com/article/2026012273131",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 17:30",
+      "title": "“롯데리아보다 무서운 성장” 햄버거계의 파퀴아오 미국서 통하는 이유[오찬종의 매일뉴욕]",
+      "url": "https://www.mk.co.kr/news/stock/11940320",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 17:23",
+      "title": "“18년의 기다림, 7개월의 질주…5천피 시대 열렸다”",
+      "url": "https://www.mk.co.kr/news/stock/11940427",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 17:22",
+      "title": "[IB명가에게 듣는다] \"토큰 증권 플랫폼 구축 … 금융 패러다임 바꿀 것\"",
+      "url": "https://www.mk.co.kr/news/stock/11940425",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 17:22",
+      "title": "\"글로벌 디지털 자산 2030년까지 9배 급증\"",
+      "url": "https://www.mk.co.kr/news/stock/11940426",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 17:18",
+      "title": "신한투자증권, 상반기 임·부점장 워크숍 실시",
+      "url": "https://www.hankyung.com/article/202601227215i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 17:18",
+      "title": "대장주 알테오젠 약세에 바이오株 부진",
+      "url": "https://www.hankyung.com/article/2026012271991",
+      "keywords_hit": [
+        "바이오"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 17:15",
+      "title": "\"로봇 톱픽 현대차, 85만원 간다\"",
+      "url": "https://www.hankyung.com/article/2026012272011",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 17:14",
+      "title": "불장에도 속 터지는 개미들…'만원 한 장 못 벌었다' 비명",
+      "url": "https://www.hankyung.com/article/2026012272041",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 17:14",
+      "title": "커지는 친환경연료 시장…제이씨케미칼 주목",
+      "url": "https://www.hankyung.com/article/2026012271981",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -95,7 +272,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-22 17:03",
-      "title": "\"지금이 저가매수 기회\"…월가 '톱픽'된 스포티파이",
+      "title": "\"요금 올려도 이탈 안해\"…주가 30% 빠져도 월가도 찜한 회사",
       "url": "https://www.hankyung.com/article/2026012271391",
       "keywords_hit": []
     },
@@ -132,34 +309,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 16:59",
-      "title": "소니와 합작 소식에…中 TCL 주가 급등",
-      "url": "https://www.hankyung.com/article/2026012271371",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 16:47",
-      "title": "[포토] 코스피 5000시대 개막",
-      "url": "https://www.hankyung.com/article/202601227092i",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 16:46",
-      "title": "거래소, 밸류업 공시 가이드라인 개정…\"자율성 확대\"",
-      "url": "https://www.hankyung.com/article/2026012270566",
-      "keywords_hit": [
-        "공시"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-22 16:17",
@@ -167,25 +316,6 @@
       "url": "https://www.mk.co.kr/news/stock/11940360",
       "keywords_hit": [
         "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 16:08",
-      "title": "정부, 연금 부정수급 행태 손본다…예비타당성 조사도 개편",
-      "url": "https://www.hankyung.com/article/202601226958i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 16:06",
-      "title": "오천피 찍고 숨 고른 코스피, 최고치 행진…'반도체 투톱' 강세",
-      "url": "https://www.hankyung.com/article/2026012268186",
-      "keywords_hit": [
-        "코스피",
-        "반도체"
       ]
     },
     {
@@ -231,144 +361,12 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 15:06",
-      "title": "슈프리마에이치큐, 35억 자사주 신생 재단에 무상 출연한 사연 [진영기의 찐개미 찐투자]",
-      "url": "https://www.hankyung.com/article/2026012255336",
-      "keywords_hit": [
-        "자사주"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 14:59",
-      "title": "한국투자證, IMA 2호 설정 완료…7400억 자금 몰려",
-      "url": "https://www.hankyung.com/article/202601226693i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-22 14:54",
       "title": "한국투자증권, 두 번째 IMA 7400억원 유입…총 1.8조원 몰려",
       "url": "https://www.mk.co.kr/news/stock/11940225",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 14:50",
-      "title": "사상 첫 '오천피' 돌파에… 주가 급등한 이 종목",
-      "url": "https://www.hankyung.com/article/202601226651i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 14:48",
-      "title": "“한동안 잠잠하더니” 2차전지주 강세…삼성SDI 18%대 폭등",
-      "url": "https://www.mk.co.kr/news/stock/11940214",
-      "keywords_hit": [
-        "2차전지"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 14:47",
-      "title": "“안전자산은 역시 금”…금값 고공행진에 금 ETF 불붙었다",
-      "url": "https://www.mk.co.kr/news/stock/11940212",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 14:07",
-      "title": "디와이디, 40억원 규모 유상증자 실시",
-      "url": "https://www.mk.co.kr/news/stock/11940175",
-      "keywords_hit": [
-        "증자"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 13:56",
-      "title": "젬백스, 루게릭병 세계 석학과 손잡고 유럽 임상 추진",
-      "url": "https://www.mk.co.kr/news/stock/11940165",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 13:51",
-      "title": "아이에스티이, SK하이닉스와 43억 규모 장비 공급 계약 체결",
-      "url": "https://www.hankyung.com/article/2026012264136",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 13:48",
-      "title": "유디엠텍, 도요타 본사 기술 전시회 공식 초청",
-      "url": "https://www.hankyung.com/article/2026012264476",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 13:39",
-      "title": "케이지에이, 27억 규모 2차전지 장비 공급계약 체결",
-      "url": "https://www.hankyung.com/article/2026012264236",
-      "keywords_hit": [
-        "2차전지"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 11:45",
-      "title": "미래에셋운용, TIGER 휴머노이드로봇 ETF 2종 순자산 9000억원 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11940101",
-      "keywords_hit": [
-        "로봇"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 11:44",
-      "title": "‘오천피 공약’ 달성한 이재명 대통령…보유한 ETF 수익률은?",
-      "url": "https://www.mk.co.kr/news/stock/11940099",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 11:30",
-      "title": "“미국이 크립토 선도할 것” 트럼프 한마디에 비트코인 반등 [매일코인]",
-      "url": "https://www.mk.co.kr/news/stock/11940086",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 11:12",
-      "title": "해시드, 원화 스테이블코인 체인 ‘마루’ 공개",
-      "url": "https://www.mk.co.kr/news/stock/11940071",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 11:02",
-      "title": "“코스피 5000 돌파” 공약 달성한 이 대통령…ETF계좌 보니 ‘대박’",
-      "url": "https://www.mk.co.kr/news/stock/11940051",
-      "keywords_hit": [
-        "코스피"
-      ]
     }
   ]
 }
