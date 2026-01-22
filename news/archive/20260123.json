@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-23 06:55 KST",
+  "updated_at": "2026-01-23 07:20 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 07:05",
+      "title": "삼전닉스현대가 멱살잡고 가는 증시…액티브ETF에 뭉칫돈 몰렸다",
+      "url": "https://www.mk.co.kr/news/stock/11940935",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -353,14 +361,6 @@
       "published_at": "2026-01-22 17:06",
       "title": "한국맥쿼리, 카이스트에 장학금 1800만원 지원",
       "url": "https://www.mk.co.kr/news/stock/11940410",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 17:06",
-      "title": "빗썸, ‘철통 보안’ 위해 외부 석학 모셨다…정보보호 자문위 출범",
-      "url": "https://www.mk.co.kr/news/stock/11940408",
       "keywords_hit": []
     },
     {
