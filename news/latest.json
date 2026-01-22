@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-23 05:55 KST",
+  "updated_at": "2026-01-23 06:19 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 06:03",
+      "title": "은행자금 증시로 대이동…‘개미 빚투’ 29조 사상 최대",
+      "url": "https://www.mk.co.kr/news/stock/11940856",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -66,6 +74,14 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-22 17:59",
+      "title": "밸류업 기업 소개 … '오천피 캠페인' 이끈 매경",
+      "url": "https://www.mk.co.kr/news/stock/11940539",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 17:59",
       "title": "반도체 끌고 로봇·조선·방산 받치고 … '대표선수' 많아진 코스피",
       "url": "https://www.mk.co.kr/news/stock/11940540",
       "keywords_hit": [
@@ -74,14 +90,6 @@
         "방산",
         "로봇"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 17:59",
-      "title": "밸류업 기업 소개 … '오천피 캠페인' 이끈 매경",
-      "url": "https://www.mk.co.kr/news/stock/11940539",
-      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -343,14 +351,6 @@
       "published_at": "2026-01-22 17:06",
       "title": "빗썸, ‘철통 보안’ 위해 외부 석학 모셨다…정보보호 자문위 출범",
       "url": "https://www.mk.co.kr/news/stock/11940408",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 17:04",
-      "title": "교직원공제회, 과학의전당에 후원금 1억원 전달",
-      "url": "https://www.mk.co.kr/news/stock/11940407",
       "keywords_hit": []
     },
     {
