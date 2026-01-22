@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-23 08:25 KST",
+  "updated_at": "2026-01-23 08:42 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,34 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 08:34",
+      "title": "“삼전 20만전자 간다”...올해 매출 500조, 영업익 170조원 [오늘 나온 보고서]",
+      "url": "https://www.mk.co.kr/news/stock/11940987",
+      "keywords_hit": [
+        "매출"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 08:30",
+      "title": "\"HD현대중공업, 공격적 수주 목표 긍정적…목표가↑\"-LS",
+      "url": "https://www.hankyung.com/article/2026012378706",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 08:25",
+      "title": "\"삼성전자, 테슬라 AI 생태계 수혜 본격화 전망\"-KB",
+      "url": "https://www.hankyung.com/article/2026012378116",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -347,40 +375,12 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 17:22",
-      "title": "[IB명가에게 듣는다] \"토큰 증권 플랫폼 구축 … 금융 패러다임 바꿀 것\"",
-      "url": "https://www.mk.co.kr/news/stock/11940425",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-22 17:18",
       "title": "신한투자증권, 상반기 임·부점장 워크숍 실시",
       "url": "https://www.hankyung.com/article/202601227215i",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 17:18",
-      "title": "대장주 알테오젠 약세에 바이오株 부진",
-      "url": "https://www.hankyung.com/article/2026012271991",
-      "keywords_hit": [
-        "바이오"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 17:15",
-      "title": "\"로봇 톱픽 현대차, 85만원 간다\"",
-      "url": "https://www.hankyung.com/article/2026012272011",
-      "keywords_hit": [
-        "로봇"
-      ]
     }
   ]
 }
