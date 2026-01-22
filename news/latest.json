@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-23 08:42 KST",
+  "updated_at": "2026-01-23 08:53 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,32 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 08:47",
+      "title": "\"한화, 여전히 할인율 높아…목표가↑\"-NH",
+      "url": "https://www.hankyung.com/article/2026012379256",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 08:39",
+      "title": "두산밥캣, 獨바커노이슨 지분 인수 안 한다",
+      "url": "https://www.hankyung.com/article/2026012379036",
+      "keywords_hit": [
+        "인수"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 08:39",
+      "title": "[마켓PRO] Today's Pick : \"45% 오른 현대글로비스, 더 오를 수 있는 이유\"",
+      "url": "https://www.hankyung.com/article/202601237849i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -341,24 +367,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 17:36",
-      "title": "\"中에 밀린다\" 공포 시달리더니…18년 갇혀있던 한국 '대반전'",
-      "url": "https://www.hankyung.com/article/2026012272841",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 17:35",
-      "title": "코스피 5000 '터치'…K프리미엄 시대",
-      "url": "https://www.hankyung.com/article/2026012273131",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-22 17:30",
@@ -372,14 +380,6 @@
       "published_at": "2026-01-22 17:23",
       "title": "“18년의 기다림, 7개월의 질주…5천피 시대 열렸다”",
       "url": "https://www.mk.co.kr/news/stock/11940427",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 17:18",
-      "title": "신한투자증권, 상반기 임·부점장 워크숍 실시",
-      "url": "https://www.hankyung.com/article/202601227215i",
       "keywords_hit": []
     }
   ]
