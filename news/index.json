@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-22 16:52 KST",
+  "updated_at": "2026-01-22 17:17 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,123 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 17:13",
+      "title": "코스피 오늘도 종가 최고치 경신…'반도체 투톱' 강세 [HK영상]",
+      "url": "https://www.hankyung.com/article/202601227229i",
+      "keywords_hit": [
+        "코스피",
+        "반도체"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 17:13",
+      "title": "'오천피 공약' 李 대통령, ETF 수익 쏠쏠",
+      "url": "https://www.hankyung.com/article/2026012272031",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 17:12",
+      "title": "[특징주 & 리포트] '신작 출시 소식에 뛴 펄어비스' 등",
+      "url": "https://www.hankyung.com/article/2026012271971",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 17:10",
+      "title": "인텔 실적",
+      "url": "https://www.hankyung.com/article/2026012272021",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 17:06",
+      "title": "한국맥쿼리, 카이스트에 장학금 1800만원 지원",
+      "url": "https://www.mk.co.kr/news/stock/11940410",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 17:06",
+      "title": "빗썸, ‘철통 보안’ 위해 외부 석학 모셨다…정보보호 자문위 출범",
+      "url": "https://www.mk.co.kr/news/stock/11940408",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 17:04",
+      "title": "교직원공제회, 과학의전당에 후원금 1억원 전달",
+      "url": "https://www.mk.co.kr/news/stock/11940407",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 17:04",
+      "title": "KB증권, 디지털 개인연금자산 3조원 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11940406",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 17:03",
+      "title": "\"지금이 저가매수 기회\"…월가 '톱픽'된 스포티파이",
+      "url": "https://www.hankyung.com/article/2026012271391",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 17:02",
+      "title": "중동 찾은 올트먼, 투자금 유치 속도",
+      "url": "https://www.hankyung.com/article/2026012271311",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 17:01",
+      "title": "미국도 한국도…우주항공 ETF '불기둥'",
+      "url": "https://www.hankyung.com/article/2026012271361",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 17:00",
+      "title": "350% 뛴 AST스페이스모바일 \"올 저궤도 상업위성 60기 배치\"",
+      "url": "https://www.hankyung.com/article/2026012271351",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 17:00",
+      "title": "메타 \"스레드에 광고 도입\"…이용자 늘자 수익화 나서",
+      "url": "https://www.hankyung.com/article/2026012271381",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 16:59",
+      "title": "소니와 합작 소식에…中 TCL 주가 급등",
+      "url": "https://www.hankyung.com/article/2026012271371",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -210,42 +327,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 13:30",
-      "title": "카자흐스탄 유전 공급 차질…유가 이틀째 상승 WTI 0.4%↑ [오늘의 유가]",
-      "url": "https://www.hankyung.com/article/202601225652i",
-      "keywords_hit": [
-        "유가"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 13:19",
-      "title": "삼성SDS, 작년 4분기 영업이익 2261억…전년비 6.9% 증가",
-      "url": "https://www.hankyung.com/article/2026012261326",
-      "keywords_hit": [
-        "영업이익"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 13:00",
-      "title": "'3만원일 때 살 걸 그랬네'…1년 만에 주가 350% 폭등한 회사 [양지윤의 니가가라 나스닥]",
-      "url": "https://www.hankyung.com/article/202601226264i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 12:47",
-      "title": "유안타증권 금융센터평촌지점, 투자설명회 개최",
-      "url": "https://www.hankyung.com/article/2026012263356",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-22 11:45",
@@ -264,17 +345,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 11:41",
-      "title": "반도체주가 밀고 현대차가 끌고…진격의 코스피 \"더 간다\"",
-      "url": "https://www.hankyung.com/article/2026012258426",
-      "keywords_hit": [
-        "코스피",
-        "반도체"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-22 11:30",
@@ -283,37 +353,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 11:21",
-      "title": "꿈의 '오천피 시대' 열리자…증권株 동반 강세",
-      "url": "https://www.hankyung.com/article/2026012261456",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 11:13",
-      "title": "코스피, 꿈의 '오천피 시대' 열었다…장중 사상 첫 5000 돌파 [HK영상]",
-      "url": "https://www.hankyung.com/article/202601226141i",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-22 11:12",
       "title": "해시드, 원화 스테이블코인 체인 ‘마루’ 공개",
       "url": "https://www.mk.co.kr/news/stock/11940071",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 11:08",
-      "title": "펄어비스, 신작 '붉은사막' 출시 앞두고 5%대 강세",
-      "url": "https://www.hankyung.com/article/2026012261306",
       "keywords_hit": []
     },
     {
@@ -325,61 +369,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 10:59",
-      "title": "김학균 \"반도체 '슈퍼사이클' 기대 여전…美 장기채 주목\"",
-      "url": "https://www.hankyung.com/article/2026012257556",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 10:56",
-      "title": "'로봇 수혜주'로 뜬 2차전지株…주가 계속 오를까",
-      "url": "https://www.hankyung.com/article/202601225961i",
-      "keywords_hit": [
-        "2차전지",
-        "로봇"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 10:44",
-      "title": "민주, 코스피 5천 돌파에 “46년 만에 대기록…7천 시대 열겠다”",
-      "url": "https://www.mk.co.kr/news/stock/11940016",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 10:34",
-      "title": "빗썸, ‘정보보호 자문위원회’ 발족",
-      "url": "https://www.mk.co.kr/news/stock/11939997",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 10:20",
-      "title": "현대차 보통주 비싸다…우선주로 눈 돌린 초고수들[주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11939978",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 10:19",
-      "title": "젠큐릭스, 암 유전자 변이 검사 4종 유럽 CE-IVDR 인증 획득",
-      "url": "https://www.mk.co.kr/news/stock/11939977",
-      "keywords_hit": []
     }
   ]
 }
