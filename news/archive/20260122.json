@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-22 15:33 KST",
+  "updated_at": "2026-01-22 16:01 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,6 +25,32 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-22 15:48",
+      "title": "‘꿈의 지수 5000피’ 장중 돌파한 코스피, 오름폭 줄여 4952.53 마감",
+      "url": "https://www.mk.co.kr/news/stock/11940298",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 15:37",
+      "title": "NH아문디운용, ‘필승 코리아 펀드’ 순자산 1조원 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11940285",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-22 15:35",
+      "title": "‘돈나무 언니’가 이끄는 아크 “디지털 자산 시총 5년 내 28조달러 간다”",
+      "url": "https://www.mk.co.kr/news/stock/11940279",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-22 15:21",
       "title": "현대차 우선주 사고파는 초고수들…삼성전자·SK하이닉스 매도세도 집중[주식 초고수는 지금]",
       "url": "https://www.mk.co.kr/news/stock/11940265",
@@ -39,11 +65,37 @@
       "keywords_hit": []
     },
     {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 15:06",
+      "title": "슈프리마에이치큐, 35억 자사주 신생 재단에 무상 출연한 사연 [진영기의 찐개미 찐투자]",
+      "url": "https://www.hankyung.com/article/2026012255336",
+      "keywords_hit": [
+        "자사주"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 14:59",
+      "title": "한국투자證, IMA 2호 설정 완료…7400억 자금 몰려",
+      "url": "https://www.hankyung.com/article/202601226693i",
+      "keywords_hit": []
+    },
+    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-22 14:54",
       "title": "한국투자증권, 두 번째 IMA 7400억원 유입…총 1.8조원 몰려",
       "url": "https://www.mk.co.kr/news/stock/11940225",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-22 14:50",
+      "title": "사상 첫 '오천피' 돌파에… 주가 급등한 이 종목",
+      "url": "https://www.hankyung.com/article/202601226651i",
       "keywords_hit": []
     },
     {
@@ -321,62 +373,6 @@
       "title": "[MK시그널] 젠맙 매도신호 포착, 수익률 34.4% 달성",
       "url": "https://www.mk.co.kr/news/stock/11939968",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 10:11",
-      "title": "박희찬 \"오천피 견인차 '반도체 투톱'…견인력 충분히 남았다\"",
-      "url": "https://www.hankyung.com/article/2026012257886",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 10:11",
-      "title": "코스피 5천 시대 현실로…이재명 대통령, 민주당 특위와 오찬",
-      "url": "https://www.mk.co.kr/news/stock/11939965",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 10:09",
-      "title": "신작 출시 앞두고 5% 넘게 뛴 펄어비스",
-      "url": "https://www.hankyung.com/article/202601225847i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 09:56",
-      "title": "“집값이 미쳤는데 코인법은 무슨”…입법논의 3월로 미룬다는 美의회",
-      "url": "https://www.mk.co.kr/news/stock/11939950",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 09:54",
-      "title": "[MK시그널] 컴투스, 야구 게임 누적 매출 1조 돌파 및 자산 가치 대비 저평가 등에 주가 상승세... MK시그널 추천 후 상승률 6.48%",
-      "url": "https://www.mk.co.kr/news/stock/11939947",
-      "keywords_hit": [
-        "매출"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-22 09:17",
-      "title": "진격의 반도체…15만전자·77만닉스에 개미들 '싱글벙글'",
-      "url": "https://www.hankyung.com/article/2026012255676",
-      "keywords_hit": [
-        "반도체"
-      ]
     }
   ]
 }
