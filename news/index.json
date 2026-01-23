@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-23 22:51 KST",
+  "updated_at": "2026-01-23 23:13 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 22:00",
+      "title": "'295% 폭등' 기억 소환…잠잠하더니 주가 30% 급등한 이유 [종목+]",
+      "url": "https://www.hankyung.com/article/2026012391716",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -369,16 +377,6 @@
       "url": "https://www.hankyung.com/article/2026012383676",
       "keywords_hit": [
         "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 10:11",
-      "title": "투자 황금기 '코스피 5000 시대' & 'CES 2026' 전략 세미나",
-      "url": "https://www.hankyung.com/article/2026012382347",
-      "keywords_hit": [
-        "코스피"
       ]
     }
   ]
