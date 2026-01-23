@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-23 15:47 KST",
+  "updated_at": "2026-01-23 16:14 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,17 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 15:49",
+      "title": "코스피, 종가 사상 최고치 4990 마감…코스닥도 '천스닥' 눈앞",
+      "url": "https://www.hankyung.com/article/2026012390746",
+      "keywords_hit": [
+        "코스피",
+        "코스닥"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -364,14 +375,6 @@
       "published_at": "2026-01-23 08:39",
       "title": "[마켓PRO] Today's Pick : \"45% 오른 현대글로비스, 더 오를 수 있는 이유\"",
       "url": "https://www.hankyung.com/article/202601237849i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 08:30",
-      "title": "\"HD현대중공업, 공격적 수주 목표 긍정적…목표가↑\"-LS",
-      "url": "https://www.hankyung.com/article/2026012378706",
       "keywords_hit": []
     }
   ]
