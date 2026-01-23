@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-23 18:16 KST",
+  "updated_at": "2026-01-23 18:46 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,10 +25,30 @@
     {
       "source": "MK",
       "press": "매일경제",
-      "published_at": "2026-01-23 17:55",
-      "title": "한투 '손익차등형 펀드' 누적판매 1조",
-      "url": "https://www.mk.co.kr/news/stock/11941658",
+      "published_at": "2026-01-23 18:31",
+      "title": "베인캐피탈, 에코마케팅 지분율 81% 확보…상장폐지 수순 전망",
+      "url": "https://www.mk.co.kr/news/stock/11941694",
+      "keywords_hit": [
+        "상장"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 18:30",
+      "title": "베인캐피탈, 에코마케팅 공개매수로 지분 81% 확보",
+      "url": "https://www.mk.co.kr/news/stock/11941691",
       "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 18:20",
+      "title": "‘코스피 5000’ 돌파에 이 대통령 “국민연금 250조 늘어”",
+      "url": "https://www.mk.co.kr/news/economy/11941683",
+      "keywords_hit": [
+        "코스피"
+      ]
     },
     {
       "source": "MK",
@@ -39,6 +59,14 @@
       "keywords_hit": [
         "인수"
       ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 17:55",
+      "title": "한투 '손익차등형 펀드' 누적판매 1조",
+      "url": "https://www.mk.co.kr/news/stock/11941658",
+      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -313,32 +341,6 @@
       "published_at": "2026-01-23 13:44",
       "title": "금융위의 1거래소-1은행 완화 검토, 그 속내는? [엠블록레터]",
       "url": "https://www.mk.co.kr/news/stock/11941294",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 13:15",
-      "title": "3년반만 걸려 3000선, 4개월만에 4000선…가팔라지는 코스피 상승세, 6000도?",
-      "url": "https://www.mk.co.kr/news/stock/11941279",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 13:07",
-      "title": "엔켐, 30억 원 규모 전환사채 발행",
-      "url": "https://www.mk.co.kr/news/stock/11941272",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 13:07",
-      "title": "휴림에이텍, 100억 원 규모 전환사채 발행",
-      "url": "https://www.mk.co.kr/news/stock/11941273",
       "keywords_hit": []
     },
     {
