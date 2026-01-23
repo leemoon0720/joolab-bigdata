@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-23 14:48 KST",
+  "updated_at": "2026-01-23 14:59 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,11 +23,35 @@
   "count": 40,
   "items": [
     {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 14:49",
+      "title": "트럼프 발언에 출렁인 코인시장…비트코인·이더리움 동반 하락 [이수현의 코인레이더]",
+      "url": "https://www.hankyung.com/article/202601238682g",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 14:45",
+      "title": "지티에프홀딩스, 글로벌텍스프리 장내 매수로 지분↑…\"책임 경영\"",
+      "url": "https://www.hankyung.com/article/2026012389496",
+      "keywords_hit": []
+    },
+    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-23 14:45",
       "title": "EQT, 콜러캐피탈 합병… 세컨더리 시장 진출",
       "url": "https://www.mk.co.kr/news/stock/11941363",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 14:42",
+      "title": "교보증권, 삼성전자 기초자산 월지급식 ELB 공모",
+      "url": "https://www.hankyung.com/article/202601238950i",
       "keywords_hit": []
     },
     {
@@ -347,34 +371,6 @@
       "published_at": "2026-01-23 08:30",
       "title": "\"HD현대중공업, 공격적 수주 목표 긍정적…목표가↑\"-LS",
       "url": "https://www.hankyung.com/article/2026012378706",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 08:25",
-      "title": "\"삼성전자, 테슬라 AI 생태계 수혜 본격화 전망\"-KB",
-      "url": "https://www.hankyung.com/article/2026012378116",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 08:15",
-      "title": "\"슈프리마, 현대차 로봇 생태계의 핵심 보안 파트너\"-KB",
-      "url": "https://www.hankyung.com/article/2026012378056",
-      "keywords_hit": [
-        "로봇"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 08:15",
-      "title": "3대 의문 분석 : 금, Mag 7, 소형주 어디로 [김현석의 월스트리트나우]",
-      "url": "https://www.hankyung.com/article/202601237661i",
       "keywords_hit": []
     }
   ]
