@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-24 08:19 KST",
+  "updated_at": "2026-01-24 08:39 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-24 08:22",
+      "title": "Fed가 엔화 개입? 블랙록이 Fed 의장? 주말에 이란 공격? [김현석의 월스트리트나우]",
+      "url": "https://www.hankyung.com/article/202601249877i",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -339,14 +347,6 @@
       "published_at": "2026-01-23 14:45",
       "title": "EQT, 콜러캐피탈 합병… 세컨더리 시장 진출",
       "url": "https://www.mk.co.kr/news/stock/11941363",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 14:42",
-      "title": "교보증권, 삼성전자 기초자산 월지급식 ELB 공모",
-      "url": "https://www.hankyung.com/article/202601238950i",
       "keywords_hit": []
     },
     {
