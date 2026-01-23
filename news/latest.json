@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-23 13:10 KST",
+  "updated_at": "2026-01-23 13:53 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,24 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 13:44",
+      "title": "금융위의 1거래소-1은행 완화 검토, 그 속내는? [엠블록레터]",
+      "url": "https://www.mk.co.kr/news/stock/11941294",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 13:15",
+      "title": "3년반만 걸려 3000선, 4개월만에 4000선…가팔라지는 코스피 상승세, 6000도?",
+      "url": "https://www.mk.co.kr/news/stock/11941279",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -330,14 +348,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 08:34",
-      "title": "“고평가 고민하지 말고 사라”...삼성전자 올 영업익 ‘170조’ 찍는다는데 [오늘 나온 보고서]",
-      "url": "https://www.mk.co.kr/news/stock/11940987",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-23 08:30",
@@ -371,14 +381,6 @@
       "published_at": "2026-01-23 08:15",
       "title": "3대 의문 분석 : 금, Mag 7, 소형주 어디로 [김현석의 월스트리트나우]",
       "url": "https://www.hankyung.com/article/202601237661i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 08:10",
-      "title": "“삼성전자 아직도 저평가…올해 ‘20만 전자’ 간다”",
-      "url": "https://www.mk.co.kr/news/stock/11940981",
       "keywords_hit": []
     }
   ]
