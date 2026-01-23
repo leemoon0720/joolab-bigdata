@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-23 10:01 KST",
+  "updated_at": "2026-01-23 12:04 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,95 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 11:00",
+      "title": "메디아나, 300병상 종합병원에 웨어러블 심전도 첫 계약… 50조 환자모니터링 시장 진입",
+      "url": "https://www.mk.co.kr/news/stock/11941198",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 10:55",
+      "title": "현대건설, MSCI 편입 기대에 6%대 급등…52주 신고가 경신",
+      "url": "https://www.mk.co.kr/news/stock/11941192",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 10:47",
+      "title": "코스피 5000시대, 주가·환율 안정 대책은 ‘24시간 영업’이라고? [뉴스 쉽게보기]",
+      "url": "https://www.mk.co.kr/news/economy/11941168",
+      "keywords_hit": [
+        "코스피",
+        "환율"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 10:38",
+      "title": "KB증권, 퇴직연금 원리금 비보장형 수익률 DB·DC 1위",
+      "url": "https://www.hankyung.com/article/202601238383i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 10:36",
+      "title": "뱅크샐러드, 메가존클라우드와 MOU…'AI 에이전트' 강화",
+      "url": "https://www.hankyung.com/article/2026012383676",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 10:20",
+      "title": "[MK시그널] 빌딩 공조·보안 기업 존슨 컨트롤스 인터내셔널, 매수신호 발생",
+      "url": "https://www.mk.co.kr/news/stock/11941131",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 10:18",
+      "title": "미래에셋, TIGER 그룹주 ETF 3종 명칭 변경…“집중투자 의미 강화”",
+      "url": "https://www.mk.co.kr/news/stock/11941127",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 10:18",
+      "title": "삼성액티브, KoAct 배당성장액티브 2.5% 특별 배당",
+      "url": "https://www.mk.co.kr/news/stock/11941126",
+      "keywords_hit": [
+        "배당"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 10:11",
+      "title": "투자 황금기 '코스피 5000 시대' & 'CES 2026' 전략 세미나",
+      "url": "https://www.hankyung.com/article/2026012382347",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 09:54",
+      "title": "최대 60조 캐나다 잠수함 수주 기대감…한화오션 6%대 강세",
+      "url": "https://www.hankyung.com/article/2026012381246",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -277,32 +366,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 08:03",
-      "title": "\"삼성생명, 삼전 주가 상승 긍정적…목표가 상향\"-NH",
-      "url": "https://www.hankyung.com/article/2026012377606",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 07:48",
-      "title": "\"아이씨티케이, 해킹 방지법·주파수 재할당으로 매출 급증 기대\"-하나",
-      "url": "https://www.hankyung.com/article/2026012377296",
-      "keywords_hit": [
-        "매출"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 07:37",
-      "title": "\"삼성전자, 올 영업익 170조 전망…목표가 20만원으로 상향\"-키움",
-      "url": "https://www.hankyung.com/article/2026012377386",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-23 07:32",
@@ -313,78 +376,11 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 07:23",
-      "title": "\"삼성증권, 증시 호조에 발행어음 사업 기대도…목표가↑\"-DB",
-      "url": "https://www.hankyung.com/article/2026012377246",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-23 07:05",
       "title": "삼전닉스현대가 멱살잡고 가는 증시…액티브ETF에 뭉칫돈 몰렸다",
       "url": "https://www.mk.co.kr/news/stock/11940935",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 06:03",
-      "title": "은행자금 증시로 대이동…‘개미 빚투’ 29조 사상 최대",
-      "url": "https://www.mk.co.kr/news/stock/11940856",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 18:22",
-      "title": "반도체 끌고 조선·방산 받치고…‘대표선수’ 늘며 코스피 체질개선",
-      "url": "https://www.mk.co.kr/news/stock/11940601",
-      "keywords_hit": [
-        "코스피",
-        "반도체",
-        "방산"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 18:01",
-      "title": "꿈의 5000P 찍었다…43년 코스피 새역사",
-      "url": "https://www.mk.co.kr/news/stock/11940550",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 17:59",
-      "title": "밸류업 기업 소개 … '오천피 캠페인' 이끈 매경",
-      "url": "https://www.mk.co.kr/news/stock/11940539",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 17:59",
-      "title": "반도체 끌고 로봇·조선·방산 받치고 … '대표선수' 많아진 코스피",
-      "url": "https://www.mk.co.kr/news/stock/11940540",
-      "keywords_hit": [
-        "코스피",
-        "반도체",
-        "방산",
-        "로봇"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-22 17:59",
-      "title": "은행자금 증시로 대이동 … '개미 빚투' 29조 사상최대",
-      "url": "https://www.mk.co.kr/news/stock/11940538",
       "keywords_hit": []
     }
   ]
