@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-24 05:57 KST",
+  "updated_at": "2026-01-24 06:23 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-24 06:00",
+      "title": "“외환위기도 아닌데 왜”…16년새 최악인 한국인 구매력 [김익환의 부처 핸즈업]",
+      "url": "https://www.hankyung.com/article/202601239069i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -368,16 +376,6 @@
       "title": "KB증권, 퇴직연금 원리금 비보장형 수익률 DB·DC 1위",
       "url": "https://www.hankyung.com/article/202601238383i",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 10:36",
-      "title": "뱅크샐러드, 메가존클라우드와 MOU…'AI 에이전트' 강화",
-      "url": "https://www.hankyung.com/article/2026012383676",
-      "keywords_hit": [
-        "AI"
-      ]
     }
   ]
 }
