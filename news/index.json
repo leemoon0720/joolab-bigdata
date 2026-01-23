@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-23 13:53 KST",
+  "updated_at": "2026-01-23 14:22 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,6 +25,48 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-23 14:18",
+      "title": "디지털 자산 활성화 기대에 카카오페이·네이버 ‘불기둥’ [특징주]",
+      "url": "https://www.mk.co.kr/news/stock/11941335",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 14:08",
+      "title": "KB운용 ‘RISE 대형고배당10TR ETF’, 순자산 2000억 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11941320",
+      "keywords_hit": [
+        "배당"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 14:06",
+      "title": "미래에셋운용, TIGER 그룹주 ETF 3종 명칭 변경",
+      "url": "https://www.mk.co.kr/news/stock/11941317",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 14:05",
+      "title": "현대차 주가 폭등에 고수는 ‘이 종목’ 담는다 [주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11941314",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 14:05",
+      "title": "한국성장금융, ‘혁신기업 해외 진출 위한 법률·실무 지원’ 세미나",
+      "url": "https://www.mk.co.kr/news/stock/11941312",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-23 13:44",
       "title": "금융위의 1거래소-1은행 완화 검토, 그 속내는? [엠블록레터]",
       "url": "https://www.mk.co.kr/news/stock/11941294",
@@ -44,16 +86,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-23 13:07",
-      "title": "휴림에이텍, 100억 원 규모 전환사채 발행",
-      "url": "https://www.mk.co.kr/news/stock/11941273",
+      "title": "엔켐, 30억 원 규모 전환사채 발행",
+      "url": "https://www.mk.co.kr/news/stock/11941272",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-23 13:07",
-      "title": "엔켐, 30억 원 규모 전환사채 발행",
-      "url": "https://www.mk.co.kr/news/stock/11941272",
+      "title": "휴림에이텍, 100억 원 규모 전환사채 발행",
+      "url": "https://www.mk.co.kr/news/stock/11941273",
       "keywords_hit": []
     },
     {
@@ -240,24 +282,6 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 09:30",
-      "title": "[속보] 코스피, 하루 만에 다시 ‘5000선’ 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11941070",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 09:29",
-      "title": "[MK 골든크로스 돌파종목 : 아모레퍼시픽(090430) & 파마리서치(214450)]",
-      "url": "https://www.mk.co.kr/news/stock/11941067",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-23 09:27",
@@ -274,16 +298,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 09:13",
-      "title": "두산밥캣, 獨 바커노이슨 인수 철회",
-      "url": "https://www.mk.co.kr/news/stock/11941026",
-      "keywords_hit": [
-        "인수"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-23 09:11",
@@ -292,24 +306,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 09:11",
-      "title": "한투증권 “카카오페이, 영업이익 확대 전망…높은 밸류에이션은 부담”",
-      "url": "https://www.mk.co.kr/news/stock/11941024",
-      "keywords_hit": [
-        "영업이익"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 09:05",
-      "title": "“한화, 인적분할·주주환원 의지에 할인율 축소 기대”…목표가↑",
-      "url": "https://www.mk.co.kr/news/stock/11941005",
-      "keywords_hit": []
     },
     {
       "source": "HK",
