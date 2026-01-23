@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-24 07:01 KST",
+  "updated_at": "2026-01-24 07:29 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,8 +25,24 @@
     {
       "source": "HK",
       "press": "한국경제",
+      "published_at": "2026-01-24 07:15",
+      "title": "숨 고르며 혼조 마감…인텔은 17% 이상 폭락 [뉴욕증시 브리핑]",
+      "url": "https://www.hankyung.com/article/2026012497947",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-24 07:00",
+      "title": "주가 7만→50만원 뛰었는데…개미들 \"더 오를 수 있을까\" [윤현주의 主食이 주식]",
+      "url": "https://www.hankyung.com/article/202511230065i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
       "published_at": "2026-01-24 06:00",
-      "title": "“외환위기도 아닌데 왜”…16년새 최악인 한국인 구매력 [김익환의 부처 핸즈업]",
+      "title": "\"외환위기도 아닌데 왜\"…한국, 16년 만에 최악의 상황 터졌다 [김익환의 부처 핸즈업]",
       "url": "https://www.hankyung.com/article/202601239069i",
       "keywords_hit": []
     },
@@ -357,24 +373,6 @@
       "published_at": "2026-01-23 14:06",
       "title": "미래에셋운용, TIGER 그룹주 ETF 3종 명칭 변경",
       "url": "https://www.mk.co.kr/news/stock/11941317",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 12:00",
-      "title": "\"한국 최대 위험요인은 환율\"…경제전문가, 외환당국에 '경고'",
-      "url": "https://www.hankyung.com/article/202601238506i",
-      "keywords_hit": [
-        "환율"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 10:38",
-      "title": "KB증권, 퇴직연금 원리금 비보장형 수익률 DB·DC 1위",
-      "url": "https://www.hankyung.com/article/202601238383i",
       "keywords_hit": []
     }
   ]
