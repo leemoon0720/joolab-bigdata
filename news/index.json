@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-23 17:48 KST",
+  "updated_at": "2026-01-23 18:16 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,60 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 17:55",
+      "title": "한투 '손익차등형 펀드' 누적판매 1조",
+      "url": "https://www.mk.co.kr/news/stock/11941658",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 17:55",
+      "title": "SK 울산발전소 소수지분 인수 우선협상자에 스틱·한투PE",
+      "url": "https://www.mk.co.kr/news/stock/11941657",
+      "keywords_hit": [
+        "인수"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 17:55",
+      "title": "\"자본시장 개혁 완성하면 7천피도 가능\"",
+      "url": "https://www.mk.co.kr/news/stock/11941656",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 17:54",
+      "title": "건설장비사 獨바커노이슨 두산밥캣, 전격 인수 철회",
+      "url": "https://www.mk.co.kr/news/stock/11941655",
+      "keywords_hit": [
+        "인수"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 17:54",
+      "title": "5천피·상법개정 수혜…증권주 신고가 속출",
+      "url": "https://www.mk.co.kr/news/stock/11941654",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 17:53",
+      "title": "눈앞에 다가온 '천스닥'…코스피와 키맞추기 랠리",
+      "url": "https://www.hankyung.com/article/2026012395191",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -275,16 +329,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-23 13:07",
-      "title": "휴림에이텍, 100억 원 규모 전환사채 발행",
-      "url": "https://www.mk.co.kr/news/stock/11941273",
+      "title": "엔켐, 30억 원 규모 전환사채 발행",
+      "url": "https://www.mk.co.kr/news/stock/11941272",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-23 13:07",
-      "title": "엔켐, 30억 원 규모 전환사채 발행",
-      "url": "https://www.mk.co.kr/news/stock/11941272",
+      "title": "휴림에이텍, 100억 원 규모 전환사채 발행",
+      "url": "https://www.mk.co.kr/news/stock/11941273",
       "keywords_hit": []
     },
     {
@@ -294,33 +348,6 @@
       "title": "\"한국 최대 위험요인은 환율\"…경제전문가, 외환당국에 '경고'",
       "url": "https://www.hankyung.com/article/202601238506i",
       "keywords_hit": [
-        "환율"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 11:00",
-      "title": "메디아나, 300병상 종합병원에 웨어러블 심전도 첫 계약… 50조 환자모니터링 시장 진입",
-      "url": "https://www.mk.co.kr/news/stock/11941198",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 10:55",
-      "title": "현대건설, MSCI 편입 기대에 6%대 급등…52주 신고가 경신",
-      "url": "https://www.mk.co.kr/news/stock/11941192",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 10:47",
-      "title": "코스피 5000시대, 주가·환율 안정 대책은 ‘24시간 영업’이라고? [뉴스 쉽게보기]",
-      "url": "https://www.mk.co.kr/news/economy/11941168",
-      "keywords_hit": [
-        "코스피",
         "환율"
       ]
     },
@@ -343,22 +370,6 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 10:20",
-      "title": "[MK시그널] 빌딩 공조·보안 기업 존슨 컨트롤스 인터내셔널, 매수신호 발생",
-      "url": "https://www.mk.co.kr/news/stock/11941131",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 10:18",
-      "title": "미래에셋, TIGER 그룹주 ETF 3종 명칭 변경…“집중투자 의미 강화”",
-      "url": "https://www.mk.co.kr/news/stock/11941127",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-23 10:11",
@@ -367,14 +378,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 09:54",
-      "title": "최대 60조 캐나다 잠수함 수주 기대감…한화오션 6%대 강세",
-      "url": "https://www.hankyung.com/article/2026012381246",
-      "keywords_hit": []
     }
   ]
 }
