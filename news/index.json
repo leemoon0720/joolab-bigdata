@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-23 12:04 KST",
+  "updated_at": "2026-01-23 13:10 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,32 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 13:07",
+      "title": "휴림에이텍, 100억 원 규모 전환사채 발행",
+      "url": "https://www.mk.co.kr/news/stock/11941273",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 13:07",
+      "title": "엔켐, 30억 원 규모 전환사채 발행",
+      "url": "https://www.mk.co.kr/news/stock/11941272",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 12:00",
+      "title": "\"한국 최대 위험요인은 환율\"…경제전문가, 외환당국에 '경고'",
+      "url": "https://www.hankyung.com/article/202601238506i",
+      "keywords_hit": [
+        "환율"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -348,39 +374,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 08:14",
-      "title": "올들어 15% 오른 코스피…'5000피' 찍고 더 갈 종목은 [오늘장 미리보기]",
-      "url": "https://www.hankyung.com/article/202601237751i",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-23 08:10",
       "title": "“삼성전자 아직도 저평가…올해 ‘20만 전자’ 간다”",
       "url": "https://www.mk.co.kr/news/stock/11940981",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 07:32",
-      "title": "4분기 매출 20조원, 전망치 상회했는데…7% 급락한 인텔, 왜?",
-      "url": "https://www.mk.co.kr/news/stock/11940961",
-      "keywords_hit": [
-        "매출"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 07:05",
-      "title": "삼전닉스현대가 멱살잡고 가는 증시…액티브ETF에 뭉칫돈 몰렸다",
-      "url": "https://www.mk.co.kr/news/stock/11940935",
       "keywords_hit": []
     }
   ]
