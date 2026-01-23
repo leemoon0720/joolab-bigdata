@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-23 14:59 KST",
+  "updated_at": "2026-01-23 15:47 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,35 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 15:46",
+      "title": "백덤블링하는 아틀라스에 초고수 현대차 ‘풀매수’ [주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11941466",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 15:04",
+      "title": "TIME 글로벌AI인공지능액티브 ETF, 상장 후 수익률 300% 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11941405",
+      "keywords_hit": [
+        "상장",
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 15:04",
+      "title": "바이오株 반등 힘입어 4년 만에 ‘천스닥’ 눈앞",
+      "url": "https://www.mk.co.kr/news/stock/11941403",
+      "keywords_hit": [
+        "바이오"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -240,26 +269,6 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 09:52",
-      "title": "“예측시장 못 믿겠다”‥‘AI 판사’ 도입론 부상",
-      "url": "https://www.mk.co.kr/news/stock/11941104",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 09:50",
-      "title": "새해 첫 ‘크립토 IPO’…비트고(BitGo), 뉴욕증시 화려한 데뷔 ‘시총 3조원’",
-      "url": "https://www.mk.co.kr/news/stock/11941100",
-      "keywords_hit": [
-        "IPO"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-23 09:48",
@@ -284,14 +293,6 @@
       "keywords_hit": [
         "IPO"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 09:38",
-      "title": "[MK시그널] 휴젤, 강력한 성장 모멘텀 확보 등에 주가 상승세... MK시그널 추천 후 상승률 13% 기록",
-      "url": "https://www.mk.co.kr/news/stock/11941083",
-      "keywords_hit": []
     },
     {
       "source": "HK",
