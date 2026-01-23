@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-23 14:22 KST",
+  "updated_at": "2026-01-23 14:48 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 14:45",
+      "title": "EQT, 콜러캐피탈 합병… 세컨더리 시장 진출",
+      "url": "https://www.mk.co.kr/news/stock/11941363",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -260,16 +268,6 @@
       "title": "[MK시그널] 휴젤, 강력한 성장 모멘텀 확보 등에 주가 상승세... MK시그널 추천 후 상승률 13% 기록",
       "url": "https://www.mk.co.kr/news/stock/11941083",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 09:33",
-      "title": "슈프리마, 현대차 로봇 핵심 파트너 전망에 ‘상한가’ 직행",
-      "url": "https://www.mk.co.kr/news/stock/11941073",
-      "keywords_hit": [
-        "로봇"
-      ]
     },
     {
       "source": "HK",
