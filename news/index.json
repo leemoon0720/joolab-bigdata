@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-23 16:52 KST",
+  "updated_at": "2026-01-23 17:16 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,15 +23,51 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 17:12",
+      "title": "스틱·한투PE, SK울산발전소 소수지분 인수전 ‘승기’",
+      "url": "https://www.mk.co.kr/news/stock/11941556",
+      "keywords_hit": [
+        "인수"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 17:00",
+      "title": "코스피, 4990대에서 마감...오천피 이어 천스닥도 한 발짝 앞으로 [HK영상]",
+      "url": "https://www.hankyung.com/article/202601239371i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 17:00",
+      "title": "[포토] 코스피 5,000선 목전…코스닥도 강세 마감",
+      "url": "https://www.hankyung.com/article/202601239372i",
+      "keywords_hit": [
+        "코스피",
+        "코스닥"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-23 16:59",
+      "title": "한투證, 손익차등형 공모펀드 누적 판매액 1조 돌파",
+      "url": "https://www.hankyung.com/article/202601239346i",
+      "keywords_hit": []
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-23 16:39",
-      "title": "오천피 이끈 '큰 손' 외국인·기관… '이 종목' 담고 팔았다",
+      "title": "1월에만 '9400억' 샀다…오천피 이끈 '큰손' 몰려든 곳",
       "url": "https://www.hankyung.com/article/202601239306i",
-      "keywords_hit": [
-        "외국인",
-        "기관"
-      ]
+      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -301,16 +337,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 09:53",
-      "title": "저평가된 ‘비트코인 큰손’ 기업들, M&A 매물로 나온다",
-      "url": "https://www.mk.co.kr/news/stock/11941105",
-      "keywords_hit": [
-        "M&A"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-23 09:48",
@@ -353,34 +379,6 @@
       "title": "\"엔비디아보다 낫네\" 6조 뭉칫돈 몰리더니…수익률도 '대박' [맹진규의 글로벌 머니플로우]",
       "url": "https://www.hankyung.com/article/202601237935i",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 09:24",
-      "title": "5000피 시대 열렸다…증권株도 '들썩'",
-      "url": "https://www.hankyung.com/article/2026012380516",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 09:11",
-      "title": "[속보] 코스피, 하루 만에 다시 장중 5000선 돌파",
-      "url": "https://www.hankyung.com/article/2026012380096",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 09:01",
-      "title": "[속보] 그린란드 긴장 완화…코스피, 4980선 상승 출발",
-      "url": "https://www.hankyung.com/article/2026012379446",
-      "keywords_hit": [
-        "코스피"
-      ]
     }
   ]
 }
