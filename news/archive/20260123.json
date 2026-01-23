@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-23 19:55 KST",
+  "updated_at": "2026-01-23 20:17 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-23 19:58",
+      "title": "한국 딜로이트, 차기 총괄대표 길기완 경영자문 대표 확정",
+      "url": "https://www.mk.co.kr/news/stock/11941744",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -333,14 +341,6 @@
       "published_at": "2026-01-23 14:05",
       "title": "한국성장금융, ‘혁신기업 해외 진출 위한 법률·실무 지원’ 세미나",
       "url": "https://www.mk.co.kr/news/stock/11941312",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 13:44",
-      "title": "금융위의 1거래소-1은행 완화 검토, 그 속내는? [엠블록레터]",
-      "url": "https://www.mk.co.kr/news/stock/11941294",
       "keywords_hit": []
     },
     {
