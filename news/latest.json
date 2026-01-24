@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-24 11:20 KST",
+  "updated_at": "2026-01-24 12:46 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-24 11:26",
+      "title": "한 달 만에 55% 대박 터졌다…돈 냄새 맡은 개미들 '우르르'",
+      "url": "https://www.hankyung.com/article/202601239472i",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -331,14 +339,6 @@
       "published_at": "2026-01-23 14:49",
       "title": "트럼프 발언에 출렁인 코인시장…비트코인·이더리움 동반 하락 [이수현의 코인레이더]",
       "url": "https://www.hankyung.com/article/202601238682g",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 14:45",
-      "title": "지티에프홀딩스, 글로벌텍스프리 장내 매수로 지분↑…\"책임 경영\"",
-      "url": "https://www.hankyung.com/article/2026012389496",
       "keywords_hit": []
     },
     {
