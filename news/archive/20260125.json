@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-25 07:57 KST",
+  "updated_at": "2026-01-25 08:22 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-25 08:00",
+      "title": "오천피 문턱서 '미끌'…빅테크·삼전·SK하닉 실적 업고 안착할까 [주간전망]",
+      "url": "https://www.hankyung.com/article/2026012392166",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -307,16 +317,6 @@
       "title": "1월에만 '9400억' 샀다…오천피 이끈 '큰손' 몰려든 곳",
       "url": "https://www.hankyung.com/article/202601239306i",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 16:32",
-      "title": "대전방산사업협동조합, 충청 광역권 방위산업 협력체계 본격 가동",
-      "url": "https://www.hankyung.com/article/2026012392956",
-      "keywords_hit": [
-        "방산"
-      ]
     },
     {
       "source": "MK",
