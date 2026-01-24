@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-24 22:26 KST",
+  "updated_at": "2026-01-24 22:47 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,17 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-24 22:38",
+      "title": "증거금만 12.7조원…‘공모가 1만원’ 코스닥 입성하는 올해 첫 상장기업",
+      "url": "https://www.mk.co.kr/news/stock/11942223",
+      "keywords_hit": [
+        "코스닥",
+        "상장"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -366,14 +377,6 @@
       "keywords_hit": [
         "배당"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 14:06",
-      "title": "미래에셋운용, TIGER 그룹주 ETF 3종 명칭 변경",
-      "url": "https://www.mk.co.kr/news/stock/11941317",
-      "keywords_hit": []
     }
   ]
 }
