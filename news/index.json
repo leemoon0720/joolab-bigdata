@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-25 06:52 KST",
+  "updated_at": "2026-01-25 07:11 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,22 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-25 07:00",
+      "title": "월급 60만원 받던 20대 청년…1250억 주식 부자 된 사연 [윤현주의 主食이 주식]",
+      "url": "https://www.hankyung.com/article/202601198498i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-25 06:50",
+      "title": "'반 년 만에 200% 뛰었다'…지금 주목 받는 '이 종목' [최종석의 차트 밖은 유럽]",
+      "url": "https://www.hankyung.com/article/202601214819i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -300,27 +316,6 @@
       "url": "https://www.hankyung.com/article/2026012392956",
       "keywords_hit": [
         "방산"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 16:13",
-      "title": "거래소, 밸류업 관련 공시 담당자 설명회 개최",
-      "url": "https://www.hankyung.com/article/2026012392676",
-      "keywords_hit": [
-        "공시"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 15:49",
-      "title": "코스피, 종가 사상 최고치 4990 마감…코스닥도 '천스닥' 눈앞",
-      "url": "https://www.hankyung.com/article/2026012390746",
-      "keywords_hit": [
-        "코스피",
-        "코스닥"
       ]
     },
     {
