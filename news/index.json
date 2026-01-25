@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-25 21:20 KST",
+  "updated_at": "2026-01-25 22:06 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-25 21:30",
+      "title": "어팔마캐피탈, 코넥스 기업 나우코스 공개매수 나서",
+      "url": "https://www.mk.co.kr/news/stock/11942728",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -360,14 +368,6 @@
       "published_at": "2026-01-24 05:56",
       "title": "오천피에 상법개정 수혜까지…신고가 속출한 증권주",
       "url": "https://www.mk.co.kr/news/stock/11941950",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-24 01:13",
-      "title": "“은값, 온스당 100달러 사상 첫 돌파”……金은 5000달러 ‘바짝’",
-      "url": "https://www.mk.co.kr/news/stock/11941916",
       "keywords_hit": []
     }
   ]
