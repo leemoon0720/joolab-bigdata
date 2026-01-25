@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-25 17:58 KST",
+  "updated_at": "2026-01-25 18:27 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,34 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-25 18:09",
+      "title": "펀드매니저 10명 중 9명 “코스피 연내 10~20% 조정 가능성”",
+      "url": "https://www.mk.co.kr/news/stock/11942718",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-25 18:00",
+      "title": "\"천스닥 넘어 1300도 간다 … 코스피는 일단 숨고르기\"",
+      "url": "https://www.mk.co.kr/news/stock/11942695",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-25 17:57",
+      "title": "\"월 300만원 군인연금 받는데 어쩌나\"…60대 고민 깊어진 이유",
+      "url": "https://www.hankyung.com/article/2026012512401",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -312,14 +340,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-24 07:00",
-      "title": "주가 7만→50만원 뛰었는데…개미들 \"더 오를 수 있을까\" [윤현주의 主食이 주식]",
-      "url": "https://www.hankyung.com/article/202511230065i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-24 05:56",
@@ -351,24 +371,6 @@
       "url": "https://www.mk.co.kr/news/stock/11941694",
       "keywords_hit": [
         "상장"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 18:30",
-      "title": "베인캐피탈, 에코마케팅 공개매수로 지분 81% 확보",
-      "url": "https://www.mk.co.kr/news/stock/11941691",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 18:20",
-      "title": "‘코스피 5000’ 돌파에 이 대통령 “국민연금 250조 늘어”",
-      "url": "https://www.mk.co.kr/news/economy/11941683",
-      "keywords_hit": [
-        "코스피"
       ]
     }
   ]
