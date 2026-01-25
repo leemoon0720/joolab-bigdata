@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-26 08:47 KST",
+  "updated_at": "2026-01-26 08:56 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,28 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 08:43",
+      "title": "[마켓PRO] Today's Pick : 아틀라스 매출 3분의 1 몫은 '현대모비스'… AI 수혜주로 뜬 '삼성전기'",
+      "url": "https://www.hankyung.com/article/202601261743i",
+      "keywords_hit": [
+        "매출",
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 08:40",
+      "title": "\"크래프톤, 화평정영 매출 반등 힘입어 호실적 전망…목표가↑\"-미래",
+      "url": "https://www.hankyung.com/article/2026012618006",
+      "keywords_hit": [
+        "실적",
+        "매출"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -358,24 +380,6 @@
       "title": "\"시장 추세 타야 투자금 불린다…국내 증시 계속 주목해야\"",
       "url": "https://www.hankyung.com/article/2026012511591",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-25 17:11",
-      "title": "목표가 뚫은 종목 속출",
-      "url": "https://www.hankyung.com/article/2026012511611",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-25 17:11",
-      "title": "코스피 외인 주식 비중, 5년9개월 만에 최고치",
-      "url": "https://www.hankyung.com/article/2026012511621",
-      "keywords_hit": [
-        "코스피"
-      ]
     }
   ]
 }
