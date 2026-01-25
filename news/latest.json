@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-26 08:13 KST",
+  "updated_at": "2026-01-26 08:33 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,49 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 08:28",
+      "title": "코스피, 종가 기준 5000에 안착할까…변수는 '대형주 실적' [오늘장 미리보기]",
+      "url": "https://www.hankyung.com/article/202601261619i",
+      "keywords_hit": [
+        "코스피",
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 08:27",
+      "title": "\"3년 물렸다가 탈출\"…에쓰오일 개미 '신바람' [종목+]",
+      "url": "https://www.hankyung.com/article/2026012617026",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 08:16",
+      "title": "[속보] 국제 금값 온스당 5000달러 사상 첫 돌파",
+      "url": "https://www.hankyung.com/article/2026012617337",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 08:13",
+      "title": "[속보] 미 증시 지수 선물 일제 하락…나스닥 1.2% 급락",
+      "url": "https://www.hankyung.com/article/2026012617237",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 08:11",
+      "title": "\"CJ CGV, 관람객 증가했지만…비용 효율화 정책이 관건\"-KB",
+      "url": "https://www.hankyung.com/article/2026012616046",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -333,48 +376,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-25 15:54",
-      "title": "\"이러다 26년 만에 최고가도 찍나\"…신고가에 개미 '들썩' [선한결의 이기업 왜이래]",
-      "url": "https://www.hankyung.com/article/202601251025i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-25 14:52",
-      "title": "자산가·투자고수들, 한화오션·코리아써키트 등 집중매수",
-      "url": "https://www.hankyung.com/article/202601250961i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-25 08:00",
-      "title": "오천피 문턱서 '미끌'…빅테크·삼전·SK하닉 실적 업고 안착할까 [주간전망]",
-      "url": "https://www.hankyung.com/article/2026012392166",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-25 07:00",
-      "title": "월급 60만원 받던 20대 청년…1250억 주식 부자 된 사연 [윤현주의 主食이 주식]",
-      "url": "https://www.hankyung.com/article/202601198498i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-25 06:50",
-      "title": "'반 년 만에 200% 뛰었다'…지금 주목 받는 '이 종목' [최종석의 차트 밖은 유럽]",
-      "url": "https://www.hankyung.com/article/202601214819i",
-      "keywords_hit": []
     }
   ]
 }
