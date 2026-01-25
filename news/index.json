@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-25 17:44 KST",
+  "updated_at": "2026-01-25 17:58 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,113 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-25 17:57",
+      "title": "펀드매니저 10명 중 9명 \"코스피 연내 10~20% 조정 가능성\"",
+      "url": "https://www.mk.co.kr/news/stock/11942681",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-25 17:57",
+      "title": "\"정책효과 훈풍 탄 코스닥 … 반도체 등 중소형주 온기 퍼질 것\"",
+      "url": "https://www.mk.co.kr/news/stock/11942680",
+      "keywords_hit": [
+        "코스닥",
+        "반도체"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-25 17:53",
+      "title": "펀드매니저 긴급설문 “천스닥 넘어 1300도 간다…코스피는 숨고르기”",
+      "url": "https://www.mk.co.kr/news/stock/11942669",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-25 17:51",
+      "title": "'美·日 공조'에 엔화 급등…원화도 동반강세",
+      "url": "https://www.hankyung.com/article/2026012512041",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-25 17:51",
+      "title": "원화 구매력, 외환위기 수준 추락…64개국 중 63위",
+      "url": "https://www.hankyung.com/article/2026012512051",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-25 17:46",
+      "title": "안전자산 대우받는 銀, 온스당 100달러 넘었다",
+      "url": "https://www.mk.co.kr/news/stock/11942653",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-25 17:46",
+      "title": "日 증시 강세 흐름 지속에 일학개미 매도세도 주춤",
+      "url": "https://www.mk.co.kr/news/stock/11942650",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-25 17:46",
+      "title": "메모리값 폭등에 글로벌 IT기기株 '울상'",
+      "url": "https://www.mk.co.kr/news/stock/11942649",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-25 17:45",
+      "title": "PER 韓 11배 vs 日 20배 …여전히 '코리아 디스카운트'",
+      "url": "https://www.mk.co.kr/news/stock/11942647",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-25 17:45",
+      "title": "금리 상승에 렌탈주 썰렁…코웨이 반년만에 30% 뚝",
+      "url": "https://www.mk.co.kr/news/stock/11942645",
+      "keywords_hit": [
+        "금리"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-25 17:45",
+      "title": "동남아 대표 핀테크, 韓서 투자자 찾는다",
+      "url": "https://www.mk.co.kr/news/stock/11942646",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-25 17:45",
+      "title": "\"대세는 피지컬 AI\"… 배터리株 급속 충전",
+      "url": "https://www.mk.co.kr/news/stock/11942644",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -213,14 +320,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-24 06:00",
-      "title": "\"외환위기도 아닌데 왜\"…한국, 16년 만에 최악의 상황 터졌다 [김익환의 부처 핸즈업]",
-      "url": "https://www.hankyung.com/article/202601239069i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-24 05:56",
@@ -234,14 +333,6 @@
       "published_at": "2026-01-24 01:13",
       "title": "“은값, 온스당 100달러 사상 첫 돌파”……金은 5000달러 ‘바짝’",
       "url": "https://www.mk.co.kr/news/stock/11941916",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 22:00",
-      "title": "'295% 폭등' 기억 소환…잠잠하더니 주가 30% 급등한 이유 [종목+]",
-      "url": "https://www.hankyung.com/article/2026012391716",
       "keywords_hit": []
     },
     {
@@ -278,97 +369,6 @@
       "url": "https://www.mk.co.kr/news/economy/11941683",
       "keywords_hit": [
         "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 17:55",
-      "title": "SK 울산발전소 소수지분 인수 … 우선협상자에 스틱·한투PE",
-      "url": "https://www.mk.co.kr/news/stock/11941657",
-      "keywords_hit": [
-        "인수"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 17:55",
-      "title": "한투 '손익차등형 펀드' 누적판매 1조",
-      "url": "https://www.mk.co.kr/news/stock/11941658",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 17:55",
-      "title": "\"자본시장 개혁 완성하면 7천피도 가능\"",
-      "url": "https://www.mk.co.kr/news/stock/11941656",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 17:54",
-      "title": "건설장비사 獨바커노이슨 … 두산밥캣, 전격 인수 철회",
-      "url": "https://www.mk.co.kr/news/stock/11941655",
-      "keywords_hit": [
-        "인수"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 17:54",
-      "title": "5천피·상법개정 수혜…증권주 신고가 속출",
-      "url": "https://www.mk.co.kr/news/stock/11941654",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 17:30",
-      "title": "현대차그룹이 글로비스 키워야 하는 이유…순환출자 끊을 마지막 열쇠 [K주식, 이걸 사? 말아?]",
-      "url": "https://www.mk.co.kr/news/stock/11941328",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 17:12",
-      "title": "스틱·한투PE, SK울산발전소 소수지분 인수전 ‘승기’",
-      "url": "https://www.mk.co.kr/news/stock/11941556",
-      "keywords_hit": [
-        "인수"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 15:46",
-      "title": "백덤블링하는 아틀라스에 초고수 현대차 ‘풀매수’ [주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11941466",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 15:04",
-      "title": "TIME 글로벌AI인공지능액티브 ETF, 상장 후 수익률 300% 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11941405",
-      "keywords_hit": [
-        "상장",
-        "AI"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 15:04",
-      "title": "바이오株 반등 힘입어 4년 만에 ‘천스닥’ 눈앞",
-      "url": "https://www.mk.co.kr/news/stock/11941403",
-      "keywords_hit": [
-        "바이오"
       ]
     }
   ]
