@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-25 14:50 KST",
+  "updated_at": "2026-01-25 14:59 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-25 14:52",
+      "title": "자산가·투자고수들, 한화오션·코리아써키트 등 집중매수",
+      "url": "https://www.hankyung.com/article/202601250961i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -318,14 +326,6 @@
       "published_at": "2026-01-23 16:59",
       "title": "한투證, 손익차등형 공모펀드 누적 판매액 1조 돌파",
       "url": "https://www.hankyung.com/article/202601239346i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 16:39",
-      "title": "1월에만 '9400억' 샀다…오천피 이끈 '큰손' 몰려든 곳",
-      "url": "https://www.hankyung.com/article/202601239306i",
       "keywords_hit": []
     },
     {
