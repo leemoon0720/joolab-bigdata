@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-25 20:52 KST",
+  "updated_at": "2026-01-25 21:20 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-25 20:57",
+      "title": "\"'5000피' 너무 높다고요? 지레 겁먹어 투자 피하면 기회를 놓칩니다\"",
+      "url": "https://www.hankyung.com/article/202601251078i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -344,14 +352,6 @@
       "published_at": "2026-01-24 08:22",
       "title": "Fed가 엔화 개입? 블랙록이 Fed 의장? 주말에 이란 공격? [김현석의 월스트리트나우]",
       "url": "https://www.hankyung.com/article/202601249877i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-24 07:15",
-      "title": "숨 고르며 혼조 마감…인텔은 17% 이상 폭락 [뉴욕증시 브리핑]",
-      "url": "https://www.hankyung.com/article/2026012497947",
       "keywords_hit": []
     },
     {
