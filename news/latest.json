@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-25 19:15 KST",
+  "updated_at": "2026-01-25 19:41 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-25 19:34",
+      "title": "“줍줍 외치기엔 바닥 안보이네요”…메모리칩 쓰는 ‘이 기업들’ 주가 추락",
+      "url": "https://www.mk.co.kr/news/stock/11942744",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -187,7 +195,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-25 17:17",
-      "title": "ETF에 4660억 뭉칫돈…한달 수익률 50% 넘기도",
+      "title": "한 달 만에 50% 뛰더니…뭉칫돈 '4660억' 우르르 몰린 곳",
       "url": "https://www.hankyung.com/article/2026012510771",
       "keywords_hit": []
     },
@@ -361,16 +369,6 @@
       "title": "한국 딜로이트, 차기 총괄대표 길기완 경영자문 대표 확정",
       "url": "https://www.mk.co.kr/news/stock/11941744",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 18:31",
-      "title": "베인캐피탈, 에코마케팅 지분율 81% 확보…상장폐지 수순 전망",
-      "url": "https://www.mk.co.kr/news/stock/11941694",
-      "keywords_hit": [
-        "상장"
-      ]
     }
   ]
 }
