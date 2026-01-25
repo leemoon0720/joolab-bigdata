@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-26 05:56 KST",
+  "updated_at": "2026-01-26 06:19 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,22 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 05:57",
+      "title": "“무작정 골드바 사두면 되나요?”…세금 따져보면 KRX금시장 유리",
+      "url": "https://www.mk.co.kr/news/stock/11942793",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 05:57",
+      "title": "“돌반지 다 팔고, 이제 커플링 팔 차례”…은값 ‘온스당 100달러’ 뚫었다",
+      "url": "https://www.mk.co.kr/news/stock/11942792",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -313,16 +329,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-25 13:07",
-      "title": "“증시 분기점 온다”…빅테크 실적부터 FOMC까지 ‘빅이벤트’ 대기",
-      "url": "https://www.mk.co.kr/news/stock/11942377",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-25 08:00",
@@ -347,17 +353,6 @@
       "title": "'반 년 만에 200% 뛰었다'…지금 주목 받는 '이 종목' [최종석의 차트 밖은 유럽]",
       "url": "https://www.hankyung.com/article/202601214819i",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-24 22:38",
-      "title": "증거금만 12.7조원…‘공모가 1만원’ 코스닥 입성하는 올해 첫 상장기업",
-      "url": "https://www.mk.co.kr/news/stock/11942223",
-      "keywords_hit": [
-        "코스닥",
-        "상장"
-      ]
     },
     {
       "source": "HK",
