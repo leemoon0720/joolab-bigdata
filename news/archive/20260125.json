@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-25 17:15 KST",
+  "updated_at": "2026-01-25 17:44 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,93 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-25 17:39",
+      "title": "[이번주 증시 예보] 5천피 이끈 삼전닉스·현대차 실적발표 주목",
+      "url": "https://www.mk.co.kr/news/stock/11942629",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-25 17:39",
+      "title": "골드·실버뱅킹으로 소액투자, 금·은 고공행진에 올라타기…ETF는 장기투자·환금성 '굿'",
+      "url": "https://www.mk.co.kr/news/stock/11942627",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-25 17:17",
+      "title": "뉴스페이스 시대…\"우주항공주 품고 로켓 수익률 쏘자\"",
+      "url": "https://www.hankyung.com/article/2026012510801",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-25 17:17",
+      "title": "ETF에 4660억 뭉칫돈…한달 수익률 50% 넘기도",
+      "url": "https://www.hankyung.com/article/2026012510771",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-25 17:16",
+      "title": "\"로봇에 배터리 탑재\"…2차전지 ETF 불 뿜다",
+      "url": "https://www.hankyung.com/article/2026012511581",
+      "keywords_hit": [
+        "2차전지",
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-25 17:15",
+      "title": "앤스로픽 투자 대박…SKT 신고가",
+      "url": "https://www.hankyung.com/article/2026012511601",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-25 17:14",
+      "title": "한화오션 집중 매수…코리아써키트 뭉칫돈",
+      "url": "https://www.hankyung.com/article/2026012511631",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-25 17:13",
+      "title": "\"시장 추세 타야 투자금 불린다…국내 증시 계속 주목해야\"",
+      "url": "https://www.hankyung.com/article/2026012511591",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-25 17:11",
+      "title": "목표가 뚫은 종목 속출",
+      "url": "https://www.hankyung.com/article/2026012511611",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-25 17:11",
+      "title": "코스피 외인 주식 비중, 5년9개월 만에 최고치",
+      "url": "https://www.hankyung.com/article/2026012511621",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -238,64 +325,12 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 17:53",
-      "title": "눈앞에 다가온 '천스닥'…코스피와 키맞추기 랠리",
-      "url": "https://www.hankyung.com/article/2026012395191",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 17:35",
-      "title": "[특징주 & 리포트] '캐나다 지사 세운 한화오션 강세' 등",
-      "url": "https://www.hankyung.com/article/2026012394321",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 17:33",
-      "title": "동일가중 ETF에 7조원 뭉칫돈",
-      "url": "https://www.hankyung.com/article/2026012394361",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 17:31",
-      "title": "美 우주군 확대, L3해리스에 기회",
-      "url": "https://www.hankyung.com/article/2026012394351",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-23 17:30",
       "title": "현대차그룹이 글로비스 키워야 하는 이유…순환출자 끊을 마지막 열쇠 [K주식, 이걸 사? 말아?]",
       "url": "https://www.mk.co.kr/news/stock/11941328",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 17:29",
-      "title": "현대차·삼전 6조 팔아치운 큰손, 조용히 쓸어담은 '주식' 뭐길래",
-      "url": "https://www.hankyung.com/article/2026012394331",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 17:27",
-      "title": "코스피, 5000 찍고 숨고르기…증시 대기자금은 100조 육박",
-      "url": "https://www.hankyung.com/article/2026012394341",
-      "keywords_hit": [
-        "코스피"
-      ]
     },
     {
       "source": "MK",
@@ -305,27 +340,6 @@
       "url": "https://www.mk.co.kr/news/stock/11941556",
       "keywords_hit": [
         "인수"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 17:00",
-      "title": "코스피, 4990대에서 마감...오천피 이어 천스닥도 한 발짝 앞으로 [HK영상]",
-      "url": "https://www.hankyung.com/article/202601239371i",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 17:00",
-      "title": "[포토] 코스피 5,000선 목전…코스닥도 강세 마감",
-      "url": "https://www.hankyung.com/article/202601239372i",
-      "keywords_hit": [
-        "코스피",
-        "코스닥"
       ]
     },
     {
@@ -356,22 +370,6 @@
       "keywords_hit": [
         "바이오"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 14:45",
-      "title": "EQT, 콜러캐피탈 합병… 세컨더리 시장 진출",
-      "url": "https://www.mk.co.kr/news/stock/11941363",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-23 14:18",
-      "title": "디지털 자산 활성화 기대에 카카오페이·네이버 ‘불기둥’ [특징주]",
-      "url": "https://www.mk.co.kr/news/stock/11941335",
-      "keywords_hit": []
     }
   ]
 }
