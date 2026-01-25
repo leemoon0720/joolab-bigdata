@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-25 22:41 KST",
+  "updated_at": "2026-01-25 22:54 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,10 +23,21 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-25 22:52",
+      "title": "“첨단로봇, 유선으로 쓸거 아니잖아요”…다시 주목받는 2차전지주",
+      "url": "https://www.mk.co.kr/news/stock/11942782",
+      "keywords_hit": [
+        "2차전지",
+        "로봇"
+      ]
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-25 22:30",
-      "title": "이재명 대통령 질의로까지 번진 STO, 커지는 정치권 외풍[박주연의 여의도 나침반]",
+      "title": "李 대통령 질의로까지 번진 STO…커지는 정치권 외풍 [박주연의 여의도 나침반]",
       "url": "https://www.hankyung.com/article/202601251455i",
       "keywords_hit": []
     },
@@ -360,14 +371,6 @@
       "published_at": "2026-01-24 11:26",
       "title": "한 달 만에 55% 대박 터졌다…돈 냄새 맡은 개미들 '우르르'",
       "url": "https://www.hankyung.com/article/202601239472i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-24 05:56",
-      "title": "오천피에 상법개정 수혜까지…신고가 속출한 증권주",
-      "url": "https://www.mk.co.kr/news/stock/11941950",
       "keywords_hit": []
     }
   ]
