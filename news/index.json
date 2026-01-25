@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-25 16:00 KST",
+  "updated_at": "2026-01-25 16:29 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-25 15:54",
+      "title": "\"이러다 26년 만에 최고가도 찍나\"…신고가에 개미 '들썩' [선한결의 이기업 왜이래]",
+      "url": "https://www.hankyung.com/article/202601251025i",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -319,14 +327,6 @@
         "코스피",
         "코스닥"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-23 16:59",
-      "title": "한투證, 손익차등형 공모펀드 누적 판매액 1조 돌파",
-      "url": "https://www.hankyung.com/article/202601239346i",
-      "keywords_hit": []
     },
     {
       "source": "MK",
