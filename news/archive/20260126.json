@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-26 16:58 KST",
+  "updated_at": "2026-01-26 17:41 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,10 +25,124 @@
     {
       "source": "HK",
       "press": "한국경제",
-      "published_at": "2026-01-26 16:50",
-      "title": "\"삼전 대신 샀어야 하나\"…오천피 문턱에서 숨 고르기",
-      "url": "https://www.hankyung.com/article/202601263024i",
+      "published_at": "2026-01-26 17:32",
+      "title": "한·미·일 '환율 공조' 나서나…엔화 초강세에 원·달러 20원 넘게 급락",
+      "url": "https://www.hankyung.com/article/2026012635891",
+      "keywords_hit": [
+        "환율"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 17:31",
+      "title": "반년간 수익률 118% 뛰었다…금 ETF 상품도 '골든 랠리'",
+      "url": "https://www.hankyung.com/article/2026012635751",
       "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 17:26",
+      "title": "'한번만 더 믿어볼까?' 붉은사막 초읽기 들어간 펄어비스, 52주 신고가",
+      "url": "https://www.hankyung.com/article/202601263175i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 17:17",
+      "title": "반도체 투톱 실적 발표 앞두고…소부장 펀드에 뭉칫돈",
+      "url": "https://www.hankyung.com/article/2026012634561",
+      "keywords_hit": [
+        "반도체",
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 17:15",
+      "title": "코스닥 지수, '닷컴 버블' 이후 최고치…7% 넘게 급등하며 '천스닥' 돌파 [HK영상]",
+      "url": "https://www.hankyung.com/article/202601263525i",
+      "keywords_hit": [
+        "코스닥"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 17:14",
+      "title": "로봇 테마 올라탄 2차전지, 전망은 '극과극'",
+      "url": "https://www.hankyung.com/article/2026012634541",
+      "keywords_hit": [
+        "2차전지",
+        "로봇"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 17:13",
+      "title": "“금값 5400달러·코스피 5700”…골드만삭스가 딱 찍어 내놓은 숫자",
+      "url": "https://www.mk.co.kr/news/stock/11943477",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 17:11",
+      "title": "\"상장하자마자 상폐 대상 될라\"…주가 관리에 사활 건 소형주",
+      "url": "https://www.hankyung.com/article/2026012634551",
+      "keywords_hit": [
+        "상장"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 17:09",
+      "title": "박종학 \"美 증시 쏠림 벗어나야…신흥국에 분산 투자를\"",
+      "url": "https://www.hankyung.com/article/2026012634531",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 17:06",
+      "title": "지난달보다 줄어든 코스닥 리포트",
+      "url": "https://www.hankyung.com/article/2026012634571",
+      "keywords_hit": [
+        "코스닥"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 17:05",
+      "title": "[특징주 & 리포트] '은값 급등에 14% 뛴 고려아연' 등",
+      "url": "https://www.hankyung.com/article/2026012634611",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 17:02",
+      "title": "한국은행 1월 기업경기조사 및 경제심리지수",
+      "url": "https://www.hankyung.com/article/2026012634511",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 16:50",
+      "title": "\"삼성전자 말고 이걸 살 걸 그랬나\"…외국인이 쓸어 담은 종목",
+      "url": "https://www.hankyung.com/article/202601263024i",
+      "keywords_hit": [
+        "외국인"
+      ]
     },
     {
       "source": "HK",
@@ -133,29 +247,11 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 15:19",
-      "title": "\"코스닥 리서치 늘린다더니\"…1월 리포트 23% '뚝'",
-      "url": "https://www.hankyung.com/article/202601263011i",
-      "keywords_hit": [
-        "코스닥"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-26 15:17",
       "title": "지난해 채권결제대금 6362조원…전년비 16.2% ↑",
       "url": "https://www.mk.co.kr/news/stock/11943322",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 15:13",
-      "title": "HD현대일렉트릭, 지난해 영업익 9953억…전년 대비 49%↑",
-      "url": "https://www.hankyung.com/article/2026012630456",
       "keywords_hit": []
     },
     {
@@ -166,17 +262,6 @@
       "url": "https://www.mk.co.kr/news/stock/11943318",
       "keywords_hit": [
         "코스닥"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 14:55",
-      "title": "로봇 테마 올라탄 2차전지株 '엇갈린 시선'",
-      "url": "https://www.hankyung.com/article/202601262952i",
-      "keywords_hit": [
-        "2차전지",
-        "로봇"
       ]
     },
     {
@@ -200,61 +285,11 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 13:36",
-      "title": "하나증권, 신용 거래 이자율 연 3.9% 인하 이벤트 실시",
-      "url": "https://www.hankyung.com/article/2026012627336",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 13:33",
-      "title": "NH투자증권, 연 3.4% 국고채권 특판 나서",
-      "url": "https://www.hankyung.com/article/2026012627256",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 12:31",
-      "title": "정은보 거래소 이사장, WEF·韓증시 글로벌 로드쇼 참석차 출국",
-      "url": "https://www.hankyung.com/article/2026012626646",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 12:30",
-      "title": "거래소, 프리·애프터마켓 개설 관련 회원사 설명회 개최",
-      "url": "https://www.hankyung.com/article/2026012626636",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 12:29",
-      "title": "[마켓PRO] 알고리즘 종목 Pick : \"세아베스틸지주, 자회사 외형 성장에 1분기 실적 개선 전망\"",
-      "url": "https://www.hankyung.com/article/202601262639i",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-26 12:01",
       "title": "1억 넣은 화장품주 300만원 남았다…“누가 그래, 장투하면 된다고”",
       "url": "https://www.mk.co.kr/news/stock/11943133",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 11:39",
-      "title": "[포토] 장중 오천피, 천스닥 돌파",
-      "url": "https://www.hankyung.com/article/202601262569i",
       "keywords_hit": []
     },
     {
@@ -266,33 +301,12 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 11:01",
-      "title": "[마켓PRO] 인텔 반등 기대…서학개미, '반도체 3배' ETF 베팅",
-      "url": "https://www.hankyung.com/article/202601262363i",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-26 10:59",
       "title": "이미 많이 오른 현대차…초고수는 여전히 ‘풀매수’ [주식 초고수는 지금]",
       "url": "https://www.mk.co.kr/news/stock/11943066",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 10:57",
-      "title": "\"다음은 '삼천스닥'\"…코스닥 로봇주 '급반등' [종목+]",
-      "url": "https://www.hankyung.com/article/2026012623976",
-      "keywords_hit": [
-        "코스닥",
-        "로봇"
-      ]
     },
     {
       "source": "MK",
@@ -372,17 +386,6 @@
       "title": "“현대차, 기대감만으로 너무 올랐다…신중한 접근 필요” [오늘 나온 보고서]",
       "url": "https://www.mk.co.kr/news/stock/11942886",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 09:15",
-      "title": "[속보] 코스닥 지수 4년 만에 ‘1000선’ 돌파…코스피도 5000선 안착",
-      "url": "https://www.mk.co.kr/news/stock/11942883",
-      "keywords_hit": [
-        "코스피",
-        "코스닥"
-      ]
     }
   ]
 }
