@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-26 18:04 KST",
+  "updated_at": "2026-01-26 18:46 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,58 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 18:42",
+      "title": "작년 펀드 순자산 1300조원 돌파…불장에 주식형 펀드 100조 늘어",
+      "url": "https://www.mk.co.kr/news/stock/11943667",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 18:42",
+      "title": "삼정KPMG, 2026 개정세법 설명회 웨비나 개최",
+      "url": "https://www.mk.co.kr/news/stock/11943666",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 18:42",
+      "title": "미래에셋증권, 1000억원 규모 자사주 매입",
+      "url": "https://www.mk.co.kr/news/stock/11943665",
+      "keywords_hit": [
+        "자사주"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 18:41",
+      "title": "KB증권, 국내주식 옮기고 거래땐 혜택",
+      "url": "https://www.mk.co.kr/news/stock/11943664",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 18:39",
+      "title": "“정책 믿고 가보자”…오천피 찍고 숨고르자 천스닥 불기둥",
+      "url": "https://www.mk.co.kr/news/stock/11943663",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 18:17",
+      "title": "\"증권사 직원입니다\"의 진화…AI 얼굴까지 빌려 투자금 뜯는다",
+      "url": "https://www.hankyung.com/article/202601263694i",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -341,64 +393,6 @@
       "title": "거래소 \"설 연휴 전날 파생상품 야간거래 휴장\"",
       "url": "https://www.hankyung.com/article/2026012633056",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 16:24",
-      "title": "[포토] 4년만에 '천스닥' 돌파한 코스닥",
-      "url": "https://www.hankyung.com/article/202601263324i",
-      "keywords_hit": [
-        "코스닥"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 15:56",
-      "title": "센티언트 “사용자에게 충성하면서 성능이 뛰어난 AI, 블록체인이 해답” [매일코인]",
-      "url": "https://www.mk.co.kr/news/stock/11943361",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 15:54",
-      "title": "“닷컴버블 이후 최고치”…코스닥 7% 급등, 4년 만에 ‘천스닥’ 회복",
-      "url": "https://www.mk.co.kr/news/stock/11943359",
-      "keywords_hit": [
-        "코스닥"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 15:17",
-      "title": "지난해 채권결제대금 6362조원…전년비 16.2% ↑",
-      "url": "https://www.mk.co.kr/news/stock/11943322",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 15:13",
-      "title": "불개미들 “열공해서 코스닥레버리지 몰빵”....교육사이트 마비시켰다",
-      "url": "https://www.mk.co.kr/news/stock/11943318",
-      "keywords_hit": [
-        "코스닥"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 14:54",
-      "title": "미디어젠, AI 영어 교육 신제품 ‘이베이글’ 첫 공개...영어교육 시장 관심 집중",
-      "url": "https://www.mk.co.kr/news/stock/11943281",
-      "keywords_hit": [
-        "AI"
-      ]
     }
   ]
 }
