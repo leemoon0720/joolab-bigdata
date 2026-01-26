@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-26 16:50 KST",
+  "updated_at": "2026-01-26 16:58 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,22 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 16:50",
+      "title": "\"삼전 대신 샀어야 하나\"…오천피 문턱에서 숨 고르기",
+      "url": "https://www.hankyung.com/article/202601263024i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 16:46",
+      "title": "\"오늘이 가장 싸다\"…천정부지로 치솟는 금값에 ETF도 랠리",
+      "url": "https://www.hankyung.com/article/202601262738i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -276,26 +292,6 @@
       "keywords_hit": [
         "코스닥",
         "로봇"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 10:49",
-      "title": "[마켓PRO] 고수들, '로봇기업 탈바꿈' 분석에 리브스메드 매수",
-      "url": "https://www.hankyung.com/article/202601262348i",
-      "keywords_hit": [
-        "로봇"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 10:49",
-      "title": "李대통령 믿고 \"코스닥 3000 가즈아\"…개미들 880억 '결단'",
-      "url": "https://www.hankyung.com/article/202601262187i",
-      "keywords_hit": [
-        "코스닥"
       ]
     },
     {
