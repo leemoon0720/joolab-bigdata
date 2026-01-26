@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-26 14:51 KST",
+  "updated_at": "2026-01-26 15:20 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,53 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 15:17",
+      "title": "지난해 채권결제대금 6362조원…전년비 16.2% ↑",
+      "url": "https://www.mk.co.kr/news/stock/11943322",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 15:13",
+      "title": "HD현대일렉트릭, 지난해 영업익 9953억…전년 대비 49%↑",
+      "url": "https://www.hankyung.com/article/2026012630456",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 15:13",
+      "title": "불개미들 “열공해서 코스닥레버리지 몰빵”....교육사이트 마비시켰다",
+      "url": "https://www.mk.co.kr/news/stock/11943318",
+      "keywords_hit": [
+        "코스닥"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 14:55",
+      "title": "로봇 테마 올라탄 2차전지株 '엇갈린 시선'",
+      "url": "https://www.hankyung.com/article/202601262952i",
+      "keywords_hit": [
+        "2차전지",
+        "로봇"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 14:54",
+      "title": "미디어젠, AI 영어 교육 신제품 ‘이베이글’ 첫 공개...영어교육 시장 관심 집중",
+      "url": "https://www.mk.co.kr/news/stock/11943281",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -262,24 +309,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 10:05",
-      "title": "[속보] 코스닥 4% 급등…매수 사이드카 발동",
-      "url": "https://www.hankyung.com/article/2026012622386",
-      "keywords_hit": [
-        "코스닥"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 10:01",
-      "title": "美·日 당국 개입 가능성에 엔화 강세…닛케이지수는 급락",
-      "url": "https://www.hankyung.com/article/2026012621957",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-26 09:55",
@@ -351,33 +380,6 @@
       "published_at": "2026-01-26 05:57",
       "title": "“무작정 골드바 사두면 되나요?”…세금 따져보면 KRX금시장 유리",
       "url": "https://www.mk.co.kr/news/stock/11942793",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 05:57",
-      "title": "“돌반지 다 팔고, 이제 커플링 팔 차례”…은값 ‘온스당 100달러’ 뚫었다",
-      "url": "https://www.mk.co.kr/news/stock/11942792",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-25 22:52",
-      "title": "“첨단로봇, 유선으로 쓸거 아니잖아요”…다시 주목받는 2차전지주",
-      "url": "https://www.mk.co.kr/news/stock/11942782",
-      "keywords_hit": [
-        "2차전지",
-        "로봇"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-25 21:30",
-      "title": "어팔마캐피탈, 코넥스 기업 나우코스 공개매수 나서",
-      "url": "https://www.mk.co.kr/news/stock/11942728",
       "keywords_hit": []
     }
   ]
