@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-27 07:16 KST",
+  "updated_at": "2026-01-27 07:42 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,24 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 07:38",
+      "title": "\"S-Oil, 글로벌 정유설비 부족 현실화…목표가↑\"-한국",
+      "url": "https://www.hankyung.com/article/2026012740896",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 07:26",
+      "title": "'셧다운' 불안에도…빅테크 실적 기대감에 일제 상승 [뉴욕증시 브리핑]",
+      "url": "https://www.hankyung.com/article/2026012740416",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -367,27 +385,6 @@
       "keywords_hit": [
         "반도체",
         "실적"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 17:15",
-      "title": "코스닥 지수, '닷컴 버블' 이후 최고치…7% 넘게 급등하며 '천스닥' 돌파 [HK영상]",
-      "url": "https://www.hankyung.com/article/202601263525i",
-      "keywords_hit": [
-        "코스닥"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 17:14",
-      "title": "로봇 테마 올라탄 2차전지, 전망은 '극과극'",
-      "url": "https://www.hankyung.com/article/2026012634541",
-      "keywords_hit": [
-        "2차전지",
-        "로봇"
       ]
     }
   ]
