@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-27 05:49 KST",
+  "updated_at": "2026-01-27 06:11 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 05:58",
+      "title": "암호화폐 법제화 틀도 못짜고 정쟁만…“제도 뒷받침 서둘러야”",
+      "url": "https://www.mk.co.kr/news/economy/11943879",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -192,20 +200,20 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-26 17:55",
-      "title": "오늘의 증시 일정(1월 27일)",
-      "url": "https://www.mk.co.kr/news/stock/11943616",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 17:55",
       "title": "LS발 중복상장 제동 … 자회사 IPO 먹구름",
       "url": "https://www.mk.co.kr/news/stock/11943617",
       "keywords_hit": [
         "IPO",
         "상장"
       ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 17:55",
+      "title": "오늘의 증시 일정(1월 27일)",
+      "url": "https://www.mk.co.kr/news/stock/11943616",
+      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -286,14 +294,6 @@
       "published_at": "2026-01-26 17:45",
       "title": "원자재 강세에 브라질 펀드 고공행진",
       "url": "https://www.mk.co.kr/news/stock/11943560",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 17:45",
-      "title": "천장 뚫린 금값, 5천달러 첫 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11943559",
       "keywords_hit": []
     },
     {
