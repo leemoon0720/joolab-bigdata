@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-26 19:57 KST",
+  "updated_at": "2026-01-26 20:24 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,8 +25,32 @@
     {
       "source": "HK",
       "press": "한국경제",
+      "published_at": "2026-01-26 20:08",
+      "title": "원화약세·증시 충격 고려…국민연금, 해외투자 속도조절 나섰다",
+      "url": "https://www.hankyung.com/article/2026012637541",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 19:58",
+      "title": "국민연금, 국내주식 비중 확대…'기계적 매도' 안한다",
+      "url": "https://www.hankyung.com/article/2026012637601",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 19:51",
+      "title": "[포토] 4년 만에 '천스닥'",
+      "url": "https://www.hankyung.com/article/2026012637591",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
       "published_at": "2026-01-26 19:47",
-      "title": "한은 \"국민연금 포트폴리오 조정, 해외투자 200억달러 줄일 것\"",
+      "title": "한은 \"국민연금 포트폴리오 조정…해외투자 200억달러 줄일 것\"",
       "url": "https://www.hankyung.com/article/202601263750i",
       "keywords_hit": []
     },
@@ -164,7 +188,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-26 17:53",
-      "title": "\"밸류업 정책 훈풍 타보자\"…오천피 열리고 천스닥 불기둥",
+      "title": "\"밸류업 정책 훈풍 타보자\"…하루새 7% 폭등 천스닥 탈환",
       "url": "https://www.mk.co.kr/news/stock/11943608",
       "keywords_hit": []
     },
@@ -172,7 +196,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-26 17:53",
-      "title": "강심장 개미들, 코스닥지수ETF에 하루 1조 베팅",
+      "title": "강심장 개미…코스닥지수ETF 1조 베팅",
       "url": "https://www.mk.co.kr/news/stock/11943607",
       "keywords_hit": [
         "코스닥"
@@ -192,11 +216,10 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-26 17:52",
-      "title": "코스닥 2차전지·로봇·바이오주 '불기둥'…기관, 2.6兆 쓸어담아",
+      "title": "코스닥, 25년 만에 최고치…정책 기대감에 2차전지·로봇·바이오주 '불기둥'",
       "url": "https://www.hankyung.com/article/2026012636101",
       "keywords_hit": [
         "코스닥",
-        "기관",
         "2차전지",
         "바이오",
         "로봇"
@@ -370,32 +393,6 @@
       "url": "https://www.hankyung.com/article/2026012634571",
       "keywords_hit": [
         "코스닥"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 17:05",
-      "title": "[특징주 & 리포트] '은값 급등에 14% 뛴 고려아연' 등",
-      "url": "https://www.hankyung.com/article/2026012634611",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 17:02",
-      "title": "한국은행 1월 기업경기조사 및 경제심리지수",
-      "url": "https://www.hankyung.com/article/2026012634511",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 16:50",
-      "title": "\"삼성전자 말고 이걸 살 걸 그랬나\"…외국인이 쓸어 담은 종목",
-      "url": "https://www.hankyung.com/article/202601263024i",
-      "keywords_hit": [
-        "외국인"
       ]
     }
   ]
