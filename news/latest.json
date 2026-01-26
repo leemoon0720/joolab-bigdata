@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-26 15:20 KST",
+  "updated_at": "2026-01-26 15:58 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,66 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 15:56",
+      "title": "센티언트 “사용자에게 충성하면서 성능이 뛰어난 AI, 블록체인이 해답” [매일코인]",
+      "url": "https://www.mk.co.kr/news/stock/11943361",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 15:54",
+      "title": "“닷컴버블 이후 최고치”…코스닥 7% 급등, 4년 만에 ‘천스닥’ 회복",
+      "url": "https://www.mk.co.kr/news/stock/11943359",
+      "keywords_hit": [
+        "코스닥"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 15:53",
+      "title": "'오천피'→'천스닥' 대이동…코스닥, 닷컴 버블 이후 최고치 등극",
+      "url": "https://www.hankyung.com/article/2026012631316",
+      "keywords_hit": [
+        "코스닥"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 15:27",
+      "title": "교보증권, 'AI 기반 알고리즘 트레이딩' 우수 과제 선정",
+      "url": "https://www.hankyung.com/article/202601263129i",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 15:20",
+      "title": "[속보] 코스닥, '닷컴버블' 이후 사상 최고치 돌파",
+      "url": "https://www.hankyung.com/article/2026012631127",
+      "keywords_hit": [
+        "코스닥"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 15:19",
+      "title": "\"코스닥 리서치 늘린다더니\"…1월 리포트 23% '뚝'",
+      "url": "https://www.hankyung.com/article/202601263011i",
+      "keywords_hit": [
+        "코스닥"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -239,47 +299,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 10:23",
-      "title": "금값, 사상 첫 5000달러 돌파…은값은 100달러 시대 개막 [HK영상]",
-      "url": "https://www.hankyung.com/article/202601262302i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-26 10:22",
       "title": "[속보] 코스닥 4% 이상 급등, 매수 사이드카 발동",
       "url": "https://www.mk.co.kr/news/stock/11943011",
-      "keywords_hit": [
-        "코스닥"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 10:14",
-      "title": "\"1억이 2억5000만원 됐다\"…6개월 새 147% 폭등 '불기둥' [핫픽! 해외주식]",
-      "url": "https://www.hankyung.com/article/202601226967i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 10:13",
-      "title": "코스닥, 4년 만에 '천스닥' 됐다…불기둥에 '매수 사이드카' 발동",
-      "url": "https://www.hankyung.com/article/202601262226i",
-      "keywords_hit": [
-        "코스닥"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 10:09",
-      "title": "[속보] 코스닥, 사이드카 발동…5분간 매매 정지",
-      "url": "https://www.hankyung.com/article/202601262245i",
       "keywords_hit": [
         "코스닥"
       ]
@@ -365,22 +389,6 @@
       "keywords_hit": [
         "로봇"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 06:45",
-      "title": "‘환헤지 전략’ 유턴에 원화값 안정세…커지는 국민연금 역할론",
-      "url": "https://www.mk.co.kr/news/economy/11942800",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 05:57",
-      "title": "“무작정 골드바 사두면 되나요?”…세금 따져보면 KRX금시장 유리",
-      "url": "https://www.mk.co.kr/news/stock/11942793",
-      "keywords_hit": []
     }
   ]
 }
