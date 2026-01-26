@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-26 19:38 KST",
+  "updated_at": "2026-01-26 19:57 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,12 +23,32 @@
   "count": 40,
   "items": [
     {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 19:47",
+      "title": "한은 \"국민연금 포트폴리오 조정, 해외투자 200억달러 줄일 것\"",
+      "url": "https://www.hankyung.com/article/202601263750i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 19:44",
+      "title": "미·일 '환율 공조' 가능성 부상…엔화 강세에 원·달러 25원 급락",
+      "url": "https://www.hankyung.com/article/2026012637551",
+      "keywords_hit": [
+        "환율"
+      ]
+    },
+    {
       "source": "MK",
       "press": "매일경제",
-      "published_at": "2026-01-26 18:42",
-      "title": "작년 펀드 순자산 1300조원 돌파…불장에 주식형 펀드 100조 늘어",
-      "url": "https://www.mk.co.kr/news/stock/11943667",
-      "keywords_hit": []
+      "published_at": "2026-01-26 19:42",
+      "title": "야수가 돼버린 개미들…코스닥지수 ETF에 하루 1조 베팅",
+      "url": "https://www.mk.co.kr/news/stock/11943680",
+      "keywords_hit": [
+        "코스닥"
+      ]
     },
     {
       "source": "MK",
@@ -36,6 +56,14 @@
       "published_at": "2026-01-26 18:42",
       "title": "삼정KPMG, 2026 개정세법 설명회 웨비나 개최",
       "url": "https://www.mk.co.kr/news/stock/11943666",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 18:42",
+      "title": "작년 펀드 순자산 1300조원 돌파…불장에 주식형 펀드 100조 늘어",
+      "url": "https://www.mk.co.kr/news/stock/11943667",
       "keywords_hit": []
     },
     {
@@ -144,20 +172,20 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-26 17:53",
-      "title": "반도체 슈퍼사이클 온기 소부장 종목에도 퍼졌다",
-      "url": "https://www.mk.co.kr/news/stock/11943606",
+      "title": "강심장 개미들, 코스닥지수ETF에 하루 1조 베팅",
+      "url": "https://www.mk.co.kr/news/stock/11943607",
       "keywords_hit": [
-        "반도체"
+        "코스닥"
       ]
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-26 17:53",
-      "title": "강심장 개미들, 코스닥지수ETF에 하루 1조 베팅",
-      "url": "https://www.mk.co.kr/news/stock/11943607",
+      "title": "반도체 슈퍼사이클 온기 소부장 종목에도 퍼졌다",
+      "url": "https://www.mk.co.kr/news/stock/11943606",
       "keywords_hit": [
-        "코스닥"
+        "반도체"
       ]
     },
     {
@@ -369,30 +397,6 @@
       "keywords_hit": [
         "외국인"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 16:46",
-      "title": "\"오늘이 가장 싸다\"…천정부지로 치솟는 금값에 ETF도 랠리",
-      "url": "https://www.hankyung.com/article/202601262738i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 16:28",
-      "title": "설 연휴 전날 파생상품 야간거래 쉰다…거래소 2월 13일 휴장",
-      "url": "https://www.mk.co.kr/news/stock/11943433",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 16:25",
-      "title": "거래소 \"설 연휴 전날 파생상품 야간거래 휴장\"",
-      "url": "https://www.hankyung.com/article/2026012633056",
-      "keywords_hit": []
     }
   ]
 }
