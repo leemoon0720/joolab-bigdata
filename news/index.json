@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-27 07:56 KST",
+  "updated_at": "2026-01-27 08:22 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,69 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 08:17",
+      "title": "트럼프 \"한국 車 등 관세 다시 25%로\"…현대차그룹주 프리마켓서 급락",
+      "url": "https://www.hankyung.com/article/2026012741926",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 08:15",
+      "title": "Fed 새 의장·엔화 개입→호재, 캐나다 관세·셧다운→OK [김현석의 월스트리트나우]",
+      "url": "https://www.hankyung.com/article/202601274016i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 08:11",
+      "title": "\"RFHIC, 코스닥서 보기 드문 '실적 깡패'…목표가↑\"-KB",
+      "url": "https://www.hankyung.com/article/2026012740946",
+      "keywords_hit": [
+        "코스닥",
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 08:10",
+      "title": "새해에만 25% 뛰었다…리노공업, AI·휴머노이드 업고 '질주' [종목+]",
+      "url": "https://www.hankyung.com/article/2026012740966",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 08:06",
+      "title": "“삼성전자, 1분기 추정 영업이익 30조원”…목표가↑",
+      "url": "https://www.mk.co.kr/news/stock/11943992",
+      "keywords_hit": [
+        "영업이익"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 08:00",
+      "title": "반년 사이에 300% 불기둥…눈길이 가는 '플래닛 랩스' [핫픽!해외주식]",
+      "url": "https://www.hankyung.com/article/202601214649i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 07:56",
+      "title": "한국 개미들 '비상' 걸렸다…트럼프 관세 복원 발언에 출렁 [오늘장 미리보기]",
+      "url": "https://www.hankyung.com/article/202601274091i",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -52,7 +115,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-27 06:30",
-      "title": "\"놓치면 손해\" 오픈런 우르르…'중국판 에르메스' 주가 들썩 [조아라의 차이나스톡]",
+      "title": "\"밤 10시부터 줄섰어요\"…'대기 300번' 중국인 바글바글 [조아라의 차이나스톡]",
       "url": "https://www.hankyung.com/article/202601273939i",
       "keywords_hit": []
     },
@@ -242,20 +305,20 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-26 17:55",
+      "title": "오늘의 증시 일정(1월 27일)",
+      "url": "https://www.mk.co.kr/news/stock/11943616",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 17:55",
       "title": "LS발 중복상장 제동 … 자회사 IPO 먹구름",
       "url": "https://www.mk.co.kr/news/stock/11943617",
       "keywords_hit": [
         "IPO",
         "상장"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 17:55",
-      "title": "오늘의 증시 일정(1월 27일)",
-      "url": "https://www.mk.co.kr/news/stock/11943616",
-      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -319,70 +382,6 @@
       "keywords_hit": [
         "자사주"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 17:47",
-      "title": "이제 코스닥의 시간…25년 만에 최고",
-      "url": "https://www.hankyung.com/article/2026012636211",
-      "keywords_hit": [
-        "코스닥"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 17:45",
-      "title": "원자재 강세에 브라질 펀드 고공행진",
-      "url": "https://www.mk.co.kr/news/stock/11943560",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 17:39",
-      "title": "[포토] 코스닥 4년만에 '천스닥' 안착",
-      "url": "https://www.hankyung.com/article/202601263617i",
-      "keywords_hit": [
-        "코스닥"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 17:37",
-      "title": "코스피 外人 비중 37%, 5년9개월 만에 최고치",
-      "url": "https://www.hankyung.com/article/2026012636091",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 17:32",
-      "title": "한·미·일 '환율 공조' 나서나…엔화 초강세에 원·달러 20원 넘게 급락",
-      "url": "https://www.hankyung.com/article/2026012635891",
-      "keywords_hit": [
-        "환율"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 17:31",
-      "title": "반년간 수익률 118% 뛰었다…금 ETF 상품도 '골든 랠리'",
-      "url": "https://www.hankyung.com/article/2026012635751",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 17:26",
-      "title": "'한번만 더 믿어볼까?' 붉은사막 초읽기 들어간 펄어비스, 52주 신고가",
-      "url": "https://www.hankyung.com/article/202601263175i",
-      "keywords_hit": []
     }
   ]
 }
