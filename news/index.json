@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-26 16:31 KST",
+  "updated_at": "2026-01-26 16:50 KST",
   "sources": [
     {
       "id": "HK",
@@ -29,6 +29,24 @@
       "title": "설 연휴 전날 파생상품 야간거래 쉰다…거래소 2월 13일 휴장",
       "url": "https://www.mk.co.kr/news/stock/11943433",
       "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 16:25",
+      "title": "거래소 \"설 연휴 전날 파생상품 야간거래 휴장\"",
+      "url": "https://www.hankyung.com/article/2026012633056",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 16:24",
+      "title": "[포토] 4년만에 '천스닥' 돌파한 코스닥",
+      "url": "https://www.hankyung.com/article/202601263324i",
+      "keywords_hit": [
+        "코스닥"
+      ]
     },
     {
       "source": "HK",
@@ -281,32 +299,12 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 10:43",
-      "title": "코스닥, 4년만에 '천스닥' 달성…매수 사이드카까지 발동 [HK영상]",
-      "url": "https://www.hankyung.com/article/202601262381i",
-      "keywords_hit": [
-        "코스닥"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-26 10:40",
       "title": "‘테슬라 예언’ 월가 천재, 다음 업종 찍었다...“2050년까지 14억대쯤 팔릴 것”",
       "url": "https://www.mk.co.kr/news/world/11943030",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 10:38",
-      "title": "\"AI와 스테이블코인 연계\" 기대에…카카오페이, 4%대 강세",
-      "url": "https://www.hankyung.com/article/2026012621266",
-      "keywords_hit": [
-        "AI"
-      ]
     },
     {
       "source": "MK",
