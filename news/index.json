@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-27 08:22 KST",
+  "updated_at": "2026-01-27 08:41 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 08:30",
+      "title": "[마켓PRO] Today's Pick : \"메모리 앞으로 더 부족...삼성전자, 24만원 간다\"",
+      "url": "https://www.hankyung.com/article/202601274112i",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -73,7 +81,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-27 08:00",
-      "title": "반년 사이에 300% 불기둥…눈길이 가는 '플래닛 랩스' [핫픽!해외주식]",
+      "title": "7000원짜리가 3만9000원 됐다…1년새 '423%' 주가 불기둥 [핫픽!해외주식]",
       "url": "https://www.hankyung.com/article/202601214649i",
       "keywords_hit": []
     },
@@ -371,16 +379,6 @@
         "2차전지",
         "바이오",
         "로봇"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 17:50",
-      "title": "미래에셋증권, 1000억원 규모 자사주 매입",
-      "url": "https://www.hankyung.com/article/202601263653i",
-      "keywords_hit": [
-        "자사주"
       ]
     }
   ]
