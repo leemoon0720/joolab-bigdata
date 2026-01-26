@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-26 15:58 KST",
+  "updated_at": "2026-01-26 16:31 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,32 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 16:28",
+      "title": "설 연휴 전날 파생상품 야간거래 쉰다…거래소 2월 13일 휴장",
+      "url": "https://www.mk.co.kr/news/stock/11943433",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 16:19",
+      "title": "성균관대 SKK GSB MBA, 기금형 퇴직연금 포럼 연다",
+      "url": "https://www.hankyung.com/article/202601263275i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 16:16",
+      "title": "[포토] 코스닥, 4년 만에 '천스닥' 달성",
+      "url": "https://www.hankyung.com/article/202601263298i",
+      "keywords_hit": [
+        "코스닥"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -283,22 +309,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 10:30",
-      "title": "\"추우면 추울수록 좋아\"…'최강 한파' 불어닥치자 20%대 폭주",
-      "url": "https://www.hankyung.com/article/2026012623276",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 10:29",
-      "title": "천장 뚫린 금값에…골드뱅킹·골드바 불티",
-      "url": "https://www.hankyung.com/article/2026012623127",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-26 10:22",
@@ -378,16 +388,6 @@
       "keywords_hit": [
         "코스피",
         "코스닥"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 07:57",
-      "title": "하나증권 “삼성전기, 휴머노이드 로봇향 부품 공급…모멘텀 작용할것”",
-      "url": "https://www.mk.co.kr/news/stock/11942817",
-      "keywords_hit": [
-        "로봇"
       ]
     }
   ]
