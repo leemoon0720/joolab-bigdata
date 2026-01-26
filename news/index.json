@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-26 10:53 KST",
+  "updated_at": "2026-01-26 12:48 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,105 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 12:31",
+      "title": "정은보 거래소 이사장, WEF·韓증시 글로벌 로드쇼 참석차 출국",
+      "url": "https://www.hankyung.com/article/2026012626646",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 12:30",
+      "title": "거래소, 프리·애프터마켓 개설 관련 회원사 설명회 개최",
+      "url": "https://www.hankyung.com/article/2026012626636",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 12:29",
+      "title": "[마켓PRO] 알고리즘 종목 Pick : \"세아베스틸지주, 자회사 외형 성장에 1분기 실적 개선 전망\"",
+      "url": "https://www.hankyung.com/article/202601262639i",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 12:01",
+      "title": "1억 넣은 화장품주 300만원 남았다…“누가 그래, 장투하면 된다고”",
+      "url": "https://www.mk.co.kr/news/stock/11943133",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 11:39",
+      "title": "[포토] 장중 오천피, 천스닥 돌파",
+      "url": "https://www.hankyung.com/article/202601262569i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 11:09",
+      "title": "“내가 오른댔잖아, 올해 두 배 뛸걸”…부자아빠, 이번엔 ‘이것’ 찍었다",
+      "url": "https://www.mk.co.kr/news/stock/11943083",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 11:01",
+      "title": "[마켓PRO] 인텔 반등 기대…서학개미, '반도체 3배' ETF 베팅",
+      "url": "https://www.hankyung.com/article/202601262363i",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 10:59",
+      "title": "이미 많이 오른 현대차…초고수는 여전히 ‘풀매수’ [주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11943066",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 10:57",
+      "title": "\"다음은 '삼천스닥'\"…코스닥 로봇주 '급반등' [종목+]",
+      "url": "https://www.hankyung.com/article/2026012623976",
+      "keywords_hit": [
+        "코스닥",
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 10:49",
+      "title": "[마켓PRO] 고수들, '로봇기업 탈바꿈' 분석에 리브스메드 매수",
+      "url": "https://www.hankyung.com/article/202601262348i",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 10:49",
+      "title": "李대통령 믿고 \"코스닥 3000 가즈아\"…개미들 880억 '결단'",
+      "url": "https://www.hankyung.com/article/202601262187i",
+      "keywords_hit": [
+        "코스닥"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -54,7 +153,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-26 10:30",
-      "title": "\"겨울엔 무조건 오르네\"…'최강 한파' 불어닥치자 20%대 폭주",
+      "title": "\"추우면 추울수록 좋아\"…'최강 한파' 불어닥치자 20%대 폭주",
       "url": "https://www.hankyung.com/article/2026012623276",
       "keywords_hit": []
     },
@@ -193,16 +292,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 09:32",
-      "title": "韓증시 '오천피' '천스닥' 동시에…환율은 20원 급락 출발 [종합]",
-      "url": "https://www.hankyung.com/article/2026012619246",
-      "keywords_hit": [
-        "환율"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-26 09:31",
@@ -211,17 +300,6 @@
       "keywords_hit": [
         "코스피",
         "코스닥"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 09:24",
-      "title": "\"1200억 주주배정 유상증자\"…제이알글로벌리츠 14%↓",
-      "url": "https://www.hankyung.com/article/2026012619926",
-      "keywords_hit": [
-        "증자",
-        "리츠"
       ]
     },
     {
@@ -241,64 +319,6 @@
       "keywords_hit": [
         "코스피",
         "코스닥"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 09:14",
-      "title": "HLB, 간암 대상 리보세라닙 병용요법의 美허가 재신청 소식에 강세",
-      "url": "https://www.hankyung.com/article/2026012619436",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 09:13",
-      "title": "그린란드 갈등에 금값 5000달러 첫 돌파…\"올해 6400달러 전망\" [종합]",
-      "url": "https://www.hankyung.com/article/2026012619037",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 09:05",
-      "title": "[속보] 코스닥, 4년 만에 '천스닥' 됐다…환율 19원 급락",
-      "url": "https://www.hankyung.com/article/2026012618676",
-      "keywords_hit": [
-        "코스닥",
-        "환율"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 09:03",
-      "title": "삼성전자, 자사주 1752억어치 처분…임원 성과급 지급",
-      "url": "https://www.hankyung.com/article/2026012618707",
-      "keywords_hit": [
-        "자사주"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 09:03",
-      "title": "\"한국타이어, 4분기 실적 개선 전망…목표가↑\"-LS",
-      "url": "https://www.hankyung.com/article/2026012618106",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 08:43",
-      "title": "[마켓PRO] Today's Pick : 아틀라스 매출 3분의 1 몫은 '현대모비스'… AI 수혜주로 뜬 '삼성전기'",
-      "url": "https://www.hankyung.com/article/202601261743i",
-      "keywords_hit": [
-        "매출",
-        "AI"
       ]
     },
     {
@@ -361,36 +381,6 @@
       "title": "“줍줍 외치기엔 바닥 안보이네요”…메모리칩 쓰는 ‘이 기업들’ 주가 추락",
       "url": "https://www.mk.co.kr/news/stock/11942744",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-25 18:09",
-      "title": "펀드매니저 10명 중 9명 “코스피 연내 10~20% 조정 가능성”",
-      "url": "https://www.mk.co.kr/news/stock/11942718",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-25 18:00",
-      "title": "\"천스닥 넘어 1300도 가능…코스피는 일단 숨고르기\"",
-      "url": "https://www.mk.co.kr/news/stock/11942695",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-25 17:57",
-      "title": "펀드매니저 10명 중 9명 \"코스피 연내 10~20% 조정 가능성\"",
-      "url": "https://www.mk.co.kr/news/stock/11942681",
-      "keywords_hit": [
-        "코스피"
-      ]
     }
   ]
 }
