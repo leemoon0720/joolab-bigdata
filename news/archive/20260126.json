@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-26 12:48 KST",
+  "updated_at": "2026-01-26 13:44 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,32 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 13:42",
+      "title": "코나아이, 주당 1200원 ‘비과세 배당’ 결정...“역대 최대 배당”",
+      "url": "https://www.mk.co.kr/news/economy/11943157",
+      "keywords_hit": [
+        "배당"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 13:36",
+      "title": "하나증권, 신용 거래 이자율 연 3.9% 인하 이벤트 실시",
+      "url": "https://www.hankyung.com/article/2026012627336",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 13:33",
+      "title": "NH투자증권, 연 3.4% 국고채권 특판 나서",
+      "url": "https://www.hankyung.com/article/2026012627256",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -262,26 +288,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 09:45",
-      "title": "李 저격에 에식스솔루션즈 상장 철회…LS, 52주 최고가",
-      "url": "https://www.hankyung.com/article/2026012620886",
-      "keywords_hit": [
-        "상장"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 09:42",
-      "title": "[속보] 李대통령 지적한 LS그룹…에식스솔루션즈 상장 철회",
-      "url": "https://www.hankyung.com/article/2026012620746",
-      "keywords_hit": [
-        "상장"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-26 09:37",
@@ -372,14 +378,6 @@
       "published_at": "2026-01-25 21:30",
       "title": "어팔마캐피탈, 코넥스 기업 나우코스 공개매수 나서",
       "url": "https://www.mk.co.kr/news/stock/11942728",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-25 19:34",
-      "title": "“줍줍 외치기엔 바닥 안보이네요”…메모리칩 쓰는 ‘이 기업들’ 주가 추락",
-      "url": "https://www.mk.co.kr/news/stock/11942744",
       "keywords_hit": []
     }
   ]
