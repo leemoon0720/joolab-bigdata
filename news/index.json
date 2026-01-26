@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-26 17:41 KST",
+  "updated_at": "2026-01-26 18:04 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,180 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 17:59",
+      "title": "4년 만에 1000스닥…기관 2.6조 순매수 상승 주도",
+      "url": "https://www.mk.co.kr/news/stock/11943648",
+      "keywords_hit": [
+        "기관"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 17:57",
+      "title": "천스닥·5천피 틈타 불법 리딩방 ‘활개’…금감원 “AI기술로 전문가 사칭” 경고",
+      "url": "https://www.mk.co.kr/news/stock/11943641",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 17:55",
+      "title": "골드만삭스, 亞증시 조정 경고",
+      "url": "https://www.mk.co.kr/news/stock/11943619",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 17:55",
+      "title": "오늘의 증시 일정(1월 27일)",
+      "url": "https://www.mk.co.kr/news/stock/11943616",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 17:55",
+      "title": "LS발 중복상장 제동 … 자회사 IPO 먹구름",
+      "url": "https://www.mk.co.kr/news/stock/11943617",
+      "keywords_hit": [
+        "IPO",
+        "상장"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 17:55",
+      "title": "[유가증권시장 공시] 세아특수강 / 신일전자",
+      "url": "https://www.mk.co.kr/news/stock/11943615",
+      "keywords_hit": [
+        "공시",
+        "유가"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 17:53",
+      "title": "\"밸류업 정책 훈풍 타보자\"…오천피 열리고 천스닥 불기둥",
+      "url": "https://www.mk.co.kr/news/stock/11943608",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 17:53",
+      "title": "반도체 슈퍼사이클 온기 소부장 종목에도 퍼졌다",
+      "url": "https://www.mk.co.kr/news/stock/11943606",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 17:53",
+      "title": "강심장 개미들, 코스닥지수ETF에 하루 1조 베팅",
+      "url": "https://www.mk.co.kr/news/stock/11943607",
+      "keywords_hit": [
+        "코스닥"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 17:52",
+      "title": "코스닥 2차전지·로봇·바이오주 '불기둥'…기관, 2.6兆 쓸어담아",
+      "url": "https://www.hankyung.com/article/2026012636101",
+      "keywords_hit": [
+        "코스닥",
+        "기관",
+        "2차전지",
+        "바이오",
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 17:50",
+      "title": "미래에셋증권, 1000억원 규모 자사주 매입",
+      "url": "https://www.hankyung.com/article/202601263653i",
+      "keywords_hit": [
+        "자사주"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 17:47",
+      "title": "이제 코스닥의 시간…25년 만에 최고",
+      "url": "https://www.hankyung.com/article/2026012636211",
+      "keywords_hit": [
+        "코스닥"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 17:45",
+      "title": "원자재 강세에 브라질 펀드 고공행진",
+      "url": "https://www.mk.co.kr/news/stock/11943560",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 17:45",
+      "title": "천장 뚫린 금값, 5천달러 첫 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11943559",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 17:45",
+      "title": "엑스페릭스, 60억원 규모 유상증자 실시",
+      "url": "https://www.mk.co.kr/news/stock/11943556",
+      "keywords_hit": [
+        "증자"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 17:44",
+      "title": "파라텍, 100억 원 규모 전환사채 발행",
+      "url": "https://www.mk.co.kr/news/stock/11943555",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 17:39",
+      "title": "[포토] 코스닥 4년만에 '천스닥' 안착",
+      "url": "https://www.hankyung.com/article/202601263617i",
+      "keywords_hit": [
+        "코스닥"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-26 17:37",
+      "title": "코스피 外人 비중 37%, 5년9개월 만에 최고치",
+      "url": "https://www.hankyung.com/article/2026012636091",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -179,24 +353,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 16:19",
-      "title": "성균관대 SKK GSB MBA, 기금형 퇴직연금 포럼 연다",
-      "url": "https://www.hankyung.com/article/202601263275i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 16:16",
-      "title": "[포토] 코스닥, 4년 만에 '천스닥' 달성",
-      "url": "https://www.hankyung.com/article/202601263298i",
-      "keywords_hit": [
-        "코스닥"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-26 15:56",
@@ -212,36 +368,6 @@
       "published_at": "2026-01-26 15:54",
       "title": "“닷컴버블 이후 최고치”…코스닥 7% 급등, 4년 만에 ‘천스닥’ 회복",
       "url": "https://www.mk.co.kr/news/stock/11943359",
-      "keywords_hit": [
-        "코스닥"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 15:53",
-      "title": "'오천피'→'천스닥' 대이동…코스닥, 닷컴 버블 이후 최고치 등극",
-      "url": "https://www.hankyung.com/article/2026012631316",
-      "keywords_hit": [
-        "코스닥"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 15:27",
-      "title": "교보증권, 'AI 기반 알고리즘 트레이딩' 우수 과제 선정",
-      "url": "https://www.hankyung.com/article/202601263129i",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 15:20",
-      "title": "[속보] 코스닥, '닷컴버블' 이후 사상 최고치 돌파",
-      "url": "https://www.hankyung.com/article/2026012631127",
       "keywords_hit": [
         "코스닥"
       ]
@@ -273,119 +399,6 @@
       "keywords_hit": [
         "AI"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 13:42",
-      "title": "코나아이, 주당 1200원 ‘비과세 배당’ 결정...“역대 최대 배당”",
-      "url": "https://www.mk.co.kr/news/economy/11943157",
-      "keywords_hit": [
-        "배당"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 12:01",
-      "title": "1억 넣은 화장품주 300만원 남았다…“누가 그래, 장투하면 된다고”",
-      "url": "https://www.mk.co.kr/news/stock/11943133",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 11:09",
-      "title": "“내가 오른댔잖아, 올해 두 배 뛸걸”…부자아빠, 이번엔 ‘이것’ 찍었다",
-      "url": "https://www.mk.co.kr/news/stock/11943083",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 10:59",
-      "title": "이미 많이 오른 현대차…초고수는 여전히 ‘풀매수’ [주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11943066",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 10:40",
-      "title": "‘테슬라 예언’ 월가 천재, 다음 업종 찍었다...“2050년까지 14억대쯤 팔릴 것”",
-      "url": "https://www.mk.co.kr/news/world/11943030",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 10:22",
-      "title": "[속보] 코스닥 4% 이상 급등, 매수 사이드카 발동",
-      "url": "https://www.mk.co.kr/news/stock/11943011",
-      "keywords_hit": [
-        "코스닥"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 10:06",
-      "title": "[MK 골든크로스 돌파종목 : 천보(278280) & 한화생명(088350)]",
-      "url": "https://www.mk.co.kr/news/stock/11942988",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 10:06",
-      "title": "[MK시그널] 한화생명, 정부의 ‘주가 누르기 방지법’ 추진 등에 주가 상승세... MK시그널 추천 후 상승률 26.38% 기록",
-      "url": "https://www.mk.co.kr/news/stock/11942987",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 10:06",
-      "title": "[MK시그널] 미국 폐기물 처리 기업 리퍼블릭 서비스, 매수신호 발생",
-      "url": "https://www.mk.co.kr/news/stock/11942986",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 09:55",
-      "title": "카이아 대표 RWA 갈락티카, 2500만弗 규모 LNG 선박 토큰화",
-      "url": "https://www.mk.co.kr/news/stock/11942977",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 09:37",
-      "title": "두나무 머신러닝팀, 인공지능 학술대회 AAAI서 연구 발표",
-      "url": "https://www.mk.co.kr/news/stock/11942947",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 09:31",
-      "title": "[속보] 코스닥, 4년 만에 ‘천스닥’ 돌파…코스피 이은 ‘키맞추기 랠리’",
-      "url": "https://www.mk.co.kr/news/stock/11942937",
-      "keywords_hit": [
-        "코스피",
-        "코스닥"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 09:18",
-      "title": "“현대차, 기대감만으로 너무 올랐다…신중한 접근 필요” [오늘 나온 보고서]",
-      "url": "https://www.mk.co.kr/news/stock/11942886",
-      "keywords_hit": []
     }
   ]
 }
