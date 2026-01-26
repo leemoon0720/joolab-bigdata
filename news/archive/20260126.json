@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-26 22:15 KST",
+  "updated_at": "2026-01-26 22:55 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,10 +23,28 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 22:42",
+      "title": "이지스운용, 역삼 센터필드 매각 전격 중단",
+      "url": "https://www.mk.co.kr/news/stock/11943812",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-26 22:22",
+      "title": "대통령 ‘중복상장’ 저격에 LS 에식스 철회…대기업 자회사들 눈치게임",
+      "url": "https://www.mk.co.kr/news/stock/11943791",
+      "keywords_hit": [
+        "상장"
+      ]
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-26 22:00",
-      "title": "'삼전·하닉·현차' 오늘은 쉬어갔다…29일 중간 점검 '디데이' [분석+]",
+      "title": "'삼전·하닉·현차' 주가 떨어졌는데…개미들 미소짓는 이유 [분석+]",
       "url": "https://www.hankyung.com/article/2026012634166",
       "keywords_hit": []
     },
@@ -94,16 +112,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-26 18:42",
-      "title": "작년 펀드 순자산 1300조원 돌파…불장에 주식형 펀드 100조 늘어",
-      "url": "https://www.mk.co.kr/news/stock/11943667",
+      "title": "삼정KPMG, 2026 개정세법 설명회 웨비나 개최",
+      "url": "https://www.mk.co.kr/news/stock/11943666",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-26 18:42",
-      "title": "삼정KPMG, 2026 개정세법 설명회 웨비나 개최",
-      "url": "https://www.mk.co.kr/news/stock/11943666",
+      "title": "작년 펀드 순자산 1300조원 돌파…불장에 주식형 펀드 100조 늘어",
+      "url": "https://www.mk.co.kr/news/stock/11943667",
       "keywords_hit": []
     },
     {
@@ -278,24 +296,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 17:45",
-      "title": "엑스페릭스, 60억원 규모 유상증자 실시",
-      "url": "https://www.mk.co.kr/news/stock/11943556",
-      "keywords_hit": [
-        "증자"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 17:44",
-      "title": "파라텍, 100억 원 규모 전환사채 발행",
-      "url": "https://www.mk.co.kr/news/stock/11943555",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-26 17:39",
@@ -309,7 +309,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-26 17:37",
-      "title": "코스피 外人 비중 37%, 5년9개월 만에 최고치",
+      "title": "코스피 外人 비중 37% 5년9개월 만에 최고치",
       "url": "https://www.hankyung.com/article/2026012636091",
       "keywords_hit": [
         "코스피"
