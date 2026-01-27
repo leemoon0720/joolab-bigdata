@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-27 12:17 KST",
+  "updated_at": "2026-01-27 13:17 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,6 +23,56 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 13:15",
+      "title": "노머스, 中 위챗에 팬덤 플랫폼 프롬 공식 출시...중국 시장 진입 본격화",
+      "url": "https://www.mk.co.kr/news/stock/11944351",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 12:41",
+      "title": "美 텍사스 얼어붙자 비트코인 채굴기도 껐다…‘전력난’에 해시레이트 뚝",
+      "url": "https://www.mk.co.kr/news/stock/11944339",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 12:41",
+      "title": "“코인판 떠나 ‘이곳’으로”...개미들 8조원 싸들고 몰려간 곳",
+      "url": "https://www.mk.co.kr/news/stock/11944338",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 12:39",
+      "title": "SK증권, 무궁화신탁 대출 적정성 논란 일축",
+      "url": "https://www.mk.co.kr/news/stock/11944337",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 12:30",
+      "title": "30만원선 바라보는 네이버…초고수들은 차익실현 나서[주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11944334",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 12:28",
+      "title": "[매경 자이앤트] 알리글로가 증명한 힘…‘역대 최대 매출’ 녹십자 주가도 UP",
+      "url": "https://www.mk.co.kr/news/stock/11944333",
+      "keywords_hit": [
+        "매출"
+      ]
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-27 11:44",
@@ -36,7 +86,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-27 11:38",
-      "title": "H투자증권, 작년 하반기 대주주 양도소득세 신고대행 서비스 실시",
+      "title": "NH투자증권, 작년 하반기 대주주 양도소득세 신고대행 서비스 실시",
       "url": "https://www.hankyung.com/article/2026012750926",
       "keywords_hit": []
     },
@@ -62,7 +112,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-27 11:28",
-      "title": "[마켓PRO] “반도체 급락 위험 커져”…서학개미, SOXS 집중 매수",
+      "title": "[마켓PRO] \"반도체 급락 위험 커져\"…서학개미, SOXS 집중 매수",
       "url": "https://www.hankyung.com/article/202601274913i",
       "keywords_hit": [
         "반도체"
@@ -315,58 +365,6 @@
       "published_at": "2026-01-27 05:58",
       "title": "암호화폐 법제화 틀도 못짜고 정쟁만…“제도 뒷받침 서둘러야”",
       "url": "https://www.mk.co.kr/news/economy/11943879",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 22:42",
-      "title": "이지스운용, 역삼 센터필드 매각 전격 중단",
-      "url": "https://www.mk.co.kr/news/stock/11943812",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 22:22",
-      "title": "대통령 ‘중복상장’ 저격에 LS 에식스 철회…대기업 자회사들 눈치게임",
-      "url": "https://www.mk.co.kr/news/stock/11943791",
-      "keywords_hit": [
-        "상장"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 21:26",
-      "title": "“계속 오르기만 하는 게 진짜 있네요”…사상 첫 5천달러 돌파한 금값",
-      "url": "https://www.mk.co.kr/news/stock/11943765",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 19:42",
-      "title": "야수가 돼버린 개미들…코스닥지수 ETF에 하루 1조 베팅",
-      "url": "https://www.mk.co.kr/news/stock/11943680",
-      "keywords_hit": [
-        "코스닥"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 18:42",
-      "title": "삼정KPMG, 2026 개정세법 설명회 웨비나 개최",
-      "url": "https://www.mk.co.kr/news/stock/11943666",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 18:42",
-      "title": "작년 펀드 순자산 1300조원 돌파…불장에 주식형 펀드 100조 늘어",
-      "url": "https://www.mk.co.kr/news/stock/11943667",
       "keywords_hit": []
     }
   ]
