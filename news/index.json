@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-28 08:46 KST",
+  "updated_at": "2026-01-28 08:57 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,10 +23,54 @@
   "count": 40,
   "items": [
     {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 08:53",
+      "title": "가상자산 시장의 보다 건전한 경쟁을 위하여...\"소유 지분 제한\" 고민해봐야 [태평양의 미래금융]",
+      "url": "https://www.hankyung.com/article/202601287006i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 08:52",
+      "title": "\"LG, AI 역량 재평가 전망\"-키움",
+      "url": "https://www.hankyung.com/article/2026012870386",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-28 08:52",
+      "title": "다올투자증권 “현대해상, 보험손익 감소 전망…신계약 마진은 증가”",
+      "url": "https://www.mk.co.kr/news/stock/11945317",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 08:49",
+      "title": "'천스닥' 돌파한 코스닥 어디까지 오를까…NH證 \"1500도 가능\"",
+      "url": "https://www.hankyung.com/article/2026012870016",
+      "keywords_hit": [
+        "코스닥"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 08:43",
+      "title": "\"25년 만에 처음 보는 숫자\"…신고가 행진에 개미 '환호' [종목+]",
+      "url": "https://www.hankyung.com/article/2026012868576",
+      "keywords_hit": []
+    },
+    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-28 08:40",
-      "title": "“코스닥 1500까지 상승 가능…공매도 비율 높은 종목 눈여겨봐야” [오늘 나온 보고서]",
+      "title": "“코스닥 1500까지 가능…공매도 비율 높은 종목 눈여겨봐야” [오늘 나온 보고서]",
       "url": "https://www.mk.co.kr/news/stock/11945309",
       "keywords_hit": [
         "코스닥"
@@ -294,16 +338,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 17:51",
-      "title": "반도체 소부장 ETF '봄날'… 한주새 18% 급등",
-      "url": "https://www.mk.co.kr/news/stock/11944793",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-27 17:50",
@@ -346,42 +380,6 @@
       "keywords_hit": [
         "인수"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 17:40",
-      "title": "\"코어위브에 20억달러 추가투자\"…엔비디아가 찜하자 주가 '들썩'",
-      "url": "https://www.hankyung.com/article/2026012761441",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 17:39",
-      "title": "S&P500 ETF 연초 '제로 수익'…코스피 상품은 18% 뛰며 질주",
-      "url": "https://www.hankyung.com/article/2026012761041",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 17:38",
-      "title": "[특징주 & 리포트] '호실적 전망에 SKT 12% 급등' 등",
-      "url": "https://www.hankyung.com/article/2026012761101",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 17:36",
-      "title": "금융감독원 2025년 11월 말 국내 은행 원화대출 연체율",
-      "url": "https://www.hankyung.com/article/2026012761051",
-      "keywords_hit": []
     }
   ]
 }
