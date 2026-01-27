@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-27 17:52 KST",
+  "updated_at": "2026-01-27 18:22 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,6 +25,35 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-27 18:08",
+      "title": "[인기검색TOP5] 메디포스트, 뱅크웨어글로벌, SK텔레콤, 한전산업, 리노공업",
+      "url": "https://www.mk.co.kr/news/stock/11944828",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 18:00",
+      "title": "\"실적 뒷받침 땐 코스피 5700 가능…반·조·방·원 분할매수하라\"",
+      "url": "https://www.hankyung.com/article/2026012761561",
+      "keywords_hit": [
+        "코스피",
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 17:56",
+      "title": "코스피 사상 첫 '오천피' 고지 밟았다",
+      "url": "https://www.hankyung.com/article/2026012761921",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-27 17:52",
       "title": "삼성證 중개형ISA 잔액 … 136% 늘어 8조원 돌파",
       "url": "https://www.mk.co.kr/news/stock/11944815",
@@ -45,19 +74,19 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-27 17:52",
-      "title": "국대 AI 기대 … SKT, 통신주 시총1위 탈환",
-      "url": "https://www.mk.co.kr/news/stock/11944813",
-      "keywords_hit": [
-        "AI"
-      ]
+      "title": "K뷰티 수출 성장세 … 미용·화장품주 '쑥'",
+      "url": "https://www.mk.co.kr/news/stock/11944812",
+      "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-27 17:52",
-      "title": "K뷰티 수출 성장세 … 미용·화장품주 '쑥'",
-      "url": "https://www.mk.co.kr/news/stock/11944812",
-      "keywords_hit": []
+      "title": "국대 AI 기대 … SKT, 통신주 시총1위 탈환",
+      "url": "https://www.mk.co.kr/news/stock/11944813",
+      "keywords_hit": [
+        "AI"
+      ]
     },
     {
       "source": "MK",
@@ -86,6 +115,14 @@
       "keywords_hit": [
         "반도체"
       ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 17:50",
+      "title": "\"인지수사 왜 못하게 하나\"…금감원에 힘 실어준 李대통령",
+      "url": "https://www.hankyung.com/article/2026012756176",
+      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -273,27 +310,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 17:01",
-      "title": "[포토] 코스피, 사상 첫 종가 기준 5000선 돌파",
-      "url": "https://www.hankyung.com/article/202601276006i",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 16:32",
-      "title": "[마켓칼럼]반도체가 연 코스피 5000... 순환매 흐름에 주목해야",
-      "url": "https://www.hankyung.com/article/202601275878i",
-      "keywords_hit": [
-        "코스피",
-        "반도체"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-27 16:30",
@@ -307,14 +323,6 @@
       "published_at": "2026-01-27 16:21",
       "title": "“트럼프 관세 25% 충격 잘 버텼다”…현대차 주가 급락 뒤 낙폭 만회",
       "url": "https://www.mk.co.kr/news/stock/11944609",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 16:19",
-      "title": "\"폭락장, 오히려 좋아\"  학습효과 본 개미 늘더니…'깜짝 전망'",
-      "url": "https://www.hankyung.com/article/202601275767i",
       "keywords_hit": []
     },
     {
@@ -370,14 +378,6 @@
       "published_at": "2026-01-27 15:36",
       "title": "한국블록체인산업진흥협회 김종원 신임 이사장 선임",
       "url": "https://www.mk.co.kr/news/stock/11944514",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 15:02",
-      "title": "[속보] 결국 ‘80만닉스’ 찍었다…SK하이닉스, 장중 신고가 경신",
-      "url": "https://www.mk.co.kr/news/stock/11944474",
       "keywords_hit": []
     }
   ]
