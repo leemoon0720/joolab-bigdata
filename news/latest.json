@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-27 16:36 KST",
+  "updated_at": "2026-01-27 16:52 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,6 +23,17 @@
   "count": 40,
   "items": [
     {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 16:32",
+      "title": "[마켓칼럼]반도체가 연 코스피 5000... 순환매 흐름에 주목해야",
+      "url": "https://www.hankyung.com/article/202601275878i",
+      "keywords_hit": [
+        "코스피",
+        "반도체"
+      ]
+    },
+    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-27 16:30",
@@ -42,7 +53,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-27 16:19",
-      "title": "전문가들 \"강세장에 올라타라…빚투 금지·조정시 분할매수\"",
+      "title": "\"폭락장, 오히려 좋아\"  학습효과 본 개미 늘더니…'깜짝 전망'",
       "url": "https://www.hankyung.com/article/202601275767i",
       "keywords_hit": []
     },
@@ -50,10 +61,10 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-27 16:16",
-      "title": "증시 큰손 떠오른 '기타법인'…알고보니 자사주 매입 끝낸 삼성전자",
+      "title": "\"외국인 다음으로 쓸어담아\"…'5000시대' 연 큰손의 정체",
       "url": "https://www.hankyung.com/article/202601275828i",
       "keywords_hit": [
-        "자사주"
+        "외국인"
       ]
     },
     {
@@ -358,16 +369,6 @@
       "url": "https://www.hankyung.com/article/2026012750796",
       "keywords_hit": [
         "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 11:28",
-      "title": "[마켓PRO] \"반도체 급락 위험 커져\"…서학개미, SOXS 집중 매수",
-      "url": "https://www.hankyung.com/article/202601274913i",
-      "keywords_hit": [
-        "반도체"
       ]
     }
   ]
