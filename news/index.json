@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-27 19:18 KST",
+  "updated_at": "2026-01-27 19:51 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,17 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 19:18",
+      "title": "“증시 호황속 올 IPO·M&A 큰장…원팀 전략으로 기회 살릴 것”",
+      "url": "https://www.mk.co.kr/news/stock/11944868",
+      "keywords_hit": [
+        "IPO",
+        "M&A"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -114,7 +125,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-27 17:52",
-      "title": "K뷰티 수출 성장세 … 미용·화장품주 '쑥'",
+      "title": "K뷰티 수출 성장세…미용·화장품주 '쑥'",
       "url": "https://www.mk.co.kr/news/stock/11944812",
       "keywords_hit": []
     },
@@ -163,6 +174,16 @@
       "title": "\"인지수사 왜 못하게 하나\"…금감원에 힘 실어준 李대통령",
       "url": "https://www.hankyung.com/article/2026012756176",
       "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 17:50",
+      "title": "[IB명가에게 듣는다] \"사업재편 맞물려 M&A 거래 많아질 것\"",
+      "url": "https://www.mk.co.kr/news/stock/11944789",
+      "keywords_hit": [
+        "M&A"
+      ]
     },
     {
       "source": "HK",
@@ -258,7 +279,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-27 17:36",
-      "title": "\"만기 석달 전 전액 현금화\"… IMA 규제논란",
+      "title": "\"만기 석달 전 전액 유동화\"… IMA 규제논란",
       "url": "https://www.mk.co.kr/news/stock/11944708",
       "keywords_hit": []
     },
@@ -354,27 +375,6 @@
       "title": "“트럼프 관세 25% 충격 잘 버텼다”…현대차 주가 급락 뒤 낙폭 만회",
       "url": "https://www.mk.co.kr/news/stock/11944609",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 16:09",
-      "title": "“이제는 AI株” SKT, 통신사 시총 1위 탈환",
-      "url": "https://www.mk.co.kr/news/stock/11944593",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 15:54",
-      "title": "트럼프 관세 인상 발표에도…‘코스피 5000선·코스닥 1000선’ 마감",
-      "url": "https://www.mk.co.kr/news/stock/11944542",
-      "keywords_hit": [
-        "코스피",
-        "코스닥"
-      ]
     }
   ]
 }
