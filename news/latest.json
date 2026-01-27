@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-01-28 05:01 KST",
+  "updated_at": "2026-01-28 05:23 KST",
   "sources": [
     {
       "id": "HK",
       "name": "한국경제",
       "feed": "https://www.hankyung.com/feed/finance",
-      "status": "PARTIAL"
+      "status": "OK"
     },
     {
       "id": "MK",
@@ -20,8 +20,16 @@
       "status": "PARTIAL"
     }
   ],
-  "count": 20,
+  "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 22:00",
+      "title": "\"또 다시 없을 바겐세일\"…트럼프 쇼크에 \"지금 사라\"는 종목 [분석+]",
+      "url": "https://www.hankyung.com/article/2026012762566",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -66,12 +74,41 @@
       "keywords_hit": []
     },
     {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 18:16",
+      "title": "프랭클린템플턴 \"대체 크레딧 사업, BSP 브랜드로 통합\"",
+      "url": "https://www.hankyung.com/article/2026012763166",
+      "keywords_hit": []
+    },
+    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-27 18:08",
       "title": "[인기검색TOP5] 메디포스트, 뱅크웨어글로벌, SK텔레콤, 한전산업, 리노공업",
       "url": "https://www.mk.co.kr/news/stock/11944828",
       "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 18:00",
+      "title": "\"실적 뒷받침 땐 코스피 5700 가능…반·조·방·원 분할매수하라\"",
+      "url": "https://www.hankyung.com/article/2026012761561",
+      "keywords_hit": [
+        "코스피",
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 17:56",
+      "title": "코스피 사상 첫 '오천피' 고지 밟았다",
+      "url": "https://www.hankyung.com/article/2026012761921",
+      "keywords_hit": [
+        "코스피"
+      ]
     },
     {
       "source": "MK",
@@ -139,6 +176,14 @@
       ]
     },
     {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 17:50",
+      "title": "\"인지수사 왜 못하게 하나\"…금감원에 힘 실어준 李대통령",
+      "url": "https://www.hankyung.com/article/2026012756176",
+      "keywords_hit": []
+    },
+    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-27 17:50",
@@ -146,6 +191,42 @@
       "url": "https://www.mk.co.kr/news/stock/11944789",
       "keywords_hit": [
         "M&A"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 17:47",
+      "title": "채권시장엔 벌써 '벚꽃 추경론' 확산",
+      "url": "https://www.hankyung.com/article/2026012761711",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 17:47",
+      "title": "시장 불안땐 대미투자 없다더니…트럼프 재촉에 환율 반등",
+      "url": "https://www.hankyung.com/article/2026012761691",
+      "keywords_hit": [
+        "환율"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 17:41",
+      "title": "뭉칫돈 몰린 은 ETF, 단숨에 순자산 '1조클럽'",
+      "url": "https://www.hankyung.com/article/2026012761481",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 17:41",
+      "title": "아이온큐, 파운드리社 인수에도 '우울'",
+      "url": "https://www.hankyung.com/article/2026012761431",
+      "keywords_hit": [
+        "인수"
       ]
     },
     {
@@ -157,6 +238,42 @@
       "keywords_hit": [
         "반도체"
       ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 17:40",
+      "title": "\"코어위브에 20억달러 추가투자\"…엔비디아가 찜하자 주가 '들썩'",
+      "url": "https://www.hankyung.com/article/2026012761441",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 17:39",
+      "title": "S&P500 ETF 연초 '제로 수익'…코스피 상품은 18% 뛰며 질주",
+      "url": "https://www.hankyung.com/article/2026012761041",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 17:38",
+      "title": "[특징주 & 리포트] '호실적 전망에 SKT 12% 급등' 등",
+      "url": "https://www.hankyung.com/article/2026012761101",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 17:36",
+      "title": "금융감독원 2025년 11월 말 국내 은행 원화대출 연체율",
+      "url": "https://www.hankyung.com/article/2026012761051",
+      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -172,6 +289,67 @@
       "published_at": "2026-01-27 17:36",
       "title": "\"만기 석달 전 전액 유동화\"… IMA 규제논란",
       "url": "https://www.mk.co.kr/news/stock/11944708",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 17:34",
+      "title": "2.6조 순매수 '1월 큰손' 정체는 삼성전자",
+      "url": "https://www.hankyung.com/article/2026012761031",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 17:33",
+      "title": "파라다이스·삼양식품, 저평가주 주목",
+      "url": "https://www.hankyung.com/article/2026012761081",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 17:32",
+      "title": "KODEX코스닥ETF 개인 순매수 역대최대",
+      "url": "https://www.hankyung.com/article/2026012761071",
+      "keywords_hit": [
+        "코스닥"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 17:32",
+      "title": "\"코스피, 추가 상승 가능…반도체 쏠림 현상 해소는 과제\"",
+      "url": "https://www.hankyung.com/article/2026012756046",
+      "keywords_hit": [
+        "코스피",
+        "반도체"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 17:31",
+      "title": "\"SK하이닉스 140만원 간다\" 파격…트럼프 악재도 이겨냈다",
+      "url": "https://www.hankyung.com/article/2026012761551",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 17:31",
+      "title": "[마켓PRO] 알고리즘 종목 Pick : \"과매도 구간 탈출한 넥스트에라에너지…반등 본격화\"",
+      "url": "https://www.hankyung.com/article/202601274638i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 17:31",
+      "title": "달리던 車·조선 주춤…배터리주 강세",
+      "url": "https://www.hankyung.com/article/2026012761541",
       "keywords_hit": []
     },
     {
