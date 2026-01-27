@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-28 08:29 KST",
+  "updated_at": "2026-01-28 08:46 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,16 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-28 08:40",
+      "title": "“코스닥 1500까지 상승 가능…공매도 비율 높은 종목 눈여겨봐야” [오늘 나온 보고서]",
+      "url": "https://www.mk.co.kr/news/stock/11945309",
+      "keywords_hit": [
+        "코스닥"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -300,16 +310,6 @@
       "title": "\"인지수사 왜 못하게 하나\"…금감원에 힘 실어준 李대통령",
       "url": "https://www.hankyung.com/article/2026012756176",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 17:50",
-      "title": "[IB명가에게 듣는다] \"사업재편 맞물려 M&A 거래 많아질 것\"",
-      "url": "https://www.mk.co.kr/news/stock/11944789",
-      "keywords_hit": [
-        "M&A"
-      ]
     },
     {
       "source": "HK",
