@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-27 21:22 KST",
+  "updated_at": "2026-01-27 22:25 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 22:00",
+      "title": "또 한국 덮친 트럼프 쇼크…\"지금 사라\" 증권가 추천한 종목 [분석+]",
+      "url": "https://www.hankyung.com/article/2026012762566",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -342,14 +350,6 @@
       "published_at": "2026-01-27 17:31",
       "title": "달리던 車·조선 주춤…배터리주 강세",
       "url": "https://www.hankyung.com/article/2026012761541",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 17:24",
-      "title": "\"고정된 앱은 끝났다\"…올트먼이 예고한 '일회용 SW' 시대",
-      "url": "https://www.hankyung.com/article/202601276114i",
       "keywords_hit": []
     },
     {
