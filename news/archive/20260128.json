@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-28 07:49 KST",
+  "updated_at": "2026-01-28 07:59 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,26 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 07:53",
+      "title": "'16만 전자'가 보인다 …미국발 훈풍에 코스피 전망도 맑음 [오늘장 미리보기]",
+      "url": "https://www.hankyung.com/article/202601286783i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 07:45",
+      "title": "\"메모리는 AI 전략 자산\"…KB증권, SK하닉 목표가 120만원 불러",
+      "url": "https://www.hankyung.com/article/2026012867896",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -364,25 +384,6 @@
       "keywords_hit": [
         "코스닥"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 17:32",
-      "title": "\"코스피, 추가 상승 가능…반도체 쏠림 현상 해소는 과제\"",
-      "url": "https://www.hankyung.com/article/2026012756046",
-      "keywords_hit": [
-        "코스피",
-        "반도체"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 17:31",
-      "title": "\"SK하이닉스 140만원 간다\" 파격…트럼프 악재도 이겨냈다",
-      "url": "https://www.hankyung.com/article/2026012761551",
-      "keywords_hit": []
     }
   ]
 }
