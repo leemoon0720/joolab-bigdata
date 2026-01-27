@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-27 14:34 KST",
+  "updated_at": "2026-01-27 14:54 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 14:44",
+      "title": "제이오, 단일벽 탄소나노튜브 美 EPA 허가 신청",
+      "url": "https://www.hankyung.com/article/2026012755046",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -50,9 +58,11 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-27 13:51",
-      "title": "오천피·천스닥 시대…단기 대응 전략 고수에게 물었다 [분석+]",
+      "title": "\"삼성전자 다음은 '이 종목'\"…불타는 코스닥, 고수들의 '픽' [분석+]",
       "url": "https://www.hankyung.com/article/2026012750376",
-      "keywords_hit": []
+      "keywords_hit": [
+        "코스닥"
+      ]
     },
     {
       "source": "HK",
@@ -331,16 +341,6 @@
       "title": "\"신규 원전 건설 계획대로 추진\"…원전산업 28%대 급등",
       "url": "https://www.hankyung.com/article/2026012745326",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 09:42",
-      "title": "\"배당 정상화 전망\" 증권가 분석에…SK텔레콤, 52주 신고가",
-      "url": "https://www.hankyung.com/article/2026012746256",
-      "keywords_hit": [
-        "배당"
-      ]
     },
     {
       "source": "MK",
