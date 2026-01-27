@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-27 13:17 KST",
+  "updated_at": "2026-01-27 13:59 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,64 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 13:47",
+      "title": "단숨에 1조 찍었다...금 레버리지보다 더 오른 銀 ETF",
+      "url": "https://www.hankyung.com/article/202601275220i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 13:39",
+      "title": "SK증권, 위기 속 ‘내실 경영’…선제적 리스크 관리로 실적 방어",
+      "url": "https://www.mk.co.kr/news/stock/11944373",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 13:33",
+      "title": "프로스타캐피탈 한승훈, 40세 미만 인프라 차세대 리더 20인 선정",
+      "url": "https://www.mk.co.kr/news/stock/11944367",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 13:31",
+      "title": "프랭클린템플턴, 대체 크레딧 사업 BSP 브랜드로 통합",
+      "url": "https://www.mk.co.kr/news/stock/11944366",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 13:25",
+      "title": "미래에셋증권 \"ISA 잔고 10조 기록\"…'쿼드러플 10조 클럽' 등극",
+      "url": "https://www.hankyung.com/article/2026012752396",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 13:19",
+      "title": "미래에셋증권, ISA 잔고 10조 돌파…업계 최초 ‘쿼드러플 10조 클럽’",
+      "url": "https://www.mk.co.kr/news/stock/11944356",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 13:16",
+      "title": "한투운용 \"ACE KRX금현물, 순자산 4조5000억원 돌파\"",
+      "url": "https://www.hankyung.com/article/2026012751986",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -302,69 +360,6 @@
       "published_at": "2026-01-27 09:24",
       "title": "트럼프 \"한국車 관세 25%\" 발언에…현대차·기아 약세",
       "url": "https://www.hankyung.com/article/2026012744406",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 09:20",
-      "title": "정제마진 급등 가능성 제기…S-OIL 목표가 14만원 등장[오늘 나온 보고서]",
-      "url": "https://www.mk.co.kr/news/stock/11944039",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 09:15",
-      "title": "트럼프발 관세 쇼크에 코스피 4900선 아래로…코스닥 1%대 상승",
-      "url": "https://www.hankyung.com/article/2026012743756",
-      "keywords_hit": [
-        "코스피",
-        "코스닥"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 09:13",
-      "title": "이사 앞뒀는데 '날벼락'…하루새 폭락한 주가에 개미 '허탈'",
-      "url": "https://www.hankyung.com/article/2026012742386",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 08:43",
-      "title": "대신증권 “LG이노텍, 아이폰 교체 증가…하반기 실적은 개선 전망”",
-      "url": "https://www.mk.co.kr/news/stock/11944008",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 08:41",
-      "title": "\"키움증권, 변동성 확대 구간의 수혜주…목표가 상향\"-유안타",
-      "url": "https://www.hankyung.com/article/2026012742236",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 08:06",
-      "title": "“삼성전자, 1분기 추정 영업이익 30조원”…목표가↑",
-      "url": "https://www.mk.co.kr/news/stock/11943992",
-      "keywords_hit": [
-        "영업이익"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 05:58",
-      "title": "암호화폐 법제화 틀도 못짜고 정쟁만…“제도 뒷받침 서둘러야”",
-      "url": "https://www.mk.co.kr/news/economy/11943879",
       "keywords_hit": []
     }
   ]
