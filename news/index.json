@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-28 05:57 KST",
+  "updated_at": "2026-01-28 06:21 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,24 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-28 06:11",
+      "title": "200조 굴려본 남자의 자산증식 노하우…“돌반지 팔아 주식 사라”",
+      "url": "https://www.mk.co.kr/news/stock/11945198",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-28 06:11",
+      "title": "반도체株 넘치는 돈, 흘러흘러 여기까지…ETF 최고수익 찍었다는데",
+      "url": "https://www.mk.co.kr/news/stock/11945197",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -358,22 +376,6 @@
       "published_at": "2026-01-27 17:15",
       "title": "싸이토젠, 멘티스와 척추 임플란트 전 제품군 국내 총판 계약 체결",
       "url": "https://www.mk.co.kr/news/stock/11944650",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 16:30",
-      "title": "거버넌스포럼 “‘칠천피’ 달성 위해서는 증시개혁 지속해야”",
-      "url": "https://www.mk.co.kr/news/stock/11944618",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 16:21",
-      "title": "“트럼프 관세 25% 충격 잘 버텼다”…현대차 주가 급락 뒤 낙폭 만회",
-      "url": "https://www.mk.co.kr/news/stock/11944609",
       "keywords_hit": []
     }
   ]
