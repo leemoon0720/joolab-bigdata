@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-27 14:54 KST",
+  "updated_at": "2026-01-27 15:26 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,32 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 15:08",
+      "title": "NH농우바이오, 튀르키예법인 신규 R&D시설 구축",
+      "url": "https://www.hankyung.com/article/2026012755916",
+      "keywords_hit": [
+        "바이오"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 15:02",
+      "title": "[속보] 결국 ‘80만닉스’ 찍었다…SK하이닉스, 장중 신고가 경신",
+      "url": "https://www.mk.co.kr/news/stock/11944474",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 14:59",
+      "title": "삼성증권, 중개형 ISA 잔고 8조원 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11944469",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -332,30 +358,6 @@
       "published_at": "2026-01-27 09:48",
       "title": "뱅크웨어글로벌, 美 스테이블코인 발행사와 협력 소식 이후 '급등'",
       "url": "https://www.hankyung.com/article/2026012746766",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 09:48",
-      "title": "\"신규 원전 건설 계획대로 추진\"…원전산업 28%대 급등",
-      "url": "https://www.hankyung.com/article/2026012745326",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 09:42",
-      "title": "[MK 골든크로스 돌파종목 : 와이즈넛(096250) & 웹젠(069080)]",
-      "url": "https://www.mk.co.kr/news/stock/11944106",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 09:38",
-      "title": "“돈 불리기엔 금보다 이게 낫지”…은 통장 잔액 1년새 7배로 불었다는데",
-      "url": "https://www.mk.co.kr/news/stock/11944100",
       "keywords_hit": []
     }
   ]
