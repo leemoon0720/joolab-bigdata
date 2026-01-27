@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-28 07:32 KST",
+  "updated_at": "2026-01-28 07:49 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,24 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-28 07:44",
+      "title": "미국 정부發 메디케어 쇼크에 보험주 급락...S&P500은 신고가 [월가월부]",
+      "url": "https://www.mk.co.kr/news/stock/11945291",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-28 07:38",
+      "title": "“이 기세면 ‘120만닉스’ 가능…AI 발전할수록 주가 계속 뛸 것”",
+      "url": "https://www.mk.co.kr/news/stock/11945287",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -322,14 +340,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 17:36",
-      "title": "\"만기 석달 전 전액 유동화\"… IMA 규제논란",
-      "url": "https://www.mk.co.kr/news/stock/11944708",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-27 17:34",
@@ -372,14 +382,6 @@
       "published_at": "2026-01-27 17:31",
       "title": "\"SK하이닉스 140만원 간다\" 파격…트럼프 악재도 이겨냈다",
       "url": "https://www.hankyung.com/article/2026012761551",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 17:15",
-      "title": "싸이토젠, 멘티스와 척추 임플란트 전 제품군 국내 총판 계약 체결",
-      "url": "https://www.mk.co.kr/news/stock/11944650",
       "keywords_hit": []
     }
   ]
