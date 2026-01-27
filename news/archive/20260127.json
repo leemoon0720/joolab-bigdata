@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-27 10:18 KST",
+  "updated_at": "2026-01-27 12:17 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,110 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 11:44",
+      "title": "코스피, 트럼프발 관세 쇼크에도 상승 전환…5030선도 돌파",
+      "url": "https://www.hankyung.com/article/2026012750166",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 11:38",
+      "title": "H투자증권, 작년 하반기 대주주 양도소득세 신고대행 서비스 실시",
+      "url": "https://www.hankyung.com/article/2026012750926",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 11:36",
+      "title": "하나증권, 영상 기반 투자전략 서비스 '세미나라운지' 오픈",
+      "url": "https://www.hankyung.com/article/2026012750856",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 11:34",
+      "title": "대신증권, '코스피 5000시대' 점검 라이브 세미나 진행",
+      "url": "https://www.hankyung.com/article/2026012750796",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 11:28",
+      "title": "[마켓PRO] “반도체 급락 위험 커져”…서학개미, SOXS 집중 매수",
+      "url": "https://www.hankyung.com/article/202601274913i",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 11:21",
+      "title": "LS일렉트릭, 작년 4분기 호실적에 '급등'",
+      "url": "https://www.hankyung.com/article/2026012750156",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 11:17",
+      "title": "[마켓PRO] '캐나다 잠수함 사업' 기대…고수들, 현대마린솔루션 매수",
+      "url": "https://www.hankyung.com/article/202601274897i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 11:11",
+      "title": "\"TG-C 가격, 시장 추정치보다 ↑…코오롱티슈진 52주 신고가",
+      "url": "https://www.hankyung.com/article/2026012748196",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 10:50",
+      "title": "\"지금이 매수 적기\"...SK텔레콤, 해킹 악재 털고 급등",
+      "url": "https://www.hankyung.com/article/202601274855i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 10:38",
+      "title": "트럼프 관세 인상 압박에도…‘삼전닉스’ 동반 1~4%대 상승세",
+      "url": "https://www.mk.co.kr/news/stock/11944196",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 10:22",
+      "title": "NH투자증권, 대주주 양도소득세 신고대행 서비스 실시",
+      "url": "https://www.mk.co.kr/news/stock/11944172",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 10:16",
+      "title": "SK증권, 거액 대출 회수 난항 우려에 7%대 급락",
+      "url": "https://www.hankyung.com/article/2026012747966",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -173,7 +277,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-27 09:13",
-      "title": "이사 앞뒀는데 주가 '날벼락'…하루 만에 '22%' 폭락하더니",
+      "title": "이사 앞뒀는데 '날벼락'…하루새 폭락한 주가에 개미 '허탈'",
       "url": "https://www.hankyung.com/article/2026012742386",
       "keywords_hit": []
     },
@@ -196,59 +300,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 08:37",
-      "title": "\"삼성전자, 메모리 가격 상승 효과…목표가 24만원으로 상향\"-KB",
-      "url": "https://www.hankyung.com/article/2026012742446",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 08:30",
-      "title": "[마켓PRO] Today's Pick : \"메모리 앞으로 더 부족…삼성전자, 24만원 간다\"",
-      "url": "https://www.hankyung.com/article/202601274112i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 08:17",
-      "title": "트럼프 \"한국 車 등 관세 다시 25%로\"…현대차그룹주 프리마켓서 급락",
-      "url": "https://www.hankyung.com/article/2026012741926",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 08:15",
-      "title": "Fed 새 의장·엔화 개입→호재, 캐나다 관세·셧다운→OK [김현석의 월스트리트나우]",
-      "url": "https://www.hankyung.com/article/202601274016i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 08:11",
-      "title": "\"RFHIC, 코스닥서 보기 드문 '실적 깡패'…목표가↑\"-KB",
-      "url": "https://www.hankyung.com/article/2026012740946",
-      "keywords_hit": [
-        "코스닥",
-        "실적"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 08:10",
-      "title": "새해에만 25% 뛰었다…리노공업, AI·휴머노이드 업고 '질주' [종목+]",
-      "url": "https://www.hankyung.com/article/2026012740966",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-27 08:06",
@@ -257,38 +308,6 @@
       "keywords_hit": [
         "영업이익"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 08:00",
-      "title": "7000원짜리가 3만9000원 됐다…1년새 '423%' 주가 불기둥 [핫픽!해외주식]",
-      "url": "https://www.hankyung.com/article/202601214649i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 07:56",
-      "title": "한국 개미들 '비상' 걸렸다…트럼프 관세 복원 발언에 출렁 [오늘장 미리보기]",
-      "url": "https://www.hankyung.com/article/202601274091i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 07:42",
-      "title": "\"공정위, 롯데렌탈·SK렌터카 기업결합 불허…불확실성 연장전 돌입\"-키움",
-      "url": "https://www.hankyung.com/article/2026012740806",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 07:38",
-      "title": "\"S-Oil, 글로벌 정유설비 부족 현실화…목표가↑\"-한국",
-      "url": "https://www.hankyung.com/article/2026012740896",
-      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -348,24 +367,6 @@
       "published_at": "2026-01-26 18:42",
       "title": "작년 펀드 순자산 1300조원 돌파…불장에 주식형 펀드 100조 늘어",
       "url": "https://www.mk.co.kr/news/stock/11943667",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 18:42",
-      "title": "미래에셋증권, 1000억원 규모 자사주 매입",
-      "url": "https://www.mk.co.kr/news/stock/11943665",
-      "keywords_hit": [
-        "자사주"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 18:41",
-      "title": "KB증권, 국내주식 옮기고 거래땐 혜택",
-      "url": "https://www.mk.co.kr/news/stock/11943664",
       "keywords_hit": []
     }
   ]
