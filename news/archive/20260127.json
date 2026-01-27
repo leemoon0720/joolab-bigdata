@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-27 16:52 KST",
+  "updated_at": "2026-01-27 17:18 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,34 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 17:15",
+      "title": "싸이토젠, 멘티스와 척추 임플란트 전 제품군 국내 총판 계약 체결",
+      "url": "https://www.mk.co.kr/news/stock/11944650",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 17:06",
+      "title": "코스피, 사상 첫 종가 5000선 돌파...SK하이닉스 80만원 신고가 [HK영상]",
+      "url": "https://www.hankyung.com/article/202601276016i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 17:01",
+      "title": "[포토] 코스피, 사상 첫 종가 기준 5000선 돌파",
+      "url": "https://www.hankyung.com/article/202601276006i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -328,14 +356,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 12:39",
-      "title": "SK증권, 무궁화신탁 대출 적정성 논란 일축",
-      "url": "https://www.mk.co.kr/news/stock/11944337",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-27 11:44",
@@ -352,24 +372,6 @@
       "title": "NH투자증권, 작년 하반기 대주주 양도소득세 신고대행 서비스 실시",
       "url": "https://www.hankyung.com/article/2026012750926",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 11:36",
-      "title": "하나증권, 영상 기반 투자전략 서비스 '세미나라운지' 오픈",
-      "url": "https://www.hankyung.com/article/2026012750856",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 11:34",
-      "title": "대신증권, '코스피 5000시대' 점검 라이브 세미나 진행",
-      "url": "https://www.hankyung.com/article/2026012750796",
-      "keywords_hit": [
-        "코스피"
-      ]
     }
   ]
 }
