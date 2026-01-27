@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-27 08:54 KST",
+  "updated_at": "2026-01-27 10:18 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,161 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 10:11",
+      "title": "SK증권 \"무궁화신탁 대주주에 대한 대출, 절차·담보 적법했다\"",
+      "url": "https://www.hankyung.com/article/2026012747696",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 10:06",
+      "title": "증시 흔들릴땐 실적주…파라다이스·삼양식품 '주목'",
+      "url": "https://www.hankyung.com/article/202601274731i",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 10:04",
+      "title": "[MK시그널] 아리스 마이닝, 수익률 106.3% 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11944148",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 10:01",
+      "title": "관세 25% 재점화…트럼프 발언에 현대차·기아 나란히 ‘흔들’",
+      "url": "https://www.mk.co.kr/news/stock/11944134",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 10:01",
+      "title": "“절차부터 담보까지 적법”…SK증권, 무궁화신탁 대출 적정성 논란 해명",
+      "url": "https://www.mk.co.kr/news/stock/11944133",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 09:54",
+      "title": "시노펙스,  멤브레인 적용 폐수처리 시스템 개발",
+      "url": "https://www.mk.co.kr/news/business/11944122",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 09:48",
+      "title": "뱅크웨어글로벌, 美 스테이블코인 발행사와 협력 소식 이후 '급등'",
+      "url": "https://www.hankyung.com/article/2026012746766",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 09:48",
+      "title": "\"신규 원전 건설 계획대로 추진\"…원전산업 28%대 급등",
+      "url": "https://www.hankyung.com/article/2026012745326",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 09:42",
+      "title": "\"배당 정상화 전망\" 증권가 분석에…SK텔레콤, 52주 신고가",
+      "url": "https://www.hankyung.com/article/2026012746256",
+      "keywords_hit": [
+        "배당"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 09:42",
+      "title": "[MK 골든크로스 돌파종목 : 와이즈넛(096250) & 웹젠(069080)]",
+      "url": "https://www.mk.co.kr/news/stock/11944106",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 09:38",
+      "title": "“돈 불리기엔 금보다 이게 낫지”…은 통장 잔액 1년새 7배로 불었다는데",
+      "url": "https://www.mk.co.kr/news/stock/11944100",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 09:37",
+      "title": "[MK시그널] 데브시스터즈, ‘쿠키런’ 글로벌 순위 반등 및 3월 신작 출격 등에 주가 상승세... MK시그널 추천 후 상승률 23.45% 기록",
+      "url": "https://www.mk.co.kr/news/stock/11944099",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 09:26",
+      "title": "\"2차전지, 미래 산업의 핵심 플레이어로 부상\"-흥국",
+      "url": "https://www.hankyung.com/article/2026012743126",
+      "keywords_hit": [
+        "2차전지"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 09:26",
+      "title": "‘천스닥’ 시대에 활짝…삼성 ‘KODEX 코스닥150’ 개인 순매수 역대 최대",
+      "url": "https://www.mk.co.kr/news/stock/11944080",
+      "keywords_hit": [
+        "코스닥"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 09:24",
+      "title": "트럼프 \"한국車 관세 25%\" 발언에…현대차·기아 약세",
+      "url": "https://www.hankyung.com/article/2026012744406",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 09:20",
+      "title": "정제마진 급등 가능성 제기…S-OIL 목표가 14만원 등장[오늘 나온 보고서]",
+      "url": "https://www.mk.co.kr/news/stock/11944039",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 09:15",
+      "title": "트럼프발 관세 쇼크에 코스피 4900선 아래로…코스닥 1%대 상승",
+      "url": "https://www.hankyung.com/article/2026012743756",
+      "keywords_hit": [
+        "코스피",
+        "코스닥"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 09:13",
+      "title": "이사 앞뒀는데 주가 '날벼락'…하루 만에 '22%' 폭락하더니",
+      "url": "https://www.hankyung.com/article/2026012742386",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -136,32 +291,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 07:26",
-      "title": "'셧다운' 불안에도…빅테크 실적 기대감에 일제 상승 [뉴욕증시 브리핑]",
-      "url": "https://www.hankyung.com/article/2026012740416",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 06:30",
-      "title": "\"밤 10시부터 줄섰어요\"…'대기 300번' 중국인 바글바글 [조아라의 차이나스톡]",
-      "url": "https://www.hankyung.com/article/202601273939i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 06:30",
-      "title": "\"카드 VVIP 고객은 하나증권 애널리스트 직접 만난다\"…채널전략팀 신설",
-      "url": "https://www.hankyung.com/article/2026012626376",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-27 05:58",
@@ -188,62 +317,12 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 22:00",
-      "title": "'삼전·하닉·현차' 주가 떨어졌는데…개미들 미소짓는 이유 [분석+]",
-      "url": "https://www.hankyung.com/article/2026012634166",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-26 21:26",
       "title": "“계속 오르기만 하는 게 진짜 있네요”…사상 첫 5천달러 돌파한 금값",
       "url": "https://www.mk.co.kr/news/stock/11943765",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 20:08",
-      "title": "원화약세·증시 충격 고려…국민연금, 해외투자 속도조절 나섰다",
-      "url": "https://www.hankyung.com/article/2026012637541",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 19:58",
-      "title": "국민연금, 주가 올라도 '기계적 매도' 안한다",
-      "url": "https://www.hankyung.com/article/2026012637601",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 19:51",
-      "title": "[포토] 4년 만에 '천스닥'",
-      "url": "https://www.hankyung.com/article/2026012637591",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 19:47",
-      "title": "한은 \"국민연금 포트폴리오 조정…해외투자 200억달러 줄일 것\"",
-      "url": "https://www.hankyung.com/article/202601263750i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-26 19:44",
-      "title": "미·일 '환율 공조' 가능성 부상…엔화 강세에 원·달러 25원 급락",
-      "url": "https://www.hankyung.com/article/2026012637551",
-      "keywords_hit": [
-        "환율"
-      ]
     },
     {
       "source": "MK",
@@ -288,90 +367,6 @@
       "title": "KB증권, 국내주식 옮기고 거래땐 혜택",
       "url": "https://www.mk.co.kr/news/stock/11943664",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 18:39",
-      "title": "“정책 믿고 가보자”…오천피 찍고 숨고르자 천스닥 불기둥",
-      "url": "https://www.mk.co.kr/news/stock/11943663",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 17:59",
-      "title": "4년 만에 1000스닥…기관 2.6조 순매수 상승 주도",
-      "url": "https://www.mk.co.kr/news/stock/11943648",
-      "keywords_hit": [
-        "기관"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 17:57",
-      "title": "천스닥·5천피 틈타 불법 리딩방 ‘활개’…금감원 “AI기술로 전문가 사칭” 경고",
-      "url": "https://www.mk.co.kr/news/stock/11943641",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 17:55",
-      "title": "골드만삭스, 亞증시 조정 경고",
-      "url": "https://www.mk.co.kr/news/stock/11943619",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 17:55",
-      "title": "오늘의 증시 일정(1월 27일)",
-      "url": "https://www.mk.co.kr/news/stock/11943616",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 17:55",
-      "title": "LS발 중복상장 제동 … 자회사 IPO 먹구름",
-      "url": "https://www.mk.co.kr/news/stock/11943617",
-      "keywords_hit": [
-        "IPO",
-        "상장"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 17:55",
-      "title": "[유가증권시장 공시] 세아특수강 / 신일전자",
-      "url": "https://www.mk.co.kr/news/stock/11943615",
-      "keywords_hit": [
-        "공시",
-        "유가"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 17:53",
-      "title": "\"밸류업 정책 훈풍 타보자\"…하루새 7% 폭등 천스닥 탈환",
-      "url": "https://www.mk.co.kr/news/stock/11943608",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-26 17:53",
-      "title": "반도체 슈퍼사이클 온기 소부장 종목에도 퍼졌다",
-      "url": "https://www.mk.co.kr/news/stock/11943606",
-      "keywords_hit": [
-        "반도체"
-      ]
     }
   ]
 }
