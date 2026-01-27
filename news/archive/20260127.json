@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-27 15:59 KST",
+  "updated_at": "2026-01-27 16:36 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,12 +25,93 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-27 16:30",
+      "title": "거버넌스포럼 “‘칠천피’ 달성 위해서는 증시개혁 지속해야”",
+      "url": "https://www.mk.co.kr/news/stock/11944618",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 16:21",
+      "title": "“트럼프 관세 25% 충격 잘 버텼다”…현대차 주가 급락 뒤 낙폭 만회",
+      "url": "https://www.mk.co.kr/news/stock/11944609",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 16:19",
+      "title": "전문가들 \"강세장에 올라타라…빚투 금지·조정시 분할매수\"",
+      "url": "https://www.hankyung.com/article/202601275767i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 16:16",
+      "title": "증시 큰손 떠오른 '기타법인'…알고보니 자사주 매입 끝낸 삼성전자",
+      "url": "https://www.hankyung.com/article/202601275828i",
+      "keywords_hit": [
+        "자사주"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 16:12",
+      "title": "엔비디아, 코어위브에 20억달러 추가투자…유탄 맞은 인텔",
+      "url": "https://www.hankyung.com/article/202601275668i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 16:09",
+      "title": "“이제는 AI株” SKT, 통신사 시총 1위 탈환",
+      "url": "https://www.mk.co.kr/news/stock/11944593",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 16:08",
+      "title": "\"코스피 5000, 정부 정책·기업 실적 맞물린 결과\"",
+      "url": "https://www.hankyung.com/article/2026012757797",
+      "keywords_hit": [
+        "코스피",
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 15:59",
+      "title": "'돈 복사' 주식 맞네…파격 전망에 SK하이닉스 개미들 '환호'",
+      "url": "https://www.hankyung.com/article/202601275636i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-27 15:54",
       "title": "트럼프 관세 인상 발표에도…‘코스피 5000선·코스닥 1000선’ 마감",
       "url": "https://www.mk.co.kr/news/stock/11944542",
       "keywords_hit": [
         "코스피",
         "코스닥"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 15:52",
+      "title": "트럼프발 관세 쇼크 이겨낸 코스피…첫 종가 '오천피' 달성",
+      "url": "https://www.hankyung.com/article/2026012752536",
+      "keywords_hit": [
+        "코스피"
       ]
     },
     {
@@ -65,6 +146,24 @@
       "published_at": "2026-01-27 15:36",
       "title": "한국블록체인산업진흥협회 김종원 신임 이사장 선임",
       "url": "https://www.mk.co.kr/news/stock/11944514",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 15:33",
+      "title": "[속보] 코스피, 2.73% 오른 5084.85…첫 종가 '오천피' 달성",
+      "url": "https://www.hankyung.com/article/2026012756806",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 15:26",
+      "title": "'대박' 노린 서학개미 몰렸는데…주가 급락에 '비명' 쏟아졌다",
+      "url": "https://www.hankyung.com/article/202601275584i",
       "keywords_hit": []
     },
     {
@@ -226,24 +325,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 12:30",
-      "title": "30만원선 바라보는 네이버…초고수들은 차익실현 나서[주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11944334",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 12:28",
-      "title": "[매경 자이앤트] 알리글로가 증명한 힘…‘역대 최대 매출’ 녹십자 주가도 UP",
-      "url": "https://www.mk.co.kr/news/stock/11944333",
-      "keywords_hit": [
-        "매출"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-27 11:44",
@@ -288,82 +369,6 @@
       "keywords_hit": [
         "반도체"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 11:21",
-      "title": "LS일렉트릭, 작년 4분기 호실적에 '급등'",
-      "url": "https://www.hankyung.com/article/2026012750156",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 11:17",
-      "title": "[마켓PRO] '캐나다 잠수함 사업' 기대…고수들, 현대마린솔루션 매수",
-      "url": "https://www.hankyung.com/article/202601274897i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 11:11",
-      "title": "\"TG-C 가격, 시장 추정치보다 ↑…코오롱티슈진 52주 신고가",
-      "url": "https://www.hankyung.com/article/2026012748196",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 10:50",
-      "title": "\"지금이 매수 적기\"...SK텔레콤, 해킹 악재 털고 급등",
-      "url": "https://www.hankyung.com/article/202601274855i",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 10:38",
-      "title": "트럼프 관세 인상 압박에도…‘삼전닉스’ 동반 1~4%대 상승세",
-      "url": "https://www.mk.co.kr/news/stock/11944196",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 10:16",
-      "title": "SK증권, 거액 대출 회수 난항 우려에 7%대 급락",
-      "url": "https://www.hankyung.com/article/2026012747966",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 10:11",
-      "title": "SK증권 \"무궁화신탁 대주주에 대한 대출, 절차·담보 적법했다\"",
-      "url": "https://www.hankyung.com/article/2026012747696",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 10:06",
-      "title": "증시 흔들릴땐 실적주…파라다이스·삼양식품 '주목'",
-      "url": "https://www.hankyung.com/article/202601274731i",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 09:48",
-      "title": "뱅크웨어글로벌, 美 스테이블코인 발행사와 협력 소식 이후 '급등'",
-      "url": "https://www.hankyung.com/article/2026012746766",
-      "keywords_hit": []
     }
   ]
 }
