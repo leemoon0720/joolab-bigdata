@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-28 07:59 KST",
+  "updated_at": "2026-01-28 08:29 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,10 +23,52 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-28 08:24",
+      "title": "[단독] 맥쿼리PE, LG CNS 지분 8.3% 블록딜…5360억원 회수",
+      "url": "https://www.mk.co.kr/news/stock/11945304",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-28 08:22",
+      "title": "“LS 일렉트릭, 데이터센터가 이끈 4분기 어닝 서프라이즈”…목표가↑",
+      "url": "https://www.mk.co.kr/news/stock/11945303",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 08:21",
+      "title": "실버게돈 vs 150달러…모멘텀, 메모리→하이퍼스케일러? [김현석의 월스트리트나우]",
+      "url": "https://www.hankyung.com/article/202601286639i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 08:11",
+      "title": "\"현대글로비스, 현대차그룹 피지컬 AI 전략의 핵심축…목표가↑\"-KB",
+      "url": "https://www.hankyung.com/article/2026012867996",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 08:06",
+      "title": "\"진짜 140만원 가나요\"…SK하이닉스 개미들 '두근두근' [종목+]",
+      "url": "https://www.hankyung.com/article/2026012868136",
+      "keywords_hit": []
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-28 07:53",
-      "title": "'16만 전자'가 보인다 …미국발 훈풍에 코스피 전망도 맑음 [오늘장 미리보기]",
+      "title": "'16만 전자'가 보인다…미국발 훈풍에 코스피 전망도 맑음 [오늘장 미리보기]",
       "url": "https://www.hankyung.com/article/202601286783i",
       "keywords_hit": [
         "코스피"
@@ -306,16 +348,6 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 17:41",
-      "title": "한울반도체, 50억 원 규모 전환사채 발행",
-      "url": "https://www.mk.co.kr/news/stock/11944724",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-27 17:40",
@@ -350,40 +382,6 @@
       "title": "금융감독원 2025년 11월 말 국내 은행 원화대출 연체율",
       "url": "https://www.hankyung.com/article/2026012761051",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 17:36",
-      "title": "[MK 시그널] WBC 앞두고 컴투스 반등 … 야구게임 열풍 기대 커져",
-      "url": "https://www.mk.co.kr/news/stock/11944709",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 17:34",
-      "title": "2.6조 순매수 '1월 큰손' 정체는 삼성전자",
-      "url": "https://www.hankyung.com/article/2026012761031",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 17:33",
-      "title": "파라다이스·삼양식품, 저평가주 주목",
-      "url": "https://www.hankyung.com/article/2026012761081",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 17:32",
-      "title": "KODEX코스닥ETF 개인 순매수 역대최대",
-      "url": "https://www.hankyung.com/article/2026012761071",
-      "keywords_hit": [
-        "코스닥"
-      ]
     }
   ]
 }
