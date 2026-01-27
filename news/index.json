@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-27 13:59 KST",
+  "updated_at": "2026-01-27 14:34 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,10 +23,42 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 14:27",
+      "title": "알에프텍, 뷰티 디바이스 시장 진출...31개국 수출 K-뷰티 기업 ‘그레이스’와 MOU체결",
+      "url": "https://www.mk.co.kr/news/stock/11944431",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 14:13",
+      "title": "삼성증권 \"중개형 ISA 잔고 8조원 돌파\"",
+      "url": "https://www.hankyung.com/article/2026012752526",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 14:04",
+      "title": "‘오천피 시대’에…우리운용, ‘WON 초대형 IB&금융지주 ETF’ 부상",
+      "url": "https://www.mk.co.kr/news/stock/11944393",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-27 13:51",
+      "title": "오천피·천스닥 시대…단기 대응 전략 고수에게 물었다 [분석+]",
+      "url": "https://www.hankyung.com/article/2026012750376",
+      "keywords_hit": []
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-27 13:47",
-      "title": "단숨에 1조 찍었다...금 레버리지보다 더 오른 銀 ETF",
+      "title": "단숨에 1조 찍었다…금 레버리지보다 더 오른 銀 ETF",
       "url": "https://www.hankyung.com/article/202601275220i",
       "keywords_hit": []
     },
@@ -324,42 +356,6 @@
       "published_at": "2026-01-27 09:38",
       "title": "“돈 불리기엔 금보다 이게 낫지”…은 통장 잔액 1년새 7배로 불었다는데",
       "url": "https://www.mk.co.kr/news/stock/11944100",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 09:37",
-      "title": "[MK시그널] 데브시스터즈, ‘쿠키런’ 글로벌 순위 반등 및 3월 신작 출격 등에 주가 상승세... MK시그널 추천 후 상승률 23.45% 기록",
-      "url": "https://www.mk.co.kr/news/stock/11944099",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 09:26",
-      "title": "\"2차전지, 미래 산업의 핵심 플레이어로 부상\"-흥국",
-      "url": "https://www.hankyung.com/article/2026012743126",
-      "keywords_hit": [
-        "2차전지"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 09:26",
-      "title": "‘천스닥’ 시대에 활짝…삼성 ‘KODEX 코스닥150’ 개인 순매수 역대 최대",
-      "url": "https://www.mk.co.kr/news/stock/11944080",
-      "keywords_hit": [
-        "코스닥"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-27 09:24",
-      "title": "트럼프 \"한국車 관세 25%\" 발언에…현대차·기아 약세",
-      "url": "https://www.hankyung.com/article/2026012744406",
       "keywords_hit": []
     }
   ]
