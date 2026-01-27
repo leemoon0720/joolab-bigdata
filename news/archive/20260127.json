@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-27 15:26 KST",
+  "updated_at": "2026-01-27 15:59 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,51 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 15:54",
+      "title": "트럼프 관세 인상 발표에도…‘코스피 5000선·코스닥 1000선’ 마감",
+      "url": "https://www.mk.co.kr/news/stock/11944542",
+      "keywords_hit": [
+        "코스피",
+        "코스닥"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 15:51",
+      "title": "이제는 반도체 소부장 차례?…테스 쓸어담는 초고수들[주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11944540",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 15:44",
+      "title": "미래에셋증권, ISA 잔고 10조원 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11944529",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 15:36",
+      "title": "“관세폭탄에 다 죽어도, 한국은 생존”…최대 채권운용사 ‘엄지척’ 날린 이유는",
+      "url": "https://www.mk.co.kr/news/stock/11944515",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-27 15:36",
+      "title": "한국블록체인산업진흥협회 김종원 신임 이사장 선임",
+      "url": "https://www.mk.co.kr/news/stock/11944514",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -287,14 +332,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 10:22",
-      "title": "NH투자증권, 대주주 양도소득세 신고대행 서비스 실시",
-      "url": "https://www.mk.co.kr/news/stock/11944172",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-27 10:16",
@@ -319,38 +356,6 @@
       "keywords_hit": [
         "실적"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 10:04",
-      "title": "[MK시그널] 아리스 마이닝, 수익률 106.3% 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11944148",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 10:01",
-      "title": "관세 25% 재점화…트럼프 발언에 현대차·기아 나란히 ‘흔들’",
-      "url": "https://www.mk.co.kr/news/stock/11944134",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 10:01",
-      "title": "“절차부터 담보까지 적법”…SK증권, 무궁화신탁 대출 적정성 논란 해명",
-      "url": "https://www.mk.co.kr/news/stock/11944133",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 09:54",
-      "title": "시노펙스,  멤브레인 적용 폐수처리 시스템 개발",
-      "url": "https://www.mk.co.kr/news/business/11944122",
-      "keywords_hit": []
     },
     {
       "source": "HK",
