@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-28 17:17 KST",
+  "updated_at": "2026-01-28 17:52 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,10 +23,160 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-28 17:51",
+      "title": "사모투자펀드 협의회 협회 전환 논의 공식화",
+      "url": "https://www.mk.co.kr/news/stock/11946022",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-28 17:50",
+      "title": "버핏이 찜한 유나헬 실적 발표 후 20%↓",
+      "url": "https://www.mk.co.kr/news/stock/11946021",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-28 17:50",
+      "title": "코스피 추종 美 ETF 올 수익률 70% 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11946019",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-28 17:50",
+      "title": "[미국 주식 돋보기] 코닝 'AI인프라株' 부상…메타와 8조원 계약",
+      "url": "https://www.mk.co.kr/news/stock/11946018",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-28 17:44",
+      "title": "다올투자증권, 당기 순익 423억원 흑자... 실적 안정화 진입",
+      "url": "https://www.mk.co.kr/news/stock/11946008",
+      "keywords_hit": [
+        "실적",
+        "흑자"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 17:43",
+      "title": "항공기 인도량 증가…보잉, 매출 57% 날개",
+      "url": "https://www.hankyung.com/article/2026012888681",
+      "keywords_hit": [
+        "매출"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 17:31",
+      "title": "5000억어치 사들였는데…\"살려달라\" 개미들 '비명' 터졌다",
+      "url": "https://www.hankyung.com/article/2026012888371",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 17:30",
+      "title": "오천피·천스닥 '활화산'…K증시 시총, 독일 제치고 세계 10위",
+      "url": "https://www.hankyung.com/article/2026012889371",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 17:28",
+      "title": "하루 거래대금 26조…순환매 장세 왔다",
+      "url": "https://www.hankyung.com/article/2026012888411",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 17:26",
+      "title": "올해 증시가 2007년과 다른 점",
+      "url": "https://www.hankyung.com/article/2026012888401",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 17:25",
+      "title": "배당 확대 기대에…금융주, 줄줄이 신고가",
+      "url": "https://www.hankyung.com/article/2026012888421",
+      "keywords_hit": [
+        "배당"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 17:23",
+      "title": "코스피 수익률 압도한 액티브 ETF",
+      "url": "https://www.hankyung.com/article/2026012888431",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 17:22",
+      "title": "[특징주 & 리포트] '호실적에 6% 뛴 LS일렉트릭' 등",
+      "url": "https://www.hankyung.com/article/2026012888451",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 17:20",
+      "title": "테슬라 마이크로소프트 메타 실적",
+      "url": "https://www.hankyung.com/article/2026012888361",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 17:20",
+      "title": "코스피, 5100선 넘어 사상 최고치...코스닥도 25년만에 1100선 돌파 [HK영상]",
+      "url": "https://www.hankyung.com/article/202601288855i",
+      "keywords_hit": [
+        "코스피",
+        "코스닥"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 17:15",
+      "title": "삼성전자 2배 ETF 나온다…단일종목도 레버리지 허용",
+      "url": "https://www.hankyung.com/article/2026012888021",
+      "keywords_hit": []
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-28 17:10",
-      "title": "\"강력한 반도체 수요 증명\"...ASML 수주액 역대 최대",
+      "title": "\"강력한 반도체 수요 증명\"…ASML 수주액 역대 최대",
       "url": "https://www.hankyung.com/article/202601288391i",
       "keywords_hit": [
         "반도체"
@@ -163,45 +313,11 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-28 15:17",
-      "title": "\"반도체가 국격 높였다\"…K증시 시총, 유럽 강자 독일도 추월",
-      "url": "https://www.hankyung.com/article/202601288347i",
-      "keywords_hit": [
-        "반도체"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-28 15:14",
-      "title": "\"한국 증시 시가총액, 유럽 경제강국 독일도 제쳤다\"",
-      "url": "https://www.hankyung.com/article/2026012883417",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-28 15:09",
-      "title": "[블루밍런치] 윤혜준 \"맥킨지에서 암호화폐로…기술과 사람에 끌렸죠\"",
-      "url": "https://www.hankyung.com/article/202601263798g",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-28 15:08",
       "title": "사모투자펀드 협의회···협회 전환 논의 공식화",
       "url": "https://www.mk.co.kr/news/stock/11945786",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-28 15:07",
-      "title": "금융위, 롯데손보 경영개선계획 불승인",
-      "url": "https://www.hankyung.com/article/2026012883436",
       "keywords_hit": []
     },
     {
@@ -211,16 +327,6 @@
       "title": "“김 대리도 버는 장에 홀로 눈물”…인버스, 진짜 나락 갔을까?",
       "url": "https://www.mk.co.kr/news/stock/11945764",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-28 14:43",
-      "title": "코스피 불장에…KODEX 200, 전체 ETF 순자산 1위 등극",
-      "url": "https://www.hankyung.com/article/202601288148i",
-      "keywords_hit": [
-        "코스피"
-      ]
     },
     {
       "source": "MK",
@@ -251,22 +357,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-28 14:00",
-      "title": "금융위원장 \"삼전 레버리지·곱버스 ETF 허용하겠다\"",
-      "url": "https://www.hankyung.com/article/2026012878306",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-28 13:55",
-      "title": "NH투자증권, 전사 전략회의 개최…윤병운 \"전략의 핵심은 수립보다 실행\"",
-      "url": "https://www.hankyung.com/article/202601288020i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-28 13:44",
@@ -274,32 +364,6 @@
       "url": "https://www.mk.co.kr/news/stock/11945640",
       "keywords_hit": [
         "실적"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-28 13:43",
-      "title": "민주당 \"디지털자산기본법, 설 연휴 전 발의\"…한은과 이견은 여전",
-      "url": "https://www.hankyung.com/article/202601287981g",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-28 13:43",
-      "title": "'오천피' 이긴 액티브 ETF…SOL 코리아메가테크액티브 ETF로 뭉칫돈",
-      "url": "https://www.hankyung.com/article/202601287197i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-28 13:33",
-      "title": "AI 인프라주로 부상하나…코닝, 메타 공급계약 소식에 급등",
-      "url": "https://www.hankyung.com/article/202601287779i",
-      "keywords_hit": [
-        "AI"
       ]
     },
     {
@@ -326,59 +390,6 @@
       "published_at": "2026-01-28 13:27",
       "title": "美 규제 맞춤 테더 ‘USAT’ 드디어 출시 [매일코인]",
       "url": "https://www.mk.co.kr/news/stock/11945620",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-28 13:08",
-      "title": "NH투자증권, 전사 전략·실행 연계 위한 사업부 전략 회의 개최",
-      "url": "https://www.hankyung.com/article/2026012879506",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-28 12:14",
-      "title": "민주당 ‘디지털자산기본법’ 윤곽‥스테이블코인 자본금 50억·업종별 ‘인가·등록’ 차등",
-      "url": "https://www.mk.co.kr/news/stock/11945586",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-28 10:21",
-      "title": "코스피 5100선·코스닥 1100선 돌파…‘16만전자’ 달성",
-      "url": "https://www.mk.co.kr/news/stock/11945462",
-      "keywords_hit": [
-        "코스피",
-        "코스닥"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-28 10:04",
-      "title": "[MK 골든크로스 돌파종목 : 브이티(018290) & 바이오니아(064550)]",
-      "url": "https://www.mk.co.kr/news/stock/11945449",
-      "keywords_hit": [
-        "바이오"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-28 10:04",
-      "title": "[MK시그널] SOOP, 글로벌 통합 플랫폼 기대감 및 저평가 분석 등에 주가 상승세... MK시그널 추천 후 상승률 13.32% 기록",
-      "url": "https://www.mk.co.kr/news/stock/11945448",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-28 10:04",
-      "title": "[MK시그널] 베라사이트 매도신호 포착, 수익률 35% 달성",
-      "url": "https://www.mk.co.kr/news/stock/11945447",
       "keywords_hit": []
     }
   ]
