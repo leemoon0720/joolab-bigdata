@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-29 06:55 KST",
+  "updated_at": "2026-01-29 07:24 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,8 +25,16 @@
     {
       "source": "HK",
       "press": "한국경제",
+      "published_at": "2026-01-29 07:00",
+      "title": "[마켓PRO] 현대차 GPU 5만장의 의미",
+      "url": "https://www.hankyung.com/article/202601287655i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
       "published_at": "2026-01-29 06:30",
-      "title": "자사주 15% 쌓아놨는데…아가방컴퍼니, 주주환원 나설까 [진영기의 찐개미 찐투자]",
+      "title": "자사주 15% 쌓아놨는데…\"왜 이래?\" 개미들 불만 터진 까닭 [진영기의 찐개미 찐투자]",
       "url": "https://www.hankyung.com/article/2026012889986",
       "keywords_hit": [
         "자사주"
@@ -374,16 +382,6 @@
       "title": "삼성전자 2배 ETF 나온다…단일종목도 레버리지 허용",
       "url": "https://www.hankyung.com/article/2026012888021",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-28 17:10",
-      "title": "\"강력한 반도체 수요 증명\"…ASML 수주액 역대 최대",
-      "url": "https://www.hankyung.com/article/202601288391i",
-      "keywords_hit": [
-        "반도체"
-      ]
     }
   ]
 }
