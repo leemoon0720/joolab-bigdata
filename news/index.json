@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-28 13:30 KST",
+  "updated_at": "2026-01-28 14:02 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,36 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-28 13:44",
+      "title": "실적 회복과 배터리 납품 소식에…LG에너지솔루션, 4%대 상승세",
+      "url": "https://www.mk.co.kr/news/stock/11945640",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 13:33",
+      "title": "AI 인프라주로 부상하나…코닝, 메타 공급계약 소식에 급등",
+      "url": "https://www.hankyung.com/article/202601287779i",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-28 13:32",
+      "title": "美 메디케어 충격파…‘버핏 픽’ 유나헬 실적 발표 후 20% 폭락",
+      "url": "https://www.mk.co.kr/news/stock/11945625",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -274,16 +304,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-28 08:52",
-      "title": "\"LG, AI 역량 재평가 전망\"-키움",
-      "url": "https://www.hankyung.com/article/2026012870386",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-28 08:52",
@@ -363,22 +383,6 @@
         "IPO",
         "M&A"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 19:16",
-      "title": "“한국 성장률 2% 전망”…‘오천피·천스닥’ 이후 자본시장은",
-      "url": "https://www.mk.co.kr/news/stock/11944866",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-27 19:04",
-      "title": "삼일PwC, 한국산업지능화協과 ‘CAXO 최고위 과정’ MOU",
-      "url": "https://www.mk.co.kr/news/stock/11944859",
-      "keywords_hit": []
     }
   ]
 }
