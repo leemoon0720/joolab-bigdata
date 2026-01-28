@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-28 15:38 KST",
+  "updated_at": "2026-01-28 16:02 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,6 +23,38 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-28 15:40",
+      "title": "“두근두근, 오늘은 돈 얼마나 불었을까?”…금은동 ETF 순자산 올해 2.2조↑",
+      "url": "https://www.mk.co.kr/news/stock/11945819",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 15:38",
+      "title": "美 투자은행, 스토리 코인 'IP' 파격 전망…\"'IPST', 8달러 간다\"",
+      "url": "https://www.hankyung.com/article/202601288124g",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 15:36",
+      "title": "\"삼성전자 2배 ETF 나온다\"…금융당국, ETF 규제 대수술",
+      "url": "https://www.hankyung.com/article/202601288448i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 15:36",
+      "title": "AB운용 \"대형기술주 쏠림 완화 전망…헬스케어 업종에 관심\"",
+      "url": "https://www.hankyung.com/article/2026012880336",
+      "keywords_hit": []
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-28 15:33",
@@ -37,7 +69,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-28 15:31",
-      "title": "'하루 거래대금 25兆' 순환매 전망에… 이 종목 '돈' 몰린다",
+      "title": "'하루 거래대금 25兆' 순환매 전망에…이 종목 '돈' 몰린다",
       "url": "https://www.hankyung.com/article/202601288386i",
       "keywords_hit": []
     },
@@ -282,22 +314,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-28 10:40",
-      "title": "\"삼전·하이닉스 내일 또 큰 거 온다\"…개미들 '두근두근'",
-      "url": "https://www.hankyung.com/article/202601287514i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-28 10:36",
-      "title": "TS트릴리온, 청담글로벌과 410억원 규모 글로벌 공급계약",
-      "url": "https://www.hankyung.com/article/2026012875836",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-28 10:21",
@@ -306,16 +322,6 @@
       "keywords_hit": [
         "코스피",
         "코스닥"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-28 10:16",
-      "title": "[단독] 미래에셋운용, 바이오주 액티브 ETF 선보인다",
-      "url": "https://www.hankyung.com/article/2026012873956",
-      "keywords_hit": [
-        "바이오"
       ]
     },
     {
@@ -371,16 +377,6 @@
       "title": "다올투자증권 “현대해상, 보험손익 감소 전망…신계약 마진은 증가”",
       "url": "https://www.mk.co.kr/news/stock/11945317",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-28 08:40",
-      "title": "“코스닥 1500까지 가능…공매도 비율 높은 종목 눈여겨봐야” [오늘 나온 보고서]",
-      "url": "https://www.mk.co.kr/news/stock/11945309",
-      "keywords_hit": [
-        "코스닥"
-      ]
     }
   ]
 }
