@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-28 16:02 KST",
+  "updated_at": "2026-01-28 16:36 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,54 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-28 16:35",
+      "title": "[속보] SK하이닉스 작년 매출 97.1조·영업익 47.2조…사상 최대실적",
+      "url": "https://www.mk.co.kr/news/business/11945895",
+      "keywords_hit": [
+        "실적",
+        "매출"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 16:24",
+      "title": "李 지적 부담 컸나…논란 인 토큰증권 장외거래소 결정 또 보류",
+      "url": "https://www.hankyung.com/article/2026012881746",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-28 16:21",
+      "title": "투자자 예탁금 100조원 시대 개막…코스피 5100 돌파",
+      "url": "https://www.hankyung.com/article/202601288615i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-28 16:07",
+      "title": "“유럽 최대 경제 대국도 추월했다”…한국 증시 시총, 얼마나 불었나 보니",
+      "url": "https://www.mk.co.kr/news/stock/11945850",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-28 16:06",
+      "title": "코스피, 5100선 마감 사상 최고치 경신…코스닥 4%대↑",
+      "url": "https://www.mk.co.kr/news/stock/11945849",
+      "keywords_hit": [
+        "코스피",
+        "코스닥"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -58,7 +106,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-28 15:33",
-      "title": "[속보] 코스피 1.69% 오른 5170.81…코스닥도 1100 돌파 마감",
+      "title": "코스피, 5100선 넘어 최고치 행진…코스닥도 1100선 돌파",
       "url": "https://www.hankyung.com/article/2026012884046",
       "keywords_hit": [
         "코스피",
@@ -295,25 +343,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-28 11:16",
-      "title": "16만전자·85만닉스 업고 5200 넘보는 코스피…코스닥도 3.7%↑",
-      "url": "https://www.hankyung.com/article/2026012877396",
-      "keywords_hit": [
-        "코스피",
-        "코스닥"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-28 11:07",
-      "title": "[마켓PRO] \"맥쿼리 나갔다\"…고수들, '오버행 해소' LG CNS 매수",
-      "url": "https://www.hankyung.com/article/202601287644i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-28 10:21",
@@ -348,34 +377,6 @@
       "published_at": "2026-01-28 10:04",
       "title": "[MK시그널] 베라사이트 매도신호 포착, 수익률 35% 달성",
       "url": "https://www.mk.co.kr/news/stock/11945447",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-28 09:27",
-      "title": "‘16만전자·81만닉스’, 연일 최고가 기록…실적 발표 하루 앞두고 강세",
-      "url": "https://www.mk.co.kr/news/stock/11945379",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-28 09:03",
-      "title": "“개미들 ‘두근두근’ 오늘 밤 잠못든다”…삼성전자·SK하이닉스 29일 실적 발표",
-      "url": "https://www.mk.co.kr/news/business/11945328",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-28 08:52",
-      "title": "다올투자증권 “현대해상, 보험손익 감소 전망…신계약 마진은 증가”",
-      "url": "https://www.mk.co.kr/news/stock/11945317",
       "keywords_hit": []
     }
   ]
