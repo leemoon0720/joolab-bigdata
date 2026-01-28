@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-29 07:52 KST",
+  "updated_at": "2026-01-29 08:16 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,26 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 08:15",
+      "title": "SK이노 ‘빅배스’ 끝 보인다…2026년 흑자전환 기대 [오늘 나온 보고서]",
+      "url": "https://www.mk.co.kr/news/stock/11946575",
+      "keywords_hit": [
+        "흑자"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 08:00",
+      "title": "“기아, 신차 효과에 로봇 사업 지분가치 확대”…목표가 21만원으로 상향",
+      "url": "https://www.mk.co.kr/news/stock/11946566",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -214,14 +234,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-28 17:55",
-      "title": "\"지금도 싸다\" 150만닉스 파격전망",
-      "url": "https://www.mk.co.kr/news/stock/11946027",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-28 17:54",
@@ -230,14 +242,6 @@
       "keywords_hit": [
         "환율"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-28 17:51",
-      "title": "사모투자펀드 협의회 협회 전환 논의 공식화",
-      "url": "https://www.mk.co.kr/news/stock/11946022",
-      "keywords_hit": []
     },
     {
       "source": "HK",
