@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-29 08:43 KST",
+  "updated_at": "2026-01-29 08:58 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,100 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 08:57",
+      "title": "SK증권, 이사회 중심 관리체계 확대…‘책임경영’ 강화",
+      "url": "https://www.mk.co.kr/news/stock/11946607",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 08:52",
+      "title": "“LG생활건강, 4분기 어닝쇼크…하반기 턴어라운드 기대”",
+      "url": "https://www.mk.co.kr/news/stock/11946596",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 08:51",
+      "title": "\"삼성물산, 실적 개선·주주환원 강화 전망…목표가↑\"-SK",
+      "url": "https://www.hankyung.com/article/2026012998326",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 08:51",
+      "title": "피델리티, 달러 스테이블코인 시장 진출…‘FIDD’ 발행",
+      "url": "https://www.mk.co.kr/news/stock/11946594",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 08:50",
+      "title": "\"책임경영 강화\" SK증권, 이사회 중심 의사결정 체계 구축",
+      "url": "https://www.hankyung.com/article/2026012998346",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 08:45",
+      "title": "거래량은 글로벌 톱인데 산업은 ‘불모지’…규제에 갇힌 韓 디지털자산",
+      "url": "https://www.mk.co.kr/news/stock/11946588",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 08:45",
+      "title": "스테이블코인 시총 3천억달러 돌파…“가상자산 넘어 금융 인프라로”",
+      "url": "https://www.mk.co.kr/news/stock/11946587",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 08:45",
+      "title": "사주 횡령 회계 누락…스포츠서울 전 대표 등 과징금 13억원",
+      "url": "https://www.mk.co.kr/news/stock/11946586",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 08:44",
+      "title": "이달에만 24% 뛰었다…로봇 뜨자 POSCO홀딩스 개미 '들썩' [종목+]",
+      "url": "https://www.hankyung.com/article/2026012995946",
+      "keywords_hit": [
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 08:44",
+      "title": "\"SKIET, 적자 장기간 지속될 것…투자의견 '중립'\"-유진",
+      "url": "https://www.hankyung.com/article/2026012998106",
+      "keywords_hit": [
+        "적자"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 08:35",
+      "title": "\"증시 활황에 증권株 강세 지속…최선호 미래에셋\"-키움",
+      "url": "https://www.hankyung.com/article/2026012997536",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -225,63 +319,6 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-28 18:08",
-      "title": "“아직도, 지금도 싸다”…150만닉스 전망까지 나와",
-      "url": "https://www.mk.co.kr/news/stock/11946098",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-28 18:04",
-      "title": "국내도 '단일종목 2배 ETF' 나온다",
-      "url": "https://www.mk.co.kr/news/stock/11946082",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-28 18:04",
-      "title": "'자산 2조' 코스피 상장사 … 5월부터 영문공시 의무화",
-      "url": "https://www.mk.co.kr/news/stock/11946079",
-      "keywords_hit": [
-        "코스피",
-        "상장",
-        "공시"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-28 18:04",
-      "title": "압타머사이언스, 120억원 규모 유상증자 실시",
-      "url": "https://www.mk.co.kr/news/stock/11946076",
-      "keywords_hit": [
-        "증자"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-28 18:04",
-      "title": "반도체·2차전지 '쌍끌이'…파죽지세 韓증시",
-      "url": "https://www.mk.co.kr/news/stock/11946074",
-      "keywords_hit": [
-        "반도체",
-        "2차전지"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-28 18:03",
-      "title": "日 골프장 매물 쌓이자 韓서도 매수자 찾는다",
-      "url": "https://www.mk.co.kr/news/stock/11946070",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-28 17:54",
@@ -332,48 +369,6 @@
       "published_at": "2026-01-28 17:44",
       "title": "日 키옥시아, 시총 10조엔 돌파",
       "url": "https://www.hankyung.com/article/2026012888661",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-28 17:43",
-      "title": "항공기 인도량 증가…보잉, 매출 57% 날개",
-      "url": "https://www.hankyung.com/article/2026012888681",
-      "keywords_hit": [
-        "매출"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-28 17:31",
-      "title": "5000억어치 사들였는데…\"살려달라\" 개미들 '비명' 터졌다",
-      "url": "https://www.hankyung.com/article/2026012888371",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-28 17:30",
-      "title": "오천피·천스닥 '활화산'…K증시 시총, 독일 제치고 세계 10위",
-      "url": "https://www.hankyung.com/article/2026012889371",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-28 17:28",
-      "title": "하루 거래대금 26조…순환매 장세 왔다",
-      "url": "https://www.hankyung.com/article/2026012888411",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-28 17:26",
-      "title": "올해 증시가 2007년과 다른 점",
-      "url": "https://www.hankyung.com/article/2026012888401",
       "keywords_hit": []
     }
   ]
