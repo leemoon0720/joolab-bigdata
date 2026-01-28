@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-29 07:24 KST",
+  "updated_at": "2026-01-29 07:52 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,24 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 07:47",
+      "title": "신한운용 전고체 배터리 ETF, 올해 수익률 40% 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11946554",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 07:47",
+      "title": "하나운용 “코스피200 ETF 보수 인하…연금 ‘장투’ 이끌겠다”",
+      "url": "https://www.mk.co.kr/news/stock/11946553",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -220,26 +238,6 @@
       "title": "사모투자펀드 협의회 협회 전환 논의 공식화",
       "url": "https://www.mk.co.kr/news/stock/11946022",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-28 17:50",
-      "title": "버핏이 찜한 유나헬 실적 발표 후 20%↓",
-      "url": "https://www.mk.co.kr/news/stock/11946021",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-28 17:50",
-      "title": "[미국 주식 돋보기] 코닝 'AI인프라株' 부상…메타와 8조원 계약",
-      "url": "https://www.mk.co.kr/news/stock/11946018",
-      "keywords_hit": [
-        "AI"
-      ]
     },
     {
       "source": "HK",
