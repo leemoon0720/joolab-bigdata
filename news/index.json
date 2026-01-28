@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-29 00:38 KST",
+  "updated_at": "2026-01-29 01:03 KST",
   "sources": [
     {
       "id": "HK",
@@ -44,7 +44,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-28 22:00",
-      "title": "\"10년 더 '존버'\"…한미약품 비만약 수출 소식에 개미 '환호' [종목+]",
+      "title": "\"10년 더 존버\" 환호…결국 '55만원' 찍고 난리 난 회사 [종목+]",
       "url": "https://www.hankyung.com/article/2026012885316",
       "keywords_hit": []
     },
@@ -328,20 +328,18 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-28 17:22",
-      "title": "[특징주 & 리포트] '호실적에 6% 뛴 LS일렉트릭' 등",
+      "title": "[특징주 & 리포트] ''유럽 진출' 에코프로 21% 급등' 등",
       "url": "https://www.hankyung.com/article/2026012888451",
-      "keywords_hit": [
-        "실적"
-      ]
+      "keywords_hit": []
     },
     {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-28 17:20",
-      "title": "테슬라 마이크로소프트 메타 실적",
+      "title": "미국 FOMC 금리 결정",
       "url": "https://www.hankyung.com/article/2026012888361",
       "keywords_hit": [
-        "실적"
+        "금리"
       ]
     },
     {
