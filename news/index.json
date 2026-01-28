@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-28 19:21 KST",
+  "updated_at": "2026-01-28 19:51 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-28 19:45",
+      "title": "주름제거 필러 '쥬베룩' … 지분 100% 2조에 판다",
+      "url": "https://www.mk.co.kr/news/stock/11946126",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -70,14 +78,6 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-28 18:04",
-      "title": "SK이노베이션 지난해 영업익 4481억",
-      "url": "https://www.mk.co.kr/news/stock/11946078",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-28 18:04",
       "title": "'자산 2조' 코스피 상장사 … 5월부터 영문공시 의무화",
       "url": "https://www.mk.co.kr/news/stock/11946079",
       "keywords_hit": [
@@ -119,7 +119,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-28 18:00",
-      "title": "국내복귀계좌 상품성도 높여 … 1주만 사도 양도세 깎아준다",
+      "title": "국내복귀계좌 상품성도 높여 … 팔기만 해도 양도세 깎아준다",
       "url": "https://www.mk.co.kr/news/stock/11946044",
       "keywords_hit": []
     },
@@ -173,11 +173,9 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-28 17:50",
-      "title": "코스피 추종 美 ETF 올 수익률 70% 돌파",
+      "title": "韓증시 추종 美 ETF … 올 수익률 70% 돌파",
       "url": "https://www.mk.co.kr/news/stock/11946019",
-      "keywords_hit": [
-        "코스피"
-      ]
+      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -202,7 +200,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-28 17:46",
-      "title": "EU '내연차 판매 허용'에…백금, 한달새 20% 쑥",
+      "title": "금·은 다음은 '이것'…'182% 폭등' 이러다 일 내겠네",
       "url": "https://www.hankyung.com/article/2026012888731",
       "keywords_hit": []
     },
@@ -247,7 +245,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-28 17:31",
-      "title": "5000억어치 사들였는데…\"살려달라\" 개미들 '비명' 터졌다",
+      "title": "\"살려달라\" 역베팅 늪에 빠진 개미들…육천피 찍으면 지옥행",
       "url": "https://www.hankyung.com/article/2026012888371",
       "keywords_hit": []
     },
