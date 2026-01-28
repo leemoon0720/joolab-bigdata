@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-29 05:57 KST",
+  "updated_at": "2026-01-29 06:32 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,18 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 06:00",
+      "title": "한물 간 반도체 기업인 줄 알았는데 알고보니 AI 관련주…고배당 저평가 매력 TI의 미래는 [매일 돈이 보이는 습관 M+]",
+      "url": "https://www.mk.co.kr/news/stock/11946015",
+      "keywords_hit": [
+        "반도체",
+        "배당",
+        "AI"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -210,14 +222,6 @@
       "keywords_hit": [
         "AI"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-28 17:50",
-      "title": "韓증시 추종 美 ETF … 올 수익률 70% 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11946019",
-      "keywords_hit": []
     },
     {
       "source": "HK",
