@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-28 18:24 KST",
+  "updated_at": "2026-01-28 18:54 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-28 18:44",
+      "title": "연일 늦춰지는 미국판 디지털자산기본법, 쟁점이 뭐길래 [엠블록레터]",
+      "url": "https://www.mk.co.kr/news/stock/11946110",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -145,20 +153,20 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-28 17:50",
-      "title": "[미국 주식 돋보기] 코닝 'AI인프라株' 부상…메타와 8조원 계약",
-      "url": "https://www.mk.co.kr/news/stock/11946018",
+      "title": "코스피 추종 美 ETF 올 수익률 70% 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11946019",
       "keywords_hit": [
-        "AI"
+        "코스피"
       ]
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-28 17:50",
-      "title": "코스피 추종 美 ETF 올 수익률 70% 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11946019",
+      "title": "[미국 주식 돋보기] 코닝 'AI인프라株' 부상…메타와 8조원 계약",
+      "url": "https://www.mk.co.kr/news/stock/11946018",
       "keywords_hit": [
-        "코스피"
+        "AI"
       ]
     },
     {
@@ -381,17 +389,6 @@
       "title": "“두근두근, 오늘은 돈 얼마나 불었을까?”…금은동 ETF 순자산 올해 2.2조↑",
       "url": "https://www.mk.co.kr/news/stock/11945819",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-28 15:29",
-      "title": "라온피플, AI 사업 호조로 ‘흑자전환’ 달성… 글로벌 공략 가속화",
-      "url": "https://www.mk.co.kr/news/stock/11945807",
-      "keywords_hit": [
-        "흑자",
-        "AI"
-      ]
     }
   ]
 }
