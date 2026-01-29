@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-30 06:26 KST",
+  "updated_at": "2026-01-30 06:50 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 06:40",
+      "title": "\"돈 못 버는 개미 여기 있어요\"…불장에 소외받자 결국 [맹진규의 글로벌 머니플로우]",
+      "url": "https://www.hankyung.com/article/202601291813i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -376,14 +384,6 @@
       "keywords_hit": [
         "바이오"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 16:50",
-      "title": "NH투자증권, 사상 처음으로 연간 순이익 1조원 넘겨",
-      "url": "https://www.hankyung.com/article/2026012916826",
-      "keywords_hit": []
     }
   ]
 }
