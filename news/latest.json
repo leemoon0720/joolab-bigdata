@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-29 20:07 KST",
+  "updated_at": "2026-01-29 20:44 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 20:16",
+      "title": "‘분기영업익 20조’ 새역사 쓴 삼성전자…“HBM4, 내달 양산 출하”",
+      "url": "https://www.mk.co.kr/news/business/11947526",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -144,16 +152,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-29 17:42",
-      "title": "삼보산업, 46억 원 규모 전환사채 발행",
-      "url": "https://www.mk.co.kr/news/stock/11947317",
+      "title": "제이케이시냅스, 150억 원 규모 전환사채 발행",
+      "url": "https://www.mk.co.kr/news/stock/11947316",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-29 17:42",
-      "title": "제이케이시냅스, 150억 원 규모 전환사채 발행",
-      "url": "https://www.mk.co.kr/news/stock/11947316",
+      "title": "삼보산업, 46억 원 규모 전환사채 발행",
+      "url": "https://www.mk.co.kr/news/stock/11947317",
       "keywords_hit": []
     },
     {
@@ -288,14 +296,6 @@
       "keywords_hit": [
         "실적"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 17:30",
-      "title": "잇달아 파산한 아메리칸 스타일 ‘가슴식당’…재기의 몸부림 어떻게? [오찬종의 매일뉴욕]",
-      "url": "https://www.mk.co.kr/news/stock/11947175",
-      "keywords_hit": []
     },
     {
       "source": "HK",
