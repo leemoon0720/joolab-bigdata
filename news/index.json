@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-29 11:27 KST",
+  "updated_at": "2026-01-29 13:17 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,10 +25,84 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-29 13:16",
+      "title": "한화투자증권, 디지털자산 데이터 플랫폼 ‘쟁글’에 100억 원 전략 투자",
+      "url": "https://www.mk.co.kr/news/stock/11946957",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 13:09",
+      "title": "코스피·코스닥 휘청이지만…반도체 소부장, 로봇株는 계속 간다[매경 자이앤트]",
+      "url": "https://www.mk.co.kr/news/stock/11946954",
+      "keywords_hit": [
+        "코스피",
+        "코스닥",
+        "반도체",
+        "로봇"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 13:07",
+      "title": "해시드 “국가 경쟁력을 담아낼 수 있는 원화 스테이블코인 솔루션 제공할 것” [매일코인]",
+      "url": "https://www.mk.co.kr/news/stock/11946953",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 13:00",
+      "title": "\"요즘엔 금수저보다 銀수저\"...은값 폭등에 날아오른 은광주 [양지윤의 니가가라 나스닥]",
+      "url": "https://www.hankyung.com/article/202601288696i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 12:47",
+      "title": "포스코퓨처엠, 4분기 영업손실 518억…전년비 적자 규모 늘어",
+      "url": "https://www.hankyung.com/article/2026012907966",
+      "keywords_hit": [
+        "적자"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 11:30",
+      "title": "민주당 “스테이블코인법 2월 당론 발의”…디지털자산기본법 ‘先안정 後혁신’",
+      "url": "https://www.mk.co.kr/news/stock/11946874",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 11:29",
+      "title": "[마켓PRO] 고수들, '컨콜' 삼성전자 주춤하자 집중 매수",
+      "url": "https://www.hankyung.com/article/202601290509i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-29 11:24",
       "title": "상위 1% 초고수, 삼양식품 ‘톱픽’…삼전은 사고 닉스는 팔고 [주식 초고수는 지금]",
       "url": "https://www.mk.co.kr/news/stock/11946861",
       "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 11:19",
+      "title": "코스피, 5200 뚫고 하락 전환…코스닥 '롤러코스터'",
+      "url": "https://www.hankyung.com/article/2026012905156",
+      "keywords_hit": [
+        "코스피",
+        "코스닥"
+      ]
     },
     {
       "source": "HK",
@@ -42,7 +116,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-29 11:10",
-      "title": "\"두쫀쿠 원료 공급 확대\"…흥국에프앤비, 장중 상한가",
+      "title": "'두쫀쿠' 없어서 못 먹는다더니…천장 찍은 종목 뭐길래 [종목+]",
       "url": "https://www.hankyung.com/article/2026012905226",
       "keywords_hit": []
     },
@@ -255,29 +329,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 08:51",
-      "title": "\"삼성물산, 실적 개선·주주환원 강화 전망…목표가↑\"-SK",
-      "url": "https://www.hankyung.com/article/2026012998326",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-29 08:51",
       "title": "피델리티, 달러 스테이블코인 시장 진출…‘FIDD’ 발행",
       "url": "https://www.mk.co.kr/news/stock/11946594",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 08:50",
-      "title": "\"책임경영 강화\" SK증권, 이사회 중심 의사결정 체계 구축",
-      "url": "https://www.hankyung.com/article/2026012998346",
       "keywords_hit": []
     },
     {
@@ -305,24 +361,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 08:44",
-      "title": "\"물타기로 버텼는데 드디어\"…주가 24% 급등에 개미들 '들썩' [종목+]",
-      "url": "https://www.hankyung.com/article/2026012995946",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 08:44",
-      "title": "\"SKIET, 적자 장기간 지속될 것…투자의견 '중립'\"-유진",
-      "url": "https://www.hankyung.com/article/2026012998106",
-      "keywords_hit": [
-        "적자"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-29 08:29",
@@ -338,46 +376,6 @@
       "url": "https://www.mk.co.kr/news/stock/11946575",
       "keywords_hit": [
         "흑자"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 08:00",
-      "title": "“기아, 신차 효과에 로봇 사업 지분가치 확대”…목표가 21만원으로 상향",
-      "url": "https://www.mk.co.kr/news/stock/11946566",
-      "keywords_hit": [
-        "로봇"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 07:47",
-      "title": "신한운용 전고체 배터리 ETF, 올해 수익률 40% 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11946554",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 07:47",
-      "title": "하나운용 “코스피200 ETF 보수 인하…연금 ‘장투’ 이끌겠다”",
-      "url": "https://www.mk.co.kr/news/stock/11946553",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 06:00",
-      "title": "한물 간 반도체 기업인 줄 알았는데 알고보니 AI 관련주…고배당 저평가 매력 TI의 미래는 [매일 돈이 보이는 습관 M+]",
-      "url": "https://www.mk.co.kr/news/stock/11946015",
-      "keywords_hit": [
-        "반도체",
-        "배당",
-        "AI"
       ]
     }
   ]
