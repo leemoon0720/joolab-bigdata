@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-30 06:50 KST",
+  "updated_at": "2026-01-30 07:14 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 07:10",
+      "title": "“지금 사야 하나, 말아야 하나”…5500달러 돌파하고 쉼표 찍은 금값",
+      "url": "https://www.mk.co.kr/news/stock/11947940",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -178,19 +186,19 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-29 17:53",
-      "title": "ETF 쓸어담는 개미 … 이달 13조 순매수",
-      "url": "https://www.mk.co.kr/news/stock/11947369",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 17:53",
       "title": "에코프로비엠 코스닥 시총1위 탈환",
       "url": "https://www.mk.co.kr/news/stock/11947368",
       "keywords_hit": [
         "코스닥"
       ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 17:53",
+      "title": "ETF 쓸어담는 개미 … 이달 13조 순매수",
+      "url": "https://www.mk.co.kr/news/stock/11947369",
+      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -236,14 +244,6 @@
         "M&A",
         "AI"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 17:38",
-      "title": "국민연금, 작년 11월까지 全 자산군 벤치마크 꺾어",
-      "url": "https://www.mk.co.kr/news/stock/11947307",
-      "keywords_hit": []
     },
     {
       "source": "HK",
