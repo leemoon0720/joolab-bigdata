@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-29 19:35 KST",
+  "updated_at": "2026-01-29 20:07 KST",
   "sources": [
     {
       "id": "HK",
@@ -88,7 +88,7 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-29 17:59",
-      "title": "SK에코, IPO 어려워지자 자금상환 추진",
+      "title": "SK에코, IPO 예심청구 대신 자금상환 추진",
       "url": "https://www.mk.co.kr/news/stock/11947437",
       "keywords_hit": [
         "IPO"
@@ -160,10 +160,11 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-29 17:38",
-      "title": "박현주 \"5년간 벌어들일 28조원, 글로벌 M&A에 투입\"",
+      "title": "\"xAI·스페이스X 등 투자로 28兆 벌 것…M&A에 투입\"",
       "url": "https://www.hankyung.com/article/2026012918791",
       "keywords_hit": [
-        "M&A"
+        "M&A",
+        "AI"
       ]
     },
     {
