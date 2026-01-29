@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-30 07:14 KST",
+  "updated_at": "2026-01-30 07:48 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 07:18",
+      "title": "'MS 쇼크'에 혼조 마감…나스닥 0.7% 하락 [뉴욕증시 브리핑]",
+      "url": "https://www.hankyung.com/article/2026013024486",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -373,16 +381,6 @@
       "url": "https://www.hankyung.com/article/2026012918011",
       "keywords_hit": [
         "매출"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 17:15",
-      "title": "큐롬바이오사이언스, 신약후보물질 국내 특허 등록",
-      "url": "https://www.hankyung.com/article/2026012917676",
-      "keywords_hit": [
-        "바이오"
       ]
     }
   ]
