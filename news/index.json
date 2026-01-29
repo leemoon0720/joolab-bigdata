@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-29 14:14 KST",
+  "updated_at": "2026-01-29 15:00 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,76 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 14:52",
+      "title": "'부실대출 논란' SK증권, 장중 상한가 직행",
+      "url": "https://www.hankyung.com/article/2026012911846",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 14:39",
+      "title": "[속보] 현대차 \"작년 관세 비용 4조1100억원 부담\"",
+      "url": "https://www.hankyung.com/article/2026012911546",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 14:33",
+      "title": "\"코스피 7000도 가능\"…'李 대통령 경제멘토'의 진단",
+      "url": "https://www.hankyung.com/article/202601291060i",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 14:33",
+      "title": "“딱 100% 오르면 5000, 코스피가 정치 테마주냐?” 비웃더니…‘조롱 맛집’ 된 유튜버",
+      "url": "https://www.mk.co.kr/news/stock/11947044",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 14:32",
+      "title": "포스코홀딩스, 지난해 영업익 1조8300억…전년비 15.7%↓",
+      "url": "https://www.hankyung.com/article/2026012911276",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 14:20",
+      "title": "삼성운용 ‘KODEX 은선물(H)’ 올해 수익률 50.5%…ETF 전체 1위",
+      "url": "https://www.mk.co.kr/news/stock/11947028",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 14:19",
+      "title": "트럼프, 잇단 이란 압박…WTI 63달러 돌파 [오늘의 유가]",
+      "url": "https://www.hankyung.com/article/202601290821i",
+      "keywords_hit": [
+        "유가"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 14:06",
+      "title": "[마켓PRO] 서학개미, '美 실드 참여' 레드와이어 매수",
+      "url": "https://www.hankyung.com/article/202601290517i",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -262,33 +332,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 09:46",
-      "title": "상승 출발한 코스피·코스닥 하락 전환",
-      "url": "https://www.hankyung.com/article/2026012900946",
-      "keywords_hit": [
-        "코스피",
-        "코스닥"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 09:44",
-      "title": "[단독] \"심판이 플레이어로?\"…넥스트레이드 대표 '회전문' 논란",
-      "url": "https://www.hankyung.com/article/202601288085i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 09:41",
-      "title": "하나증권, 데이터젠과 국내 최초 '한돈' 투자계약증권 공모 추진",
-      "url": "https://www.hankyung.com/article/2026012900696",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-29 09:38",
@@ -302,14 +345,6 @@
       "published_at": "2026-01-29 09:34",
       "title": "SK스퀘어, ‘하이닉스 최대 수혜주’ 호평에 5%대↑",
       "url": "https://www.mk.co.kr/news/stock/11946691",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 09:33",
-      "title": "호재 나왔는데도 \"1위 뺏겼다\"…흐르는 주가에 개미 '분통'",
-      "url": "https://www.hankyung.com/article/2026012999016",
       "keywords_hit": []
     },
     {
@@ -334,43 +369,11 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 09:24",
-      "title": "대신증권, 중개형ISA 이벤트…수수료 인하에 경품까지",
-      "url": "https://www.hankyung.com/article/2026012999746",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 09:15",
-      "title": "비보존 제약, 진통제 신약 후보의 미국 임상 승인 소식에 강세",
-      "url": "https://www.hankyung.com/article/2026012999276",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-29 08:57",
       "title": "SK증권, 이사회 중심 관리체계 확대…‘책임경영’ 강화",
       "url": "https://www.mk.co.kr/news/stock/11946607",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 08:52",
-      "title": "“LG생활건강, 4분기 어닝쇼크…하반기 턴어라운드 기대”",
-      "url": "https://www.mk.co.kr/news/stock/11946596",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 08:51",
-      "title": "피델리티, 달러 스테이블코인 시장 진출…‘FIDD’ 발행",
-      "url": "https://www.mk.co.kr/news/stock/11946594",
       "keywords_hit": []
     }
   ]
