@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-29 15:00 KST",
+  "updated_at": "2026-01-29 16:00 KST",
   "sources": [
     {
       "id": "HK",
@@ -23,6 +23,61 @@
   "count": 40,
   "items": [
     {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 15:52",
+      "title": "특금법 개정안 국회 통과… 코인 거래소 대주주 범죄이력·재무상태 정밀 검증",
+      "url": "https://www.mk.co.kr/news/stock/11947141",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 15:34",
+      "title": "1% 초고수, 삼성전자·NAVER 담았다 [주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11947119",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 15:33",
+      "title": "[속보] 코스피, 사상 첫 5200선 돌파 …코스닥도 2.7% 상승 마감",
+      "url": "https://www.hankyung.com/article/2026012912846",
+      "keywords_hit": [
+        "코스피",
+        "코스닥"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 15:32",
+      "title": "3000닥 뒷받침…1400조 연기금 코스닥·벤처 투자 북돋는다",
+      "url": "https://www.hankyung.com/article/202601291318i",
+      "keywords_hit": [
+        "코스닥"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 15:05",
+      "title": "판 키우는 카모 지분 매각...플랫폼 공룡들에도 ‘러브콜’",
+      "url": "https://www.mk.co.kr/news/stock/11947081",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 15:04",
+      "title": "“요즘 현기증 나? 아니면 더 갈까?”…코스피 6000도 가능하다는 모건스탠리",
+      "url": "https://www.mk.co.kr/news/stock/11947080",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-29 14:52",
@@ -42,7 +97,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-29 14:33",
-      "title": "\"코스피 7000도 가능\"…'李 대통령 경제멘토'의 진단",
+      "title": "\"코스피 7000까지도 가능\"…'李 대통령 경제 멘토'의 진단",
       "url": "https://www.hankyung.com/article/202601291060i",
       "keywords_hit": [
         "코스피"
@@ -312,68 +367,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 09:56",
-      "title": "LG에너지솔루션, 4분기 영업손실 1220억…적자폭 줄여",
-      "url": "https://www.hankyung.com/article/2026012901276",
-      "keywords_hit": [
-        "적자"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 09:52",
-      "title": "현대차, 트럼프 '타코'·로봇 기대감에 강세",
-      "url": "https://www.hankyung.com/article/2026012901006",
-      "keywords_hit": [
-        "로봇"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-29 09:38",
       "title": "[MK 골든크로스 돌파종목 : 바이넥스(053030) & 아이티켐(309710)]",
       "url": "https://www.mk.co.kr/news/stock/11946698",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 09:34",
-      "title": "SK스퀘어, ‘하이닉스 최대 수혜주’ 호평에 5%대↑",
-      "url": "https://www.mk.co.kr/news/stock/11946691",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 09:26",
-      "title": "코스피, 5200선 넘어 또 사상 최고치 경신…코스닥 2%대 급등",
-      "url": "https://www.mk.co.kr/news/stock/11946685",
-      "keywords_hit": [
-        "코스피",
-        "코스닥"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 09:25",
-      "title": "[MK시그널] 폴라리스오피스, AI 협업 시장 대전환 등에 주가 상승세... MK시그널 추천 후 상승률 16.04% 기록",
-      "url": "https://www.mk.co.kr/news/stock/11946684",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 08:57",
-      "title": "SK증권, 이사회 중심 관리체계 확대…‘책임경영’ 강화",
-      "url": "https://www.mk.co.kr/news/stock/11946607",
       "keywords_hit": []
     }
   ]
