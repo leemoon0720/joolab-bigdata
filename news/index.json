@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-29 13:17 KST",
+  "updated_at": "2026-01-29 14:14 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,64 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 14:01",
+      "title": "현대차 지난해 영업익 11조4679억…전년비19.5%↓",
+      "url": "https://www.hankyung.com/article/2026012909876",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 13:47",
+      "title": "예탁원, ICSD 역외 국채 결제 및 원천징수 가이드라인 발표",
+      "url": "https://www.mk.co.kr/news/stock/11946979",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 13:45",
+      "title": "[마켓칼럼]또 다시 꿈틀대는 건설업 주가",
+      "url": "https://www.hankyung.com/article/202601290845i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 13:43",
+      "title": "SNT그룹, 창사 이래 최대 실적…영업익 3000억 시대 열었다",
+      "url": "https://www.mk.co.kr/news/business/11946978",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 13:39",
+      "title": "미래에셋증권, 국내 최초 디지털 채권 1000억원 규모 조달",
+      "url": "https://www.mk.co.kr/news/stock/11946973",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 13:35",
+      "title": "“이번엔 이란 핑계로 날아가요”…금값 5500달러 가볍게 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11946968",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 13:17",
+      "title": "하나증권, 데이터젠과 국내 최초 ‘한돈’ 투자계약증권 공모 추진",
+      "url": "https://www.mk.co.kr/news/stock/11946958",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -55,7 +113,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-29 13:00",
-      "title": "\"요즘엔 금수저보다 銀수저\"...은값 폭등에 날아오른 은광주 [양지윤의 니가가라 나스닥]",
+      "title": "\"1억 넣었으면 3억 됐다\"…은값 폭등에 '잭팟' 터진 회사 [양지윤의 니가가라 나스닥]",
       "url": "https://www.hankyung.com/article/202601288696i",
       "keywords_hit": []
     },
@@ -292,27 +350,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 09:11",
-      "title": "[속보] 코스피 '5200' 또 신기록…코스닥도 2.7% 급등",
-      "url": "https://www.hankyung.com/article/202601299868i",
-      "keywords_hit": [
-        "코스피",
-        "코스닥"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 09:03",
-      "title": "코스피, 1.4% 오르며 5200 돌파…또 최고치 경신",
-      "url": "https://www.hankyung.com/article/2026012998536",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-29 08:57",
@@ -335,48 +372,6 @@
       "title": "피델리티, 달러 스테이블코인 시장 진출…‘FIDD’ 발행",
       "url": "https://www.mk.co.kr/news/stock/11946594",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 08:45",
-      "title": "거래량은 글로벌 톱인데 산업은 ‘불모지’…규제에 갇힌 韓 디지털자산",
-      "url": "https://www.mk.co.kr/news/stock/11946588",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 08:45",
-      "title": "스테이블코인 시총 3천억달러 돌파…“가상자산 넘어 금융 인프라로”",
-      "url": "https://www.mk.co.kr/news/stock/11946587",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 08:45",
-      "title": "사주 횡령 회계 누락…스포츠서울 전 대표 등 과징금 13억원",
-      "url": "https://www.mk.co.kr/news/stock/11946586",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 08:29",
-      "title": "“한국 25% 관세 직면” 美 재무 압박…평안했던 FOMC에도 긴장 풀긴 일러",
-      "url": "https://www.mk.co.kr/news/stock/11946579",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 08:15",
-      "title": "“회계 부실 거의 다 털었다”…SK이노, 흑자전환 기대감 솔솔 [오늘 나온 보고서]",
-      "url": "https://www.mk.co.kr/news/stock/11946575",
-      "keywords_hit": [
-        "흑자"
-      ]
     }
   ]
 }
