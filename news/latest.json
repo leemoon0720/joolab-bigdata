@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-29 18:55 KST",
+  "updated_at": "2026-01-29 19:35 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,6 +25,24 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-29 19:34",
+      "title": "국민연금도 코스닥 전폭 지원…\"더 많은 수익 난다면 투자확대\"",
+      "url": "https://www.mk.co.kr/news/stock/11947482",
+      "keywords_hit": [
+        "코스닥"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 18:57",
+      "title": "끝도 없이 오른다, 금값 5500달러 돌파…실물없는 토큰화 금도 껑충",
+      "url": "https://www.mk.co.kr/news/stock/11947470",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-29 18:49",
       "title": "“외국인 판다고? 뭐 어쩌라고요”...오천피 올라탄 개미, 단단해졌다",
       "url": "https://www.mk.co.kr/news/stock/11947468",
@@ -46,16 +64,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-29 17:59",
-      "title": "[단독] 키움, 국내 2위 부동산운용 마스턴 품는다",
-      "url": "https://www.mk.co.kr/news/stock/11947441",
+      "title": "'윤병운號' NH증권 당기순익 1조원 시대",
+      "url": "https://www.mk.co.kr/news/stock/11947440",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-29 17:59",
-      "title": "'윤병운號' NH증권 당기순익 1조원 시대",
-      "url": "https://www.mk.co.kr/news/stock/11947440",
+      "title": "[단독] 키움, 국내 2위 부동산운용 마스턴 품는다",
+      "url": "https://www.mk.co.kr/news/stock/11947441",
       "keywords_hit": []
     },
     {
@@ -126,16 +144,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-29 17:42",
-      "title": "제이케이시냅스, 150억 원 규모 전환사채 발행",
-      "url": "https://www.mk.co.kr/news/stock/11947316",
+      "title": "삼보산업, 46억 원 규모 전환사채 발행",
+      "url": "https://www.mk.co.kr/news/stock/11947317",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-29 17:42",
-      "title": "삼보산업, 46억 원 규모 전환사채 발행",
-      "url": "https://www.mk.co.kr/news/stock/11947317",
+      "title": "제이케이시냅스, 150억 원 규모 전환사채 발행",
+      "url": "https://www.mk.co.kr/news/stock/11947316",
       "keywords_hit": []
     },
     {
@@ -279,16 +297,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 17:29",
-      "title": "EY한영 “지금은 NAVI의 시대’...AI로 기업 경쟁력 재설계를”",
-      "url": "https://www.mk.co.kr/news/stock/11947290",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-29 17:27",
@@ -341,14 +349,6 @@
       "keywords_hit": [
         "바이오"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 16:55",
-      "title": "“디지털 금이라더니 왜 이래?”…금 폭등하는데 암호화폐 일제히 하락",
-      "url": "https://www.mk.co.kr/news/stock/11947255",
-      "keywords_hit": []
     },
     {
       "source": "HK",
