@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-29 16:00 KST",
+  "updated_at": "2026-01-29 16:48 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,88 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 16:38",
+      "title": "인사이트에쿼티파트너스, AI·헬스케어 300억원 펀드 결성",
+      "url": "https://www.mk.co.kr/news/stock/11947230",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 16:24",
+      "title": "NH·노앤파트너스, 켐트로스 BW 권리행사...“장기 보유로 기업가치 제고”",
+      "url": "https://www.mk.co.kr/news/stock/11947197",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 16:21",
+      "title": "알고보니 개인이 밀어올린 코스닥…개별株 대신 '이 종목' 담았다",
+      "url": "https://www.hankyung.com/article/202601291579i",
+      "keywords_hit": [
+        "코스닥"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 16:17",
+      "title": "\"중국이 더는 안 사줘요\" 주가 하락세 탄 이 기업 [선한결의 이기업 왜이래]",
+      "url": "https://www.hankyung.com/article/202601291561i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 16:17",
+      "title": "NH아문디운용 ‘Fn K-반도체’ ETF, 순자산 1조원 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11947187",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 16:16",
+      "title": "미래에셋운용, TIGER 반도체TOP10 순자산 4조원 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11947184",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 16:07",
+      "title": "[단독] 박현주 미래에셋 회장 \"스페이스X 투자금, 글로벌 M&A에 재투자\"",
+      "url": "https://www.hankyung.com/article/202601291323i",
+      "keywords_hit": [
+        "M&A"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 16:04",
+      "title": "\"삼성전자 나만 없나\"…'벼락거지' 공포에 개미들 '우르르'",
+      "url": "https://www.hankyung.com/article/202601291464i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 16:02",
+      "title": "뮤직카우, 스테이블코인 STO 결제 실증 성공",
+      "url": "https://www.mk.co.kr/news/stock/11947154",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -269,14 +351,6 @@
       "keywords_hit": []
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 11:24",
-      "title": "상위 1% 초고수, 삼양식품 ‘톱픽’…삼전은 사고 닉스는 팔고 [주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11946861",
-      "keywords_hit": []
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-29 11:19",
@@ -301,77 +375,6 @@
       "published_at": "2026-01-29 11:10",
       "title": "'두쫀쿠' 없어서 못 먹는다더니…천장 찍은 종목 뭐길래 [종목+]",
       "url": "https://www.hankyung.com/article/2026012905226",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 11:02",
-      "title": "조이웍스앤코, 가구사업 구조 효율화 마무리…‘론칭 50주년’ 본격 성장 원년",
-      "url": "https://www.mk.co.kr/news/stock/11946837",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 10:40",
-      "title": "[속보] 대법, '하나은행 채용비리' 함영주 업무방해 무죄취지 파기환송",
-      "url": "https://www.hankyung.com/article/2026012903736",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 10:31",
-      "title": "[마켓칼럼]코스피 5000과 당신이 모르는 네 가지",
-      "url": "https://www.hankyung.com/article/202601288459i",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 10:18",
-      "title": "\"뷰티 부문도 적자\"…'실적 충격'에 LG생활건강, 3%대 하락",
-      "url": "https://www.hankyung.com/article/2026012902256",
-      "keywords_hit": [
-        "실적",
-        "적자"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 10:12",
-      "title": "“역대 최고실적”…삼성전자 내리고 SK하이닉스 강보합, 장 초반 엇갈린 흐름",
-      "url": "https://www.mk.co.kr/news/stock/11946748",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 10:05",
-      "title": "[MK시그널] 익스피디아 매도신호 포착, 수익률 59.8% 달성",
-      "url": "https://www.mk.co.kr/news/stock/11946737",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 10:01",
-      "title": "금융위, STO 장외거래소 결과 뒤집나…'안건소위로 회귀' 검토",
-      "url": "https://www.hankyung.com/article/2026012996496",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 09:38",
-      "title": "[MK 골든크로스 돌파종목 : 바이넥스(053030) & 아이티켐(309710)]",
-      "url": "https://www.mk.co.kr/news/stock/11946698",
       "keywords_hit": []
     }
   ]
