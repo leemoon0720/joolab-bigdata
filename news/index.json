@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-29 18:03 KST",
+  "updated_at": "2026-01-29 18:55 KST",
   "sources": [
     {
       "id": "HK",
@@ -25,6 +25,16 @@
     {
       "source": "MK",
       "press": "매일경제",
+      "published_at": "2026-01-29 18:49",
+      "title": "“외국인 판다고? 뭐 어쩌라고요”...오천피 올라탄 개미, 단단해졌다",
+      "url": "https://www.mk.co.kr/news/stock/11947468",
+      "keywords_hit": [
+        "외국인"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
       "published_at": "2026-01-29 18:03",
       "title": "ACE 유럽방산TOP10, 글로벌 방산 테마 ETF 한 달 수익률 1위",
       "url": "https://www.mk.co.kr/news/stock/11947459",
@@ -36,16 +46,16 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-29 17:59",
-      "title": "'윤병운號' NH증권 당기순익 1조원 시대",
-      "url": "https://www.mk.co.kr/news/stock/11947440",
+      "title": "[단독] 키움, 국내 2위 부동산운용 마스턴 품는다",
+      "url": "https://www.mk.co.kr/news/stock/11947441",
       "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-29 17:59",
-      "title": "키움, 국내 2위 부동산운용 마스턴 품는다",
-      "url": "https://www.mk.co.kr/news/stock/11947441",
+      "title": "'윤병운號' NH증권 당기순익 1조원 시대",
+      "url": "https://www.mk.co.kr/news/stock/11947440",
       "keywords_hit": []
     },
     {
@@ -347,16 +357,6 @@
       "title": "NH투자증권, 사상 처음으로 연간 순이익 1조원 넘겨",
       "url": "https://www.hankyung.com/article/2026012916826",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 16:38",
-      "title": "인사이트에쿼티파트너스, AI·헬스케어 300억원 펀드 결성",
-      "url": "https://www.mk.co.kr/news/stock/11947230",
-      "keywords_hit": [
-        "AI"
-      ]
     },
     {
       "source": "HK",
