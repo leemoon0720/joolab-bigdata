@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-29 16:48 KST",
+  "updated_at": "2026-01-29 17:22 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,50 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 17:18",
+      "title": "'깐부' 엔비디아의 선물…현대차 GPU 5만개의 의미",
+      "url": "https://www.hankyung.com/article/2026012917981",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 17:17",
+      "title": "亞 매출 부진…LVMH 진땀",
+      "url": "https://www.hankyung.com/article/2026012918011",
+      "keywords_hit": [
+        "매출"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 17:15",
+      "title": "큐롬바이오사이언스, 신약후보물질 국내 특허 등록",
+      "url": "https://www.hankyung.com/article/2026012917676",
+      "keywords_hit": [
+        "바이오"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-29 16:55",
+      "title": "“디지털 금이라더니 왜 이래?”…금 폭등하는데 암호화폐 일제히 하락",
+      "url": "https://www.mk.co.kr/news/stock/11947255",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 16:50",
+      "title": "NH투자증권, 사상 처음으로 연간 순이익 1조원 넘겨",
+      "url": "https://www.hankyung.com/article/2026012916826",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -82,11 +126,9 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-29 16:07",
-      "title": "[단독] 박현주 미래에셋 회장 \"스페이스X 투자금, 글로벌 M&A에 재투자\"",
+      "title": "[단독] \"스페이스X로 번 돈 재투자\"…박현주의 '28조 승부수'",
       "url": "https://www.hankyung.com/article/202601291323i",
-      "keywords_hit": [
-        "M&A"
-      ]
+      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -333,49 +375,6 @@
       "keywords_hit": [
         "적자"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 11:30",
-      "title": "민주당 “스테이블코인법 2월 당론 발의”…디지털자산기본법 ‘先안정 後혁신’",
-      "url": "https://www.mk.co.kr/news/stock/11946874",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 11:29",
-      "title": "[마켓PRO] 고수들, '컨콜' 삼성전자 주춤하자 집중 매수",
-      "url": "https://www.hankyung.com/article/202601290509i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 11:19",
-      "title": "코스피, 5200 뚫고 하락 전환…코스닥 '롤러코스터'",
-      "url": "https://www.hankyung.com/article/2026012905156",
-      "keywords_hit": [
-        "코스피",
-        "코스닥"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 11:13",
-      "title": "하나금융, '함영주 무죄' 대법 판단에 \"공정한 판결 감사\"",
-      "url": "https://www.hankyung.com/article/2026012905336",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 11:10",
-      "title": "'두쫀쿠' 없어서 못 먹는다더니…천장 찍은 종목 뭐길래 [종목+]",
-      "url": "https://www.hankyung.com/article/2026012905226",
-      "keywords_hit": []
     }
   ]
 }
