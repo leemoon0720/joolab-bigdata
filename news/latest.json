@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-29 21:02 KST",
+  "updated_at": "2026-01-29 22:18 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-29 22:00",
+      "title": "88만닉스에 더 크게 웃은 개미들…'수익률 417%' 초대박 [종목+]",
+      "url": "https://www.hankyung.com/article/2026012917146",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -204,11 +212,11 @@
     {
       "source": "MK",
       "press": "매일경제",
-      "published_at": "2026-01-29 17:38",
-      "title": "국민연금도 코스닥 전폭 지원 \"더 많은 수익 난다면 투자확대\"",
-      "url": "https://www.mk.co.kr/news/stock/11947305",
+      "published_at": "2026-01-29 17:37",
+      "title": "코스피 랠리 이어지는데, 큰손은 ‘팔자’…강화하는 국민연금 매도세",
+      "url": "https://www.mk.co.kr/news/stock/11947300",
       "keywords_hit": [
-        "코스닥"
+        "코스피"
       ]
     },
     {
@@ -375,14 +383,6 @@
       "published_at": "2026-01-29 16:17",
       "title": "\"중국이 더는 안 사줘요\" 주가 하락세 탄 이 기업 [선한결의 이기업 왜이래]",
       "url": "https://www.hankyung.com/article/202601291561i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 16:07",
-      "title": "[단독] \"스페이스X로 번 돈 재투자\"…박현주의 '28조 승부수'",
-      "url": "https://www.hankyung.com/article/202601291323i",
       "keywords_hit": []
     }
   ]
