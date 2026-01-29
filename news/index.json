@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-30 08:42 KST",
+  "updated_at": "2026-01-30 08:58 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,50 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 08:53",
+      "title": "[오늘 나온 보고서] ‘AI 깐부’는 아니었지만…1년새 330% 오른 SK하이닉스 “오늘이 제일 싸다”",
+      "url": "https://www.mk.co.kr/news/stock/11947995",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 08:46",
+      "title": "‘트럼프 코인’ 테마주 ALT5, 1억 달러 자사주 매입… “주가 저평가” 승부수",
+      "url": "https://www.mk.co.kr/news/stock/11947989",
+      "keywords_hit": [
+        "자사주"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 08:44",
+      "title": "\"삼성전자, HBM 자신감 회복…목표가 20만5000원\"-NH",
+      "url": "https://www.hankyung.com/article/2026013026716",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 08:44",
+      "title": "일일 사용자 1500만 명·수수료 22억달러… ‘스마트 컨트랙트’가 금융을 삼킨다",
+      "url": "https://www.mk.co.kr/news/stock/11947988",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 08:40",
+      "title": "\"LG화학, 주주환원 기대보다 시황 악화 우려가 크다…목표가↓\"-삼성",
+      "url": "https://www.hankyung.com/article/2026013026586",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -297,34 +341,6 @@
       ]
     },
     {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 17:53",
-      "title": "에코프로비엠 코스닥 시총1위 탈환",
-      "url": "https://www.mk.co.kr/news/stock/11947368",
-      "keywords_hit": [
-        "코스닥"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 17:53",
-      "title": "ETF 쓸어담는 개미 … 이달 13조 순매수",
-      "url": "https://www.mk.co.kr/news/stock/11947369",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 17:52",
-      "title": "같은 깜짝 실적인데 … 메타 웃고 MS 울고",
-      "url": "https://www.mk.co.kr/news/stock/11947351",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-29 17:38",
@@ -359,26 +375,6 @@
       "published_at": "2026-01-29 17:35",
       "title": "연금개미도 국장으로 '유턴'…작년 코스피 ETF에 1조 베팅",
       "url": "https://www.hankyung.com/article/2026012918381",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 17:34",
-      "title": "\"코스닥 질주 계속된다\"…개미, 레버리지 집중매수",
-      "url": "https://www.hankyung.com/article/2026012918351",
-      "keywords_hit": [
-        "코스닥"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 17:33",
-      "title": "코스피, 하루만에 5200선 돌파",
-      "url": "https://www.hankyung.com/article/2026012918361",
       "keywords_hit": [
         "코스피"
       ]
