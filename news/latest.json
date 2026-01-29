@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-30 05:56 KST",
+  "updated_at": "2026-01-30 06:26 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,32 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 06:20",
+      "title": "더 지독해진 ETF사랑…개미들, 코스닥 추종 ETF 무지막지하게 샀다",
+      "url": "https://www.mk.co.kr/news/stock/11947870",
+      "keywords_hit": [
+        "코스닥"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 06:00",
+      "title": "박현주 미래에셋 회장 \"영원한 혁신가로 혁신 멈추지 않겠다\"",
+      "url": "https://www.hankyung.com/article/202601275798i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 06:00",
+      "title": "주금공 대출 축소에 ABS 발행 9.7% 감소…부동산 PF는 급증",
+      "url": "https://www.hankyung.com/article/202601292306i",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -144,19 +170,19 @@
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-29 17:53",
-      "title": "에코프로비엠 코스닥 시총1위 탈환",
-      "url": "https://www.mk.co.kr/news/stock/11947368",
-      "keywords_hit": [
-        "코스닥"
-      ]
+      "title": "ETF 쓸어담는 개미 … 이달 13조 순매수",
+      "url": "https://www.mk.co.kr/news/stock/11947369",
+      "keywords_hit": []
     },
     {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-29 17:53",
-      "title": "ETF 쓸어담는 개미 … 이달 13조 순매수",
-      "url": "https://www.mk.co.kr/news/stock/11947369",
-      "keywords_hit": []
+      "title": "에코프로비엠 코스닥 시총1위 탈환",
+      "url": "https://www.mk.co.kr/news/stock/11947368",
+      "keywords_hit": [
+        "코스닥"
+      ]
     },
     {
       "source": "MK",
@@ -209,14 +235,6 @@
       "published_at": "2026-01-29 17:38",
       "title": "국민연금, 작년 11월까지 全 자산군 벤치마크 꺾어",
       "url": "https://www.mk.co.kr/news/stock/11947307",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-29 17:38",
-      "title": "방향 튼 1400조 연기금 … 국내 투자 늘린다",
-      "url": "https://www.mk.co.kr/news/stock/11947306",
       "keywords_hit": []
     },
     {
@@ -365,24 +383,6 @@
       "published_at": "2026-01-29 16:50",
       "title": "NH투자증권, 사상 처음으로 연간 순이익 1조원 넘겨",
       "url": "https://www.hankyung.com/article/2026012916826",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 16:21",
-      "title": "알고보니 개인이 밀어올린 코스닥…개별株 대신 '이 종목' 담았다",
-      "url": "https://www.hankyung.com/article/202601291579i",
-      "keywords_hit": [
-        "코스닥"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 16:17",
-      "title": "\"중국이 더는 안 사줘요\" 주가 하락세 탄 이 기업 [선한결의 이기업 왜이래]",
-      "url": "https://www.hankyung.com/article/202601291561i",
       "keywords_hit": []
     }
   ]
