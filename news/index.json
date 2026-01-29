@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-30 08:13 KST",
+  "updated_at": "2026-01-30 08:42 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,66 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 08:37",
+      "title": "\"삼양식품, 생산 능력 확대 기대…목표가 상향\"-한화",
+      "url": "https://www.hankyung.com/article/2026013025916",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 08:31",
+      "title": "[마켓PRO] Today's Pick : 하이브리드 본딩 대장주…삼전·하이닉스 핵심 공급 업체로 부각",
+      "url": "https://www.hankyung.com/article/202601302582i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 08:28",
+      "title": "산업생산 5년 만에 최소…건설경기는 역대 최악",
+      "url": "https://www.hankyung.com/article/202601302605i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 08:26",
+      "title": "메타 '천당' MS '지옥'…결정적 차이는 [김현석의 월스트리트나우]",
+      "url": "https://www.hankyung.com/article/202601302562i",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 08:25",
+      "title": "\"포스코퓨처엠, 실적 둔화기 진입…수주 모멘텀은 유효\"-NH",
+      "url": "https://www.hankyung.com/article/2026013025606",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 08:18",
+      "title": "코스닥 오늘도 오를까…레버리지 투자한 개미들 '발동동' [오늘장 미리보기]",
+      "url": "https://www.hankyung.com/article/202601302457i",
+      "keywords_hit": [
+        "코스닥"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 08:08",
+      "title": "\"SK하이닉스, D램과 낸드 가격 상승세 지속…목표가 상향\"-한국",
+      "url": "https://www.hankyung.com/article/2026013024826",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -46,7 +106,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-30 08:00",
-      "title": "'구조조정 고수' 소니 반등하나…“메모리 칩 비용 흡수 가능” [핫픽!해외주식]",
+      "title": "'구조조정 고수' 소니 반등하나…\"메모리 칩 비용 흡수 가능\" [핫픽!해외주식]",
       "url": "https://www.hankyung.com/article/202601287253i",
       "keywords_hit": []
     },
@@ -321,70 +381,6 @@
       "url": "https://www.hankyung.com/article/2026012918361",
       "keywords_hit": [
         "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 17:33",
-      "title": "연기금 평가에 코스닥지수 반영",
-      "url": "https://www.hankyung.com/article/2026012918371",
-      "keywords_hit": [
-        "코스닥"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 17:33",
-      "title": "\"통계 벗어난 증시…美 AI혁신 주목해야\"",
-      "url": "https://www.hankyung.com/article/2026012918411",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 17:32",
-      "title": "[특징주 & 리포트] '논란의 SK증권, 돌연 상한가' 등",
-      "url": "https://www.hankyung.com/article/2026012918421",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 17:30",
-      "title": "애플 비자 실적",
-      "url": "https://www.hankyung.com/article/2026012918431",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 17:27",
-      "title": "NH투자증권, 영업익·순익 '1조 시대'",
-      "url": "https://www.hankyung.com/article/2026012918281",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 17:21",
-      "title": "은값 뛰자…주가 3배 폭등한 팬아메리칸실버",
-      "url": "https://www.hankyung.com/article/2026012917971",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-29 17:20",
-      "title": "호실적에도 메타 웃고 MS 울고…빅테크 동조화 깨졌다",
-      "url": "https://www.hankyung.com/article/2026012917951",
-      "keywords_hit": [
-        "실적"
       ]
     }
   ]
