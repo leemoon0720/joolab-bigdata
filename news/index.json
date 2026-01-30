@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-30 19:20 KST",
+  "updated_at": "2026-01-30 19:58 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 19:49",
+      "title": "프라모델 숍 조이하비 매물로",
+      "url": "https://www.mk.co.kr/news/stock/11948760",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -363,16 +371,6 @@
       "title": "작년 ABS 발행 46.7조원…주금공 MBS 축소에 10% 감소",
       "url": "https://www.mk.co.kr/news/stock/11948369",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-30 14:01",
-      "title": "코스피, 5300 터치 후 숨고르기…SK스퀘어 6%대 급등",
-      "url": "https://www.mk.co.kr/news/stock/11948319",
-      "keywords_hit": [
-        "코스피"
-      ]
     }
   ]
 }
