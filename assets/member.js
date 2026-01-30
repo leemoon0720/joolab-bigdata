@@ -175,7 +175,7 @@
       btnLogin.addEventListener("click", async ()=>{
         const email=(liEmail?.value||"").trim().toLowerCase();
         const pass=(liPass?.value||"").trim();
-        if(!email || !email.includes("@")) return setMsg(liMsg, "이메일을 확인해 주십시오.", false);
+        if(!email) return setMsg(liMsg, "아이디를 입력해 주십시오.", false);
         if(!pass) return setMsg(liMsg, "비밀번호를 입력해 주십시오.", false);
 
         try{
