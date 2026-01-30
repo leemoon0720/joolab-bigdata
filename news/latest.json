@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-30 17:22 KST",
+  "updated_at": "2026-01-30 18:01 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,153 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 18:00",
+      "title": "금융위, 3개 조각투자 컨소시엄 모두 살릴까[엠블록레터]",
+      "url": "https://www.mk.co.kr/news/stock/11948722",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 17:55",
+      "title": "삼전닉스에 가장 많이 담은줄 알았는데…한달동안 70% 급등, 현대차에 담은 개미들",
+      "url": "https://www.mk.co.kr/news/stock/11948717",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 17:47",
+      "title": "프라모델숍 조이하비 매물로",
+      "url": "https://www.mk.co.kr/news/stock/11948690",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 17:47",
+      "title": "'삼전닉스' 2배 ETF 시행령 개정 착수",
+      "url": "https://www.mk.co.kr/news/stock/11948689",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 17:47",
+      "title": "개미 1.7조 폭풍매수 … 사상 첫 90만닉스",
+      "url": "https://www.mk.co.kr/news/stock/11948686",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 17:47",
+      "title": "李대통령 '썩은상품' 발언에 … 거래소, 상폐절차 정비 속도",
+      "url": "https://www.mk.co.kr/news/stock/11948687",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 17:43",
+      "title": "'반도체 투톱' 시총 1600조 돌파",
+      "url": "https://www.hankyung.com/article/2026013044761",
+      "keywords_hit": [
+        "반도체"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 17:43",
+      "title": "온코크로스, 70억 원 규모 전환사채 발행",
+      "url": "https://www.mk.co.kr/news/stock/11948659",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 17:39",
+      "title": "한은·재경부도 Fed 의장 인사에 촉각",
+      "url": "https://www.hankyung.com/article/2026013044671",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 17:34",
+      "title": "이창용 \"3~6개월 내 외환시장 구조 변화\"",
+      "url": "https://www.hankyung.com/article/2026013044181",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 17:30",
+      "title": "7초에 1개 팔리는 효자템…그런데 주가는 60% 넘게 뚝, 대체 왜 [K주식, 이걸 사? 말아?]",
+      "url": "https://www.mk.co.kr/news/stock/11948341",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 17:27",
+      "title": "\"아직도 싸다\" 증권사 돌변한 이유가…삼성전자 '파격 전망'",
+      "url": "https://www.hankyung.com/article/2026013043551",
+      "keywords_hit": [
+        "유가"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 17:23",
+      "title": "청년 투자고수 톱픽은 우주·반도체·로봇",
+      "url": "https://www.hankyung.com/article/2026013043561",
+      "keywords_hit": [
+        "반도체",
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 17:22",
+      "title": "코스피 웃돈 건설업 지수 수익률",
+      "url": "https://www.hankyung.com/article/2026013043571",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 17:21",
+      "title": "'몸값 뻥튀기 논란' 파두, 거래정지 길어지나",
+      "url": "https://www.hankyung.com/article/2026013043591",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 17:20",
+      "title": "심사 지연에 썰렁한 1월 IPO 시장",
+      "url": "https://www.hankyung.com/article/2026013043581",
+      "keywords_hit": [
+        "IPO"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 17:19",
+      "title": "키움證 자산관리 잔액 9조…상반기 퇴직연금 사업 개시",
+      "url": "https://www.hankyung.com/article/2026013043601",
+      "keywords_hit": []
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -168,24 +315,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-30 15:32",
-      "title": "[속보] 코스피, 5224.36 상승 마감…4일 연속 최고치 경신",
-      "url": "https://www.hankyung.com/article/2026013040286",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-30 15:12",
-      "title": "[마켓칼럼] 신약개발 가속화와 임상 병목의 역설",
-      "url": "https://www.hankyung.com/article/202601303986i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-30 15:10",
@@ -203,14 +332,6 @@
         "AI",
         "로봇"
       ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-30 14:51",
-      "title": "교보증권, 2026년 사회공헌 추진…나눔·상생 가치 확산",
-      "url": "https://www.hankyung.com/article/202601303913i",
-      "keywords_hit": []
     },
     {
       "source": "MK",
@@ -241,24 +362,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-30 14:00",
-      "title": "금투협, 조직개편…'K자본시장·디지털자산' 전담 조직 신설",
-      "url": "https://www.hankyung.com/article/2026013036606",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-30 13:49",
-      "title": "\"현실판 AI 비서 자비스까지\"…소프트웨어의 끝없는 추락 [빈난새의 빈틈없이월가]",
-      "url": "https://www.hankyung.com/article/202601302860i",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-30 13:38",
@@ -272,109 +375,6 @@
       "published_at": "2026-01-30 12:51",
       "title": "올해 수익률 나홀로 마이너스...비트코인 8만1000弗 [매일코인]",
       "url": "https://www.mk.co.kr/news/stock/11948259",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-30 11:37",
-      "title": "[속보] 비트코인 8% 이상 급락…8만2000달러 붕괴",
-      "url": "https://www.hankyung.com/article/2026013035207",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-30 11:30",
-      "title": "\"삼성·하닉 핵심 공급 업체 부상\"…한화비전, 10%대 급등세",
-      "url": "https://www.hankyung.com/article/2026013033616",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-30 11:26",
-      "title": "NH투자증권 퇴직연금 로보어드바이저 1년 수익률 60% 돌파",
-      "url": "https://www.hankyung.com/article/2026013034866",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-30 11:20",
-      "title": "대신경제연구소 '2026 거버넌스 인사이트 포럼' 성료",
-      "url": "https://www.hankyung.com/article/2026013034656",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-30 10:57",
-      "title": "돈이 몰렸다…지난해 자본시장 대금 9경5342조원",
-      "url": "https://www.mk.co.kr/news/stock/11948186",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-30 10:47",
-      "title": "“하루 아침에 삼성전자 절반 날아간 셈”…‘실적 충격’ MS 시총 500조 증발",
-      "url": "https://www.mk.co.kr/news/stock/11948174",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-30 10:28",
-      "title": "대한조선 등 52개사 3억2356만주, 내달 의무보유등록 해제",
-      "url": "https://www.mk.co.kr/news/stock/11948144",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-30 10:13",
-      "title": "[MK 골든크로스 돌파종목 : 바이오다인(314930) & 에스엠(041510)]",
-      "url": "https://www.mk.co.kr/news/stock/11948099",
-      "keywords_hit": [
-        "바이오"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-30 10:13",
-      "title": "[MK시그널] 파크시스템스, 수주 회복 기대와 계측 장비 수요 재평가로 주가 상승세... MK시그널 추천 후 상승률 41.63% 기록",
-      "url": "https://www.mk.co.kr/news/stock/11948098",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-30 10:13",
-      "title": "[MK시그널] 부에나벤투라 마이닝, 수익률 65% 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11948097",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-30 09:42",
-      "title": "올해 첫 IPO부터 들썩…12조 몰린 덕양에너젠, 코스닥 데뷔 첫날 ‘따블’",
-      "url": "https://www.mk.co.kr/news/stock/11948049",
-      "keywords_hit": [
-        "코스닥",
-        "IPO"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-30 09:34",
-      "title": "“밈 코인도 상품”…미 상원 ‘디지털 상품거래자법(DCIA)’ 법안 뜯어보니",
-      "url": "https://www.mk.co.kr/news/stock/11948037",
       "keywords_hit": []
     }
   ]
