@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-30 18:01 KST",
+  "updated_at": "2026-01-30 18:51 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,24 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 18:08",
+      "title": "“백화점서 썩은 상품 팔면”...거래소, 李 지적에 상폐절차 개혁속도",
+      "url": "https://www.mk.co.kr/news/stock/11948726",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 18:06",
+      "title": "박현주 회장 “AI 격변기, 이익 재투자로 글로벌 경쟁 초격차 확보”",
+      "url": "https://www.mk.co.kr/news/stock/11948724",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -189,11 +207,9 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-30 17:16",
-      "title": "시장 추정치 2배 웃돈 샌디스크 \"내년 실적이 더 좋아\"",
+      "title": "'세계 5위' 무시했다가…'그때 살걸' 386% 폭증 대반전",
       "url": "https://www.hankyung.com/article/2026013043491",
-      "keywords_hit": [
-        "실적"
-      ]
+      "keywords_hit": []
     },
     {
       "source": "HK",
@@ -360,22 +376,6 @@
       "keywords_hit": [
         "코스피"
       ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-30 13:38",
-      "title": "많이 오른 SK하이닉스지만…“지금 사는게 제일 싸다” [주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/11948282",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-30 12:51",
-      "title": "올해 수익률 나홀로 마이너스...비트코인 8만1000弗 [매일코인]",
-      "url": "https://www.mk.co.kr/news/stock/11948259",
-      "keywords_hit": []
     }
   ]
 }
