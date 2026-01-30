@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-30 14:28 KST",
+  "updated_at": "2026-01-30 15:07 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,43 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 14:52",
+      "title": "KB운용 RISE AI&로봇 ETF, 순자산 5000억원 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11948382",
+      "keywords_hit": [
+        "AI",
+        "로봇"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 14:51",
+      "title": "교보증권, 2026년 사회공헌 추진…나눔·상생 가치 확산",
+      "url": "https://www.hankyung.com/article/202601303913i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 14:38",
+      "title": "블랙스톤 역대 최대 실적…AUM 1조3천억 달러 돌파",
+      "url": "https://www.mk.co.kr/news/stock/11948371",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 14:34",
+      "title": "작년 ABS 발행 46.7조원…주금공 MBS 축소에 10% 감소",
+      "url": "https://www.mk.co.kr/news/stock/11948369",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -299,14 +336,6 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-30 09:21",
-      "title": "[단독] 스토리(IP), 투자자·팀 락업 해제 6개월 연기…\"성장 모멘텀 재구축\"",
-      "url": "https://www.hankyung.com/article/202601302818g",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-30 09:09",
@@ -340,34 +369,6 @@
       "published_at": "2026-01-30 08:44",
       "title": "일일 사용자 1500만 명·수수료 22억달러… ‘스마트 컨트랙트’가 금융을 삼킨다",
       "url": "https://www.mk.co.kr/news/stock/11947988",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-30 08:07",
-      "title": "‘130만닉스’ 간다?…SK하이닉스, AI 메모리 초호황에 목표가 ‘쑥’",
-      "url": "https://www.mk.co.kr/news/stock/11947974",
-      "keywords_hit": [
-        "AI"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-30 08:01",
-      "title": "“포스코퓨처엠, ESS향 LFP에 달린 실적 회복 속도”…목표가↑",
-      "url": "https://www.mk.co.kr/news/stock/11947970",
-      "keywords_hit": [
-        "실적"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-30 07:58",
-      "title": "“절대 안판다”…‘90만원 훌쩍’ SK하이닉스, 2만원대 산 전원주 과거 발언 ‘재조명’",
-      "url": "https://www.mk.co.kr/news/stock/11947969",
       "keywords_hit": []
     }
   ]
