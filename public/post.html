@@ -1,0 +1,46 @@
+    <!doctype html>
+    <html lang="ko"><head>
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width,initial-scale=1"/>
+      <title>게시글 | JOOLAB</title>
+      <link rel="stylesheet" href="/assets/style.css"/>
+
+    </head><body>
+      <div class="nav">
+        <div class="brand"><span>📊 JOOLAB</span><span class="badge">Bigdata Clean</span></div>
+        <div class="row" style="gap:8px">
+          <div id="who" class="row" style="gap:8px"></div>
+          <a class="btn" href="/bigdata.html">자료</a>
+          <a class="btn" href="/me.html">내정보</a>
+          <a class="btn" id="navAdmin" href="/admin.html">관리</a>
+          <button class="btn" id="btnLogout">로그아웃</button>
+        </div>
+      </div>
+      <div class="container">
+        <div id="toast" class="notice ok" style="display:none"></div>
+        <div id="post"></div>
+<script>
+(async ()=>{
+  const id=new URLSearchParams(location.search).get("id");
+  if(!id){ JOOLAB.toast("id가 없습니다","danger"); return; }
+  try{
+    await JOOLAB.api("/api/access/check");
+    const d=await JOOLAB.api("/api/posts/get?id="+encodeURIComponent(id));
+    document.title=d.item.title+" | JOOLAB";
+    $("#post").innerHTML=`<div class="card"><div class="row" style="flex-wrap:wrap;gap:8px">
+      <div class="h1" style="margin:0">${JOOLAB.esc(d.item.title)}</div>
+      <span class="badge">${JOOLAB.esc(d.item.category)}</span>
+      <span class="badge">${JOOLAB.esc(d.item.region)}</span>
+      <span class="badge">${JOOLAB.esc(d.item.created_at)}</span>
+    </div></div><div style="margin-top:12px">${d.item.html}</div>`;
+  }catch(e){
+    if(e.message.includes("BLOCKED")||e.message.includes("NO_PAYMENT")) location.href="/gate.html";
+    else location.href="/login.html";
+  }
+})();
+</script>
+      </div>
+      <div class="footer small">© JOOLAB | 심플 운영형</div>
+      <script src="/assets/app.js"></script>
+      <script>JOOLAB.bindAuthUI();</script>
+    </body></html>
