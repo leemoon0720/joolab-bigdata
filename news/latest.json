@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-30 15:07 KST",
+  "updated_at": "2026-01-30 16:06 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,68 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 15:54",
+      "title": "웨이브릿지, AI 기반 프라임 브로커리지로 혁신 추진",
+      "url": "https://www.mk.co.kr/news/stock/11948479",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 15:53",
+      "title": "한투운용, 한국투자K지수&테마로테이션 펀드 출시",
+      "url": "https://www.mk.co.kr/news/stock/11948478",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 15:50",
+      "title": "올해 첫 공모주 덕양에너젠 상장 첫날 248% 상승",
+      "url": "https://www.mk.co.kr/news/stock/11948475",
+      "keywords_hit": [
+        "상장"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 15:45",
+      "title": "금융위, 삼전·닉스 2배 ETF 시행령 개정 착수",
+      "url": "https://www.mk.co.kr/news/stock/11948462",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 15:32",
+      "title": "[속보] 코스피, 5224.36 상승 마감…4일 연속 최고치 경신",
+      "url": "https://www.hankyung.com/article/2026013040286",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 15:12",
+      "title": "[마켓칼럼] 신약개발 가속화와 임상 병목의 역설",
+      "url": "https://www.hankyung.com/article/202601303986i",
+      "keywords_hit": []
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 15:10",
+      "title": "“금·은 너무 올랐지만, ‘이것’이 남아 있다”…대체 투자처로 떠오른 구리",
+      "url": "https://www.mk.co.kr/news/stock/11948391",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -292,16 +354,6 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-30 09:40",
-      "title": "삼성전자 무섭게 팔아치우더니…외국인 '1조 싹쓸이'한 종목",
-      "url": "https://www.hankyung.com/article/202601302753i",
-      "keywords_hit": [
-        "외국인"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-30 09:34",
@@ -310,65 +362,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-30 09:33",
-      "title": "덕양에너젠, 코스닥 입성 첫날 장 초반 '따블'",
-      "url": "https://www.hankyung.com/article/2026013028876",
-      "keywords_hit": [
-        "코스닥"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-30 09:33",
       "title": "“코인도 이젠 제도권 상품”…‘디지털 상품법(DCIA)’ 미 상원 농업위 통과",
       "url": "https://www.mk.co.kr/news/stock/11948036",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-30 09:25",
-      "title": "[속보] ‘90만닉스’ 됐다…SK하이닉스, 장중 90만원 돌파",
-      "url": "https://www.mk.co.kr/news/stock/11948029",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-30 09:09",
-      "title": "“증권주 들어가기 딱 좋은 날”…‘역대급 불장’ 1월 코스피 거래대금  사상 최고",
-      "url": "https://www.mk.co.kr/news/stock/11948012",
-      "keywords_hit": [
-        "코스피"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-30 08:53",
-      "title": "1년새 330% 올랐지만…“SK하이닉스, 오늘이 제일 싸다” [오늘 나온 보고서]",
-      "url": "https://www.mk.co.kr/news/stock/11947995",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-30 08:46",
-      "title": "“대통령 믿었다가 반토막 났는데”...신뢰 무너진 트럼프 코인주, 대규모 자사주 매입",
-      "url": "https://www.mk.co.kr/news/stock/11947989",
-      "keywords_hit": [
-        "자사주"
-      ]
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-30 08:44",
-      "title": "일일 사용자 1500만 명·수수료 22억달러… ‘스마트 컨트랙트’가 금융을 삼킨다",
-      "url": "https://www.mk.co.kr/news/stock/11947988",
       "keywords_hit": []
     }
   ]
