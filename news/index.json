@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-30 13:21 KST",
+  "updated_at": "2026-01-30 14:28 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,42 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 14:01",
+      "title": "코스피, 5300 터치 후 숨고르기…SK스퀘어 6%대 급등",
+      "url": "https://www.mk.co.kr/news/stock/11948319",
+      "keywords_hit": [
+        "코스피"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 14:00",
+      "title": "금투협, 조직개편…'K자본시장·디지털자산' 전담 조직 신설",
+      "url": "https://www.hankyung.com/article/2026013036606",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 13:49",
+      "title": "\"현실판 AI 비서 자비스까지\"…소프트웨어의 끝없는 추락 [빈난새의 빈틈없이월가]",
+      "url": "https://www.hankyung.com/article/202601302860i",
+      "keywords_hit": [
+        "AI"
+      ]
+    },
+    {
+      "source": "MK",
+      "press": "매일경제",
+      "published_at": "2026-01-30 13:38",
+      "title": "많이 오른 SK하이닉스지만…“지금 사는게 제일 싸다” [주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/11948282",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -222,7 +258,7 @@
       "source": "HK",
       "press": "한국경제",
       "published_at": "2026-01-30 09:40",
-      "title": "삼성전자 무섭게 팔아치운 외국인…이 종목은 '싹쓸이'",
+      "title": "삼성전자 무섭게 팔아치우더니…외국인 '1조 싹쓸이'한 종목",
       "url": "https://www.hankyung.com/article/202601302753i",
       "keywords_hit": [
         "외국인"
@@ -269,26 +305,6 @@
       "title": "[단독] 스토리(IP), 투자자·팀 락업 해제 6개월 연기…\"성장 모멘텀 재구축\"",
       "url": "https://www.hankyung.com/article/202601302818g",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-30 09:20",
-      "title": "이창용 \"환율, 1430원대 내려와 다행…연금 뉴프레임워크 3~6개월내 결정\"",
-      "url": "https://www.hankyung.com/article/202601302782i",
-      "keywords_hit": [
-        "환율"
-      ]
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-30 09:18",
-      "title": "코스피, 5260선 넘어 사상 최고치 행진…'90만닉스' 달성",
-      "url": "https://www.hankyung.com/article/2026013028426",
-      "keywords_hit": [
-        "코스피"
-      ]
     },
     {
       "source": "MK",
@@ -353,24 +369,6 @@
       "title": "“절대 안판다”…‘90만원 훌쩍’ SK하이닉스, 2만원대 산 전원주 과거 발언 ‘재조명’",
       "url": "https://www.mk.co.kr/news/stock/11947969",
       "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-30 07:10",
-      "title": "“지금 사야 하나, 말아야 하나”…5500달러 돌파하고 쉼표 찍은 금값",
-      "url": "https://www.mk.co.kr/news/stock/11947940",
-      "keywords_hit": []
-    },
-    {
-      "source": "MK",
-      "press": "매일경제",
-      "published_at": "2026-01-30 06:20",
-      "title": "더 지독해진 ETF사랑…개미들, 코스닥 추종 ETF 무지막지하게 샀다",
-      "url": "https://www.mk.co.kr/news/stock/11947870",
-      "keywords_hit": [
-        "코스닥"
-      ]
     }
   ]
 }
