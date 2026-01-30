@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-30 16:51 KST",
+  "updated_at": "2026-01-30 17:22 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,69 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 17:18",
+      "title": "[특징주 & 리포트] 'KT&G, 5% 올라 역대 최고가' 등",
+      "url": "https://www.hankyung.com/article/2026013043541",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 17:17",
+      "title": "미국발 리스크 한꺼번에 덮쳤다…비트코인 8만2000달러선 급락·알트 전반 흔들 [이수현의 코인레이더]",
+      "url": "https://www.hankyung.com/article/202601303715g",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 17:16",
+      "title": "시장 추정치 2배 웃돈 샌디스크 \"내년 실적이 더 좋아\"",
+      "url": "https://www.hankyung.com/article/2026013043491",
+      "keywords_hit": [
+        "실적"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 17:14",
+      "title": "하루 11% 오른 구리값…18년 만에 최대폭 상승",
+      "url": "https://www.hankyung.com/article/2026013043471",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 17:13",
+      "title": "아이폰 인기 여전…애플 매출 40% 급증",
+      "url": "https://www.hankyung.com/article/2026013043451",
+      "keywords_hit": [
+        "매출"
+      ]
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 17:12",
+      "title": "美 장기채 ETF 파는 개미…연초부터 422억원 순매도",
+      "url": "https://www.hankyung.com/article/2026013043441",
+      "keywords_hit": []
+    },
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 17:11",
+      "title": "AI 데이터센터 전력 수혜…캐터필러 사상 최대 매출",
+      "url": "https://www.hankyung.com/article/2026013043461",
+      "keywords_hit": [
+        "매출",
+        "AI"
+      ]
+    },
     {
       "source": "HK",
       "press": "한국경제",
@@ -244,43 +307,11 @@
       "keywords_hit": []
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-30 11:17",
-      "title": "NH투자증권, 'RIA 미리 준비하고 국장으로 금의환향' 이벤트 진행",
-      "url": "https://www.hankyung.com/article/2026013034566",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-30 11:17",
-      "title": "[마켓PRO] 美 이민단속 활용 논란에 팰런티어 급락…서학개미, '지금이 살 때'",
-      "url": "https://www.hankyung.com/article/202601303351i",
-      "keywords_hit": []
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-30 10:57",
       "title": "돈이 몰렸다…지난해 자본시장 대금 9경5342조원",
       "url": "https://www.mk.co.kr/news/stock/11948186",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-30 10:52",
-      "title": "[마켓PRO] 애플 “메모리 공급부족” 언급에…고수들, 삼전닉스 '사자'",
-      "url": "https://www.hankyung.com/article/202601303300i",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-30 10:49",
-      "title": "\"총알 더 준비해야 하나\"…'1억→2.2억' 대박에 개미들 '환호' [종목+]",
-      "url": "https://www.hankyung.com/article/202601303322i",
       "keywords_hit": []
     },
     {
@@ -294,37 +325,11 @@
       ]
     },
     {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-30 10:30",
-      "title": "삼전·하닉 레버리지 ETF 나온다…금융당국, 규제 완화",
-      "url": "https://www.hankyung.com/article/2026013032496",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-30 10:29",
-      "title": "사노피 기술이전 신약, 임상 우선순위 밀려…에이비엘바이오 15% 급락",
-      "url": "https://www.hankyung.com/article/2026013032506",
-      "keywords_hit": [
-        "바이오"
-      ]
-    },
-    {
       "source": "MK",
       "press": "매일경제",
       "published_at": "2026-01-30 10:28",
       "title": "대한조선 등 52개사 3억2356만주, 내달 의무보유등록 해제",
       "url": "https://www.mk.co.kr/news/stock/11948144",
-      "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-30 10:19",
-      "title": "목표가 145만원 나왔다…92만원 뚫은 SK하이닉스 '기염' [종목+]",
-      "url": "https://www.hankyung.com/article/2026013032006",
       "keywords_hit": []
     },
     {
