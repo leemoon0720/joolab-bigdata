@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-30 18:51 KST",
+  "updated_at": "2026-01-30 19:20 KST",
   "sources": [
     {
       "id": "HK",
@@ -22,6 +22,14 @@
   ],
   "count": 40,
   "items": [
+    {
+      "source": "HK",
+      "press": "한국경제",
+      "published_at": "2026-01-30 19:12",
+      "title": "NH투자증권, 토스 출신 김동민 상무 영입…80년대생 최연소 女임원",
+      "url": "https://www.hankyung.com/article/2026013045966",
+      "keywords_hit": []
+    },
     {
       "source": "MK",
       "press": "매일경제",
@@ -274,17 +282,6 @@
       "title": "세계 최대 운용사 '블랙록'이 대주주…KT&G '최고가' 마감",
       "url": "https://www.hankyung.com/article/202601304177i",
       "keywords_hit": []
-    },
-    {
-      "source": "HK",
-      "press": "한국경제",
-      "published_at": "2026-01-30 16:11",
-      "title": "롤러코스터 탄 코스피, 최고치 찍고 강보합 후퇴…코스닥 1%대 급락",
-      "url": "https://www.hankyung.com/article/2026013040546",
-      "keywords_hit": [
-        "코스피",
-        "코스닥"
-      ]
     },
     {
       "source": "MK",
