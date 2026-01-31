@@ -13,11 +13,12 @@
     th { background: #f5f5f5; text-align: left; }
     .err { color: #b00020; white-space: pre-wrap; }
     .ok { color: #0a7a0a; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
   </style>
 </head>
 <body>
   <h2>회원 목록</h2>
-  <p class="hint">데이터 소스: /api/members (Cloudflare Pages Functions + D1)</p>
+  <p class="hint">1차 시도: <span class="mono">/api/members</span> · 2차 시도: <span class="mono">/members</span></p>
 
   <div id="status" class="hint">로딩중...</div>
 
@@ -33,26 +34,34 @@
   </table>
 
   <script>
+    async function fetchJson(path) {
+      const res = await fetch(path, { cache: "no-store" });
+      const text = await res.text();
+      let json = null;
+      try { json = JSON.parse(text); } catch(e) {}
+      return { ok: res.ok, status: res.status, text, json };
+    }
+
     async function main() {
       const status = document.getElementById("status");
       const tbody = document.getElementById("list");
 
-      try {
-        const res = await fetch("/api/members", { cache: "no-store" });
+      const tries = ["/api/members", "/members"];
 
-        if (!res.ok) {
-          const t = await res.text();
+      for (const path of tries) {
+        const r = await fetchJson(path);
+
+        if (!r.ok) {
           status.className = "err";
-          status.textContent = "API 실패: " + res.status + "\n" + t;
-          return;
+          status.textContent = `API 실패: ${path} (${r.status})\n` + (r.text || "");
+          continue;
         }
 
-        const data = await res.json();
-
-        if (!Array.isArray(data)) {
+        const data = Array.isArray(r.json) ? r.json : null;
+        if (!data) {
           status.className = "err";
-          status.textContent = "API 응답이 배열이 아닙니다.\n" + JSON.stringify(data);
-          return;
+          status.textContent = `API 응답이 배열이 아닙니다: ${path}\n` + (r.text || "");
+          continue;
         }
 
         tbody.innerHTML = "";
@@ -67,11 +76,11 @@
         });
 
         status.className = "ok";
-        status.textContent = "로드 완료: " + data.length + "명";
-      } catch (e) {
-        status.className = "err";
-        status.textContent = "에러: " + (e && e.message ? e.message : String(e));
+        status.textContent = `로드 완료: ${data.length}명 (사용 API: ${path})`;
+        return;
       }
+
+      // if all failed, keep the last error already shown
     }
 
     main();
