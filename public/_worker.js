@@ -120,17 +120,22 @@ async function lastConfirmedPaidAt(env, user_id){
 async function accessStatus(env, user_id){
   const today=kstDateStr();
   const last_paid_at=await lastConfirmedPaidAt(env, user_id);
-  if(!last_paid_at) return { status:"NO_PAYMENT", last_paid_at:null, next_bill_at:null, active_until:null, grace_until:null, allowed:false };
+  if(!last_paid_at) return { status:"NO_PAYMENT", last_paid_at:null, next_bill_at:null, active_until:null, grace_until:null, bill_day:null, allowed:false };
+  const p=parseYMD(last_paid_at);
+  const bill_day=p?p.d:null;
   const next_bill_at=addMonthsYMD(last_paid_at, 1);
-  if(!next_bill_at) return { status:"NO_PAYMENT", last_paid_at:null, next_bill_at:null, active_until:null, grace_until:null, allowed:false };
+  if(!next_bill_at) return { status:"NO_PAYMENT", last_paid_at:null, next_bill_at:null, active_until:null, grace_until:null, bill_day, allowed:false };
   const grace_until=addDays(next_bill_at, 7);
-  const base={ last_paid_at, next_bill_at, active_until:next_bill_at, grace_until };
+  const base={ bill_day, last_paid_at, next_bill_at, active_until:next_bill_at, grace_until };
   if(cmpYMD(today, next_bill_at)<0) return { status:"ACTIVE", allowed:true, ...base };
   if(cmpYMD(today, grace_until)<=0) return { status:"GRACE", allowed:true, ...base };
   return { status:"BLOCKED", allowed:false, ...base };
 }
 async function enforceAccess(env, sess){
-  if(sess.blocked) return { status:"BLOCKED", allowed:false };
+  if(sess.role==="admin"){
+    return { status:"ADMIN", allowed:true, last_paid_at:null, next_bill_at:null, active_until:null, grace_until:null, bill_day:null };
+  }
+  if(sess.blocked) return { status:"BLOCKED", allowed:false, bill_day:null };
   return await accessStatus(env, sess.user_id);
 }
 async function readJson(req){
@@ -224,7 +229,9 @@ async function handleApi(req, env, ctx, url){
 
   if(p==="/api/me"){
     const s=await requireAuth(env, req);
-    const acc=await accessStatus(env, s.user_id);
+    const acc = (s.role==="admin")
+      ? { status:"ADMIN", allowed:true, last_paid_at:null, next_bill_at:null, active_until:null, grace_until:null, bill_day:null }
+      : await accessStatus(env, s.user_id);
     return json({ ok:true, user:{ id:s.user_id, username:s.username, role:s.role }, access:acc });
   }
 
@@ -322,6 +329,71 @@ async function handleApi(req, env, ctx, url){
     return json({ ok:true });
   }
   
+  if(p==="/api/admin/users/create" && req.method==="POST"){
+    await requireAdmin(env, req);
+    const body=await readJson(req);
+    const username=String(body.username||body.id||body.user||body.userid||body.아이디||"").trim();
+    const password=String(body.password||body.pass||"");
+    const name=String(body.name||"").trim();
+    const payer_name=String(body.payer_name||body.payer||"").trim();
+    const role=String(body.role||"customer").trim();
+    const blocked=body.blocked?1:0;
+    if(!username || username.length<2 || username.length>50 || /\s/.test(username)) return json({ok:false,error:"BAD_USERNAME",message:"아이디는 공백 없이 2~50자"},400);
+    const exists=await env.DB.prepare("SELECT id FROM users WHERE username=?").bind(username).first();
+    if(exists) return json({ok:false,error:"DUP",message:"이미 존재하는 아이디"},400);
+    const salt=randId(16);
+    const pass_hash=await sha256Hex((password||username)+":"+salt);
+    await env.DB.prepare("INSERT INTO users(username,pass_hash,salt,name,payer_name,role,blocked,created_at) VALUES(?,?,?,?,?, ?,?,?)")
+      .bind(username, pass_hash, salt, name||null, payer_name||null, role==="admin"?"admin":"customer", blocked, nowISO()).run();
+    return json({ ok:true });
+  }
+  if(p==="/api/admin/users/update" && req.method==="POST"){
+    await requireAdmin(env, req);
+    const body=await readJson(req);
+    const user_id=Number(body.user_id);
+    if(!Number.isFinite(user_id)) return json({ok:false,error:"BAD",message:"user_id 필요"},400);
+    const cur=await env.DB.prepare("SELECT id,username,role FROM users WHERE id=?").bind(user_id).first();
+    if(!cur) return json({ok:false,error:"NOT_FOUND",message:"사용자 없음"},404);
+
+    const username = (body.username!=null) ? String(body.username).trim() : null;
+    if(username!==null){
+      if(!username || username.length<2 || username.length>50 || /\s/.test(username)) return json({ok:false,error:"BAD_USERNAME",message:"아이디는 공백 없이 2~50자"},400);
+      const dup=await env.DB.prepare("SELECT id FROM users WHERE username=? AND id!=?").bind(username, user_id).first();
+      if(dup) return json({ok:false,error:"DUP",message:"이미 존재하는 아이디"},400);
+    }
+    const name = (body.name!=null) ? String(body.name).trim() : null;
+    const payer_name = (body.payer_name!=null) ? String(body.payer_name).trim() : null;
+    const role = (body.role!=null) ? String(body.role).trim() : null;
+    const blocked = (body.blocked!=null) ? (body.blocked?1:0) : null;
+
+    const sets=[]; const vals=[];
+    if(username!==null){ sets.push("username=?"); vals.push(username); }
+    if(name!==null){ sets.push("name=?"); vals.push(name||null); }
+    if(payer_name!==null){ sets.push("payer_name=?"); vals.push(payer_name||null); }
+    if(role!==null){ sets.push("role=?"); vals.push(role==="admin"?"admin":"customer"); }
+    if(blocked!==null){ sets.push("blocked=?"); vals.push(blocked); }
+
+    if(!sets.length) return json({ ok:true, updated:0 });
+    vals.push(user_id);
+    await env.DB.prepare(`UPDATE users SET ${sets.join(",")} WHERE id=?`).bind(...vals).run();
+    return json({ ok:true, updated:1 });
+  }
+  if(p==="/api/admin/users/delete" && req.method==="POST"){
+    await requireAdmin(env, req);
+    const body=await readJson(req);
+    const user_id=Number(body.user_id);
+    if(!Number.isFinite(user_id)) return json({ok:false,error:"BAD",message:"user_id 필요"},400);
+    const cur=await env.DB.prepare("SELECT id,role FROM users WHERE id=?").bind(user_id).first();
+    if(!cur) return json({ ok:true, deleted:0 });
+    if(cur.role==="admin") return json({ ok:false, error:"FORBIDDEN", message:"admin 삭제 불가" }, 403);
+    await env.DB.prepare("DELETE FROM sessions WHERE user_id=?").bind(user_id).run();
+    await env.DB.prepare("DELETE FROM payments WHERE user_id=?").bind(user_id).run();
+    await env.DB.prepare("DELETE FROM deposit_requests WHERE user_id=?").bind(user_id).run();
+    await env.DB.prepare("DELETE FROM posts WHERE author_id=?").bind(user_id).run();
+    await env.DB.prepare("DELETE FROM users WHERE id=?").bind(user_id).run();
+    return json({ ok:true, deleted:1 });
+  }
+
   if(p==="/api/admin/users/bulk_seed" && req.method==="POST"){
     await requireAdmin(env, req);
     const body=await readJson(req);
@@ -387,10 +459,55 @@ if(p==="/api/admin/unpaid"){
     if(!["CONFIRMED","PENDING","CANCELED"].includes(status)) return json({ok:false,error:"BAD_STATUS",message:"status"},400);
     const u=await env.DB.prepare("SELECT id FROM users WHERE username=?").bind(username).first();
     if(!u) return json({ok:false,error:"NOUSER",message:"사용자 없음"},404);
+
+    // 중복 방지: 같은 user_id + paid_at + status=CONFIRMED는 1건만 유지
+    if(status==="CONFIRMED"){
+      const exists=await env.DB.prepare("SELECT 1 as x FROM payments WHERE user_id=? AND paid_at=? AND status='CONFIRMED' LIMIT 1").bind(u.id, paid_at).first();
+      if(exists?.x) return json({ ok:true, skipped:true, reason:"DUP_CONFIRMED" });
+    }
+
     await insertPayment(env, { user_id:u.id, amount, paid_at, status, memo: memo||null });
     return json({ ok:true });
   }
-    if(p==="/api/admin/payments/delete" && req.method==="POST"){
+
+  if(p==="/api/admin/payments/update" && req.method==="POST"){
+    await requireAdmin(env, req);
+    const body=await readJson(req);
+    const id=body.id;
+    if(id==null||id==="") return json({ok:false,error:"BAD",message:"id 필요"},400);
+
+    const sets=[]; const vals=[];
+
+    if(body.amount!=null){
+      const amount=Number(String(body.amount??0).replace(/[^0-9]/g,""));
+      sets.push("amount=?");
+      vals.push(Number.isFinite(amount)?Math.max(0,Math.floor(amount)):0);
+    }
+    if(body.paid_at!=null){
+      const paid_at=String(body.paid_at||"").trim();
+      if(!parseYMD(paid_at)) return json({ok:false,error:"BAD_DATE",message:"결제일 YYYY-MM-DD"},400);
+      sets.push("paid_at=?");
+      vals.push(paid_at);
+    }
+    if(body.status!=null){
+      const status=String(body.status||"").trim();
+      if(!["CONFIRMED","PENDING","CANCELED"].includes(status)) return json({ok:false,error:"BAD_STATUS",message:"status"},400);
+      sets.push("status=?");
+      vals.push(status);
+    }
+    if(body.memo!=null){
+      const memo=String(body.memo||"").trim();
+      sets.push("memo=?");
+      vals.push(memo||null);
+    }
+
+    if(!sets.length) return json({ ok:true, updated:0 });
+    vals.push(id);
+    await env.DB.prepare(`UPDATE payments SET ${sets.join(",")} WHERE id=?`).bind(...vals).run();
+    return json({ ok:true, updated:1 });
+  }
+
+  if(p==="/api/admin/payments/delete" && req.method==="POST"){
     await requireAdmin(env, req);
     const body=await readJson(req);
     const id=body.id;
