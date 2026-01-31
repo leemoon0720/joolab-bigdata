@@ -37,6 +37,7 @@
   <div id="tabPosts" class="card" style="display:none"></div>
 </div>
 
+<script src="/assets/app.js"></script>
 <script>
 function showTab(name){
   ["Users","Unpaid","Payments","Requests","Posts"].forEach(x=>{
@@ -54,30 +55,37 @@ async function mustAdmin(){
 async function loadUsers(){
   const d=await JOOLAB.api("/api/admin/users");
   const items=d.items||[];
-  const headers=["id","username","name","payer_name","blocked","last_paid_at","next_bill_at","grace_until","status","actions"];
-  const rows=items.map(x=>{
-    const st=x.access_status||"";
+
+  const headers=["아이디","이름","매달결제일","상태","최근결제일","결제금액","결제확인","관리"];
+  const rows=items.map(u=>{
+    const st=u.access_status||"";
     let sTxt=st;
     if(st==="ACTIVE") sTxt="완료";
     else if(st==="GRACE") sTxt="미완료(유예)";
     else if(st==="NO_PAYMENT") sTxt="미완료";
     else if(st==="BLOCKED") sTxt="차단";
-    if(x.blocked) sTxt="차단(수동)";
+    if(u.blocked) sTxt="차단(수동)";
+    const day = (u.last_paid_at && String(u.last_paid_at).match(/^\d{4}-\d{2}-(\d{2})$/)) ? u.last_paid_at.split("-")[2] : "";
     return {
-      id:x.id,
-      username:x.username,
-      name:x.name||"",
-      payer_name:x.payer_name||"",
-      blocked:x.blocked?"Y":"N",
-      last_paid_at:x.last_paid_at||"",
-      next_bill_at:x.next_bill_at||"",
-      grace_until:x.grace_until||"",
-      status:sTxt,
-      actions:""
+      "아이디": u.username,
+      "이름": u.name||"",
+      "매달결제일": day,
+      "상태": sTxt,
+      "최근결제일": u.last_payment_paid_at||"",
+      "결제금액": (u.last_payment_amount==null) ? "" : String(u.last_payment_amount),
+      "결제확인": "",
+      "관리": ""
     };
   });
-  const html=JOOLAB.buildTableHtml(headers,rows,{category:"admin_users",region:"-",generatedAt:new Date().toLocaleString("ko-KR")});
-  $("#tabUsers").innerHTML=`<div class="h2">회원</div>${html}
+
+  const html=JOOLAB.buildTableHtml(headers,rows,{
+    category:"admin_users_all",
+    region:"-",
+    generatedAt:new Date().toLocaleString("ko-KR"),
+    note:"표에서 결제일/금액/결제확인 수정 후 저장하십시오. (최근 결제 1건 기준으로 수정됩니다)"
+  });
+
+  $("#tabUsers").innerHTML=`<div class="h2">회원 통합</div>${html}
     <div class="notice" style="margin-top:12px">
       <div class="h2">회원 일괄 등록(CSV)</div>
       <div class="small">엑셀에서 CSV로 저장 후 업로드하십시오. 컬럼 예: 아이디/이름/닉네임/이메일</div>
@@ -87,6 +95,16 @@ async function loadUsers(){
         <div class="small" id="uBulkHint" style="margin-left:auto"></div>
       </div>
     </div>`;
+
+  function todayYMD(){
+    const d=new Date();
+    const y=d.getFullYear();
+    const m=String(d.getMonth()+1).padStart(2,"0");
+    const dd=String(d.getDate()).padStart(2,"0");
+    return `${y}-${m}-${dd}`;
+  }
+
+  // bulk seed
   $("#uBulkRun").addEventListener("click", async ()=>{
     try{
       const f=$("#uBulkFile").files[0];
@@ -110,24 +128,99 @@ async function loadUsers(){
     }catch(e){ JOOLAB.toast("일괄 등록 실패: "+e.message,"danger"); }
   });
 
+  // inline payment controls + user ops
   const trs=$$("#tabUsers tbody tr");
   trs.forEach((tr,idx)=>{
     const u=items[idx];
-    tr.lastElementChild.innerHTML=`<div class="row" style="flex-wrap:wrap">
+    const tds=tr.querySelectorAll("td");
+    // columns: 0아이디 1이름 2매달결제일 3상태 4최근결제일 5결제금액 6결제확인 7관리
+    const defaultPaidAt = (u.last_payment_paid_at && /^\d{4}-\d{2}-\d{2}$/.test(String(u.last_payment_paid_at))) ? u.last_payment_paid_at : todayYMD();
+    const defaultAmount = (u.last_payment_amount==null) ? "" : String(u.last_payment_amount);
+
+    // 최근결제일 input
+    tds[4].innerHTML = `<input class="input" data-k="paid_at" type="date" value="${defaultPaidAt}" style="padding:8px;border-radius:10px;min-width:140px"/>`;
+    // 금액 input
+    tds[5].innerHTML = `<input class="input" data-k="amount" type="number" min="0" step="1000" value="${defaultAmount}" style="padding:8px;border-radius:10px;max-width:140px"/>`;
+    // 결제확인 checkbox
+    const checked = (u.last_payment_status==="CONFIRMED");
+    tds[6].innerHTML = `<label class="small" style="display:flex;align-items:center;gap:6px">
+      <input data-k="confirm" type="checkbox" ${checked?"checked":""}/> CONFIRMED
+    </label>`;
+
+    // 관리 buttons
+    tds[7].innerHTML = `<div class="row" style="gap:6px;flex-wrap:wrap">
+      <button class="btn accent" data-act="save">저장</button>
+      <button class="btn" data-act="add">추가</button>
+      <button class="btn danger" data-act="del" ${u.last_payment_id?"" :"disabled"}>삭제</button>
+      <span class="badge">${u.last_payment_id?("pay#"+u.last_payment_id):"no-pay"}</span>
       <button class="btn" data-act="toggle">${u.blocked?"차단해제":"차단"}</button>
       <button class="btn" data-act="reset">비번리셋</button>
     </div>`;
-    tr.querySelector('[data-act="toggle"]').addEventListener("click", async ()=>{
-      await JOOLAB.api("/api/admin/users/block",{method:"POST",body:JSON.stringify({user_id:u.id,blocked:!u.blocked})});
-      JOOLAB.toast("반영 완료","ok"); await loadAll();
+
+    const getVal = (k)=> tr.querySelector(`[data-k="${k}"]`);
+    const btnSave = tr.querySelector('[data-act="save"]');
+    const btnAdd = tr.querySelector('[data-act="add"]');
+    const btnDel = tr.querySelector('[data-act="del"]');
+    const btnToggle = tr.querySelector('[data-act="toggle"]');
+    const btnReset = tr.querySelector('[data-act="reset"]');
+
+    async function doSave(mode){
+      const paid_at = getVal("paid_at").value;
+      const amount = Number(getVal("amount").value||0);
+      const confirm = getVal("confirm").checked;
+      const status = confirm ? "CONFIRMED" : "PENDING";
+      if(!paid_at) throw new Error("결제일 필요");
+      if(mode==="update"){
+        await JOOLAB.api("/api/admin/payments/update",{method:"POST",body:JSON.stringify({id:u.last_payment_id, paid_at, amount, status, memo:""})});
+      }else{
+        await JOOLAB.api("/api/admin/payments/create",{method:"POST",body:JSON.stringify({username:u.username, paid_at, amount, status, memo:""})});
+      }
+    }
+
+    btnSave.addEventListener("click", async ()=>{
+      try{
+        if(!u.last_payment_id) throw new Error("최근 결제내역이 없습니다. '추가'를 먼저 누르십시오");
+        await doSave("update");
+        JOOLAB.toast("저장 완료","ok");
+        await loadAll();
+      }catch(e){ JOOLAB.toast("저장 실패: "+e.message,"danger"); }
     });
-    tr.querySelector('[data-act="reset"]').addEventListener("click", async ()=>{
-      const np=prompt("새 비밀번호(비우면 username과 동일)");
-      await JOOLAB.api("/api/admin/users/reset_password",{method:"POST",body:JSON.stringify({user_id:u.id,new_password:np||u.username})});
-      JOOLAB.toast("비번 변경 완료","ok");
+
+    btnAdd.addEventListener("click", async ()=>{
+      try{
+        await doSave("create");
+        JOOLAB.toast("추가 완료","ok");
+        await loadAll();
+      }catch(e){ JOOLAB.toast("추가 실패: "+e.message,"danger"); }
+    });
+
+    btnDel.addEventListener("click", async ()=>{
+      try{
+        if(!u.last_payment_id) return;
+        if(!confirm("최근 결제 1건을 삭제합니까?")) return;
+        await JOOLAB.api("/api/admin/payments/delete",{method:"POST",body:JSON.stringify({id:u.last_payment_id})});
+        JOOLAB.toast("삭제 완료","ok");
+        await loadAll();
+      }catch(e){ JOOLAB.toast("삭제 실패: "+e.message,"danger"); }
+    });
+
+    btnToggle.addEventListener("click", async ()=>{
+      try{
+        await JOOLAB.api("/api/admin/users/block",{method:"POST",body:JSON.stringify({user_id:u.id,blocked:!u.blocked})});
+        JOOLAB.toast("반영 완료","ok"); await loadAll();
+      }catch(e){ JOOLAB.toast("실패: "+e.message,"danger"); }
+    });
+
+    btnReset.addEventListener("click", async ()=>{
+      try{
+        const np=prompt("새 비밀번호(비우면 username과 동일)") || u.username;
+        await JOOLAB.api("/api/admin/users/reset_password",{method:"POST",body:JSON.stringify({user_id:u.id,new_password:np})});
+        JOOLAB.toast("비번 변경 완료","ok");
+      }catch(e){ JOOLAB.toast("실패: "+e.message,"danger"); }
     });
   });
 }
+
 async function loadUnpaid(){
   const d=await JOOLAB.api("/api/admin/unpaid");
   const grace=d.grace||[], blocked=d.blocked||[];
@@ -262,4 +355,5 @@ async function loadAll(){
 </script>
       </div>
       <div class="footer small">© JOOLAB | 심플 운영형</div>
-      <script src="/assets/app.js">
+      <script>JOOLAB.bindAuthUI();</script>
+    </body></html>
