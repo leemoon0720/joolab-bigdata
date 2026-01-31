@@ -6,31 +6,7 @@ export default {
         if(!env.DB) return json({ ok:false, error:"NO_DB_BINDING", message:"D1 바인딩(DB)이 없습니다. Cloudflare Pages > Settings > Bindings에서 D1 database binding 변수명을 DB로 추가하십시오." }, 500);
         return await handleApi(req, env, ctx, url);
       }
-      // pretty routes -> html
-      const p=url.pathname;
-      const rewrites={
-        "/":"/index.html",
-        "/login":"/login.html",
-        "/login/":"/login.html",
-        "/signup":"/signup.html",
-        "/signup/":"/signup.html",
-        "/bigdata":"/bigdata.html",
-        "/bigdata/":"/bigdata.html",
-        "/me":"/me.html",
-        "/me/":"/me.html",
-        "/admin":"/admin.html",
-        "/admin/":"/admin.html",
-        "/gate":"/gate.html",
-        "/gate/":"/gate.html",
-        "/post":"/post.html",
-        "/post/":"/post.html"
-      };
-      const to=rewrites[p];
-      if(to){
-        const u=new URL(to, url);
-        const r2=new Request(u.toString(), req);
-        return env.ASSETS.fetch(r2);
-      }
+      // static (clean urls are handled by Pages/ASSETS)
       return env.ASSETS.fetch(req);
     }catch(e){
       const msg=String(e?.message||e);
@@ -41,7 +17,6 @@ export default {
     }
   }
 };
-
 function json(obj, status=200, headers={}){
   return new Response(JSON.stringify(obj), { status, headers:{ "Content-Type":"application/json; charset=utf-8", ...headers }});
 }
