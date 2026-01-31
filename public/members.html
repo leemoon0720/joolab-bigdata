@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JOOLAB | 회원 목록</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    h2 { margin: 0 0 12px 0; }
+    .hint { color: #666; margin: 0 0 14px 0; font-size: 13px; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: 8px; }
+    th { background: #f5f5f5; text-align: left; }
+    .err { color: #b00020; white-space: pre-wrap; }
+    .ok { color: #0a7a0a; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  </style>
+</head>
+<body>
+  <h2>회원 목록</h2>
+  <p class="hint">데이터 소스: <span class="mono">/api/members</span></p>
+
+  <div id="status" class="hint">로딩중...</div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>이름</th>
+        <th>결제일</th>
+        <th>다음 결제일</th>
+      </tr>
+    </thead>
+    <tbody id="list"></tbody>
+  </table>
+
+  <script>
+    async function main() {
+      const status = document.getElementById("status");
+      const tbody = document.getElementById("list");
+
+      try {
+        const res = await fetch("/api/members", { cache: "no-store" });
+        const text = await res.text();
+
+        if (!res.ok) {
+          status.className = "err";
+          status.textContent = "API 실패: /api/members (" + res.status + ")\n" + (text || "");
+          return;
+        }
+
+        let data = null;
+        try { data = JSON.parse(text); } catch(e) {}
+
+        if (!Array.isArray(data)) {
+          status.className = "err";
+          status.textContent = "API 응답이 배열이 아닙니다.\n" + (text || "");
+          return;
+        }
+
+        tbody.innerHTML = "";
+        data.forEach(row => {
+          const tr = document.createElement("tr");
+          tr.innerHTML = `
+            <td>${row.member_name ?? ""}</td>
+            <td>${row.pay_day ?? ""}일</td>
+            <td>${row.next_pay_date ?? ""}</td>
+          `;
+          tbody.appendChild(tr);
+        });
+
+        status.className = "ok";
+        status.textContent = "로드 완료: " + data.length + "명";
+      } catch (e) {
+        status.className = "err";
+        status.textContent = "에러: " + (e && e.message ? e.message : String(e));
+      }
+    }
+
+    main();
+  </script>
+</body>
+</html>
