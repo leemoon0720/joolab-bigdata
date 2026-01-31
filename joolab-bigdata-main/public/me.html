@@ -1,0 +1,91 @@
+    <!doctype html>
+    <html lang="ko"><head>
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width,initial-scale=1"/>
+      <title>내정보 | JOOLAB</title>
+      <link rel="stylesheet" href="/assets/style.css"/>
+
+    </head><body>
+      <div class="nav">
+        <div class="brand"><span>📊 JOOLAB</span><span class="badge">Bigdata Clean</span></div>
+        <div class="row" style="gap:8px">
+          <div id="who" class="row" style="gap:8px"></div>
+          <a class="btn" href="/bigdata.html">자료</a>
+          <a class="btn" href="/me.html">내정보</a>
+          <a class="btn" id="navAdmin" href="/admin.html">관리</a>
+          <button class="btn" id="btnLogout">로그아웃</button>
+        </div>
+      </div>
+      <div class="container">
+        <div id="toast" class="notice ok" style="display:none"></div>
+        <div class="grid grid2">
+  <div class="card">
+    <div class="h1">내 정보</div>
+    <div id="meBox" class="grid"></div>
+    <hr/>
+    <div class="h2">입금 계좌</div>
+    <div class="notice">
+      <div class="mono" id="acct">카카오뱅크 3333-1548-42415 이승문</div>
+      <div class="row" style="margin-top:10px;flex-wrap:wrap">
+        <button class="btn" id="btnCopy">계좌 복사</button>
+        <button class="btn accent" id="btnReq">입금확인요청</button>
+      </div>
+      <div class="small" id="reqHint"></div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="h1">내 결제내역</div>
+    <div id="payBox"></div>
+  </div>
+</div>
+<script>
+(async ()=>{
+  let me=null;
+  try{ me=await JOOLAB.api("/api/me"); }catch(_){ location.href="/login.html"; return; }
+  const a=me.access;
+  const b=[];
+  b.push(`<div class="row" style="flex-wrap:wrap;gap:8px">
+    <span class="badge">아이디: ${JOOLAB.esc(me.user.username)}</span>
+    <span class="badge">상태: ${JOOLAB.esc(a.status)}</span>
+    <span class="badge">매달 결제일: ${JOOLAB.esc(a.bill_day? (a.bill_day+"일") : "-")}</span>
+    <span class="badge">최근 결제일: ${JOOLAB.esc(a.last_paid_at||"-")}</span>
+    <span class="badge">다음 결제일: ${JOOLAB.esc((a.next_bill_at||a.active_until)||"-")}</span>
+    <span class="badge">차단예정(+7): ${JOOLAB.esc(a.grace_until||"-")}</span>
+  </div>`);
+  if(a.status==="BLOCKED") b.push(`<div class="notice danger">차단 상태입니다. 결제 후 입금확인요청을 눌러주십시오.</div>`);
+  if(a.status==="GRACE") b.push(`<div class="notice warn">결제일이 지났습니다. ${JOOLAB.esc(a.grace_until||"")} 까지 결제가 필요합니다.</div>`);
+  if(a.status==="NO_PAYMENT") b.push(`<div class="notice warn">결제 내역이 없습니다. 결제 후 입금확인요청을 눌러주십시오.</div>`);
+  $("#meBox").innerHTML=b.join("");
+
+  try{
+    const p=await JOOLAB.api("/api/me/payments");
+    const rows=p.items||[];
+    if(rows.length===0){ $("#payBox").innerHTML=`<div class="notice warn">결제내역 없음</div>`; }
+    else{
+      const headers=["paid_at","amount","status","memo"];
+      const html=JOOLAB.buildTableHtml(headers, rows.map(r=>({paid_at:r.paid_at,amount:JOOLAB.fmt(r.amount),status:r.status,memo:r.memo||""})),
+        {category:"me",region:"-",generatedAt:new Date().toLocaleString("ko-KR")});
+      $("#payBox").innerHTML=html;
+    }
+  }catch(e){ $("#payBox").innerHTML=`<div class="notice danger">불러오기 실패: ${JOOLAB.esc(e.message)}</div>`; }
+
+  $("#btnCopy").addEventListener("click", async ()=>{
+    try{ await navigator.clipboard.writeText($("#acct").textContent.trim()); JOOLAB.toast("복사 완료","ok"); }
+    catch(e){ JOOLAB.toast("복사 실패","danger"); }
+  });
+
+  $("#btnReq").addEventListener("click", async ()=>{
+    try{
+      const amount=prompt("입금 금액(선택). 비우면 공란으로 요청합니다.");
+      await JOOLAB.api("/api/deposit/request",{method:"POST",body:JSON.stringify({amount:amount?Number(String(amount).replace(/[^0-9]/g,"")):null})});
+      JOOLAB.toast("요청 접수 완료","ok");
+      $("#reqHint").textContent="요청이 접수되었습니다. 관리자 확인 후 반영됩니다.";
+    }catch(e){ JOOLAB.toast("요청 실패: "+e.message,"danger"); }
+  });
+})();
+</script>
+      </div>
+      <div class="footer small">© JOOLAB | 심플 운영형</div>
+      <script src="/assets/app.js"></script>
+      <script>JOOLAB.bindAuthUI();</script>
+    </body></html>

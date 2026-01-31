@@ -1,0 +1,58 @@
+    <!doctype html>
+    <html lang="ko"><head>
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width,initial-scale=1"/>
+      <title>회원가입 | JOOLAB</title>
+      <link rel="stylesheet" href="/assets/style.css"/>
+
+    </head><body>
+      <div class="nav">
+        <div class="brand"><span>📊 JOOLAB</span><span class="badge">Bigdata Clean</span></div>
+        <div class="row" style="gap:8px">
+          <div id="who" class="row" style="gap:8px"></div>
+          <a class="btn" href="/bigdata.html">자료</a>
+          <a class="btn" href="/me.html">내정보</a>
+          <a class="btn" id="navAdmin" href="/admin.html">관리</a>
+          <button class="btn" id="btnLogout">로그아웃</button>
+        </div>
+      </div>
+      <div class="container">
+        <div id="toast" class="notice ok" style="display:none"></div>
+        <div class="grid grid2">
+  <div class="card">
+    <div class="h1">회원가입</div>
+    <p class="p">개인정보 최소. 아이디/비밀번호만 필수입니다.</p>
+    <div class="grid">
+      <input class="input" id="username" placeholder="아이디(필수)"/>
+      <input class="input" id="password" placeholder="비밀번호(필수)" type="password"/>
+      <input class="input" id="name" placeholder="표시명(선택)"/>
+      <input class="input" id="payer" placeholder="입금자명(선택)"/>
+      <button class="btn primary" id="btnSignup">가입</button>
+      <div class="small">이미 계정이 있으면 <a href="/login.html">로그인</a></div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="h2">안내</div>
+    <div class="notice warn">회원가입만으로 자료 이용이 열리지 않습니다. 결제 확정 후 30일(+유예 7일) 이용 가능합니다.</div>
+  </div>
+</div>
+<script>
+document.getElementById("navAdmin")?.classList.add("hidden");
+document.getElementById("btnLogout")?.classList.add("hidden");
+document.getElementById("btnSignup").addEventListener("click", async ()=>{
+  const username=$("#username").value.trim();
+  const password=$("#password").value;
+  const name=$("#name").value.trim();
+  const payer_name=$("#payer").value.trim();
+  try{
+    await JOOLAB.api("/api/auth/signup",{method:"POST",body:JSON.stringify({username,password,name,payer_name})});
+    await JOOLAB.api("/api/auth/login",{method:"POST",body:JSON.stringify({username,password})});
+    location.href="/me.html";
+  }catch(e){ JOOLAB.toast("가입 실패: "+e.message,"danger"); }
+});
+</script>
+      </div>
+      <div class="footer small">© JOOLAB | 심플 운영형</div>
+      <script src="/assets/app.js"></script>
+      <script>JOOLAB.bindAuthUI();</script>
+    </body></html>

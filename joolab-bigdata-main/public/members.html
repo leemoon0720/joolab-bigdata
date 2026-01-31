@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>회원 목록</title>
+<style>
+body{font-family:Arial;padding:20px}
+table{border-collapse:collapse;width:100%}
+th,td{border:1px solid #ccc;padding:8px}
+th{background:#f5f5f5}
+.err{color:#b00020;white-space:pre-wrap}
+.ok{color:#0a7a0a}
+</style>
+</head>
+<body>
+<h2>회원 목록</h2>
+<div id="status">로딩중...</div>
+<table>
+<thead><tr><th>이름</th><th>결제일</th><th>다음 결제일</th></tr></thead>
+<tbody id="list"></tbody>
+</table>
+<script>
+(async()=>{
+  const s=document.getElementById('status'), b=document.getElementById('list');
+  const r=await fetch('/api/members',{cache:'no-store'});
+  const t=await r.text();
+  if(!r.ok){ s.className='err'; s.textContent='API 실패 '+r.status+'\n'+t; return; }
+  let d; try{ d=JSON.parse(t);}catch(e){}
+  if(!Array.isArray(d)){ s.className='err'; s.textContent='배열 아님\n'+t; return; }
+  b.innerHTML='';
+  d.forEach(x=>{
+    const tr=document.createElement('tr');
+    tr.innerHTML=`<td>${x.member_name||''}</td><td>${x.pay_day||''}일</td><td>${x.next_pay_date||''}</td>`;
+    b.appendChild(tr);
+  });
+  s.className='ok'; s.textContent='로드 완료: '+d.length+'명';
+})();
+</script>
+</body>
+</html>

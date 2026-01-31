@@ -1,0 +1,58 @@
+    <!doctype html>
+    <html lang="ko"><head>
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width,initial-scale=1"/>
+      <title>로그인 | JOOLAB</title>
+      <link rel="stylesheet" href="/assets/style.css"/>
+
+    </head><body>
+      <div class="nav">
+        <div class="brand"><span>📊 JOOLAB</span><span class="badge">Bigdata Clean</span></div>
+        <div class="row" style="gap:8px">
+          <div id="who" class="row" style="gap:8px"></div>
+          <a class="btn" href="/bigdata.html">자료</a>
+          <a class="btn" href="/me.html">내정보</a>
+          <a class="btn" id="navAdmin" href="/admin.html">관리</a>
+          <button class="btn" id="btnLogout">로그아웃</button>
+        </div>
+      </div>
+      <div class="container">
+        <div id="toast" class="notice ok" style="display:none"></div>
+        <div class="grid grid2">
+  <div class="card">
+    <div class="h1">로그인</div>
+    <p class="p">아이디/비밀번호로 로그인합니다.</p>
+    <div class="grid">
+      <input class="input" id="username" placeholder="아이디"/>
+      <input class="input" id="password" placeholder="비밀번호" type="password"/>
+      <button class="btn primary" id="btnLogin">로그인</button>
+      <div class="small">계정이 없으면 <a href="/signup.html">회원가입</a></div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="h2">자료 이용 규칙</div>
+    <div class="notice warn">결제일 기준 30일 이용 + 유예 7일, 이후 자료 접근이 차단됩니다.</div>
+    <hr/>
+    <div class="h2">입금 계좌</div>
+    <div class="notice">
+      <div class="mono">카카오뱅크 3333-1548-42415 이승문</div>
+      <div class="small">입금 후 “입금확인요청” 버튼을 누르면 관리자 텔레그램으로 알림이 갑니다.</div>
+    </div>
+  </div>
+</div>
+<script>
+document.getElementById("navAdmin")?.classList.add("hidden");
+document.getElementById("btnLogout")?.classList.add("hidden");
+(async ()=>{ try{ const me=await JOOLAB.api("/api/me"); if(me?.user) location.href="/bigdata.html"; }catch(_){} })();
+document.getElementById("btnLogin").addEventListener("click", async ()=>{
+  const username=document.getElementById("username").value.trim();
+  const password=document.getElementById("password").value;
+  try{ await JOOLAB.api("/api/auth/login",{method:"POST",body:JSON.stringify({username,password})}); location.href="/bigdata.html"; }
+  catch(e){ JOOLAB.toast("로그인 실패: "+e.message,"danger"); }
+});
+</script>
+      </div>
+      <div class="footer small">© JOOLAB | 심플 운영형</div>
+      <script src="/assets/app.js"></script>
+      <script>JOOLAB.bindAuthUI();</script>
+    </body></html>
