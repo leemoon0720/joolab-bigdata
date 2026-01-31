@@ -2,10 +2,42 @@ export default {
   async fetch(req, env, ctx) {
     try{
       const url = new URL(req.url);
-      if(url.pathname.startsWith("/api/")) return await handleApi(req, env, ctx, url);
+      if(url.pathname.startsWith("/api/")){
+        if(!env.DB) return json({ ok:false, error:"NO_DB_BINDING", message:"D1 바인딩(DB)이 없습니다. Cloudflare Pages > Settings > Bindings에서 D1 database binding 변수명을 DB로 추가하십시오." }, 500);
+        return await handleApi(req, env, ctx, url);
+      }
+      // pretty routes -> html
+      const p=url.pathname;
+      const rewrites={
+        "/":"/index.html",
+        "/login":"/login.html",
+        "/login/":"/login.html",
+        "/signup":"/signup.html",
+        "/signup/":"/signup.html",
+        "/bigdata":"/bigdata.html",
+        "/bigdata/":"/bigdata.html",
+        "/me":"/me.html",
+        "/me/":"/me.html",
+        "/admin":"/admin.html",
+        "/admin/":"/admin.html",
+        "/gate":"/gate.html",
+        "/gate/":"/gate.html",
+        "/post":"/post.html",
+        "/post/":"/post.html"
+      };
+      const to=rewrites[p];
+      if(to){
+        const u=new URL(to, url);
+        const r2=new Request(u.toString(), req);
+        return env.ASSETS.fetch(r2);
+      }
       return env.ASSETS.fetch(req);
     }catch(e){
-      return json({ ok:false, error:"INTERNAL", message:String(e?.message||e) }, 500);
+      const msg=String(e?.message||e);
+      if(msg.includes("no such table")||msg.includes("no such column")){
+        return json({ ok:false, error:"DB_NOT_INIT", message:"DB 초기화가 필요합니다. Cloudflare D1 콘솔에서 schema.sql을 실행하십시오." }, 500);
+      }
+      return json({ ok:false, error:"INTERNAL", message:msg }, 500);
     }
   }
 };
@@ -129,8 +161,8 @@ async function handleApi(req, env, ctx, url){
     const password=String(body.password||"");
     const name=String(body.name||"").trim();
     const payer_name=String(body.payer_name||"").trim();
-    if(!/^[a-zA-Z0-9_]{3,20}$/.test(username)) return json({ok:false,error:"BAD_USERNAME",message:"아이디는 영문/숫자/_ 3~20자"},400);
-    if(password.length<4) return json({ok:false,error:"BAD_PASSWORD",message:"비밀번호는 4자 이상"},400);
+    if(!username || username.length<2 || username.length>50 || /\s/.test(username)) return json({ok:false,error:"BAD_USERNAME",message:"아이디는 공백 없이 2~50자"},400);
+    if(password.length<1) return json({ok:false,error:"BAD_PASSWORD",message:"비밀번호는 1자 이상"},400);
     const exists=await env.DB.prepare("SELECT id FROM users WHERE username=?").bind(username).first();
     if(exists) return json({ok:false,error:"DUP",message:"이미 존재하는 아이디"},400);
     const salt=randId(16);
