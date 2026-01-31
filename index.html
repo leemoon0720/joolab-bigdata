@@ -5,13 +5,26 @@
   <title>회원 목록</title>
   <style>
     body { font-family: Arial, sans-serif; padding: 20px; }
+    .top { display:flex; gap:10px; align-items:center; margin-bottom:10px; }
+    .badge { padding:4px 8px; background:#222; color:#fff; border-radius:4px; font-size:12px; display:none; }
     table { border-collapse: collapse; width: 100%; }
     th, td { border: 1px solid #ccc; padding: 8px; }
     th { background: #f5f5f5; }
+    .login { margin-left:auto; }
   </style>
 </head>
 <body>
-  <h2>회원 목록</h2>
+  <div class="top">
+    <h2>회원 목록</h2>
+    <span id="adminBadge" class="badge">ADMIN</span>
+    <div class="login">
+      <input id="id" placeholder="아이디(이름)">
+      <input id="pw" placeholder="비번(이름)" type="password">
+      <button onclick="login()">관리자 로그인</button>
+      <button onclick="logout()">로그아웃</button>
+    </div>
+  </div>
+
   <table>
     <thead>
       <tr>
@@ -24,20 +37,53 @@
   </table>
 
   <script>
-    fetch("/members")
-      .then(res => res.json())
-      .then(data => {
-        const tbody = document.getElementById("list");
-        data.forEach(row => {
-          const tr = document.createElement("tr");
-          tr.innerHTML = `
-            <td>${row.member_name}</td>
-            <td>${row.pay_day}일</td>
-            <td>${row.next_pay_date}</td>
-          `;
-          tbody.appendChild(tr);
-        });
+    async function load() {
+      const res = await fetch("/members");
+      const data = await res.json();
+      const tbody = document.getElementById("list");
+      tbody.innerHTML = "";
+      data.forEach(row => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td>${row.member_name}</td>
+          <td>${row.pay_day}일</td>
+          <td>${row.next_pay_date}</td>
+        `;
+        tbody.appendChild(tr);
       });
+    }
+
+    async function checkAdmin() {
+      const res = await fetch("/whoami");
+      if (res.ok) {
+        const j = await res.json();
+        if (j.admin) document.getElementById("adminBadge").style.display = "inline-block";
+      }
+    }
+
+    async function login() {
+      const id = document.getElementById("id").value;
+      const pw = document.getElementById("pw").value;
+      const res = await fetch("/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id, pw })
+      });
+      if (res.ok) {
+        alert("로그인 성공 (쿠키 7일 유지)");
+        document.getElementById("adminBadge").style.display = "inline-block";
+      } else {
+        alert("로그인 실패");
+      }
+    }
+
+    async function logout() {
+      await fetch("/logout", { method: "POST" });
+      document.getElementById("adminBadge").style.display = "none";
+    }
+
+    load();
+    checkAdmin();
   </script>
 </body>
 </html>
