@@ -66,6 +66,18 @@ function addDays(ymd,days){
   const d=String(dt.getUTCDate()).padStart(2,"0");
   return `${y}-${m}-${d}`;
 }
+
+function addMonthsYMD(ymd, months){
+  const p=parseYMD(ymd); if(!p) return null;
+  let y=p.y, mo=p.mo + months;
+  while(mo>12){ y++; mo-=12; }
+  while(mo<1){ y--; mo+=12; }
+  const lastDay=new Date(Date.UTC(y, mo, 0)).getUTCDate();
+  const d=Math.min(p.d, lastDay);
+  const m=String(mo).padStart(2,"0");
+  const dd=String(d).padStart(2,"0");
+  return `${y}-${m}-${dd}`;
+}
 function cmpYMD(a,b){ if(a===b) return 0; return a<b?-1:1; }
 
 async function ensureAdminSeed(env){
@@ -108,12 +120,14 @@ async function lastConfirmedPaidAt(env, user_id){
 async function accessStatus(env, user_id){
   const today=kstDateStr();
   const last_paid_at=await lastConfirmedPaidAt(env, user_id);
-  if(!last_paid_at) return { status:"NO_PAYMENT", last_paid_at:null, active_until:null, grace_until:null, allowed:false };
-  const active_until=addDays(last_paid_at,30);
-  const grace_until=addDays(active_until,7);
-  if(cmpYMD(today, active_until)<=0) return { status:"ACTIVE", last_paid_at, active_until, grace_until, allowed:true };
-  if(cmpYMD(today, grace_until)<=0) return { status:"GRACE", last_paid_at, active_until, grace_until, allowed:true };
-  return { status:"BLOCKED", last_paid_at, active_until, grace_until, allowed:false };
+  if(!last_paid_at) return { status:"NO_PAYMENT", last_paid_at:null, next_bill_at:null, active_until:null, grace_until:null, allowed:false };
+  const next_bill_at=addMonthsYMD(last_paid_at, 1);
+  if(!next_bill_at) return { status:"NO_PAYMENT", last_paid_at:null, next_bill_at:null, active_until:null, grace_until:null, allowed:false };
+  const grace_until=addDays(next_bill_at, 7);
+  const base={ last_paid_at, next_bill_at, active_until:next_bill_at, grace_until };
+  if(cmpYMD(today, next_bill_at)<0) return { status:"ACTIVE", allowed:true, ...base };
+  if(cmpYMD(today, grace_until)<=0) return { status:"GRACE", allowed:true, ...base };
+  return { status:"BLOCKED", allowed:false, ...base };
 }
 async function enforceAccess(env, sess){
   if(sess.blocked) return { status:"BLOCKED", allowed:false };
@@ -125,6 +139,40 @@ async function readJson(req){
   const txt=await req.text(); if(!txt) return {};
   try{ return JSON.parse(txt); }catch(_){ return {}; }
 }
+const __TABLE_INFO_CACHE = {};
+async function getTableInfo(env, table){
+  if(__TABLE_INFO_CACHE[table]) return __TABLE_INFO_CACHE[table];
+  const r = await env.DB.prepare(`PRAGMA table_info(${table})`).all();
+  const info = (r.results||[]).map(x=>({ name:x.name, type:String(x.type||"").toUpperCase(), notnull:!!x.notnull, pk:!!x.pk }));
+  __TABLE_INFO_CACHE[table] = info;
+  return info;
+}
+function hasCol(info, name){ return (info||[]).some(c=>c.name===name); }
+function isTextPkId(info){
+  const c = (info||[]).find(x=>x.name==="id");
+  return !!(c && c.pk && c.type.includes("TEXT"));
+}
+async function insertPayment(env, args){
+  const info = await getTableInfo(env, "payments");
+  const cols = [];
+  const vals = [];
+  if(hasCol(info,"id") && isTextPkId(info)){ cols.push("id"); vals.push(randId(12)); }
+  if(hasCol(info,"user_id")){ cols.push("user_id"); vals.push(args.user_id); }
+  if(hasCol(info,"amount")){ cols.push("amount"); vals.push(Number.isFinite(args.amount)?Math.max(0,Math.floor(args.amount)):0); }
+  if(hasCol(info,"paid_at")){ cols.push("paid_at"); vals.push(args.paid_at); }
+  if(hasCol(info,"status")){ cols.push("status"); vals.push(args.status||"CONFIRMED"); }
+  if(hasCol(info,"memo")){ cols.push("memo"); vals.push(args.memo??null); }
+  if(hasCol(info,"created_at")){ cols.push("created_at"); vals.push(nowISO()); }
+  if(hasCol(info,"method")){ cols.push("method"); vals.push(args.method||"BANK"); }
+  if(hasCol(info,"expires_at")){
+    const ex = args.expires_at || addMonthsYMD(args.paid_at,1) || args.paid_at;
+    cols.push("expires_at"); vals.push(ex);
+  }
+  const ph = cols.map(()=>"?").join(",");
+  const sql = `INSERT INTO payments(${cols.join(",")}) VALUES(${ph})`;
+  await env.DB.prepare(sql).bind(...vals).run();
+}
+
 
 async function handleApi(req, env, ctx, url){
   await ensureAdminSeed(env);
@@ -253,7 +301,7 @@ async function handleApi(req, env, ctx, url){
     for(const u of (rows.results||[])){
       const last_paid_at=await lastConfirmedPaidAt(env, u.id);
       const acc=await accessStatus(env, u.id);
-      items.push({ ...u, last_paid_at, access_status: u.blocked ? "BLOCKED" : acc.status });
+      items.push({ ...u, last_paid_at, next_bill_at: acc.next_bill_at||acc.active_until||null, grace_until: acc.grace_until||null, access_status: u.blocked ? "BLOCKED" : acc.status });
     }
     return json({ ok:true, items });
   }
@@ -290,11 +338,11 @@ async function handleApi(req, env, ctx, url){
     const rows=await env.DB.prepare("SELECT p.id,u.username,p.paid_at,p.amount,p.status,p.memo FROM payments p JOIN users u ON u.id=p.user_id ORDER BY p.paid_at DESC,p.id DESC LIMIT 500").all();
     return json({ ok:true, items: rows.results||[] });
   }
-  if(p==="/api/admin/payments/create" && req.method==="POST"){
+    if(p==="/api/admin/payments/create" && req.method==="POST"){
     await requireAdmin(env, req);
     const body=await readJson(req);
     const username=String(body.username||"").trim();
-    const amount=Math.max(0, Math.floor(Number(body.amount||0)));
+    const amount=Number(String(body.amount??0).replace(/[^0-9]/g,""));
     const paid_at=String(body.paid_at||"").trim();
     const status=String(body.status||"CONFIRMED").trim();
     const memo=String(body.memo||"").trim();
@@ -303,16 +351,36 @@ async function handleApi(req, env, ctx, url){
     if(!["CONFIRMED","PENDING","CANCELED"].includes(status)) return json({ok:false,error:"BAD_STATUS",message:"status"},400);
     const u=await env.DB.prepare("SELECT id FROM users WHERE username=?").bind(username).first();
     if(!u) return json({ok:false,error:"NOUSER",message:"사용자 없음"},404);
-    await env.DB.prepare("INSERT INTO payments(user_id,amount,paid_at,status,memo,created_at) VALUES(?,?,?,?,?,?)")
-      .bind(u.id, amount, paid_at, status, memo||null, nowISO()).run();
+    await insertPayment(env, { user_id:u.id, amount, paid_at, status, memo: memo||null });
     return json({ ok:true });
   }
-  if(p==="/api/admin/payments/delete" && req.method==="POST"){
+    if(p==="/api/admin/payments/delete" && req.method==="POST"){
     await requireAdmin(env, req);
     const body=await readJson(req);
-    await env.DB.prepare("DELETE FROM payments WHERE id=?").bind(Number(body.id)).run();
+    const id=body.id;
+    if(id==null||id==="") return json({ok:false,error:"BAD",message:"id 필요"},400);
+    await env.DB.prepare("DELETE FROM payments WHERE id=?").bind(id).run();
     return json({ ok:true });
   }
+  if(p==="/api/admin/payments/bulk_seed" && req.method==="POST"){
+    await requireAdmin(env, req);
+    const body=await readJson(req);
+    const items = Array.isArray(body.items) ? body.items : [];
+    const ok=[], skipped=[], missing=[];
+    for(const it of items){
+      const username=String(it.username||"").trim();
+      const paid_at=String(it.paid_at||"").trim();
+      if(!username||!parseYMD(paid_at)){ skipped.push({username,paid_at}); continue; }
+      const u=await env.DB.prepare("SELECT id FROM users WHERE username=?").bind(username).first();
+      if(!u){ missing.push({username,paid_at}); continue; }
+      const exists=await env.DB.prepare("SELECT 1 as x FROM payments WHERE user_id=? AND paid_at=? AND status='CONFIRMED' LIMIT 1").bind(u.id, paid_at).first();
+      if(exists?.x){ skipped.push({username,paid_at}); continue; }
+      await insertPayment(env, { user_id:u.id, amount:0, paid_at, status:"CONFIRMED", memo:"seed" });
+      ok.push({username,paid_at});
+    }
+    return json({ ok:true, inserted:ok.length, ok, skipped, missing });
+  }
+
   if(p==="/api/admin/requests/list"){
     await requireAdmin(env, req);
     const rows=await env.DB.prepare("SELECT r.id,u.username,r.amount,r.created_at,r.status FROM deposit_requests r JOIN users u ON u.id=r.user_id ORDER BY r.id DESC LIMIT 300").all();

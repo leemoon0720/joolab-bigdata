@@ -47,12 +47,12 @@
   b.push(`<div class="row" style="flex-wrap:wrap;gap:8px">
     <span class="badge">아이디: ${JOOLAB.esc(me.user.username)}</span>
     <span class="badge">상태: ${JOOLAB.esc(a.status)}</span>
-    <span class="badge">결제일: ${JOOLAB.esc(a.last_paid_at||"-")}</span>
-    <span class="badge">만료일: ${JOOLAB.esc(a.active_until||"-")}</span>
-    <span class="badge">유예종료: ${JOOLAB.esc(a.grace_until||"-")}</span>
+    <span class="badge">최근 결제일: ${JOOLAB.esc(a.last_paid_at||"-")}</span>
+    <span class="badge">다음 결제일: ${JOOLAB.esc((a.next_bill_at||a.active_until)||"-")}</span>
+    <span class="badge">차단예정(+7): ${JOOLAB.esc(a.grace_until||"-")}</span>
   </div>`);
   if(a.status==="BLOCKED") b.push(`<div class="notice danger">차단 상태입니다. 결제 후 입금확인요청을 눌러주십시오.</div>`);
-  if(a.status==="GRACE") b.push(`<div class="notice warn">유예기간입니다. 유예 종료 전 결제가 필요합니다.</div>`);
+  if(a.status==="GRACE") b.push(`<div class="notice warn">결제일이 지났습니다. ${JOOLAB.esc(a.grace_until||"")} 까지 결제가 필요합니다.</div>`);
   if(a.status==="NO_PAYMENT") b.push(`<div class="notice warn">결제 내역이 없습니다. 결제 후 입금확인요청을 눌러주십시오.</div>`);
   $("#meBox").innerHTML=b.join("");
 

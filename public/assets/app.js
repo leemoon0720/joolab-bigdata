@@ -109,12 +109,69 @@ function sortSuspicious(headers, data){
   else if(!keyTV) note="Top15 기준: 거래대금 컬럼이 없어 OBV 랭크 기준";
   return { rows:top, note };
 }
+
+function localYMD(){
+  const d=new Date();
+  const y=d.getFullYear();
+  const m=String(d.getMonth()+1).padStart(2,"0");
+  const dd=String(d.getDate()).padStart(2,"0");
+  return `${y}-${m}-${dd}`;
+}
+function showModal(title, bodyHtml, buttons){
+  // buttons: [{label, href?, onClick?}]
+  const overlay=document.createElement("div");
+  overlay.style.position="fixed";
+  overlay.style.inset="0";
+  overlay.style.background="rgba(0,0,0,.45)";
+  overlay.style.zIndex="9999";
+  overlay.style.display="flex";
+  overlay.style.alignItems="center";
+  overlay.style.justifyContent="center";
+  overlay.style.padding="16px";
+  const box=document.createElement("div");
+  box.className="card";
+  box.style.maxWidth="420px";
+  box.style.width="100%";
+  box.style.background="#fff";
+  box.innerHTML=`<div class="h2">${esc(title)}</div><div class="p" style="margin:8px 0 14px">${bodyHtml}</div><div class="row" style="justify-content:flex-end;flex-wrap:wrap"></div>`;
+  const row=box.querySelector(".row");
+  (buttons||[]).forEach(b=>{
+    const el=document.createElement(b.href?"a":"button");
+    el.className="btn accent";
+    el.textContent=b.label;
+    if(b.href){ el.href=b.href; el.style.textDecoration="none"; }
+    el.addEventListener("click", (e)=>{
+      if(b.onClick) b.onClick(e);
+      overlay.remove();
+    });
+    row.appendChild(el);
+  });
+  overlay.addEventListener("click",(e)=>{ if(e.target===overlay) overlay.remove(); });
+  overlay.appendChild(box);
+  document.body.appendChild(overlay);
+}
+function maybeShowBillingPopup(access){
+  try{
+    if(!access) return;
+    if(access.status!=="GRACE") return;
+    const today=localYMD();
+    const key=`joolab_bill_popup_${today}`;
+    if(localStorage.getItem(key)==="1") return;
+    localStorage.setItem(key,"1");
+    const due=esc(access.next_bill_at||access.active_until||"-");
+    const grace=esc(access.grace_until||"-");
+    const acct=`<div class="notice" style="margin-top:10px"><div class="small">입금 계좌</div><div class="mono">카카오뱅크 3333-1548-42415 이승문</div></div>`;
+    const body=`회원님의 결제일은 <b>${due}</b> 입니다.<br/>${grace} 까지 미결제 시 자료실 이용이 차단됩니다.${acct}`;
+    showModal("결제일 안내", body, [{label:"확인", onClick:()=>{}},{label:"내정보", href:"/me.html"}]);
+  }catch(_){}
+}
 function bindAuthUI(){
   const who=$("#who");
   if(!who) return;
   api("/api/me").then(d=>{
     who.innerHTML=`<span class="badge">로그인: ${esc(d.user.username)}</span> <span class="badge">${esc(d.access.status)}</span>`;
     $("#navAdmin")?.classList.toggle("hidden", d.user.role!=="admin");
+    maybeShowBillingPopup(d.access);
   }).catch(()=>{ who.innerHTML=`<span class="badge">비로그인</span>`; $("#navAdmin")?.classList.add("hidden"); });
   $("#btnLogout")?.addEventListener("click", async ()=>{
     try{ await api("/api/auth/logout", {method:"POST", body:"{}"}); location.href="/login.html"; }

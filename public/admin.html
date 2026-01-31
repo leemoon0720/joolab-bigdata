@@ -54,9 +54,9 @@ async function mustAdmin(){
 async function loadUsers(){
   const d=await JOOLAB.api("/api/admin/users");
   const items=d.items||[];
-  const headers=["id","username","name","payer_name","blocked","last_paid_at","status","actions"];
+  const headers=["id","username","name","payer_name","blocked","last_paid_at","next_bill_at","grace_until","status","actions"];
   const rows=items.map(x=>({id:x.id,username:x.username,name:x.name||"",payer_name:x.payer_name||"",
-    blocked:x.blocked?"Y":"N",last_paid_at:x.last_paid_at||"",status:x.access_status||"",actions:""}));
+    blocked:x.blocked?"Y":"N",last_paid_at:x.last_paid_at||"",next_bill_at:x.next_bill_at||"",grace_until:x.grace_until||"",status:x.access_status||"",actions:""}));
   const html=JOOLAB.buildTableHtml(headers,rows,{category:"admin/users",region:"-",generatedAt:new Date().toLocaleString("ko-KR")});
   $("#tabUsers").innerHTML=`<div class="h2">회원</div>${html}`;
   const trs=$$("#tabUsers tbody tr");
@@ -82,8 +82,8 @@ async function loadUnpaid(){
   const grace=d.grace||[], blocked=d.blocked||[];
   const sec=(title, items)=>{
     if(items.length===0) return `<div class="notice ok">${title}: 0명</div>`;
-    const headers=["username","name","last_paid_at","active_until","grace_until","status"];
-    const rows=items.map(x=>({username:x.username,name:x.name||"",last_paid_at:x.last_paid_at||"",active_until:x.active_until||"",grace_until:x.grace_until||"",status:x.access_status}));
+    const headers=["username","name","last_paid_at","next_bill_at","grace_until","status"];
+    const rows=items.map(x=>({username:x.username,name:x.name||"",last_paid_at:x.last_paid_at||"",next_bill_at:(x.next_bill_at||x.active_until||""),grace_until:x.grace_until||"",status:x.access_status}));
     return `<div class="h2">${title}</div>`+JOOLAB.buildTableHtml(headers,rows,{category:title,region:"-",generatedAt:new Date().toLocaleString("ko-KR")});
   };
   $("#tabUnpaid").innerHTML=sec("유예(GRACE)",grace)+"<hr/>"+sec("차단(BLOCKED)",blocked);
@@ -102,7 +102,16 @@ async function loadPayments(){
       <input class="input" id="pMemo" placeholder="메모" style="min-width:220px;flex:1"/>
       <button class="btn primary" id="pAdd">추가</button>
     </div>
-    <div id="pList" style="margin-top:12px"></div>`;
+    <div class="notice" style="margin-top:12px">
+  <div class="h2">월결제 일괄 등록(CSV)</div>
+  <div class="small">CSV 헤더: username,paid_at (예: kim23pk,2026-01-11)</div>
+  <div class="row" style="flex-wrap:wrap">
+    <input class="input" id="pBulkFile" type="file" accept=".csv,text/csv" style="max-width:320px"/>
+    <button class="btn accent" id="pBulkRun">일괄 등록</button>
+  </div>
+  <div class="small" id="pBulkHint"></div>
+</div>
+<div id="pList" style="margin-top:12px"></div>`;
   $("#pAdd").addEventListener("click", async ()=>{
     const username=$("#pUser").value.trim();
     const amount=Number(String($("#pAmount").value).replace(/[^0-9]/g,""));
@@ -111,6 +120,21 @@ async function loadPayments(){
     const memo=$("#pMemo").value.trim();
     await JOOLAB.api("/api/admin/payments/create",{method:"POST",body:JSON.stringify({username,amount,paid_at,status,memo})});
     JOOLAB.toast("추가 완료","ok"); await loadPaymentsList();
+  });
+  $("#pBulkRun").addEventListener("click", async ()=>{
+    try{
+      const f=$("#pBulkFile").files[0];
+      if(!f) throw new Error("CSV 파일 선택");
+      const text=await f.text();
+      const parsed=JOOLAB.parseCSV(text);
+      const rows=parsed.data||[];
+      const items=rows.map(r=>({username:(r.username||r.USERNAME||r.Username||"").trim(),paid_at:(r.paid_at||r.PAID_AT||r.PaidAt||"").trim()})).filter(x=>x.username&&x.paid_at);
+      if(items.length===0) throw new Error("CSV 데이터 없음");
+      const res=await JOOLAB.api("/api/admin/payments/bulk_seed",{method:"POST",body:JSON.stringify({items})});
+      $("#pBulkHint").textContent=`완료: ${res.inserted}건 | 누락:${(res.missing||[]).length} | 스킵:${(res.skipped||[]).length}`;
+      JOOLAB.toast("일괄 등록 완료","ok");
+      await loadPaymentsList();
+    }catch(e){ JOOLAB.toast("일괄 등록 실패: "+e.message,"danger"); }
   });
   await loadPaymentsList();
 }
