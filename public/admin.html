@@ -55,10 +55,61 @@ async function loadUsers(){
   const d=await JOOLAB.api("/api/admin/users");
   const items=d.items||[];
   const headers=["id","username","name","payer_name","blocked","last_paid_at","next_bill_at","grace_until","status","actions"];
-  const rows=items.map(x=>({id:x.id,username:x.username,name:x.name||"",payer_name:x.payer_name||"",
-    blocked:x.blocked?"Y":"N",last_paid_at:x.last_paid_at||"",next_bill_at:x.next_bill_at||"",grace_until:x.grace_until||"",status:x.access_status||"",actions:""}));
-  const html=JOOLAB.buildTableHtml(headers,rows,{category:"admin/users",region:"-",generatedAt:new Date().toLocaleString("ko-KR")});
-  $("#tabUsers").innerHTML=`<div class="h2">회원</div>${html}`;
+  const rows=items.map(x=>{
+    const st=x.access_status||"";
+    let sTxt=st;
+    if(st==="ACTIVE") sTxt="완료";
+    else if(st==="GRACE") sTxt="미완료(유예)";
+    else if(st==="NO_PAYMENT") sTxt="미완료";
+    else if(st==="BLOCKED") sTxt="차단";
+    if(x.blocked) sTxt="차단(수동)";
+    return {
+      id:x.id,
+      username:x.username,
+      name:x.name||"",
+      payer_name:x.payer_name||"",
+      blocked:x.blocked?"Y":"N",
+      last_paid_at:x.last_paid_at||"",
+      next_bill_at:x.next_bill_at||"",
+      grace_until:x.grace_until||"",
+      status:sTxt,
+      actions:""
+    };
+  });
+  const html=JOOLAB.buildTableHtml(headers,rows,{category:"admin_users",region:"-",generatedAt:new Date().toLocaleString("ko-KR")});
+  $("#tabUsers").innerHTML=`<div class="h2">회원</div>${html}
+    <div class="notice" style="margin-top:12px">
+      <div class="h2">회원 일괄 등록(CSV)</div>
+      <div class="small">엑셀에서 CSV로 저장 후 업로드하십시오. 컬럼 예: 아이디/이름/닉네임/이메일</div>
+      <div class="row" style="flex-wrap:wrap; margin-top:8px">
+        <input class="input" type="file" id="uBulkFile" accept=".csv"/>
+        <button class="btn primary" id="uBulkRun">일괄 등록</button>
+        <div class="small" id="uBulkHint" style="margin-left:auto"></div>
+      </div>
+    </div>`;
+  $("#uBulkRun").addEventListener("click", async ()=>{
+    try{
+      const f=$("#uBulkFile").files[0];
+      if(!f) throw new Error("CSV 파일 선택");
+      const text=await f.text();
+      const parsed=JOOLAB.parseCSV(text);
+      const rows=parsed.data||[];
+      const items=rows.map(r=>{
+        const username=(r.username||r.USERNAME||r.아이디||r.id||r.ID||"").trim();
+        const name=(r.name||r.NAME||r.이름||"").trim();
+        const nick=(r.payer_name||r.PAYER_NAME||r.닉네임||r.nickname||r.NICKNAME||"").trim();
+        const email=(r.email||r.EMAIL||r.이메일||"").trim();
+        const payer_name = nick || email || "";
+        return { username, name, payer_name, password: username };
+      }).filter(x=>x.username);
+      if(items.length===0) throw new Error("CSV 데이터 없음");
+      const res=await JOOLAB.api("/api/admin/users/bulk_seed",{method:"POST",body:JSON.stringify({items})});
+      $("#uBulkHint").textContent=`완료: ${res.inserted}명 | 스킵:${res.skipped}명 | 누락:${(res.missing||[]).length}`;
+      JOOLAB.toast("회원 일괄 등록 완료","ok");
+      await loadAll();
+    }catch(e){ JOOLAB.toast("일괄 등록 실패: "+e.message,"danger"); }
+  });
+
   const trs=$$("#tabUsers tbody tr");
   trs.forEach((tr,idx)=>{
     const u=items[idx];
@@ -211,6 +262,4 @@ async function loadAll(){
 </script>
       </div>
       <div class="footer small">© JOOLAB | 심플 운영형</div>
-      <script src="/assets/app.js"></script>
-      <script>JOOLAB.bindAuthUI();</script>
-    </body></html>
+      <script src="/assets/app.js">

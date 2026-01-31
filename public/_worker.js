@@ -305,7 +305,49 @@ async function handleApi(req, env, ctx, url){
     }
     return json({ ok:true, items });
   }
-  if(p==="/api/admin/users/block" && req.method==="POST"){
+  
+  if(p==="/api/admin/users/create" && req.method==="POST"){
+    await requireAdmin(env, req);
+    const body=await readJson(req);
+    const username=String(body.username||"").trim();
+    const password=String(body.password||body.new_password||"").trim() || username;
+    const name=String(body.name||"").trim();
+    const payer_name=String(body.payer_name||"").trim();
+    if(!username || username.length<2 || username.length>50 || /[\s]/.test(username)) return json({ok:false,error:"BAD_USERNAME",message:"아이디는 공백 없이 2~50자"},400);
+    if(password.length<1) return json({ok:false,error:"BAD_PASSWORD",message:"비밀번호는 1자 이상"},400);
+    const exists=await env.DB.prepare("SELECT id FROM users WHERE username=?").bind(username).first();
+    if(exists) return json({ok:false,error:"DUP",message:"이미 존재하는 아이디"},400);
+    const salt=randId(16);
+    const pass_hash=await sha256Hex(password+":"+salt);
+    await env.DB.prepare("INSERT INTO users(username,pass_hash,salt,name,payer_name,role,blocked,created_at) VALUES(?,?,?,?,?,'customer',0,?)")
+      .bind(username, pass_hash, salt, name||null, payer_name||null, nowISO()).run();
+    return json({ok:true});
+  }
+
+  if(p==="/api/admin/users/bulk_seed" && req.method==="POST"){
+    await requireAdmin(env, req);
+    const body=await readJson(req);
+    const items=Array.isArray(body.items)?body.items:[];
+    let inserted=0, skipped=0;
+    const missing=[];
+    for(const it of items){
+      const username=String(it.username||"").trim();
+      if(!username){ missing.push({reason:"NO_USERNAME"}); continue; }
+      const name=String(it.name||"").trim();
+      const payer_name=String(it.payer_name||"").trim();
+      const password=String(it.password||"").trim() || username;
+      const exists=await env.DB.prepare("SELECT id FROM users WHERE username=?").bind(username).first();
+      if(exists){ skipped++; continue; }
+      const salt=randId(16);
+      const pass_hash=await sha256Hex(password+":"+salt);
+      await env.DB.prepare("INSERT INTO users(username,pass_hash,salt,name,payer_name,role,blocked,created_at) VALUES(?,?,?,?,?,'customer',0,?)")
+        .bind(username, pass_hash, salt, name||null, payer_name||null, nowISO()).run();
+      inserted++;
+    }
+    return json({ok:true, inserted, skipped, missing});
+  }
+
+if(p==="/api/admin/users/block" && req.method==="POST"){
     await requireAdmin(env, req);
     const body=await readJson(req);
     await env.DB.prepare("UPDATE users SET blocked=? WHERE id=?").bind(body.blocked?1:0, Number(body.user_id)).run();
@@ -315,7 +357,7 @@ async function handleApi(req, env, ctx, url){
     await requireAdmin(env, req);
     const body=await readJson(req);
     const new_password=String(body.new_password||"");
-    if(new_password.length<3) return json({ok:false,error:"BAD_PASSWORD",message:"비밀번호가 너무 짧습니다"},400);
+    if(new_password.length<1) return json({ok:false,error:"BAD_PASSWORD",message:"비밀번호는 1자 이상"},400);
     const salt=randId(16);
     const pass_hash=await sha256Hex(new_password+":"+salt);
     await env.DB.prepare("UPDATE users SET pass_hash=?, salt=? WHERE id=?").bind(pass_hash, salt, Number(body.user_id)).run();
