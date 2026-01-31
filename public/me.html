@@ -47,6 +47,7 @@
   b.push(`<div class="row" style="flex-wrap:wrap;gap:8px">
     <span class="badge">아이디: ${JOOLAB.esc(me.user.username)}</span>
     <span class="badge">상태: ${JOOLAB.esc(a.status)}</span>
+    <span class="badge">매달 결제일: ${JOOLAB.esc(a.bill_day? (a.bill_day+"일") : "-")}</span>
     <span class="badge">최근 결제일: ${JOOLAB.esc(a.last_paid_at||"-")}</span>
     <span class="badge">다음 결제일: ${JOOLAB.esc((a.next_bill_at||a.active_until)||"-")}</span>
     <span class="badge">차단예정(+7): ${JOOLAB.esc(a.grace_until||"-")}</span>

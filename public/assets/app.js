@@ -169,7 +169,8 @@ function bindAuthUI(){
   const who=$("#who");
   if(!who) return;
   api("/api/me").then(d=>{
-    who.innerHTML=`<span class="badge">로그인: ${esc(d.user.username)}</span> <span class="badge">${esc(d.access.status)}</span>`;
+    const billDay = d.access && d.access.bill_day ? `${esc(d.access.bill_day)}일` : "-";
+    who.innerHTML=`<span class="badge">로그인: ${esc(d.user.username)}</span> <span class="badge">${esc(d.access.status)}</span> <span class="badge">매달 결제일: ${billDay}</span> <span class="badge mono">계좌: 카카오뱅크 3333-1548-42415</span>`;
     $("#navAdmin")?.classList.toggle("hidden", d.user.role!=="admin");
     maybeShowBillingPopup(d.access);
   }).catch(()=>{ who.innerHTML=`<span class="badge">비로그인</span>`; $("#navAdmin")?.classList.add("hidden"); });
