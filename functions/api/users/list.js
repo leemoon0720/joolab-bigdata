@@ -2,7 +2,7 @@ export async function onRequest({ env }) {
   const db = env.DB;
 
   const { results } = await db
-    .prepare("SELECT * FROM members ORDER BY next_pay_date DESC")
+    .prepare("SELECT * FROM users ORDER BY id DESC")
     .all();
 
   return new Response(JSON.stringify({ ok: true, items: results || [] }), {
