@@ -180,7 +180,7 @@ async function handleApi(req, env, ctx, url){
 
   if(p==="/api/auth/signup" && req.method==="POST"){
     const body=await readJson(req);
-    const username=String(body.username||"").trim();
+    const username=String(body.username||body.id||body.user||body.userid||body.아이디||"").trim();
     const password=String(body.password||"");
     const name=String(body.name||"").trim();
     const payer_name=String(body.payer_name||"").trim();
@@ -197,7 +197,7 @@ async function handleApi(req, env, ctx, url){
 
   if(p==="/api/auth/login" && req.method==="POST"){
     const body=await readJson(req);
-    const username=String(body.username||"").trim();
+    const username=String(body.username||body.id||body.user||body.userid||body.아이디||"").trim();
     const password=String(body.password||"");
     const u=await env.DB.prepare("SELECT id,pass_hash,salt,role,blocked FROM users WHERE username=?").bind(username).first();
     if(!u) return json({ok:false,error:"NOUSER",message:"아이디/비밀번호 확인"},401);
@@ -300,67 +300,12 @@ async function handleApi(req, env, ctx, url){
     const items=[];
     for(const u of (rows.results||[])){
       const last_paid_at=await lastConfirmedPaidAt(env, u.id);
-      const last_pay=await env.DB.prepare("SELECT id,paid_at,amount,status,memo FROM payments WHERE user_id=? ORDER BY paid_at DESC, id DESC LIMIT 1")
-        .bind(u.id).first();
       const acc=await accessStatus(env, u.id);
-      items.push({
-        ...u,
-        last_paid_at,
-        next_bill_at: acc.next_bill_at||acc.active_until||null,
-        grace_until: acc.grace_until||null,
-        access_status: u.blocked ? "BLOCKED" : acc.status,
-        last_payment_id: last_pay?.id ?? null,
-        last_payment_paid_at: last_pay?.paid_at ?? null,
-        last_payment_amount: (last_pay && (last_pay.amount===0 || last_pay.amount)) ? last_pay.amount : null,
-        last_payment_status: last_pay?.status ?? null,
-        last_payment_memo: last_pay?.memo ?? null
-      });
+      items.push({ ...u, last_paid_at, next_bill_at: acc.next_bill_at||acc.active_until||null, grace_until: acc.grace_until||null, access_status: u.blocked ? "BLOCKED" : acc.status });
     }
     return json({ ok:true, items });
   }
-  
-  if(p==="/api/admin/users/create" && req.method==="POST"){
-    await requireAdmin(env, req);
-    const body=await readJson(req);
-    const username=String(body.username||"").trim();
-    const password=String(body.password||body.new_password||"").trim() || username;
-    const name=String(body.name||"").trim();
-    const payer_name=String(body.payer_name||"").trim();
-    if(!username || username.length<2 || username.length>50 || /[\s]/.test(username)) return json({ok:false,error:"BAD_USERNAME",message:"아이디는 공백 없이 2~50자"},400);
-    if(password.length<1) return json({ok:false,error:"BAD_PASSWORD",message:"비밀번호는 1자 이상"},400);
-    const exists=await env.DB.prepare("SELECT id FROM users WHERE username=?").bind(username).first();
-    if(exists) return json({ok:false,error:"DUP",message:"이미 존재하는 아이디"},400);
-    const salt=randId(16);
-    const pass_hash=await sha256Hex(password+":"+salt);
-    await env.DB.prepare("INSERT INTO users(username,pass_hash,salt,name,payer_name,role,blocked,created_at) VALUES(?,?,?,?,?,'customer',0,?)")
-      .bind(username, pass_hash, salt, name||null, payer_name||null, nowISO()).run();
-    return json({ok:true});
-  }
-
-  if(p==="/api/admin/users/bulk_seed" && req.method==="POST"){
-    await requireAdmin(env, req);
-    const body=await readJson(req);
-    const items=Array.isArray(body.items)?body.items:[];
-    let inserted=0, skipped=0;
-    const missing=[];
-    for(const it of items){
-      const username=String(it.username||"").trim();
-      if(!username){ missing.push({reason:"NO_USERNAME"}); continue; }
-      const name=String(it.name||"").trim();
-      const payer_name=String(it.payer_name||"").trim();
-      const password=String(it.password||"").trim() || username;
-      const exists=await env.DB.prepare("SELECT id FROM users WHERE username=?").bind(username).first();
-      if(exists){ skipped++; continue; }
-      const salt=randId(16);
-      const pass_hash=await sha256Hex(password+":"+salt);
-      await env.DB.prepare("INSERT INTO users(username,pass_hash,salt,name,payer_name,role,blocked,created_at) VALUES(?,?,?,?,?,'customer',0,?)")
-        .bind(username, pass_hash, salt, name||null, payer_name||null, nowISO()).run();
-      inserted++;
-    }
-    return json({ok:true, inserted, skipped, missing});
-  }
-
-if(p==="/api/admin/users/block" && req.method==="POST"){
+  if(p==="/api/admin/users/block" && req.method==="POST"){
     await requireAdmin(env, req);
     const body=await readJson(req);
     await env.DB.prepare("UPDATE users SET blocked=? WHERE id=?").bind(body.blocked?1:0, Number(body.user_id)).run();
@@ -376,7 +321,43 @@ if(p==="/api/admin/users/block" && req.method==="POST"){
     await env.DB.prepare("UPDATE users SET pass_hash=?, salt=? WHERE id=?").bind(pass_hash, salt, Number(body.user_id)).run();
     return json({ ok:true });
   }
-  if(p==="/api/admin/unpaid"){
+  
+  if(p==="/api/admin/users/bulk_seed" && req.method==="POST"){
+    await requireAdmin(env, req);
+    const body=await readJson(req);
+    const users=Array.isArray(body.users)?body.users:[];
+    let created=0, skipped=0;
+    for(const it of users){
+      const username=String(it.username||it.user||it.id||"").trim();
+      if(!username) { skipped++; continue; }
+      const name=String(it.name||"").trim();
+      const payer_name=String(it.payer_name||it.payer||"").trim();
+      const role=String(it.role||"customer").trim();
+      const exists=await env.DB.prepare("SELECT id FROM users WHERE username=?").bind(username).first();
+      if(exists?.id){ skipped++; continue; }
+      const salt=randId(16);
+      const pass_hash=await sha256Hex(username+":"+salt); // 비번=아이디
+      await env.DB.prepare("INSERT INTO users(username,pass_hash,salt,name,payer_name,role,blocked,created_at) VALUES(?,?,?,?,?, ?,0,?)")
+        .bind(username, pass_hash, salt, name||null, payer_name||null, role==="admin"?"admin":"customer", nowISO()).run();
+      created++;
+    }
+    return json({ ok:true, created, skipped });
+  }
+
+  if(p==="/api/admin/users/reset_all_passwords_same" && req.method==="POST"){
+    await requireAdmin(env, req);
+    const rows=await env.DB.prepare("SELECT id,username FROM users WHERE role!='admin'").all();
+    let updated=0;
+    for(const u of (rows.results||[])){
+      const salt=randId(16);
+      const pass_hash=await sha256Hex(String(u.username)+":"+salt);
+      await env.DB.prepare("UPDATE users SET pass_hash=?, salt=? WHERE id=?").bind(pass_hash, salt, Number(u.id)).run();
+      updated++;
+    }
+    return json({ ok:true, updated });
+  }
+
+if(p==="/api/admin/unpaid"){
     await requireAdmin(env, req);
     const users=await env.DB.prepare("SELECT id,username,name,blocked FROM users WHERE role!='admin' ORDER BY id DESC LIMIT 1000").all();
     const grace=[], blocked=[];
@@ -396,7 +377,7 @@ if(p==="/api/admin/users/block" && req.method==="POST"){
     if(p==="/api/admin/payments/create" && req.method==="POST"){
     await requireAdmin(env, req);
     const body=await readJson(req);
-    const username=String(body.username||"").trim();
+    const username=String(body.username||body.id||body.user||body.userid||body.아이디||"").trim();
     const amount=Number(String(body.amount??0).replace(/[^0-9]/g,""));
     const paid_at=String(body.paid_at||"").trim();
     const status=String(body.status||"CONFIRMED").trim();
@@ -409,24 +390,7 @@ if(p==="/api/admin/users/block" && req.method==="POST"){
     await insertPayment(env, { user_id:u.id, amount, paid_at, status, memo: memo||null });
     return json({ ok:true });
   }
-    
-  if(p==="/api/admin/payments/update" && req.method==="POST"){
-    await requireAdmin(env, req);
-    const body=await readJson(req);
-    const id=Number(body.id);
-    if(!Number.isFinite(id)) return json({ok:false,error:"BAD",message:"id 필요"},400);
-    const paid_at=String(body.paid_at||"").trim();
-    const amount=Number(String(body.amount??0).replace(/[^0-9]/g,""));
-    const status=String(body.status||"CONFIRMED").trim();
-    const memo=String(body.memo||"").trim();
-    if(!parseYMD(paid_at)) return json({ok:false,error:"BAD_DATE",message:"결제일 YYYY-MM-DD"},400);
-    if(!["CONFIRMED","PENDING","CANCELED"].includes(status)) return json({ok:false,error:"BAD_STATUS",message:"status"},400);
-    await env.DB.prepare("UPDATE payments SET paid_at=?, amount=?, status=?, memo=? WHERE id=?")
-      .bind(paid_at, amount, status, memo||null, id).run();
-    return json({ ok:true });
-  }
-
-  if(p==="/api/admin/payments/delete" && req.method==="POST"){
+    if(p==="/api/admin/payments/delete" && req.method==="POST"){
     await requireAdmin(env, req);
     const body=await readJson(req);
     const id=body.id;
