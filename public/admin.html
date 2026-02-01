@@ -37,7 +37,9 @@
   <div id="tabPosts" class="card" style="display:none"></div>
 </div>
 
-  <script src="/assets/app.js"></script>
+      <script src="/assets/app.js"></script>
+      <script>JOOLAB.bindAuthUI();</script>
+
 <script>
 function showTab(name){
   ["Users","Unpaid","Payments","Requests","Posts"].forEach(x=>{
@@ -49,8 +51,14 @@ function showTab(name){
 $$("[data-tab]").forEach(b=>b.addEventListener("click",()=>showTab(b.dataset.tab)));
 
 async function mustAdmin(){
-  const me=await JOOLAB.api("/api/me");
-  if(me.user.role!=="admin") throw new Error("ADMIN_ONLY");
+  let me=null;
+  // prefer /api/whoami (present in some deployments), fallback to /api/me
+  try{ me=await JOOLAB.api("/api/whoami"); }catch(_e1){
+    try{ me=await JOOLAB.api("/api/me"); }catch(_e2){ me=null; }
+  }
+  const role = (me && (me.role || (me.user&&me.user.role) || (me.data&&me.data.role))) || "";
+  const isAdmin = (role==="admin") || (me&&((me.is_admin===1)||(me.is_admin===true))) || (me&&me.user&&((me.user.is_admin===1)||(me.user.is_admin===true)));
+  if(!isAdmin) throw new Error("ADMIN_ONLY");
 }
 async function loadUsers(){
   const d=await JOOLAB.api("/api/admin/users");
@@ -263,5 +271,4 @@ async function loadAll(){
 </script>
       </div>
       <div class="footer small">© JOOLAB | 심플 운영형</div>
-      <script>JOOLAB.bindAuthUI();</script>
     </body></html>
