@@ -49,7 +49,7 @@ function parseCSV(text){
   row.push(field);
   if(row.length>1 || (row.length===1 && row[0].trim()!=="")) rows.push(row);
   if(rows.length===0) return { headers:[], data:[] };
-  const headers = rows[0].map(h=>String(h??" ").trim().replace(/^﻿/, ""));
+  const headers = rows[0].map(h=>h.trim());
   const data = rows.slice(1).map(r=>{
     const o={};
     for(let k=0;k<headers.length;k++) o[headers[k]]=(r[k]??"").trim();
