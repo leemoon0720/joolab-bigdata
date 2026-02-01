@@ -130,11 +130,11 @@ async function accessStatus(env, user_id){
   return { status:"BLOCKED", allowed:false, ...base };
 }
 async function enforceAccess(env, sess){
-  // Admin bypass: 관리자 계정은 결제/유예/차단(결제 기준)과 무관하게 자료 접근 허용
+  // Admin bypass: 관리자 계정은 결제/유예/차단(자료 접근) 제한을 적용하지 않습니다.
   if(sess && sess.role==="admin"){
-    return { status:"ADMIN", last_paid_at:null, next_bill_at:null, active_until:null, grace_until:null, allowed:true };
+    return { status:"ADMIN", allowed:true, last_paid_at:null, next_bill_at:null, active_until:null, grace_until:null };
   }
-  if(sess.blocked) return { status:"BLOCKED", allowed:false };
+  if(sess && sess.blocked) return { status:"BLOCKED", allowed:false };
   return await accessStatus(env, sess.user_id);
 }
 async function readJson(req){
@@ -213,8 +213,7 @@ async function handleApi(req, env, ctx, url){
     await env.DB.prepare("INSERT INTO sessions(id,user_id,expires_at,created_at) VALUES(?,?,?,?)").bind(sid,u.id,exp,nowISO()).run();
     return new Response(JSON.stringify({ok:true}),{status:200,headers:{
       "Content-Type":"application/json; charset=utf-8",
-      // Pages는 HTTPS이므로 Secure 쿠키로 고정
-      "Set-Cookie": setCookie("sid", sid, { maxAge:7*24*3600, secure:true })
+      "Set-Cookie": setCookie("sid", sid, { maxAge:7*24*3600, secure:false })
     }});
   }
 
